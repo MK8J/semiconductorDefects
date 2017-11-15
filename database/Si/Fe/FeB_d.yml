@@ -1,0 +1,14 @@
+
+
+Istratov1999:
+  TITLE: "Iron and its complexes in silicon"
+  DOI: 10.1007/s003390050968
+  COMMENTS: |
+    Data from a review paper, taking many measurements at a range of temperatures
+    Points out DLTS is impact by capture cross section barrier heights, while EPR
+    and hall affect measurements are not. Sigma's measured at T = 300 K.
+  measurement_techniuqe: DLTS
+  PARAMS:
+        Et: Ev-0.1 #something
+        sigma_h: 3e-14
+        sigma_e: 4e-13

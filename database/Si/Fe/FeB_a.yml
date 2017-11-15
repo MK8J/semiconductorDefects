@@ -1,0 +1,63 @@
+
+Istratov1999:
+  TITLE: Iron and its complexes in silicon
+  DOI: 10.1007/s003390050968
+  COMMENTS: |
+    Data from a review paper, taking many measurements at a range of temperatures
+    Points out DLTS is impact by capture cross section barrier heights, while EPR
+    and hall affect measurements are not
+  measurement_techniuqe: DLTS, Hall, photoEPR, FTIR
+  PARAMS:
+      Et: Ec-0.26 #something
+      sigma_h: 2e-14
+      sigma_e: 4e-13
+
+Walz1996:
+  TITLE: On the recombination behaviour of iron in moderately boron-doped p-type silicon
+  DOI: 10.1007/BF01594232
+  COMMENTS: "Lifetime analysis on FeB at a room temperature"
+  measurement_techniuqe: Doping-DL
+  PARAMS:
+      Et: Ec-0.29
+      sigma_e: 2.5e-15
+      sigma_h: 3e-14
+
+Macdonald2001:
+  TITLE: Capture cross sections of the acceptor level of iron-boron pairs in p-type silicon by injection-level dependent lifetime measurements
+  DOI: 10.1063/1.1372156
+  COMMENTS: "Lifetime analysis on FeB at a fixed temperature"
+  measurement_techniuqe: IDL
+  PARAMS:
+        Et: Ec-0.23
+        sigma_e: 3e-14
+        sigma_h: 2e-15
+
+Birkholz2005:
+  TITLE: Electronic properties of iron-boron pairs in crystalline silicon by temperature- and injection-level-dependent lifetime measurements
+  DOI: 10.1063/1.1897489
+  COMMENTS: "Used Fei_a of Istratov"
+  measurement_techniuqe: TIDL
+  PARAMS:
+        Et: Ec-0.26
+        sigma_e: 1.4e-15
+        sigma_h: 1.1e-15
+
+Rein2005:
+  TITLE: Electronic properties of interstitial iron and iron-boron pairs determined by means of advanced lifetime spectroscopy
+  DOI: 10.1063/1.2106017
+  COMMENTS: "Error in energy of 0.03"
+  measurement_techniuqe: TIDL
+  PARAMS:
+        Et: Ec-0.26
+        sigma_e: 2.5e-15
+        sigma_h: 5.5e-15
+
+Macdonald2006:
+  TITLE: Doping dependence of the carrier lifetime crossover point upon dissociation of iron-boron pairs in crystalline silicon
+  DOI: 10.1063/1.2358126
+  COMMENTS: "Lifetime analysis on FeB at a fixed temperature for many doing levels"
+  measurement_techniuqe: IDLS
+  PARAMS:
+        Et: Ec-0.26
+        sigma_e: 5e-15
+        sigma_h: 3e-15

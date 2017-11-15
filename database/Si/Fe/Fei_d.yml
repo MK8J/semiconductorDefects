@@ -1,0 +1,25 @@
+
+
+Istratov1999:
+  TITLE: Iron and its complexes in silicon
+  DOI: 10.1007/s003390050968
+  COMMENTS: |
+    Data from a review paper, taking many measurements at a range of temperatures
+    Points out DLTS is impact by capture cross section barrier heights, while EPR
+    and hall affect measurements are not
+    The error in 3.9e-16 was 0.5 and 0.045 in 0.005.
+  measurement_techniuqe: DLTS, Hall, PhCap, EPR
+  PARAMS:
+        Et: Ev+0.38  #something
+        sigma_h: 3.9e-16 * exp(-0.045/kT)
+        sigma_e: 4e-14
+
+Rein2005:
+  TITLE: Electronic properties of interstitial iron and iron-boron pairs determined by means of advanced lifetime spectroscopy
+  DOI: 10.1063/1.2106017
+  COMMENTS: "Error in Et of 0.005"
+  measurement_techniuqe: TIDL
+  PARAMS:
+        Et: Ev+0.394
+        sigma_h: 3.9e-16 * exp(-0.045/kT)
+        sigma_e: 1.42e-15 * exp(-0.024/kT)
