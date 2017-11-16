@@ -9,6 +9,6 @@ Istratov1999:
     and hall affect measurements are not. Sigma's measured at T = 300 K.
   measurement_techniuqe: DLTS
   PARAMS:
-        Et: Ev-0.1 #something
+        Et: Ev+0.1 #something
         sigma_h: 3e-14
         sigma_e: 4e-13
