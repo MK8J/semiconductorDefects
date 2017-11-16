@@ -1,0 +1,26 @@
+
+Graff1995:
+  TITLE: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  COMMENTS: "Taken from table 1 in the appendix. The table onle provides the
+  majority carrier capture corss section. The majority carrier has been
+  estimated from the position of the defect level. e.g. if higher than the
+  intrinsic level, it is assume the majority carrier was electrons."
+  measurement_technique: Unknown
+  PARAMS:
+      Et: Ec-0.59
+      sigma_e: 8.40E-19
+      sigma_h: None
+      
+Graff2000:
+  TITLE: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  COMMENTS: "Taken from table 1 in the appendix. The table onle provides the
+  majority carrier capture corss section. The majority carrier has been
+  estimated from the position of the defect level. e.g. if higher than the
+  intrinsic level, it is assume the majority carrier was electrons. "
+  measurement_technique: Unknown
+  PARAMS:
+      Et: Ec-0.55
+      sigma_e: 7.20E-17
+      sigma_h: None
