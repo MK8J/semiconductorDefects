@@ -11,4 +11,15 @@ Graff2000:
       Et: Ev+0.17
       sigma_e: None
       sigma_h: 5.40E-15
-     
+
+Rein2005:
+  TITLE: Lifetime Spectroscopy A Method of Defect Characterization in Silicon for Photovoltaic Applications
+  DOI: 10.1007/3-540-27922-9
+  COMMENTS: "Error in Et of 0.05. k between 890–12900.
+  Sigma_e taken from literature. temperature dependence of sigma T^-2.5"
+  measurement_technique: ITN-LS
+  PARAMS:
+      Et: Ev+0.189
+      sigma_e: None
+      sigma_h: 1.1e-15
+      k: 3500

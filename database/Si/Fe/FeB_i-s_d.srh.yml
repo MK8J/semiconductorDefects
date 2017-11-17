@@ -23,6 +23,5 @@ Graff2000:
   measurement_technique: Unknown
   PARAMS:
       Et: Ev+0.1
-      sigma_e: None
+      sigma_e: 2.6e-13
       sigma_h: 6.40E-14
-     

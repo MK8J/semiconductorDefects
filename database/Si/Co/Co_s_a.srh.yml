@@ -8,10 +8,11 @@ Graff1995:
   intrinsic level, it is assume the majority carrier was electrons."
   measurement_technique: Unknown
   PARAMS:
-      Et: Ev+0.32 
+      Et: Ec-0.21
       sigma_e: None
-      sigma_h: 4.00E-18
-     
+      sigma_h: None
+
+
 Graff2000:
   TITLE: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-57121-3
@@ -21,7 +22,18 @@ Graff2000:
   intrinsic level, it is assume the majority carrier was electrons. "
   measurement_technique: Unknown
   PARAMS:
-      Et: Ev+0.32
-      sigma_e: None
-      sigma_h: 2.20E-18
-     
+      Et: Ec-0.41
+      sigma_e: 2.20E-15
+      sigma_h: None
+
+Diez2007:
+  TITLE: Cobalt related defect levels in silicon analyzed by temperature- and injection-dependent lifetime spectroscopy
+  DOI: 10.1063/1.2433743
+  COMMENTS: "Error in Et of 0.015 eV, Error in k of 0.06-0.69. Simga_e taken note presented in
+  the paper, but here taken from Graff2000 "
+  measurement_technique: Unknown
+  PARAMS:
+      Et: Ec-0.38
+      sigma_e: 2.20E-15
+      sigma_h: None
+      k: 0.16

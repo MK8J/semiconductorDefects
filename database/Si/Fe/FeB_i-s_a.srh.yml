@@ -22,6 +22,17 @@ Walz1996:
       sigma_e: 2.5e-15
       sigma_h: 3e-14
 
+Graff2000:
+  TITLE: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  COMMENTS: "Taken from table 1 in the appendix and the detail chapter on Iron.
+  Tdis = 400K"
+  measurement_technique: Unknown
+  PARAMS:
+      Et: Ec-0.27
+      sigma_e: 1.60E-15
+      sigma_h: 2e-15
+
 Macdonald2001:
   TITLE: Capture cross sections of the acceptor level of iron-boron pairs in p-type silicon by injection-level dependent lifetime measurements
   DOI: 10.1063/1.1372156
@@ -45,12 +56,13 @@ Birkholz2005:
 Rein2005:
   TITLE: Electronic properties of interstitial iron and iron-boron pairs determined by means of advanced lifetime spectroscopy
   DOI: 10.1063/1.2106017
-  COMMENTS: "Error in energy of 0.03"
+  COMMENTS: "Error in energy of 0.03, k between 0.01–1"
   measurement_techniuqe: TIDL
   PARAMS:
         Et: Ec-0.26
         sigma_e: 2.5e-15
         sigma_h: 5.5e-15
+        k: 0.45
 
 Macdonald2006:
   TITLE: Doping dependence of the carrier lifetime crossover point upon dissociation of iron-boron pairs in crystalline silicon
@@ -61,17 +73,3 @@ Macdonald2006:
         Et: Ec-0.26
         sigma_e: 5e-15
         sigma_h: 3e-15
-
-Graff2000:
-  TITLE: Metal impurities in silicon-device fabrication
-  DOI: 10.1007/978-3-642-57121-3
-  COMMENTS: "Taken from table 1 in the appendix. The table onle provides the
-  majority carrier capture corss section. The majority carrier has been
-  estimated from the position of the defect level. e.g. if higher than the
-  intrinsic level, it is assume the majority carrier was electrons. Tdis = 400K"
-  measurement_technique: Unknown
-  PARAMS:
-      Et: Ec-0.27
-      sigma_e: 1.60E-15
-      sigma_h: None
-     

@@ -1,30 +1,16 @@
+Graff1995:
+  TITLE: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  COMMENTS: "Taken from table 1 in the appendix. The table onle provides the
+  majority carrier capture corss section. The majority carrier has been
+  estimated from the position of the defect level. e.g. if higher than the
+  intrinsic level, it is assume the majority carrier was electrons."
+  measurement_technique: Unknown
+  PARAMS:
+      Et: Ec-0.41
+      sigma_e: None
+      sigma_h: None
 
-Graff1995:
-  TITLE: Metal impurities in silicon-device fabrication
-  DOI: 10.1007/978-3-642-97593-6
-  COMMENTS: "Taken from table 1 in the appendix. The table onle provides the
-  majority carrier capture corss section. The majority carrier has been
-  estimated from the position of the defect level. e.g. if higher than the
-  intrinsic level, it is assume the majority carrier was electrons."
-  measurement_technique: Unknown
-  PARAMS:
-      Et: Ec-0.27 
-      sigma_e:  0.004 2e-14
-      sigma_h: None
-     
-Graff1995:
-  TITLE: Metal impurities in silicon-device fabrication
-  DOI: 10.1007/978-3-642-97593-6
-  COMMENTS: "Taken from table 1 in the appendix. The table onle provides the
-  majority carrier capture corss section. The majority carrier has been
-  estimated from the position of the defect level. e.g. if higher than the
-  intrinsic level, it is assume the majority carrier was electrons."
-  measurement_technique: Unknown
-  PARAMS:
-      Et: Ec-0.08 
-      sigma_e: 5.00E-14
-      sigma_h: None
-     
 Graff2000:
   TITLE: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-57121-3
@@ -34,7 +20,18 @@ Graff2000:
   intrinsic level, it is assume the majority carrier was electrons. "
   measurement_technique: Unknown
   PARAMS:
-      Et: Ec-0.08
-      sigma_e: 3.50E-14
+      Et: Ec-0.41
+      sigma_e: 1.20E-16
       sigma_h: None
-     
+
+Rein2005:
+  TITLE: Lifetime Spectroscopy A Method of Defect Characterization in Silicon for Photovoltaic Applications
+  DOI: 10.1007/3-540-27922-9
+  COMMENTS: "Error in Et of 0.03. Error in K of 0.4.
+  Sigma_e taken from literature. temperature dependence of sigma T^-2.4."
+  measurement_technique: ITN-LS
+  PARAMS:
+      Et: Ec-0.4
+      sigma_e: 5.6E-17
+      sigma_h: None
+      k: 0.7

@@ -8,9 +8,9 @@ Graff1995:
   intrinsic level, it is assume the majority carrier was electrons."
   measurement_technique: Unknown
   PARAMS:
-      Et: Ev+0.28
-      sigma_e: None
-      sigma_h: 4.00E-16
+      Et: Ec-0.27
+      sigma_e:  0.004 2e-14
+      sigma_h: None
 
 Graff2000:
   TITLE: Metal impurities in silicon-device fabrication
@@ -21,6 +21,6 @@ Graff2000:
   intrinsic level, it is assume the majority carrier was electrons. "
   measurement_technique: Unknown
   PARAMS:
-      Et: Ev+0.28
-      sigma_e: None
-      sigma_h: 1.9-16
+      Et: Ec-0.27
+      sigma_e: 1.30E-14
+      sigma_h: None

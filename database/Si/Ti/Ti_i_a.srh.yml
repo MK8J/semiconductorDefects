@@ -1,4 +1,5 @@
 
+
 Graff1995:
   TITLE: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
@@ -8,10 +9,10 @@ Graff1995:
   intrinsic level, it is assume the majority carrier was electrons."
   measurement_technique: Unknown
   PARAMS:
-      Et: Ec-0.24 
-      sigma_e:    4/530*1e-14
+      Et: Ec-0.08
+      sigma_e: 5.00E-14
       sigma_h: None
-     
+
 Graff2000:
   TITLE: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-57121-3
@@ -21,7 +22,6 @@ Graff2000:
   intrinsic level, it is assume the majority carrier was electrons. "
   measurement_technique: Unknown
   PARAMS:
-      Et: Ec-0.23
-      sigma_e: 2.90E-14
+      Et: Ec-0.08
+      sigma_e: 3.50E-14
       sigma_h: None
-     

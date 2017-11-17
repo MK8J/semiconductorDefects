@@ -12,6 +12,16 @@ Graff1995:
       sigma_e: None
       sigma_h: 3.00E-16
 
+Graff2000:
+  TITLE: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  COMMENTS: "Taken from table 1 in the appendix, and the detailed section on Iron"
+  measurement_technique: Unknown
+  PARAMS:
+      Et: Ev+0.39
+      sigma_e: 1e-10 * T^(-1.5)
+      sigma_h: 2.8E-16 * exp(-0.043/kT)
+
 Istratov1999:
   TITLE: Iron and its complexes in silicon
   DOI: 10.1007/s003390050968
@@ -35,17 +45,3 @@ Rein2005:
         Et: Ev+0.394
         sigma_h: 3.9e-16 * exp(-0.045/kT)
         sigma_e: 1.42e-15 * exp(-0.024/kT)
-
-Graff2000:
-  TITLE: Metal impurities in silicon-device fabrication
-  DOI: 10.1007/978-3-642-57121-3
-  COMMENTS: "Taken from table 1 in the appendix. The table onle provides the
-  majority carrier capture corss section. The majority carrier has been
-  estimated from the position of the defect level. e.g. if higher than the
-  intrinsic level, it is assume the majority carrier was electrons. "
-  measurement_technique: Unknown
-  PARAMS:
-      Et: Ev+0.39
-      sigma_e: None
-      sigma_h: 3.80E-17
-     
