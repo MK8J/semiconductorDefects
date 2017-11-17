@@ -1,4 +1,4 @@
-# semiconductorDefects
+# Semiconductor Defects
 
 This is an attempt at creating a collection of all the defect parameters of semiconductors in plain text. The information about the defects is contained in both the file structure and the end files. The finial files are written with [yaml](https://en.wikipedia.org/wiki/YAML) syntax.
 At the moment the database contains:
