@@ -8,10 +8,10 @@ Graff1995:
   intrinsic level, it is assume the majority carrier was electrons."
   measurement_technique: Unknown
   PARAMS:
-      Et: Ev+0.27
-      sigma_e: None
+      Et: Ec-0.22
+      sigma_e:  0 6e-14
       sigma_h: None
-     
+
 Graff2000:
   TITLE: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-57121-3
@@ -21,9 +21,9 @@ Graff2000:
   intrinsic level, it is assume the majority carrier was electrons. "
   measurement_technique: Unknown
   PARAMS:
-      Et: Ev+0.28
-      sigma_e: None
-      sigma_h: 2.00E-14
+      Et: Ec-0.22
+      sigma_e: 7.30E-15
+      sigma_h: None
 
 Schmidt2007:
     TITLE: Recombination activity of interstitial chromium and chromium-boron pairs in silicon
@@ -31,18 +31,17 @@ Schmidt2007:
     COMMENTS: "Capture cross sections were found to be independent of temperature"
     measurement_technique: DLTS, TI-LS
     PARAMS:
-        Et: Ev+0.28
-        sigma_e: 0.5E-14
-        sigma_h: 1E-14
-        
+        Et: Ec-0.24
+        sigma_e: 2E-14
+        sigma_h: 4E-15
+
 Sun2014:
-    TITLE: Reassessment of the recombination parameters of chromium in n- and p-type crystalline silicon
-    and chromium-boron pairs in p-type crystalline silicon
+    TITLE: Reassessment of the recombination parameters of chromium in n- and p-type crystalline silicon and chromium-boron pairs in p-type crystalline silicon
     DOI: 10.1063/1.2822452
-    COMMENTS: 
+    COMMENTS: "Only determined K, but estimated capture cross section from comparison of other papers."
     measurement_technique: TIN-LS
     PARAMS:
-        Et: Ev+0.27
-        sigma_e: 3.8E-14
-        sigma_h: 0.7E-14
-        k: 5.8
+        Et: Ec-0.24
+        sigma_e: 2.4E-14
+        sigma_h: 0.8E-14
+        k: 3.2
