@@ -24,4 +24,25 @@ Graff2000:
       Et: Ev+0.28
       sigma_e: None
       sigma_h: 2.00E-14
-     
+
+Schmidt2007:
+    TITLE: Recombination activity of interstitial chromium and chromium-boron pairs in silicon
+    DOI: 10.1063/1.2822452
+    COMMENTS: "Capture cross sections were found to be independent of temperature"
+    measurement_technique: DLTS, TI-LS
+    PARAMS:
+        Et: Ev+0.28
+        sigma_e: 0.5E-14
+        sigma_h: 1E-14
+        
+Sun2014:
+    TITLE: Reassessment of the recombination parameters of chromium in n- and p-type crystalline silicon
+    and chromium-boron pairs in p-type crystalline silicon
+    DOI: 10.1063/1.2822452
+    COMMENTS: 
+    measurement_technique: TIN-LS
+    PARAMS:
+        Et: Ev+0.27
+        sigma_e: 3.8E-14
+        sigma_h: 0.7E-14
+        k: 5.8
