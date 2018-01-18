@@ -2,38 +2,40 @@
 Graff1995:
   TITLE: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
-  COMMENTS: "Taken from table 1 in the appendix. The table onle provides the
-  majority carrier capture corss section. The majority carrier has been
-  estimated from the position of the defect level. e.g. if higher than the
-  intrinsic level, it is assume the majority carrier was electrons."
   measurement_technique: Unknown
+  COMMENTS: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
   PARAMS:
-      Et: Ec-0.21
-      sigma_e: None
-      sigma_h: None
+    Et: Ec-0.21
+    sigma_e: None
+    sigma_h: None
+    k: None
 
+Diez2007:
+  TITLE: Cobalt related defect levels in silicon analyzed by temperature- and injection-dependent
+    lifetime spectroscopy
+  DOI: 10.1063/1.2433743
+  measurement_technique: Unknown
+  COMMENTS: Error in Et of 0.015 eV, Error in k of 0.06-0.69. sigma_e taken note presented
+    in the paper, but here taken from Graff2000
+  PARAMS:
+    Et: Ec-0.38
+    sigma_e: '2.2e-15'
+    sigma_h: '1.3749999999999998e-14'
+    k: '0.16'
 
 Graff2000:
   TITLE: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-57121-3
-  COMMENTS: "Taken from table 1 in the appendix. The table onle provides the
-  majority carrier capture corss section. The majority carrier has been
-  estimated from the position of the defect level. e.g. if higher than the
-  intrinsic level, it is assume the majority carrier was electrons. "
   measurement_technique: Unknown
+  COMMENTS: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
   PARAMS:
-      Et: Ec-0.41
-      sigma_e: 2.20E-15
-      sigma_h: None
-
-Diez2007:
-  TITLE: Cobalt related defect levels in silicon analyzed by temperature- and injection-dependent lifetime spectroscopy
-  DOI: 10.1063/1.2433743
-  COMMENTS: "Error in Et of 0.015 eV, Error in k of 0.06-0.69. Simga_e taken note presented in
-  the paper, but here taken from Graff2000 "
-  measurement_technique: Unknown
-  PARAMS:
-      Et: Ec-0.38
-      sigma_e: 2.20E-15
-      sigma_h: None
-      k: 0.16
+    Et: Ec-0.41
+    sigma_e: '2.2e-15'
+    sigma_h: None
+    k: None
