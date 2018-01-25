@@ -1,31 +1,4 @@
 
-Sun2014:
-  TITLE: Reassessment of the recombination parameters of chromium in n- and p-type
-    crystalline silicon and chromium-boron pairs in p-type crystalline silicon
-  DOI: 10.1063/1.4881497
-  measurement_technique: TIN-LS
-  COMMENTS: Only determined K, but estimated capture cross section from comparison
-    of other papers.
-  PARAMS:
-    Et: Ev+0.27
-    sigma_e: None
-    sigma_h: 7e-15
-    k: '5.8'
-
-Graff2000:
-  TITLE: Metal impurities in silicon-device fabrication
-  DOI: 10.1007/978-3-642-57121-3
-  measurement_technique: Unknown
-  COMMENTS: Taken from table 1 in the appendix. The table only provides the majority
-    carrier capture cross section. The majority carrier has been estimated from the
-    position of the defect level. e.g. if higher than the intrinsic level, it is assume
-    the majority carrier was electrons.
-  PARAMS:
-    Et: Ev+0.28
-    sigma_e: None
-    sigma_h: 2e-14
-    k: None
-
 Schmidt2007:
   TITLE: Recombination activity of interstitial chromium and chromium-boron pairs
     in silicon
@@ -36,4 +9,32 @@ Schmidt2007:
     Et: Ev+0.28
     sigma_e: 5e-15
     sigma_h: 1E-14
+    k: None
+
+Graff2000:
+  TITLE: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: Review of DLTS
+  COMMENTS: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  PARAMS:
+    Et: Ev+0.28
+    sigma_e: None
+    sigma_h: 2e-14
+    k: None
+
+Graff1995:
+  TITLE: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: Review of DLTS
+  COMMENTS: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  PARAMS:
+    Et: Ev+0.27
+    sigma_e: None
+    sigma_h: None
     k: None
