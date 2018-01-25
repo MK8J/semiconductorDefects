@@ -1,7 +1,7 @@
 
-Graff1995:
+Graff2000:
   TITLE: Metal impurities in silicon-device fabrication
-  DOI: 10.1007/978-3-642-97593-6
+  DOI: 10.1007/978-3-642-57121-3
   measurement_technique: Unknown
   COMMENTS: Taken from table 1 in the appendix. The table only provides the majority
     carrier capture cross section. The majority carrier has been estimated from the
@@ -9,8 +9,8 @@ Graff1995:
     the majority carrier was electrons.
   PARAMS:
     Et: Ev+0.1
-    sigma_e: None
-    sigma_h: None
+    sigma_e: '2.6e-13'
+    sigma_h: '6.4e-14'
     k: None
 
 Istratov1999:
@@ -24,18 +24,4 @@ Istratov1999:
     Et: Ev+0.1
     sigma_e: 4e-13
     sigma_h: 3e-14
-    k: None
-
-Graff2000:
-  TITLE: Metal impurities in silicon-device fabrication
-  DOI: 10.1007/978-3-642-57121-3
-  measurement_technique: Unknown
-  COMMENTS: Taken from table 1 in the appendix. The table only provides the majority
-    carrier capture cross section. The majority carrier has been estimated from the
-    position of the defect level. e.g. if higher than the intrinsic level, it is assume
-    the majority carrier was electrons.
-  PARAMS:
-    Et: Ev+0.1
-    sigma_e: '2.6e-13'
-    sigma_h: '6.4e-14'
     k: None

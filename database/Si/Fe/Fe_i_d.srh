@@ -1,17 +1,15 @@
 
-Istratov1999:
-  TITLE: Iron and its complexes in silicon
-  DOI: 10.1007/s003390050968
-  measurement_technique: DLTS, Hall, PhCap, EPR
-  COMMENTS: Data from a review paper, taking many measurements at a range of temperatures.
-    Points out DLTS is impact by capture cross section barrier heights, while EPR
-    and hall affect measurements are not. The error in sigma_h was 0.5 and  0.005
-    for the temperature dependent exponent.
+Rein2005:
+  TITLE: Electronic properties of interstitial iron and iron-boron pairs determined
+    by means of advanced lifetime spectroscopy
+  DOI: 10.1063/1.2106017
+  measurement_technique: TIDL
+  COMMENTS: Error in Et of 0.005
   PARAMS:
-    Et: Ev+0.38
-    sigma_e: 4e-14
-    sigma_h: 3.9e-16 * exp(-0.045/kT)
-    k: None
+    Et: Ev+0.394
+    sigma_e: 1.42e-15 * exp(-0.024/kT)
+    sigma_h: None
+    k: '51.0'
 
 Graff2000:
   TITLE: Metal impurities in silicon-device fabrication
@@ -27,28 +25,16 @@ Graff2000:
     sigma_h: 2.8E-16 * exp(-0.043/kT)
     k: None
 
-Rein2005:
-  TITLE: Electronic properties of interstitial iron and iron-boron pairs determined
-    by means of advanced lifetime spectroscopy
-  DOI: 10.1063/1.2106017
-  measurement_technique: TIDL
-  COMMENTS: Error in Et of 0.005
-  PARAMS:
-    Et: Ev+0.394
-    sigma_e: 1.42e-15 * exp(-0.024/kT)
-    sigma_h: None
-    k: 51.0
-
-Graff1995:
-  TITLE: Metal impurities in silicon-device fabrication
-  DOI: 10.1007/978-3-642-97593-6
-  measurement_technique: Unknown
-  COMMENTS: Taken from table 1 in the appendix. The table only provides the majority
-    carrier capture cross section. The majority carrier has been estimated from the
-    position of the defect level. e.g. if higher than the intrinsic level, it is assume
-    the majority carrier was electrons.
+Istratov1999:
+  TITLE: Iron and its complexes in silicon
+  DOI: 10.1007/s003390050968
+  measurement_technique: DLTS, Hall, PhCap, EPR
+  COMMENTS: Data from a review paper, taking many measurements at a range of temperatures.
+    Points out DLTS is impact by capture cross section barrier heights, while EPR
+    and hall affect measurements are not. The error in sigma_h was 0.5 and  0.005
+    for the temperature dependent exponent.
   PARAMS:
     Et: Ev+0.38
-    sigma_e: None
-    sigma_h: 3e-16
+    sigma_e: 4e-14
+    sigma_h: 3.9e-16 * exp(-0.045/kT)
     k: None

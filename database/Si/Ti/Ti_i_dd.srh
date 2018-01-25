@@ -13,20 +13,6 @@ Graff2000:
     sigma_h: 1.9e-16 * exp(-0.036/kT)
     k: None
 
-Graff1995:
-  TITLE: Metal impurities in silicon-device fabrication
-  DOI: 10.1007/978-3-642-97593-6
-  measurement_technique: Unknown
-  COMMENTS: Taken from table 1 in the appendix. The table only provides the majority
-    carrier capture cross section. The majority carrier has been estimated from the
-    position of the defect level. e.g. if higher than the intrinsic level, it is assume
-    the majority carrier was electrons.
-  PARAMS:
-    Et: Ev+0.28
-    sigma_e: None
-    sigma_h: 4.00E-16 * exp(-0.04/kT)
-    k: None
-
 Rein2005:
   TITLE: Lifetime Spectroscopy A Method of Defect Characterization in Silicon for
     Photovoltaic Applications
@@ -38,4 +24,4 @@ Rein2005:
     Et: Ev+0.289
     sigma_e: None
     sigma_h: '1.9e-16'
-    k: 12.0
+    k: '12.0'
