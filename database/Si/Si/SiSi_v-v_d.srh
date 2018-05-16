@@ -1,0 +1,9 @@
+
+GLMiller1977:
+  title: Capacitance Transient Spectroscopy
+  DOI: 10.1146/annurev.ms.07.080177.002113
+  measurement_technique: DLTS
+  comments: Out at 300
+  params:
+    Et: Ec-0.39
+    sigma_e: 4e-15

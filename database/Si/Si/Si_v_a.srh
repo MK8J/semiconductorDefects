@@ -1,0 +1,9 @@
+
+GLMiller1977:
+  title: Capacitance Transient Spectroscopy
+  DOI: 10.1146/annurev.ms.07.080177.002113
+  measurement_technique: DLTS
+  comments: Out at 150 K
+  params:
+    Et: Ev+0.11
+    sigma_h: 5e-17

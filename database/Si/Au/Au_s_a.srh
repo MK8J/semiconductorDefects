@@ -1,28 +1,46 @@
 
+Collins1957:
+  title: Properties of Gold-Doped Silicon
+  DOI: 10.1103/PhysRev.105.1168
+  measurement_technique: Hall
+  comments: Notes both level occur with approximately the same number of defects
+  params:
+    Et: Ec-0.54
+    dEt: 0.02
+
+Bemski1958:
+  title: Recombination Properties of Gold in Silicon
+  DOI: 10.1103/PhysRev.111.1515
+  measurement_technique: Lifetime spectrosopy
+  comments: Energy level from Collins1957. The temperature dependance of simga_h was
+    confirmed with independent measurement by W. D. Davis.
+  params:
+    Et: Ec-0.54
+    dEt: 0.02
+    sigma_e: 5e-16
+    sigma_h: 1e-15*(T/300)^(-4)
+
 Graff1995:
-  TITLE: Metal impurities in silicon-device fabrication
+  title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: Review of DLTS
-  COMMENTS: Taken from table 1 in the appendix. The table only provides the majority
+  comments: Taken from table 1 in the appendix. The table only provides the majority
     carrier capture cross section. The majority carrier has been estimated from the
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
-  PARAMS:
+  params:
     Et: Ec-0.554
     sigma_e: '1.4e-16'
-    sigma_h: None
-    k: None
 
 Graff2000:
-  TITLE: Metal Impurities in Silicon-Device Fabrication
+  title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: Review of DLTS
-  COMMENTS: Taken from table 1 in the appendix. The table only provides the majority
+  comments: Taken from table 1 in the appendix. The table only provides the majority
     carrier capture cross section. The majority carrier has been estimated from the
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
-  PARAMS:
+  params:
     Et: Ec-0.55
     sigma_e: '1.4e-16'
-    sigma_h: None
-    k: None
+    sigma_h: 7.6e-15

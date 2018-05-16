@@ -1,0 +1,9 @@
+
+GLMiller1977:
+  title: Capacitance Transient Spectroscopy
+  DOI: 10.1146/annurev.ms.07.080177.002113
+  measurement_technique: DLTS
+  comments: Out at 200. Min value for sigma
+  params:
+    Et: Ev+0.48
+    sigma_h: 1e-16

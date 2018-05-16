@@ -1,40 +1,34 @@
 
+Graff1995:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: Review of DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Et: Ev+0.27
+
+Graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: Review of DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Et: Ev+0.28
+    sigma_h: 2e-14
+
 Schmidt2007:
-  TITLE: Recombination activity of interstitial chromium and chromium-boron pairs
+  title: Recombination activity of interstitial chromium and chromium-boron pairs
     in silicon
   DOI: 10.1063/1.2822452
   measurement_technique: DLTS, TI-LS
-  COMMENTS: Capture cross sections were found to be independent of temperature
-  PARAMS:
+  comments: Capture cross sections were found to be independent of temperature
+  params:
     Et: Ev+0.28
     sigma_e: 5e-15
     sigma_h: 1E-14
-    k: None
-
-Graff2000:
-  TITLE: Metal Impurities in Silicon-Device Fabrication
-  DOI: 10.1007/978-3-642-57121-3
-  measurement_technique: Review of DLTS
-  COMMENTS: Taken from table 1 in the appendix. The table only provides the majority
-    carrier capture cross section. The majority carrier has been estimated from the
-    position of the defect level. e.g. if higher than the intrinsic level, it is assume
-    the majority carrier was electrons.
-  PARAMS:
-    Et: Ev+0.28
-    sigma_e: None
-    sigma_h: 2e-14
-    k: None
-
-Graff1995:
-  TITLE: Metal impurities in silicon-device fabrication
-  DOI: 10.1007/978-3-642-97593-6
-  measurement_technique: Review of DLTS
-  COMMENTS: Taken from table 1 in the appendix. The table only provides the majority
-    carrier capture cross section. The majority carrier has been estimated from the
-    position of the defect level. e.g. if higher than the intrinsic level, it is assume
-    the majority carrier was electrons.
-  PARAMS:
-    Et: Ev+0.27
-    sigma_e: None
-    sigma_h: None
-    k: None

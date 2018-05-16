@@ -1,27 +1,26 @@
 
 Graff2000:
-  TITLE: Metal Impurities in Silicon-Device Fabrication
+  title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: Review of DLTS
-  COMMENTS: Taken from table 1 in the appendix. The table only provides the majority
+  comments: Taken from table 1 in the appendix. The table only provides the majority
     carrier capture cross section. The majority carrier has been estimated from the
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
-  PARAMS:
+  params:
     Et: Ec-0.41
     sigma_e: '1.2e-16'
-    sigma_h: None
-    k: None
 
 Rein2005:
-  TITLE: Lifetime Spectroscopy A Method of Defect Characterization in Silicon for
+  title: Lifetime Spectroscopy A Method of Defect Characterization in Silicon for
     Photovoltaic Applications
   DOI: 10.1007/3-540-27922-9
   measurement_technique: ITN-LS
-  COMMENTS: Error in Et of 0.03. Error in K of 0.4. Sigma_e taken from literature.
-    temperature dependence of sigma T^-2.4.
-  PARAMS:
+  comments: Sigma_e taken from literature. temperature dependence of sigma T^-2.4.
+  params:
     Et: Ec-0.4
+    dEt: 0.03
     sigma_e: '5.6e-17'
     sigma_h: 8e-17
     k: '0.7'
+    dk: 0.4

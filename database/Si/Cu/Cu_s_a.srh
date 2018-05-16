@@ -1,28 +1,33 @@
 
-Graff2000:
-  TITLE: Metal Impurities in Silicon-Device Fabrication
-  DOI: 10.1007/978-3-642-57121-3
-  measurement_technique: Review of DLTS
-  COMMENTS: Taken from table 1 in the appendix. The table only provides the majority
-    carrier capture cross section. The majority carrier has been estimated from the
-    position of the defect level. e.g. if higher than the intrinsic level, it is assume
-    the majority carrier was electrons.
-  PARAMS:
-    Et: Ev+0.46
-    sigma_e: None
-    sigma_h: '1.5e-14'
-    k: None
+Collins1957a:
+  title: Properties of Silicon Doped with Iron or Copper
+  DOI: 10.1103/PhysRev.108.1409
+  measurement_technique: Hall
+  comments: Copper was hard to manage as it precipiates. They saw two additional levels
+    Ec-0.23 and Ev+0.45, but believe it was due to contaminants in the copper.
+  params:
+    Et: Ev+0.49
 
 Graff1995:
-  TITLE: Metal impurities in silicon-device fabrication
+  title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: Review of DLTS
-  COMMENTS: Taken from table 1 in the appendix. The table only provides the majority
+  comments: Taken from table 1 in the appendix. The table only provides the majority
     carrier capture cross section. The majority carrier has been estimated from the
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
-  PARAMS:
+  params:
     Et: Ev+0.45
-    sigma_e: None
     sigma_h: 1e-14
-    k: None
+
+Graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: Review of DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Et: Ev+0.46
+    sigma_h: '1.5e-14'
