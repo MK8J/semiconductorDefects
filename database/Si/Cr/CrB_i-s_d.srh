@@ -22,6 +22,16 @@ Graff2000:
     Et: Ev+0.28
     sigma_h: 2e-14
 
+Graff2000_1:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: Review of DLTS
+  comments: Taken from table 5.4. DLTS done at a temperature of 150K
+  params:
+    Et: Ev+0.28
+    dEt: 0.02
+    simga_h: 1.5e-15
+
 Schmidt2007:
   title: Recombination activity of interstitial chromium and chromium-boron pairs
     in silicon

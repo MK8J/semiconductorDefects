@@ -15,13 +15,11 @@ Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: Review of DLTS
-  comments: Taken from table 1 in the appendix. The table only provides the majority
-    carrier capture cross section. The majority carrier has been estimated from the
-    position of the defect level. e.g. if higher than the intrinsic level, it is assume
-    the majority carrier was electrons.
+  comments: Taken from table 5.2. DLTS done at a temperature of 200K.
   params:
     Et: Ev+0.28
-    sigma_h: 1.9-16
+    dEt: 0.01
+    sigma_h: 1.5e-16*exp(-0.036/kT)
 
 Rein2005:
   title: Lifetime Spectroscopy A Method of Defect Characterization in Silicon for

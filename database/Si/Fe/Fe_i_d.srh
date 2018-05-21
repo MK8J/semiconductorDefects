@@ -43,11 +43,11 @@ Graff2000:
     the majority carrier was electrons.
   params:
     Et: Ev+0.39
+    dEt: 0.01
     sigma_h: 3.80E-17 * exp(-0.043/kT)
 
 Rein2005:
-  title: Electronic properties of interstitial iron and iron-boron pairs determined  by
-    means of advanced lifetime spectroscopy
+  title: Electronic properties of interstitial iron and iron-boron pairs determined  by means of advanced lifetime spectroscopy
   DOI: 10.1063/1.2106017
   measurement_technique: TIDL
   comments: null
