@@ -8,7 +8,7 @@ Graff1995:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Et: Ev+0.29
+    Ed: Ev+0.29
     sigma_h: '5.5e-16'
 
 Graff2000:
@@ -20,7 +20,7 @@ Graff2000:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Et: Ev+0.28
+    Ed: Ev+0.28
     sigma_h: 6e-16
 
 Rein2005:
@@ -31,8 +31,8 @@ Rein2005:
   comments: Claims difference in DLTS measurement is as they did not account for the
     temperature dependence of the capture cross section. Sigma_e taken from literature
   params:
-    Et: Ev+0.317
-    dEt: 0.005
+    Ed: Ev+0.317
+    dEd: 0.005
     sigma_e: '7.8e-15'
     sigma_h: 6e-16
     k: '13.0'

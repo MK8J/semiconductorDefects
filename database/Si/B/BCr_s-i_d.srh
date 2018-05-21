@@ -8,7 +8,7 @@ Graff1995:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Et: Ev+0.27
+    Ed: Ev+0.27
 
 Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
@@ -19,7 +19,7 @@ Graff2000:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Et: Ev+0.28
+    Ed: Ev+0.28
     sigma_h: 2e-14
 
 Schmidt2007:
@@ -29,6 +29,6 @@ Schmidt2007:
   measurement_technique: DLTS, TI-LS
   comments: Capture cross sections were found to be independent of temperature
   params:
-    Et: Ev+0.28
+    Ed: Ev+0.28
     sigma_e: 5e-15
     sigma_h: 1E-14

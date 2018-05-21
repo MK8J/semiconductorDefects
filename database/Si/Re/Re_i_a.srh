@@ -8,5 +8,5 @@ Graff2000:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Et: Ec-0.07
+    Ed: Ec-0.07
     sigma_e: '8.7e-16'

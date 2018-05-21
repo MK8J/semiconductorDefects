@@ -5,7 +5,7 @@ Carlson1957:
   measurement_technique: Hall
   comments: null
   params:
-    Et: Ec-0.55
+    Ed: Ec-0.55
 
 Graff1995:
   title: Metal impurities in silicon-device fabrication
@@ -16,7 +16,7 @@ Graff1995:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Et: Ev+0.6
+    Ed: Ev+0.6
     sigma_h: '2.5e-15'
 
 Graff2000:
@@ -25,6 +25,6 @@ Graff2000:
   measurement_technique: Review of DLTS
   comments: Taken from Table 5.7. Measured at a temperature of 300 K.
   params:
-    Et: Ec-0.53
-    dEt: 0.02
+    Ed: Ec-0.53
+    dEd: 0.02
     sigma_h: '2.5e-15'

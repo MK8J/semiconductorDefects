@@ -6,6 +6,6 @@ Graff2000:
   comments: Taken from table 4.10. DLTS done at a temperature of 50K
   params:
   params:
-    Et: Ev+0.08
-    dEt: 0.01
+    Ed: Ev+0.08
+    dEd: 0.01
     sigma_h: '3.5e-17'

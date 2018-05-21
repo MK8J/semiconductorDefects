@@ -8,7 +8,7 @@ Graff1995:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Et: Ev+0.45
+    Ed: Ev+0.45
 
 Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
@@ -16,6 +16,6 @@ Graff2000:
   measurement_technique: Review of DLTS
   comments: Taken from table 5.4. DLTS done at a temperature of 240K
   params:
-    Et: Ev+0.45
-    dEt: 0.05
+    Ed: Ev+0.45
+    dEd: 0.05
     sigma_h: 1.5e-16

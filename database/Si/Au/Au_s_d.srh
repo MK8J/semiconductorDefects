@@ -8,8 +8,8 @@ Newman1954:
     growth: CZ
     dopant: boron
   params:
-    Et: Ev+0.325
-    dEt: 0.005
+    Ed: Ev+0.325
+    dEd: 0.005
 
 Taft1954:
   title: Gold as a Donor in Silicon
@@ -21,7 +21,7 @@ Taft1954:
     growth: CZ
     dopant: boron
   params:
-    Et: Ev+0.33
+    Ed: Ev+0.33
 
 Collins1957:
   title: Properties of Gold-Doped Silicon
@@ -29,8 +29,8 @@ Collins1957:
   measurement_technique: Hall
   comments: Notes both level are in the same number
   params:
-    Et: Ev+0.35
-    dEt: 0.02
+    Ed: Ev+0.35
+    dEd: 0.02
 
 Bemski1958:
   title: Recombination Properties of Gold in Silicon
@@ -40,8 +40,8 @@ Bemski1958:
     dependance of simga_e was confirmed with independent measurement by W. D. Davis
     is a private communication. The technique used by Davis was not mentioned.
   params:
-    Et: Ev+0.35
-    dEt: 0.02
+    Ed: Ev+0.35
+    dEd: 0.02
     sigma_e: 3.5e-15*(T/300)^(-2.5)
     sigma_h: 1e-16
 
@@ -54,7 +54,7 @@ Graff1995:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Et: Ev+0.347
+    Ed: Ev+0.347
     sigma_h: 2.7e-15
 
 Graff2000:
@@ -63,7 +63,7 @@ Graff2000:
   measurement_technique: Review of DLTS
   comments: Taken from table 4.12. DLTS done at a temperature of 160K
   params:
-    Et: Ev+0.34
-    dEt: 0.02
+    Ed: Ev+0.34
+    dEd: 0.02
     sigma_e: '2.5e-15'
     sigma_h: '2.7e-15'

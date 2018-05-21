@@ -5,5 +5,5 @@ GLMiller1977:
   measurement_technique: DLTS
   comments: out at 350. Ea=1.3eV
   params:
-    Et: Ec-0.08
+    Ed: Ec-0.08
     sigma_e: 1e-14

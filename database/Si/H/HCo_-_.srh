@@ -8,7 +8,7 @@ Graff2000_1:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Et: Ev+0.17
+    Ed: Ev+0.17
     sigma_h: 1e-14
 
 Graff2000:
@@ -20,5 +20,5 @@ Graff2000:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Et: Ev+0.22
+    Ed: Ev+0.22
     sigma_h: 1e-15

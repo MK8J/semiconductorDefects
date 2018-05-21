@@ -8,7 +8,7 @@ Graff1995:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Et: Ec-0.24
+    Ed: Ec-0.24
     sigma_e: 4/530*1e-14
 
 Graff2000:
@@ -17,7 +17,7 @@ Graff2000:
   measurement_technique: Review of DLTS
   comments: Taken from table 4.10. DLTS done at a temperature of 110K
   params:
-    Et: Ec-0.23
-    dEt:  0.01
+    Ed: Ec-0.23
+    dEd:  0.01
     sigma_e: 2.9e-14
     sigma_h: 2.6e-14

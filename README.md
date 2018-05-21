@@ -4,7 +4,7 @@ This is an attempt at creating a collection of all the defect parameters of semi
 At the moment the database contains:
 
 1. The Shockey Read Hall defect parameters, stored in .srh files:
-  * Et: The defects energy level
+  * Ed: The defects energy level
   * &sigma;<sub>e</sub>: The electron capture cross section
   * &sigma;<sub>h</sub>: The hole capture cross section
   * k: The ratio of &sigma;<sub>e</sub>/&sigma;<sub>h</sub>. This is recorded as lifetime spectroscopy measurements only provide a measure of the ratio of the capture cross sections and not the total capture cross sections.

@@ -6,7 +6,7 @@ Collins1957a:
   comments: Copper was hard to manage as it precipiates. They saw two additional levels
     Ec-0.23 and Ev+0.45, but believe it was due to contaminants in the copper.
   params:
-    Et: Ev+0.24
+    Ed: Ev+0.24
 
 Graff1995:
   title: Metal impurities in silicon-device fabrication
@@ -17,7 +17,7 @@ Graff1995:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Et: Ev+0.23
+    Ed: Ev+0.23
     sigma_h: 1e14
 
 Graff2000:
@@ -29,5 +29,5 @@ Graff2000:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Et: Ev+0.22
+    Ed: Ev+0.22
     sigma_h: 3e-14

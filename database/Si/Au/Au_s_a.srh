@@ -5,8 +5,8 @@ Collins1957:
   measurement_technique: Hall
   comments: Notes both level occur with approximately the same number of defects
   params:
-    Et: Ec-0.54
-    dEt: 0.02
+    Ed: Ec-0.54
+    dEd: 0.02
 
 Bemski1958:
   title: Recombination Properties of Gold in Silicon
@@ -15,8 +15,8 @@ Bemski1958:
   comments: Energy level from Collins1957. The temperature dependance of simga_h was
     confirmed with independent measurement by W. D. Davis.
   params:
-    Et: Ec-0.54
-    dEt: 0.02
+    Ed: Ec-0.54
+    dEd: 0.02
     sigma_e: 5e-16
     sigma_h: 1e-15*(T/300)**(-4)
 
@@ -29,7 +29,7 @@ Graff1995:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Et: Ec-0.554
+    Ed: Ec-0.554
     sigma_e: '1.4e-16'
 
 Graff2000:
@@ -38,7 +38,7 @@ Graff2000:
   measurement_technique: Review of DLTS
   comments: Taken from table 4.12. DLTS done at a temperature of 300K
   params:
-    Et: Ec-0.55
-    dEt: 0.01
+    Ed: Ec-0.55
+    dEd: 0.01
     sigma_e: '1.4e-16'
     sigma_h: '7.6e-15'

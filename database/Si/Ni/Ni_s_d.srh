@@ -8,7 +8,7 @@ Graff2000:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Et: Ev+0.17
+    Ed: Ev+0.17
     sigma_h: '5.4e-15'
 
 Graff2000_1:
@@ -17,8 +17,8 @@ Graff2000_1:
   measurement_technique: Review of DLTS
   comments: Taken from table 4.6.
   params:
-    Et: Ev+0.17
-    dEt: 0.02
+    Ed: Ev+0.17
+    dEd: 0.02
     sigma_e: 1.1e-15
 
 Rein2005:
@@ -28,7 +28,7 @@ Rein2005:
   measurement_technique: ITN-LS
   comments: Temperature dependence of sigma T^-2.5. sigma_e taken from Graff2000_1
   params:
-    Et: Ev+0.189
-    dEt: 0.05
+    Ed: Ev+0.189
+    dEd: 0.05
     k: '3500.0'
     dk: 2610, 9400

@@ -8,7 +8,7 @@ Graff1995:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Et: Ev+0.34
+    Ed: Ev+0.34
 
 Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
@@ -19,7 +19,7 @@ Graff2000:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Et: Ev+0.34
+    Ed: Ev+0.34
     sigma_h: 2e-16
 
 Graff2000_1:
@@ -31,5 +31,5 @@ Graff2000_1:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Et: Ec-0.42
+    Ed: Ec-0.42
     sigma_e: 3.10E-15 * exp(-0/kT)

@@ -5,5 +5,5 @@ GLMiller1977:
   measurement_technique: DLTS
   comments: Out at 300
   params:
-    Et: Ev+2e-16
+    Ed: Ev+2e-16
     sigma_h: 2e-16

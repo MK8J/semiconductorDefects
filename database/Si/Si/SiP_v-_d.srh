@@ -5,5 +5,5 @@ GLMiller1977:
   measurement_technique: DLTS
   comments: Out at 150. E_0 = 1.25eV and E_0^0 = 0.95eV. Min value for sigma
   params:
-    Et: Ec-0.44
+    Ed: Ec-0.44
     sigma_e: 1e-16

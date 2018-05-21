@@ -5,4 +5,4 @@ GLMiller1977:
   measurement_technique: DLTS
   comments: out at 90K
   params:
-    Et: Ec-0.09
+    Ed: Ec-0.09

@@ -8,7 +8,7 @@ Graff1995:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Et: Ec-0.22
+    Ed: Ec-0.22
     sigma_e: 6e-14 * exp(0)
 
 Graff2000:
@@ -17,8 +17,8 @@ Graff2000:
   measurement_technique: Review of DLTS
   comments: Taken from table 5.4. DLTS done at a temperature of 110K
   params:
-    Et: Ec-0.22
-    dEt: 0.01
+    Ed: Ec-0.22
+    dEd: 0.01
     sigma_e: '7.3e-15'
 
 Schmidt2007:
@@ -28,7 +28,7 @@ Schmidt2007:
   measurement_technique: DLTS, TI-LS
   comments: Capture cross sections were found to be independent of temperature
   params:
-    Et: Ec-0.24
+    Ed: Ec-0.24
     sigma_e: 2E-14
     sigma_h: 4E-15
 
@@ -40,6 +40,6 @@ Sun2014:
   comments: Only determined K, but estimated capture cross section from comparison
     of other papers.
   params:
-    Et: Ec-0.24
+    Ed: Ec-0.24
     sigma_e: '2.4e-14'
     k: '3.2'

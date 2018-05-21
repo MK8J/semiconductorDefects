@@ -5,6 +5,6 @@ Graff2000:
   measurement_technique: Review of DLTS
   comments: Taken from table 4.6. DLTS done at a temperature of 45K
   params:
-    Et: Ec-0.07
-    dEt: 0.01
+    Ed: Ec-0.07
+    dEd: 0.01
     sigma_e: '5.4e-18'

@@ -6,7 +6,7 @@ Collins1957a:
   comments: The defect was observed to swtich between two levels. This was confirmed
     with photoconductance data from Dash. The other level was Ec-0.55
   params:
-    Et: Ev+0.4
+    Ed: Ev+0.4
 
 Graff1995:
   title: Metal impurities in silicon-device fabrication
@@ -17,7 +17,7 @@ Graff1995:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Et: Ev+0.38
+    Ed: Ev+0.38
     sigma_h: 3.00E-16 * exp(-0.05/kT)
 
 Istratov1999:
@@ -29,7 +29,7 @@ Istratov1999:
     hall affect measurements are not. The error in sigma_h was 0.5e16 and  0.005 for
     the temperature dependent exponent.
   params:
-    Et: Ev+0.38
+    Ed: Ev+0.38
     sigma_e: 4e-14
     sigma_h: 3.9e-16 * exp(-0.045/kT)
 
@@ -42,8 +42,8 @@ Graff2000:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Et: Ev+0.39
-    dEt: 0.01
+    Ed: Ev+0.39
+    dEd: 0.01
     sigma_h: 3.80E-17 * exp(-0.043/kT)
 
 Rein2005:
@@ -52,8 +52,8 @@ Rein2005:
   measurement_technique: TIDL
   comments: null
   params:
-    Et: Ev+0.394
-    dEt: 0.005
+    Ed: Ev+0.394
+    dEd: 0.005
     sigma_e: 1.42e-15 * exp(-0.024/kT)
     k: '51.0'
     dk: 5
