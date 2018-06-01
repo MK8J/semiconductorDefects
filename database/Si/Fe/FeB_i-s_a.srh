@@ -1,13 +1,12 @@
 
 Hangleiter1987:
-  title: "Nonradiative recombination via deep impurity levels in silicon: Experiment"
+  title: 'Nonradiative recombination via deep impurity levels in silicon: Experiment'
   DOI: 10.1103/PhysRevB.35.9149
   measurement_technique: DLTS, luminescence,
   comments: Assumed a thermal velocity of (2e7 *(T/300)^(0.5))
   params:
-    Ed: None
-    sigma_e: 3e-7*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))
-    sigma_h: 3e-8*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))
+    sigma_e: 3e-7*(300/T)**(-0.6)/(2e7 *(T/300)**(0.5))
+    sigma_h: 3e-8*(300/T)**(-0.6)/(2e7 *(T/300)**(0.5))
 
 Graff1995:
   title: Metal impurities in silicon-device fabrication
@@ -65,20 +64,6 @@ Macdonald2001:
     sigma_e: 3e-14
     sigma_h: 2e-15
 
-Rein2005:
-  title: Electronic properties of interstitial iron and iron-boron pairs determined  by
-    means of advanced lifetime spectroscopy
-  DOI: 10.1063/1.2106017
-  measurement_technique: TIDL
-  comments: The capture cross sections are temperature independent
-  params:
-    Ed: Ec-0.26
-    dEd: 0.03
-    sigma_e: '2.5e-15'
-    sigma_h: '5.5e-15'
-    k: '0.45'
-    dk: 0.44,0.55
-
 Birkholz2005:
   title: Electronic properties of iron-boron pairs in crystalline silicon by temperature-
     and injection-level-dependent lifetime measurements
@@ -89,6 +74,20 @@ Birkholz2005:
     Ed: Ec-0.26
     sigma_e: '1.4e-15'
     sigma_h: '1.1e-15'
+
+Rein2005:
+  title: Electronic properties of interstitial iron and iron-boron pairs determined  by
+    means of advanced lifetime spectroscopy
+  DOI: 10.1063/1.2106017
+  measurement_technique: TIDL
+  comments: null
+  params:
+    Ed: Ec-0.26
+    dEd: 0.03
+    sigma_e: '2.5e-15'
+    sigma_h: '5.5e-15'
+    k: '0.45'
+    dk: 0.44,0.55
 
 Macdonald2006:
   title: Doping dependence of the carrier lifetime crossover point upon dissociation

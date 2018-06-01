@@ -1,13 +1,4 @@
 
-Hangleiter1987:
-  title: "Nonradiative recombination via deep impurity levels in silicon: Experiment"
-  DOI: 10.1103/PhysRevB.35.9149
-  measurement_technique: DLTS, luminescence,
-  comments: Assumed a thermal velocity of (2e7 *(T/300)^(0.5))
-  params:
-    Ed: None
-    sigma_h: 2e-8*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))
-
 Collins1957a:
   title: Properties of Silicon Doped with Iron or Copper
   DOI: 10.1103/PhysRev.108.1409
@@ -16,6 +7,14 @@ Collins1957a:
     with photoconductance data from Dash. The other level was Ec-0.55
   params:
     Ed: Ev+0.4
+
+Hangleiter1987:
+  title: 'Nonradiative recombination via deep impurity levels in silicon: Experiment'
+  DOI: 10.1103/PhysRevB.35.9149
+  measurement_technique: DLTS, luminescence,
+  comments: Assumed a thermal velocity of (2e7 *(T/300)^(0.5))
+  params:
+    sigma_h: 2e-8*(300/T)**(-0.6)/(2e7 *(T/300)**(0.5))
 
 Graff1995:
   title: Metal impurities in silicon-device fabrication
@@ -56,7 +55,8 @@ Graff2000:
     sigma_h: 3.80E-17 * exp(-0.043/kT)
 
 Rein2005:
-  title: Electronic properties of interstitial iron and iron-boron pairs determined  by means of advanced lifetime spectroscopy
+  title: Electronic properties of interstitial iron and iron-boron pairs determined  by
+    means of advanced lifetime spectroscopy
   DOI: 10.1063/1.2106017
   measurement_technique: TIDL
   comments: null

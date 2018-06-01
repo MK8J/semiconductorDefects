@@ -16,6 +16,5 @@ Graff2000:
   measurement_technique: Review of DLTS
   comments: Taken from table 5.4. DLTS done at a temperature of 240K
   params:
-  params:
     Ed: Ec-0.1
     sigma_e: 2.8e-15
