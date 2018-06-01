@@ -18,4 +18,4 @@ Graff2000:
   params:
     Ed: Ev+0.48
     dEd: 0.01
-    simga_h: 1.5e-15
+    sigma_h: 1.5e-15

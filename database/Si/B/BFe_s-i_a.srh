@@ -84,7 +84,7 @@ Macdonald2006:
   title: Doping dependence of the carrier lifetime crossover point upon dissociation
     of iron-boron pairs in crystalline silicon
   DOI: 10.1063/1.2358126
-  measurement_technique: IDLS
+  measurement_technique: LS-ID
   comments: Lifetime analysis on FeB at a fixed temperature for many doing levels
   params:
     Ed: Ec-0.26

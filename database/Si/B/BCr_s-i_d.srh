@@ -26,7 +26,7 @@ Schmidt2007:
   title: Recombination activity of interstitial chromium and chromium-boron pairs
     in silicon
   DOI: 10.1063/1.2822452
-  measurement_technique: DLTS, TI-LS
+  measurement_technique: DLTS, LS-TI
   comments: Capture cross sections were found to be independent of temperature
   params:
     Ed: Ev+0.28

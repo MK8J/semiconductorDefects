@@ -1,4 +1,14 @@
 
+Hangleiter1987:
+  title: "Nonradiative recombination via deep impurity levels in silicon: Experiment"
+  DOI: 10.1103/PhysRevB.35.9149
+  measurement_technique: DLTS, luminescence,
+  comments: Assumed a thermal velocity of (2e7 *(T/300)^(0.5))
+  params:
+    Ed: None
+    sigma_e: 3e-7*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))
+    sigma_h: 3e-8*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))
+
 Graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
@@ -60,7 +70,7 @@ Rein2005:
     means of advanced lifetime spectroscopy
   DOI: 10.1063/1.2106017
   measurement_technique: TIDL
-  comments: null
+  comments: The capture cross sections are temperature independent
   params:
     Ed: Ec-0.26
     dEd: 0.03
@@ -84,7 +94,7 @@ Macdonald2006:
   title: Doping dependence of the carrier lifetime crossover point upon dissociation
     of iron-boron pairs in crystalline silicon
   DOI: 10.1063/1.2358126
-  measurement_technique: IDLS
+  measurement_technique: LS-ID
   comments: Lifetime analysis on FeB at a fixed temperature for many doing levels
   params:
     Ed: Ec-0.26

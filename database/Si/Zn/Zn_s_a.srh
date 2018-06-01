@@ -5,7 +5,7 @@ Carlson1957:
   measurement_technique: Hall
   comments: null
   params:
-    Ed: Ec+0.32
+    Ed: Ev+0.32
 
 Graff1995:
   title: Metal impurities in silicon-device fabrication

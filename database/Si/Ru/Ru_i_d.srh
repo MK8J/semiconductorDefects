@@ -1,4 +1,17 @@
 
+Zhou1991:
+  title: Physical Behaviour of 4d Transition Metal Impurity in Silicon
+  DOI: 10.4028/www.scientific.net/MSF.38-41.457
+  sample:
+    growth: FZ, CZ
+    dopant: boron, phorphous, Tin, aluminum, Gallium,
+  measurement_technique: DLTS
+  comments:
+  params:
+    Ed: Ev+0.34
+    sigma_h: None
+    sigma_e: None
+
 Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3

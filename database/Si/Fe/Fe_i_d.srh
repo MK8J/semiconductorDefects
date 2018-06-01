@@ -1,4 +1,13 @@
 
+Hangleiter1987:
+  title: "Nonradiative recombination via deep impurity levels in silicon: Experiment"
+  DOI: 10.1103/PhysRevB.35.9149
+  measurement_technique: DLTS, luminescence,
+  comments: Assumed a thermal velocity of (2e7 *(T/300)^(0.5))
+  params:
+    Ed: None
+    sigma_h: 2e-8*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))
+
 Collins1957a:
   title: Properties of Silicon Doped with Iron or Copper
   DOI: 10.1103/PhysRev.108.1409

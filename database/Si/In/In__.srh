@@ -6,3 +6,14 @@ Fan1956:
   comments: The ionization energy was estimated using the observed excitation band of highest energy. Good agreement with the thermal value of Ev+0.16.
   params:
     Ed: Ev+0.16
+
+
+Wertheim1958:
+  title: Transient Recombination of Excess Carriers in Semiconductors
+  DOI: 10.1103/PhysRev.109.1086
+  measurement_technique: LS-T
+  comments: Was not sure what the defect is, but it is in indium doped Silicon.
+  params:
+    Ed: None
+    sigma_e: 1.1e-14*T^(-1)
+    sigma_h: 1.5e-9*T^(-2)

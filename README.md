@@ -19,3 +19,15 @@ The database is currently formatted in the following manner:
          * folder representing the element in the defect
 
              * file containing the defect, with a .srh extension.
+
+
+## Naming convention
+
+### Measurement techniques
+
+There are a range of techniques that have been used to determine these defect properties. These are recorded in the repository using the following abbreviation:
+
+1. LS: Lifetime spectroscopy. This can be performed in different ways. These ways are depicted as suffixes, being:  I represents Injection dependent, T temperature dependent, D doping dependent, and N the number of defects.
+2. [DLTS](https://en.wikipedia.org/wiki/Deep-level_transient_spectroscopy): Deep level transient spectroscopy. There are many varients on DLTS, again these are seperated by providing different suffixes, being: O for optical DLTS.
+3. [Hall](https://www.nist.gov/pml/engineering-physics-division/popular-links/hall-effect/hall-effect): Temperature dependent ionized dopant concentration via the hall effect.
+3. Photocurrent: Measurement of the current from a device. Suffixes inxlude S for spectral.

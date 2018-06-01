@@ -1,4 +1,14 @@
 
+Hangleiter1987:
+  title: "Nonradiative recombination via deep impurity levels in silicon: Experiment"
+  DOI: 10.1103/PhysRevB.35.9149
+  measurement_technique: DLTS, luminescence,
+  comments: Assumed a thermal velocity of (2e7 *(T/300)^(0.5))
+  params:
+    Ed: None
+    sigma_h: 5e-8*exp(0.03/kT)*exp(-0.03/k/300)/(2e7 *(T/300)^(0.5))
+
+
 Collins1957:
   title: Properties of Gold-Doped Silicon
   DOI: 10.1103/PhysRev.105.1168
@@ -12,7 +22,7 @@ Bemski1958:
   title: Recombination Properties of Gold in Silicon
   DOI: 10.1103/PhysRev.111.1515
   measurement_technique: Lifetime spectrosopy
-  comments: Energy level from Collins1957. The temperature dependance of simga_h was
+  comments: Energy level from Collins1957. The temperature dependance of sigma_h was
     confirmed with independent measurement by W. D. Davis.
   params:
     Ed: Ec-0.54

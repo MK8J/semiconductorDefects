@@ -25,7 +25,7 @@ Rein2005:
   title: Lifetime Spectroscopy A Method of Defect Characterization in Silicon for
     Photovoltaic Applications
   DOI: 10.1007/3-540-27922-9
-  measurement_technique: ITN-LS
+  measurement_technique: LS-ITD
   comments: Sigma_e taken from literature. A temperature dependence of sigma of T^-1.6.
   params:
     Ed: Ev+0.289

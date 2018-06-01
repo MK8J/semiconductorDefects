@@ -17,4 +17,4 @@ Graff2000:
   comments: Taken from table 5.4. DLTS done at a temperature of 170K
   params:
     Ed: Ev+0.35
-    simga_h: 8.7e-16
+    sigma_h: 8.7e-16
