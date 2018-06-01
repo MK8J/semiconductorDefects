@@ -12,6 +12,22 @@ Rohatgi1980:
     sigma_e: 1.6e-14
     sigma_h: 4.31e-16
 
+Hamaguchi1991:
+  title: Deep Levels Associated with Molybdenum in Silicon
+  DOI: 10.1143/JJAP.30.L1837
+  measurement_technique: DLTS, DLTS-O, LS-N
+  comments: DLTS peak at 170K. Resistivity 10 Ohm.cm. For FZ Mo was spun on, and thermally
+    diffused. For CZ it was introduced into the melt. Both dopants were used for CZ
+    and FZ. Found 3 other levels related to Mo; Ev-0.27, Ec-0.34, Ec-0.58 and not
+    Mo and dopant pairing.
+  sample:
+    growth: FZ, CZ
+    dopant: boron, phorphous
+  params:
+    Ed: Ev+0.31
+    sigma_e: 1.6e-14
+    sigma_h: 4.31e-16
+
 Pettersson1991:
   title: Electrical and optical properties of molybdenum and tungsten related defects
     in silicon
@@ -29,22 +45,6 @@ Pettersson1991:
   params:
     Ed: Ev+0.298
     sigma_h: 8.38E-16 * exp(-0.004/kT)
-
-Hamaguchi1991:
-  title: Deep Levels Associated with Molybdenum in Silicon
-  DOI: 10.1143/JJAP.30.L1837
-  measurement_technique: DLTS, DLTS-O, LS-N
-  comments: DLTS peak at 170K. Resistivity 10 Ohm.cm. For FZ Mo was spun on, and thermally
-    diffused. For CZ it was introduced into the melt. Both dopants were used for CZ
-    and FZ. Found 3 other levels related to Mo; Ev-0.27, Ec-0.34, Ec-0.58 and not
-    Mo and dopant pairing.
-  sample:
-    growth: FZ, CZ
-    dopant: boron, phorphous
-  params:
-    Ed: Ev+0.31
-    sigma_e: 1.6e-14
-    sigma_h: 4.31e-16
 
 Zhou1991:
   title: Physical Behaviour of 4d Transition Metal Impurity in Silicon

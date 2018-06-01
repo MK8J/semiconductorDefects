@@ -1,16 +1,4 @@
 
-Taft1954:
-  title: Gold as a Donor in Silicon
-  DOI: 10.1103/PhysRev.93.64
-  measurement_technique: Resistivity
-  comments: Doped different samples with different amounts of gold. This is a thermal
-    activation energy.
-  sample:
-    growth: CZ
-    dopant: boron
-  params:
-    Ed: Ev+0.33
-
 Newman1954:
   title: Photoconductivity in Gold-Doped Silicon
   DOI: 10.1103/PhysRev.94.1530
@@ -22,6 +10,18 @@ Newman1954:
   params:
     Ed: Ev+0.325
     dEd: 0.005
+
+Taft1954:
+  title: Gold as a Donor in Silicon
+  DOI: 10.1103/PhysRev.93.64
+  measurement_technique: Resistivity
+  comments: Doped different samples with different amounts of gold. This is a thermal
+    activation energy.
+  sample:
+    growth: CZ
+    dopant: boron
+  params:
+    Ed: Ev+0.33
 
 Collins1957:
   title: Properties of Gold-Doped Silicon
