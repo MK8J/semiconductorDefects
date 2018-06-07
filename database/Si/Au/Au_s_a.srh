@@ -20,6 +20,14 @@ Bemski1958:
     sigma_e: 5e-16
     sigma_h: 1e-15*(T/300)**(-4)
 
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: Review
+  comments: Figure 2.1
+  params:
+    Ed: Ev+0.54
+
 Hangleiter1987:
   title: 'Nonradiative recombination via deep impurity levels in silicon: Experiment'
   DOI: 10.1103/PhysRevB.35.9149

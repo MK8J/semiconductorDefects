@@ -1,8 +1,27 @@
 
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: Review
+  comments: Figure 2.1, questionable level
+  params:
+    Ed: Ec-0.29
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  sample:
+    incorporation: implantation
+  measurement_technique: DLTS, Hall
+  comments: This was noted to be a distribution of energies from 0.29-0.35 eV.
+  params:
+    Ed: Ec-0.29
+
+
 Graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
-  measurement_technique: Review of DLTS
+  measurement_technique: Review, DLTS
   comments: Taken from table 1 in the appendix. The table only provides the majority
     carrier capture cross section. The majority carrier has been estimated from the
     position of the defect level. e.g. if higher than the intrinsic level, it is assume

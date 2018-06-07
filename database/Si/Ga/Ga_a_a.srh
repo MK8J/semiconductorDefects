@@ -1,0 +1,9 @@
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: Review
+  comments: Figure 2.1
+  linked: Ga_a_a.srh
+  params:
+    Ed: Ev+0.063

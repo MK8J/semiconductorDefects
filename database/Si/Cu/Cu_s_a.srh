@@ -1,4 +1,37 @@
 
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: Review
+  comments: Figure 2.1
+  params:
+    Ed: Ev+0.52
+
+milnes1973_1:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: Review
+  comments: 
+  params:
+    Ed: Ev+0.49
+
+
+milnes1973_2:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: Review
+  comments: Figure 2.1
+  params:
+    Ed: Ev+0.37
+
+milnes1973_3:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: Review
+  comments: Figure 2.1
+  params:
+    Ed: Ev+0.24
+
 Collins1957a:
   title: Properties of Silicon Doped with Iron or Copper
   DOI: 10.1103/PhysRev.108.1409

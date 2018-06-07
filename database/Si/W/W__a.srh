@@ -1,0 +1,26 @@
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: Review
+  comments: Figure 2.1
+  params:
+    Ed: Ec-0.22
+
+
+milnes1973_1:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: Review
+  comments: Figure 2.1
+  params:
+    Ed: Ec-0.30
+
+
+milnes1973_2:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: Review
+  comments: Figure 2.1
+  params:
+    Ed: Ec-0.37

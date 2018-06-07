@@ -6,5 +6,6 @@ Fan1956:
   comments: Agrees well with thermal values of 0.045 eV. Data showed a broad peak,
     so the hydrogenic model was used. The integrated absorption cross sections for
     these excitation bands differ considerably from those for the hydrogenic model.
+  linked: B_s_a.srh
   params:
     Ed: Ev+0.046

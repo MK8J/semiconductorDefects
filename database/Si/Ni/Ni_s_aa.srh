@@ -1,4 +1,12 @@
 
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: Review
+  comments: Figure 2.1
+  params:
+    Ed: Ec-0.35
+
 Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3

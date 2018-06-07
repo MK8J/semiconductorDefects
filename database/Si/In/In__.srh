@@ -4,7 +4,8 @@ Fan1956:
   DOI: 10.1088/0034-4885/19/1/304
   measurement_technique: Review of infrared absorption
   comments: The ionization energy was estimated using the observed excitation band
-    of highest energy. Good agreement with the thermal value of Ev+0.16.
+    of highest energy. Good agreement with the thermal value of Ev+0.16. This turned out to be an acceptor level
+    linked: In_s_a.srh
   params:
     Ed: Ev+0.16
 
@@ -12,7 +13,8 @@ Wertheim1958:
   title: Transient Recombination of Excess Carriers in Semiconductors
   DOI: 10.1103/PhysRev.109.1086
   measurement_technique: LS-T
-  comments: Was not sure what the defect is, but it is in indium doped Silicon.
+  comments: Was not sure what the defect is, but it is in indium doped Silicon. This turned out to be an acceptor level
+  linked: In_s_a.srh
   params:
     sigma_e: 1.1e-14*T**(-1)
     sigma_h: 1.5e-9*T**(-2)

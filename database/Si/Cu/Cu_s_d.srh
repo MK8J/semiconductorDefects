@@ -8,6 +8,19 @@ Collins1957a:
   params:
     Ed: Ev+0.24
 
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  sample:
+    incorporation: implantation
+  measurement_technique: Review of lifetime
+  comments:
+  params:
+    Ed: Ev+0.22
+    sigma_h: 3e-14
+    sigma_e: 0.85e-13
+
+
 Graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
@@ -18,7 +31,7 @@ Graff1995:
     the majority carrier was electrons.
   params:
     Ed: Ev+0.23
-    sigma_h: 1e14
+    sigma_h: 1e-14
 
 Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication

@@ -1,0 +1,16 @@
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: Review, Hall, resistivity, and photo-conductivity.
+  comments: Figure 2.1,
+  params:
+    Ed: Ec-0.53
+
+milnes1973_1:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: Review, Hall, resistivity, and photo-conductivity.
+  comments: Figure 2.1,
+  params:
+    Ed: Ev+0.35

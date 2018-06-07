@@ -1,0 +1,9 @@
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: Review
+  comments: Figure 2.1, suggested is interstitial
+  linked: Fe_i_d.srh
+  params:
+    Ed: Ev+0.4
