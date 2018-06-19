@@ -5,7 +5,7 @@ Fan1956:
   measurement_technique: Review of infrared absorption
   comments: The ionization energy was estimated using the observed excitation band
     of highest energy. Good agreement with the thermal value of Ev+0.16. This turned out to be an acceptor level
-    linked: In_s_a.srh
+  linked: In_s_a.srh
   params:
     Ed: Ev+0.16
 

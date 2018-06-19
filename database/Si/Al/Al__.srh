@@ -5,6 +5,6 @@ Fan1956:
   measurement_technique: Review of infrared absorption
   comments: The ionization energy was estimated using the observed excitation band
     of highest energy. Higher than thermal value of Ev+0.057
-  params:
   linked: Al_s_a.srh
+  params:
     Ed: Ev+0.067

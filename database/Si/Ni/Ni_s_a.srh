@@ -6,7 +6,7 @@ milnes1973:
   measurement_technique: Review
   comments: Figure 2.1
   params:
-Ed: Ev+0.23
+    Ed: Ev+0.23
 
 Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
