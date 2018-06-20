@@ -11,15 +11,13 @@ Collins1957a:
 chen1980:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: Review of lifetime
   sample:
     incorporation: ion implantation
-  measurement_technique: Review of lifetime
-  comments:
   params:
     Ed: Ev+0.22
+    sigma_e: 8.5e-14
     sigma_h: 3e-14
-    sigma_e: 0.85e-13
-
 
 Graff1995:
   title: Metal impurities in silicon-device fabrication

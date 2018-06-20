@@ -7,7 +7,6 @@ milnes1973:
   params:
     Ed: Ec-0.22
 
-
 milnes1973_1:
   title: Deep impurities in semiconductors
   ISBN: 978-0-471-60670-3
@@ -15,7 +14,6 @@ milnes1973_1:
   comments: Figure 2.1
   params:
     Ed: Ec-0.30
-
 
 milnes1973_2:
   title: Deep impurities in semiconductors
@@ -25,15 +23,13 @@ milnes1973_2:
   params:
     Ed: Ec-0.37
 
-
 chen1980:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105
   measurement_technique: Review
   comments: Figure 4
   params:
-      Ed: Ec-0.22
-
+    Ed: Ec-0.22
 
 chen1980_1:
   title: Energy Levels in Silicon
@@ -42,7 +38,6 @@ chen1980_1:
   comments: Figure 4
   params:
     Ed: Ec-0.30
-
 
 chen1980_2:
   title: Energy Levels in Silicon

@@ -1,4 +1,13 @@
 
+Collins1957a:
+  title: Properties of Silicon Doped with Iron or Copper
+  DOI: 10.1103/PhysRev.108.1409
+  measurement_technique: Hall
+  comments: Copper was hard to manage as it precipiates. They saw two additional levels
+    Ec-0.23 and Ev+0.45, but believe it was due to contaminants in the copper.
+  params:
+    Ed: Ev+0.49
+
 milnes1973:
   title: Deep impurities in semiconductors
   ISBN: 978-0-471-60670-3
@@ -11,10 +20,8 @@ milnes1973_1:
   title: Deep impurities in semiconductors
   ISBN: 978-0-471-60670-3
   measurement_technique: Review
-  comments: 
   params:
     Ed: Ev+0.49
-
 
 milnes1973_2:
   title: Deep impurities in semiconductors
@@ -31,15 +38,6 @@ milnes1973_3:
   comments: Figure 2.1
   params:
     Ed: Ev+0.24
-
-Collins1957a:
-  title: Properties of Silicon Doped with Iron or Copper
-  DOI: 10.1103/PhysRev.108.1409
-  measurement_technique: Hall
-  comments: Copper was hard to manage as it precipiates. They saw two additional levels
-    Ec-0.23 and Ev+0.45, but believe it was due to contaminants in the copper.
-  params:
-    Ed: Ev+0.49
 
 Graff1995:
   title: Metal impurities in silicon-device fabrication

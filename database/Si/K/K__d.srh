@@ -2,30 +2,30 @@
 chen1980:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: Review of mainly Hall and DLTS
+  comments: Donor action is observed after implantation by not observed when Na is
+    introduced by diffusion.
   sample:
     incorporation: ion implantation
-  measurement_technique: Review of mainly Hall and DLTS
-  comments: Donor action is observed after implantation by not observed when Na is introduced by diffusion.
   params:
     Ed: Ec-0.04
-
 
 chen1980_2:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105
-  sample:
-    incorporation: ion implantation
   measurement_technique: Review of mainly Hall and DLTS
   comments: Taken from Figure 1
+  sample:
+    incorporation: ion implantation
   params:
     Ed: Ec-0.26
 
 chen1980_3:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105
-  sample:
-    incorporation: ion implantation
   measurement_technique: Review of mainly Hall and DLTS
   comments: Taken from Figure 1
+  sample:
+    incorporation: ion implantation
   params:
     Ed: Ev+0.35

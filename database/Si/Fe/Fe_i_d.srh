@@ -59,7 +59,6 @@ Rein2005:
     means of advanced lifetime spectroscopy
   DOI: 10.1063/1.2106017
   measurement_technique: TIDL
-  comments: null
   params:
     Ed: Ev+0.394
     dEd: 0.005

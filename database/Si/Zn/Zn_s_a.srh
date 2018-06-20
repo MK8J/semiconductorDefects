@@ -1,4 +1,11 @@
 
+Carlson1957:
+  title: Double-Acceptor Behavior of Zinc in Silicon
+  DOI: 10.1103/PhysRev.108.1390
+  measurement_technique: Hall
+  params:
+    Ed: Ev+0.32
+
 milnes1973:
   title: Deep impurities in semiconductors
   ISBN: 978-0-471-60670-3
@@ -6,14 +13,6 @@ milnes1973:
   comments: Figure 2.1
   params:
     Ed: Ev+0.31
-
-Carlson1957:
-  title: Double-Acceptor Behavior of Zinc in Silicon
-  DOI: 10.1103/PhysRev.108.1390
-  measurement_technique: Hall
-  comments: null
-  params:
-    Ed: Ev+0.32
 
 chen1980:
   title: Energy Levels in Silicon
