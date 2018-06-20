@@ -1,4 +1,13 @@
 
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: EPR, Hall
+  comments: Review paper, Assuming ESR is the same as EPR.
+  params:
+    Ed: Ec-0.23
+
 Hangleiter1987:
   title: 'Nonradiative recombination via deep impurity levels in silicon: Experiment'
   DOI: 10.1103/PhysRevB.35.9149

@@ -1,5 +1,20 @@
 
-Graff1995:
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  comments: Review paper. different techniques providing different things
+  params:
+    Ed: Ec-0.14
+
+
+chen1980_1:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  comments: Review paper. different techniques providing different things
+  params:
+    Ed: Ev+0.4
+
+Graff1995_1:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: Review of DLTS
@@ -10,7 +25,7 @@ Graff1995:
   params:
     Ed: Ec-0.47
 
-Graff1995_1:
+Graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: Review of DLTS

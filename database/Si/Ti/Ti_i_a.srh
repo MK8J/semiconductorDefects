@@ -1,12 +1,4 @@
 
-milnes1973:
-  title: Deep impurities in semiconductors
-  ISBN: 978-0-471-60670-3
-  measurement_technique: Review. Mainly Hall effect measurements
-  comments: Figure 2.1
-  params:
-    Ed: Ec-0.26
-
 Graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6

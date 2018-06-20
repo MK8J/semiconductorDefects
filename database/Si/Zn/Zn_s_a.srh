@@ -15,6 +15,13 @@ Carlson1957:
   params:
     Ed: Ev+0.32
 
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  comments: Review paper
+  params:
+    Ed: Ev+0.31
+
 Graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6

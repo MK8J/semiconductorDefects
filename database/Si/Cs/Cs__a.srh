@@ -3,7 +3,7 @@ chen1980:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105
   sample:
-    incorporation: implantation
+    incorporation: ion implantation
   measurement_technique: Review of lifetime
   comments: an implant of 10 13 Cs atoms per cm2 and subsequent anneal resulting in a lifetime reduction of 10-5 diffusion.
   params:

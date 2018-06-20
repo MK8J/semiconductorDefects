@@ -8,3 +8,21 @@ Fan1956:
   linked: Al_s_a.srh
   params:
     Ed: Ev+0.067
+
+chen1980:
+  title: Energy Levels in Silicon
+  sample:
+    incorporation: thermal
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  comments: Review paper
+  params:
+    Ed: Ev+0.47
+
+chen1980_1:
+  title: Energy Levels in Silicon
+  sample:
+    incorporation: thermal
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  comments: Review paper
+  params:
+    Ed: Ev+0.43

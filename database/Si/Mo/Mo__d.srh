@@ -22,3 +22,27 @@ milnes1973_1:
   comments: Figure 2.1, questionable if is an donor
   params:
     Ed: Ev+0.30
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: Review
+  comments: Figure 4
+  params:
+    Ed: Ec-0.3
+
+chen1980_1:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: Review
+  comments: Figure 4r
+  params:
+    Ed: Ev+0.33
+
+chen1980_2:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: Review
+  comments: Figure 4
+  params:
+    Ed: Ev+0.30

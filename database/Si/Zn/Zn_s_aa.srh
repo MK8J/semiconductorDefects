@@ -15,6 +15,13 @@ milnes1973:
   params:
     Ed: Ec-0.55
 
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  comments: Review paper, also reported thermal capture rates from which capture cross sections can be determined.
+  params:
+    Ed: Ec-0.55
+
 Graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6

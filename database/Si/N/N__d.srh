@@ -1,0 +1,20 @@
+
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  sample:
+    incorporation: ion implantation
+  comments: Review paper
+  params:
+    Ed: Ec-0.142
+
+
+chen1980_1:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  sample:
+    incorporation: ion implantation
+  comments: Review paper
+  params:
+    Ed: Ec-0.23

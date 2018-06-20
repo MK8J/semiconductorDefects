@@ -1,0 +1,10 @@
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: EPR, Hall
+  sample:
+    incorporation: thermal, quenched
+  comments: Review paper. This precipitate is neutral
+  params:
+    Ed: Ec-0.4
