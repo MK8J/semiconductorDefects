@@ -97,4 +97,6 @@ Macdonald2006:
   params:
     Ed: Ec-0.26
     sigma_e: 5e-15
+    dsigma_e: 1.5e-15
     sigma_h: 3e-15
+    dsigma_h: 1e-15

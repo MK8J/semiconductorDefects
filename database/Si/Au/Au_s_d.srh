@@ -65,12 +65,10 @@ Graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: Review of DLTS
-  comments: Taken from table 1 in the appendix. The table only provides the majority
-    carrier capture cross section. The majority carrier has been estimated from the
-    position of the defect level. e.g. if higher than the intrinsic level, it is assume
-    the majority carrier was electrons.
+  comments: Taken from table 4.11
   params:
     Ed: Ev+0.347
+    sigma_e: 1e-15/3*(T^(-2/2.5))
     sigma_h: 2.7e-15
 
 Graff2000:
@@ -81,5 +79,5 @@ Graff2000:
   params:
     Ed: Ev+0.34
     dEd: 0.02
-    sigma_e: '2.5e-15'
-    sigma_h: '2.7e-15'
+    sigma_e: '2.7e-15'
+    sigma_h: '2.5e-15'
