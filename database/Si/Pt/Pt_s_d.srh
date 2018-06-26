@@ -23,7 +23,7 @@ Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: Review of DLTS
-  comments: Taken from table 4.10. DLTS done at a temperature of 160K
+  comments: Taken from table 4.10. DLTS done at a temperature of 160K. Temperature dependence of simga_h does not provide value in table.
   params:
     Ed: Ev+0.32
     dEd: 0.01

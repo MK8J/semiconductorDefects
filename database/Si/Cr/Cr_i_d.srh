@@ -72,7 +72,7 @@ Sun2014:
   title: Reassessment of the recombination parameters of chromium in n- and p-type
     crystalline silicon and chromium-boron pairs in p-type crystalline silicon
   DOI: 10.1063/1.4881497
-  measurement_technique: TIN-LS
+  measurement_technique: LS-TIN
   comments: Only determined K, but estimated capture cross section from comparison
     of other papers.
   params:
