@@ -7,6 +7,18 @@ chen1980:
   params:
     Ed: Ec-0.23
 
+davis1980:
+  title: Impurities in silicon solar cells
+  DOI: 10.1109/T-ED.1980.19922
+  measurement_technique: DLTS, SCP
+  sample:
+    growth: Cz
+    dopant: B,P
+    incorporation: melt
+  params:
+    Ed: Ec-0.25
+    dEd: 0.1
+
 graff1983:
   title: Chromium and chromium-boron pairs in silicon
   DOI: 10.1007/BF00620536

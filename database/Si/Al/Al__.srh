@@ -26,3 +26,30 @@ chen1980_1:
     incorporation: thermal
   params:
     Ed: Ev+0.43
+
+davis1980:
+  title: Impurities in silicon solar cells
+  DOI: 10.1109/T-ED.1980.19922
+  measurement_technique: DLTS, SCP
+  sample:
+    growth: Cz
+    dopant: B,P
+    incorporation: melt
+  params:
+    Ed: Ev+0.43
+    dEd: 0.05
+    sigma_e: 1.4e-14
+    sigma_h: 5.7e-15
+    k: 2.5
+
+davis1980_1:
+  title: Impurities in silicon solar cells
+  DOI: 10.1109/T-ED.1980.19922
+  measurement_technique: DLTS, SCP
+  sample:
+    growth: Cz
+    dopant: B,P
+    incorporation: melt
+  params:
+    Ed: Ev+0.47
+    dEd: 0.03

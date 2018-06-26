@@ -66,6 +66,8 @@ The crystal site abbreviation currently used are:
 
   - s: substitutional
   - i: interstitial
+  - v: vacancy
+  - p: precipitate
 
 The abbreviations for the defect charge state are:
 
@@ -73,8 +75,8 @@ The abbreviations for the defect charge state are:
     and -1.
   - a: acceptor. The defect can change been a net charge of -1 and 0.
   - d: donor. The defect can change been a net charge of 0 and 1.
-  - dd: double donor. The defect can change been a net charge of 1 and
-    2.
+  - dd: double donor. The defect can change been a net charge of 1 and 2.
+  - ddd: triple donor. The defect can change between a net charge of 2 and 3
 
 The “.srh” file is an ASCII file written in plain text. The structure of
 its contents is described in the following subsection.
@@ -166,6 +168,7 @@ abbreviation:
     include:
       - S - spectral
       - T - measurement of trapping time constants
+6. SCP: Solar cell performance. This involves making solar cells from contaminated material and evaluating the impact of the impurity on the finial device performance. 
 
 #### comments
 

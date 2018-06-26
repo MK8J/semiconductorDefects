@@ -1,4 +1,16 @@
 
+davis1980:
+  title: Impurities in silicon solar cells
+  DOI: 10.1109/T-ED.1980.19922
+  measurement_technique: DLTS, SCP
+  sample:
+    growth: Cz
+    dopant: B,P
+    incorporation: melt
+  params:
+    Ed: Ev+0.4
+    dEd: 0.02
+
 roth2008:
   title: Analysis of electrically active defects in silicon for solar cells
   ISBN: 3868530363, 9783868530360
