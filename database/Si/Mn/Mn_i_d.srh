@@ -10,3 +10,13 @@ Graff1995:
   params:
     Ed: Ec-0.42
     sigma_e: 9e-17 * exp(0)
+
+Graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: Review of DLTS
+  comments: Taken from table 5.5. Peak in DLTS at 200K
+  params:
+    Ed: Ec-0.43
+    dEd: 0.02
+    sigma_e: 3.1e-15 * exp(0)

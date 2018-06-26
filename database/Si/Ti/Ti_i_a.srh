@@ -20,3 +20,16 @@ Graff2000:
     Ed: Ec-0.08
     dEd: 0.01
     sigma_e: 3.5e-14
+
+roth2008:
+  title: Analysis of electrically active defects in silicon for solar cells
+  ISBN: 3868530363, 9783868530360
+  measurement_technique: LS-T
+  comments: Temperature dependance of some sigma is T^-1.7
+  sample:
+    growth: FZ
+    dopant: B
+    incorporation: melt
+  params:
+    Ed: Ec-0.08
+    dEd: 0.02,0.05

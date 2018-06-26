@@ -30,3 +30,17 @@ chen1980_3:
     Unsure the difference with DLTS, e.g. the use of a bias.
   params:
     Ed: Ev+0.216
+
+roth2008:
+  title: Analysis of electrically active defects in silicon for solar cells
+  ISBN: 3868530363, 9783868530360
+  measurement_technique: DLTS, LS-I
+  sample:
+    growth: CZ
+    incorporation: melt
+  params:
+    Ed: Ev+0.44
+    dEd: '0.02'
+    sigma_e: '3.10E-10'
+    sigma_h: 3.6e-13
+    k: 861
