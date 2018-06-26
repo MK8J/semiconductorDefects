@@ -18,19 +18,19 @@ milnes1973_1:
 Graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
-  measurement_technique: Review of DLTS
-  comments: Taken from table 1 in the appendix. The table only provides the majority
-    carrier capture cross section. The majority carrier has been estimated from the
-    position of the defect level. e.g. if higher than the intrinsic level, it is assume
-    the majority carrier was electrons.
+  measurement_technique: Review, DLTS
+  comments: Taken from table 4.10.
   params:
     Ed: Ec-0.24
-    sigma_e: 4/530*1e-14
+    sigma_e: 267e-14
+    dsigma_e: 263e-14
+    sigma_h: 26.5e-15
+    dsigma_h: 23.5e-15
 
 Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
-  measurement_technique: Review of DLTS
+  measurement_technique: Review, DLTS
   comments: Taken from table 4.10. DLTS done at a temperature of 110K
   params:
     Ed: Ec-0.23
