@@ -5,8 +5,8 @@ Hangleiter1987:
   measurement_technique: DLTS, luminescence,
   comments: Assumed a thermal velocity of (2e7 *(T/300)^(0.5))
   params:
-    sigma_e: 3e-7*(300/T)**(-0.6)/(2e7 *(T/300)**(0.5))
-    sigma_h: 3e-8*(300/T)**(-0.6)/(2e7 *(T/300)**(0.5))
+    sigma_e: 3e-7*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))
+    sigma_h: 3e-8*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))
 
 Graff1995:
   title: Metal impurities in silicon-device fabrication
@@ -97,4 +97,6 @@ Macdonald2006:
   params:
     Ed: Ec-0.26
     sigma_e: 5e-15
+    dsigma_e: 1.5e-15
     sigma_h: 3e-15
+    dsigma_h: 1e-15

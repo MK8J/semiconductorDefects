@@ -18,5 +18,5 @@ Wertheim1958:
   comments: Was not sure what the defect is, but it is in indium doped Silicon. This
     turned out to be an acceptor level
   params:
-    sigma_e: 1.1e-14*T**(-1)
-    sigma_h: 1.5e-9*T**(-2)
+    sigma_e: 1.1e-14*T^(-1)
+    sigma_h: 1.5e-9*T^(-2)

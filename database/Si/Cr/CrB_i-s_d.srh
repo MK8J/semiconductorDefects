@@ -1,8 +1,10 @@
+
 graff1983:
   title: Chromium and chromium-boron pairs in silicon
   DOI: 10.1007/BF00620536
   measurement_technique: DLTS, NA, sPL, EPR
-  comments: no thermal velocity was provided, it was assumed a thermal velocity of 2.046e7.
+  comments: no thermal velocity was provided, it was assumed a thermal velocity of
+    2.046e7.
   params:
     Ed: Ev+0.28
     sigma_h: 1e-14
@@ -14,8 +16,8 @@ Hangleiter1987:
   measurement_technique: DLTS, luminescence
   comments: Assumed a thermal velocity of (2e7 *(T/300)^(0.5))
   params:
-    sigma_e: 6e-7*(300/T)**(-1.2)/(2e7 *(T/300)**(0.5))
-    sigma_h: 2e-7*(300/T)**(-1.2)/(2e7 *(T/300)**(0.5))
+    sigma_e: 6e-7*(300/T)^(-1.2)/(2e7 *(T/300)^(0.5))
+    sigma_h: 2e-7*(300/T)^(-1.2)/(2e7 *(T/300)^(0.5))
 
 Graff1995:
   title: Metal impurities in silicon-device fabrication
@@ -29,14 +31,15 @@ Graff1995:
     Ed: Ev+0.27
 
 mishra1996:
-  title: Identification of Cr in p‐type silicon using the minority carrier lifetime measurement by the surface photovoltage method
+  title: "Identification of Cr in p\u2010type silicon using the minority carrier lifetime\
+    \ measurement by the surface photovoltage method"
   DOI: 10.1063/1.116574
   measurement_technique: DLTS, LS-D
-  comments: no thermal velocity was provided, it was assumed a thermal velocity of 2.046e7.
+  comments: no thermal velocity was provided, it was assumed a thermal velocity of
+    2.046e7.
   params:
     Ed: Ev+0.27
     sigma_e: 1.5e-6/2.046e7
-
 
 Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication

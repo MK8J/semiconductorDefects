@@ -107,5 +107,5 @@ Paudyal2010:
   params:
     Ed: Ev+0.375
     dEd: 0.03
-    sigma_e: 4.21e-8*T**(-2.95)
-    sigma_h: 6.05e-14*T**(-1.07)
+    sigma_e: 4.21e-8*T^(-2.95)
+    sigma_h: 6.05e-14*T^(-1.07)

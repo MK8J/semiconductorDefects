@@ -1,0 +1,9 @@
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  comments: Different values achieved from depletion layer thermionic messions
+  params:
+    Ed: Ec-0.35
+    dEd: 0.05
+    sigma_h: '1.00E-17'

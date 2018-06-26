@@ -1,0 +1,21 @@
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  params:
+    Ed: Ec-0.23
+    sigma_e: '6.00E-17'
+
+chen1980_1:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  params:
+    Ed: Ec-0.41
+    sigma_e: '1.62E-16'
+
+chen1980_2:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  params:
+    Ed: Ev+0.27
+    dEd: 0.01

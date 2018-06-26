@@ -14,7 +14,7 @@ Hangleiter1987:
   measurement_technique: DLTS, luminescence,
   comments: Assumed a thermal velocity of (2e7 *(T/300)^(0.5))
   params:
-    sigma_h: 2e-8*(300/T)**(-0.6)/(2e7 *(T/300)**(0.5))
+    sigma_h: 2e-8*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))
 
 Graff1995:
   title: Metal impurities in silicon-device fabrication
@@ -66,12 +66,11 @@ Rein2005:
     k: '51.0'
     dk: 5
 
-
 macdonald2008:
-  title: Imaging interstitial iron concentrations in boron-doped crystalline silicon using photoluminescence
+  title: Imaging interstitial iron concentrations in boron-doped crystalline silicon
+    using photoluminescence
   DOI: 10.1063/1.2903895
   measurement_technique: LS
   comments: Performed at room temperature
   params:
-    Ed: None
     sigma_e: 1.3e-14

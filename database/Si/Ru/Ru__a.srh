@@ -1,0 +1,10 @@
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  comments: At 77K, different crystal site from the other Ru defect by chen1980
+  params:
+    Ed: Ec-0.2
+    dEd: 0.02
+    sigma_e: '8.00E-16'
+    sigma_h: '4.45E-15'

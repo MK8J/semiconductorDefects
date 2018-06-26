@@ -6,3 +6,11 @@ milnes1973:
   comments: Figure 2.1
   params:
     Ed: Ev+0.34
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  comments: Assumed thermal velocity of 2e7
+  params:
+    Ed: Ec-0.22
+    sigma_e: 0.0000000027/2e7
