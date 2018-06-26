@@ -1,0 +1,19 @@
+Inglese2016:
+  title: Recombination activity of light-activated copper defects in p-type silicon studied by injection- and temperature-dependent lifetime spectroscopy
+  DOI: 10.1063/1.4963121
+  measurement_technique: LS-TI
+  comments:  
+  params:
+    Ed: Ec-0.15
+    dEd: 0.05
+    k: 0.1
+
+
+Macdonald2003:
+  title: Temperature- and injection-dependent lifetime spectroscopy of copper- related defects in silicon
+  ISBN: 4-9901816-0-3
+  measurement_technique: LS-TI
+  comments:  
+  params:
+    Ed: Ec-0.2
+    k: 0.015
