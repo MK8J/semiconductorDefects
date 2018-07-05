@@ -141,14 +141,7 @@ defect properties. If several techniques are used, they are just comma
 separated. These are recorded in the repository using the following
 abbreviation:
 
-1.  LS: Lifetime spectroscopy. This can be performed in different ways.
-    These ways are depicted as suffixes, being:
-      - D - doping dependent,
-      - I - represents Injection dependent,
-      - N - samplings with varying number of defects. Unlike other
-        techniques the number of defects affects the measured value.
-      - T - temperature
-    dependent,
+
 2.  [DLTS](https://en.wikipedia.org/wiki/Deep-level_transient_spectroscopy):
     Deep level transient spectroscopy. There are many varients on DLTS,
     again these are separated by providing different suffixes, being:
@@ -166,7 +159,13 @@ abbreviation:
     include:
       - S - spectral
       - T - measurement of trapping time constants
-
+1.  LS: Lifetime spectroscopy. This can be performed in different ways.
+    These ways are depicted as suffixes, being:
+      - D - doping dependent,
+      - I - represents Injection dependent,
+      - N - samplings with varying number of defects. Unlike other
+        techniques the number of defects affects the measured value.
+      - T - temperature dependent,
 #### comments
 
 Any comments about the file that maybe helpful.

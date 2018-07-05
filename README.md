@@ -96,6 +96,11 @@ W\_s\_s.srh:
       title: Metal impurities in silicon-device fabrication
       DOI: 10.1007/978-3-642-97593-6
       measurement_technique: Review, DLTS
+      sample:
+        growth: CZ
+        dopant: boron
+        resistivity: 1
+        incorporation: ion implantation      
       comments: Taken from table 1 in the appendix. The table only provides
           the majority carrier capture cross section. The majority carrier has
           been estimated from the position of the defect level. e.g. if higher
@@ -136,6 +141,14 @@ example is:
 TODO: The problem with this notation is when several samples are used. A
 better way is to recorded this information.
 
+options:
+
+  * growth: CZ, FZ, cast
+  * dopant: elemental names all lower case and comma separated, e.g. boron, phorphous, aluminum
+  * resistivity: resistivity in &Omega;.cm. If several samples are used comma separate them. If a range of resistivities are provided simply write that range, e.g. 3, 50, 1-10
+  * incorporation: options are: melt, thermal, ion implantation
+
+
 #### measurement\_technique
 
 There are a range of techniques that have been used to determine these
@@ -168,7 +181,7 @@ abbreviation:
     include:
       - S - spectral
       - T - measurement of trapping time constants
-6. SCP: Solar cell performance. This involves making solar cells from contaminated material and evaluating the impact of the impurity on the finial device performance. 
+6. SCP: Solar cell performance. This involves making solar cells from contaminated material and evaluating the impact of the impurity on the finial device performance.
 
 #### comments
 

@@ -5,7 +5,7 @@ davis1980:
   measurement_technique: DLTS, SCP
   comments: Tentative data
   sample:
-    growth: Cz
+    growth: CZ
     dopant: B,P
     incorporation: melt
   params:

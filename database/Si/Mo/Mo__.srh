@@ -4,7 +4,7 @@ davis1980:
   DOI: 10.1109/T-ED.1980.19922
   measurement_technique: DLTS, SCP
   sample:
-    growth: Cz
+    growth: CZ
     dopant: B,P
     incorporation: melt
   params:
