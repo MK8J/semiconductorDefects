@@ -5,7 +5,7 @@ chen1980:
   measurement_technique: hall, DLTS
   comments: Review paper.
   params:
-    Ed: Ec-0-07
+    Ed: Ec-0.07
 
 Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
