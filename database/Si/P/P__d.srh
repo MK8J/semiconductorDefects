@@ -3,24 +3,12 @@ Schibli1968:
   title: Lifetime and capture cross-section studies of deep impurities in silicon
   DOI: 10.1016/0025-5416(68)90036-0
   measurement_technique: review
-  comments: 250-350 K
   params:
-    sigma_e: '1.50E-15'
-    sigma_h: '3.00E-16'
+    sigma_e: '8.00E-12'
+    sigma_h: '2.00E-14'
 
 Schibli1968_1:
   title: Lifetime and capture cross-section studies of deep impurities in silicon
   DOI: 10.1016/0025-5416(68)90036-0
   measurement_technique: review
-  comments: 250-350 K
-  params:
-    sigma_h: '7.00E-16'
-
-milnes1973:
-  title: Deep impurities in semiconductors
-  ISBN: 978-0-471-60670-3
-  measurement_technique: Review
-  linked: Fe_i_d.srh
-  comments: Figure 2.1, suggested is interstitial
-  params:
-    Ed: Ev+0.4
+  params: {}

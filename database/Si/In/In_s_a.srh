@@ -1,4 +1,114 @@
 
+Schibli1968:
+  title: Lifetime and capture cross-section studies of deep impurities in silicon
+  DOI: 10.1016/0025-5416(68)90036-0
+  measurement_technique: LS
+  comments: 300 K
+  params:
+    sigma_e: 3.7E-017*(T/300)^(-1)
+    sigma_h: 0.000000000000017*(T/300)^(-2)
+
+Schibli1968_1:
+  title: Lifetime and capture cross-section studies of deep impurities in silicon
+  DOI: 10.1016/0025-5416(68)90036-0
+  measurement_technique: LS
+  comments: '> 125 K'
+  params:
+    sigma_e: '1.00E-19'
+    sigma_h: '1.00E-18'
+
+Schibli1968_10:
+  title: Lifetime and capture cross-section studies of deep impurities in silicon
+  DOI: 10.1016/0025-5416(68)90036-0
+  measurement_technique: LS
+  comments: 77 K
+  params:
+    sigma_h: '3.00E-06'
+    dsigma_h: 1.0e-06
+
+Schibli1968_11:
+  title: Lifetime and capture cross-section studies of deep impurities in silicon
+  DOI: 10.1016/0025-5416(68)90036-0
+  measurement_technique: LS
+  comments: 78 K
+  params:
+    sigma_h: '1.50E-06'
+
+Schibli1968_12:
+  title: Lifetime and capture cross-section studies of deep impurities in silicon
+  DOI: 10.1016/0025-5416(68)90036-0
+  measurement_technique: LS
+  comments: 77 K,the thermal velocity assumed here is incorrect
+  params:
+    sigma_h: 0.000001/1e7*exp(0.055/kT)/exp(0.055/k/77)
+
+Schibli1968_2:
+  title: Lifetime and capture cross-section studies of deep impurities in silicon
+  DOI: 10.1016/0025-5416(68)90036-0
+  measurement_technique: LS
+  comments: 80 K
+  params:
+    sigma_e: 4E-022 * (T/80)^-3
+
+Schibli1968_3:
+  title: Lifetime and capture cross-section studies of deep impurities in silicon
+  DOI: 10.1016/0025-5416(68)90036-0
+  measurement_technique: LS
+  comments: 30 K, the thermal velocity assumed here is incorrect
+  params:
+    sigma_e: 0.000000000002/1e7*exp(0.035/kT)
+
+Schibli1968_4:
+  title: Lifetime and capture cross-section studies of deep impurities in silicon
+  DOI: 10.1016/0025-5416(68)90036-0
+  measurement_technique: LS
+  comments: 16-60K,the thermal velocity assumed here is incorrect
+  params:
+    sigma_e: 8E-015/1e7
+
+Schibli1968_5:
+  title: Lifetime and capture cross-section studies of deep impurities in silicon
+  DOI: 10.1016/0025-5416(68)90036-0
+  measurement_technique: LS
+  comments: 1.1-4.2K,the thermal velocity assumed here is incorrect
+  params:
+    sigma_e: 0.00000008/1e7
+
+Schibli1968_6:
+  title: Lifetime and capture cross-section studies of deep impurities in silicon
+  DOI: 10.1016/0025-5416(68)90036-0
+  measurement_technique: LS
+  comments: 77 K
+  params:
+    sigma_e: 9E-017*(T/77)^(-1.3)
+    sigma_h: '1.00E-13'
+
+Schibli1968_7:
+  title: Lifetime and capture cross-section studies of deep impurities in silicon
+  DOI: 10.1016/0025-5416(68)90036-0
+  measurement_technique: LS
+  comments: 77 K
+  params:
+    sigma_e: '7.00E-19'
+    sigma_h: '7.00E-14'
+
+Schibli1968_8:
+  title: Lifetime and capture cross-section studies of deep impurities in silicon
+  DOI: 10.1016/0025-5416(68)90036-0
+  measurement_technique: LS
+  comments: 77 K
+  params:
+    sigma_e: '1.00E-18'
+    sigma_h: '7.00E-14'
+
+Schibli1968_9:
+  title: Lifetime and capture cross-section studies of deep impurities in silicon
+  DOI: 10.1016/0025-5416(68)90036-0
+  measurement_technique: LS
+  comments: 25-30 K,the thermal velocity assumed here is incorrect
+  params:
+    sigma_e: 0.000000000000015/1e7
+
 milnes1973:
   title: Deep impurities in semiconductors
   ISBN: 978-0-471-60670-3
