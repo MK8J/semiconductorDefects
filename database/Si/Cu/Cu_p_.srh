@@ -1,11 +1,32 @@
+
+Macdonald2003:
+  title: Temperature- and injection-dependent lifetime spectroscopy of copper-related
+    defects in silicon
+  ISBN: 4-9901816-0-3
+  measurement_technique: LS-TI
+  comments: QSSPC
+  params:
+    Ed: Ec-0.58
+    k: 10
+
+Macdonald2003_1:
+  title: Temperature- and injection-dependent lifetime spectroscopy of copper-related
+    defects in silicon
+  ISBN: 4-9901816-0-3
+  measurement_technique: LS-TI
+  params:
+    Ed: Ec-0.2
+    k: 0.015
+
 Inglese2016:
-  title: Recombination activity of light-activated copper defects in p-type silicon studied by injection- and temperature-dependent lifetime spectroscopy
+  title: Recombination activity of light-activated copper defects in p-type silicon
+    studied by injection- and temperature-dependent lifetime spectroscopy
   DOI: 10.1063/1.4963121
   measurement_technique: LS-TI
   comments: DPSS solution 1. QSSPC
   sample:
     growth: CZ
-    dopant: boron  
+    dopant: boron
   params:
     Ed: Ec-0.48
     dEd: 0.02
@@ -13,7 +34,8 @@ Inglese2016:
     dk: 0.4
 
 Inglese2016_1:
-  title: Recombination activity of light-activated copper defects in p-type silicon studied by injection- and temperature-dependent lifetime spectroscopy
+  title: Recombination activity of light-activated copper defects in p-type silicon
+    studied by injection- and temperature-dependent lifetime spectroscopy
   DOI: 10.1063/1.4963121
   measurement_technique: LS-TI
   comments: DPSS Solution 2.  QSSPC
@@ -23,30 +45,12 @@ Inglese2016_1:
     k: 2.15
     dk: 0.4
 
-Macdonald2003:
-  title: Temperature- and injection-dependent lifetime spectroscopy of copper-related defects in silicon
-  ISBN: 4-9901816-0-3
-  measurement_technique: LS-TI
-  comments: QSSPC
-  params:
-    Ed: Ec-0.58
-    k: 10
-
 Inglese2016_2:
-  title: Recombination activity of light-activated copper defects in p-type silicon studied by injection- and temperature-dependent lifetime spectroscopy
+  title: Recombination activity of light-activated copper defects in p-type silicon
+    studied by injection- and temperature-dependent lifetime spectroscopy
   DOI: 10.1063/1.4963121
   measurement_technique: LS-TI
-  comments:  
   params:
     Ed: Ec-0.15
     dEd: 0.05
     k: 0.1
-
-Macdonald2003_1:
-  title: Temperature- and injection-dependent lifetime spectroscopy of copper- related defects in silicon
-  ISBN: 4-9901816-0-3
-  measurement_technique: LS-TI
-  comments:  
-  params:
-    Ed: Ec-0.2
-    k: 0.015

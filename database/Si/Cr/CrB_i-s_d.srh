@@ -26,8 +26,8 @@ Graff1995:
   comments: Taken from table 4.6.
   params:
     Ed: Ev+0.27
-    sigma_h: 0.95e-15
-    dsigma_h: 0.05e-15
+    sigma_h: 9.5e-16
+    dsigma_h: 5.0e-17
 
 mishra1996:
   title: "Identification of Cr in p\u2010type silicon using the minority carrier lifetime\

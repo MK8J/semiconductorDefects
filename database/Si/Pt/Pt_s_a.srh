@@ -24,8 +24,8 @@ Graff1995:
     Ed: Ec-0.24
     sigma_e: 267e-14
     dsigma_e: 263e-14
-    sigma_h: 26.5e-15
-    dsigma_h: 23.5e-15
+    sigma_h: 2.65e-14
+    dsigma_h: 2.35e-14
 
 Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication

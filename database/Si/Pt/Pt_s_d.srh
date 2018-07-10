@@ -14,9 +14,9 @@ Graff1995:
   comments: Taken from table 4.10.
   params:
     Ed: Ev+0.33
-    sigma_h: 45.5*1e-16
-    dsigma_h: 42.5e-16
     sigma_e: 1e-16
+    sigma_h: 45.5*1e-16
+    dsigma_h: 4.25e-15
 
 Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
