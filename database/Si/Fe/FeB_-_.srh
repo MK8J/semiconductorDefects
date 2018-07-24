@@ -3,8 +3,8 @@ benton1982:
   title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
   DOI: 10.1149/1.2124387
   measurement_technique: DLTS
-  comments: Emission rate at 1.8 ms at 59 K, quenched
   linked: FeB_i-s_d.srh
+  comments: Emission rate at 1.8 ms at 59 K, quenched
   sample:
     growth: FZ
   params:

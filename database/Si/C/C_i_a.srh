@@ -7,3 +7,11 @@ GLMiller1977:
   params:
     Ed: Ev+0.25
     sigma_h: 7e-18
+
+Asom1987:
+  title: Interstitial defect reactions in silicon
+  DOI: 10.1063/1.98465
+  measurement_technique: DLTS-Me, EPR
+  comments: States is ending conjecture over energy levels.
+  params:
+    Ed: Ec-0.12

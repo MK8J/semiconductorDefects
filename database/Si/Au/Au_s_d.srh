@@ -4,7 +4,6 @@ Newman1954:
   DOI: 10.1103/PhysRev.94.1530
   measurement_technique: PC-S
   comments: Same samples as Taft1954. Potentiall saw a level at Ev+0.7.
-  measurement_details: {}
   params:
     Ed: Ev+0.325
     dEd: 0.005
@@ -15,7 +14,6 @@ Taft1954:
   measurement_technique: Resistivity
   comments: Doped different samples with different amounts of gold. This is a thermal
     activation energy.
-  measurement_details: {}
   params:
     Ed: Ev+0.33
 
@@ -33,7 +31,6 @@ bemski1958:
   DOI: 10.1103/PhysRev.111.1515
   measurement_technique: LS-DINT
   comments: 200 - 500K
-  measurement_details: {}
   params:
     sigma_e: 3.5e-15*(T/300)^(-2.5)
     sigma_h: '1.00E-13'
@@ -43,7 +40,6 @@ davis1958:
   DOI: 10.1103/PhysRev.114.1006
   measurement_technique: LS
   comments: '77K. '
-  measurement_details: {}
   params:
     sigma_e: '1.00E-13'
     sigma_h: '2.00E-15'
@@ -53,7 +49,6 @@ fairfield1965:
   DOI: 10.1016/0038-1101(65)90036-5
   measurement_technique: LS-DN
   comments: 300 K
-  measurement_details: {}
   params:
     sigma_e: 0.000000063/2.046e7
     dsigma_e: 0.000000063*.25/2.046e7

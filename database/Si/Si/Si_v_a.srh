@@ -7,3 +7,10 @@ GLMiller1977:
   params:
     Ed: Ev+0.11
     sigma_h: 5e-17
+
+Asom1987:
+  title: Interstitial defect reactions in silicon
+  DOI: 10.1063/1.98465
+  measurement_technique: DLTS
+  params:
+    Ed: Ev+0.1

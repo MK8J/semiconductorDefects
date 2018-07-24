@@ -9,3 +9,11 @@ benton1982:
   params:
     Ed: Ev+0.36
     sigma_h: 8.0e-17
+
+Asom1987:
+  title: Interstitial defect reactions in silicon
+  DOI: 10.1063/1.98465
+  measurement_technique: DLTS
+  comments: Metastable, tentative assignment. Similar behavior observed in EPR.
+  params:
+    Ed: Ec-0.17
