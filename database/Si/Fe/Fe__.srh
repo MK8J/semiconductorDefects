@@ -1,0 +1,82 @@
+
+benton1982:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 181 K, quenched
+  sample:
+    growth: FZ
+  params:
+    Ed: Ec-0.35
+    sigma_e: 6.0e-15
+
+benton1982_1:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 208 K, slowly cooled
+  sample:
+    growth: FZ
+  params:
+    Ed: Ec-0.21
+
+benton1982_2:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 299 K, slowly cooled
+  sample:
+    growth: FZ
+  params:
+    Ed: Ec-0.46
+
+benton1982_3:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 184 K, slowly cooled
+  sample:
+    growth: FZ
+  params:
+    Ed: Ev+0.23
+
+benton1982_4:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 170 K, quenched
+  sample:
+    growth: CZ
+  params:
+    Ed: Ec-0.35
+    sigma_e: 5.0e-15
+
+benton1982_5:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 168 K, quenched
+  sample:
+    growth: CZ
+  params:
+    Ed: Ev+0.30
+
+benton1982_6:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 237 K, quenched
+  sample:
+    growth: CZ
+  params:
+    Ed: Ev+0.43
+
+benton1982_7:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 220 K, quenched
+  sample:
+    growth: CZ
+  params:
+    Ed: Ev+0.47

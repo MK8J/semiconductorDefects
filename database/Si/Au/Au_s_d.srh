@@ -4,9 +4,7 @@ Newman1954:
   DOI: 10.1103/PhysRev.94.1530
   measurement_technique: PC-S
   comments: Same samples as Taft1954. Potentiall saw a level at Ev+0.7.
-  sample:
-    growth: CZ
-    dopant: boron
+  measurement_details: {}
   params:
     Ed: Ev+0.325
     dEd: 0.005
@@ -17,9 +15,7 @@ Taft1954:
   measurement_technique: Resistivity
   comments: Doped different samples with different amounts of gold. This is a thermal
     activation energy.
-  sample:
-    growth: CZ
-    dopant: boron
+  measurement_details: {}
   params:
     Ed: Ev+0.33
 
@@ -37,11 +33,7 @@ bemski1958:
   DOI: 10.1103/PhysRev.111.1515
   measurement_technique: LS-DINT
   comments: 200 - 500K
-  sample:
-    growth: CZ
-    dopant: boron, phorphous
-    incorporation: melt
-    resistivity: 50-1000
+  measurement_details: {}
   params:
     sigma_e: 3.5e-15*(T/300)^(-2.5)
     sigma_h: '1.00E-13'
@@ -51,10 +43,7 @@ davis1958:
   DOI: 10.1103/PhysRev.114.1006
   measurement_technique: LS
   comments: '77K. '
-  sample:
-    growth: CZ
-    dopant: boron, phorphous
-    incorporation: melt
+  measurement_details: {}
   params:
     sigma_e: '1.00E-13'
     sigma_h: '2.00E-15'
@@ -64,11 +53,7 @@ fairfield1965:
   DOI: 10.1016/0038-1101(65)90036-5
   measurement_technique: LS-DN
   comments: 300 K
-  sample:
-    growth: CZ
-    dopant: boron, phorphous
-    incorporation: melt, diffusion
-    resistivity: 0.1-5
+  measurement_details: {}
   params:
     sigma_e: 0.000000063/2.046e7
     dsigma_e: 0.000000063*.25/2.046e7
@@ -82,6 +67,17 @@ milnes1973:
   comments: Figure 2.1
   params:
     Ed: Ev+0.35
+
+benton1982_1:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 173 K, quenched
+  sample:
+    growth: FZ
+  params:
+    Ed: Ev+0.35
+    sigma_h: 9.999999999999999e-16
 
 Hangleiter1987:
   title: 'Nonradiative recombination via deep impurity levels in silicon: Experiment'

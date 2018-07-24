@@ -17,6 +17,17 @@ chen1980:
   params:
     Ed: Ec-0.29
 
+benton1982:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 286 K, quenched
+  sample:
+    growth: FZ
+  params:
+    Ed: Ec-0.51
+    sigma_e: 1.0e-16
+
 Graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
