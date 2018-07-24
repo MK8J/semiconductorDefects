@@ -9,25 +9,44 @@ The information currently stored in the repository is currently limited
 to Shockley Read Hall parameterization, which allow calculation of how
 electron and holes electronically interact with the defect.
 
+## Referencing
+
+If you use this, please reference our work:
+
+M. Juhl et al., “AN OPEN SOURCE BASED REPOSITORY FOR DEFECTS IN
+SILICON,” presented at the 7th World Conference on Photovoltaic Energy
+Conversion, Hawaii, 2018.
+
 ## Shockley Read Hall parameterization
 
 The Shockley Read Hall parameterisation assumes that there is a level
 within the forbidden region in a semiconductor’s through which electrons
 and holes can pass. A schematic of such a defect is shown in Figure
-[1](#fig:SRH).
+@fig:SRH.
 
-![Figure 1: Shockley Read Hall description of a single defect level.
-Here E<sub>c</sub> is the condition band edge, E<sub>v</sub> is the
-valance bade edge, E<sub>i</sub> is the intrinsic level of the
-semiconductor, E<sub>d</sub> is the energy level of the defect, G is the
-generation of free carriers, k is Boltzmann constant, and T is the
-temperature. The remaining terms are specific for electrons and holes as
-depicted by their subscripts being e and h, respectively. These
-remaining terms are: c is a capture rate of particles, e is an emission
-rate of particles, σ is the capture cross section, n is the number of
-free particles (electrons in the conduction band or holes in the valance
-band), N<sub>d</sub> is the number of defects filled with a spectific
-particle](./images/Defect.png)
+![Shockley Read Hall description of a single defect level. Here
+E<sub>c</sub> is the condition band edge, E<sub>v</sub> is the valance
+bade edge, E<sub>i</sub> is the intrinsic level of the semiconductor,
+E<sub>d</sub> is the energy level of the defect, G is the generation of
+free carriers, k is Boltzmann constant, and T is the temperature. The
+remaining terms are specific for electrons and holes as depicted by
+their subscripts being e and h, respectively. These remaining terms are:
+c is a capture rate of particles, e is an emission rate of particles, σ
+is the capture cross section, n is the number of free particles
+(electrons in the conduction band or holes in the valance band),
+N<sub>d</sub> is the number of defects filled with a spectific
+particle](./images/Defect.png) *Shockley Read Hall description of a
+single defect level. Here E<sub>c</sub> is the condition band edge,
+E<sub>v</sub> is the valance bade edge, E<sub>i</sub> is the intrinsic
+level of the semiconductor, E<sub>d</sub> is the energy level of the
+defect, G is the generation of free carriers, k is Boltzmann constant,
+and T is the temperature. The remaining terms are specific for electrons
+and holes as depicted by their subscripts being e and h, respectively.
+These remaining terms are: c is a capture rate of particles, e is an
+emission rate of particles, σ is the capture cross section, n is the
+number of free particles (electrons in the conduction band or holes in
+the valance band), N<sub>d</sub> is the number of defects filled with a
+specific particle*
 
 The Shockley Read Hall parameterization of a defect has three values,
 all of which should be assumed to be temperature dependent:
@@ -51,12 +70,14 @@ notation. This should be improved both here and in literature.
 
 The information is stored in both the file structure and the finial text
 files within the repository. The file structure of the repository is
-illustrated in Figure [2](#fig:structure). The repository has two nested
+illustrated in Figure @fig:structure. The repository has two nested
 folders, with the text file in the finial folder.
 
-![Figure 2: Folder and file structure of the repository. Square boxes
-represent a folder, while hexagonal boxes represent text
-files.](./images/FolderStructure.png)
+![Folder and file structure of the repository. Square boxes represent a
+folder, while hexagonal boxes represent text
+files.](./images/FolderStructure.png) *Folder and file structure of the
+repository. Square boxes represent a folder, while hexagonal boxes
+represent text files.*
 
 The naming convention for the file are now detailed. The first element
 written corresponds to the folder that the file is in. Following this
@@ -75,8 +96,10 @@ The abbreviations for the defect charge state are:
     and -1.
   - a: acceptor. The defect can change been a net charge of -1 and 0.
   - d: donor. The defect can change been a net charge of 0 and 1.
-  - dd: double donor. The defect can change been a net charge of 1 and 2.
-  - ddd: triple donor. The defect can change between a net charge of 2 and 3
+  - dd: double donor. The defect can change been a net charge of 1 and
+    2.
+  - ddd: triple donor. The defect can change been a net charge of 2 and
+    3.
 
 The “.srh” file is an ASCII file written in plain text. The structure of
 its contents is described in the following subsection.
@@ -95,12 +118,12 @@ W\_s\_s.srh:
     Graff1995_1:
       title: Metal impurities in silicon-device fabrication
       DOI: 10.1007/978-3-642-97593-6
-      measurement_technique: Review, DLTS
+      measurement_technique: Review of DLTS
       sample:
         growth: CZ
         dopant: boron
         resistivity: 1
-        incorporation: ion implantation      
+        incorporation: ion implantation
       comments: Taken from table 1 in the appendix. The table only provides
           the majority carrier capture cross section. The majority carrier has
           been estimated from the position of the defect level. e.g. if higher
@@ -138,16 +161,26 @@ example is:
       resistivity: 1
       incorporation: ion implantation
 
+The inputs for incorporation are:
+
+  - ion implantation: as the name suggests
+  - ingot: This means it is incorporated during ingot growth
+  - thermal: This means it is incorporated into the wafter with a
+    thermal step
+  - quenched: Refers to a fast cooling after thermal incorporation.
+
 TODO: The problem with this notation is when several samples are used. A
 better way is to recorded this information.
 
 options:
 
-  * growth: CZ, FZ, cast
-  * dopant: elemental names all lower case and comma separated, e.g. boron, phorphous, aluminum
-  * resistivity: resistivity in &Omega;.cm. If several samples are used comma separate them. If a range of resistivities are provided simply write that range, e.g. 3, 50, 1-10
-  * incorporation: options are: melt, thermal, ion implantation
-
+  - growth: CZ, FZ, cast
+  - dopant: elemental names all lower case and comma separated,
+    e.g. boron, phorphous, aluminum
+  - resistivity: resistivity in Ω.cm. If several samples are used comma
+    separate them. If a range of resistivities are provided simply write
+    that range, e.g. 3, 50, 1-10
+  - incorporation: options are: melt, thermal, ion implantation
 
 #### measurement\_technique
 
@@ -156,32 +189,37 @@ defect properties. If several techniques are used, they are just comma
 separated. These are recorded in the repository using the following
 abbreviation:
 
-1.  LS: Lifetime spectroscopy. This can be performed in different ways.
-    These ways are depicted as suffixes, being:
-      - D - doping dependent,
-      - I - represents Injection dependent,
-      - N - samplings with varying number of defects. Unlike other
-        techniques the number of defects affects the measured value.
-      - T - temperature
-    dependent,
-2.  [DLTS](https://en.wikipedia.org/wiki/Deep-level_transient_spectroscopy):
+1.  [DLTS](https://en.wikipedia.org/wiki/Deep-level_transient_spectroscopy):
     Deep level transient spectroscopy. There are many varients on DLTS,
     again these are separated by providing different suffixes, being:
       - O - optical DLTS.
       - L - Laplace DLTS
       - D - Double correlations
     DLTS
-3.  [Hall](https://www.nist.gov/pml/engineering-physics-division/popular-links/hall-effect/hall-effect):
+2.  [Hall](https://www.nist.gov/pml/engineering-physics-division/popular-links/hall-effect/hall-effect):
     Temperature dependent ionized dopant concentration via the hall
     effect.
-4.  Photocurrent: Measurement of the current from a device. Suffixes
+3.  Photocurrent: Measurement of the current from a device. Suffixes
     include:
       - S - spectral
-5.  PC: Measurement of the photoconductivity from a device. Suffixes
+4.  PC: Measurement of the photoconductivity from a device. Suffixes
     include:
       - S - spectral
-      - T - measurement of trapping time constants
-6. SCP: Solar cell performance. This involves making solar cells from contaminated material and evaluating the impact of the impurity on the finial device performance.
+      - Tr - measurement of trapping time constants
+      - N - samples with varying number of defects
+5.  SCP: Solar cell performance. This involves making solar cells from
+    contaminated material and evaluating the impact of the impurity on
+    the finial device performance.
+6.  Res: Resistivity measurements: Suffixes
+      - T - temperature
+7.  LS: Lifetime spectroscopy. This can be performed in different ways.
+    These ways are depicted as suffixes, being:
+      - D - doping dependent,
+      - I - represents Injection dependent,
+      - N - samplings with varying number of defects. Unlike other
+        techniques the number of defects affects the measured value.
+      - T - temperature dependent
+      - M - accounting for a single defect having multiple levels
 
 #### comments
 
