@@ -52,3 +52,13 @@ benton1982_2:
   params:
     Ed: Ev+0.21
     sigma_h: 2.0e-16
+
+Asom1987:
+  title: Interstitial defect reactions in silicon
+  DOI: 10.1063/1.98465
+  measurement_technique: DLTS
+  comments: Has three configurations. State 2
+  measurement_details:
+    T: 125 K
+  params:
+    Ed: Ec-0.23

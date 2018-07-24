@@ -5,6 +5,8 @@ Asom1987:
   measurement_technique: DLTS
   comments: Has three configurations. State 1. There is inconsistances within the
     paper, say 0.29 and 0.27 in different places.
+  measurement_details:
+    T: 175 K
   params:
     Ed: Ec-0.29
 
@@ -13,6 +15,8 @@ Asom1987_1:
   DOI: 10.1063/1.98465
   measurement_technique: DLTS
   comments: Has three configurations. State 1
+  measurement_details:
+    T: 125 K
   params:
     Ed: Ec-0.23
 

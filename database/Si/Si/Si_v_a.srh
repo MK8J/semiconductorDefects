@@ -1,4 +1,13 @@
 
+Kimerling1976:
+  title: New Developments in Defect Studies in Semiconductors
+  DOI: 10.1109/TNS.1976.4328529
+  measurement_technique: DLTS, EPR
+  comments: Out at 150K
+  params:
+    Ed: Ev+0.11
+    sigma_h: 5e-17
+
 GLMiller1977:
   title: Capacitance Transient Spectroscopy
   DOI: 10.1146/annurev.ms.07.080177.002113

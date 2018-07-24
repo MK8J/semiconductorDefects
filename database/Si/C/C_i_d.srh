@@ -1,8 +1,18 @@
 
+Kimerling1976:
+  title: New Developments in Defect Studies in Semiconductors
+  DOI: 10.1109/TNS.1976.4328529
+  measurement_technique: DLTS, EPR
+  params:
+    Ed: Ev+0.27
+    sigma_h: 7e-18
+
 Asom1987:
   title: Interstitial defect reactions in silicon
   DOI: 10.1063/1.98465
   measurement_technique: DLTS-Me, EPR
   comments: States is ending conjecture over energy levels.
+  measurement_details:
+    T: 150 K
   params:
     Ed: Ev+0.27

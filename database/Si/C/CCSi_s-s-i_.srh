@@ -5,5 +5,7 @@ Asom1987:
   measurement_technique: DLTS
   comments: Metastable, stated that the existence is confirmed by optically detected
     magneto resonance.
+  measurement_details:
+    T: 55 K
   params:
     Ed: Ec-0.1

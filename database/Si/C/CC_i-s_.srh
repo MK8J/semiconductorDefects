@@ -15,5 +15,7 @@ Asom1987:
   DOI: 10.1063/1.98465
   measurement_technique: DLTS
   comments: Metastable, tentative assignment. Similar behavior observed in EPR.
+  measurement_details:
+    T: 75 K
   params:
     Ed: Ec-0.17
