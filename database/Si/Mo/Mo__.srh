@@ -18,12 +18,12 @@ benton1999:
   title: Behavior of Molybdenum in Silicon Evaluated for Integrated Circuit Processing
   DOI: 10.1149/1.1391868
   measurement_technique: DLTS
+  comments: Measured lifetime, but did not extract minority capture cross sections.
   sample:
     growth: FZ
     dopant: boron
-    resistivity: 10
     incorporation: ion implantation
-  comments: Measured lifetime, but did not extract minority capture cross sections.
+    resistivity: 10
   params:
     Ed: Ev+0.30
     sigma_h: 5.5e-16
