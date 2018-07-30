@@ -5,7 +5,7 @@ davis1980:
   measurement_technique: DLTS, SCP
   sample:
     growth: CZ
-    dopant: B,P
+    dopant: boron, phorphous
     incorporation: melt
   params:
     Ed: Ev+0.3
@@ -13,3 +13,17 @@ davis1980:
     sigma_e: 1.85e-14
     sigma_h: 7.8e-15
     k: 2.4
+
+benton1999:
+  title: Behavior of Molybdenum in Silicon Evaluated for Integrated Circuit Processing
+  DOI: 10.1149/1.1391868
+  measurement_technique: DLTS
+  sample:
+    growth: FZ
+    dopant: boron
+    resistivity: 10
+    incorporation: ion implantation
+  comments: Measured lifetime, but did not extract minority capture cross sections.
+  params:
+    Ed: Ev+0.30
+    sigma_h: 5.5e-16
