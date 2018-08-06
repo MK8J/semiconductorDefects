@@ -1,4 +1,17 @@
 
+Carlson1957:
+  title: Properties of Silicon Doped with Manganese
+  DOI: 10.1103/PhysRev.104.937
+  measurement_technique: Hall, R-T, PC-S
+  sample:
+    growth: CZ
+    dopant: boron
+    resistivity: 50-100
+    incorporation: ion implantation
+  params:
+    Ed: Ec-0.53
+    dEd: 0.03
+
 davis1980:
   title: Impurities in silicon solar cells
   DOI: 10.1109/T-ED.1980.19922
