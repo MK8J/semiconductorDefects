@@ -3,10 +3,12 @@ Rohatgi1980:
   title: The impact of molybdenum on silicon and silicon solar cell performance
   DOI: 10.1016/0038-1101(80)90032-5
   measurement_technique: DLTS, LS-N
-  comments: DLTS peak at 177.5K. Resistivity 4-6 Ohm.cm. Mo Place in the melt.
+  comments: DLTS peak at 177.5K. Resistivity 4-6 Ohm.cm.
   sample:
     growth: CZ
     dopant: boron
+    incorporation: melt
+    resistivity: 4-6
   params:
     Ed: Ev+0.30
     sigma_e: 1.6e-14
@@ -22,7 +24,9 @@ Hamaguchi1991:
     Mo and dopant pairing.
   sample:
     growth: FZ, CZ
-    dopant: boron, phorphous
+    dopant: boron, phosphorus
+    incorporation: diffused, melt
+    resistivity: 10
   params:
     Ed: Ev+0.31
     sigma_e: 1.6e-14
@@ -32,7 +36,7 @@ Pettersson1991:
   title: Electrical and optical properties of molybdenum and tungsten related defects
     in silicon
   DOI: 10.1088/0268-1242/6/4/002
-  measurement_technique: DLTS, photocurrent-S
+  measurement_technique: DLTS, DC-S
   comments: DLTS peak at 180K. Claims not a substitutional site. In a similar publication
     showing the same data a year later. DOI;10.1557/PROC-262-489. On Zhou's result
     of extra energy levels they say "Although, in principle, this level could originate

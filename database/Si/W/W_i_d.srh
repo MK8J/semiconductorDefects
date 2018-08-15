@@ -3,7 +3,7 @@ Pettersson1991:
   title: Electrical and optical properties of molybdenum and tungsten related defects
     in silicon
   DOI: 10.1088/0268-1242/6/4/002
-  measurement_technique: DLTS, photocurrent-S
+  measurement_technique: DLTS, DC-S
   comments: DLTS peak at 180K. Does not say what site the defect is on.
   sample:
     growth: FZ, CZ

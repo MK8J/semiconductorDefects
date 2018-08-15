@@ -19,7 +19,7 @@ davis1980:
     Ed: Ec-0.25
     dEd: 0.1
 
-graff1983:
+conzelmann1983:
   title: Chromium and chromium-boron pairs in silicon
   DOI: 10.1007/BF00620536
   measurement_technique: DLTS, NA, sPL, EPR
