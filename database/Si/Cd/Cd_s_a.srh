@@ -12,7 +12,7 @@ chen1980:
   DOI: 10.1146/annurev.ms.10.080180.001105
   comments: Review paper
   params:
-    Ed: Ec+0.55
+    Ed: Ev+0.55
 
 Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication

@@ -6,5 +6,5 @@ chen1980:
   sample:
     incorporation: ion implantation
   params:
-    Ed: Ev-0.039
+    Ed: Ec-0.039
     dEd: 0.006
