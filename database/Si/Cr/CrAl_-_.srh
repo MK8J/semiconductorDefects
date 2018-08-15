@@ -1,23 +1,11 @@
 
-benton1982:
-  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
-  DOI: 10.1149/1.2124387
-  measurement_technique: DLTS
-  linked: FeB_i-s_d.srh
-  comments: Emission rate at 1.8 ms at 59 K, quenched
-  sample:
-    growth: FZ
-  params:
-    Ed: Ev+0.10
-    sigma_h: 3.9999999999999995e-15
-
 Chantre1985:
   title: 'Metastable-defect behavior in silicon: Charge-state-controlled reorientation
     of iron-aluminum pairs'
   DOI: 10.1103/PhysRevB.31.7979
   measurement_technique: theory
   params:
-    Ed: Ev+0.1
+    Ed: Ev+0.45
 
 Chantre1985_1:
   title: 'Metastable-defect behavior in silicon: Charge-state-controlled reorientation
@@ -25,4 +13,4 @@ Chantre1985_1:
   DOI: 10.1103/PhysRevB.31.7979
   measurement_technique: theory
   params:
-    Ed: Ev+0.03
+    Ed: Ev+0.38

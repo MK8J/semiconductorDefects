@@ -1,4 +1,24 @@
 
+graff1981:
+  title: The Properties of Iron in Silicon
+  DOI: 10.1149/1.2127478
+  measurement_technique: DLTS, FTIR
+  comments: FTIR at 25 K, No AlFe peak found
+  sample:
+    growth: CZ, FZ
+    dopant: boron, phorphous, aluminum
+    incorporation: thermal
+    resistivity: 1-100
+  params:
+    Ed: Ev+0.13
+
+Weber1983:
+  title: Transition metals in silicon
+  DOI: 10.1007/BF00617708
+  measurement_technique: review
+  params:
+    Ed: Ev+0.21
+
 Graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6

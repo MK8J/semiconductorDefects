@@ -1,0 +1,14 @@
+
+rosier1971:
+  title: Thermal emission and capture of electrons at sulfur centers in silicon
+  DOI: 10.1016/0038-1101(71)90047-5
+  measurement_technique: DLTS, DC-TI
+  comments: 'Thermal emission rate of: 1.63e10(T/300)^2. Capture rates are also provided'
+  sample:
+    growth: CZ
+    dopant: phorphous
+    incorporation: thermal
+    resistivity: '5'
+  params:
+    Ed: Ec-0.275
+    dEd: 0.015

@@ -19,6 +19,13 @@ davis1980:
     Ed: Ec-0.25
     dEd: 0.1
 
+Weber1983:
+  title: Transition metals in silicon
+  DOI: 10.1007/BF00617708
+  measurement_technique: review
+  params:
+    Ed: Ec-0.22
+
 conzelmann1983:
   title: Chromium and chromium-boron pairs in silicon
   DOI: 10.1007/BF00620536

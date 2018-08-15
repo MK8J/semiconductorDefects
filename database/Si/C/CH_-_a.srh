@@ -1,0 +1,11 @@
+
+Andersen2002:
+  title: Electrical activity of carbon-hydrogen centers in Si
+  DOI: 10.1103/PhysRevB.66.235205
+  measurement_technique: DLTS-L
+  comments: 88-103 K, values taken from DLTS database http://www.laplacedlts.eu/defect/
+  sample:
+    dopant: phorphous
+  params:
+    Ed: Ec-0.16
+    sigma_e: 2.0e-16

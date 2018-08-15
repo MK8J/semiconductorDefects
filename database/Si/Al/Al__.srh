@@ -9,6 +9,54 @@ Fan1956:
   params:
     Ed: Ev+0.067
 
+marchand1977:
+  title: Study of thermally induced deep levels in Al doped Si
+  DOI: 10.1063/1.323383
+  measurement_technique: TS-I
+  comments: Maybe AlO
+  sample:
+    growth: CZ
+    dopant: Aluminium
+    resistivity: 1-100
+  params:
+    Ed: Ev+0.216
+
+marchand1977_1:
+  title: Study of thermally induced deep levels in Al doped Si
+  DOI: 10.1063/1.323383
+  measurement_technique: TS-I
+  comments: Maybe AlO
+  sample:
+    growth: CZ
+    dopant: Aluminium
+    resistivity: 1-100
+  params:
+    Ed: Ev+0.316
+
+marchand1977_2:
+  title: Study of thermally induced deep levels in Al doped Si
+  DOI: 10.1063/1.323383
+  measurement_technique: TS-I
+  comments: Maybe AlO
+  sample:
+    growth: CZ
+    dopant: Aluminium
+    resistivity: 1-100
+  params:
+    Ed: Ev+0.402
+
+marchand1977_3:
+  title: Study of thermally induced deep levels in Al doped Si
+  DOI: 10.1063/1.323383
+  measurement_technique: TS-I
+  comments: Maybe AlO
+  sample:
+    growth: CZ
+    dopant: Aluminium
+    resistivity: 1-100
+  params:
+    Ed: Ec-389
+
 chen1980:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105

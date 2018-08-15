@@ -74,6 +74,17 @@ Graff1995:
     sigma_e: '1.4e-16'
     sigma_h: 6e-15/9*T^(-1.3/1.5)
 
+Deixler1998:
+  title: "Laplace-transform deep-level transient spectroscopy studies of the G4 gold\uFFFD\
+    \uFFFD\uFFFDhydrogen complex in silicon"
+  DOI: 10.1063/1.122694
+  measurement_technique: DLTS-L
+  comments: 245-302 K, values taken from DLTS database http://www.laplacedlts.eu/defect/
+  sample:
+    dopant: phorphous
+  params:
+    Ed: Ec-0.543
+
 Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3

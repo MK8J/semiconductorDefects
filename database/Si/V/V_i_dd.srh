@@ -1,4 +1,11 @@
 
+Weber1983:
+  title: Transition metals in silicon
+  DOI: 10.1007/BF00617708
+  measurement_technique: review
+  params:
+    Ed: Ev+0.3
+
 Graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6

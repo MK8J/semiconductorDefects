@@ -10,3 +10,19 @@ benton1982:
   params:
     Ed: Ev+0.10
     sigma_h: 3.9999999999999995e-15
+
+Chantre1985:
+  title: 'Metastable-defect behavior in silicon: Charge-state-controlled reorientation
+    of iron-aluminum pairs'
+  DOI: 10.1103/PhysRevB.31.7979
+  measurement_technique: theory
+  params:
+    Ed: Ev+0.1
+
+Chantre1985_1:
+  title: 'Metastable-defect behavior in silicon: Charge-state-controlled reorientation
+    of iron-aluminum pairs'
+  DOI: 10.1103/PhysRevB.31.7979
+  measurement_technique: theory
+  params:
+    Ed: Ev+0.03
