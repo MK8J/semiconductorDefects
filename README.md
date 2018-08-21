@@ -330,7 +330,7 @@ fit. The change in refractive index was not determined. Between 0.77 and
 0.8eV in Fig. 2 there is scatter from the Lucovsky line but this may be
 caused by a change from a germanium to a silicon filter in this range.
 Defect concentration determined with CV(T). measurement\_technique:
-Bo-EQE temperature: 77.15 Fit: form: one A\_e: 7.27e-16 \# units of cm
+Bo-EQE temperature: 77.15 Fit: form: Lucovsky A\_e: 7.27e-16 \# units of cm
 power1: 3/2 \# unitless Ed: 0.77 \# units of eV power2: 3
 
 The initial value Graff1995\_1, is the author year notation commonly

@@ -6,7 +6,7 @@ okuyama1979:
   measurement_technique: EQE-Bo
   temperature: 77.15
   Fit:
-    form: one
+    form: Lucovsky
     A: 3.10e-14
     power1: 3/2
     Ed: 0.85
@@ -20,7 +20,7 @@ okuyama1979_1:
   measurement_technique: EQE-Bo
   temperature: 77.15
   Fit:
-    form: one
+    form: Lucovsky
     A: 8.06e-14
     power1: 3/2
     Ed: 0.9
