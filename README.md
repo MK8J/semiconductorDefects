@@ -37,8 +37,8 @@ Conversion, Hawaii, 2018.
 There are two ways to contribute.
 
 1.  Fork this repository, make your changes and push it back
-2.  Fill in this [csv file](example.csv) and email it to
-    mattias.juhl@gmail.com. For details of what each category means
+2.  Fill in this [csv file](example.csv) and email it
+    to mattias.juhl@gmail.com. For details of what each category means
     please see this readme.
 3.  Email the papers to mattias.juhl@gmail.com
 
@@ -46,8 +46,7 @@ There are two ways to contribute.
 
 The Shockley Read Hall parameterisation assumes that there is a level
 within the forbidden region in a semiconductor's through which electrons
-and holes can pass. A schematic of such a defect is shown in Figure
-[1](#fig:SRH).
+and holes can pass. A schematic of such a defect is shown in Figure 1.
 
 ![Figure 1: Shockley Read Hall description of a single defect level.
 Here E~c~ is the condition band edge, E~v~ is the valance bade edge,
@@ -94,8 +93,8 @@ notation. This should be improved both here and in literature.
 
 The information is stored in both the file structure and the finial text
 files within the repository. The file structure of the repository is
-illustrated in Figure [2](#fig:structure). The repository has two nested
-folders, with the text file in the finial folder.
+illustrated in Figure 2. The repository has two nested folders, with the
+text file in the finial folder.
 
 ![Figure 2: Folder and file structure of the repository. Square boxes
 represent a folder, while hexagonal boxes represent text
@@ -224,15 +223,24 @@ abbreviation:
         carriers are excited by a bias.
     -   L - Laplace DLTS
     -   D - Double correlations DLTS
-2.  TS: Thermal stimulated spectroscopy. This is when the sample
+    -   Cc - constant capacitance DLTS.
+
+2.  CV: Capacitance voltage as a function of frequency. The major
+    difference with DLTS is that this is not a transient measurement.
+    -   O - An optical biased technique where sub band-gap light was
+        used to investigate a defect.
+    -   T - The temperature was varied
+
+3.  TS: Thermal stimulated spectroscopy. This is when the sample
     temperature is increased and a value is monitored. The sample is not
     subjected to a varied biased.
     -   I - current
     -   C - capacitance
-3.  [Hall](https://www.nist.gov/pml/engineering-physics-division/popular-links/hall-effect/hall-effect):
-    Temperature dependent ionized dopant concentration via the hall
-    effect.
-4.  DC: diode current: Measurement of the current from a device.
+
+4.  [Hall](https://www.nist.gov/pml/engineering-physics-division/popular-links/hall-effect/hall-effect):
+    Temperature dependent ionized dopant concentration via the
+    hall effect.
+5.  DC: diode current: Measurement of the current from a device.
     Suffixes include:
     -   S - spectral
     -   I - impurity effect. The defect level occupation is changed
@@ -241,17 +249,20 @@ abbreviation:
     -   T - transient dark current measurement. This includes
         measurement of the reversed biased and the time constant and
         magnitude of the change in dark current is determined.
-5.  PC: Measurement of the photoconductivity from a device. Suffixes
+
+6.  PC: Measurement of the photoconductivity from a device. Suffixes
     include:
     -   S - spectral
     -   Tr - measurement of trapping time constants
     -   N - samples with varying number of defects
-6.  SCP: Solar cell performance. This involves making solar cells from
+
+7.  SCP: Solar cell performance. This involves making solar cells from
     contaminated material and evaluating the impact of the impurity on
     the finial device performance.
-7.  Res: Resistivity measurements: Suffixes
+8.  Res: Resistivity measurements: Suffixes
     -   T - temperature
-8.  LS: Lifetime spectroscopy. This can be performed in different ways.
+
+9.  LS: Lifetime spectroscopy. This can be performed in different ways.
     These ways are depicted as suffixes, being:
     -   D - doping dependent,
     -   I - represents Injection dependent,
@@ -323,15 +334,23 @@ The text file is written with a
 easy for a human and computer to read! An example is found in
 W\_s\_s.srh:
 
-okuyama1979: title: Photoionization cross-sections and energy levels of
-gold, iron, platinum, silver, and titanium in silicon DOI:
-10.1007/BF02652402 comments: data extracted from figure 2 and manually
-fit. The change in refractive index was not determined. Between 0.77 and
-0.8eV in Fig. 2 there is scatter from the Lucovsky line but this may be
-caused by a change from a germanium to a silicon filter in this range.
-Defect concentration determined with CV(T). measurement\_technique:
-Bo-EQE temperature: 77.15 Fit: form: Lucovsky A\_e: 7.27e-16 \# units of cm
-power1: 3/2 \# unitless Ed: 0.77 \# units of eV power2: 3
+    okuyama1979:
+      title: Photoionization cross-sections and energy levels of gold, iron,
+       platinum, silver, and titanium in silicon
+      DOI: 10.1007/BF02652402
+      comments: A_e was extracted from figure 2 and manually fit. The change in
+       refractive index was not determined. Between 0.77 and 0.8eV in Fig. 2
+       there is scatter from the Lucovsky line but this may be caused by a
+       change from a germanium to a silicon filter in this range. Defect
+       concentration determined with CV(T).
+      measurement_technique: Bo-EQE
+      temperature: 77.15
+      Fit:
+        form: one
+        A_e: 7.27e-16 # units of cm
+        power1: 3/2 # unitless
+        Ed: 0.77 # units of eV
+        power2: 3
 
 The initial value Graff1995\_1, is the author year notation commonly
 used for publications. The \_1 indicates that in the same publication
@@ -341,4 +360,4 @@ than a number, e.g. Graff1995\_a.
 
 the current fitted forms are:
 
-1.  Lucovsky: $A * \frac{(E-E_d)^{power}}{E^power}$
+1.  Lucovsky: $A \times \frac{(E-E_d)^{power}}{E^power}$
