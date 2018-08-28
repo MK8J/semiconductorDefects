@@ -1,7 +1,3 @@
----
-title: Welcome to a page dedicated to defects in semiconductors
----
-
 -   [Semiconductor Defects](#semiconductor-defects)
     -   [Referencing](#referencing)
     -   [Contributing](#contributing)
@@ -360,4 +356,4 @@ than a number, e.g. Graff1995\_a.
 
 the current fitted forms are:
 
-1.  Lucovsky: $A \times \frac{(E-E_d)^{power}}{E^power}$
+1.  Lucovsky: $A * \frac{(E-E_d)^{power}}{E^power}$
