@@ -15,6 +15,7 @@ Scheffler2013:
   title: Isolated substitutional cobalt and Co-related complexes in silicon
   DOI: 10.1063/1.4804321
   measurement_technique: DLTS-L
+  comments: Activation energy level and apparent capture cross section
   sample:
     dopant: n
     incorporation: melt
