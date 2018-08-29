@@ -48,3 +48,16 @@ Diez2007:
     sigma_h: '1.3749999999999998e-14'
     k: '0.16'
     dk: 0.1,0.53
+
+Scheffler2013:
+  title: Isolated substitutional cobalt and Co-related complexes in silicon
+  DOI: 10.1063/1.4804321
+  measurement_technique: DLTS-LMo
+  comments: Out at 975 K
+  sample:
+    growth: FZ, CZ
+    dopant: n,p
+    incorporation: melt
+  params:
+    Ed: Ec-0.39
+    sigma_e: 8.699999999999999e-16

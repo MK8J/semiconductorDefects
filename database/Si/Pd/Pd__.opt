@@ -1,0 +1,50 @@
+
+rubio1991:
+  title: Optical capture cross sections of palladium in silicon
+  DOI: 10.1063/1.347712
+  comments: This is the Ec-0.22 level. Did not provide magnitudes. 0.3-6 mHz were used.
+  measurement_technique: AOS
+  temperature: 70
+  Fit:
+    form: Lucovsky
+    power1: 3/2
+    Ed: 0.890
+    power2: 2
+
+
+rubio1991_1:
+  title: Optical capture cross sections of palladium in silicon
+  DOI: 10.1063/1.347712
+  comments: This is the Ec-0.22 level. Did not provide magnitudes
+  measurement_technique: DLTS-Cc
+  temperature: 150
+  Fit:
+    form: Lucovsky
+    power1: 3/2
+    Ed: 0.250
+    power2: 2
+
+
+rubio1991_2:
+  title: Optical capture cross sections of palladium in silicon
+  DOI: 10.1063/1.347712
+  comments: This is the Ev+0.33 level.  Did not provide magnitudes
+  measurement_technique: DLTS-Cc
+  temperature: 150
+  Fit:
+    form: Lucovsky
+    power1: 3/2
+    Ed: 0.33
+    power2: 2
+
+rubio1991_3:
+  title: Optical capture cross sections of palladium in silicon
+  DOI: 10.1063/1.347712
+  comments:  This is the Ev+0.33 level. Did not provide magnitudes
+  measurement_technique: DLTS-Cc
+  temperature: 150
+  Fit:
+    form: Lucovsky
+    power1: 3/2
+    Ed: 0.820
+    power2: 2

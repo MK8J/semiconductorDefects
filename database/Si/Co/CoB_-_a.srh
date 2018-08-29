@@ -1,0 +1,12 @@
+
+Scheffler2013:
+  title: Isolated substitutional cobalt and Co-related complexes in silicon
+  DOI: 10.1063/1.4804321
+  measurement_technique: DLTS-L
+  comments: Out at 425
+  sample:
+    dopant: p
+    incorporation: melt
+  params:
+    Ed: Ev+0.46
+    sigma_h: 9.6e-16

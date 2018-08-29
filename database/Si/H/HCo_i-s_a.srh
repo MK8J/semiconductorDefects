@@ -1,0 +1,12 @@
+
+Scheffler2013:
+  title: Isolated substitutional cobalt and Co-related complexes in silicon
+  DOI: 10.1063/1.4804321
+  measurement_technique: DLTS-L
+  sample:
+    growth: FZ, CZ
+    dopant: n
+    incorporation: melt
+  params:
+    Ed: Ec-0.35
+    sigma_e: 3.7e-16
