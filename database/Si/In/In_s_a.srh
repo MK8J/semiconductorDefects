@@ -125,4 +125,4 @@ chen1980:
   params:
     Ed: Ev+0.16
     sigma_e: 2e-15
-    sigma_h: 4e-7*(T/77)^-4
+    sigma_h: 4e-7*(T/77)^-4/1e7
