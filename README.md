@@ -131,11 +131,18 @@ W\_s\_s.srh:
       title: Metal impurities in silicon-device fabrication
       DOI: 10.1007/978-3-642-97593-6
       measurement_technique: Review of DLTS
+      measurement_details:
+        T: 100 K
+        Ur: -5 V
+        Ub: -2 V
+        tp: 10 ms
+        Rw: 0.05 s
       sample:
         growth: CZ
         dopant: boron
         resistivity: 1
         incorporation: ion implantation
+    
       comments: Taken from table 1 in the appendix. The table only provides
           the majority carrier capture cross section. The majority carrier has
           been estimated from the position of the defect level. e.g. if higher
@@ -198,8 +205,10 @@ options:
 
 There are a range of techniques that have been used to determine these
 defect properties. If several techniques are used, they are just comma
-separated. These are recorded in the repository using the following
-abbreviation:
+separated. We also provide the ability to put in limited experimental
+data, and measurement conditions. These are recorded in the repository
+using the following
+    abbreviation:
 
 1.  [DLTS](https://en.wikipedia.org/wiki/Deep-level_transient_spectroscopy):
     Deep level transient spectroscopy. There are many variants on DLTS,
@@ -208,10 +217,25 @@ abbreviation:
         carriers are excited with photons of energy larger than the
         bandgap of the semiconductor.
       - Me - minority carrier based DLTS where the excess minority
-        carriers are excited by a bias.
+        carriers are excited by an electrical bias.
       - L - Laplace DLTS
       - D - Double correlations DLTS
       - Cc - constant capacitance DLTS.
+      - Cr - the capture cross section was used to determine the capture
+        cross-section. If this is not done, the capture cross sections
+        are apparent capture cross sections.
+
+The experimental conditions so far used are, please indicate the units
+after each item:
+
+  - Ur - Reverse bias voltage
+  - Up - Reverse bias pulse
+  - tp - Reverse bias pulse length
+  - Rw - rate window.
+  - T - approximate temperature of the peak
+
+<!-- end list -->
+
 2.  CV: Capacitance voltage as a function of frequency. The major
     difference with DLTS is that this is not a transient measurement.
       - O - An optical biased technique where sub band-gap light was
