@@ -3,7 +3,7 @@ wang1984:
   title: Complete electrical characterization of recombination properties of titanium
     in silicon
   DOI: 10.1063/1.334095
-  measurement_technique: DLTS
+  measurement_technique: DLTS-CrMe
   comments: Error in temperature coefficient not captured, first demonstration of
     all rates measured with an electrical bias. They forward bias a diode rather than
     optical bias
