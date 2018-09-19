@@ -1,4 +1,19 @@
 
+brotherton1982_1:
+  title: "Defect production and lifetime control in electron and \u03B3\u2010irradiated\
+    \ silicon"
+  DOI: 10.1063/1.331460
+  measurement_technique: DLTS
+  comments: In at 520 K
+  sample:
+    growth: FZ
+    dopant: phorphous
+    incorporation: irridation
+    resistivity: '60'
+  params:
+    Ed: Ec-0.363
+    sigma_e: '1.40E-15'
+
 benton1982:
   title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
   DOI: 10.1149/1.2124387
@@ -64,3 +79,20 @@ benton1982_5:
     growth: FZ,CZ
   params:
     Ed: Ev+0.36
+
+brotherton1982:
+  title: "Defect production and lifetime control in electron and \u03B3\u2010irradiated\
+    \ silicon"
+  DOI: 10.1063/1.331460
+  measurement_technique: DLTS
+  comments: Out at 550 K for 4.5 hours.
+  sample:
+    growth: FZ
+    dopant: phorphous
+    incorporation: irridation
+    resistivity: '60'
+  params:
+    Ed: Ec-0.09
+    dEd: 0.015
+    sigma_e: 5e-13 * exp(-0.08/kT)
+    dsigma_e: 1e-13 * exp(-0.08/kT)

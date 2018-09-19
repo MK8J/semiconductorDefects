@@ -17,3 +17,23 @@ GLMiller1977:
   params:
     Ed: Ec-0.44
     sigma_e: 1e-16
+
+brotherton1982:
+  title: "Defect production and lifetime control in electron and \u03B3\u2010irradiated\
+    \ silicon"
+  DOI: 10.1063/1.331460
+  measurement_technique: DLTS
+  comments: E centre, out at 420 K for 30 min. measurement data taken from laplace
+    DLTS database.
+  sample:
+    growth: FZ
+    dopant: phorphous
+    incorporation: irridation
+    resistivity: '60'
+  measurement_data:
+    T: 191.7,209.1,229.8,254.8
+    e: 1,10,100,1000
+  params:
+    Ed: Ec-0.456
+    sigma_e: '3.70E-15'
+    dsigma_e: '2.00E-16'

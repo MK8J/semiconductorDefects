@@ -53,6 +53,21 @@ benton1982_2:
     Ed: Ev+0.21
     sigma_h: 2.0e-16
 
+brotherton1982:
+  title: "Defect production and lifetime control in electron and \u03B3\u2010irradiated\
+    \ silicon"
+  DOI: 10.1063/1.331460
+  measurement_technique: DLTS
+  comments: In at 570 K, not sure what it is
+  sample:
+    growth: FZ
+    dopant: phorphous
+    incorporation: irridation
+    resistivity: '60'
+  params:
+    Ed: Ec-0.346
+    sigma_e: '4.60E-17'
+
 Asom1987:
   title: Interstitial defect reactions in silicon
   DOI: 10.1063/1.98465

@@ -1,13 +1,14 @@
+
+
 # Semiconductor Defects
 
 This is an attempt at creating a collection of defect parameters of
-semiconductors in plain text. The idea is that such a plain text file
-should reduce allow for everyone to be able to access the information
-for now and into the future.
-
-The information currently stored in the repository is currently limited
-to Shockley Read Hall parameterization, which allow calculation of how
-electron and holes electronically interact with the defect.
+semiconductors in plain text. The idea is that plain text should allow
+for everyone to be able to access the information for now and into the
+future. The information stored in this repository is currently includes
+Shockley Read Hall parameterization and optical capture cross section.
+These values describe how a defect interacts with electron and holes and
+light.
 
 ## Referencing
 
@@ -27,12 +28,14 @@ There are two ways to contribute.
     please see this readme.
 3.  Email the papers to mattias.juhl@gmail.com
 
+Details about how to enter data are found below.
+
 ## Shockley Read Hall parameterization
 
-The Shockley Read Hall parameterisation assumes that there is a level
-within the forbidden region in a semiconductor’s through which electrons
-and holes can pass. A schematic of such a defect is shown in Figure
-[1](#fig:SRH).
+The Shockley Read Hall parameterisation of a defect assumes that there
+is an level within the forbidden region in a semiconductor’s through
+which electrons and holes can pass. A schematic of such a defect is
+shown in Figure [1](#fig:SRH).
 
 ![Figure 1: Shockley Read Hall description of a single defect level.
 Here E<sub>c</sub> is the condition band edge, E<sub>v</sub> is the
@@ -64,22 +67,26 @@ all of which should be assumed to be temperature dependent:
 
   - E<sub>d</sub>: The energy level of the defect. We capture this value
     as reported in literature. This is usually reported as a distance to
-    another energy level, i.e. E<sub>c</sub>, E<sub>v</sub>, or
-    E<sub>i</sub>.
-  - σ<sub>e</sub>: The capture cross section for electrons
+    another energy level, i.e. The conduction band edge (E<sub>c</sub>),
+    the valance band edge (E<sub>v</sub>), or the intrinsic energy level
+    (E<sub>i</sub>). Unfortunately, not all techniques measure this
+    value the same way, and it is not always clear exactly what is meant
+    by this value.
+  - σ<sub>e</sub>: The capture cross section for electrons.
   - σ<sub>h</sub>: The capture cross section for holes
 
-A 4th value that is recorded as a SRH parameter is k. k is
-σ<sub>e</sub>/σ<sub>h</sub>. This is recorded as lifetime spectroscopy
-usually provides a measure of k rather than absolute capture cross
-sections.
+A 4th value that is recorded as a SRH parameter is the ratio of the
+electon to hole capture cross section, i.e
+k=σ<sub>e</sub>/σ<sub>h</sub>. This is recorded as lifetime
+spectroscopy usually provides a measure of k rather than absolute
+capture cross sections.
 
 TODO: ‘k’ is obviously poor notation, but it is currently the standard
 notation. This should be improved both here and in literature.
 
 ## How information is stored
 
-The information is stored in both the file structure and the finial text
+Information is stored in both the file structure and the finial text
 files within the repository. The file structure of the repository is
 illustrated in Figure [2](#fig:structure). The repository has two nested
 folders, with the text file in the finial folder.
@@ -113,13 +120,13 @@ The abbreviations for the defect charge state are:
   - ddd: triple donor. The defect can change been a net charge of 2 and
     3.
 
-The “.srh” file is an ASCII file written in plain text. The structure of
-its contents is described in the following subsection.
+The “.srh” and “.opt” files is an ASCII file written in plain text. The
+structure of its contents is described in the following subsection.
 
 ### “.srh” file continence
 
 The contents of the finial file, and naming convention is now described.
-There are all optional inputs. To have an entry the minimum is the
+These are all optional inputs. To have an entry the minimum is the
 params section.
 
 The text file is written with a
@@ -142,13 +149,14 @@ W\_s\_s.srh:
         dopant: boron
         resistivity: 1
         incorporation: ion implantation
-    
       comments: Taken from table 1 in the appendix. The table only provides
           the majority carrier capture cross section. The majority carrier has
           been estimated from the position of the defect level. e.g. if higher
           than the intrinsic level, it is assume the majority carrier was electrons.
       params:
-        Ed: Ev+0.41
+        Ed: Ev+0.41 # units of Ev
+        dEd: 0.01 # units of Ev
+        sigma_e: 1e-15 * exp(-3/kT) # units of cm^2
 
 The initial value Graff1995\_1, is the author year notation commonly
 used for publications. The \_1 indicates that in the same publication
@@ -195,11 +203,12 @@ options:
 
   - growth: CZ, FZ, cast
   - dopant: elemental names all lower case and comma separated,
-    e.g. boron, phorphous, aluminum
+    e.g. boron, phorphous, or aluminum
   - resistivity: resistivity in Ω.cm. If several samples are used comma
     separate them. If a range of resistivities are provided simply write
     that range, e.g. 3, 50, 1-10
-  - incorporation: options are: melt, thermal, ion implantation
+  - incorporation: how the defect was placed into the sample for study.
+    Options include: melt, thermal, ion implantation and radiation
 
 #### measurement\_technique
 
@@ -225,8 +234,8 @@ using the following
         cross-section. If this is not done, the capture cross sections
         are apparent capture cross sections.
 
-The experimental conditions so far used are, please indicate the units
-after each item:
+We also include the ability to capture specific measurement details. for
+DLTS this include:
 
   - Ur - Reverse bias voltage
   - Up - Reverse bias pulse
@@ -236,11 +245,13 @@ after each item:
 
 <!-- end list -->
 
-2.  CV: Capacitance voltage as a function of frequency. The major
-    difference with DLTS is that this is not a transient measurement.
+2.  CV: Capacitance voltage. The major difference with DLTS is that this
+    is not a transient measurement.
       - O - An optical biased technique where sub band-gap light was
-        used to investigate a defect.
+        used to investigate a defect. This is also known as
+        photo-capacitance
       - T - The temperature was varied
+      - F - vary frequency
 3.  TS: Thermal stimulated spectroscopy. This is when the sample
     temperature is increased and a value is monitored. The sample is not
     subjected to a varied biased.
@@ -277,6 +288,21 @@ after each item:
         techniques the number of defects affects the measured value.
       - T - temperature dependent
       - M - accounting for a single defect having multiple levels
+
+#### measurement\_data
+
+If the raw measurement data can be decomposed into a small data set,
+this is the section for it\!. This is often done for
+[DLTS](http://www.laplacedlts.eu/defect/) with temperature and emission
+rate. An example is talken from the [DLTS
+database](http://www.laplacedlts.eu/defect/) for the gold acceptor and
+is entered as follows:
+
+    measurement_data:
+      T: 229.3, 248.5, 271.3, 298.4
+      e: 1, 10, 100, 1000
+
+At this stage no other raw data is provided.
 
 #### comments
 
@@ -368,4 +394,5 @@ than a number, e.g. Graff1995\_a.
 
 the current fitted forms are:
 
-1.  Lucovsky: \(A \times \frac{(E-E_d)^{power}}{E^power}\)
+1.  Lucovsky: A x (E-E<sub>d</sub>) <sup>power1</sup>/E
+    <sup>power2</sup>

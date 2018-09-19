@@ -20,3 +20,15 @@ sah1967_1:
   params:
     Ed: Ev+0.54723
     dEd: 0.00217
+
+lemke1986a:
+  title: Dotierungseigenschaften von Silber in Silizium
+  DOI: 10.1002/pssa.2210940171
+  measurement_technique: DLTS
+  sample:
+    growth: FZ
+    dopant: boron, phorphous
+    incorporation: thermal
+    resistivity: 50,20
+  params:
+    Ed: Ec-0.57

@@ -1,4 +1,19 @@
 
+yau1971:
+  title: Thermal ionization rates and energies of electrons and holes at silver centers
+    in silicon
+  DOI: 10.1002/pssa.2210060225
+  measurement_technique: DLTS
+  comments: measurement data taken from laplace DLTS database
+  sample:
+    dopant: boron, phorphous
+    incorporation: thermal
+  measurement_data:
+    T: 222,239,258.7,281.8
+    e: 1,10,100,1000
+  params:
+    Ed: Ec-0.578
+
 milnes1973:
   title: Deep impurities in semiconductors
   ISBN: 978-0-471-60670-3
@@ -27,6 +42,37 @@ benton1982:
   params:
     Ed: Ec-0.51
     sigma_e: 1.0e-16
+
+lemke1986a:
+  title: Dotierungseigenschaften von Silber in Silizium
+  DOI: 10.1002/pssa.2210940171
+  measurement_technique: DLTS
+  sample:
+    growth: FZ
+    dopant: boron, phorphous
+    incorporation: thermal
+    resistivity: 50,20
+  params:
+    Ed: Ec-0.57
+
+baber1987:
+  title: "Characterization of silver\u2010related deep levels in silicon"
+  DOI: 10.1063/1.339425
+  measurement_technique: DLTS-Cr, DLTS-S
+  comments: change in emssion rate with bias. measurement data taken from laplace
+    DLTS database.
+  sample:
+    dopant: boron, phorphous
+    incorporation: thermal
+    resistivity: 13,5
+  measurement_details:
+    Ub: -3.0
+  measurement_data:
+    T: 228,247,269.2,295.7
+    e: 1,10,100,1000
+  params:
+    Ed: Ec-0.54
+    sigma_e: '2.20E-16'
 
 Graff1995:
   title: Metal impurities in silicon-device fabrication

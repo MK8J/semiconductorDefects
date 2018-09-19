@@ -16,3 +16,42 @@ GLMiller1977:
   params:
     Ed: Ec-0.39
     sigma_e: 4e-15
+
+brotherton1982:
+  title: "Defect production and lifetime control in electron and \u03B3\u2010irradiated\
+    \ silicon"
+  DOI: 10.1063/1.331460
+  measurement_technique: DLTS
+  comments: Out at 625 K for 30 min. measurement data taken from laplace DLTS database.
+  sample:
+    growth: FZ
+    dopant: phorphous
+    incorporation: irridation
+    resistivity: '60'
+  measurement_data:
+    T: 188,205.8,227.2,253.3
+    e: 1,10,100,1000
+  params:
+    Ed: Ec-0.413
+    sigma_e: '2.00E-15'
+    dsigma_e: '2.00E-16'
+
+mukashev1982:
+  title: Studies of radiation defects in hydrogen implanted silicon by deep level
+    transient spectroscopy
+  DOI: 10.1080/00337578208229928
+  measurement_technique: DLTS
+  comments: measurement data taken from laplace DLTS database. Out at 623 for 10 min
+  sample:
+    growth: CZ
+    dopant: boron
+    incorporation: irridation
+    resistivity: '22'
+  measurement_details:
+    Ub: 5.0
+  measurement_data:
+    T: 87.8,96.7,107.6,121.1
+    e: 1,10,100,1000
+  params:
+    Ed: Ec-0.18
+    dEd: 0.015
