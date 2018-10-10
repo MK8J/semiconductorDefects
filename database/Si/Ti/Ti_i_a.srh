@@ -6,6 +6,19 @@ Weber1983:
   params:
     Ed: Ec-0.08
 
+mathiot1989:
+  title: Titanium‐related deep levels in silicon: A reexamination
+  DOI: 10.1063/1.343608
+  measurement_technique: DLTS
+  comments: Noted that could not vary the filling pulse, as it was too short.
+  sample:
+    growth: FZ,CZ
+    dopant: phorphous
+    incorporation: thermal
+  params:
+    Ed: Ec-0.09
+    sigma_e: 2.9e-14
+
 Graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6

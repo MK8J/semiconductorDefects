@@ -6,6 +6,37 @@ Weber1983:
   params:
     Ed: Ec-0.28
 
+wang1984:
+  title: Complete electrical characterization of recombination properties of titanium
+    in silicon
+  DOI: 10.1063/1.334095
+  measurement_technique: DLTS-CrMe
+  comments: Error in temperature coefficient not captured, first demonstration of all rates measured with an electrical bias. They forward bias a diode rather than optical bias. While in the paper that titanium has been refereed to as being substitutional atom, but the reference that follows only uses it as a suggestion rather than an assignment.
+  sample:
+    growth: CZ
+    dopant: boron, phorphous
+    incorporation: melt
+  params:
+    Ed: Ec-0.271
+    dEd: 0.0018
+    sigma_e: 2.57e-14*exp(0.0039/kT)
+    dsigma_e: 1.7e-15
+    sigma_h: '1.35E-15'
+    dsigma_h: 4.0e-17
+
+mathiot1989:
+  title: Titanium‐related deep levels in silicon: A reexamination
+  DOI: 10.1063/1.343608
+  measurement_technique: DLTS, Hall
+  comments: Noted that could not vary the filling pulse, as it was too short and so reanalyzed the data of wang1984.
+  sample:
+    growth: FZ,CZ
+    dopant: phorphous
+    incorporation: thermal
+  params:
+    Ed: Ec-0.297
+    sigma_e: 4.6e-8*exp(-0.02/k/T)/T**(2.5)
+
 Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
