@@ -16,7 +16,7 @@ mullins2018:
     resistivity: 1-5
   measurement_details:
     T: 100 K
-    Ub: -9 V
+    Ur: -9 V
     Up: -4 V
     tp: 1 ms
     Rw: 0.02 s
@@ -42,7 +42,7 @@ mullins2018_1:
     resistivity: 1-5
   measurement_details:
     T: 180 K
-    Ub: -9 V
+    Ur: -9 V
     Up: -4 V
     tp: 1 ms
     Rw: 0.02 s
@@ -68,7 +68,7 @@ mullins2018_2:
     resistivity: 1-5
   measurement_details:
     T: 100 K
-    Ub: -5 V
+    Ur: -5 V
     tp: 1 ms
     Rw: 0.05 s
   params:
@@ -92,7 +92,7 @@ mullins2018_3:
     resistivity: 1-5
   measurement_details:
     T: 200 K
-    Ub: -5 V
+    Ur: -5 V
     tp: 1 ms
     Rw: 0.05 s
   params:
@@ -117,7 +117,7 @@ mullins2018_4:
     resistivity: 1-5
   measurement_details:
     T: 275 K
-    Ub: -5 V
+    Ur: -5 V
     tp: 1 ms
     Rw: 0.05 s
   params:
@@ -142,7 +142,7 @@ mullins2018_5:
     resistivity: 1-5
   measurement_details:
     T: 100 K
-    Ub: -5 V
+    Ur: -5 V
     tp: 1 ms
     Rw: 0.05 s
   params:

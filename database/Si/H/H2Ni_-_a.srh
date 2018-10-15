@@ -10,7 +10,7 @@ scheffler2014:
     resistivity: '1000'
   measurement_details:
     T: 280.0
-    Ub: -2 V
+    Ur: -2 V
     Up: 0 V
     tp: 1 ms
     Rw: 0.021 s
@@ -30,7 +30,7 @@ scheffler2014_1:
     resistivity: '1000'
   measurement_details:
     T: 270.0
-    Ub: -2 V
+    Ur: -2 V
     Up: 0 V
     tp: 3 ms
     Rw: 0.021 s

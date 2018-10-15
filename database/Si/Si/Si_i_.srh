@@ -11,7 +11,7 @@ mukashev1982:
     incorporation: irridation
     resistivity: '22'
   measurement_details:
-    Ub: 5.0
+    Ur: 5.0
   measurement_data:
     T: 122.1,132.8,145.5,160.7
     e: 1,10,100,1000

@@ -66,7 +66,7 @@ baber1987:
     incorporation: thermal
     resistivity: 13,5
   measurement_details:
-    Ub: -3.0
+    Ur: -3.0
   measurement_data:
     T: 228,247,269.2,295.7
     e: 1,10,100,1000

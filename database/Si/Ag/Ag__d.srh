@@ -69,7 +69,7 @@ baber1987:
     incorporation: thermal
     resistivity: 13,5
   measurement_details:
-    Ub: -3.0
+    Ur: -3.0
   params:
     Ed: Ev+0.34
     sigma_h: 1.7e-15
