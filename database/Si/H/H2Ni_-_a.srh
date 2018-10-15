@@ -2,7 +2,7 @@
 scheffler2014:
   title: Electrical levels in nickel doped silicon
   DOI: 10.1063/1.4901003
-  measurement_technique: 'DLTS-LCr '
+  measurement_technique: DLTS-L
   sample:
     growth: FZ
     dopant: phorphous, boron
@@ -18,3 +18,23 @@ scheffler2014:
     Ed: Ev+0.58
     sigma_h: 2.0e-14
     dsigma_h: 1.0e-14
+
+scheffler2014_1:
+  title: Electrical levels in nickel doped silicon
+  DOI: 10.1063/1.4901003
+  measurement_technique: DLTS-L
+  sample:
+    growth: FZ
+    dopant: phorphous, boron
+    incorporation: melt, diffusion
+    resistivity: '1000'
+  measurement_details:
+    T: 270.0
+    Ub: -2 V
+    Up: 0 V
+    tp: 3 ms
+    Rw: 0.021 s
+  params:
+    Ed: Ev+0.6
+    sigma_h: 2.7e-14
+    dsigma_h: 3.0e-15
