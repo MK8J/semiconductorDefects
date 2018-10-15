@@ -11,7 +11,11 @@ wang1984:
     in silicon
   DOI: 10.1063/1.334095
   measurement_technique: DLTS-CrMe
-  comments: Error in temperature coefficient not captured, first demonstration of all rates measured with an electrical bias. They forward bias a diode rather than optical bias. While in the paper that titanium has been refereed to as being substitutional atom, but the reference that follows only uses it as a suggestion rather than an assignment.
+  comments: Error in temperature coefficient not captured, first demonstration of
+    all rates measured with an electrical bias. They forward bias a diode rather than
+    optical bias. While in the paper that titanium has been refereed to as being substitutional
+    atom, but the reference that follows only uses it as a suggestion rather than
+    an assignment.
   sample:
     growth: CZ
     dopant: boron, phorphous
@@ -25,17 +29,18 @@ wang1984:
     dsigma_h: 4.0e-17
 
 mathiot1989:
-  title: Titanium‐related deep levels in silicon: A reexamination
+  title: "Titanium\u2010related deep levels in silicon: A reexamination"
   DOI: 10.1063/1.343608
   measurement_technique: DLTS, Hall
-  comments: Noted that could not vary the filling pulse, as it was too short and so reanalyzed the data of wang1984.
+  comments: Noted that could not vary the filling pulse, as it was too short and so
+    reanalyzed the data of wang1984.
   sample:
     growth: FZ,CZ
     dopant: phorphous
     incorporation: thermal
   params:
     Ed: Ec-0.297
-    sigma_e: 4.6e-8*exp(-0.02/k/T)/T**(2.5)
+    sigma_e: 4.6e-8*exp(-0.02/k/T)/T^(2.5)
 
 Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication

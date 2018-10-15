@@ -11,7 +11,11 @@ wang1984:
     in silicon
   DOI: 10.1063/1.334095
   measurement_technique: DLTS-CrMe
-  comments: Error in temperature coefficient of the values recorded here was not captured. This is the first demonstration of all rates measured with an electrical bias. They forward bias a diode rather than  optical bias. While in the paper that titanium has been refereed to as being substitutional atom, but the reference that follows only uses it as a suggestion rather than an assignment.
+  comments: Error in temperature coefficient of the values recorded here was not captured.
+    This is the first demonstration of all rates measured with an electrical bias.
+    They forward bias a diode rather than  optical bias. While in the paper that titanium
+    has been refereed to as being substitutional atom, but the reference that follows
+    only uses it as a suggestion rather than an assignment.
   sample:
     growth: CZ
     dopant: boron, phorphous
@@ -24,10 +28,9 @@ wang1984:
     dsigma_h: 1.4000000000000003e-17
 
 mathiot1989:
-  title: Titanium‐related deep levels in silicon: A reexamination
+  title: "Titanium\u2010related deep levels in silicon: A reexamination"
   DOI: 10.1063/1.343608
   measurement_technique: DLTS-Cr
-  comments:
   sample:
     growth: FZ,CZ
     dopant: boron
@@ -40,7 +43,11 @@ Graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: Review, DLTS
-  comments: Taken from table 1 in the appendix. The table only provides the majority carrier capture cross section. The majority carrier has been estimated from the position of the defect level. e.g. if higher than the intrinsic level, it is assume the majority carrier was electrons. This value is different from others as it is an activation energy rather than the energy level.
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons. This value is different from others as it
+    is an activation energy rather than the energy level.
   params:
     Ed_a: Ev+0.28
     sigma_h: 4.00E-16 * exp(-0.4/kT)
@@ -49,7 +56,8 @@ Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: Review, DLTS
-  comments: Taken from table 5.2. DLTS done at a temperature of 200K. This value is different from others as it is an activation energy rather than the energy level.
+  comments: Taken from table 5.2. DLTS done at a temperature of 200K. This value is
+    different from others as it is an activation energy rather than the energy level.
   params:
     Ed_a: Ev+0.28
     dEd: 0.01
