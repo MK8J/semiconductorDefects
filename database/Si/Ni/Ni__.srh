@@ -20,3 +20,108 @@ benton1982_1:
   params:
     Ed: Ec-0.14
     sigma_e: 3.9999999999999995e-15
+
+shiraishi1999:
+  title: DLTS analysis of nickel_hydrogen complex defects in silicon
+  DOI: 10.1016/S0921-5107(98)00280-3
+  measurement_technique: DLTS-Cr
+  comments: Hydrogen related, as only appeared after a "clean" that is known to introduce
+    hyrdrogen. Out at 500 K for 1 hours
+  sample:
+    growth: CZ, FZ
+    dopant: boron
+    incorporation: melt, diffusion
+    resistivity: 1-100
+  measurement_details:
+    T: 50.0
+    Rw: 0.024 s
+  params:
+    Ed_a: Ev+0.08
+    Ed_h: Ev+0.08
+    Ed: Ev+0.078
+    sigma_ha: 1.6e-15
+    sigma_h: 1.1e-15
+
+shiraishi1999_1:
+  title: DLTS analysis of nickel_hydrogen complex defects in silicon
+  DOI: 10.1016/S0921-5107(98)00280-3
+  measurement_technique: DLTS-Cr
+  comments: Hydrogen related, as only appeared after a "clean" that is known to introduce
+    hyrdrogen. Out at 500 K for 1 hours
+  sample:
+    growth: CZ, FZ
+    dopant: boron
+    incorporation: melt, diffusion
+    resistivity: 1-100
+  measurement_details:
+    T: 105.0
+    Rw: 0.024 s
+  params:
+    Ed_a: Ev+0.2
+    Ed_h: Ev+0.2
+    Ed: Ev+0.196
+    sigma_ha: 2.6e-15
+    sigma_h: 1.7e-15
+
+shiraishi1999_2:
+  title: DLTS analysis of nickel_hydrogen complex defects in silicon
+  DOI: 10.1016/S0921-5107(98)00280-3
+  measurement_technique: DLTS-Cr
+  comments: Hydrogen related, as only appeared after a "clean" that is known to introduce
+    hyrdrogen. Out at 500 K for 1 hours
+  sample:
+    growth: CZ, FZ
+    dopant: boron
+    incorporation: melt, diffusion
+    resistivity: 1-100
+  measurement_details:
+    T: 160.0
+    Rw: 0.024 s
+  params:
+    Ed_a: Ev+0.32
+    Ed_h: Ev+0.32
+    Ed: Ev+0.257
+    sigma_ha: 9.6e-15
+    sigma_h: 9.9e-17
+
+shiraishi1999_3:
+  title: DLTS analysis of nickel_hydrogen complex defects in silicon
+  DOI: 10.1016/S0921-5107(98)00280-3
+  measurement_technique: DLTS-Cr
+  comments: Hydrogen related, as only appeared after a "clean" that is known to introduce
+    hyrdrogen. Out at 570 K for 2 hours
+  sample:
+    growth: CZ, FZ
+    dopant: phorphous
+    incorporation: melt, diffusion
+    resistivity: 1-100
+  measurement_details:
+    T: 145.0
+    Rw: 0.024 s
+  params:
+    Ed_a: Ec-0.25
+    Ed_h: Ec-0.25
+    Ed: Ec-0.329
+    sigma_ea: 6.6e-16
+    sigma_e: '1.2E-18'
+
+shiraishi1999_4:
+  title: DLTS analysis of nickel_hydrogen complex defects in silicon
+  DOI: 10.1016/S0921-5107(98)00280-3
+  measurement_technique: DLTS-Cr
+  comments: Hydrogen related, as only appeared after a "clean" that is known to introduce
+    hyrdrogen. Out at 570 K for 2 hours
+  sample:
+    growth: CZ, FZ
+    dopant: phorphous
+    incorporation: melt, diffusion
+    resistivity: 1-100
+  measurement_details:
+    T: 185.0
+    Rw: 0.024 s
+  params:
+    Ed_a: Ec-0.35
+    Ed_h: Ec-0.35
+    Ed: Ec-0.468
+    sigma_ea: 2.8e-15
+    sigma_e: '1.8E-18'

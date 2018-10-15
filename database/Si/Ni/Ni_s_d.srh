@@ -1,4 +1,23 @@
 
+shiraishi1999:
+  title: DLTS analysis of nickel_hydrogen complex defects in silicon
+  DOI: 10.1016/S0921-5107(98)00280-3
+  measurement_technique: DLTS-Cr
+  sample:
+    growth: CZ, FZ
+    dopant: boron
+    incorporation: melt, diffusion
+    resistivity: 1-100
+  measurement_details:
+    T: 75.0
+    Rw: 0.024 s
+  params:
+    Ed_a: Ec+0.15
+    Ed_h: Ev+0.15
+    Ed: Ev+0.145
+    sigma_ha: 4.3e-15
+    sigma_h: 2.2e-15
+
 Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
@@ -32,3 +51,24 @@ Rein2005:
     dEd: 0.05
     k: '3500.0'
     dk: 2610, 9400
+
+scheffler2014:
+  title: Electrical levels in nickel doped silicon
+  DOI: 10.1063/1.4901003
+  measurement_technique: 'DLTS-LCr '
+  comments: Out at 500 K for 20 min
+  sample:
+    growth: FZ
+    dopant: phorphous, boron
+    incorporation: melt, diffusion
+    resistivity: '1000'
+  measurement_details:
+    T: 80.0
+    Ub: -2 V
+    Up: 0 V
+    tp: 1 ms
+    Rw: 0.021 s
+  params:
+    Ed: Ev+0.16
+    sigma_h: 1.1e-14
+    dsigma_h: 3.0e-15
