@@ -55,7 +55,7 @@ Graff1995:
     sigma_e: 6e-14 * exp(0)
 
 mishra1996:
-  title: "Identification of Cr in p\u2010type silicon using the minority carrier lifetime\
+  title: "Identification of Cr in p-type silicon using the minority carrier lifetime\
     \ measurement by the surface photovoltage method"
   DOI: 10.1063/1.116574
   measurement_technique: DLTS, LS-D

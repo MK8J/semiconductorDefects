@@ -66,7 +66,7 @@ benton1982_5:
     Ed: Ev+0.36
 
 brotherton1982:
-  title: "Defect production and lifetime control in electron and \u03B3\u2010irradiated\
+  title: "Defect production and lifetime control in electron and \u03B3-irradiated\
     \ silicon"
   DOI: 10.1063/1.331460
   measurement_technique: DLTS
@@ -83,7 +83,7 @@ brotherton1982:
     dsigma_e: 1e-13 * exp(-0.08/kT)
 
 brotherton1982_1:
-  title: "Defect production and lifetime control in electron and \u03B3\u2010irradiated\
+  title: "Defect production and lifetime control in electron and \u03B3-irradiated\
     \ silicon"
   DOI: 10.1063/1.331460
   measurement_technique: DLTS

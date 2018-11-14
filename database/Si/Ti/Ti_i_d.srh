@@ -13,7 +13,7 @@ wang1984:
   measurement_technique: DLTS-CrMe
   comments: Error in temperature coefficient not captured, first demonstration of
     all rates measured with an electrical bias. They forward bias a diode rather than
-    optical bias. While in the paper that titanium has been refereed to as being substitutional
+    optical bias. They varied the pulse height not the pulse width. While in the paper that titanium has been refereed to as being substitutional
     atom, but the reference that follows only uses it as a suggestion rather than
     an assignment.
   sample:
@@ -23,17 +23,16 @@ wang1984:
   params:
     Ed: Ec-0.271
     dEd: 0.0018
-    sigma_e: 2.57e-14*exp(0.0039/kT)
+    sigma_e: 2.57e-14*exp(0.0039/k/T)
     dsigma_e: 1.7e-15
     sigma_h: '1.35E-15'
     dsigma_h: 4.0e-17
 
 mathiot1989:
-  title: "Titanium\u2010related deep levels in silicon: A reexamination"
+  title: "Titanium-related deep levels in silicon: A reexamination"
   DOI: 10.1063/1.343608
   measurement_technique: DLTS, Hall
-  comments: Noted that could not vary the filling pulse, as it was too short and so
-    reanalyzed the data of wang1984.
+  comments: Noted that could not vary the filling pulse, as it was too short and so reanalyzed the data of wang1984.
   sample:
     growth: FZ,CZ
     dopant: phorphous
@@ -50,4 +49,4 @@ Graff2000:
   params:
     Ed: Ec-0.27
     dEd: 0.01
-    sigma_e: 1.30E-14 * exp(-0.004/kT)
+    sigma_e: 1.30E-14 * exp(-0.004/k/T)

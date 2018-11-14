@@ -56,7 +56,7 @@ lemke1986a:
     Ed: Ec-0.57
 
 baber1987:
-  title: "Characterization of silver\u2010related deep levels in silicon"
+  title: "Characterization of silver-related deep levels in silicon"
   DOI: 10.1063/1.339425
   measurement_technique: DLTS-Cr, DLTS-S
   comments: change in emssion rate with bias. measurement data taken from laplace
@@ -71,6 +71,7 @@ baber1987:
     T: 228,247,269.2,295.7
     e: 1,10,100,1000
   params:
+    Ed_h: Ec-0.548
     Ed: Ec-0.54
     sigma_e: '2.20E-16'
 
