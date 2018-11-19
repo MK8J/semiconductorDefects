@@ -42,6 +42,21 @@ mathiot1989:
     Ed: Ec-0.297
     sigma_e: 4.6e-8*exp(-0.02/k/T)/T^(2.5)
 
+tilly1991:
+  title: Electrical and optical properties of titanium-related centers in silicon
+  DOI: 10.1103/PhysRevB.43.9171
+  measurement_technique: DLTS-Cr
+  comments: Comments on both the previous defect asignment and charges assignment
+    being vague. Capture cross section values manually extracted from graph
+  sample:
+    dopant: n,p
+    incorporation: ion implantation
+  params:
+    Ed_a: Ec-0.255
+    Ed_h: Ec_0.266
+    Ed: Ec-(0.268+3.42e-4*T)
+    sigma_e: 1.37e-17*exp(0.013/k/T)
+
 Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
