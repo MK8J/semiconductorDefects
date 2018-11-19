@@ -2,7 +2,7 @@
 milnes1973:
   title: Deep impurities in semiconductors
   ISBN: 978-0-471-60670-3
-  measurement_technique: Review
+  measurement_technique: review
   comments: Figure 2.1
   params:
     Ed: Ec-0.25
@@ -10,7 +10,7 @@ milnes1973:
 milnes1973_1:
   title: Deep impurities in semiconductors
   ISBN: 978-0-471-60670-3
-  measurement_technique: Review
+  measurement_technique: review
   comments: Figure 2.1
   params:
     Ed: Ev+0.36
@@ -18,7 +18,7 @@ milnes1973_1:
 Graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
-  measurement_technique: Review, DLTS
+  measurement_technique: review, DLTS
   comments: Taken from table 4.10.
   params:
     Ed: Ec-0.24
@@ -30,7 +30,7 @@ Graff1995:
 Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
-  measurement_technique: Review, DLTS
+  measurement_technique: review, DLTS
   comments: Taken from table 4.10. DLTS done at a temperature of 110K
   params:
     Ed: Ec-0.23

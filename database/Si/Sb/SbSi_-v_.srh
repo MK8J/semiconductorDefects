@@ -2,7 +2,7 @@
 chen1980:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105
-  measurement_technique: Review, DLTS
+  measurement_technique: review, DLTS
   comments: Measured at 234 K
   params:
     Ed: Ec-0.39

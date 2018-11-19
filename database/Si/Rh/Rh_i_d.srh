@@ -2,7 +2,7 @@
 Graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
-  measurement_technique: Review, DLTS
+  measurement_technique: review, DLTS
   comments: Taken from table 5.9.
   params:
     Ed: Ec-0.58

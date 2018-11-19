@@ -17,7 +17,7 @@ yau1971:
 milnes1973:
   title: Deep impurities in semiconductors
   ISBN: 978-0-471-60670-3
-  measurement_technique: Review
+  measurement_technique: review
   comments: Figure 2.1, questionable level
   params:
     Ed: Ev+0.32
@@ -59,7 +59,7 @@ lemke1986a:
     Ed: Ev+0.39
 
 baber1987:
-  title: "Characterization of silver-related deep levels in silicon"
+  title: Characterization of silver-related deep levels in silicon
   DOI: 10.1063/1.339425
   measurement_technique: DLTS-Cr, DLTS-S
   comments: change in emssion rate with bias. measurement data taken from laplace
@@ -78,7 +78,7 @@ baber1987:
 Graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
-  measurement_technique: Review, DLTS
+  measurement_technique: review, DLTS
   comments: Taken from table 1 in the appendix. The table only provides the majority
     carrier capture cross section. The majority carrier has been estimated from the
     position of the defect level. e.g. if higher than the intrinsic level, it is assume

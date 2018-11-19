@@ -2,32 +2,28 @@
 chen1980:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105
-  comments: Review paper, these are measured with thermally stimulated capacitance.
-    Unsure the difference with DLTS. e.g. the  use of a bias.
+  measurement_technique: review, TS-C
   params:
     Ed: Ec-0.39
 
 chen1980_1:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105
-  comments: Review paper, these are measured with thermally stimulated capacitance.
-    Unsure the difference with DLTS, e.g. the  use of a bias.
+  measurement_technique: review, TS-C
   params:
     Ed: Ev+0.402
 
 chen1980_2:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105
-  comments: Review paper, these are measured with thermally stimulated capacitance.
-    Unsure the difference with DLTS, e.g. the use of a bias.
+  measurement_technique: review, TS-C
   params:
     Ed: Ev+0.316
 
 chen1980_3:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105
-  comments: Review paper, these are measured with thermally stimulated capacitance.
-    Unsure the difference with DLTS, e.g. the use of a bias.
+  measurement_technique: review, TS-C
   params:
     Ed: Ev+0.216
 
@@ -60,4 +56,4 @@ roth2011:
     Ed: Ev+0.44
     sigma_e: '3.6E-15'
     sigma_h: 3.6e-17
-    k: 200
+    k: 200.0

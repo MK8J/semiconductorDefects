@@ -29,7 +29,7 @@ Hangleiter1987:
 Graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
-  measurement_technique: Review, DLTS
+  measurement_technique: review, DLTS
   comments: Taken from table 4.6.
   params:
     Ed: Ev+0.27
@@ -37,8 +37,8 @@ Graff1995:
     dsigma_h: 5.0e-17
 
 mishra1996:
-  title: "Identification of Cr in p-type silicon using the minority carrier lifetime\
-    \ measurement by the surface photovoltage method"
+  title: Identification of Cr in p-type silicon using the minority carrier lifetime
+    measurement by the surface photovoltage method
   DOI: 10.1063/1.116574
   measurement_technique: DLTS, LS-D
   comments: no thermal velocity was provided, it was assumed a thermal velocity of
@@ -50,7 +50,7 @@ mishra1996:
 Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
-  measurement_technique: Review, DLTS
+  measurement_technique: review, DLTS
   comments: Taken from table 1 in the appendix. The table only provides the majority
     carrier capture cross section. The majority carrier has been estimated from the
     position of the defect level. e.g. if higher than the intrinsic level, it is assume

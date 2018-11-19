@@ -2,8 +2,8 @@
 chen1980:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105
-  measurement_technique: EPR, Hall
-  comments: Review paper, Assuming ESR is the same as EPR.
+  measurement_technique: EPR, Hall, review
+  comments: Assuming ESR is the same as EPR.
   params:
     Ed: Ec-0.23
 
@@ -48,15 +48,15 @@ Hangleiter1987:
 Graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
-  measurement_technique: Review, DLTS
+  measurement_technique: review, DLTS
   comments: Taken from table 5.4. Note sigma_e is temperature independent.
   params:
     Ed: Ec-0.22
     sigma_e: 6e-14 * exp(0)
 
 mishra1996:
-  title: "Identification of Cr in p-type silicon using the minority carrier lifetime\
-    \ measurement by the surface photovoltage method"
+  title: Identification of Cr in p-type silicon using the minority carrier lifetime
+    measurement by the surface photovoltage method
   DOI: 10.1063/1.116574
   measurement_technique: DLTS, LS-D
   comments: no thermal velocity was provided, it was assumed a thermal velocity of
@@ -69,7 +69,7 @@ mishra1996:
 Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
-  measurement_technique: Review, DLTS
+  measurement_technique: review, DLTS
   comments: Taken from table 5.4. DLTS done at a temperature of 110K
   params:
     Ed: Ec-0.22

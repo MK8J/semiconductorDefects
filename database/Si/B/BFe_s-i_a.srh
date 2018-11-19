@@ -24,7 +24,7 @@ Hangleiter1987:
 Graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
-  measurement_technique: Review, DLTS
+  measurement_technique: review, DLTS
   comments: Taken from table 4.3 and table 1 in the appendix.
   params:
     Ed: Ec-0.23
@@ -32,7 +32,7 @@ Graff1995:
 Walz1996:
   title: On the recombination behaviour of iron in moderately boron-doped p-type silicon
   DOI: 10.1007/BF01594232
-  measurement_technique: Doping-DL
+  measurement_technique: LS-DNM
   comments: Lifetime analysis on FeB at a room temperature
   params:
     Ed: Ec-0.29
@@ -54,7 +54,7 @@ Istratov1999:
 Graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
-  measurement_technique: Review, DLTS
+  measurement_technique: review, DLTS
   comments: Taken from table 1 in the appendix. The table only provides the majority
     carrier capture cross section. The majority carrier has been estimated from the
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
@@ -67,7 +67,7 @@ Macdonald2001:
   title: Capture cross sections of the acceptor level of iron-boron pairs in p-type
     silicon by injection-level dependent lifetime measurements
   DOI: 10.1063/1.1372156
-  measurement_technique: IDL
+  measurement_technique: LS-ID
   comments: Lifetime analysis on FeB at a fixed temperature
   params:
     Ed: Ec-0.23
@@ -78,7 +78,7 @@ Birkholz2005:
   title: Electronic properties of iron-boron pairs in crystalline silicon by temperature-
     and injection-level-dependent lifetime measurements
   DOI: 10.1063/1.1897489
-  measurement_technique: TIDL
+  measurement_technique: LS-TID
   comments: Used Fei_a of Istratov
   params:
     Ed: Ec-0.26
@@ -89,7 +89,7 @@ Rein2005:
   title: Electronic properties of interstitial iron and iron-boron pairs determined  by
     means of advanced lifetime spectroscopy
   DOI: 10.1063/1.2106017
-  measurement_technique: TIDL
+  measurement_technique: LS-TID
   params:
     Ed: Ec-0.26
     dEd: 0.03

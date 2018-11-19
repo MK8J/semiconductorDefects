@@ -2,7 +2,7 @@
 chen1980:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105
-  measurement_technique: Review, hall, DLTS
+  measurement_technique: review, hall, DLTS
   comments: Donor action is observed after implantation by not observed when Na is
     introduced by diffusion.
   sample:
@@ -13,7 +13,7 @@ chen1980:
 chen1980_2:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105
-  measurement_technique: Review, hall, DLTS
+  measurement_technique: review, hall, DLTS
   comments: Taken from Figure 1
   sample:
     incorporation: ion implantation
@@ -23,7 +23,7 @@ chen1980_2:
 chen1980_3:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105
-  measurement_technique: Review, hall, DLTS
+  measurement_technique: review, hall, DLTS
   comments: Taken from Figure 1
   sample:
     incorporation: ion implantation

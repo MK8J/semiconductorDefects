@@ -137,7 +137,7 @@ W\_s\_s.srh:
     Graff1995_1:
       title: Metal impurities in silicon-device fabrication
       DOI: 10.1007/978-3-642-97593-6
-      measurement_technique: Review of DLTS
+      measurement_technique: review of DLTS
       measurement_details:
         T: 100 K
         Ur: -5 V

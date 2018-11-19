@@ -2,7 +2,7 @@
 Fan1956:
   title: Infra-red Absorption in Semiconductors
   DOI: 10.1088/0034-4885/19/1/304
-  measurement_technique: Review, infrared absorption
+  measurement_technique: review, infrared absorption
   linked: Al_s_a.srh
   comments: The ionization energy was estimated using the observed excitation band
     of highest energy. Higher than thermal value of Ev+0.057
@@ -60,7 +60,7 @@ marchand1977_3:
 chen1980:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105
-  comments: Review paper
+  measurement_technique: review
   sample:
     incorporation: thermal
   params:
@@ -69,7 +69,7 @@ chen1980:
 chen1980_1:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105
-  comments: Review paper
+  measurement_technique: review
   sample:
     incorporation: thermal
   params:

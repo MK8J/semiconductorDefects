@@ -2,7 +2,7 @@
 Graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
-  measurement_technique: Review, DLTS
+  measurement_technique: review, DLTS
   comments: Taken from table 1 in the appendix. The table only provides the majority
     carrier capture cross section. The majority carrier has been estimated from the
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
@@ -14,7 +14,7 @@ Graff1995:
 Graff1995_1:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
-  measurement_technique: Review, DLTS
+  measurement_technique: review, DLTS
   comments: Taken from table 1 in the appendix. The table only provides the majority
     carrier capture cross section. The majority carrier has been estimated from the
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
@@ -26,7 +26,7 @@ Diez2007:
   title: Cobalt related defect levels in silicon analyzed by temperature- and injection-dependent
     lifetime spectroscopy
   DOI: 10.1063/1.2433743
-  measurement_technique: Unknown
+  measurement_technique: LS-TI
   comments: An investigation of the temperature dependence of the capture cross section
     for electrons suggests that the underlying recombination process of the defect
     in the lower band gap half is driven by a two stage cascade capture with an activation

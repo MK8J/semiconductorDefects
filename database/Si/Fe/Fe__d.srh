@@ -19,7 +19,7 @@ Schibli1968_1:
 milnes1973:
   title: Deep impurities in semiconductors
   ISBN: 978-0-471-60670-3
-  measurement_technique: Review
+  measurement_technique: review
   linked: Fe_i_d.srh
   comments: Figure 2.1, suggested is interstitial
   params:
