@@ -74,6 +74,25 @@ benton1982_1:
     Ed: Ev+0.35
     sigma_h: 9.999999999999999e-16
 
+wu1982:
+  title: Capture cross sections of the gold donor and acceptor states in n-type Czochralski
+    silicon
+  DOI: 10.1016/0038-1101(82)90066-1
+  measurement_technique: DLTS-CrMo
+  comments: 100-200 K, Lists issues when comparing older values. These include when
+    the trap concentration is too large, but also that there may have been different
+    defects.
+  sample:
+    growth: CZ
+    dopant: phosphorous
+    incorporation: diffusion
+    resistivity: 3-50
+  params:
+    sigma_e: 9.0e-16
+    dsigma_e: 2.0e-16
+    sigma_h: 3.5e-15
+    dsigma_h: 8.0e-16
+
 Hangleiter1987:
   title: 'Nonradiative recombination via deep impurity levels in silicon: Experiment'
   DOI: 10.1103/PhysRevB.35.9149

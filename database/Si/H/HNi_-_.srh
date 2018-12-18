@@ -3,6 +3,7 @@ shiraishi1999:
   title: DLTS analysis of nickel_hydrogen complex defects in silicon
   DOI: 10.1016/S0921-5107(98)00280-3
   measurement_technique: DLTS-Cr
+  linked: HNi_-_a.srh
   comments: Out at 570 K for 2 hours
   sample:
     growth: CZ, FZ
