@@ -8,6 +8,18 @@ Collins1957a:
   params:
     Ed: Ev+0.4
 
+gerson1977:
+  title: A quenched‐in defect in boron‐doped silicon
+  DOI: 10.1063/1.323505
+  measurement_technique: DLTS
+  sample:
+    growth: FZ, CZ
+    dopant: B
+    resistivity: 1-100
+  params:
+    Ed: Ev+0.45
+    simga_h: 4e-18
+
 davis1980:
   title: Impurities in silicon solar cells
   DOI: 10.1109/T-ED.1980.19922

@@ -88,7 +88,7 @@ wu1982:
     incorporation: diffusion
     resistivity: 3-50
   params:
-    sigma_e: 9.0e-16
+    sigma_e: 1.1e-15*(T/158)^(-2)
     dsigma_e: 2.0e-16
     sigma_h: 3.5e-15
     dsigma_h: 8.0e-16
