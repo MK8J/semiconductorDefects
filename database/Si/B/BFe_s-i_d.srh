@@ -12,22 +12,6 @@ graff1981:
   params:
     Ed_a: Ev+0.1
 
-<<<<<<< HEAD
-=======
-graff1981:
-  title: The Properties of Iron in Silicon
-  DOI: 10.1149/1.2127478
-  measurement_technique: DLTS, FTIR
-  comments: FTIR at 25 K, No AlFe peak found
-  sample:
-    growth: CZ, FZ
-    dopant: boron, phorphous, aluminum
-    incorporation: thermal
-    resistivity: 1-100
-  params:
-    Ed: Ev+0.1
-
->>>>>>> 2628c14341339ffb9876fd92fc76139774280a49
 wunstel1982:
   title: Interstitial iron and iron-acceptor pairs in silicon
   DOI: 10.1007/BF00619081
