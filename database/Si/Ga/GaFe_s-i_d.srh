@@ -1,4 +1,24 @@
 
+wunstel1982:
+  title: Interstitial iron and iron-acceptor pairs in silicon
+  DOI: 10.1007/BF00619081
+  measurement_technique: DLTS-Cr
+  comments: Capture cross section at 300 K
+  sample:
+    growth: FZ
+    dopant: gallium
+    incorporation: thermal
+    resistivity: 0.3-100
+  params:
+    Ed_a: Ev+0.24
+
+Weber1983:
+  title: Transition metals in silicon
+  DOI: 10.1007/BF00617708
+  measurement_technique: review
+  params:
+    Ed: Ev+0.24
+
 Graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6

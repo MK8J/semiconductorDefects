@@ -12,6 +12,18 @@ graff1981:
   params:
     Ed: Ev+0.13
 
+wunstel1982:
+  title: Interstitial iron and iron-acceptor pairs in silicon
+  DOI: 10.1007/BF00619081
+  measurement_technique: DLTS-Cr
+  sample:
+    growth: FZ
+    dopant: aluminum
+    incorporation: thermal
+    resistivity: 0.3-100
+  params:
+    Ed_a: Ev+0.19
+
 Weber1983:
   title: Transition metals in silicon
   DOI: 10.1007/BF00617708

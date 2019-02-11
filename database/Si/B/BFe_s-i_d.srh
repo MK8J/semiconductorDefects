@@ -10,7 +10,31 @@ graff1981:
     incorporation: thermal
     resistivity: 1-100
   params:
-    Ed: Ev+0.1
+    Ed_a: Ev+0.1
+
+wunstel1982:
+  title: Interstitial iron and iron-acceptor pairs in silicon
+  DOI: 10.1007/BF00619081
+  measurement_technique: Hall
+  sample:
+    growth: FZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 0.3-100
+  params:
+    Ed_a: Ev+0.09
+
+wunstel1982_1:
+  title: Interstitial iron and iron-acceptor pairs in silicon
+  DOI: 10.1007/BF00619081
+  measurement_technique: DLTS-Cr
+  sample:
+    growth: FZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 0.3-100
+  params:
+    Ed_a: Ev+0.1
 
 Weber1983:
   title: Transition metals in silicon
