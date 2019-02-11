@@ -9,7 +9,7 @@ Collins1957a:
     Ed: Ev+0.4
 
 gerson1977:
-  title: A quenched‐in defect in boron‐doped silicon
+  title: "A quenched\u2010in defect in boron\u2010doped silicon"
   DOI: 10.1063/1.323505
   measurement_technique: DLTS
   sample:
@@ -18,7 +18,7 @@ gerson1977:
     resistivity: 1-100
   params:
     Ed: Ev+0.45
-    simga_h: 4e-18
+    sigma_h: 4e-18
 
 davis1980:
   title: Impurities in silicon solar cells
@@ -43,7 +43,43 @@ graff1981:
     incorporation: thermal
     resistivity: 1-100
   params:
-    Ed: Ev+0.43
+    Ed_a: Ev+0.43
+
+lemke1981:
+  title: Dotierungseigenschaften von Eisen in Silizium
+  DOI: 10.1002/pssa.2210640123
+  measurement_technique: DLTS, TS-C
+  comments: Capture cross section at 300 K
+  params:
+    Ed_h: Ev+0.37
+    sigma_h: 1.18e-16
+
+wunstel1982:
+  title: Interstitial iron and iron-acceptor pairs in silicon
+  DOI: 10.1007/BF00619081
+  measurement_technique: Hall
+  comments: Capture cross section at 300 K
+  sample:
+    growth: FZ
+    dopant: boron, aluminum, gallium
+    incorporation: thermal
+    resistivity: 0.3-100
+  params:
+    Ed_h: Ev+0.39
+
+wunstel1982_1:
+  title: Interstitial iron and iron-acceptor pairs in silicon
+  DOI: 10.1007/BF00619081
+  measurement_technique: DLTS-Cr
+  sample:
+    growth: FZ
+    dopant: boron, aluminum, gallium
+    incorporation: thermal
+    resistivity: 0.3-100
+  params:
+    Ed_h: Ev+0.39
+    dEd_h: 0.02
+    sigma_h: 1.6e-16*exp(-0.043/k/T)
 
 Weber1983:
   title: Transition metals in silicon
