@@ -17,7 +17,7 @@ gerson1977:
     dopant: B
     resistivity: 1-100
   params:
-    Ed: Ev+0.45
+    Ed_a: Ev+0.45
     sigma_h: 4e-18
 
 davis1980:
@@ -29,7 +29,7 @@ davis1980:
     dopant: B,P
     incorporation: melt
   params:
-    Ed: Ev+0.4
+    Ed_a: Ev+0.4
     dEd: 0.04
 
 graff1981:
@@ -51,6 +51,7 @@ lemke1981:
   measurement_technique: DLTS, TS-C
   comments: Capture cross section at 300 K
   params:
+    Ed_a: ''
     Ed_h: Ev+0.37
     sigma_h: 1.18e-16
 
@@ -96,29 +97,30 @@ Hangleiter1987:
   params:
     sigma_h: 2e-8*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))
 
-Graff1995:
+graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
   comments: Taken from table 1 in the appendix and equation 4.5.
   params:
-    Ed: Ev+0.38
+    Ed_h: Ev+0.38
     sigma_h: 5.6E-16 * exp(-0.048/kT)
 
 Istratov1999:
   title: Iron and its complexes in silicon
   DOI: 10.1007/s003390050968
-  measurement_technique: DLTS, Hall, PhCap, EPR
+  measurement_technique: DLTS-Cr, Hall, PhCap, EPR
   comments: Data from a review paper, taking many measurements at a range of temperatures.
     Points out DLTS is impact by capture cross section barrier heights, while EPR  and
     hall affect measurements are not. The error in sigma_h was 0.5e16 and  0.005 for
     the temperature dependent exponent.
   params:
-    Ed: Ev+0.38
+    Ed_a: Ev+0.425
+    Ed_h: Ev+0.38
     sigma_e: 4e-14
     sigma_h: 3.9e-16 * exp(-0.045/kT)
 
-Graff2000:
+graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: review, DLTS
@@ -127,7 +129,7 @@ Graff2000:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ev+0.39
+    Ed_h: Ev+0.39
     dEd: 0.01
     sigma_h: 3.80E-17 * exp(-0.043/kT)
 

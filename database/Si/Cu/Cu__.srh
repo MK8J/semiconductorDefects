@@ -7,7 +7,7 @@ benton1982:
   sample:
     growth: FZ
   params:
-    Ed: Ev+0.22
+    Ed_a: Ev+0.22
     sigma_h: 6.0e-14
 
 benton1982_1:
@@ -18,5 +18,5 @@ benton1982_1:
   sample:
     growth: FZ
   params:
-    Ed: Ev+0.41
+    Ed_a: Ev+0.41
     sigma_h: 8.0e-14

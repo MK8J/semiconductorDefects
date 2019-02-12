@@ -7,23 +7,23 @@ chen1980:
     Ed: Ec-0.535
     dEd: 0.013000000000000001
 
-Graff1995:
+graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
   comments: Taken from table 3.6
   params:
-    Ed: Ec-0.41
+    Ed_a: Ec-0.41
 
-Graff1995_1:
+graff1995_1:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, theory
   comments: Taken from table 3.6
   params:
-    Ed: Ec-0.35
+    Ed_a: Ec-0.35
 
-Graff2000:
+graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: review, DLTS
@@ -32,7 +32,7 @@ Graff2000:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ec-0.41
+    Ed_a: Ec-0.41
     sigma_e: '2.2e-15'
 
 Diez2007:
@@ -40,7 +40,7 @@ Diez2007:
     lifetime spectroscopy
   DOI: 10.1063/1.2433743
   measurement_technique: LS-TI
-  comments: sigma_e taken not presented in the paper, but here taken from Graff2000
+  comments: sigma_e taken not presented in the paper, but here taken from graff2000
   params:
     Ed: Ec-0.38
     dEd: 0.015
@@ -59,5 +59,5 @@ Scheffler2013:
     dopant: n,p
     incorporation: melt
   params:
-    Ed: Ec-0.39
+    Ed_a: Ec-0.39
     sigma_e: 8.699999999999999e-16

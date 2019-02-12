@@ -43,7 +43,7 @@ Weber1983:
   params:
     Ed: Ev+0.1
 
-Graff1995:
+graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
@@ -52,7 +52,7 @@ Graff1995:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ev+0.1
+    Ed_a: Ev+0.1
 
 Istratov1999:
   title: Iron and its complexes in silicon
@@ -62,11 +62,11 @@ Istratov1999:
     Points out DLTS is impact by capture cross section barrier heights, while EPR
     and hall affect measurements are not. sigma_h was measured at T = 300 K.
   params:
-    Ed: Ev+0.1
+    Ed_a: Ev+0.1
     sigma_e: 4e-13
     sigma_h: 3e-14
 
-Graff2000:
+graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: review, DLTS
@@ -75,5 +75,5 @@ Graff2000:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ev+0.1
+    Ed_a: Ev+0.1
     sigma_h: '6.4e-14'

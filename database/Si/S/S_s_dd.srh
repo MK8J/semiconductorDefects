@@ -10,5 +10,5 @@ rosier1971:
     incorporation: thermal
     resistivity: '5'
   params:
-    Ed: Ec-0.53
+    Ed_a: Ec-0.53
     dEd: 0.02

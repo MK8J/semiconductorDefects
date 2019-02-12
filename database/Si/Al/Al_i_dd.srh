@@ -5,7 +5,7 @@ Kimerling1976:
   measurement_technique: DLTS, EPR
   comments: Out at 473K.
   params:
-    Ed: Ev+0.25
+    Ed_a: Ev+0.25
     sigma_h: 7e-18
 
 GLMiller1977:
@@ -14,5 +14,5 @@ GLMiller1977:
   measurement_technique: DLTS
   comments: Out at 200.
   params:
-    Ed: Ev+0.25
+    Ed_a: Ev+0.25
     sigma_h: 7e-18

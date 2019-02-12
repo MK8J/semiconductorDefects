@@ -8,7 +8,7 @@ chen1980:
   sample:
     incorporation: ion implantation
   params:
-    Ed: Ec-0.04
+    Ed_a: Ec-0.04
 
 chen1980_2:
   title: Energy Levels in Silicon
@@ -18,7 +18,7 @@ chen1980_2:
   sample:
     incorporation: ion implantation
   params:
-    Ed: Ec-0.26
+    Ed_a: Ec-0.26
 
 chen1980_3:
   title: Energy Levels in Silicon
@@ -28,4 +28,4 @@ chen1980_3:
   sample:
     incorporation: ion implantation
   params:
-    Ed: Ev+0.35
+    Ed_a: Ev+0.35

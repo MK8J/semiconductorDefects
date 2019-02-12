@@ -14,5 +14,5 @@ benton1982:
   sample:
     growth: CZ
   params:
-    Ed: Ec-0.18
+    Ed_a: Ec-0.18
     sigma_e: 1.0e-14

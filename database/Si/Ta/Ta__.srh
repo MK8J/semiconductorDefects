@@ -9,4 +9,5 @@ davis1980:
     dopant: B,P
     incorporation: melt
   params:
+    Ed_a: ''
     sigma_e: 5.9e-14

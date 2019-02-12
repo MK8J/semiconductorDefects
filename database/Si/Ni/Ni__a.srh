@@ -6,7 +6,7 @@ chen1980:
     Ed: Ec-0.375
     dEd: 0.035
 
-Graff1995:
+graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
@@ -15,9 +15,9 @@ Graff1995:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ec-0.41
+    Ed_a: Ec-0.41
 
-Graff1995_1:
+graff1995_1:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
@@ -26,9 +26,9 @@ Graff1995_1:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ec-0.35
+    Ed_a: Ec-0.35
 
-Graff1995_2:
+graff1995_2:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
@@ -37,9 +37,9 @@ Graff1995_2:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ev+0.33
+    Ed_a: Ev+0.33
 
-Graff1995_3:
+graff1995_3:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
@@ -48,9 +48,9 @@ Graff1995_3:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ev+0.22
+    Ed_a: Ev+0.22
 
-Graff1995_4:
+graff1995_4:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
@@ -59,4 +59,4 @@ Graff1995_4:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ev+0.16
+    Ed_a: Ev+0.16

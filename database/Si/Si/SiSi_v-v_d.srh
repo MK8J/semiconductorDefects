@@ -5,7 +5,7 @@ Kimerling1976:
   measurement_technique: DLTS, EPR
   comments: Out at 573K
   params:
-    Ed: Ec-0.39
+    Ed_a: Ec-0.39
     sigma_h: 4e-15
 
 GLMiller1977:
@@ -14,14 +14,14 @@ GLMiller1977:
   measurement_technique: DLTS
   comments: Out at 300
   params:
-    Ed: Ec-0.39
+    Ed_a: Ec-0.39
     sigma_e: 4e-15
 
 brotherton1982:
   title: "Defect production and lifetime control in electron and \u03B3-irradiated\
     \ silicon"
   DOI: 10.1063/1.331460
-  measurement_technique: DLTS
+  measurement_technique: DLTS-Cr
   comments: Out at 625 K for 30 min. measurement data taken from laplace DLTS database.
   sample:
     growth: FZ
@@ -32,7 +32,8 @@ brotherton1982:
     T: 188,205.8,227.2,253.3
     e: 1,10,100,1000
   params:
-    Ed: Ec-0.413
+    Ed_a: Ec-0.413
+    Ed_h: Ec-0.413
     sigma_e: '2.00E-15'
     dsigma_e: '2.00E-16'
 
@@ -53,5 +54,5 @@ mukashev1982:
     T: 87.8,96.7,107.6,121.1
     e: 1,10,100,1000
   params:
-    Ed: Ec-0.18
+    Ed_a: Ec-0.18
     dEd: 0.015

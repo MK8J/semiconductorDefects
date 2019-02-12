@@ -1,5 +1,5 @@
 
-Graff2000:
+graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: review, DLTS
@@ -8,5 +8,5 @@ Graff2000:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ev+0.31
+    Ed_a: Ev+0.31
     sigma_h: 8e-15

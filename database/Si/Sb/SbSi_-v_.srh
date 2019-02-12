@@ -5,5 +5,5 @@ chen1980:
   measurement_technique: review, DLTS
   comments: Measured at 234 K
   params:
-    Ed: Ec-0.39
+    Ed_a: Ec-0.39
     sigma_e: '4.50E-17'

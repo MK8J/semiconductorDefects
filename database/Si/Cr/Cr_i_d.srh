@@ -16,7 +16,7 @@ davis1980:
     dopant: B,P
     incorporation: melt
   params:
-    Ed: Ec-0.25
+    Ed_a: Ec-0.25
     dEd: 0.1
 
 Weber1983:
@@ -33,7 +33,7 @@ conzelmann1983:
   comments: no thermal velocity was provided, it was assumed a thermal velocity of
     2.046e7.
   params:
-    Ed: Ec-0.23
+    Ed_a: Ec-0.23
     sigma_e: 2e-13
     dsigma_e: 2e-15
 
@@ -45,13 +45,13 @@ Hangleiter1987:
   params:
     sigma_h: 1e-7*(300/T)^(-1.1)/(2e7 *(T/300)^(0.5))
 
-Graff1995:
+graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
   comments: Taken from table 5.4. Note sigma_e is temperature independent.
   params:
-    Ed: Ec-0.22
+    Ed_h: Ec-0.22
     sigma_e: 6e-14 * exp(0)
 
 mishra1996:
@@ -62,17 +62,17 @@ mishra1996:
   comments: no thermal velocity was provided, it was assumed a thermal velocity of
     electrons and holes was 2.046e7 and 1.688e7.
   params:
-    Ed: Ec-0.22
+    Ed_a: Ec-0.22
     sigma_e: 2.5e-6/2.046e7
     sigma_h: 1.25e-6/1.688e7
 
-Graff2000:
+graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: review, DLTS
   comments: Taken from table 5.4. DLTS done at a temperature of 110K
   params:
-    Ed: Ec-0.22
+    Ed_a: Ec-0.22
     dEd: 0.01
     sigma_e: '7.3e-15'
 
@@ -83,7 +83,7 @@ Schmidt2007:
   measurement_technique: DLTS, LS-TI
   comments: Capture cross sections were found to be independent of temperature
   params:
-    Ed: Ec-0.24
+    Ed_a: Ec-0.24
     sigma_e: 2E-14
     sigma_h: 4E-15
 

@@ -56,7 +56,7 @@ tilly1991:
     Ed: Ev+(0.258-3.86e-5*T)
     sigma_h: 2.3e-17*exp(-0.01/k/T)
 
-Graff1995:
+graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
@@ -66,17 +66,17 @@ Graff1995:
     the majority carrier was electrons. This value is different from others as it
     is an activation energy rather than the energy level.
   params:
-    Ed_a: Ev+0.28
+    Ed_h: Ev+0.28
     sigma_h: 4.00E-16 * exp(-0.4/kT)
 
-Graff2000:
+graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: review, DLTS
   comments: Taken from table 5.2. DLTS done at a temperature of 200K. This value is
     different from others as it is an activation energy rather than the energy level.
   params:
-    Ed_a: Ev+0.28
+    Ed_h: Ev+0.28
     dEd: 0.01
     sigma_h: 1.5e-16*exp(-0.036/kT)
 

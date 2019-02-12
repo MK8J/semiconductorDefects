@@ -8,4 +8,4 @@ Asom1987:
   measurement_details:
     T: 55 K
   params:
-    Ed: Ec-0.1
+    Ed_a: Ec-0.1

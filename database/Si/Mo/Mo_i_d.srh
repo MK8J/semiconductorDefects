@@ -10,7 +10,7 @@ Rohatgi1980:
     incorporation: melt
     resistivity: 4-6
   params:
-    Ed: Ev+0.30
+    Ed_a: Ev+0.30
     sigma_e: 1.6e-14
     sigma_h: 4.31e-16
 
@@ -28,7 +28,7 @@ Hamaguchi1991:
     incorporation: diffused, melt
     resistivity: 10
   params:
-    Ed: Ev+0.31
+    Ed_a: Ev+0.31
     sigma_e: 1.6e-14
     sigma_h: 4.31e-16
 
@@ -47,8 +47,10 @@ Pettersson1991:
     growth: FZ, CZ
     dopant: boron, phorphous
   params:
-    Ed: Ev+0.298
-    sigma_h: 8.38E-16 * exp(-0.004/kT)
+    Ed_a: Ev+0.292
+    Ed_h: Ev+0.296
+    Ed: 0.296 + 2.7e-5*T
+    sigma_h: 8.38E-16 * exp(0.004/kT)
 
 Zhou1991:
   title: Physical Behaviour of 4d Transition Metal Impurity in Silicon
@@ -61,9 +63,9 @@ Zhou1991:
     growth: FZ, CZ
     dopant: boron, phorphous, Tin, aluminum, Gallium,
   params:
-    Ed: Ev+0.36
+    Ed_a: Ev+0.36
 
-Graff1995:
+graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
@@ -72,11 +74,11 @@ Graff1995:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ev+0.29
+    Ed_a: Ev+0.29
     sigma_e: 1.6e-14
     sigma_h: '5.5e-16'
 
-Graff2000:
+graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: review, DLTS
@@ -85,7 +87,7 @@ Graff2000:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ev+0.28
+    Ed_a: Ev+0.28
     sigma_h: 6e-16
 
 Rein2005:

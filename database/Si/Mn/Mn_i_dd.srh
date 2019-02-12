@@ -6,7 +6,7 @@ Weber1983:
   params:
     Ed: Ev+0.25
 
-Graff1995:
+graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
@@ -15,14 +15,14 @@ Graff1995:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ev+0.27
+    Ed_h: Ev+0.27
     sigma_h: 3.00E-18 * exp(-0.07/kT)
 
-Graff2000:
+graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: review, DLTS
   comments: Taken from table 5.5, Peak in DLTS at 200K
   params:
-    Ed: Ev+0.27
+    Ed_h: Ev+0.27
     sigma_h: 2.00E-18 * exp(-0.064/kT)

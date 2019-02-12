@@ -9,10 +9,12 @@ Pettersson1991:
     growth: FZ, CZ
     dopant: boron, phorphous
   params:
-    Ed: Ev+0.38
+    Ed_a: Ev+0.4
+    Ed_h: Ev+0.382
+    Ed: Ev+0.383-5.2e5*T
     sigma_h: 1.15e-15 * exp(-0.018/kT)
 
-Graff2000:
+graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: review, DLTS
@@ -21,7 +23,7 @@ Graff2000:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ev+0.4
+    Ed_a: Ev+0.4
     sigma_h: 5e-16
 
 roth2008:
@@ -33,6 +35,6 @@ roth2008:
     dopant: B
     incorporation: melt
   params:
-    Ed: Ev+0.38
+    Ed_a: Ev+0.38
     dEd: '0.02'
     sigma_h: 4.8e-16

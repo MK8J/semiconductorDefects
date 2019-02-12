@@ -8,7 +8,7 @@ davis1980:
     dopant: boron, phorphous
     incorporation: melt
   params:
-    Ed: Ev+0.3
+    Ed_a: Ev+0.3
     dEd: 0.1
     sigma_e: 1.85e-14
     sigma_h: 7.8e-15
@@ -25,5 +25,5 @@ benton1999:
     incorporation: ion implantation
     resistivity: 10
   params:
-    Ed: Ev+0.30
+    Ed_a: Ev+0.30
     sigma_h: 5.5e-16

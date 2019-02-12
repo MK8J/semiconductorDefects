@@ -53,7 +53,7 @@ benton1982:
   sample:
     growth: FZ
   params:
-    Ed: Ec-0.53
+    Ed_a: Ec-0.53
     sigma_e: 2.0e-16
 
 wu1982:
@@ -84,13 +84,13 @@ Hangleiter1987:
   params:
     sigma_h: 5e-8*exp(0.03/kT)*exp(-0.03/k/300)/(2e7 *(T/300)^(0.5))
 
-Graff1995:
+graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
   comments: Taken from table 4.11.
   params:
-    Ed: Ec-0.554
+    Ed_h: Ec-0.554
     sigma_e: '1.4e-16'
     sigma_h: 6e-15/9*T^(-1.3/1.5)
 
@@ -112,13 +112,13 @@ Deixler1998:
     Ed: Ec-0.558
     sigma_e: 1e-16
 
-Graff2000:
+graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: review, DLTS
   comments: Taken from table 4.12. DLTS done at a temperature of 300K
   params:
-    Ed: Ec-0.55
+    Ed_a: Ec-0.55
     dEd: 0.01
     sigma_e: '1.4e-16'
     sigma_h: '7.6e-15'

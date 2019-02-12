@@ -7,25 +7,25 @@ milnes1973:
   params:
     Ed: Ev+0.30
 
-Graff1995:
+graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
   comments: Taken from table 4.10.
   params:
-    Ed: Ev+0.33
+    Ed_a: Ev+0.33
     sigma_e: 1e-16
     sigma_h: 45.5*1e-16
     dsigma_h: 4.25e-15
 
-Graff2000:
+graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: review, DLTS
   comments: Taken from table 4.10. DLTS done at a temperature of 160K. Temperature
     dependence of sigma_h does not provide value in table.
   params:
-    Ed: Ev+0.32
+    Ed_h: Ev+0.32
     dEd: 0.01
     sigma_e: 1e-16
     sigma_h: 1.3e-15*exp(-0.007/kT)

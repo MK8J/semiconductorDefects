@@ -7,7 +7,7 @@ benton1982:
   sample:
     growth: FZ,CZ
   params:
-    Ed: Ev+0.36
+    Ed_a: Ev+0.36
     sigma_h: 8.0e-17
 
 Asom1987:
@@ -18,4 +18,4 @@ Asom1987:
   measurement_details:
     T: 75 K
   params:
-    Ed: Ec-0.17
+    Ed_a: Ec-0.17

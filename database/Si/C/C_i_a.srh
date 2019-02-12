@@ -5,7 +5,7 @@ GLMiller1977:
   measurement_technique: DLTS
   comments: out at 300
   params:
-    Ed: Ev+0.25
+    Ed_a: Ev+0.25
     sigma_h: 7e-18
 
 Asom1987:
@@ -16,4 +16,4 @@ Asom1987:
   measurement_details:
     T: 60 K
   params:
-    Ed: Ec-0.12
+    Ed_a: Ec-0.12

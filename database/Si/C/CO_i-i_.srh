@@ -5,7 +5,7 @@ Asom1987:
   measurement_technique: DLTS-Me, EPR
   comments: States is ending conjecture over energy levels.
   params:
-    Ed: Ev+0.36
+    Ed_a: Ev+0.36
 
 Makarenko2007:
   title: Reactions of interstitial carbon with impurities in silicon particle detectors
@@ -16,4 +16,4 @@ Makarenko2007:
   sample:
     dopant: boron
   params:
-    Ed: Ev+0.34
+    Ed_a: Ev+0.34

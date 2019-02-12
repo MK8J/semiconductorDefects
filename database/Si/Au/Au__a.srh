@@ -7,7 +7,7 @@ sah1967:
   comments: 'Thermal emission rate of electrons: 5.23e11(T/300)^2*exp(-0.58981/kT).
     Capture rates are also provided'
   params:
-    Ed: Ec-0.58981
+    Ed_a: Ec-0.58981
     dEd: 0.00215
 
 sah1967_1:
@@ -18,7 +18,7 @@ sah1967_1:
   comments: 'Thermal emission rate of holes: 1.17e12(T/300)^2*exp(-0.54723/kT). Capture
     rates are also provided'
   params:
-    Ed: Ev+0.54723
+    Ed_a: Ev+0.54723
     dEd: 0.00217
 
 lemke1986a:
@@ -31,4 +31,4 @@ lemke1986a:
     incorporation: thermal
     resistivity: 50,20
   params:
-    Ed: Ec-0.57
+    Ed_a: Ec-0.57

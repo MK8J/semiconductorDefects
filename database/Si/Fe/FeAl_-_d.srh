@@ -11,7 +11,7 @@ chantre1985:
     incorporation: thermal
     resistivity: '1'
   params:
-    Ed: Ev+0.2
+    Ed_a: Ev+0.2
 
 chantre1985_1:
   title: 'Metastable-defect behavior in silicon: Charge-state-controlled reorientation

@@ -5,7 +5,7 @@ Kimerling1976:
   measurement_technique: DLTS, EPR
   comments: Out at 473K. Min value for sigma
   params:
-    Ed: Ev+0.48
+    Ed_a: Ev+0.48
     sigma_h: 1e-16
 
 GLMiller1977:
@@ -14,7 +14,7 @@ GLMiller1977:
   measurement_technique: DLTS
   comments: Out at 200. Min value for sigma
   params:
-    Ed: Ev+0.48
+    Ed_a: Ev+0.48
     sigma_h: 1e-16
 
 chantre1985:

@@ -2,12 +2,12 @@
 chen1980:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105
-  measurement_technique: hall, DLTS
+  measurement_technique: DLTS, Hall
   comments: Review paper.
   params:
-    Ed: Ec-0.07
+    Ed_a: Ec-0.07
 
-Graff2000:
+graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: review, DLTS
@@ -16,5 +16,5 @@ Graff2000:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ec-0.42
+    Ed_a: Ec-0.42
     sigma_e: 1e-14

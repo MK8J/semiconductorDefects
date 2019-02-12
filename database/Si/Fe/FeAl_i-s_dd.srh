@@ -10,4 +10,4 @@ graff1981:
     incorporation: thermal
     resistivity: 1-100
   params:
-    Ed: Ev+0.21
+    Ed_a: Ev+0.21

@@ -38,7 +38,7 @@ Schibli1968_2:
 milnes1973:
   title: Deep impurities in semiconductors
   ISBN: 978-0-471-60670-3
-  measurement_technique: review, mainly Hall measurements
+  measurement_technique: review. Mainly Hall effect measurements
   comments: Figure 2.1
   params:
     Ed: Ev+0.31
@@ -50,7 +50,7 @@ chen1980:
   params:
     Ed: Ev+0.31
 
-Graff1995:
+graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
@@ -59,12 +59,12 @@ Graff1995:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ev+0.32
+    Ed_a: Ev+0.32
 
-Graff2000:
+graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: review, DLTS
   comments: Taken from Table 5.7. Measured at a temperature of 167 K.
   params:
-    Ed: Ev+0.32
+    Ed_a: Ev+0.32

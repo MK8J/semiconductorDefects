@@ -35,7 +35,7 @@ rosenits2008:
     growth: CZ
     incorporation: melt
   params:
-    Ed: Ev+0.44
+    Ed_a: Ev+0.44
     dEd: '0.02'
     sigma_e: '3.10E-10'
     sigma_h: 3.6e-13
@@ -49,7 +49,7 @@ roth2008:
     growth: CZ
     incorporation: melt
   params:
-    Ed: Ev+0.44
+    Ed_a: Ev+0.44
     dEd: '0.02'
     sigma_e: '3.10E-10'
     sigma_h: 3.6e-13
@@ -68,7 +68,7 @@ rosenits2011:
     growth: CZ
     incorporation: melt
   params:
-    Ed: Ev+0.44
+    Ed_a: Ev+0.44
     sigma_e: '3.6E-15'
     sigma_h: 3.6e-17
     k: 100.0
@@ -85,7 +85,7 @@ roth2011:
     growth: CZ
     incorporation: melt
   params:
-    Ed: Ev+0.44
+    Ed_a: Ev+0.44
     sigma_e: '3.6E-15'
     sigma_h: 3.6e-17
     k: 200.0

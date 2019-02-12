@@ -5,4 +5,4 @@ Kimerling1976:
   measurement_technique: DLTS, EPR
   comments: In at 473 K out at 523 K.
   params:
-    Ed: Ev+0.23
+    Ed_a: Ev+0.23

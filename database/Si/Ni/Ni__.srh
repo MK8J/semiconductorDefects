@@ -7,7 +7,7 @@ benton1982:
   sample:
     growth: FZ
   params:
-    Ed: Ec-0.43
+    Ed_a: Ec-0.43
     sigma_e: 1.0e-16
 
 benton1982_1:
@@ -18,7 +18,7 @@ benton1982_1:
   sample:
     growth: FZ
   params:
-    Ed: Ec-0.14
+    Ed_a: Ec-0.14
     sigma_e: 3.9999999999999995e-15
 
 shiraishi1999:

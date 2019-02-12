@@ -7,5 +7,5 @@ Andersen2002:
   sample:
     dopant: phorphous
   params:
-    Ed: Ec-0.16
+    Ed_a: Ec-0.16
     sigma_e: 2.0e-16

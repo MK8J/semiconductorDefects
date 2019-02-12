@@ -28,7 +28,7 @@ benton1982:
   sample:
     growth: FZ,CZ
   params:
-    Ed: Ec-0.23
+    Ed_a: Ec-0.23
     sigma_e: 2.0e-16
 
 benton1982_1:
@@ -39,7 +39,7 @@ benton1982_1:
   sample:
     growth: FZ,CZ
   params:
-    Ed: Ec-0.41
+    Ed_a: Ec-0.41
     sigma_e: 3.9999999999999995e-15
 
 benton1982_2:
@@ -50,7 +50,7 @@ benton1982_2:
   sample:
     growth: FZ,CZ
   params:
-    Ed: Ev+0.21
+    Ed_a: Ev+0.21
     sigma_h: 2.0e-16
 
 brotherton1982:
@@ -65,7 +65,7 @@ brotherton1982:
     incorporation: irridation
     resistivity: '60'
   params:
-    Ed: Ec-0.346
+    Ed_a: Ec-0.346
     sigma_e: '4.60E-17'
 
 Asom1987:
@@ -76,4 +76,4 @@ Asom1987:
   measurement_details:
     T: 125 K
   params:
-    Ed: Ec-0.23
+    Ed_a: Ec-0.23

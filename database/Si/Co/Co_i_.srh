@@ -7,5 +7,5 @@ Scheffler2012:
   comments: This is an activation enthalpy and apparent capture cross section. Anneals
     out at 675 K
   params:
-    Ed: Ec-0.35
+    Ed_a: Ec-0.35
     sigma_e: 1.2e-16

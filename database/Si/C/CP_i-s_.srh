@@ -8,7 +8,7 @@ Asom1987:
   measurement_details:
     T: 175 K
   params:
-    Ed: Ec-0.29
+    Ed_a: Ec-0.29
 
 Asom1987_1:
   title: Interstitial defect reactions in silicon
@@ -18,7 +18,7 @@ Asom1987_1:
   measurement_details:
     T: 125 K
   params:
-    Ed: Ec-0.23
+    Ed_a: Ec-0.23
 
 Asom1987_2:
   title: Interstitial defect reactions in silicon
@@ -26,7 +26,7 @@ Asom1987_2:
   measurement_technique: DLTS
   comments: Has three configurations. State 2
   params:
-    Ed: Ec-0.21
+    Ed_a: Ec-0.21
 
 Asom1987_3:
   title: Interstitial defect reactions in silicon
@@ -34,4 +34,4 @@ Asom1987_3:
   measurement_technique: DLTS
   comments: Has three configurations. State 2.
   params:
-    Ed: Ec-0.3
+    Ed_a: Ec-0.3

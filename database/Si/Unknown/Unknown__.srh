@@ -7,7 +7,7 @@ benton1982:
   sample:
     growth: CZ
   params:
-    Ed: Ec-0.15
+    Ed_a: Ec-0.15
     sigma_e: 2.0e-16
 
 benton1982_1:
@@ -18,7 +18,7 @@ benton1982_1:
   sample:
     growth: Cz
   params:
-    Ed: Ec-0.22
+    Ed_a: Ec-0.22
     sigma_e: 7.0e-16
 
 benton1982_2:
@@ -29,7 +29,7 @@ benton1982_2:
   sample:
     growth: CZ
   params:
-    Ed: Ec-0.47
+    Ed_a: Ec-0.47
     sigma_e: 5.0e-16
 
 benton1982_3:
@@ -40,7 +40,7 @@ benton1982_3:
   sample:
     growth: FZ,CZ
   params:
-    Ed: Ec-0.19
+    Ed_a: Ec-0.19
     sigma_e: 5.0e-19
 
 benton1982_4:
@@ -51,7 +51,7 @@ benton1982_4:
   sample:
     growth: FZ,CZ
   params:
-    Ed: Ec-0.345
+    Ed_a: Ec-0.345
     dEd: 0.015
     sigma_e: 5.0e-16
 
@@ -63,7 +63,7 @@ benton1982_5:
   sample:
     growth: FZ,CZ
   params:
-    Ed: Ev+0.36
+    Ed_a: Ev+0.36
 
 brotherton1982:
   title: "Defect production and lifetime control in electron and \u03B3-irradiated\
@@ -77,7 +77,7 @@ brotherton1982:
     incorporation: irridation
     resistivity: '60'
   params:
-    Ed: Ec-0.09
+    Ed_a: Ec-0.09
     dEd: 0.015
     sigma_e: 5e-13 * exp(-0.08/kT)
     dsigma_e: 1e-13 * exp(-0.08/kT)
@@ -94,5 +94,5 @@ brotherton1982_1:
     incorporation: irridation
     resistivity: '60'
   params:
-    Ed: Ec-0.363
+    Ed_a: Ec-0.363
     sigma_e: '1.40E-15'

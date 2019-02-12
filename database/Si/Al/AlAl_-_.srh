@@ -5,4 +5,4 @@ GLMiller1977:
   measurement_technique: DLTS
   comments: In at 200 out at 250.
   params:
-    Ed: Ev+0.23
+    Ed_a: Ev+0.23

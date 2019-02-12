@@ -7,7 +7,7 @@ sah1967:
   comments: 'Thermal emission rate of electrons: 2.43e13(T/300)^2*exp(-0.350/kT).
     Capture rates are also provided'
   params:
-    Ed: Ec-0.345
+    Ed_a: Ec-0.345
     dEd: 0.0029
 
 lemke1986a:
@@ -20,4 +20,4 @@ lemke1986a:
     incorporation: thermal
     resistivity: 50,20
   params:
-    Ed: Ev+0.34
+    Ed_a: Ev+0.34

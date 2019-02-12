@@ -8,5 +8,5 @@ Scheffler2013:
     dopant: p
     incorporation: melt
   params:
-    Ed: Ev+0.46
+    Ed_a: Ev+0.46
     sigma_h: 9.6e-16

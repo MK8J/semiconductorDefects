@@ -15,7 +15,7 @@ scheffler2014:
     tp: 1 ms
     Rw: 0.021 s
   params:
-    Ed: Ev+0.58
+    Ed_a: Ev+0.58
     sigma_h: 2.0e-14
     dsigma_h: 1.0e-14
 
@@ -35,6 +35,6 @@ scheffler2014_1:
     tp: 3 ms
     Rw: 0.021 s
   params:
-    Ed: Ev+0.6
+    Ed_a: Ev+0.6
     sigma_h: 2.7e-14
     dsigma_h: 3.0e-15

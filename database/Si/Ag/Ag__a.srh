@@ -12,7 +12,7 @@ yau1971:
     T: 222,239,258.7,281.8
     e: 1,10,100,1000
   params:
-    Ed: Ec-0.578
+    Ed_a: Ec-0.578
 
 milnes1973:
   title: Deep impurities in semiconductors
@@ -30,7 +30,7 @@ chen1980:
   sample:
     incorporation: ion implantation
   params:
-    Ed: Ec-0.29
+    Ed_a: Ec-0.29
 
 benton1982:
   title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
@@ -40,7 +40,7 @@ benton1982:
   sample:
     growth: FZ
   params:
-    Ed: Ec-0.51
+    Ed_a: Ec-0.51
     sigma_e: 1.0e-16
 
 lemke1986a:
@@ -53,7 +53,7 @@ lemke1986a:
     incorporation: thermal
     resistivity: 50,20
   params:
-    Ed: Ec-0.57
+    Ed_a: Ec-0.57
 
 baber1987:
   title: Characterization of silver-related deep levels in silicon
@@ -75,7 +75,7 @@ baber1987:
     Ed: Ec-0.54
     sigma_e: '2.20E-16'
 
-Graff1995:
+graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
@@ -84,5 +84,5 @@ Graff1995:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ec-0.59
+    Ed_a: Ec-0.59
     sigma_e: '8.4e-19'

@@ -6,16 +6,16 @@ Weber1983:
   params:
     Ed: Ec-0.16
 
-Graff1995:
+graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
   comments: Taken from table 5.3.
   params:
-    Ed: Ec-0.17
+    Ed_a: Ec-0.17
     sigma_e: 2e-16
 
-Graff2000:
+graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: review, DLTS
@@ -24,5 +24,5 @@ Graff2000:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ec-0.18
+    Ed_a: Ec-0.18
     sigma_e: '1.6e-16'

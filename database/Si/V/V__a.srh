@@ -2,7 +2,7 @@
 chen1980:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105
-  measurement_technique: hall, DLTS
+  measurement_technique: DLTS, Hall
   comments: Review paper.
   params:
-    Ed: Ec-0.49
+    Ed_a: Ec-0.49

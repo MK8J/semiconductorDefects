@@ -5,5 +5,5 @@ Kimerling1976:
   measurement_technique: DLTS, EPR
   comments: In at 300 K out at 673K
   params:
-    Ed: Ev+0.33
+    Ed_a: Ev+0.33
     sigma_h: 8e-17

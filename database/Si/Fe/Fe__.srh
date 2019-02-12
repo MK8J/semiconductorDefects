@@ -7,7 +7,7 @@ benton1982:
   sample:
     growth: FZ
   params:
-    Ed: Ec-0.35
+    Ed_a: Ec-0.35
     sigma_e: 6.0e-15
 
 benton1982_1:
@@ -18,7 +18,7 @@ benton1982_1:
   sample:
     growth: FZ
   params:
-    Ed: Ec-0.21
+    Ed_a: Ec-0.21
 
 benton1982_2:
   title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
@@ -28,7 +28,7 @@ benton1982_2:
   sample:
     growth: FZ
   params:
-    Ed: Ec-0.46
+    Ed_a: Ec-0.46
 
 benton1982_3:
   title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
@@ -38,7 +38,7 @@ benton1982_3:
   sample:
     growth: FZ
   params:
-    Ed: Ev+0.23
+    Ed_a: Ev+0.23
 
 benton1982_4:
   title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
@@ -48,7 +48,7 @@ benton1982_4:
   sample:
     growth: CZ
   params:
-    Ed: Ec-0.35
+    Ed_a: Ec-0.35
     sigma_e: 5.0e-15
 
 benton1982_5:
@@ -59,7 +59,7 @@ benton1982_5:
   sample:
     growth: CZ
   params:
-    Ed: Ev+0.30
+    Ed_a: Ev+0.30
 
 benton1982_6:
   title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
@@ -69,7 +69,7 @@ benton1982_6:
   sample:
     growth: CZ
   params:
-    Ed: Ev+0.43
+    Ed_a: Ev+0.43
 
 benton1982_7:
   title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
@@ -79,4 +79,4 @@ benton1982_7:
   sample:
     growth: CZ
   params:
-    Ed: Ev+0.47
+    Ed_a: Ev+0.47

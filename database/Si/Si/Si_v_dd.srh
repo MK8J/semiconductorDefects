@@ -5,4 +5,4 @@ Kimerling1976:
   measurement_technique: DLTS, EPR
   comments: Out at 90K
   params:
-    Ed: Ec-0.09
+    Ed_a: Ec-0.09

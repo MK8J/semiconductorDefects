@@ -6,7 +6,7 @@ Weber1983:
   params:
     Ed: Ec-0.55
 
-Graff1995:
+graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
@@ -15,9 +15,9 @@ Graff1995:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ec-0.55
+    Ed_a: Ec-0.55
 
-Graff2000:
+graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: review, DLTS
@@ -26,19 +26,21 @@ Graff2000:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ec-0.55
+    Ed_a: Ec-0.55
     sigma_e: 9e-14
 
 roth2008:
   title: Analysis of electrically active defects in silicon for solar cells
   ISBN: 3868530363, 9783868530360
   measurement_technique: DLTS, LS-IT
+  comments: An activation energy was used to fit lifetime data. It is unknown if this
+    will work.
   sample:
     growth: FZ
     dopant: B
     incorporation: ion implantation
   params:
-    Ed: Ev+0.55
+    Ed_a: Ev+0.55
     dEd: '0.02'
     sigma_e: 2.1e-12*(T/300)^(-1.6)
     sigma_h: 3.5e-13

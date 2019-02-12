@@ -10,7 +10,7 @@ graff1981:
     incorporation: thermal
     resistivity: 1-100
   params:
-    Ed: Ev+0.6
+    Ed_a: Ev+0.6
 
 Hangleiter1987:
   title: 'Nonradiative recombination via deep impurity levels in silicon: Experiment'
@@ -21,13 +21,13 @@ Hangleiter1987:
     sigma_e: 3e-7*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))
     sigma_h: 3e-8*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))
 
-Graff1995:
+graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
   comments: Taken from table 4.3 and table 1 in the appendix.
   params:
-    Ed: Ec-0.23
+    Ed_a: Ec-0.23
 
 Walz1996:
   title: On the recombination behaviour of iron in moderately boron-doped p-type silicon
@@ -47,11 +47,11 @@ Istratov1999:
     Points out DLTS is impact by capture cross section barrier heights, while EPR
     and hall affect measurements are not.
   params:
-    Ed: Ec-0.26
+    Ed_a: Ec-0.26
     sigma_e: 4e-13
     sigma_h: 2e-14
 
-Graff2000:
+graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: review, DLTS
@@ -60,7 +60,7 @@ Graff2000:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ec-0.27
+    Ed_a: Ec-0.27
     sigma_e: '1.6e-15'
 
 Macdonald2001:

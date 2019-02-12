@@ -16,7 +16,7 @@ mathiot1989:
     dopant: phorphous
     incorporation: thermal
   params:
-    Ed: Ec-0.09
+    Ed_a: Ec-0.09
     sigma_e: 2.9e-14
 
 tilly1991:
@@ -34,7 +34,7 @@ tilly1991:
     Ed: Ec-(0.077-1.47e-4*T)
     sigma_e: '1.60E-15'
 
-Graff1995:
+graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
@@ -43,16 +43,16 @@ Graff1995:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ec-0.08
+    Ed_a: Ec-0.08
     sigma_e: 5e-14
 
-Graff2000:
+graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: review, DLTS
   comments: Taken from table 5.2. DLTS done at a temperature of 50K.
   params:
-    Ed: Ec-0.08
+    Ed_a: Ec-0.08
     dEd: 0.01
     sigma_e: 3.5e-14
 

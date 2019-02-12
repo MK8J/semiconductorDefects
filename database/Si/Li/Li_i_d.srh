@@ -12,4 +12,4 @@ chen1980:
   DOI: 10.1146/annurev.ms.10.080180.001105
   measurement_technique: review, hall, DLTS
   params:
-    Ed: Ec-0.033
+    Ed_a: Ec-0.033

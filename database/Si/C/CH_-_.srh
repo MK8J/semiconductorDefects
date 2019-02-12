@@ -8,7 +8,7 @@ Andersen2002:
   sample:
     dopant: phorphous
   params:
-    Ed: Ec-0.22
+    Ed_a: Ec-0.22
     sigma_e: 2.0e-14
 
 Scheffler2013:
@@ -20,5 +20,5 @@ Scheffler2013:
     dopant: n
     incorporation: melt
   params:
-    Ed: Ec-0.16
+    Ed_a: Ec-0.16
     sigma_e: 5.599999999999999e-16

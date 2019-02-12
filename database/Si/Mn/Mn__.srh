@@ -18,7 +18,7 @@ davis1980:
   DOI: 10.1109/T-ED.1980.19922
   measurement_technique: DLTS, SCP
   params:
-    Ed: Ev+0.4
+    Ed_a: Ev+0.4
     dEd: 0.02
 
 benton1982:
@@ -27,7 +27,7 @@ benton1982:
   measurement_technique: DLTS
   comments: Emission rate at 1.8 ms at 81 K, quenched
   params:
-    Ed: Ev+0.13
+    Ed_a: Ev+0.13
     sigma_h: 5.0e-16
 
 benton1982_1:
@@ -36,7 +36,7 @@ benton1982_1:
   measurement_technique: DLTS
   comments: Emission rate at 1.8 ms at 68 K, quenched
   params:
-    Ed: Ec-0.11
+    Ed_a: Ec-0.11
     sigma_e: 1e-15
 
 benton1982_2:
@@ -45,7 +45,7 @@ benton1982_2:
   measurement_technique: DLTS
   comments: Emission rate at 1.8 ms at 218 K, quenched
   params:
-    Ed: Ec-0.41
+    Ed_a: Ec-0.41
     sigma_h: 2e-15
 
 roth2008:

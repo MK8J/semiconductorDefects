@@ -8,6 +8,6 @@ davis1980:
     dopant: B,P
     incorporation: melt
   params:
-    Ed: Ev+0.12
+    Ed_a: Ev+0.12
     dEd: 0.02
     sigma_e: 3.6e-14

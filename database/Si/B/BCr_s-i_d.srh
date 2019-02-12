@@ -13,7 +13,7 @@ conzelmann1983:
   comments: no thermal velocity was provided, it was assumed a thermal velocity of
     2.046e7.
   params:
-    Ed: Ev+0.28
+    Ed_a: Ev+0.28
     sigma_h: 1e-14
     dsigma_h: 2e-15
 
@@ -26,13 +26,13 @@ Hangleiter1987:
     sigma_e: 6e-7*(300/T)^(-1.2)/(2e7 *(T/300)^(0.5))
     sigma_h: 2e-7*(300/T)^(-1.2)/(2e7 *(T/300)^(0.5))
 
-Graff1995:
+graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
   comments: Taken from table 4.6.
   params:
-    Ed: Ev+0.27
+    Ed_a: Ev+0.27
     sigma_h: 9.5e-16
     dsigma_h: 5.0e-17
 
@@ -44,10 +44,10 @@ mishra1996:
   comments: no thermal velocity was provided, it was assumed a thermal velocity of
     2.046e7.
   params:
-    Ed: Ev+0.27
+    Ed_a: Ev+0.27
     sigma_e: 1.5e-6/2.046e7
 
-Graff2000:
+graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
   DOI: 10.1007/978-3-642-57121-3
   measurement_technique: review, DLTS
@@ -56,7 +56,7 @@ Graff2000:
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
     the majority carrier was electrons.
   params:
-    Ed: Ev+0.28
+    Ed_a: Ev+0.28
     sigma_h: 2e-14
 
 Schmidt2007:
@@ -66,6 +66,6 @@ Schmidt2007:
   measurement_technique: DLTS, LS-TI
   comments: Capture cross sections were found to be independent of temperature
   params:
-    Ed: Ev+0.28
+    Ed_a: Ev+0.28
     sigma_e: 5e-15
     sigma_h: 1e-14
