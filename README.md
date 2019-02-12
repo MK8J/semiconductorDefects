@@ -82,19 +82,25 @@ spectroscopy usually provides a measure of k rather than absolute
 capture cross sections.
 
 Unfortunatley these values are not often reported. To allow the capture
-of partial data from DLTS, as its the largest contributor, there are
-several other definitions of energy levels.
+of partial data from DLTS, as its the largest contributor to data, there
+are several other definitions of energy levels. The notiation used here
+is the same as used within the repository, e.g. plain text:
 
   - Ed\_a: The apparent or thermal activation energy. This is an energy
     extracted from the arhenious plot of DLTS data.
-  - Ed\_h: The enthalpy of the defect. This is the Ed\_a that has had
-    the impact of a temperature dependent capture cross section removed.
-    For this to occur it is required that a direct measurement of the
-    capture rate is performed at several temperatures.
+
+  - Ed\_h: The enthalpy of the defect. This is the E<sub>d,a</sub> that
+    has had the impact of a temperature dependent capture cross section
+    removed. For this to occur it is required that a direct measurement
+    of the capture rate is performed at several temperatures.
+
   - Ed: The energy level, or Gibb’s free energy of the defect. It
     accounts for the change in entrpy of the defect:
-    \[Ed = Ed_h - T*\Delta S\] This is can be calculated directly from
-    the emission and capture rates.
+    
+    *E<sub>d</sub> = E<sub>dh</sub> - T×ΔS*
+    
+    The energy level can be calculated directly from the emission and
+    capture rates.
 
 TODO: ‘k’ is obviously poor notation, but it is currently the standard
 notation. This should be improved both here and in literature.
