@@ -1,0 +1,8 @@
+
+nielsen1999a:
+  title: Bond-centered hydrogen in silicon studied by in situ deep-level transient
+    spectroscopy
+  DOI: 10.1103/PhysRevB.60.1716
+  measurement_technique: DLTS
+  params:
+    Ed_a: Ec-0.175
