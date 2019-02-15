@@ -7,7 +7,7 @@ Kimerling1976:
     sigma
   params:
     Ed_a: Ec-0.44
-    sigma_e: 1e-16
+    sigma_ea: 1e-16
 
 GLMiller1977:
   title: Capacitance Transient Spectroscopy
@@ -16,7 +16,7 @@ GLMiller1977:
   comments: Out at 150. E_0 = 1.25eV and E_0^0 = 0.95eV. Min value for sigma
   params:
     Ed_a: Ec-0.44
-    sigma_e: 1e-16
+    sigma_ea: 1e-16
 
 brotherton1982:
   title: "Defect production and lifetime control in electron and \u03B3-irradiated\

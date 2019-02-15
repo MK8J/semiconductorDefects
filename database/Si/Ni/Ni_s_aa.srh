@@ -34,4 +34,4 @@ graff2000:
   params:
     Ed_a: Ec-0.07
     dEd: 0.01
-    sigma_e: '5.4e-18'
+    sigma_ea: '5.4e-18'

@@ -26,4 +26,4 @@ Scheffler2013:
     incorporation: melt
   params:
     Ed_a: Ev+0.38
-    sigma_h: 1.6e-14
+    sigma_ha: 1.6e-14

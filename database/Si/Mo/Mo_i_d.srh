@@ -11,8 +11,8 @@ Rohatgi1980:
     resistivity: 4-6
   params:
     Ed_a: Ev+0.30
-    sigma_e: 1.6e-14
-    sigma_h: 4.31e-16
+    sigma_ea: 1.6e-14
+    sigma_ha: 4.31e-16
 
 Hamaguchi1991:
   title: Deep Levels Associated with Molybdenum in Silicon
@@ -29,8 +29,8 @@ Hamaguchi1991:
     resistivity: 10
   params:
     Ed_a: Ev+0.31
-    sigma_e: 1.6e-14
-    sigma_h: 4.31e-16
+    sigma_ea: 1.6e-14
+    sigma_ha: 4.31e-16
 
 Pettersson1991:
   title: Electrical and optical properties of molybdenum and tungsten related defects
@@ -75,8 +75,8 @@ graff1995:
     the majority carrier was electrons.
   params:
     Ed_a: Ev+0.29
-    sigma_e: 1.6e-14
-    sigma_h: '5.5e-16'
+    sigma_ea: 1.6e-14
+    sigma_ha: '5.5e-16'
 
 graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
@@ -88,7 +88,7 @@ graff2000:
     the majority carrier was electrons.
   params:
     Ed_a: Ev+0.28
-    sigma_h: 6e-16
+    sigma_ha: 6e-16
 
 Rein2005:
   title: Lifetime Spectroscopy A Method of Defect Characterization in Silicon for

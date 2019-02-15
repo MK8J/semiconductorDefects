@@ -22,10 +22,10 @@ graff1995:
   comments: Taken from table 4.10.
   params:
     Ed_a: Ec-0.24
-    sigma_e: 267e-14
-    dsigma_e: 263e-14
-    sigma_h: 2.65e-14
-    dsigma_h: 2.35e-14
+    sigma_ea: 267e-14
+    dsigma_ea: 263e-14
+    sigma_ha: 2.65e-14
+    dsigma_ha: 2.35e-14
 
 graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
@@ -35,5 +35,5 @@ graff2000:
   params:
     Ed_a: Ec-0.23
     dEd: 0.01
-    sigma_e: 2.9e-14
-    sigma_h: 2.6e-14
+    sigma_ea: 2.9e-14
+    sigma_ha: 2.6e-14

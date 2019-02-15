@@ -8,4 +8,4 @@ benton1982:
     growth: FZ,CZ
   params:
     Ed_a: Ec-0.44
-    sigma_e: 1.0e-16
+    sigma_ea: 1.0e-16

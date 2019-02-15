@@ -9,7 +9,7 @@ graff2000:
     the majority carrier was electrons.
   params:
     Ed_a: Ec-0.55
-    sigma_e: '1.4e-13'
+    sigma_ea: '1.4e-13'
 
 graff2000_1:
   title: Metal Impurities in Silicon-Device Fabrication
@@ -21,4 +21,4 @@ graff2000_1:
     the majority carrier was electrons.
   params:
     Ed_a: Ec-0.31
-    sigma_e: 7e-16
+    sigma_ea: 7e-16

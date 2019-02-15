@@ -41,7 +41,7 @@ benton1982:
     growth: FZ
   params:
     Ed_a: Ec-0.51
-    sigma_e: 1.0e-16
+    sigma_ea: 1.0e-16
 
 lemke1986a:
   title: Dotierungseigenschaften von Silber in Silizium
@@ -85,4 +85,4 @@ graff1995:
     the majority carrier was electrons.
   params:
     Ed_a: Ec-0.59
-    sigma_e: '8.4e-19'
+    sigma_ea: '8.4e-19'

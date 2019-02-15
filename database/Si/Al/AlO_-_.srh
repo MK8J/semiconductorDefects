@@ -37,8 +37,8 @@ rosenits2008:
   params:
     Ed_a: Ev+0.44
     dEd: '0.02'
-    sigma_e: '3.10E-10'
-    sigma_h: 3.6e-13
+    sigma_ea: '3.10E-10'
+    sigma_ha: 3.6e-13
     k: 861.0i
 
 roth2008:
@@ -51,8 +51,8 @@ roth2008:
   params:
     Ed_a: Ev+0.44
     dEd: '0.02'
-    sigma_e: '3.10E-10'
-    sigma_h: 3.6e-13
+    sigma_ea: '3.10E-10'
+    sigma_ha: 3.6e-13
     k: 861.0
 
 rosenits2011:
@@ -69,8 +69,8 @@ rosenits2011:
     incorporation: melt
   params:
     Ed_a: Ev+0.44
-    sigma_e: '3.6E-15'
-    sigma_h: 3.6e-17
+    sigma_ea: '3.6E-15'
+    sigma_ha: 3.6e-17
     k: 100.0
 
 roth2011:
@@ -86,6 +86,6 @@ roth2011:
     incorporation: melt
   params:
     Ed_a: Ev+0.44
-    sigma_e: '3.6E-15'
-    sigma_h: 3.6e-17
+    sigma_ea: '3.6E-15'
+    sigma_ha: 3.6e-17
     k: 200.0

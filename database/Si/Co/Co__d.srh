@@ -9,7 +9,7 @@ graff1995:
     the majority carrier was electrons.
   params:
     Ed_a: Ev+0.41
-    sigma_h: 4e-18
+    sigma_ha: 4e-18
 
 graff1995_1:
   title: Metal impurities in silicon-device fabrication

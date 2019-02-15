@@ -63,8 +63,8 @@ Istratov1999:
     and hall affect measurements are not. sigma_h was measured at T = 300 K.
   params:
     Ed_a: Ev+0.1
-    sigma_e: 4e-13
-    sigma_h: 3e-14
+    sigma_ea: 4e-13
+    sigma_ha: 3e-14
 
 graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
@@ -76,4 +76,4 @@ graff2000:
     the majority carrier was electrons.
   params:
     Ed_a: Ev+0.1
-    sigma_h: '6.4e-14'
+    sigma_ha: '6.4e-14'

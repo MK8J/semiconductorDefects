@@ -74,4 +74,4 @@ graff2000_1:
     the majority carrier was electrons.
   params:
     Ed_a: Ev+0.2
-    sigma_h: '1.1e-15'
+    sigma_ha: '1.1e-15'

@@ -6,7 +6,7 @@ Kimerling1976:
   comments: Out at 573K
   params:
     Ed_a: Ec-0.39
-    sigma_h: 4e-15
+    sigma_ha: 4e-15
 
 GLMiller1977:
   title: Capacitance Transient Spectroscopy
@@ -15,7 +15,7 @@ GLMiller1977:
   comments: Out at 300
   params:
     Ed_a: Ec-0.39
-    sigma_e: 4e-15
+    sigma_ea: 4e-15
 
 brotherton1982:
   title: "Defect production and lifetime control in electron and \u03B3-irradiated\

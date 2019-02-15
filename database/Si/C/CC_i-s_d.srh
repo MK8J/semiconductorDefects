@@ -6,4 +6,4 @@ Kimerling1976:
   comments: In at 300 K out at 673K
   params:
     Ed_a: Ev+0.33
-    sigma_h: 8e-17
+    sigma_ha: 8e-17

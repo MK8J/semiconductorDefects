@@ -10,8 +10,8 @@ davis1980:
   params:
     Ed_a: Ev+0.3
     dEd: 0.1
-    sigma_e: 1.85e-14
-    sigma_h: 7.8e-15
+    sigma_ea: 1.85e-14
+    sigma_ha: 7.8e-15
     k: 2.4
 
 benton1999:
@@ -26,4 +26,4 @@ benton1999:
     resistivity: 10
   params:
     Ed_a: Ev+0.30
-    sigma_h: 5.5e-16
+    sigma_ha: 5.5e-16

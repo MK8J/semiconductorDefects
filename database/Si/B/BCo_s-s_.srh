@@ -7,4 +7,4 @@ Scheffler2012:
     out at 395 K
   params:
     Ed_a: Ev+0.46
-    sigma_h: 3.7e-15
+    sigma_ha: 3.7e-15

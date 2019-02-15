@@ -14,8 +14,8 @@ conzelmann1983:
     2.046e7.
   params:
     Ed_a: Ev+0.28
-    sigma_h: 1e-14
-    dsigma_h: 2e-15
+    sigma_ha: 1e-14
+    dsigma_ha: 2e-15
 
 Hangleiter1987:
   title: 'Nonradiative recombination via deep impurity levels in silicon: Experiment'
@@ -33,8 +33,8 @@ graff1995:
   comments: Taken from table 4.6.
   params:
     Ed_a: Ev+0.27
-    sigma_h: 9.5e-16
-    dsigma_h: 5.0e-17
+    sigma_ha: 9.5e-16
+    dsigma_ha: 5.0e-17
 
 mishra1996:
   title: Identification of Cr in p-type silicon using the minority carrier lifetime
@@ -45,7 +45,7 @@ mishra1996:
     2.046e7.
   params:
     Ed_a: Ev+0.27
-    sigma_e: 1.5e-6/2.046e7
+    sigma_ea: 1.5e-6/2.046e7
 
 graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
@@ -57,7 +57,7 @@ graff2000:
     the majority carrier was electrons.
   params:
     Ed_a: Ev+0.28
-    sigma_h: 2e-14
+    sigma_ha: 2e-14
 
 Schmidt2007:
   title: Recombination activity of interstitial chromium and chromium-boron pairs
@@ -67,5 +67,5 @@ Schmidt2007:
   comments: Capture cross sections were found to be independent of temperature
   params:
     Ed_a: Ev+0.28
-    sigma_e: 5e-15
-    sigma_h: 1e-14
+    sigma_ea: 5e-15
+    sigma_ha: 1e-14

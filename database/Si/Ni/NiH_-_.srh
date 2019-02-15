@@ -60,5 +60,5 @@ scheffler2014:
     Rw: 0.021 s
   params:
     Ed_a: Ev+0.29
-    sigma_h: 3.9999999999999995e-15
-    dsigma_h: 9.999999999999999e-16
+    sigma_ha: 3.9999999999999995e-15
+    dsigma_ha: 9.999999999999999e-16

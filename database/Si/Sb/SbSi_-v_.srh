@@ -6,4 +6,4 @@ chen1980:
   comments: Measured at 234 K
   params:
     Ed_a: Ec-0.39
-    sigma_e: '4.50E-17'
+    sigma_ea: '4.50E-17'

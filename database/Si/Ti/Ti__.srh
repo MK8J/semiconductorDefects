@@ -18,8 +18,8 @@ davis1980:
   params:
     Ed_a: Ev+0.3
     dEd: 0.02
-    sigma_e: 1.04e-14
-    sigma_h: 8.300000000000001e-16
+    sigma_ea: 1.04e-14
+    sigma_ha: 8.300000000000001e-16
     k: 12.5
 
 davis1980_1:

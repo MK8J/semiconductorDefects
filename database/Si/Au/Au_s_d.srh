@@ -72,7 +72,7 @@ benton1982_1:
     growth: FZ
   params:
     Ed_a: Ev+0.35
-    sigma_h: 9.999999999999999e-16
+    sigma_ha: 9.999999999999999e-16
 
 wu1982:
   title: Capture cross sections of the gold donor and acceptor states in n-type Czochralski
@@ -120,5 +120,5 @@ graff2000:
   params:
     Ed_a: Ev+0.34
     dEd: 0.02
-    sigma_e: '2.7e-15'
-    sigma_h: '2.5e-15'
+    sigma_ea: '2.7e-15'
+    sigma_ha: '2.5e-15'

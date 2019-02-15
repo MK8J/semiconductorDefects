@@ -6,7 +6,7 @@ GLMiller1977:
   comments: out at 300
   params:
     Ed_a: Ev+0.25
-    sigma_h: 7e-18
+    sigma_ha: 7e-18
 
 Asom1987:
   title: Interstitial defect reactions in silicon

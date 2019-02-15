@@ -6,7 +6,7 @@ Kimerling1976:
   comments: Out at 623K
   params:
     Ed_a: Ec-0.08
-    sigma_e: 1e-14
+    sigma_ea: 1e-14
 
 GLMiller1977:
   title: Capacitance Transient Spectroscopy
@@ -15,7 +15,7 @@ GLMiller1977:
   comments: out at 350. Ea=1.3eV
   params:
     Ed_a: Ec-0.08
-    sigma_e: 1e-14
+    sigma_ea: 1e-14
 
 brotherton1982:
   title: "Defect production and lifetime control in electron and \u03B3-irradiated\

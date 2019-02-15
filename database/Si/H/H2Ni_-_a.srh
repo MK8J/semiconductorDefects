@@ -16,8 +16,8 @@ scheffler2014:
     Rw: 0.021 s
   params:
     Ed_a: Ev+0.58
-    sigma_h: 2.0e-14
-    dsigma_h: 1.0e-14
+    sigma_ha: 2.0e-14
+    dsigma_ha: 1.0e-14
 
 scheffler2014_1:
   title: Electrical levels in nickel doped silicon
@@ -36,5 +36,5 @@ scheffler2014_1:
     Rw: 0.021 s
   params:
     Ed_a: Ev+0.6
-    sigma_h: 2.7e-14
-    dsigma_h: 3.0e-15
+    sigma_ha: 2.7e-14
+    dsigma_ha: 3.0e-15

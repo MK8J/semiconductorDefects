@@ -8,7 +8,7 @@ benton1982:
     growth: FZ
   params:
     Ed_a: Ec-0.38
-    sigma_e: 1.4e-15
+    sigma_ea: 1.4e-15
 
 benton1982_1:
   title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
@@ -19,4 +19,4 @@ benton1982_1:
     growth: FZ
   params:
     Ed_a: Ev+0.35
-    sigma_h: 5.0e-17
+    sigma_ha: 5.0e-17

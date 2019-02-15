@@ -6,7 +6,7 @@ Kimerling1976:
   comments: Out at 150K
   params:
     Ed_a: Ev+0.11
-    sigma_h: 5e-17
+    sigma_ha: 5e-17
 
 GLMiller1977:
   title: Capacitance Transient Spectroscopy
@@ -15,7 +15,7 @@ GLMiller1977:
   comments: Out at 150 K
   params:
     Ed_a: Ev+0.11
-    sigma_h: 5e-17
+    sigma_ha: 5e-17
 
 Asom1987:
   title: Interstitial defect reactions in silicon

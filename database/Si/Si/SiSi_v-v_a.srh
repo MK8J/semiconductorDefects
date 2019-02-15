@@ -6,7 +6,7 @@ Kimerling1976:
   comments: Out at 573K
   params:
     Ed_a: Ev+0.21
-    sigma_h: 2e-16
+    sigma_ha: 2e-16
 
 GLMiller1977:
   title: Capacitance Transient Spectroscopy
@@ -15,4 +15,4 @@ GLMiller1977:
   comments: Out at 300
   params:
     Ed_a: Ev+0.21
-    sigma_h: 2e-16
+    sigma_ha: 2e-16

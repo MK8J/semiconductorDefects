@@ -33,7 +33,7 @@ graff2000:
     the majority carrier was electrons.
   params:
     Ed_a: Ec-0.41
-    sigma_e: '2.2e-15'
+    sigma_ea: '2.2e-15'
 
 Diez2007:
   title: Cobalt related defect levels in silicon analyzed by temperature- and injection-dependent
@@ -60,4 +60,4 @@ Scheffler2013:
     incorporation: melt
   params:
     Ed_a: Ec-0.39
-    sigma_e: 8.699999999999999e-16
+    sigma_ea: 8.699999999999999e-16

@@ -26,4 +26,4 @@ benton1982_1:
     growth: CZ
   params:
     Ed_a: Ec-0.15
-    sigma_e: 3.0e-15
+    sigma_ea: 3.0e-15

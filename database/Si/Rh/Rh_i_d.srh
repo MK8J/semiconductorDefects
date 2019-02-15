@@ -6,4 +6,4 @@ graff1995:
   comments: Taken from table 5.9.
   params:
     Ed_a: Ec-0.58
-    sigma_e: 2.1e-15
+    sigma_ea: 2.1e-15

@@ -27,7 +27,7 @@ graff2000:
     the majority carrier was electrons.
   params:
     Ed_a: Ec-0.55
-    sigma_e: 9e-14
+    sigma_ea: 9e-14
 
 roth2008:
   title: Analysis of electrically active defects in silicon for solar cells
@@ -43,5 +43,5 @@ roth2008:
     Ed_a: Ev+0.55
     dEd_a: '0.02'
     sigma_e: 2.1e-12*(T/300)^(-1.6)
-    sigma_h: 3.5e-13
+    sigma_ha: 3.5e-13
     k: 6.0

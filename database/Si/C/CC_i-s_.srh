@@ -8,7 +8,7 @@ benton1982:
     growth: FZ,CZ
   params:
     Ed_a: Ev+0.36
-    sigma_h: 8.0e-17
+    sigma_ha: 8.0e-17
 
 Asom1987:
   title: Interstitial defect reactions in silicon

@@ -8,4 +8,4 @@ Andersen2002:
     dopant: phorphous
   params:
     Ed_a: Ec-0.16
-    sigma_e: 2.0e-16
+    sigma_ea: 2.0e-16
