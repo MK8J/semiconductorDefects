@@ -53,7 +53,7 @@ graff2000:
   comments: Taken from table 5.2. DLTS done at a temperature of 50K.
   params:
     Ed_a: Ec-0.08
-    dEd: 0.01
+    dEd_a: 0.01
     sigma_ea: 3.5e-14
 
 roth2008:

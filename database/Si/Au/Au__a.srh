@@ -8,7 +8,7 @@ sah1967:
     Capture rates are also provided'
   params:
     Ed_a: Ec-0.58981
-    dEd: 0.00215
+    dEd_a: 0.00215
 
 sah1967_1:
   title: Recombination Properties of the Gold Acceptor Level in Silicon using the
@@ -19,7 +19,7 @@ sah1967_1:
     rates are also provided'
   params:
     Ed_a: Ev+0.54723
-    dEd: 0.00217
+    dEd_a: 0.00217
 
 lemke1986a:
   title: Dotierungseigenschaften von Silber in Silizium

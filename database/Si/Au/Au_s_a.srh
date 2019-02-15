@@ -119,6 +119,6 @@ graff2000:
   comments: Taken from table 4.12. DLTS done at a temperature of 300K
   params:
     Ed_a: Ec-0.55
-    dEd: 0.01
+    dEd_a: 0.01
     sigma_ea: '1.4e-16'
     sigma_ha: '7.6e-15'

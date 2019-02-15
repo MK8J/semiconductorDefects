@@ -8,4 +8,4 @@ chen1980:
     incorporation: ion implantation
   params:
     Ed_a: Ev+0.41
-    dEd: 0.01
+    dEd_a: 0.01

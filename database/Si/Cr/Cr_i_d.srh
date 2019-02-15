@@ -17,7 +17,7 @@ davis1980:
     incorporation: melt
   params:
     Ed_a: Ec-0.25
-    dEd: 0.1
+    dEd_a: 0.1
 
 Weber1983:
   title: Transition metals in silicon
@@ -73,7 +73,7 @@ graff2000:
   comments: Taken from table 5.4. DLTS done at a temperature of 110K
   params:
     Ed_a: Ec-0.22
-    dEd: 0.01
+    dEd_a: 0.01
     sigma_ea: '7.3e-15'
 
 Schmidt2007:

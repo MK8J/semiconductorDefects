@@ -55,4 +55,4 @@ mukashev1982:
     e: 1,10,100,1000
   params:
     Ed_a: Ec-0.18
-    dEd: 0.015
+    dEd_a: 0.015

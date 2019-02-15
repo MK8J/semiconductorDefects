@@ -26,6 +26,6 @@ graff2000:
     dependence of sigma_h does not provide value in table.
   params:
     Ed_h: Ev+0.32
-    dEd: 0.01
+    dEd_h: 0.01
     sigma_e: 1e-16
     sigma_h: 1.3e-15*exp(-0.007/kT)

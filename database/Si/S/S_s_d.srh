@@ -11,4 +11,4 @@ rosier1971:
     resistivity: '5'
   params:
     Ed_a: Ec-0.275
-    dEd: 0.015
+    dEd_a: 0.015

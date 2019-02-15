@@ -30,7 +30,7 @@ davis1980:
     incorporation: melt
   params:
     Ed_a: Ev+0.4
-    dEd: 0.04
+    dEd_a: 0.04
 
 graff1981:
   title: The Properties of Iron in Silicon
@@ -130,7 +130,7 @@ graff2000:
     the majority carrier was electrons.
   params:
     Ed_h: Ev+0.39
-    dEd: 0.01
+    dEd_h: 0.01
     sigma_h: 3.80E-17 * exp(-0.043/kT)
 
 Rein2005:

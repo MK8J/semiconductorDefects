@@ -37,4 +37,4 @@ chen1980:
     incorporation: ion implantation, thermal
   params:
     Ed_h: Ec-0.23
-    dEd: 0.02
+    dEd_h: 0.02

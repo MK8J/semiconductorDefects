@@ -34,7 +34,8 @@ brotherton1982:
     e: 1,10,100,1000
   params:
     Ed_a: Ec-0.169
+    dEd_a: 0.015
     Ed_h: Ec-0.169
-    dEd: 0.015
+    dEd_h: 0.015
     sigma_e: '1.00E-14'
     dsigma_e: '2.00E-15'

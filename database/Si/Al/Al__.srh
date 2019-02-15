@@ -85,7 +85,7 @@ davis1980:
     incorporation: melt
   params:
     Ed_a: Ev+0.43
-    dEd: 0.05
+    dEd_a: 0.05
     sigma_ea: 1.4e-14
     sigma_ha: 5.7e-15
     k: 2.5
@@ -100,4 +100,4 @@ davis1980_1:
     incorporation: melt
   params:
     Ed_a: Ev+0.47
-    dEd: 0.03
+    dEd_a: 0.03

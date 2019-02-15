@@ -52,7 +52,7 @@ benton1982_4:
     growth: FZ,CZ
   params:
     Ed_a: Ec-0.345
-    dEd: 0.015
+    dEd_a: 0.015
     sigma_ea: 5.0e-16
 
 benton1982_5:
@@ -78,7 +78,7 @@ brotherton1982:
     resistivity: '60'
   params:
     Ed_a: Ec-0.09
-    dEd: 0.015
+    dEd_a: 0.015
     sigma_e: 5e-13 * exp(-0.08/kT)
     dsigma_e: 1e-13 * exp(-0.08/kT)
 
