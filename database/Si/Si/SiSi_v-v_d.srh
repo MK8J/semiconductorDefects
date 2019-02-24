@@ -1,5 +1,21 @@
 
-Kimerling1976:
+muller1974:
+  title: Thermally stimulated current measurements on silicon junctions produced by
+    implantation of low energy boron ions
+  DOI: 10.1016/0038-1101(74)90007-0
+  measurement_technique: TS-I
+  comments: Out at 533 K
+  sample:
+    growth: FZ
+    dopant: phorphous
+    incorporation: ion implantation
+    resistivity: '1000'
+  params:
+    Ed_a: Ev+0.255
+    dEd_a: 0.005
+    sigma_ha: 5.0e-17
+
+kimerling1976:
   title: New Developments in Defect Studies in Semiconductors
   DOI: 10.1109/TNS.1976.4328529
   measurement_technique: DLTS, EPR
@@ -8,7 +24,7 @@ Kimerling1976:
     Ed_a: Ec-0.39
     sigma_ha: 4e-15
 
-GLMiller1977:
+glmiller1977:
   title: Capacitance Transient Spectroscopy
   DOI: 10.1146/annurev.ms.07.080177.002113
   measurement_technique: DLTS
@@ -56,3 +72,12 @@ mukashev1982:
   params:
     Ed_a: Ec-0.18
     dEd_a: 0.015
+
+kimerling1985:
+  title: Defect Structure and Properties by Junction Spectroscopy
+  DOI: 10.1557/PROC-46-1
+  measurement_technique: review
+  sample:
+    dopant: boron
+  params:
+    Ed_a: Ev+0.2

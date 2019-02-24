@@ -22,7 +22,7 @@ graff1995_1:
   params:
     Ed_a: Ev+0.23
 
-Diez2007:
+diez2007:
   title: Cobalt related defect levels in silicon analyzed by temperature- and injection-dependent
     lifetime spectroscopy
   DOI: 10.1063/1.2433743

@@ -10,6 +10,35 @@ sah1967:
     Ed_a: Ec-0.345
     dEd_a: 0.0029
 
+sah1969:
+  title: Thermal emission rates of carriers at gold centers in silicon
+  DOI: 10.1063/1.1652943
+  measurement_technique: DLTS
+  params:
+    Ed_a: Ev+0.345
+    dEd_a: 0.0029
+
+sato1970:
+  title: "Measurements of the Thermal\x95\xC0_\xF3\x90Emission Rates of Electrons\
+    \ and Holes at the Gold Centers in Silicon Using the Small\x95\xC0_\xF3\x90Signal\x95\
+    \xC0_\xF3\x90Pulsed Field Effect"
+  DOI: 10.1063/1.1658432
+  measurement_technique: DLTS
+  measurement_details:
+    T: 180 K
+  params:
+    Ed_a: Ev+0.34
+
+nagasawa1975:
+  title: Fast transient capacitance measurements for implanted deep levels in silicon
+  DOI: 10.1007/BF00883667
+  measurement_technique: DLTS-Cr
+  measurement_details:
+    T: 298 K
+  params:
+    Ed_a: Ev+0.34
+    sigma_ha: 1.0399999999999999e-18
+
 lemke1986a:
   title: Dotierungseigenschaften von Silber in Silizium
   DOI: 10.1002/pssa.2210940171

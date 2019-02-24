@@ -7,3 +7,31 @@ chen1980:
     incorporation: radiation
   params:
     Ed: Ev+0.45
+
+chantre1985_a:
+  title: 'Configurationally bistable C center in quenched Si:B: Possibility of a boron-vacancy
+    pair'
+  DOI: 10.1103/PhysRevB.32.3687
+  measurement_technique: DLTS
+  comments: C center
+  sample:
+    growth: CZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 2019/10/15
+  params:
+    Ed_a: Ev+0.5
+
+chantre1985_a1:
+  title: 'Configurationally bistable C center in quenched Si:B: Possibility of a boron-vacancy
+    pair'
+  DOI: 10.1103/PhysRevB.32.3687
+  measurement_technique: DLTS
+  comments: ' C center'
+  sample:
+    growth: CZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 2019/10/15
+  params:
+    Ed_a: Ec-0.36

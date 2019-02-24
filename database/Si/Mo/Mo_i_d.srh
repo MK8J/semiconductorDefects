@@ -1,5 +1,5 @@
 
-Rohatgi1980:
+rohatgi1980:
   title: The impact of molybdenum on silicon and silicon solar cell performance
   DOI: 10.1016/0038-1101(80)90032-5
   measurement_technique: DLTS, LS-N
@@ -14,7 +14,7 @@ Rohatgi1980:
     sigma_ea: 1.6e-14
     sigma_ha: 4.31e-16
 
-Hamaguchi1991:
+hamaguchi1991:
   title: Deep Levels Associated with Molybdenum in Silicon
   DOI: 10.1143/JJAP.30.L1837
   measurement_technique: DLTS, DLTS-Mo, LS-N
@@ -32,7 +32,7 @@ Hamaguchi1991:
     sigma_ea: 1.6e-14
     sigma_ha: 4.31e-16
 
-Pettersson1991:
+pettersson1991:
   title: Electrical and optical properties of molybdenum and tungsten related defects
     in silicon
   DOI: 10.1088/0268-1242/6/4/002
@@ -52,7 +52,7 @@ Pettersson1991:
     Ed: 0.296 + 2.7e-5*T
     sigma_h: 8.38E-16 * exp(0.004/kT)
 
-Zhou1991:
+zhou1991:
   title: Physical Behaviour of 4d Transition Metal Impurity in Silicon
   DOI: 10.4028/www.scientific.net/MSF.38-41.457
   measurement_technique: DLTS
@@ -90,7 +90,7 @@ graff2000:
     Ed_a: Ev+0.28
     sigma_ha: 6e-16
 
-Rein2005:
+rein2005:
   title: Lifetime Spectroscopy A Method of Defect Characterization in Silicon for
     Photovoltaic Applications
   DOI: 10.1007/3-540-27922-9
@@ -105,7 +105,7 @@ Rein2005:
     k: '13.0'
     dk: 3
 
-Paudyal2010:
+paudyal2010:
   title: Temperature dependent carrier lifetime studies of Mo in crystalline silicon
   DOI: 10.1063/1.3309833
   measurement_technique: LS-ITD

@@ -24,7 +24,7 @@ wunstel1982:
   params:
     Ed_a: Ev+0.19
 
-Weber1983:
+weber1983:
   title: Transition metals in silicon
   DOI: 10.1007/BF00617708
   measurement_technique: review

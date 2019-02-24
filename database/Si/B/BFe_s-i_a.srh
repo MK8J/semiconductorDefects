@@ -9,10 +9,13 @@ graff1981:
     dopant: boron, phorphous, aluminum
     incorporation: thermal
     resistivity: 1-100
+  measurement_details:
+    Ur: 5.0
+    tp: 70 ms
   params:
     Ed_a: Ev+0.6
 
-Hangleiter1987:
+hangleiter1987:
   title: 'Nonradiative recombination via deep impurity levels in silicon: Experiment'
   DOI: 10.1103/PhysRevB.35.9149
   measurement_technique: DLTS, luminescence,
@@ -29,7 +32,7 @@ graff1995:
   params:
     Ed_a: Ec-0.23
 
-Walz1996:
+walz1996:
   title: On the recombination behaviour of iron in moderately boron-doped p-type silicon
   DOI: 10.1007/BF01594232
   measurement_technique: LS-DNM
@@ -39,7 +42,7 @@ Walz1996:
     sigma_e: '2.5e-15'
     sigma_h: 3e-14
 
-Istratov1999:
+istratov1999:
   title: Iron and its complexes in silicon
   DOI: 10.1007/s003390050968
   measurement_technique: DLTS, Hall, photoEPR, FTIR
@@ -63,7 +66,7 @@ graff2000:
     Ed_a: Ec-0.27
     sigma_ea: '1.6e-15'
 
-Macdonald2001:
+macdonald2001:
   title: Capture cross sections of the acceptor level of iron-boron pairs in p-type
     silicon by injection-level dependent lifetime measurements
   DOI: 10.1063/1.1372156
@@ -74,7 +77,7 @@ Macdonald2001:
     sigma_e: 3e-14
     sigma_h: 2e-15
 
-Birkholz2005:
+birkholz2005:
   title: Electronic properties of iron-boron pairs in crystalline silicon by temperature-
     and injection-level-dependent lifetime measurements
   DOI: 10.1063/1.1897489
@@ -85,7 +88,7 @@ Birkholz2005:
     sigma_e: '1.4e-15'
     sigma_h: '1.1e-15'
 
-Rein2005:
+rein2005:
   title: Electronic properties of interstitial iron and iron-boron pairs determined  by
     means of advanced lifetime spectroscopy
   DOI: 10.1063/1.2106017
@@ -98,7 +101,7 @@ Rein2005:
     k: '0.45'
     dk: 0.44,0.55
 
-Macdonald2006:
+macdonald2006:
   title: Doping dependence of the carrier lifetime crossover point upon dissociation
     of iron-boron pairs in crystalline silicon
   DOI: 10.1063/1.2358126

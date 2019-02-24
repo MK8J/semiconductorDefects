@@ -1,0 +1,12 @@
+
+grimmeiss1980:
+  title: Deep sulfur?related centers in silicon
+  DOI: 10.1063/1.328279
+  measurement_technique: DLTS-Cr
+  sample:
+    dopant: phosphorous
+    incorporation: thermal
+  params:
+    Ed_a: Ec-0.286
+    Ed_h: Ev+0.301
+    sigma_e: 6.24e-9T^(-3.16)

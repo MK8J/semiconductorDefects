@@ -1,5 +1,5 @@
 
-Newman1954:
+newman1954:
   title: Photoconductivity in Gold-Doped Silicon
   DOI: 10.1103/PhysRev.94.1530
   measurement_technique: PC-S
@@ -8,7 +8,7 @@ Newman1954:
     Ed: Ev+0.325
     dEd: 0.005
 
-Taft1954:
+taft1954:
   title: Gold as a Donor in Silicon
   DOI: 10.1103/PhysRev.93.64
   measurement_technique: Resistivity
@@ -17,7 +17,7 @@ Taft1954:
   params:
     Ed: Ev+0.33
 
-Collins1957:
+collins1957:
   title: Properties of Gold-Doped Silicon
   DOI: 10.1103/PhysRev.105.1168
   measurement_technique: Hall
@@ -93,7 +93,7 @@ wu1982:
     sigma_h: 3.5e-15
     dsigma_h: 8.0e-16
 
-Hangleiter1987:
+hangleiter1987:
   title: 'Nonradiative recombination via deep impurity levels in silicon: Experiment'
   DOI: 10.1103/PhysRevB.35.9149
   measurement_technique: DLTS, luminescence,

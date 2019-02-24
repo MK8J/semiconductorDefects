@@ -1,5 +1,5 @@
 
-Asom1987:
+asom1987:
   title: Interstitial defect reactions in silicon
   DOI: 10.1063/1.98465
   measurement_technique: DLTS
@@ -10,7 +10,7 @@ Asom1987:
   params:
     Ed_a: Ec-0.29
 
-Asom1987_1:
+asom1987_1:
   title: Interstitial defect reactions in silicon
   DOI: 10.1063/1.98465
   measurement_technique: DLTS
@@ -20,7 +20,7 @@ Asom1987_1:
   params:
     Ed_a: Ec-0.23
 
-Asom1987_2:
+asom1987_2:
   title: Interstitial defect reactions in silicon
   DOI: 10.1063/1.98465
   measurement_technique: DLTS
@@ -28,7 +28,7 @@ Asom1987_2:
   params:
     Ed_a: Ec-0.21
 
-Asom1987_3:
+asom1987_3:
   title: Interstitial defect reactions in silicon
   DOI: 10.1063/1.98465
   measurement_technique: DLTS

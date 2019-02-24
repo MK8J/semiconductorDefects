@@ -1,5 +1,5 @@
 
-Asom1987:
+asom1987:
   title: Interstitial defect reactions in silicon
   DOI: 10.1063/1.98465
   measurement_technique: DLTS-Me, EPR
@@ -7,7 +7,7 @@ Asom1987:
   params:
     Ed_a: Ev+0.36
 
-Makarenko2007:
+makarenko2007:
   title: Reactions of interstitial carbon with impurities in silicon particle detectors
   DOI: 10.1063/1.2745328
   measurement_technique: DLTS

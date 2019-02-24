@@ -43,7 +43,7 @@ graff2000_1:
   params:
     Ed_a: Ev+0.27
 
-Schmidt2005:
+schmidt2005:
   title: Recombination activity of iron-gallium and iron-indium pairs in silicon
   DOI: 10.1063/1.1929096
   measurement_technique: LS-I

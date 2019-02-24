@@ -1,4 +1,36 @@
 
+nagasawa1975:
+  title: Fast transient capacitance measurements for implanted deep levels in silicon
+  DOI: 10.1007/BF00883667
+  measurement_technique: DLTS-Cr
+  sample:
+    incorporation: ion implantation
+  params:
+    Ed_a: Ev+0.47
+    sigma_ha: 7.28e-16
+
+lisiak1976:
+  title: Rhodium and iridium as deep impurities in silicon
+  DOI: 10.1016/0038-1101(76)90087-3
+  measurement_technique: DLTS
+  comments: Also did lifetime but not included in entry
+  sample:
+    incorporation: thermal
+  params:
+    Ed_a: Ec-0.385
+    sigma_ea: 1.3000000000000002e-10
+
+lisiak1976_1:
+  title: Rhodium and iridium as deep impurities in silicon
+  DOI: 10.1016/0038-1101(76)90087-3
+  measurement_technique: DLTS
+  comments: Also did lifetime but not included in entry
+  sample:
+    incorporation: thermal
+  params:
+    Ed_a: Ec-0.629
+    sigma_ea: 1.3999999999999999e-14
+
 chen1980:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105

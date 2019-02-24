@@ -1,0 +1,59 @@
+
+sah1969:
+  title: Thermal emission rates of carriers at gold centers in silicon
+  DOI: 10.1063/1.1652943
+  measurement_technique: DLTS
+  params:
+    Ed_a: Ec-0.54723
+    dEd_a: 0.00217
+
+wang1976:
+  title: "Determination of interface and bulk\x95\xC0_\xF3\x90trap states of IGFET\x95\
+    \xC0_\xF3\xBBs using deep\x95\xC0_\xF3\x90level transient spectroscopy"
+  DOI: 10.1063/1.322381
+  measurement_technique: DLTS
+  sample:
+    dopant: phorphous
+  params:
+    Ed_a: Ec-0.31
+
+wang1976_1:
+  title: "Determination of interface and bulk\x95\xC0_\xF3\x90trap states of IGFET\x95\
+    \xC0_\xF3\xBBs using deep\x95\xC0_\xF3\x90level transient spectroscopy"
+  DOI: 10.1063/1.322381
+  measurement_technique: DLTS
+  sample:
+    dopant: phorphous
+  params:
+    Ed_a: Ec-0.44
+
+wang1976_2:
+  title: "Determination of interface and bulk\x95\xC0_\xF3\x90trap states of IGFET\x95\
+    \xC0_\xF3\xBBs using deep\x95\xC0_\xF3\x90level transient spectroscopy"
+  DOI: 10.1063/1.322381
+  measurement_technique: DLTS
+  sample:
+    dopant: phorphous
+  params:
+    Ed_a: Ec-0.54
+    sigma_ea: 6.0e-15
+
+wang1976_3:
+  title: "Determination of interface and bulk\x95\xC0_\xF3\x90trap states of IGFET\x95\
+    \xC0_\xF3\xBBs using deep\x95\xC0_\xF3\x90level transient spectroscopy"
+  DOI: 10.1063/1.322381
+  measurement_technique: DLTS
+  sample:
+    dopant: phorphous
+  params:
+    Ed_a: Ec-0.2
+
+wang1976_4:
+  title: "Determination of interface and bulk\x95\xC0_\xF3\x90trap states of IGFET\x95\
+    \xC0_\xF3\xBBs using deep\x95\xC0_\xF3\x90level transient spectroscopy"
+  DOI: 10.1063/1.322381
+  measurement_technique: DLTS
+  sample:
+    dopant: phorphous
+  params:
+    Ed_a: Ec-0.13

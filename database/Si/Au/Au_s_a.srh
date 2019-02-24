@@ -1,5 +1,5 @@
 
-Collins1957:
+collins1957:
   title: Properties of Gold-Doped Silicon
   DOI: 10.1103/PhysRev.105.1168
   measurement_technique: Hall
@@ -76,7 +76,7 @@ wu1982:
     sigma_h: 0.9e-14 * (T/300)^(-1.3)
     dsigma_h: 0.2e-14 * (T/300)^(-1.3)
 
-Hangleiter1987:
+hangleiter1987:
   title: 'Nonradiative recombination via deep impurity levels in silicon: Experiment'
   DOI: 10.1103/PhysRevB.35.9149
   measurement_technique: DLTS, luminescence,
@@ -94,7 +94,7 @@ graff1995:
     sigma_e: '1.4e-16'
     sigma_h: 6e-15/9*T^(-1.3/1.5)
 
-Deixler1998:
+deixler1998:
   title: Laplace-transform deep-level transient spectroscopy studies of the G4 gold
     hydrogen complex in silicon
   DOI: 10.1063/1.122694

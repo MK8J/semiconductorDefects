@@ -1,8 +1,39 @@
 
-Schibli1968:
+schibli1968:
   title: Lifetime and capture cross-section studies of deep impurities in silicon
   DOI: 10.1016/0025-5416(68)90036-0
   measurement_technique: review
   params:
     Ed: Ev+0.24
     sigma_h: '3.50E-20'
+
+brotherton1987:
+  title: Deep levels of copper in silicon
+  DOI: 10.1063/1.339564
+  measurement_technique: DLTS, luminescence
+  comments: Cu_d, Cu_a, and Cu_aa  from the same paper are the same defect
+  sample:
+    growth: FZ
+    dopant: boron, phorphous
+    incorporation: thermal
+    resistivity: 66-125
+  params:
+    Ed_a: Ev+0.233
+    sigma_ea: 1.3999999999999999e-14
+    sigma_ha: 8.0e-17
+
+brotherton1987_1:
+  title: Deep levels of copper in silicon
+  DOI: 10.1063/1.339564
+  measurement_technique: DLTS, luminescence
+  comments: Different defect from the others reported In the paper. Believed to be
+    related to the luminescence centre
+  sample:
+    growth: FZ
+    dopant: boron, phorphous
+    incorporation: thermal
+    resistivity: 66-125
+  params:
+    Ed_a: Ev+0.093
+    sigma_ea: 1.0e-14
+    sigma_ha: 3.0e-16

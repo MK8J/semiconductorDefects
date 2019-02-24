@@ -15,7 +15,7 @@ milnes1973_1:
   params:
     Ed: Ev+0.35
 
-Scheffler2013:
+scheffler2013:
   title: Isolated substitutional cobalt and Co-related complexes in silicon
   DOI: 10.1063/1.4804321
   measurement_technique: DLTS-L

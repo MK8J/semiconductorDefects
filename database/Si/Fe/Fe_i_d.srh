@@ -1,5 +1,5 @@
 
-Collins1957a:
+collins1957a:
   title: Properties of Silicon Doped with Iron or Copper
   DOI: 10.1103/PhysRev.108.1409
   measurement_technique: Hall
@@ -82,14 +82,14 @@ wunstel1982_1:
     dEd_h: 0.02
     sigma_h: 1.6e-16*exp(-0.043/k/T)
 
-Weber1983:
+weber1983:
   title: Transition metals in silicon
   DOI: 10.1007/BF00617708
   measurement_technique: review
   params:
     Ed: Ev+0.385
 
-Hangleiter1987:
+hangleiter1987:
   title: 'Nonradiative recombination via deep impurity levels in silicon: Experiment'
   DOI: 10.1103/PhysRevB.35.9149
   measurement_technique: DLTS, luminescence,
@@ -106,7 +106,7 @@ graff1995:
     Ed_h: Ev+0.38
     sigma_h: 5.6E-16 * exp(-0.048/kT)
 
-Istratov1999:
+istratov1999:
   title: Iron and its complexes in silicon
   DOI: 10.1007/s003390050968
   measurement_technique: DLTS-Cr, Hall, PhCap, EPR
@@ -133,7 +133,7 @@ graff2000:
     dEd_h: 0.01
     sigma_h: 3.80E-17 * exp(-0.043/kT)
 
-Rein2005:
+rein2005:
   title: Electronic properties of interstitial iron and iron-boron pairs determined  by
     means of advanced lifetime spectroscopy
   DOI: 10.1063/1.2106017
@@ -154,7 +154,7 @@ macdonald2008:
   params:
     sigma_e: 1.3e-14
 
-Naerland2017:
+naerland2017:
   title: On the recombination centers of iron-gallium pairs in Ga-doped silicon
   DOI: 10.1063/1.5000358
   measurement_technique: LS-TI

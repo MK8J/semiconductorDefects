@@ -1,11 +1,4 @@
 
-Weber1983:
-  title: Transition metals in silicon
-  DOI: 10.1007/BF00617708
-  measurement_technique: review
-  params:
-    Ed: Ev+0.28
-
 conzelmann1983:
   title: Chromium and chromium-boron pairs in silicon
   DOI: 10.1007/BF00620536
@@ -17,7 +10,14 @@ conzelmann1983:
     sigma_ha: 1e-14
     dsigma_ha: 2e-15
 
-Hangleiter1987:
+weber1983:
+  title: Transition metals in silicon
+  DOI: 10.1007/BF00617708
+  measurement_technique: review
+  params:
+    Ed: Ev+0.28
+
+hangleiter1987:
   title: 'Nonradiative recombination via deep impurity levels in silicon: Experiment'
   DOI: 10.1103/PhysRevB.35.9149
   measurement_technique: DLTS, luminescence
@@ -59,7 +59,7 @@ graff2000:
     Ed_a: Ev+0.28
     sigma_ha: 2e-14
 
-Schmidt2007:
+schmidt2007:
   title: Recombination activity of interstitial chromium and chromium-boron pairs
     in silicon
   DOI: 10.1063/1.2822452
@@ -70,7 +70,7 @@ Schmidt2007:
     sigma_ea: 5e-15
     sigma_ha: 1e-14
 
-Sun2014:
+sun2014:
   title: Reassessment of the recombination parameters of chromium in n- and p-type
     crystalline silicon and chromium-boron pairs in p-type crystalline silicon
   DOI: 10.1063/1.4881497

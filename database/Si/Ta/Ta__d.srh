@@ -1,4 +1,16 @@
 
+miyata1976:
+  title: Thermal emission rates and activation energies of electrons at tantalum centers
+    in silicon
+  DOI: 10.1016/0038-1101(76)90059-9
+  measurement_technique: DLTS
+  sample:
+    dopant: phorphous
+    incorporation: thermal
+    resistivity: '5'
+  params:
+    Ed_a: Ev-0.232
+
 chen1980:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105

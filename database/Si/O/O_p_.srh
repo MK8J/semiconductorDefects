@@ -1,5 +1,5 @@
 
-Kimerling1981:
+kimerling1981:
   title: Oxygen_related donor states in silicon
   DOI: 10.1063/1.92755
   measurement_technique: DLTS
@@ -12,7 +12,7 @@ Kimerling1981:
   params:
     Ed_a: Ec-0.15
 
-Kimerling1981_1:
+kimerling1981_1:
   title: Oxygen_related donor states in silicon
   DOI: 10.1063/1.92755
   measurement_technique: DLTS
@@ -25,7 +25,7 @@ Kimerling1981_1:
   params:
     Ed_a: Ec-0.07
 
-Chantre1987:
+chantre1987:
   title: Metastable thermal donor states in silicon
   DOI: 10.1063/1.97812
   measurement_technique: DLTS

@@ -7,7 +7,7 @@ chen1980:
     Ed: Ec-0.39
     sigma_e: 1e-15
 
-Weber1983:
+weber1983:
   title: Transition metals in silicon
   DOI: 10.1007/BF00617708
   measurement_technique: review

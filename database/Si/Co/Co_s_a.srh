@@ -35,7 +35,7 @@ graff2000:
     Ed_a: Ec-0.41
     sigma_ea: '2.2e-15'
 
-Diez2007:
+diez2007:
   title: Cobalt related defect levels in silicon analyzed by temperature- and injection-dependent
     lifetime spectroscopy
   DOI: 10.1063/1.2433743
@@ -49,7 +49,7 @@ Diez2007:
     k: '0.16'
     dk: 0.1,0.53
 
-Scheffler2013:
+scheffler2013:
   title: Isolated substitutional cobalt and Co-related complexes in silicon
   DOI: 10.1063/1.4804321
   measurement_technique: DLTS-LMo

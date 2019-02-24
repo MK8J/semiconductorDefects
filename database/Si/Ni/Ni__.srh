@@ -21,6 +21,19 @@ benton1982_1:
     Ed_a: Ec-0.14
     sigma_ea: 3.9999999999999995e-15
 
+jaraiz1986:
+  title: Electron thermal emission rates of nickel centers in silicon
+  DOI: 10.1016/0038-1101(86)90008-0
+  measurement_technique: CV-TF
+  comments: Unknown but believe what Lebedev saw. Assumes is related to Nickel
+  sample:
+    growth: FZ
+    dopant: phorphous
+    resistivity: 50-60
+  params:
+    Ed_a: Ec-0.570
+    dEd_a: 0.01
+
 shiraishi1999:
   title: DLTS analysis of nickel_hydrogen complex defects in silicon
   DOI: 10.1016/S0921-5107(98)00280-3

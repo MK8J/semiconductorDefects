@@ -7,6 +7,17 @@ milnes1973:
   params:
     Ed: Ev+0.34
 
+pugnet1976:
+  title: Energy levels for platinum and palladium in silicon measured by the dark
+    transient capacitance technique
+  DOI: 10.1002/pssa.2210350215
+  sample:
+    dopant: phorphous
+  params:
+    Ed_a: Ec-0.2
+    dEd_a: 0.01
+    sigma_ea: 2.7e-16
+
 chen1980:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105

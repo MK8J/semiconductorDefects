@@ -48,7 +48,7 @@ graff2000_1:
     dEd_a: 0.02
     sigma_ea: 5.6e-17
 
-Rein2005:
+rein2005:
   title: Lifetime Spectroscopy A Method of Defect Characterization in Silicon for
     Photovoltaic Applications
   DOI: 10.1007/3-540-27922-9

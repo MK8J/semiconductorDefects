@@ -15,6 +15,18 @@ milnes1973_1:
   params:
     Ed: Ev+0.36
 
+pugnet1976:
+  title: Energy levels for platinum and palladium in silicon measured by the dark
+    transient capacitance technique
+  DOI: 10.1002/pssa.2210350215
+  sample:
+    dopant: phorphous, boron
+    incorporation: thermal
+  params:
+    Ed_a: Ec-0.242
+    dEd_a: 0.002
+    sigma_ea: 3.9e-14
+
 graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
