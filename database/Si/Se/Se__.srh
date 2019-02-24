@@ -9,4 +9,4 @@ grimmeiss1980:
   params:
     Ed_a: Ec-0.286
     Ed_h: Ev+0.301
-    sigma_e: 6.24e-9T^(-3.16)
+    sigma_e: 6.24e-9*T^(-3.16)
