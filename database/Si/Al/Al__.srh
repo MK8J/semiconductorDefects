@@ -19,7 +19,8 @@ marchand1977:
     dopant: Aluminium
     resistivity: 1-100
   params:
-    Ed: Ev+0.216
+    Ed_a: Ev+0.216
+    sigma_ha: 3e-21
 
 marchand1977_1:
   title: Study of thermally induced deep levels in Al doped Si
@@ -31,7 +32,7 @@ marchand1977_1:
     dopant: Aluminium
     resistivity: 1-100
   params:
-    Ed: Ev+0.316
+    Ed_a: Ev+0.316
 
 marchand1977_2:
   title: Study of thermally induced deep levels in Al doped Si
@@ -43,7 +44,7 @@ marchand1977_2:
     dopant: Aluminium
     resistivity: 1-100
   params:
-    Ed: Ev+0.402
+    Ed_a: Ev+0.402
 
 marchand1977_3:
   title: Study of thermally induced deep levels in Al doped Si
@@ -55,7 +56,7 @@ marchand1977_3:
     dopant: Aluminium
     resistivity: 1-100
   params:
-    Ed: Ec-389
+    Ed_a: Ec-389
 
 chen1980:
   title: Energy Levels in Silicon

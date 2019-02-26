@@ -48,7 +48,8 @@ istratov1999:
   measurement_technique: DLTS, Hall, photoEPR, FTIR
   comments: Data from a review paper, taking many measurements at a range of temperatures.
     Points out DLTS is impact by capture cross section barrier heights, while EPR
-    and hall affect measurements are not.
+    and hall affect measurements are not. At 55 K simga_e was 1.5e-13, sigma_p was
+    2e-14 were reported.
   params:
     Ed_a: Ec-0.26
     sigma_ea: 4e-13
