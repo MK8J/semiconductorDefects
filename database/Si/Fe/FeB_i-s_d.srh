@@ -43,6 +43,16 @@ weber1983:
   params:
     Ed: Ev+0.1
 
+brotherton1985:
+  title: "Iron and the iron\u2010boron complex in silicon"
+  DOI: 10.1063/1.335468
+  measurement_technique: DLTS
+  sample:
+    growth: CZ, FZ
+    dopant: boron, phorphous
+  params:
+    Ed_a: Ev+0.095
+
 graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
