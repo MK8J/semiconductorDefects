@@ -48,12 +48,12 @@ graff1981:
 lemke1981:
   title: Dotierungseigenschaften von Eisen in Silizium
   DOI: 10.1002/pssa.2210640123
-  measurement_technique: DLTS, TS-C
-  comments: Capture cross section at 300 K
+  measurement_technique: DLTS-CrMe, TS-C
+  comments: Capture cross sections manually extracted from figure
   params:
-    Ed_a: ''
-    Ed_h: Ev+0.37
-    sigma_h: 1.18e-16
+    Ed_h: Ev+0.39
+    sigma_e: 1.65e-10*T^(1.58)
+    sigma_h: 7.86e-20*exp(0.0221*T)+1.78e-17
 
 wunstel1982:
   title: Interstitial iron and iron-acceptor pairs in silicon

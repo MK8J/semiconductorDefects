@@ -15,6 +15,14 @@ graff1981:
   params:
     Ed_a: Ev+0.6
 
+lemke1981:
+  title: Dotierungseigenschaften von Eisen in Silizium
+  DOI: 10.1002/pssa.2210640123
+  measurement_technique: DLTS-CrMe, TS-C
+  comments: Capture cross sections manually extracted from figure
+  params:
+    Ed_h: Ec-0.23
+
 hangleiter1987:
   title: 'Nonradiative recombination via deep impurity levels in silicon: Experiment'
   DOI: 10.1103/PhysRevB.35.9149
