@@ -14,5 +14,6 @@ chen1979:
   measurement_details:
     T: 200-250 K
   params:
-    Ed_a: Ev+0.255
+    Ed_h: Ev+0.255
+    Ed_a: Ev+0.29
     sigma_h: 1e-17 * exp(-0.035/kT) * exp(0.035/k/1000*4.5)

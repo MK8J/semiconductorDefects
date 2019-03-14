@@ -9,7 +9,7 @@ collins1957a:
     Ed: Ev+0.4
 
 gerson1977:
-  title: "A quenched\u2010in defect in boron\u2010doped silicon"
+  title: "A quenched-in defect in boron-doped silicon"
   DOI: 10.1063/1.323505
   measurement_technique: DLTS
   sample:
@@ -52,7 +52,7 @@ lemke1981:
   comments: Capture cross sections manually extracted from figure
   params:
     Ed_h: Ev+0.39
-    sigma_e: 1.65e-10*T^(1.58)
+    sigma_e: 1.65e-10*T^(-1.58)
     sigma_h: 7.86e-20*exp(0.0221*T)+1.78e-17
 
 wunstel1982:
@@ -99,7 +99,7 @@ brotherton1985:
   params:
     Ed_a: Ev+0.419
     Ed_h: Ev+0.37
-    sigma_h: 5.6e-16e^(-0.048/kT)
+    sigma_h: 5.6e-16*exp(-0.048/kT)
 
 hangleiter1987:
   title: 'Nonradiative recombination via deep impurity levels in silicon: Experiment'

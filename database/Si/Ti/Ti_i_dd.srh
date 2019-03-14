@@ -54,7 +54,7 @@ tilly1991:
     Ed_a: Ev+0.267
     Ed_h: Ev+0.258
     Ed: Ev+(0.258-3.86e-5*T)
-    sigma_h: 2.3e-17*exp(-0.01/k/T)
+    sigma_h: 2.17e-17*exp(-0.01/k/T)
 
 graff1995:
   title: Metal impurities in silicon-device fabrication
@@ -67,7 +67,7 @@ graff1995:
     is an activation energy rather than the energy level.
   params:
     Ed_h: Ev+0.28
-    sigma_h: 4.00E-16 * exp(-0.4/kT)
+    sigma_h: 4.00E-16 * exp(-0.04/kT)
 
 graff2000:
   title: Metal Impurities in Silicon-Device Fabrication
