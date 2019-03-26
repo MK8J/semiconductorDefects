@@ -9,7 +9,7 @@ collins1957a:
     Ed: Ev+0.4
 
 gerson1977:
-  title: "A quenched-in defect in boron-doped silicon"
+  title: A quenched-in defect in boron-doped silicon
   DOI: 10.1063/1.323505
   measurement_technique: DLTS
   sample:
@@ -55,11 +55,23 @@ lemke1981:
     sigma_e: 1.65e-10*T^(-1.58)
     sigma_h: 7.86e-20*exp(0.0221*T)+1.78e-17
 
+wunstel1981:
+  title: Iron-related deep levels in silicon
+  DOI: 10.1016/0038-1098(81)90116-2
+  measurement_technique: DLTS-Cr
+  sample:
+    growth: FZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 0.3-100
+  params:
+    Ed_a: Ev+0.43
+    Ed_h: Ev+0.39
+
 wunstel1982:
   title: Interstitial iron and iron-acceptor pairs in silicon
   DOI: 10.1007/BF00619081
   measurement_technique: Hall
-  comments: Capture cross section at 300 K
   sample:
     growth: FZ
     dopant: boron, aluminum, gallium
@@ -90,7 +102,7 @@ weber1983:
     Ed: Ev+0.385
 
 brotherton1985:
-  title: "Iron and the iron\u2010boron complex in silicon"
+  title: Iron and the iron-boron complex in silicon
   DOI: 10.1063/1.335468
   measurement_technique: DLTS-Cr
   sample:
@@ -104,8 +116,11 @@ brotherton1985:
 hangleiter1987:
   title: 'Nonradiative recombination via deep impurity levels in silicon: Experiment'
   DOI: 10.1103/PhysRevB.35.9149
-  measurement_technique: DLTS, luminescence,
-  comments: Assumed a thermal velocity of (2e7 *(T/300)^(0.5))
+  measurement_technique: luminescence,
+  comments: To put data in the data a thermal velocity of (2e7 *(T/300)^(0.5)). "The
+    hole-capture coefficient of Fe determined from the carrier lifetime in n-type
+    Si at 300 K is more than 10 times larger than the value measured with DLTS. Puts
+    this down to different capture mechanisms in forward and reverse bias.
   params:
     sigma_h: 2e-8*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))
 
@@ -143,7 +158,7 @@ graff2000:
   params:
     Ed_h: Ev+0.39
     dEd_h: 0.01
-    sigma_h: 3.80E-17 * exp(-0.043/kT)
+    sigma_h: 2.80E-16 * exp(-0.043/kT)
 
 rein2005:
   title: Electronic properties of interstitial iron and iron-boron pairs determined  by

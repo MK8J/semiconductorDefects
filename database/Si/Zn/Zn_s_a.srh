@@ -40,11 +40,12 @@ herman1972:
     centers in silicon
   DOI: 10.1002/pssa.2210140203
   measurement_technique: TS-I, DLTS
+  comments: Provided the e/T^2 energy level.
   sample:
     dopant: boron
     incorporation: thermal
   params:
-    Ed_a: Ev+0.316
+    Ed_a: Ev+0.297
     dEd_a: 0.001
 
 milnes1973:

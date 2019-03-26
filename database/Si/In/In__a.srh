@@ -1,12 +1,4 @@
 
-milnes1973:
-  title: Deep impurities in semiconductors
-  ISBN: 978-0-471-60670-3
-  measurement_technique: review
-  comments: Figure 2.1
-  params:
-    Ed: Ev+0.16
-    
 schibli1968:
   title: Lifetime and capture cross-section studies of deep impurities in silicon
   DOI: 10.1016/0025-5416(68)90036-0
@@ -116,3 +108,11 @@ schibli1968_9:
   comments: 25-30 K,the thermal velocity assumed here is incorrect
   params:
     sigma_e: 0.000000000000015/1e7
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review
+  comments: Figure 2.1
+  params:
+    Ed: Ev+0.16

@@ -30,9 +30,8 @@ sah1969:
     dEd_a: 0.00215
 
 sato1970:
-  title: "Measurements of the Thermal\x95\xC0_\xF3\x90Emission Rates of Electrons\
-    \ and Holes at the Gold Centers in Silicon Using the Small\x95\xC0_\xF3\x90Signal\x95\
-    \xC0_\xF3\x90Pulsed Field Effect"
+  title: Measurements of the Thermal-Emission Rates of Electrons and Holes at the
+    Gold Centers in Silicon Using the Small-Signal-Pulsed Field Effect
   DOI: 10.1063/1.1658432
   measurement_technique: DLTS
   measurement_details:
@@ -41,8 +40,7 @@ sato1970:
     Ed_a: Ec-0.54
 
 engstrom1975:
-  title: "Thermal activation energy of the gold\x95\xC0_\x95\xC0_\x95\xC0_acceptor\
-    \ level in silicon"
+  title: Thermal activation energy of the gold-acceptor level in silicon
   DOI: 10.1063/1.321653
   measurement_technique: DLTS, LS-T
   params:
@@ -62,6 +60,7 @@ lemke1986a:
   title: Dotierungseigenschaften von Silber in Silizium
   DOI: 10.1002/pssa.2210940171
   measurement_technique: DLTS
+  comments: assume value for thermal velocity of 2e7
   sample:
     growth: FZ
     dopant: boron, phorphous
@@ -69,3 +68,4 @@ lemke1986a:
     resistivity: 50,20
   params:
     Ed_a: Ec-0.57
+    sigma_ea: 1.6e-9/2e7
