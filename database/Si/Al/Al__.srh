@@ -56,7 +56,7 @@ marchand1977_3:
     dopant: Aluminium
     resistivity: 1-100
   params:
-    Ed_a: Ec-389
+    Ed_a: Ec-0.389
 
 chen1980:
   title: Energy Levels in Silicon
