@@ -7,7 +7,7 @@ muller1974:
   comments: Out at 533 K
   sample:
     growth: FZ
-    dopant: phorphous
+    dopant: phosphorous
     incorporation: ion implantation
     resistivity: '1000'
   params:
@@ -41,7 +41,7 @@ brotherton1982:
   comments: Out at 625 K for 30 min. measurement data taken from laplace DLTS database.
   sample:
     growth: FZ
-    dopant: phorphous
+    dopant: phosphorous
     incorporation: irridation
     resistivity: '60'
   measurement_data:

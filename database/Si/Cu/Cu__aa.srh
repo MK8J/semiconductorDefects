@@ -6,7 +6,7 @@ brotherton1987:
   comments: Cu_d, Cu_a, and Cu_aa  from the same paper are the same defect
   sample:
     growth: FZ
-    dopant: boron, phorphous
+    dopant: boron, phosphorous
     incorporation: thermal
     resistivity: 66-125
   params:

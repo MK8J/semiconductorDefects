@@ -6,7 +6,7 @@ andersen2002:
   comments: 88-103 K, values taken from DLTS database http://www.laplacedlts.eu/defect/,
     if sample goes above 200 K converted into a Ec-0.154 level
   sample:
-    dopant: phorphous
+    dopant: phosphorous
   params:
     Ed_a: Ec-0.22
     sigma_ea: 2.0e-14

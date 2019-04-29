@@ -12,7 +12,7 @@ shiraishi1999:
     T: 75.0
     Rw: 0.024 s
   params:
-    Ed_a: Ec+0.15
+    Ed_a: Ev+0.15
     Ed_h: Ev+0.15
     Ed: Ev+0.145
     sigma_ha: 4.3e-15
@@ -59,7 +59,7 @@ scheffler2014:
   comments: Out at 500 K for 20 min
   sample:
     growth: FZ
-    dopant: phorphous, boron
+    dopant: phosphorous, boron
     incorporation: melt, diffusion
     resistivity: '1000'
   measurement_details:

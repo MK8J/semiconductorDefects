@@ -11,6 +11,7 @@ davis1980:
   title: Impurities in silicon solar cells
   DOI: 10.1109/T-ED.1980.19922
   measurement_technique: DLTS, SCP
+  linked: Ti_i_dd.srh
   sample:
     growth: CZ
     dopant: B,P

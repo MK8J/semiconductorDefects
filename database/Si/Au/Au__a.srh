@@ -15,6 +15,7 @@ sah1967_1:
     Impurity Photovoltaic Effect
   DOI: 10.1103/PhysRevLett.19.71
   measurement_technique: DLTS, DC-TI
+  linked: Au_s_a.srh
   comments: 'Thermal emission rate of holes: 1.17e12(T/300)^2*exp(-0.54723/kT). Capture
     rates are also provided'
   params:
@@ -25,6 +26,7 @@ sah1969:
   title: Thermal emission rates of carriers at gold centers in silicon
   DOI: 10.1063/1.1652943
   measurement_technique: DLTS-Mo
+  linked: Au_s_a.srh
   params:
     Ed_a: Ev+0.58989
     dEd_a: 0.00215
@@ -34,6 +36,7 @@ sato1970:
     Gold Centers in Silicon Using the Small-Signal-Pulsed Field Effect
   DOI: 10.1063/1.1658432
   measurement_technique: DLTS
+  linked: Au_s_a.srh
   measurement_details:
     T: 250K
   params:
@@ -43,6 +46,7 @@ engstrom1975:
   title: Thermal activation energy of the gold-acceptor level in silicon
   DOI: 10.1063/1.321653
   measurement_technique: DLTS, LS-T
+  linked: Au_s_a.srh
   params:
     Ed_a: Ec-0.553
 
@@ -50,6 +54,7 @@ nagasawa1975:
   title: Fast transient capacitance measurements for implanted deep levels in silicon
   DOI: 10.1007/BF00883667
   measurement_technique: DLTS-Cr
+  linked: Au_s_a.srh
   measurement_details:
     T: 295 K
   params:
@@ -60,10 +65,11 @@ lemke1986a:
   title: Dotierungseigenschaften von Silber in Silizium
   DOI: 10.1002/pssa.2210940171
   measurement_technique: DLTS
+  linked: Au_s_a.srh
   comments: assume value for thermal velocity of 2e7
   sample:
     growth: FZ
-    dopant: boron, phorphous
+    dopant: boron, phosphorous
     incorporation: thermal
     resistivity: 50,20
   params:

@@ -19,7 +19,7 @@ wang1984:
     rather than an assignment.
   sample:
     growth: CZ
-    dopant: boron, phorphous
+    dopant: boron, phosphorous
     incorporation: melt
   params:
     Ed: Ev+0.255

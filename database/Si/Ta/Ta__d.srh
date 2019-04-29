@@ -5,7 +5,7 @@ miyata1976:
   DOI: 10.1016/0038-1101(76)90059-9
   measurement_technique: DLTS
   sample:
-    dopant: phorphous
+    dopant: phosphorous
     incorporation: thermal
     resistivity: '5'
   params:

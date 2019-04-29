@@ -6,7 +6,7 @@ rosier1971:
   comments: 'Thermal emission rate of: 1.03e12(T/300)^2. Capture rates are also provided'
   sample:
     growth: CZ
-    dopant: phorphous
+    dopant: phosphorous
     incorporation: thermal
     resistivity: '5'
   params:

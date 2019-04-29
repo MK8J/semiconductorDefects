@@ -1,4 +1,17 @@
 
+collins1957a:
+  title: Properties of Silicon Doped with Iron or Copper
+  DOI: 10.1103/PhysRev.108.1409
+  measurement_technique: Hall
+  linked: FeB_i-s_a.srh
+  comments: Quenched n and p-type silicon. Did not see resistivity change in n-type.
+  sample:
+    growth: FZ
+    incorporation: melt
+  params:
+    Ed: Ec-0.55
+    sigma_ea: 15e-16
+
 benton1982:
   title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
   DOI: 10.1149/1.2124387

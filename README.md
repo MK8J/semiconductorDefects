@@ -225,7 +225,7 @@ options:
 
   - growth: CZ, FZ, cast
   - dopant: elemental names all lower case and comma separated,
-    e.g. boron, phorphous, or aluminum
+    e.g. boron, phosphorous, or aluminum
   - resistivity: resistivity in Ω.cm. If several samples are used comma
     separate them. If a range of resistivities are provided simply write
     that range, e.g. 3, 50, 1-10

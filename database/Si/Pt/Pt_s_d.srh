@@ -12,7 +12,7 @@ pugnet1976:
     transient capacitance technique
   DOI: 10.1002/pssa.2210350215
   sample:
-    dopant: phorphous, boron
+    dopant: phosphorous, boron
     incorporation: thermal
   params:
     Ed_a: Ev+0.32

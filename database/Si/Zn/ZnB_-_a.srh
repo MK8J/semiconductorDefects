@@ -5,7 +5,7 @@ herman1972:
   DOI: 10.1002/pssa.2210140203
   measurement_technique: DLTS, DC-T
   sample:
-    dopant: boron, phorphous
+    dopant: boron, phosphorous
     incorporation: thermal
   params:
     Ed_a: Ev+0.167

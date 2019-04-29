@@ -4,9 +4,10 @@ yau1971:
     in silicon
   DOI: 10.1002/pssa.2210060225
   measurement_technique: DLTS
+  linked: Ag_s_d.srh
   comments: measurement data taken from laplace DLTS database
   sample:
-    dopant: boron, phorphous
+    dopant: boron, phosphorous
     incorporation: thermal
   measurement_data:
     T: 145.5,156.4,169.1,183.9
@@ -36,6 +37,7 @@ benton1982_1:
   title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
   DOI: 10.1149/1.2124387
   measurement_technique: DLTS
+  linked: Ag_s_d.srh
   comments: Emission rate at 1.8 ms at 184 K, quenched
   sample:
     growth: FZ
@@ -46,10 +48,11 @@ lemke1986a:
   title: Dotierungseigenschaften von Silber in Silizium
   DOI: 10.1002/pssa.2210940171
   measurement_technique: DLTS
+  linked: Ag_s_d.srh
   comments: measurement data taken from laplace DLTS database
   sample:
     growth: FZ
-    dopant: boron, phorphous
+    dopant: boron, phosphorous
     incorporation: thermal
     resistivity: 50,20
   measurement_data:
@@ -62,10 +65,11 @@ baber1987:
   title: Characterization of silver-related deep levels in silicon
   DOI: 10.1063/1.339425
   measurement_technique: DLTS-Cr, DLTS-S
+  linked: Ag_s_d.srh
   comments: change in emssion rate with bias. measurement data taken from laplace
     DLTS database.
   sample:
-    dopant: boron, phorphous
+    dopant: boron, phosphorous
     incorporation: thermal
     resistivity: 13,5
   measurement_details:
@@ -79,6 +83,7 @@ graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
+  linked: Ag_s_d.srh
   comments: Taken from table 1 in the appendix. The table only provides the majority
     carrier capture cross section. The majority carrier has been estimated from the
     position of the defect level. e.g. if higher than the intrinsic level, it is assume

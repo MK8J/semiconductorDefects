@@ -13,7 +13,7 @@ shiraishi1999:
   measurement_technique: DLTS-Cr
   sample:
     growth: CZ, FZ
-    dopant: phorphous
+    dopant: phosphorous
     incorporation: melt, diffusion
     resistivity: 1-100
   measurement_details:

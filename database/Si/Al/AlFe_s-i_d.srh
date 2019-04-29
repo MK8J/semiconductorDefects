@@ -6,7 +6,7 @@ graff1981:
   comments: FTIR at 25 K, No AlFe peak found
   sample:
     growth: CZ, FZ
-    dopant: boron, phorphous, aluminum
+    dopant: boron, phosphorous, aluminum
     incorporation: thermal
     resistivity: 1-100
   params:

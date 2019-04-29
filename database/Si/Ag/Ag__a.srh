@@ -6,7 +6,7 @@ yau1971:
   measurement_technique: DLTS
   comments: measurement data taken from laplace DLTS database
   sample:
-    dopant: boron, phorphous
+    dopant: boron, phosphorous
     incorporation: thermal
   measurement_data:
     T: 222,239,258.7,281.8
@@ -49,7 +49,7 @@ lemke1986a:
   measurement_technique: DLTS
   sample:
     growth: FZ
-    dopant: boron, phorphous
+    dopant: boron, phosphorous
     incorporation: thermal
     resistivity: 50,20
   params:
@@ -59,10 +59,11 @@ baber1987:
   title: Characterization of silver-related deep levels in silicon
   DOI: 10.1063/1.339425
   measurement_technique: DLTS-Cr, DLTS-S
+  linked: Ag_s_a.srh
   comments: change in emssion rate with bias. measurement data taken from laplace
     DLTS database.
   sample:
-    dopant: boron, phorphous
+    dopant: boron, phosphorous
     incorporation: thermal
     resistivity: 13,5
   measurement_details:
@@ -79,6 +80,7 @@ graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
+  linked: Ag_s_a.srh
   comments: Taken from table 1 in the appendix. The table only provides the majority
     carrier capture cross section. The majority carrier has been estimated from the
     position of the defect level. e.g. if higher than the intrinsic level, it is assume

@@ -2,11 +2,11 @@
 collins1957a:
   title: Properties of Silicon Doped with Iron or Copper
   DOI: 10.1103/PhysRev.108.1409
-  measurement_technique: Hall
-  comments: The defect was observed to swtich between two levels. This was confirmed
-    with photoconductance data from Dash. The other level was Ec-0.55
+  measurement_technique: Hall, LS
+  comments: capture cross sections from lifetime data from anther paper
   params:
     Ed: Ev+0.4
+    sigma_h: 3e-16
 
 gerson1977:
   title: A quenched-in defect in boron-doped silicon
@@ -39,7 +39,7 @@ graff1981:
   comments: FTIR at 25 K, No Fe peak found
   sample:
     growth: CZ, FZ
-    dopant: boron, phorphous, aluminum
+    dopant: boron, phosphorous, aluminum
     incorporation: thermal
     resistivity: 1-100
   params:
@@ -107,7 +107,7 @@ brotherton1985:
   measurement_technique: DLTS-Cr
   sample:
     growth: CZ, FZ
-    dopant: boron, phorphous
+    dopant: boron, phosphorous
   params:
     Ed_a: Ev+0.419
     Ed_h: Ev+0.37

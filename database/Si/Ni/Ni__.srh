@@ -28,7 +28,7 @@ jaraiz1986:
   comments: Unknown but believe what Lebedev saw. Assumes is related to Nickel
   sample:
     growth: FZ
-    dopant: phorphous
+    dopant: phosphorous
     resistivity: 50-60
   params:
     Ed_a: Ec-0.570
@@ -105,7 +105,7 @@ shiraishi1999_3:
     hyrdrogen. Out at 570 K for 2 hours
   sample:
     growth: CZ, FZ
-    dopant: phorphous
+    dopant: phosphorous
     incorporation: melt, diffusion
     resistivity: 1-100
   measurement_details:
@@ -126,7 +126,7 @@ shiraishi1999_4:
     hyrdrogen. Out at 570 K for 2 hours
   sample:
     growth: CZ, FZ
-    dopant: phorphous
+    dopant: phosphorous
     incorporation: melt, diffusion
     resistivity: 1-100
   measurement_details:

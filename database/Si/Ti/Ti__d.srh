@@ -3,6 +3,7 @@ chen1979:
   title: Titanium in silicon as a deep level impurity
   DOI: 10.1016/0038-1101(79)90130-8
   measurement_technique: Hall
+  linked: Ti_i_d.srh
   sample:
     growth: CZ
     dopant: boron, phosphorous
@@ -15,6 +16,7 @@ chen1979_1:
   title: Titanium in silicon as a deep level impurity
   DOI: 10.1016/0038-1101(79)90130-8
   measurement_technique: DLTS-Cr
+  linked: Ti_i_d.srh
   comments: thermal velocity of electrons 1.14e7 * (T/300)^(1/2). No temperature dependence
     of the capture cross section noticed.
   sample:
@@ -32,6 +34,7 @@ chen1980:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105
   measurement_technique: DLTS-Cr, Hall
+  linked: Ti_i_d.srh
   comments: Review paper.
   sample:
     incorporation: ion implantation, thermal

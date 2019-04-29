@@ -7,7 +7,7 @@ pettersson1991:
   comments: DLTS peak at 180K. Does not say what site the defect is on.
   sample:
     growth: FZ, CZ
-    dopant: boron, phorphous
+    dopant: boron, phosphorous
   params:
     Ed_a: Ev+0.4
     Ed_h: Ev+0.382

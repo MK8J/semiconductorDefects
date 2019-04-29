@@ -27,7 +27,7 @@ brotherton1982:
     DLTS database.
   sample:
     growth: FZ
-    dopant: phorphous
+    dopant: phosphorous
     incorporation: irridation
     resistivity: '60'
   measurement_data:

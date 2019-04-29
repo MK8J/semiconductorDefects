@@ -14,16 +14,17 @@ sah1969:
   title: Thermal emission rates of carriers at gold centers in silicon
   DOI: 10.1063/1.1652943
   measurement_technique: DLTS
+  linked: Au_s_d.srh
   params:
     Ed_a: Ev+0.345
     dEd_a: 0.0029
 
 sato1970:
-  title: "Measurements of the Thermal\x95\xC0_\xF3\x90Emission Rates of Electrons\
-    \ and Holes at the Gold Centers in Silicon Using the Small\x95\xC0_\xF3\x90Signal\x95\
-    \xC0_\xF3\x90Pulsed Field Effect"
+  title: Measurements of the Thermal-Emission Rates of Electrons and Holes at the
+    Gold Centers in Silicon Using the Small-Signal-Pulsed Field Effect
   DOI: 10.1063/1.1658432
   measurement_technique: DLTS
+  linked: Au_s_d.srh
   measurement_details:
     T: 180 K
   params:
@@ -33,6 +34,7 @@ nagasawa1975:
   title: Fast transient capacitance measurements for implanted deep levels in silicon
   DOI: 10.1007/BF00883667
   measurement_technique: DLTS-Cr
+  linked: Au_s_d.srh
   measurement_details:
     T: 298 K
   params:
@@ -43,10 +45,11 @@ lemke1986a:
   title: Dotierungseigenschaften von Silber in Silizium
   DOI: 10.1002/pssa.2210940171
   measurement_technique: DLTS
+  linked: Au_s_d.srh
   comments: assumed thermal velocity of 1e7
   sample:
     growth: FZ
-    dopant: boron, phorphous
+    dopant: boron, phosphorous
     incorporation: thermal
     resistivity: 50,20
   params:

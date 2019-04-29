@@ -18,7 +18,7 @@ wang1984:
     that follows only uses it as a suggestion rather than an assignment.
   sample:
     growth: CZ
-    dopant: boron, phorphous
+    dopant: boron, phosphorous
     incorporation: melt
   params:
     Ed_a: Ec-0.2666
@@ -38,7 +38,7 @@ mathiot1989:
     reanalyzed the data of wang1984.
   sample:
     growth: FZ,CZ
-    dopant: phorphous
+    dopant: phosphorous
     incorporation: thermal
   params:
     Ed: Ec-0.297

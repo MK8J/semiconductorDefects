@@ -7,7 +7,7 @@ kimerling1981:
     flowing N2 for various durations: 30 min, 1 h, 2 h, 5 h.'
   sample:
     growth: CZ
-    dopant: boron, phorphous
+    dopant: boron, phosphorous
     resistivity: 1-10
   params:
     Ed_a: Ec-0.15
@@ -20,7 +20,7 @@ kimerling1981_1:
     flowing N2 for various durations: 30 min, 1 h, 2 h, 5 h.'
   sample:
     growth: CZ
-    dopant: boron, phorphous
+    dopant: boron, phosphorous
     resistivity: 1-10
   params:
     Ed_a: Ec-0.07

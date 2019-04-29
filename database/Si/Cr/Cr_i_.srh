@@ -5,7 +5,7 @@ conzelmann1983:
   measurement_technique: DLTS, EPR, luminescence
   sample:
     growth: CZ,FZ
-    dopant: boron, phorphous
+    dopant: boron, phosphorous
     incorporation: thermal
     resistivity: May-00
   params:

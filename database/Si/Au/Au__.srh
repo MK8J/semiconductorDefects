@@ -13,7 +13,7 @@ wang1976:
   DOI: 10.1063/1.322381
   measurement_technique: DLTS
   sample:
-    dopant: phorphous
+    dopant: phosphorous
   params:
     Ed_a: Ec-0.31
 
@@ -23,7 +23,7 @@ wang1976_1:
   DOI: 10.1063/1.322381
   measurement_technique: DLTS
   sample:
-    dopant: phorphous
+    dopant: phosphorous
   params:
     Ed_a: Ec-0.44
 
@@ -33,7 +33,7 @@ wang1976_2:
   DOI: 10.1063/1.322381
   measurement_technique: DLTS
   sample:
-    dopant: phorphous
+    dopant: phosphorous
   params:
     Ed_a: Ec-0.54
     sigma_ea: 6.0e-15
@@ -44,7 +44,7 @@ wang1976_3:
   DOI: 10.1063/1.322381
   measurement_technique: DLTS
   sample:
-    dopant: phorphous
+    dopant: phosphorous
   params:
     Ed_a: Ec-0.2
 
@@ -54,6 +54,6 @@ wang1976_4:
   DOI: 10.1063/1.322381
   measurement_technique: DLTS
   sample:
-    dopant: phorphous
+    dopant: phosphorous
   params:
     Ed_a: Ec-0.13

@@ -24,7 +24,7 @@ indusekhar1986:
   comments: sigma > 1e-15
   sample:
     growth: epi
-    dopant: phorphous
+    dopant: phosphorous
     incorporation: irridation
     resistivity: '2'
   measurement_details:
