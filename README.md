@@ -1,4 +1,13 @@
-
+  - [Semiconductor Defects](#semiconductor-defects)
+      - [Referencing](#referencing)
+      - [Contributing](#contributing)
+      - [Shockley Read Hall
+        parameterization](#shockley-read-hall-parameterization)
+      - [How information is stored](#how-information-is-stored)
+          - [“.srh” file continence](#srh-file-continence)
+      - [Optical absorption and
+        emission](#optical-absorption-and-emission)
+          - [“.opt” file continence](#opt-file-continence)
 
 # Semiconductor Defects
 
@@ -183,8 +192,9 @@ W\_s\_s.srh:
 The initial value graff1995\_1, is the author year notation commonly
 used for publications. The \_1 indicates that in the same publication
 two values were published for this impurity. If there author year
-notation is not unique the second name is appended with a letter rather
-than a number, e.g. graff1995\_a.
+notation is not unique the second name is appended with a letter without
+an underscoe, e.g. graff1995a. This can then be appended with the
+underscore number as above if it reports several values.
 
 #### title
 
@@ -225,7 +235,7 @@ options:
 
   - growth: CZ, FZ, cast
   - dopant: elemental names all lower case and comma separated,
-    e.g. boron, phosphorous, or aluminum
+    e.g. boron, phorphous, or aluminum
   - resistivity: resistivity in Ω.cm. If several samples are used comma
     separate them. If a range of resistivities are provided simply write
     that range, e.g. 3, 50, 1-10
@@ -238,8 +248,7 @@ There are a range of techniques that have been used to determine these
 defect properties. If several techniques are used, they are just comma
 separated. We also provide the ability to put in limited experimental
 data, and measurement conditions. These are recorded in the repository
-using the following
-    abbreviation:
+using the following abbreviation:
 
 1.  [DLTS](https://en.wikipedia.org/wiki/Deep-level_transient_spectroscopy):
     Deep level transient spectroscopy. There are many variants on DLTS,
@@ -251,7 +260,11 @@ using the following
         carriers are excited by an electrical bias.
       - L - Laplace DLTS
       - D - Double correlations DLTS
-      - Cc - constant capacitance DLTS.
+      - Dp - Double pulse DLTS. This allows values to be extracted that
+        are close to zero field values.
+      - Cc - constant capacitance DLTS. This is performed when the
+        defect density is of a similar order of magnitude to the doping
+        density.
       - Cr - the capture cross section was used to determine the capture
         cross-section. If this is not done, the capture cross sections
         are apparent capture cross sections.
@@ -278,8 +291,7 @@ DLTS this include:
     temperature is increased and a value is monitored. The sample is not
     subjected to a varied biased.
       - I - current
-      - C -
-    capacitance
+      - C - capacitance
 4.  [Hall](https://www.nist.gov/pml/engineering-physics-division/popular-links/hall-effect/hall-effect):
     Temperature dependent ionized dopant concentration via the hall
     effect.
