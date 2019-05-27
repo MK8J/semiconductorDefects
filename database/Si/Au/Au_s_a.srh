@@ -17,7 +17,7 @@ bemski1958:
     sigma_e: 5E-16 * T^(0)
     sigma_h: 1E-15*(T/300)^(-4)
 
-davis1958:
+davis1959:
   title: Lifetimes and Capture Cross Sections in Gold-Doped Silicon
   DOI: 10.1103/PhysRev.114.1006
   measurement_technique: LS

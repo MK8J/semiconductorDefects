@@ -43,7 +43,7 @@ benton1982:
     Ed_a: Ec-0.51
     sigma_ea: 1.0e-16
 
-lemke1986a:
+lemke1986:
   title: Dotierungseigenschaften von Silber in Silizium
   DOI: 10.1002/pssa.2210940171
   measurement_technique: DLTS

@@ -44,7 +44,7 @@ benton1982_1:
   params:
     Ed_a: Ev+0.38
 
-lemke1986a:
+lemke1986:
   title: Dotierungseigenschaften von Silber in Silizium
   DOI: 10.1002/pssa.2210940171
   measurement_technique: DLTS

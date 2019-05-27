@@ -61,7 +61,7 @@ nagasawa1975:
     Ed_a: Ec-0.54
     sigma_ea: 2.18e-15
 
-lemke1986a:
+lemke1986:
   title: Dotierungseigenschaften von Silber in Silizium
   DOI: 10.1002/pssa.2210940171
   measurement_technique: DLTS

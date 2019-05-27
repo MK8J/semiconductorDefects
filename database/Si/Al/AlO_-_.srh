@@ -27,7 +27,7 @@ chen1980_3:
   params:
     Ed: Ev+0.216
 
-rosenits2008:
+rosenits2007:
   title: Analysis of electrically active defects in silicon for solar cells
   DOI: 10.1063/1.2789378
   measurement_technique: DLTS, LS-I

@@ -8,7 +8,7 @@ chen1980:
   params:
     Ed: Ev+0.45
 
-chantre1985_a:
+chantre1985a:
   title: 'Configurationally bistable C center in quenched Si:B: Possibility of a boron-vacancy
     pair'
   DOI: 10.1103/PhysRevB.32.3687
@@ -22,7 +22,7 @@ chantre1985_a:
   params:
     Ed_a: Ev+0.5
 
-chantre1985_a1:
+chantre1985a_1:
   title: 'Configurationally bistable C center in quenched Si:B: Possibility of a boron-vacancy
     pair'
   DOI: 10.1103/PhysRevB.32.3687
