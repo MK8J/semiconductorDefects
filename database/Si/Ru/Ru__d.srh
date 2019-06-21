@@ -9,3 +9,19 @@ chen1980:
     dEd: 0.01
     sigma_e: '1.20E-15'
     sigma_h: '1.05E-14'
+
+lemke1994:
+  title: The Behavior of transition and noble metals in silicon crystals
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-Me, TS-C
+  linked: Ru_i_d.srh          
+  comments: Assumed thermal velocity of 1e7 measured at 150K
+  sample:
+    growth: FZ
+    dopant: boron,phorphous
+    incorporation: diffusion
+  measurement_details:
+    T: 150.0
+  params:
+    Ed_h: Ev+0.26
+    sigma_h: 1/1e7/1e8

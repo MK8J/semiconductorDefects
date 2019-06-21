@@ -79,6 +79,22 @@ baber1987:
     Ed: Ev+0.34
     sigma_h: 1.7e-15
 
+lemke1994:
+  title: The Behavior of transition and noble metals in silicon crystals
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-Me, TS-C
+  linked: Ag_s_d.srh  
+  comments: Assumed thermal velocity of 1e7 measured at 170K
+  sample:
+    growth: FZ
+    dopant: boron,phorphous
+    incorporation: diffusion
+  measurement_details:
+    T: 170.0
+  params:
+    Ed_h: Ev+0.37
+    sigma_h: 1/1e7/1e8
+
 graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6

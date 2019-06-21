@@ -1,6 +1,7 @@
 
 markevich2018:
-  title: Electron emission and capture by oxygen-related bistable thermal double donors in silicon studied with junction capacitance techniques
+  title: Electron emission and capture by oxygen-related bistable thermal double donors
+    in silicon studied with junction capacitance techniques
   DOI: 10.1063/1.5053805
   measurement_technique: DLTS-CrL
   comments: Bistable thermal donor 0.
@@ -14,7 +15,8 @@ markevich2018:
     Ed_h: Ec-0.72
 
 markevich2018_1:
-  title: Electron emission and capture by oxygen-related bistable thermal double donors in silicon studied with junction capacitance techniques
+  title: Electron emission and capture by oxygen-related bistable thermal double donors
+    in silicon studied with junction capacitance techniques
   DOI: 10.1063/1.5053805
   measurement_technique: DLTS-CrL
   comments: Bistable thermal donor 1.

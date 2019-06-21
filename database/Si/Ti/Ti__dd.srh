@@ -17,3 +17,18 @@ chen1979:
     Ed_a: Ev+0.29
     Ed_h: Ev+0.255
     sigma_h: 1e-17 * exp(-0.035/kT) * exp(0.035/k/1000*4.5)
+
+lemke1994:
+  title: The Behavior of transition and noble metals in silicon crystals
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-Me, TS-C
+  comments: Assumed thermal velocity of 1e7 measured at 200K
+  sample:
+    growth: FZ
+    dopant: boron,phorphous
+    incorporation: diffusion
+  measurement_details:
+    T: 200.0
+  params:
+    Ed_h: Ev+0.28
+    sigma_h: 1e-2/1e8/1e7

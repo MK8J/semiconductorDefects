@@ -1,4 +1,20 @@
 
+lemke1994:
+  title: The Behavior of transition and noble metals in silicon crystals
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-Me, TS-C
+  linked: Co_s_d.srh
+  comments: Assumed thermal velocity of 1e7 measured at 200K
+  sample:
+    growth: FZ
+    dopant: boron,phorphous
+    incorporation: diffusion
+  measurement_details:
+    T: 200.0
+  params:
+    Ed_h: Ev+0.4
+    sigma_h: 7e-3/1e7/1e8
+
 graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
