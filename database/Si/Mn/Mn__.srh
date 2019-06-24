@@ -1,4 +1,18 @@
 
+carlson1956:
+  title: Properties of Silicon Doped with Manganese
+  DOI: 10.1103/PhysRev.104.937
+  measurement_technique: Hall, R-T, PC-S
+  comments: Shows electron traps.
+  sample:
+    growth: CZ
+    dopant: boron
+    incorporation: ion implantation
+    resistivity: 50-100
+  params:
+    Ed: Ec-0.53
+    dEd: 0.03
+
 evwaraye1977a:
   title: "The defect levels in p\u2010type silicon doped with manganese"
   DOI: 10.1063/1.324247
@@ -52,32 +66,6 @@ evwaraye1977a_3:
     Ed_a: Ev+0.51
     sigma_ea: 3.69e-16
 
-czaputa1983:
-  title: Energy levels of interstitial manganese in silicon
-  DOI: 10.1016/0038-1098(83)90549-5
-  measurement_technique: Hall, EPR
-  sample:
-    growth: FZ
-    dopant: boron,phorphous
-    incorporation: implantation
-    resistivity: '100'
-  params:
-    Ed_a: Ev+0.17
-
-carlson1956:
-  title: Properties of Silicon Doped with Manganese
-  DOI: 10.1103/PhysRev.104.937
-  measurement_technique: Hall, R-T, PC-S
-  comments: Shows electron traps.
-  sample:
-    growth: CZ
-    dopant: boron
-    incorporation: ion implantation
-    resistivity: 50-100
-  params:
-    Ed: Ec-0.53
-    dEd: 0.03
-
 davis1980:
   title: Impurities in silicon solar cells
   DOI: 10.1109/T-ED.1980.19922
@@ -112,6 +100,18 @@ benton1982_2:
   params:
     Ed_a: Ec-0.41
     sigma_ha: 2e-15
+
+czaputa1983:
+  title: Energy levels of interstitial manganese in silicon
+  DOI: 10.1016/0038-1098(83)90549-5
+  measurement_technique: Hall, EPR
+  sample:
+    growth: FZ
+    dopant: boron,phorphous
+    incorporation: implantation
+    resistivity: '100'
+  params:
+    Ed_a: Ev+0.17
 
 roth2008:
   title: Analysis of electrically active defects in silicon for solar cells

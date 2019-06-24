@@ -1,11 +1,4 @@
 
-weber1983:
-  title: Transition metals in silicon
-  DOI: 10.1007/BF00617708
-  measurement_technique: review
-  params:
-    Ed: Ec-0.55
-
 lemke1981a:
   title: Eigensehaften der Dotierungsniveaus von Mangan und Vanadium in Silizium
   DOI: 10.1002/pssa.2210640219
@@ -17,6 +10,13 @@ lemke1981a:
   params:
     Ed_a: Ec-0.55
     sigma_ea: 1E-21
+
+weber1983:
+  title: Transition metals in silicon
+  DOI: 10.1007/BF00617708
+  measurement_technique: review
+  params:
+    Ed: Ec-0.55
 
 graff1995:
   title: Metal impurities in silicon-device fabrication

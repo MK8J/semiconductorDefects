@@ -1,4 +1,12 @@
 
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: review
+  params:
+    Ed: Ec-0.39
+    sigma_e: 1e-15
+
 czaputa1983:
   title: Energy levels of interstitial manganese in silicon
   DOI: 10.1016/0038-1098(83)90549-5
@@ -10,14 +18,6 @@ czaputa1983:
     resistivity: '100'
   params:
     Ed: Ec-0.13
-
-chen1980:
-  title: Energy Levels in Silicon
-  DOI: 10.1146/annurev.ms.10.080180.001105
-  measurement_technique: review
-  params:
-    Ed: Ec-0.39
-    sigma_e: 1e-15
 
 weber1983:
   title: Transition metals in silicon
