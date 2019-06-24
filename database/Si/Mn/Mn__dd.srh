@@ -3,7 +3,7 @@ lemke1981a:
   title: Eigensehaften der Dotierungsniveaus von Mangan und Vanadium in Silizium
   DOI: 10.1002/pssa.2210640219
   measurement_technique: DLTS-Cr, TS-C
-  linked: Mn_s_dd.srh    
+  linked: Mn_s_dd.srh
   comments: Fitted sigma_g from figure 5. Assumed thermal velocity of 1e7
   sample:
     dopant: boron

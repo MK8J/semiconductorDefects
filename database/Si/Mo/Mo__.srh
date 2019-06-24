@@ -19,7 +19,7 @@ benton1999:
   title: Behavior of Molybdenum in Silicon Evaluated for Integrated Circuit Processing
   DOI: 10.1149/1.1391868
   measurement_technique: DLTS
-  linked: Mo_i_d.srh  
+  linked: Mo_i_d.srh
   comments: Measured lifetime, but did not extract minority capture cross sections.
   sample:
     growth: FZ
