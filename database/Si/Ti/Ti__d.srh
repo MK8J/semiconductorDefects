@@ -42,6 +42,20 @@ chen1980:
     Ed_h: Ec-0.23
     dEd_h: 0.02
 
+graff1981a:
+  title: The behavior of transition and nobe metals in silicon crystals
+  ISSN: 0091-391X
+  measurement_technique: DLTS-Cr
+  linked: Ti_i_dd.srh
+  sample:
+    growth: FZ, CZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 1-100
+  params:
+    Ed_h: Ev+0.245
+    sigma_h: 4.4e-17*exp(-0.057/kT)
+
 lemke1994:
   title: The Behavior of transition and noble metals in silicon crystals
   ISBN: 978-1-56677-042-2

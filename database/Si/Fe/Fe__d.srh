@@ -25,6 +25,20 @@ milnes1973:
   params:
     Ed: Ev+0.4
 
+graff1981a:
+  title: The behavior of transition and nobe metals in silicon crystals
+  ISSN: 0091-391X
+  measurement_technique: DLTS-Cr
+  linked: Fe_i_d.srh
+  sample:
+    growth: FZ, CZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 1-100
+  params:
+    Ed_h: Ev+0.383
+    sigma_ha: 2.0e-16
+
 lemke1994:
   title: The Behavior of transition and noble metals in silicon crystals
   ISBN: 978-1-56677-042-2

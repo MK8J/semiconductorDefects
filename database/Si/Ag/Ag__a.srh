@@ -47,6 +47,7 @@ lemke1986:
   title: Dotierungseigenschaften von Silber in Silizium
   DOI: 10.1002/pssa.2210940171
   measurement_technique: DLTS
+  linked: Ag_s_a.srh
   sample:
     growth: FZ
     dopant: boron, phosphorous
@@ -80,6 +81,7 @@ lemke1994:
   title: The Behavior of transition and noble metals in silicon crystals
   ISBN: 978-1-56677-042-2
   measurement_technique: DLTS-Me, TS-C
+  linked: Ag_s_a.srh
   comments: Assumed thermal velocity of 1e7 measured at 300K
   sample:
     growth: FZ

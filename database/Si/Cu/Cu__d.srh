@@ -7,6 +7,20 @@ schibli1968:
     Ed: Ev+0.24
     sigma_h: '3.50E-20'
 
+graff1981a:
+  title: The behavior of transition and nobe metals in silicon crystals
+  ISSN: 0091-391X
+  measurement_technique: DLTS-Cr
+  linked: CuCu_i-s_d.srh
+  sample:
+    growth: FZ, CZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 1-100
+  params:
+    Ed_h: Ev+0.102
+    sigma_ha: 2.1e-13
+
 brotherton1987:
   title: Deep levels of copper in silicon
   DOI: 10.1063/1.339564
@@ -26,6 +40,7 @@ brotherton1987_1:
   title: Deep levels of copper in silicon
   DOI: 10.1063/1.339564
   measurement_technique: DLTS, luminescence
+  linked: CuCu_i-s_d.srh
   comments: Different defect from the others reported In the paper. Believed to be
     related to the luminescence centre
   sample:

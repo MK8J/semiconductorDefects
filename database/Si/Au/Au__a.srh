@@ -61,6 +61,20 @@ nagasawa1975:
     Ed_a: Ec-0.54
     sigma_ea: 2.18e-15
 
+graff1981a:
+  title: The behavior of transition and nobe metals in silicon crystals
+  ISSN: 0091-391X
+  measurement_technique: DLTS-Cr
+  linked: Au_s_a.srh
+  sample:
+    growth: FZ, CZ
+    dopant: phorphous
+    incorporation: thermal
+    resistivity: 1-100
+  params:
+    Ed_h: Ec-0.54
+    sigma_ea: 4.0e-16
+
 lemke1986:
   title: Dotierungseigenschaften von Silber in Silizium
   DOI: 10.1002/pssa.2210940171

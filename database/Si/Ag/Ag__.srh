@@ -1,8 +1,36 @@
 
+graff1981a:
+  title: The behavior of transition and nobe metals in silicon crystals
+  ISSN: 0091-391X
+  measurement_technique: DLTS-Cr
+  sample:
+    growth: FZ, CZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 1-100
+  params:
+    Ed_h: Ev+0.085
+    sigma_ha: 3.5e-16
+
+graff1981a_1:
+  title: The behavior of transition and nobe metals in silicon crystals
+  ISSN: 0091-391X
+  measurement_technique: DLTS-Cr
+  linked: Ag_s_d.srh
+  sample:
+    growth: FZ, CZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 1-100
+  params:
+    Ed_h: Ev+0.36
+    sigma_ha: 3.6e-16
+
 graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6
   measurement_technique: review, DLTS
+  linked: Ag_s_d.srh
   comments: Taken from table 1 in the appendix. The table only provides the majority
     carrier capture cross section. The majority carrier has been estimated from the
     position of the defect level. e.g. if higher than the intrinsic level, it is assume
