@@ -208,6 +208,10 @@ The Digital Object Identifier (DOI) for the file.
 
 The international standard book number.
 
+#### ISSN
+
+The international standard serial number.
+
 #### sample
 
 Sample provides a nested heading to provide sample details. This include
@@ -219,14 +223,6 @@ example is:
       dopant: boron
       resistivity: 1
       incorporation: ion implantation
-
-The inputs for incorporation are:
-
-  - ion implantation: as the name suggests
-  - ingot: This means it is incorporated during ingot growth
-  - thermal: This means it is incorporated into the wafter with a
-    thermal step
-  - quenched: Refers to a fast cooling after thermal incorporation.
 
 TODO: The problem with this notation is when several samples are used. A
 better way is to recorded this information.
@@ -241,6 +237,15 @@ options:
     that range, e.g. 3, 50, 1-10
   - incorporation: how the defect was placed into the sample for study.
     Options include: melt, thermal, ion implantation and radiation
+
+The choices for incorporation are:
+
+``` 
+ * ion implantation: as the name suggests
+ * ingot: This means it is incorporated during ingot growth
+ * thermal: This means it is incorporated into the wafter with a thermal step
+ * quenched: Refers to a fast cooling after thermal incorporation.
+```
 
 #### measurement\_technique
 
