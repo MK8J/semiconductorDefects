@@ -12,7 +12,8 @@ yau1971:
     T: 222,239,258.7,281.8
     e: 1,10,100,1000
   params:
-    Ed_a: Ec-0.578
+    Ed_a: Ec-0.538
+    dEd_a: 0.006
 
 milnes1973:
   title: Deep impurities in semiconductors
@@ -42,6 +43,19 @@ benton1982:
   params:
     Ed_a: Ec-0.51
     sigma_ea: 1.0e-16
+
+pearton1984:
+  title: Electrical properties of deep silver- and iron-related centres in silicon
+  DOI: 10.1002/pssa.2211090129
+  measurement_technique: DLTS
+  linked: Ag_s_d.srh
+  sample:
+    dopant: boron, phosphorous
+    incorporation: thermal
+    resistivity: 7
+  params:
+    Ed_a: Ec-0.54
+    sigma_ea: 1e-14
 
 lemke1986:
   title: Dotierungseigenschaften von Silber in Silizium
@@ -76,6 +90,19 @@ baber1987:
     Ed_h: Ec-0.548
     Ed: Ec-0.54
     sigma_e: '2.20E-16'
+
+pandian1988:
+  title: Silver related deep levels in silicon
+  DOI: 10.1002/pssa.2211090129
+  measurement_technique: DLTS-Cr
+  linked: Ag_s_d.srh
+  sample:
+    dopant: boron, phosphorous
+    incorporation: thermal
+    resistivity: 10
+  params:
+    Ed_a: Ec-0.56
+    sigma_e: 3.0e-16
 
 lemke1994:
   title: The Behavior of transition and noble metals in silicon crystals
