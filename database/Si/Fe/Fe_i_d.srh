@@ -94,6 +94,20 @@ wunstel1982_1:
     dEd_h: 0.02
     sigma_h: 1.6e-16*exp(-0.043/k/T)
 
+tavendale1983:
+  title: Deep level, quenched-in defects in silicon doped with gold, silver, iron,
+    copper or nickel
+  DOI: 10.1088/0022-3719/16/9/011
+  measurement_technique: DLTS-Cr
+  linked: Fe_i_d.srh
+  sample:
+    growth: FZ
+    dopant: boron, phorphous
+    resistivity: 20
+  params:
+    Ed_a: Ev+0.4
+    sigma_h: 3.0e-17
+
 weber1983:
   title: Transition metals in silicon
   DOI: 10.1007/BF00617708

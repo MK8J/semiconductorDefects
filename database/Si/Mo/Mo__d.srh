@@ -45,7 +45,23 @@ chen1980_2:
   measurement_technique: review
   comments: Figure 4
   params:
-    Ed: Ev+0.30
+    Ed_h: Ev+0.28
+    sigma_h: 1.1/1e7/1e8
+
+lemke1983:
+  title: "\xDCber die chemische Natur von Rekombinationszentren in Si-Leistungsbauelementen"
+  DOI: 10.1002/pssa.2210760265
+  measurement_technique: DLTS
+  linked: Mo_i_d.srh
+  comments: Assumed thermal velocity of 1e7 measured at 110K
+  sample:
+    dopant: boron
+    incorporation: diffusion
+  measurement_details:
+    T: 150.0
+  params:
+    Ed_a: Ev+0.28
+    sigma_ha: 2e-8/1e7
 
 lemke1994:
   title: The Behavior of transition and noble metals in silicon crystals
@@ -58,7 +74,7 @@ lemke1994:
     dopant: boron,phorphous
     incorporation: diffusion
   measurement_details:
-    T: 110.0
+    T: 200
   params:
     Ed_h: Ev+0.28
     sigma_h: 1.1/1e7/1e8
