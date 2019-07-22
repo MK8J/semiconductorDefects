@@ -9,7 +9,7 @@ czaputa1983:
     incorporation: implantation
     resistivity: '100'
   params:
-    Ed: Ec-0.4d
+    Ed: Ec-0.4
 
 weber1983:
   title: Transition metals in silicon

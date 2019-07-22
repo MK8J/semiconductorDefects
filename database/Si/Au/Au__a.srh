@@ -55,11 +55,13 @@ nagasawa1975:
   DOI: 10.1007/BF00883667
   measurement_technique: DLTS-Cr
   linked: Au_s_a.srh
+  comments: Evaluated at 295 K, had a gold level higher than the doping.
   measurement_details:
     T: 295 K
   params:
     Ed_a: Ec-0.54
-    sigma_ea: 2.18e-15
+    Ed_h: Ec-0.54
+    sigma_e: 2.18e-15
 
 graff1981a:
   title: The behavior of transition and nobe metals in silicon crystals

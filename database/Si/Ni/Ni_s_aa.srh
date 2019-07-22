@@ -24,7 +24,7 @@ shiraishi1999:
     Ed_h: Ec-0.03
     Ed: Ec-0.024
     sigma_ea: 4.2000000000000004e-14
-    sigma_e: 5.8E-19 * exp(-0.05/kT)
+    sigma_e: 5.8E-19 * exp(-0.05/kT)*exp(0.05/k/45)
 
 graff2000:
   title: Metal Impurities in Silicon-Device Fabrication

@@ -39,7 +39,7 @@ nagasawa1975:
     T: 298 K
   params:
     Ed_a: Ev+0.34
-    sigma_ha: 1.0399999999999999e-18
+    sigma_ha: 1.04e-18
 
 graff1981a:
   title: The behavior of transition and nobe metals in silicon crystals

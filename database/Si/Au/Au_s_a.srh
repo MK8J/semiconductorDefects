@@ -45,22 +45,36 @@ milnes1973:
   params:
     Ed: Ev+0.54
 
-brotherton1980:
-  title: Electron and Hole Capture at Au and Pt Centers in Silicon
-  DOI: 10.1103/PhysRevLett.44.606
-  measurement_technique: DLTS
+brotherton1978:
+  title: The electron capture cross section and energy level of the gold acceptor
+    center in silicon
+  DOI: 10.1063/1.324641
+  measurement_technique: DLTS-Cr
   params:
-    Ed_a: Ec-0.555
+    Ed_h: Ec-0.555
+    sigma_e: 9e-17
 
 lang1980:
   title: Complex nature of gold-related deep levels in silicon
   DOI: 10.1103/PhysRevB.22.3917
   measurement_technique: DLTS-Cr
-  comments: Also measured sigma_e as 0.69e-16 on another sample, and said this could
-    be a different defect.
+  comments: Ed reported at 250 k
   params:
-    Ed_a: Ec-0.53
-    sigma_ea: 1.7e-16*T^0
+    Ed_a: Ec-0.553
+    Ed_h: Ec-0.553
+    Ed: Ec-0.553 + 3 *k *T
+    sigma_e: 1.7e-16*T^0
+
+lang1980_a:
+  title: Complex nature of gold-related deep levels in silicon
+  DOI: 10.1103/PhysRevB.22.3917
+  measurement_technique: DLTS-Cr
+  comments: Said that the difference defect between the two values maybe the results
+    (lang1980 and lang1980a) of a different defect.
+  params:
+    Ed_h: Ec-0.553
+    Ed: Ec-0.553 + 3.87 *k *T
+    sigma_e: 0.69e-16*T^0
 
 benton1982:
   title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon

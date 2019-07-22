@@ -18,13 +18,15 @@ lemke1981a:
   DOI: 10.1002/pssa.2210640219
   measurement_technique: DLTS-Cr, TS-C
   linked: V_i_dd.srh
-  comments: Provides the capture cross section for holes,
+  comments: Provides the capture cross section for holes, assumed thermal velocity
+    of 1e7.
   sample:
     dopant: boron
     incorporation: diffusion
   params:
-    Ed_a: Ev+0.31
-    sigma_h: 1E-20
+    Ed_a: Ev+0.47
+    Ed_h: Ev+0.31
+    sigma_h: 9.93e-22 * exp(-0.0287 * T)
 
 lemke1994:
   title: The Behavior of transition and noble metals in silicon crystals
