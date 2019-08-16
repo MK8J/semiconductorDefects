@@ -25,12 +25,13 @@ brotherton1987_1:
     incorporation: thermal
     resistivity: 66-125
   params:
-    Ed_a: Ev-0.402
+    Ed_a: Ec-0.402
     sigma_ea: 1.8e-17
     sigma_ha: 1.8e-17
 
 lemke1994:
-  title: The Behavior of transition and noble metals in silicon crystals
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
   ISBN: 978-1-56677-042-2
   measurement_technique: DLTS-Me, TS-C
   linked: Cu_s_a.srh

@@ -14,7 +14,7 @@ chen1980_1:
     Ed: Ec-0.472
 
 lemke1994:
-  title: The Behavior of transition and noble metals in silicon crystals
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float Zone Technique
   ISBN: 978-1-56677-042-2
   measurement_technique: DLTS-Me, TS-C
   linked: Ta_i_a.srh
@@ -26,5 +26,5 @@ lemke1994:
   measurement_details:
     T: 140.0
   params:
-    Ed_h: Ev+0.22
+    Ed_h: Ec-0.22
     sigma_e: 3e-2/1e7/1e8

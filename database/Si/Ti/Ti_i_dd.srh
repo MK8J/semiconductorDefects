@@ -22,11 +22,11 @@ wang1984:
     dopant: boron, phosphorous
     incorporation: melt
   params:
-    Ed: Ev+0.255
-    sigma_e: 0.00000000000013*(300/T)
+    Ed_h: Ev+0.255
+    sigma_e: 1.3e-14*(300/T)^1.02
     dsigma_e: 5.0e-16
     sigma_h: 1.09e-16*exp(-0.027/kT)
-    dsigma_h: 1.4000000000000003e-17
+    dsigma_h: 1.4e-17
 
 mathiot1989:
   title: 'Titanium-related deep levels in silicon: A reexamination'
@@ -38,7 +38,7 @@ mathiot1989:
     dopant: boron
     incorporation: thermal
   params:
-    Ed: Ev+0.26
+    Ed_h: Ev+0.26
     sigma_h: 2.6e-17*exp(-0.027/kT)
 
 tilly1991:

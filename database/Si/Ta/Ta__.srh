@@ -8,8 +8,10 @@ miyata1976:
     dopant: phosphorous
     incorporation: thermal
     resistivity: '5'
+  rates:
+    e_e: 4.5e10 * exp(-0.503/kT)
   params:
-    Ed_a: Ev-0.472
+    Ed_a: Ec-0.472
 
 davis1980:
   title: Impurities in silicon solar cells

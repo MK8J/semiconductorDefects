@@ -1,6 +1,6 @@
 
 graff1981a:
-  title: The behavior of transition and nobe metals in silicon crystals
+  title: The behavior of transition and noble metals in silicon crystals
   ISSN: 0091-391X
   measurement_technique: DLTS-Cr
   linked: V_i_dd.srh
@@ -18,18 +18,17 @@ lemke1981a:
   DOI: 10.1002/pssa.2210640219
   measurement_technique: DLTS-Cr, TS-C
   linked: V_i_dd.srh
-  comments: Provides the capture cross section for holes, assumed thermal velocity
-    of 1e7.
+  comments: Provides the capture cross section for holes, assumed thermal velocity of 1e7.
   sample:
     dopant: boron
     incorporation: diffusion
   params:
     Ed_a: Ev+0.47
     Ed_h: Ev+0.31
-    sigma_h: 9.93e-22 * exp(-0.0287 * T)
+    sigma_h: 9.93e-22 * exp(0.0287 * T)
 
 lemke1994:
-  title: The Behavior of transition and noble metals in silicon crystals
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float Zone Technique
   ISBN: 978-1-56677-042-2
   measurement_technique: DLTS-Me, TS-C
   linked: V_i_dd.srh

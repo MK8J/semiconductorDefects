@@ -36,7 +36,7 @@ davis1980_1:
     dEd_a: 0.02
 
 graff1981a:
-  title: The behavior of transition and nobe metals in silicon crystals
+  title: The behavior of transition and noble metals in silicon crystals
   ISSN: 0091-391X
   measurement_technique: DLTS-Cr
   linked: Ti_i_d.srh
@@ -51,7 +51,7 @@ graff1981a:
     dsigma_ea: 2.5e-13
 
 graff1981a_1:
-  title: The behavior of transition and nobe metals in silicon crystals
+  title: The behavior of transition and noble metals in silicon crystals
   ISSN: 0091-391X
   measurement_technique: DLTS-Cr
   linked: Ti_i_a.srh

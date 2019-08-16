@@ -44,6 +44,8 @@ herman1972:
   sample:
     dopant: boron
     incorporation: thermal
+  rates:
+    e_h: 6.78e12 * (T/300)**(-2)* exp(-0.297/kT)
   params:
     Ed_a: Ev+0.297
     dEd_a: 0.001
@@ -62,6 +64,45 @@ chen1980:
   measurement_technique: review
   params:
     Ed: Ev+0.31
+
+sah1981:
+  title: Effect of zinc impurity on silicon solar-cell efficiency
+  DOI: 10.1109/T-ED.1981.20333
+  measurement_technique: TS-I, DLTS-Cr
+  comments: Capture rate at 300 K, energy levels and capture cross sections not provided,
+    these are calculated.
+  sample:
+    dopant: boron
+    incorporation: thermal
+  rates:
+    e_h: 7.4e12 * (T/300)**(-1)* exp(-0.326/kT)
+    c_e: 2.25e-8/2.046e7
+    c_h: 5e-8/1.688e7
+  params:
+    Ed_a: Ev+0.297
+    dEd_a: 0.001
+    Ed: Ei-0.271
+    sigma_e: 9.78e-16
+    sigma_h: 2.96e-15
+
+wang1984a:
+  title: Electron capture at the two acceptor levels of a zinc center in silicon
+  DOI: 10.1103/PhysRevB.30.5896
+  measurement_technique: TS-I, DLTS-Cr
+  comments: Energy levels and capture cross sections not provided, these are calculated
+    at 300 K.
+  sample:
+    dopant: boron
+    incorporation: thermal
+  rates:
+    e_h: 7.41e12*(T/300) * exp(-0.326/kT)
+    c_e: 4.16e-10 * (1-exp(-481/T))**(-20.1)*exp(-2.23/(exp(481/T)-1))
+    c_h: 4.9e-8*(300/T)**(2.15)
+  params:
+    Ed_a: Ev+0.326
+    Ed: Ei-0.274
+    sigma_e: 1.12e-15
+    sigma_h: 2.9e-15
 
 graff1995:
   title: Metal impurities in silicon-device fabrication

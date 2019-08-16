@@ -3,7 +3,7 @@ lisiak1976:
   title: Rhodium and iridium as deep impurities in silicon
   DOI: 10.1016/0038-1101(76)90087-3
   measurement_technique: DLTS
-  comments: Also did lifetime but not included in entry
+  comments: Also did lifetime and hall but not included in entry
   sample:
     incorporation: thermal
   params:

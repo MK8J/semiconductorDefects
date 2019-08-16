@@ -16,7 +16,8 @@ brotherton1987:
     sigma_ha: 3.3e-17
 
 lemke1994:
-  title: The Behavior of transition and noble metals in silicon crystals
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
   ISBN: 978-1-56677-042-2
   measurement_technique: DLTS-Me, TS-C
   linked: Cu_s_aa.srh

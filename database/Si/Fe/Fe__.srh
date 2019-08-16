@@ -11,7 +11,7 @@ collins1957a:
     growth: FZ
     incorporation: melt
   params:
-    Ed: Ec+0.55
+    Ed: Ec-0.55
 
 benton1982:
   title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon

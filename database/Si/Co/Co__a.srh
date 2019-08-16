@@ -1,4 +1,15 @@
 
+yau1972:
+  title: Measurement of trapped-minority-carrier thermal emission rates from Au, Ag, and Co traps in silicon
+  DOI: 10.1063/1.1654324
+  measurement_technique: DLTS-Mo
+  linked: Co_s_a.srh
+  sample:
+    dopant: boron, phosphorous
+    incorporation: thermal
+  rates:
+      e_e: 2.59e12 * exp(-0.569/kT)
+
 milnes1973:
   title: Deep impurities in semiconductors
   ISBN: 978-0-471-60670-3
@@ -16,7 +27,7 @@ milnes1973_1:
     Ed: Ev+0.35
 
 lemke1994:
-  title: The Behavior of transition and noble metals in silicon crystals
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float Zone Technique
   ISBN: 978-1-56677-042-2
   measurement_technique: DLTS-Me, TS-C
   linked: Co_s_a.srh

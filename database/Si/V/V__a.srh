@@ -8,7 +8,7 @@ chen1980:
     Ed_a: Ec-0.49
 
 graff1981a:
-  title: The behavior of transition and nobe metals in silicon crystals
+  title: The behavior of transition and noble metals in silicon crystals
   ISSN: 0091-391X
   measurement_technique: DLTS-Cr
   linked: V_i_a.srh
@@ -35,7 +35,8 @@ lemke1981a:
     sigma_ea: 2E-16
 
 lemke1994:
-  title: The Behavior of transition and noble metals in silicon crystals
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
   ISBN: 978-1-56677-042-2
   measurement_technique: DLTS-Me, TS-C
   linked: V_i_a.srh

@@ -25,6 +25,8 @@ yau1972:
   sample:
     dopant: boron, phosphorous
     incorporation: thermal
+  rates:
+    e_h: 5.16e13 * exp(-0.405/kT)
   params:
     Ed_a: Ev+0.378
     dEd_a: 0.002
@@ -106,7 +108,8 @@ pandian1988:
     sigma_h: 3.1e-16
 
 lemke1994:
-  title: The Behavior of transition and noble metals in silicon crystals
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
   ISBN: 978-1-56677-042-2
   measurement_technique: DLTS-Me, TS-C
   linked: Ag_s_d.srh

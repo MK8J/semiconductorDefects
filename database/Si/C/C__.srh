@@ -14,7 +14,7 @@ jellison1982:
   params:
     Ed_a: Ec-0.105
     dEd_a: 0.005
-    sigma_e: '>1e-14'
+    sigma_ea: '>1e-14'
 
 jellison1982_1:
   title: Transient capacitance studies of an electron trap at Ec-ET = 0.105 eV in
@@ -31,4 +31,4 @@ jellison1982_1:
   params:
     Ed_a: Ec-0.172
     dEd_a: 0.002
-    sigma_e: '>1e-14'
+    sigma_ea: '>1e-14'

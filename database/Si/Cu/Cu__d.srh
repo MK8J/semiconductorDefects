@@ -8,7 +8,7 @@ schibli1968:
     sigma_h: '3.50E-20'
 
 graff1981a:
-  title: The behavior of transition and nobe metals in silicon crystals
+  title: The behavior of transition and noble metals in silicon crystals
   ISSN: 0091-391X
   measurement_technique: DLTS-Cr
   linked: CuCu_i-s_d.srh
@@ -19,7 +19,7 @@ graff1981a:
     resistivity: 1-100
   params:
     Ed_h: Ev+0.102
-    sigma_ha: 2.1e-13
+    sigma_h: 2.1e-13*exp(0)
 
 brotherton1987:
   title: Deep levels of copper in silicon
@@ -54,7 +54,8 @@ brotherton1987_1:
     sigma_ha: 3.0e-16
 
 lemke1994:
-  title: The Behavior of transition and noble metals in silicon crystals
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
   ISBN: 978-1-56677-042-2
   measurement_technique: DLTS-Me, TS-C
   linked: Cu_s_d.srh
@@ -66,5 +67,5 @@ lemke1994:
   measurement_details:
     T: 100.0
   params:
-    Ed_a: Ec-0.23
+    Ed_a: Ev+0.23
     sigma_ea: '>1/1e7/1e8'

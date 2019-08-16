@@ -1,4 +1,11 @@
 
+weber1983:
+  title: Transition metals in silicon
+  DOI: 10.1007/BF00617708
+  measurement_technique: review
+  params:
+    Ed: Ev+0.3
+
 tilly1991_1:
   title: Electrical and optical properties of vanadium-related centers in silicon
   DOI: 10.1103/PhysRevB.44.12809
@@ -13,13 +20,6 @@ tilly1991_1:
     Ed_h: Ev+0.359
     Ed: Ev+(0.356-1.43e-7*T)
     sigma_h: 6.47e-17*exp(-0.088/kT)
-
-weber1983:
-  title: Transition metals in silicon
-  DOI: 10.1007/BF00617708
-  measurement_technique: review
-  params:
-    Ed: Ev+0.3
 
 graff1995:
   title: Metal impurities in silicon-device fabrication

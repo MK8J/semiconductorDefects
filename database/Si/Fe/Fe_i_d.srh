@@ -3,7 +3,7 @@ collins1957a:
   title: Properties of Silicon Doped with Iron or Copper
   DOI: 10.1103/PhysRev.108.1409
   measurement_technique: Hall, LS
-  comments: capture cross sections from lifetime data from anther paper
+  comments: capture cross sections from lifetime data.
   params:
     Ed: Ev+0.4
     sigma_h: 3e-16
@@ -51,8 +51,9 @@ lemke1981:
   measurement_technique: DLTS-CrMe, TS-C
   comments: Capture cross sections manually extracted from figure
   params:
+    Ed_a: Ev+0.43
     Ed_h: Ev+0.39
-    sigma_e: 1.65e-10*T^(-1.58)
+    sigma_e: 1.03e-10*T^(-1.506)
     sigma_h: 7.86e-20*exp(0.0221*T)+1.78e-17
 
 wunstel1981:
@@ -89,6 +90,8 @@ wunstel1982_1:
     dopant: boron, aluminum, gallium
     incorporation: thermal
     resistivity: 0.3-100
+  rates:
+    e_e: 1.603e6*T**2*exp(-0.43/kT)
   params:
     Ed_h: Ev+0.39
     dEd_h: 0.02
@@ -105,7 +108,7 @@ tavendale1983:
     dopant: boron, phorphous
     resistivity: 20
   params:
-    Ed_a: Ev+0.4
+    Ed_a: Ev+0.39
     sigma_h: 3.0e-17
 
 weber1983:
@@ -137,6 +140,16 @@ hangleiter1987:
     this down to different capture mechanisms in forward and reverse bias.
   params:
     sigma_h: 2e-8*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))
+
+zoth1990:
+  title: A fast, preparation-free method to detect iron in silicon
+  DOI: 10.1063/1.345063
+  measurement_technique: SPV
+  comments: Value at 300 K.
+  rates:
+    c_e: 5.5e-07
+  params:
+    sigma_e: 3.26e-14
 
 graff1995:
   title: Metal impurities in silicon-device fabrication

@@ -43,7 +43,7 @@ chen1980:
     dEd_h: 0.02
 
 graff1981a:
-  title: The behavior of transition and nobe metals in silicon crystals
+  title: The behavior of transition and noble metals in silicon crystals
   ISSN: 0091-391X
   measurement_technique: DLTS-Cr
   linked: Ti_i_dd.srh
@@ -57,7 +57,8 @@ graff1981a:
     sigma_h: 4.4e-17*exp(-0.057/kT)
 
 lemke1994:
-  title: The Behavior of transition and noble metals in silicon crystals
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
   ISBN: 978-1-56677-042-2
   measurement_technique: DLTS-Me, TS-C
   linked: Ti_i_d.srh
