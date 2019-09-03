@@ -45,7 +45,7 @@ herman1972:
     dopant: boron
     incorporation: thermal
   rates:
-    e_h: 6.78e12 * (T/300)**(-2)* exp(-0.297/kT)
+    e_h: 6.78e12 * (T/300)^(-2)* exp(-0.297/kT)
   params:
     Ed_a: Ev+0.297
     dEd_a: 0.001
@@ -75,7 +75,7 @@ sah1981:
     dopant: boron
     incorporation: thermal
   rates:
-    e_h: 7.4e12 * (T/300)**(-1)* exp(-0.326/kT)
+    e_h: 7.4e12 * (T/300)^(-1)* exp(-0.326/kT)
     c_e: 2.25e-8/2.046e7
     c_h: 5e-8/1.688e7
   params:
@@ -96,8 +96,8 @@ wang1984a:
     incorporation: thermal
   rates:
     e_h: 7.41e12*(T/300) * exp(-0.326/kT)
-    c_e: 4.16e-10 * (1-exp(-481/T))**(-20.1)*exp(-2.23/(exp(481/T)-1))
-    c_h: 4.9e-8*(300/T)**(2.15)
+    c_e: 4.16e-10 * (1-exp(-481/T))^(-20.1)*exp(-2.23/(exp(481/T)-1))
+    c_h: 4.9e-8*(300/T)^(2.15)
   params:
     Ed_a: Ev+0.326
     Ed: Ei-0.274

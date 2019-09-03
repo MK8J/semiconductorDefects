@@ -104,7 +104,7 @@ birkholz2005:
   comments: Used Fei_a of Istratov
   params:
     Ed: Ec-0.26
-    sigma_e: '1.4e-15'
+    sigma_e: '1.4e-14'
     sigma_h: '1.1e-15'
 
 rein2005:
@@ -132,3 +132,12 @@ macdonald2006:
     dsigma_e: 1.5e-15
     sigma_h: 3e-15
     dsigma_h: 1e-15
+
+paudyal2009:
+  title: Temperature Dependent Electron and Hole Capture Cross Sections of Iron-Contaminated
+    Boron-Doped Silicon
+  DOI: 10.1109/PVSC.2009.5411380
+  measurement_technique: LS-IT
+  params:
+    sigma_e: 5.1e-9 * T^(-2.5)
+    sigma_h: 3.32e-11 * exp(-0.262/kT)

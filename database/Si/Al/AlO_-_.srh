@@ -28,7 +28,8 @@ chen1980_3:
     Ed: Ev+0.216
 
 rosenits2007:
-  title: Determining the defect parameters of the deep aluminum-related defect center in silicon
+  title: Determining the defect parameters of the deep aluminum-related defect center
+    in silicon
   DOI: 10.1063/1.2789378
   measurement_technique: DLTS, LS-I
   sample:

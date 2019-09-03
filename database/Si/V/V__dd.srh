@@ -18,7 +18,8 @@ lemke1981a:
   DOI: 10.1002/pssa.2210640219
   measurement_technique: DLTS-Cr, TS-C
   linked: V_i_dd.srh
-  comments: Provides the capture cross section for holes, assumed thermal velocity of 1e7.
+  comments: Provides the capture cross section for holes, assumed thermal velocity
+    of 1e7.
   sample:
     dopant: boron
     incorporation: diffusion
@@ -28,7 +29,8 @@ lemke1981a:
     sigma_h: 9.93e-22 * exp(0.0287 * T)
 
 lemke1994:
-  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float Zone Technique
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
   ISBN: 978-1-56677-042-2
   measurement_technique: DLTS-Me, TS-C
   linked: V_i_dd.srh

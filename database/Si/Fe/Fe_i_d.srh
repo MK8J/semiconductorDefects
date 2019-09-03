@@ -36,12 +36,14 @@ graff1981:
   title: The Properties of Iron in Silicon
   DOI: 10.1149/1.2127478
   measurement_technique: DLTS, FTIR
-  comments: FTIR at 25 K, No Fe peak found
+  comments: FTIR at 25 K, No Fe peak found. Rate measured at 260 K
   sample:
     growth: CZ, FZ
     dopant: boron, phosphorous, aluminum
     incorporation: thermal
     resistivity: 1-100
+  rates:
+    e_h: 1.4e-3
   params:
     Ed_a: Ev+0.43
 
@@ -91,11 +93,23 @@ wunstel1982_1:
     incorporation: thermal
     resistivity: 0.3-100
   rates:
-    e_e: 1.603e6*T**2*exp(-0.43/kT)
+    e_h: 1.603e6*T^2*exp(-0.43/kT)
   params:
     Ed_h: Ev+0.39
     dEd_h: 0.02
     sigma_h: 1.6e-16*exp(-0.043/k/T)
+
+gao1991:
+  title: Annealing and profile of interstitial iron in boron-doped silicon
+  DOI: 10.1063/1.106103
+  measurement_technique: DLTS
+  sample:
+    growth: FZ
+    dopant: boron
+  comments: catpure cross section determined at 250 K
+  params:
+    Ed_a: Ev+0.43
+    sigma_ha: 2.7e-17
 
 tavendale1983:
   title: Deep level, quenched-in defects in silicon doped with gold, silver, iron,
@@ -125,6 +139,10 @@ brotherton1985:
   sample:
     growth: CZ, FZ
     dopant: boron, phosphorous
+    resistivity: 30,100
+  comments: emission rate taken from digitization of graph.
+  rates:
+    e_h: 766021*T^2*exp(-0.419/kT)
   params:
     Ed_a: Ev+0.419
     Ed_h: Ev+0.37
@@ -186,12 +204,14 @@ graff2000:
     Ed_h: Ev+0.39
     dEd_h: 0.01
     sigma_h: 2.80E-16 * exp(-0.043/kT)
+    sigma_e: 1e-10 * T^(-1.5)
 
 rein2005:
   title: Electronic properties of interstitial iron and iron-boron pairs determined  by
     means of advanced lifetime spectroscopy
   DOI: 10.1063/1.2106017
   measurement_technique: LS-TI
+  comments: k determined only at room temperature.
   params:
     Ed: Ev+0.394
     dEd: 0.005
@@ -207,6 +227,14 @@ macdonald2008:
   comments: Performed at room temperature
   params:
     sigma_e: 1.3e-14
+
+paudyal2009:
+  title: Temperature Dependent Electron and Hole Capture Cross Sections of Iron-Contaminated Boron-Doped Silicon
+  DOI: 10.1109/PVSC.2009.5411380
+  measurement_technique: LS-IT
+  params:
+    sigma_e: 3.47e-11*T^(-1.48)
+    sigma_h: 4.54e-16*exp(-0.05/kT)
 
 naerland2017:
   title: On the recombination centers of iron-gallium pairs in Ga-doped silicon

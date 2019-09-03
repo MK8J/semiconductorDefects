@@ -19,3 +19,20 @@ chen1980_2:
   measurement_technique: review, hall, DLTS
   params:
     Ed_a: Ev+0.6
+
+yarykin2019:
+  title: DLTS Investigation of the Energy Spectrum of Si:Mg Crystals
+  DOI: 10.1134/S1063782619060290
+  measurement_technique: DLTS-L
+  comments: Assume T^-3 correction for the capture cross section. LArge field dependence
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: thermal
+    resistivity: 0.5
+  rates:
+    e_h: 1.99e8 * T^2 * exp(-0.97/kT)
+  params:
+    Ed_a: Ec-0.226
+    Ed_h: Ec-0.252
+    sigma_ha: 1.6e-14
