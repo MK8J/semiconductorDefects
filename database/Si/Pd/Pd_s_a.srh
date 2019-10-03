@@ -8,7 +8,8 @@ milnes1973:
     Ed: Ev+0.34
 
 pals1974:
-  title: Properties of Au, Pt, Pd and Rh levels in silicon measured with a constant capacitance technique
+  title: Properties of Au, Pt, Pd and Rh levels in silicon measured with a constant
+    capacitance technique
   DOI: 10.1016/0038-1101(74)90157-9
   measurement_technique: DLTS-Cc
   comments: 95 K
@@ -16,7 +17,7 @@ pals1974:
     dopant: phosphorous
     incorporation: thermal
   rates:
-      e_e: 1/1.05e-7*exp(-0.22/kT)*T^2
+    e_e: 1/1.05e-7*exp(-0.22/kT)*T^2
   params:
     Ed_a: Ec-0.22
     sigma_ea: 3.2e-13

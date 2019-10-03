@@ -64,7 +64,8 @@ milnes1973:
     Ed: Ev+0.35
 
 pals1974:
-  title: Properties of Au, Pt, Pd and Rh levels in silicon measured with a constant capacitance technique
+  title: Properties of Au, Pt, Pd and Rh levels in silicon measured with a constant
+    capacitance technique
   DOI: 10.1016/0038-1101(74)90157-9
   measurement_technique: DLTS-Cc
   comments: 135 K

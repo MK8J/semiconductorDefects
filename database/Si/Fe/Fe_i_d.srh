@@ -43,7 +43,7 @@ graff1981:
     incorporation: thermal
     resistivity: 1-100
   rates:
-    e_h: 1.4e-3
+    e_h: 0.0014
   params:
     Ed_a: Ev+0.43
 
@@ -99,18 +99,6 @@ wunstel1982_1:
     dEd_h: 0.02
     sigma_h: 1.6e-16*exp(-0.043/k/T)
 
-gao1991:
-  title: Annealing and profile of interstitial iron in boron-doped silicon
-  DOI: 10.1063/1.106103
-  measurement_technique: DLTS
-  sample:
-    growth: FZ
-    dopant: boron
-  comments: catpure cross section determined at 250 K
-  params:
-    Ed_a: Ev+0.43
-    sigma_ha: 2.7e-17
-
 tavendale1983:
   title: Deep level, quenched-in defects in silicon doped with gold, silver, iron,
     copper or nickel
@@ -136,11 +124,11 @@ brotherton1985:
   title: Iron and the iron-boron complex in silicon
   DOI: 10.1063/1.335468
   measurement_technique: DLTS-Cr
+  comments: emission rate taken from digitization of graph.
   sample:
     growth: CZ, FZ
     dopant: boron, phosphorous
     resistivity: 30,100
-  comments: emission rate taken from digitization of graph.
   rates:
     e_h: 766021*T^2*exp(-0.419/kT)
   params:
@@ -168,6 +156,18 @@ zoth1990:
     c_e: 5.5e-07
   params:
     sigma_e: 3.26e-14
+
+gao1991:
+  title: Annealing and profile of interstitial iron in boron-doped silicon
+  DOI: 10.1063/1.106103
+  measurement_technique: DLTS
+  comments: catpure cross section determined at 250 K
+  sample:
+    growth: FZ
+    dopant: boron
+  params:
+    Ed_a: Ev+0.43
+    sigma_ha: 2.7e-17
 
 graff1995:
   title: Metal impurities in silicon-device fabrication
@@ -203,8 +203,8 @@ graff2000:
   params:
     Ed_h: Ev+0.39
     dEd_h: 0.01
-    sigma_h: 2.80E-16 * exp(-0.043/kT)
     sigma_e: 1e-10 * T^(-1.5)
+    sigma_h: 2.80E-16 * exp(-0.043/kT)
 
 rein2005:
   title: Electronic properties of interstitial iron and iron-boron pairs determined  by
@@ -229,7 +229,8 @@ macdonald2008:
     sigma_e: 1.3e-14
 
 paudyal2009:
-  title: Temperature Dependent Electron and Hole Capture Cross Sections of Iron-Contaminated Boron-Doped Silicon
+  title: Temperature Dependent Electron and Hole Capture Cross Sections of Iron-Contaminated
+    Boron-Doped Silicon
   DOI: 10.1109/PVSC.2009.5411380
   measurement_technique: LS-IT
   params:
