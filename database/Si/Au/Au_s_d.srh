@@ -63,6 +63,20 @@ milnes1973:
   params:
     Ed: Ev+0.35
 
+pals1974:
+  title: Properties of Au, Pt, Pd and Rh levels in silicon measured with a constant capacitance technique
+  DOI: 10.1016/0038-1101(74)90157-9
+  measurement_technique: DLTS-Cc
+  comments: 135 K
+  sample:
+    dopant: boron
+    incorporation: thermal
+  rates:
+    e_e: 1/6.3e-9*exp(-0.346/kT)*T^2
+  params:
+    Ed_a: Ev+0.346
+    sigma_ha: 1.6e-13
+
 brotherton1980:
   title: Electron and Hole Capture at Au and Pt Centers in Silicon
   DOI: 10.1103/PhysRevLett.44.606

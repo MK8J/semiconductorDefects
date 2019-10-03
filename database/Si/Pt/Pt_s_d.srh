@@ -7,6 +7,20 @@ milnes1973:
   params:
     Ed: Ev+0.30
 
+pals1974:
+  title: Properties of Au, Pt, Pd and Rh levels in silicon measured with a constant capacitance technique
+  DOI: 10.1016/0038-1101(74)90157-9
+  measurement_technique: DLTS-Cc
+  comments: 135 K
+  sample:
+    dopant: boron
+    incorporation: thermal
+  rates:
+      e_e: 1/1.17e-7*exp(-0.317/kT)*T^2
+  params:
+    Ed_a: Ev+0.317
+    sigma_ha: 9.7e-14
+
 pugnet1976:
   title: Energy levels for platinum and palladium in silicon measured by the dark
     transient capacitance technique
