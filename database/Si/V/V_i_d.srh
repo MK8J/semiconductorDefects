@@ -1,18 +1,4 @@
 
-sadoh1992:
-  title: "Deep levels of vanadium and vanadium\u2010hydrogen complex in silicon"
-  DOI: 10.1063/1.352353
-  measurement_technique: DLTS-Cr
-  sample:
-    growth: CZ, FZ
-    dopant: boron, phorphous
-    incorporation: thermal
-    resistivity: 10-100
-  params:
-    Ed_a: Ec-0.45
-    Ed: Ec-0.45
-    sigma_e: 5.3e-15
-
 weber1983:
   title: Transition metals in silicon
   DOI: 10.1007/BF00617708
@@ -34,6 +20,20 @@ tilly1991_1:
     Ed_h: Ec-0.485
     Ed: Ec-(0.483-1.77e-4*T)
     sigma_e: 8.27e-15*exp(0.016/kT)
+
+sadoh1992:
+  title: "Deep levels of vanadium and vanadium\u2010hydrogen complex in silicon"
+  DOI: 10.1063/1.352353
+  measurement_technique: DLTS-Cr
+  sample:
+    growth: CZ, FZ
+    dopant: boron, phorphous
+    incorporation: thermal
+    resistivity: 10-100
+  params:
+    Ed_a: Ec-0.45
+    Ed: Ec-0.45
+    sigma_e: 5.3e-15
 
 graff1995:
   title: Metal impurities in silicon-device fabrication
