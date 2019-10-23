@@ -35,3 +35,24 @@ graff2000:
     Ed_a: Ec-0.07
     dEd_a: 0.01
     sigma_ea: '5.4e-18'
+
+scheffler2014:
+  title: Electrical levels in nickel doped silicon
+  DOI: 10.1063/1.4901003
+  measurement_technique: DLTS-L
+  comments: Out at 550 K
+  sample:
+    growth: FZ
+    dopant: phosphorous, boron
+    incorporation: melt, diffusion
+    resistivity: '1000'
+  measurement_details:
+    T: 45.0
+    Ur: -2 V
+    Up: 0 V
+    tp: 1 ms
+    Rw: 0.021 s
+  params:
+    Ed_a: Ec-0.07
+    sigma_ea: '1.2E-15'
+    dsigma_ea: 7.0e-16
