@@ -51,7 +51,10 @@ lemke1981:
   title: Dotierungseigenschaften von Eisen in Silizium
   DOI: 10.1002/pssa.2210640123
   measurement_technique: DLTS-CrMe, TS-C
-  comments: Capture cross sections manually extracted from figure
+  comments: Capture cross sections manually extracted from figure, rates from digitisation
+    of figure 10.
+  rates:
+    e_h: 2121999 * T^2 * exp(-0.435/kT)
   params:
     Ed_a: Ev+0.43
     Ed_h: Ev+0.39
@@ -168,6 +171,21 @@ gao1991:
   params:
     Ed_a: Ev+0.43
     sigma_ha: 2.7e-17
+
+nakashima1994:
+  title: Diffusion and electrical properties of 3d transition-metal impurity series
+    in silicon
+  DOI: 10.4028/www.scientific.net/MSF.143-147.761
+  measurement_technique: DLTS
+  sample:
+    growth: FZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 10
+  params:
+    Ed_a: Ev+0.438
+    Ed_h: Ev+0.40
+    sigma_h: 1.8e-16*exp(-0.038/k/T)
 
 graff1995:
   title: Metal impurities in silicon-device fabrication
