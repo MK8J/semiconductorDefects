@@ -37,4 +37,4 @@ graff2000:
   comments: Taken from table 5.5, Peak in DLTS at 200K
   params:
     Ed_h: Ev+0.27
-    sigma_h: 2.00E-18 * exp(-0.064/kT)
+    sigma_h: 7.9E-18 * exp(-0.064/kT)

@@ -20,6 +20,9 @@ wang1984:
     growth: CZ
     dopant: boron, phosphorous
     incorporation: melt
+  rates:
+    e_e: 2.65e11*(T/300)^2*exp(-0.2666/kT)
+    c_e: 2.61e-7 * (T/300)^(0.01)
   params:
     Ed_a: Ec-0.2666
     dEd_a: 0.0017
@@ -40,8 +43,11 @@ mathiot1989:
     growth: FZ,CZ
     dopant: phosphorous
     incorporation: thermal
+  rates:
+    e_e: 1.1e13 *T^(-0.5)*exp(-0.317/k/T)
   params:
-    Ed: Ec-0.297
+    Ed_a: Ec-0.317
+    Ed_h: Ec-0.297
     sigma_e: 4.6e-8*exp(-0.02/k/T)/T^(2.5)
 
 tilly1991:
@@ -58,6 +64,14 @@ tilly1991:
     Ed_h: Ec-0.266
     Ed: Ec-(0.268+3.42e-4*T)
     sigma_e: 1.57e-14*exp(0.011/k/T)
+
+graff1995:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  params:
+    Ed_a: Ec-0.27
+    sigma_ea: 2e-14 * exp(-0.004/k/T)
 
 graff2000:
   title: Metal Impurities in Silicon-Device Fabrication

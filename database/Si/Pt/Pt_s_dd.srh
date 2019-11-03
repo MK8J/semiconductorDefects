@@ -5,6 +5,6 @@ graff2000:
   measurement_technique: review, DLTS
   comments: Taken from table 4.10. DLTS done at a temperature of 50K
   params:
-    Ed_a: Ev+0.08
-    dEd_a: 0.01
-    sigma_ha: '3.5e-17'
+    Ed_h: Ev+0.08
+    dEd_h: 0.01
+    sigma_h: '3.5e-17'

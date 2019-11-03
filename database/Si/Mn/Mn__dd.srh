@@ -11,14 +11,14 @@ graff1981a:
     resistivity: 1-100
   params:
     Ed_h: Ev+0.234
-    sigma_h: 5.4e-18*exp(-0.069/kT)
+    sigma_h: 5.4e-18*exp(-0.069/kT)/exp(-0.069/k/225)
 
 lemke1981a:
   title: Eigensehaften der Dotierungsniveaus von Mangan und Vanadium in Silizium
   DOI: 10.1002/pssa.2210640219
   measurement_technique: DLTS-Cr, TS-C
   linked: Mn_s_dd.srh
-  comments: Fitted sigma_g from figure 5. Assumed thermal velocity of 1e7
+  comments: Fitted sigma_h from figure 5. Assumed thermal velocity of 1e7
   sample:
     dopant: boron
     incorporation: diffusion

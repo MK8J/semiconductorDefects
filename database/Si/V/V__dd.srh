@@ -11,7 +11,7 @@ graff1981a:
     resistivity: 1-100
   params:
     Ed_h: Ev+0.289
-    sigma_h: 4.1e-18*exp(-0.208/kT)
+    sigma_h: 4.1e-18*exp(-0.208/kT)/exp(-0.208/k/275)
 
 lemke1981a:
   title: Eigensehaften der Dotierungsniveaus von Mangan und Vanadium in Silizium

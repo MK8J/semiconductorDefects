@@ -82,7 +82,6 @@ sah1981:
   params:
     Ed_a: Ev+0.297
     dEd_a: 0.001
-    Ed: Ei+0.079
     sigma_e: 2.44e-18
     sigma_h: 3.55e-15
 
@@ -102,7 +101,6 @@ wang1984a:
     c_h: 5.72e-8 * (300/T)^(3.93)
   params:
     Ed_a: Ev+0.664
-    Ed: Ei+0.077
     sigma_e: 1.17e-17
     sigma_h: 3.5e-15
 

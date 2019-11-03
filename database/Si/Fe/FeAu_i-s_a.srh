@@ -7,7 +7,7 @@ brotherton1984:
   rates:
     e_e: 5.28e7 * T^2 * exp(-0.352/kT)
   params:
-    Ed_a: Ev-0.354
+    Ed_a: Ec-0.354
     sigma_e: 2e-15
 
 graff1995:

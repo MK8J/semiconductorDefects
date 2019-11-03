@@ -27,7 +27,7 @@ yau1972:
   rates:
     e_e: 1.32 * exp(-0.593/kT)
   params:
-    Ed_a: Ec+0.544
+    Ed_a: Ec-0.544
     dEd_a: 0.002
 
 milnes1973:

@@ -34,7 +34,7 @@ graff2000:
   params:
     Ed_a: Ec-0.07
     dEd_a: 0.01
-    sigma_ea: '5.4e-18'
+    sigma_ea: 5.4e-18
 
 scheffler2014:
   title: Electrical levels in nickel doped silicon

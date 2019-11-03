@@ -37,7 +37,7 @@ graff1981a:
     resistivity: 1-100
   params:
     Ed_h: Ev+0.383
-    sigma_h: 2.0e-16*exp(-0.086/kT)
+    sigma_h: 2.0e-16*exp(-0.086/kT) / exp(-0.086/k/265)
 
 lemke1994:
   title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float

@@ -21,6 +21,10 @@ wang1984:
     growth: CZ
     dopant: boron, phosphorous
     incorporation: melt
+  rates:
+    e_h: 2.02e10*(T/300)^2*exp(-0.2819/kT)
+    c_e: 1.26e-7 * (300/T)^(0.61)
+    c_h: 1.24e-9 * exp(-0.0302/kT)
   params:
     Ed_h: Ev+0.255
     sigma_e: 1.3e-14*(300/T)^1.02
@@ -37,6 +41,8 @@ mathiot1989:
     growth: FZ,CZ
     dopant: boron
     incorporation: thermal
+  rates:
+    e_h: 1.65e5*exp(-0.287/kT)
   params:
     Ed_h: Ev+0.26
     sigma_h: 2.6e-17*exp(-0.027/kT)

@@ -194,7 +194,7 @@ graff1995:
   comments: Taken from table 1 in the appendix and equation 4.5.
   params:
     Ed_h: Ev+0.38
-    sigma_h: 5.6E-16 * exp(-0.048/kT)
+    sigma_h: 3E-16 * exp(-0.05/kT)
 
 istratov1999:
   title: Iron and its complexes in silicon

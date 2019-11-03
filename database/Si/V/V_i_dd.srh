@@ -54,4 +54,4 @@ graff2000:
     the majority carrier was electrons.
   params:
     Ed_h: Ev+0.32
-    sigma_h: 2.20E-18 * exp(-0.14/kT)
+    sigma_h: 3.8E-15 * exp(-0.13/kT)
