@@ -32,7 +32,7 @@ rosenits2007:
     in silicon
   DOI: 10.1063/1.2789378
   measurement_technique: DLTS, LS-I
-  comments: Measured DLTS with two system, and provided different values
+  comments: Measured DLTS with two system, with each providing different values
   sample:
     growth: CZ
     incorporation: melt
