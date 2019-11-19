@@ -98,3 +98,14 @@ rein2005a:
     sigma_h: '1.9e-16'
     k: '12.0'
     dk: 1
+
+paudyal2009a:
+  title: Temperature dependent carrier lifetime studies on Ti-doped multicrystalline
+    silicon
+  DOI: 10.1063/1.3139286
+  sample:
+    dopant: boron
+    incorporation: ion implantation
+    resistivity: 1
+  params:
+    sigma_e: 9.01e-14*exp(-0.107/kT)

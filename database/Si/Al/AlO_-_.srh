@@ -32,9 +32,12 @@ rosenits2007:
     in silicon
   DOI: 10.1063/1.2789378
   measurement_technique: DLTS, LS-I
+  comments: Measured DLTS with two system, with each providing different values
   sample:
     growth: CZ
     incorporation: melt
+  rates:
+    e_h: 1.3e9 * T^2 * exp(-0.472/kT)
   params:
     Ed_a: Ev+0.44
     dEd_a: '0.02'
