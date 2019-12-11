@@ -12,3 +12,21 @@ rosier1971:
   params:
     Ed_a: Ec-0.275
     dEd_a: 0.015
+
+pettersson1990:
+  title: Electric-field-enhanced electron emission from isolated sulfur and selenium donors in silicon
+  DOI: 10.1103/PhysRevB.42.1381
+  measurement_technique: DLTS
+  comments: Depended on electric field
+  params:
+    Ed_a: Ec-0.29
+    Ed_h: Ec-0.31
+
+pgwozdz2019:
+  title: Detection of Sulfur-Related Defects in Sulfur Diffused n- and p-Type Si by DLTS
+  DOI: 10.1002/pssa.201900303
+  measurement_technique: DLTS-L
+  params:
+    Ed_a: Ec-0.257
+    dEd_a: 0.002
+    sigma_ea: 9e-18
