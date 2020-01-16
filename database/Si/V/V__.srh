@@ -6,7 +6,7 @@ davis1980:
   comments: This maybe Vanadium gold?
   sample:
     growth: CZ
-    dopant: B,P
+    dopant: boron, phosphorus
     incorporation: melt
   params:
     Ed_a: Ev+0.42
@@ -22,7 +22,7 @@ davis1980_1:
   comments: This maybe Vanadium gold?
   sample:
     growth: CZ
-    dopant: B,P
+    dopant: boron, phosphorus
     incorporation: melt
   params:
     Ed_a: Ec-0.22
@@ -35,7 +35,7 @@ davis1980_2:
   comments: This maybe the Vanadium donor level?
   sample:
     growth: CZ
-    dopant: B,P
+    dopant: boron, phosphorus
     incorporation: melt
   params:
     Ed_a: Ec-0.46

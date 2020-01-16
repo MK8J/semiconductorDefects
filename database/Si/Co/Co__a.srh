@@ -6,7 +6,7 @@ yau1972a:
   measurement_technique: DLTS-Mo
   linked: Co_s_a.srh
   sample:
-    dopant: boron, phosphorous
+    dopant: boron, phosphorus
     incorporation: thermal
   rates:
     e_e: 2.59e12 * exp(-0.569/kT)
@@ -37,7 +37,7 @@ lemke1994:
   comments: Assumed thermal velocity of 1e7 measured at 200K
   sample:
     growth: FZ
-    dopant: boron,phorphous
+    dopant: boron,phosphorus
     incorporation: diffusion
   measurement_details:
     T: 200.0
@@ -52,7 +52,7 @@ scheffler2013:
   comments: Some defect observed only in p-type Co doped samples. Assumed to be hydrogen
     related.
   sample:
-    dopant: p
+    dopant: boron
     incorporation: melt
   params:
     Ed_a: Ev+0.38

@@ -13,7 +13,7 @@ tilly1991_1:
   comments: Comments on both the previous defect asignment and charges assignment
     being vague. Capture cross section values manually extracted from graph
   sample:
-    dopant: n,p
+    dopant: phosphorus, boron
     incorporation: ion implantation
   params:
     Ed_a: Ec-0.469
@@ -28,7 +28,7 @@ sadoh1992:
   comments: Measured capture cross section over a very narrow range from 210-260K.
   sample:
     growth: CZ, FZ
-    dopant: boron, phorphous
+    dopant: boron, phosphorus
     incorporation: thermal
     resistivity: 10-100
   params:

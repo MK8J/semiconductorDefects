@@ -5,7 +5,7 @@ scheffler2014:
   measurement_technique: DLTS-L
   sample:
     growth: FZ
-    dopant: phosphorous, boron
+    dopant: phosphorus, boron
     incorporation: melt, diffusion
     resistivity: '1000'
   measurement_details:
@@ -25,7 +25,7 @@ scheffler2014_1:
   measurement_technique: DLTS-L
   sample:
     growth: FZ
-    dopant: phosphorous, boron
+    dopant: phosphorus, boron
     incorporation: melt, diffusion
     resistivity: '1000'
   measurement_details:

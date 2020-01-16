@@ -7,7 +7,7 @@ shiraishi1999:
   comments: Out at 570 K for 2 hours
   sample:
     growth: CZ, FZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: melt, diffusion
     resistivity: 1-100
   measurement_details:
@@ -28,7 +28,7 @@ shiraishi1999_1:
   comments: Out at 570 K for 2 hours
   sample:
     growth: CZ, FZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: melt, diffusion
     resistivity: 1-100
   measurement_details:
@@ -49,7 +49,7 @@ scheffler2014:
     hyrdrogen. '
   sample:
     growth: FZ
-    dopant: phosphorous, boron
+    dopant: phosphorus, boron
     incorporation: melt, diffusion
     resistivity: '1000'
   measurement_details:

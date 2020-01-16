@@ -28,7 +28,7 @@ chen1980_3:
     Ed: Ev+0.216
 
 rosenits2007:
-  title: Determining the defect parameters of the deep aluminum-related defect center
+  title: Determining the defect parameters of the deep aluminium-related defect center
     in silicon
   DOI: 10.1063/1.2789378
   measurement_technique: DLTS, LS-I
@@ -46,7 +46,7 @@ rosenits2007:
     k: 861.0
 
 rosenits2011:
-  title: "Erratum on \u201CDetermining the defect parameters of the deep aluminum-related\
+  title: "Erratum on \u201CDetermining the defect parameters of the deep aluminium-related\
     \ defect center in silicon\u201D"
   DOI: 10.1063/1.3652753
   measurement_technique: DLTS, LS-I

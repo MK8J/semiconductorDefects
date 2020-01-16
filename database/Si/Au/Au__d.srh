@@ -63,7 +63,7 @@ tavendale1983:
   linked: Au_s_d.srh
   sample:
     growth: FZ
-    dopant: boron, phorphous
+    dopant: boron, phosphorus
     resistivity: 20
   params:
     Ed_a: Ev+0.34
@@ -76,7 +76,7 @@ lemke1986:
   comments: assumed thermal velocity of 1e7
   sample:
     growth: FZ
-    dopant: boron, phosphorous
+    dopant: boron, phosphorus
     incorporation: thermal
     resistivity: 50,20
   params:
@@ -92,7 +92,7 @@ lemke1994:
   comments: Assumed thermal velocity of 1e7 measured at 170K
   sample:
     growth: FZ
-    dopant: boron,phorphous
+    dopant: boron,phosphorus
     incorporation: diffusion
   measurement_details:
     T: 170.0

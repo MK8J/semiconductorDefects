@@ -5,7 +5,7 @@ graff1981:
   measurement_technique: DLTS-D, LS, FTIR
   sample:
     growth: CZ,FZ
-    dopant: aluminimun
+    dopant: aluminium
     incorporation: thermal
     resistivity: 1-100
   measurement_details:

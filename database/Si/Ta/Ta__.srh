@@ -5,7 +5,7 @@ miyata1976:
   DOI: 10.1016/0038-1101(76)90059-9
   measurement_technique: DLTS
   sample:
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: thermal
     resistivity: '5'
   rates:
@@ -20,7 +20,7 @@ davis1980:
   comments: Tentative data
   sample:
     growth: CZ
-    dopant: B,P
+    dopant: boron, phosphorus
     incorporation: melt
   params:
     sigma_ea: 5.9e-14

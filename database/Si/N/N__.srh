@@ -5,7 +5,7 @@ tokumaru1982:
   measurement_technique: DLTS
   sample:
     growth: FZ
-    dopant: phosphorous, boron
+    dopant: phosphorus, boron
     incorporation: melt
     resistivity: 30,100
   params:
@@ -18,7 +18,7 @@ tokumaru1982_1:
   measurement_technique: DLTS
   sample:
     growth: FZ
-    dopant: phosphorous, boron
+    dopant: phosphorus, boron
     incorporation: melt
     resistivity: 30,100
   params:
@@ -32,7 +32,7 @@ nauka1985:
   comments: Found in as grown material, disappears with anneals >1173 K
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: melt
     resistivity: 220
   params:
@@ -47,7 +47,7 @@ nauka1985_1:
   comments: Found in as grown material, disappears with anneals >1173 K
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: melt
     resistivity: 220
   params:
@@ -62,7 +62,7 @@ nauka1985_2:
   comments: Forms in nitrogen doped FZ after anneals >1173 K
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: melt
     resistivity: 220
   params:
@@ -78,7 +78,7 @@ nauka1985_3:
   comments: Forms in nitrogen doped FZ after  anneals >1273 K
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: melt
     resistivity: 220
   params:
@@ -91,7 +91,7 @@ murphy2006:
   comments: Did not see Ec-0.19 as earlier papers.
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: melt
     resistivity: 220
   params:

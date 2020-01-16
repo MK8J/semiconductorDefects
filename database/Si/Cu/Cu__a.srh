@@ -6,7 +6,7 @@ brotherton1987:
   comments: Cu_d, Cu_a, and Cu_aa  from the same paper are the same defect
   sample:
     growth: FZ
-    dopant: boron, phosphorous
+    dopant: boron, phosphorus
     incorporation: thermal
     resistivity: 66-125
   params:
@@ -21,7 +21,7 @@ brotherton1987_1:
   comments: Different defect from the others reported In the paper
   sample:
     growth: FZ
-    dopant: boron, phosphorous
+    dopant: boron, phosphorus
     incorporation: thermal
     resistivity: 66-125
   params:
@@ -38,7 +38,7 @@ lemke1994:
   comments: Assumed thermal velocity of 1e7 measured at 230K
   sample:
     growth: FZ
-    dopant: boron,phorphous
+    dopant: boron,phosphorus
     incorporation: diffusion
   measurement_details:
     T: 230.0

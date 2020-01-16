@@ -7,7 +7,7 @@ markevich2018:
   comments: Bistable thermal donor 0. Not from this paper
   sample:
     growth: CZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: thermal
     resistivity: 5
   params:

@@ -6,7 +6,7 @@ yau1971:
   measurement_technique: DLTS
   comments: measurement data taken from laplace DLTS database
   sample:
-    dopant: boron, phosphorous
+    dopant: boron, phosphorus
     incorporation: thermal
   measurement_data:
     T: 222,239,258.7,281.8
@@ -22,7 +22,7 @@ yau1972:
   measurement_technique: DLTS, TS-C
   linked: Ag_s_a.srh
   sample:
-    dopant: boron, phosphorous
+    dopant: boron, phosphorus
     incorporation: thermal
   rates:
     e_e: 1.32 * exp(-0.593/kT)
@@ -65,7 +65,7 @@ pearton1984:
   measurement_technique: DLTS
   linked: Ag_s_d.srh
   sample:
-    dopant: boron, phosphorous
+    dopant: boron, phosphorus
     incorporation: thermal
     resistivity: 7
   params:
@@ -79,7 +79,7 @@ lemke1986:
   linked: Ag_s_a.srh
   sample:
     growth: FZ
-    dopant: boron, phosphorous
+    dopant: boron, phosphorus
     incorporation: thermal
     resistivity: 50,20
   params:
@@ -93,7 +93,7 @@ baber1987:
   comments: change in emssion rate with bias. measurement data taken from laplace
     DLTS database.
   sample:
-    dopant: boron, phosphorous
+    dopant: boron, phosphorus
     incorporation: thermal
     resistivity: 13,5
   measurement_details:
@@ -112,7 +112,7 @@ pandian1988:
   measurement_technique: DLTS-Cr
   linked: Ag_s_d.srh
   sample:
-    dopant: boron, phosphorous
+    dopant: boron, phosphorus
     incorporation: thermal
     resistivity: 10
   params:
@@ -128,7 +128,7 @@ lemke1994:
   comments: Assumed thermal velocity of 1e7 measured at 300K
   sample:
     growth: FZ
-    dopant: boron,phorphous
+    dopant: boron,phosphorus
     incorporation: diffusion
   measurement_details:
     T: 300.0

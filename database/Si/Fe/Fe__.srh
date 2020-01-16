@@ -102,7 +102,7 @@ tavendale1983:
   measurement_technique: DLTS-Cr
   sample:
     growth: FZ
-    dopant: boron, phorphous
+    dopant: boron, phosphorus
     resistivity: 20
   params:
     Ed_a: Ev+0.39

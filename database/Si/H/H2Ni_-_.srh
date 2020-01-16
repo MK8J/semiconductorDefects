@@ -27,7 +27,7 @@ shiraishi1999_1:
   comments: Out at 570 K for 2 hours
   sample:
     growth: CZ, FZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: melt, diffusion
     resistivity: 1-100
   measurement_details:

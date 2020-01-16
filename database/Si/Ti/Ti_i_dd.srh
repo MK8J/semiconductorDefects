@@ -19,7 +19,7 @@ wang1984:
     rather than an assignment.
   sample:
     growth: CZ
-    dopant: boron, phosphorous
+    dopant: boron, phosphorus
     incorporation: melt
   rates:
     e_h: 2.02e10*(T/300)^2*exp(-0.2819/kT)
@@ -54,7 +54,7 @@ tilly1991:
   comments: Comments on both the previous defect asignment and charges assignment
     being vague. Capture cross section values manually extracted from graph
   sample:
-    dopant: n,p
+    dopant: phosphorus, boron
     incorporation: ion implantation
   params:
     Ed_a: Ev+0.267

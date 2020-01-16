@@ -5,7 +5,7 @@ scheffler2013:
   measurement_technique: DLTS-LMo
   comments: Activation energy level and apparent capture cross section
   sample:
-    dopant: n
+    dopant: phosphorus
     incorporation: melt
   params:
     Ed_a: Ec-0.29

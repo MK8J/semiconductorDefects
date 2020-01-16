@@ -44,7 +44,7 @@ pettersson1991:
     a correct chemical identification can be performed."
   sample:
     growth: FZ, CZ
-    dopant: boron, phosphorous
+    dopant: boron, phosphorus
   params:
     Ed_a: Ev+0.292
     Ed_h: Ev+0.296
@@ -60,7 +60,7 @@ zhou1991:
     is a substitutionary site, other authors disagree.
   sample:
     growth: FZ, CZ
-    dopant: boron, phosphorous, Tin, aluminum, Gallium,
+    dopant: boron, phosphorus, tin, aluminium, gallium,
   params:
     Ed_a: Ev+0.36
 

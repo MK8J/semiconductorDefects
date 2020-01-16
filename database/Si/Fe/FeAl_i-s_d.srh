@@ -18,7 +18,7 @@ wunstel1982:
   measurement_technique: DLTS-Cr
   sample:
     growth: FZ
-    dopant: aluminum
+    dopant: aluminium
     incorporation: thermal
     resistivity: 0.3-100
   params:

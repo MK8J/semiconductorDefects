@@ -77,7 +77,7 @@ sun2014:
   measurement_technique: LS-IDN
   sample:
     growth: Cz
-    dopant: boron, phosphorous
+    dopant: boron, phosphorus
     incorporation: melt
   params:
     Ed: Ev+0.27

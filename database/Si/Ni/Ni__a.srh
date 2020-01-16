@@ -4,7 +4,7 @@ chiavarotti1977:
     capacitance method
   DOI: 10.1016/0038-1101(77)90012-0
   sample:
-    dopant: phosphorous, boron
+    dopant: phosphorus, boron
   params:
     Ed_a: Ev+0.21
     dEd_a: 0.01
@@ -14,7 +14,7 @@ chiavarotti1977_1:
     capacitance method
   DOI: 10.1016/0038-1101(77)90012-0
   sample:
-    dopant: phosphorous, boron
+    dopant: phosphorus, boron
   params:
     Ed_a: Ev+0.41
     dEd_a: 0.01
@@ -32,7 +32,7 @@ jaraiz1986:
   measurement_technique: CV-TF
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     resistivity: 50-60
   params:
     Ed_a: Ec-0.360
@@ -47,7 +47,7 @@ lemke1994:
   comments: Assumed thermal velocity of 1e7 measured at 200K
   sample:
     growth: FZ
-    dopant: boron,phorphous
+    dopant: boron,phosphorus
     incorporation: diffusion
   measurement_details:
     T: 200.0

@@ -5,7 +5,7 @@ davis1980:
   measurement_technique: DLTS, SCP
   sample:
     growth: CZ
-    dopant: B,P
+    dopant: boron, phosphorus
     incorporation: melt
   params:
     Ed_a: Ev+0.12

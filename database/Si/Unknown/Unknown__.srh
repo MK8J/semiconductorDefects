@@ -6,7 +6,7 @@ guldberg1977:
   comments: Out at 450 K
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: irridation
     resistivity: '40'
   params:
@@ -20,7 +20,7 @@ guldberg1977_1:
   comments: in at 475 and out at 550 K
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: irridation
     resistivity: '40'
   params:
@@ -34,7 +34,7 @@ guldberg1977_2:
   comments: In at 450 out at 625 K
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: irridation
     resistivity: '40'
   params:
@@ -48,7 +48,7 @@ guldberg1977_3:
   comments: In at 450 out at 725 K
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: irridation
     resistivity: '40'
   params:
@@ -62,7 +62,7 @@ guldberg1977_4:
   comments: Out at 550 K
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: irridation
     resistivity: '40'
   params:
@@ -76,7 +76,7 @@ guldberg1977_5:
   comments: In at 450 out at 525 K
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: irridation
     resistivity: '40'
   params:
@@ -90,7 +90,7 @@ guldberg1977_6:
   comments: out at 425 K
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: irridation
     resistivity: '40'
   params:
@@ -104,7 +104,7 @@ guldberg1977_7:
   comments: Believed to be a surface effect, In at 450 out at 525 K
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: irridation
     resistivity: '40'
   params:
@@ -185,7 +185,7 @@ brotherton1982:
   comments: Out at 550 K for 4.5 hours.
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: irridation
     resistivity: '60'
   params:
@@ -202,7 +202,7 @@ brotherton1982_1:
   comments: In at 520 K
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: irridation
     resistivity: '60'
   params:
@@ -216,7 +216,7 @@ indusekhar1986:
   comments: Defect in unirradiated sample
   sample:
     growth: epi
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: irridation
     resistivity: '2'
   measurement_details:
@@ -235,7 +235,7 @@ indusekhar1986_1:
   comments: sigma > 1e-15
   sample:
     growth: epi
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: irridation
     resistivity: '2'
   measurement_details:
@@ -253,7 +253,7 @@ indusekhar1986_2:
   comments: sigma > 1e-15, defect in unirradiated sample
   sample:
     growth: epi
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: irridation
     resistivity: '2'
   measurement_details:
@@ -271,7 +271,7 @@ indusekhar1986_3:
   comments: sigma > 1e-15, Lists several papers that report the same defect
   sample:
     growth: epi
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: irridation
     resistivity: '2'
   measurement_details:

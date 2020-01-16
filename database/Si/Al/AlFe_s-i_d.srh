@@ -6,7 +6,7 @@ graff1981:
   comments: FTIR at 25 K, No AlFe peak found
   sample:
     growth: CZ, FZ
-    dopant: boron, phosphorous, aluminum
+    dopant: boron, phosphorus, aluminium
     incorporation: thermal
     resistivity: 1-100
   params:
@@ -18,7 +18,7 @@ wunstel1982:
   measurement_technique: DLTS-Cr
   sample:
     growth: FZ
-    dopant: aluminum
+    dopant: aluminium
     incorporation: thermal
     resistivity: 0.3-100
   params:

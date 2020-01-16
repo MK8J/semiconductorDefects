@@ -61,7 +61,7 @@ brotherton1982:
   comments: In at 570 K, not sure what it is
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: irridation
     resistivity: '60'
   params:

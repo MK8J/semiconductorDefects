@@ -49,7 +49,7 @@ roth2008:
     will work.
   sample:
     growth: FZ
-    dopant: B
+    dopant: boron
     incorporation: ion implantation
   params:
     Ed_a: Ev+0.55

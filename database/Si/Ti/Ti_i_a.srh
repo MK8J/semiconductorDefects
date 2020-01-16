@@ -13,7 +13,7 @@ mathiot1989:
   comments: Noted that could not vary the filling pulse, as it was too short.
   sample:
     growth: FZ,CZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: thermal
   rates:
     e_e: 1.85e8 *exp(-0.009/kT)
@@ -28,7 +28,7 @@ tilly1991:
   comments: Comments on both the previous defect asignment and charges assignment
     being vague
   sample:
-    dopant: n,p
+    dopant: phosphorus, boron
     incorporation: ion implantation
   params:
     Ed_a: Ec-0.077
@@ -65,7 +65,7 @@ roth2008:
   comments: Temperature dependance of some sigma is T^-1.7
   sample:
     growth: FZ
-    dopant: B
+    dopant: boron
     incorporation: melt
   params:
     Ed: Ec-0.08

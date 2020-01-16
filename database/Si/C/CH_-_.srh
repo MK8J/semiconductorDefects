@@ -6,7 +6,7 @@ andersen2002:
   comments: 88-103 K, values taken from DLTS database http://www.laplacedlts.eu/defect/,
     if sample goes above 200 K converted into a Ec-0.154 level
   sample:
-    dopant: phosphorous
+    dopant: phosphorus
   params:
     Ed_a: Ec-0.22
     sigma_ea: 2.0e-14
@@ -17,7 +17,7 @@ scheffler2013:
   measurement_technique: DLTS-L
   comments: Activation energy level and apparent capture cross section
   sample:
-    dopant: n
+    dopant: phosphorus
     incorporation: melt
   params:
     Ed_a: Ec-0.16

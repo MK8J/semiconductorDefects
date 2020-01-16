@@ -17,7 +17,7 @@ roth2008:
   measurement_technique: DLTS
   sample:
     growth: CZ
-    dopant: B
+    dopant: boron
     incorporation: melt
   params:
     Ed_a: Ev+0.38

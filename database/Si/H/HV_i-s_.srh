@@ -5,7 +5,7 @@ sadoh1991:
   measurement_technique: DLTS
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: thermal
     resistivity: 10-100
   params:

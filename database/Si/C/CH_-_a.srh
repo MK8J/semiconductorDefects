@@ -5,7 +5,7 @@ andersen2002:
   measurement_technique: DLTS-L
   comments: 88-103 K, values taken from DLTS database http://www.laplacedlts.eu/defect/
   sample:
-    dopant: phosphorous
+    dopant: phosphorus
   params:
     Ed_a: Ec-0.16
     sigma_ea: 2.0e-16

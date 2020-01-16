@@ -6,7 +6,7 @@ pals1974:
   measurement_technique: DLTS-Cc
   comments: 120 K
   sample:
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: thermal
   rates:
     e_e: 1/5.72e-9*exp(-0.315/kT)*T^2
@@ -48,7 +48,7 @@ lemke1994:
   comments: Assumed thermal velocity of 1e7 measured at 150K
   sample:
     growth: FZ
-    dopant: boron,phorphous
+    dopant: boron,phosphorus
     incorporation: diffusion
   measurement_details:
     T: 150.0

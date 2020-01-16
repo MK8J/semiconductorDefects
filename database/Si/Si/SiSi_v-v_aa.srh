@@ -13,7 +13,7 @@ indusekhar1986:
   measurement_technique: DLTS-Cr
   sample:
     growth: epi
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: irridation
     resistivity: '2'
   measurement_details:

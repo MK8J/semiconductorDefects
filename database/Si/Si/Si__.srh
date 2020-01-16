@@ -6,7 +6,7 @@ chan1971:
   comments: Out at 873 K. Believe defects are crystal defects rather than boron related.
   sample:
     growth: CZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: Boron ion implantation
     resistivity: '4'
   params:
@@ -20,7 +20,7 @@ chan1971_1:
   comments: Out at 873 K. Believe defects are crystal defects rather than boron related.
   sample:
     growth: CZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: Boron ion implantation
     resistivity: '4'
   params:

@@ -29,7 +29,7 @@ kveder1982:
     to arrise from the charge on a disslocation.
   sample:
     growth: FZ
-    dopant: phorphrous
+    dopant: phosphorus
     incorporation: deformation
     resistivity: '0.1'
   params:
@@ -43,7 +43,7 @@ kveder1982_1:
     to arrise from the charge on a disslocation.
   sample:
     growth: FZ
-    dopant: phorphrous
+    dopant: phosphorus
     incorporation: deformation
     resistivity: '0.1'
   params:
@@ -57,7 +57,7 @@ kveder1982_2:
     to arrise from the charge on a disslocation.
   sample:
     growth: FZ
-    dopant: phorphrous
+    dopant: phosphorus
     incorporation: deformation
     resistivity: '0.1'
   params:
@@ -71,7 +71,7 @@ kveder1982_3:
     to arrise from the charge on a disslocation.
   sample:
     growth: FZ
-    dopant: phorphrous
+    dopant: phosphorus
     incorporation: deformation
     resistivity: '0.1'
   params:

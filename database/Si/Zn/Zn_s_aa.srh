@@ -49,6 +49,17 @@ herman1972:
     Ed_a: Ev+0.574
     dEd_a: 0.001
 
+sklensky1972:
+  title: Photoelectronic Properties of Zinc Impurity in Silicon centers in silicon
+  DOI: 10.1103/PhysRevB.6.1328
+  measurement_technique: PC-S,TS-I, LS-TM, Hall
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: thermal
+  params:
+    Ed: Ec-0.51-3.5e-4*T
+
 milnes1973:
   title: Deep impurities in semiconductors
   ISBN: 978-0-471-60670-3
@@ -80,7 +91,7 @@ sah1981:
     c_e: 3.7e-10 * exp(-0.136/kT)
     c_h: 6e-8/1.688e7
   params:
-    Ed_a: Ev+0.297
+    Ed_a: Ev+0.664
     dEd_a: 0.001
     sigma_e: 2.44e-18
     sigma_h: 3.55e-15

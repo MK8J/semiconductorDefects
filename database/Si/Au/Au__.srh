@@ -13,7 +13,7 @@ wang1976:
   DOI: 10.1063/1.322381
   measurement_technique: DLTS
   sample:
-    dopant: phosphorous
+    dopant: phosphorus
   params:
     Ed_a: Ec-0.31
 
@@ -23,7 +23,7 @@ wang1976_1:
   DOI: 10.1063/1.322381
   measurement_technique: DLTS
   sample:
-    dopant: phosphorous
+    dopant: phosphorus
   params:
     Ed_a: Ec-0.44
 
@@ -33,7 +33,7 @@ wang1976_2:
   DOI: 10.1063/1.322381
   measurement_technique: DLTS
   sample:
-    dopant: phosphorous
+    dopant: phosphorus
   params:
     Ed_a: Ec-0.54
     sigma_ea: 6.0e-15
@@ -44,7 +44,7 @@ wang1976_3:
   DOI: 10.1063/1.322381
   measurement_technique: DLTS
   sample:
-    dopant: phosphorous
+    dopant: phosphorus
   params:
     Ed_a: Ec-0.2
 
@@ -54,7 +54,7 @@ wang1976_4:
   DOI: 10.1063/1.322381
   measurement_technique: DLTS
   sample:
-    dopant: phosphorous
+    dopant: phosphorus
   params:
     Ed_a: Ec-0.13
 
@@ -66,7 +66,7 @@ tavendale1983:
   comments: Ev+0.53 also seen in this sample
   sample:
     growth: FZ
-    dopant: boron, phorphous
+    dopant: boron, phosphorus
     resistivity: 20
   params:
     Ed_a: Ev+0.48

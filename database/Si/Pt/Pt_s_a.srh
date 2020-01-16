@@ -22,7 +22,7 @@ pals1974:
   measurement_technique: DLTS-Cc
   comments: 100 K
   sample:
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: thermal
   rates:
     e_e: 1/7.35e-8*exp(-0.23/kT)*T^2
@@ -35,7 +35,7 @@ pugnet1976:
     transient capacitance technique
   DOI: 10.1002/pssa.2210350215
   sample:
-    dopant: phosphorous, boron
+    dopant: phosphorus, boron
     incorporation: thermal
   params:
     Ed_a: Ec-0.242

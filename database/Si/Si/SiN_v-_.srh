@@ -12,7 +12,7 @@ mullins2018:
     a vacancy) and leads to lower amount of defects detected by DLTS.
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     resistivity: 1-5
   measurement_details:
     T: 100 K
@@ -38,7 +38,7 @@ mullins2018_1:
     a vacancy) and leads to lower amount of defects detected by DLTS.
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     resistivity: 1-5
   measurement_details:
     T: 180 K
@@ -64,7 +64,7 @@ mullins2018_2:
     a vacancy) and leads to lower amount of defects detected by DLTS.
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     resistivity: 1-5
   measurement_details:
     T: 100 K
@@ -88,7 +88,7 @@ mullins2018_3:
     a vacancy) and leads to lower amount of defects detected by DLTS.
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     resistivity: 1-5
   measurement_details:
     T: 200 K
@@ -113,7 +113,7 @@ mullins2018_4:
     a vacancy) and leads to lower amount of defects detected by DLTS.
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     resistivity: 1-5
   measurement_details:
     T: 275 K
@@ -138,7 +138,7 @@ mullins2018_5:
     a vacancy) and leads to lower amount of defects detected by DLTS.
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     resistivity: 1-5
   measurement_details:
     T: 100 K

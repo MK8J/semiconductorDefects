@@ -5,7 +5,7 @@ grimmeiss1980:
   measurement_technique: DLTS
   comments: Appeared in different concentration to the above levels in this paper.
   sample:
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: thermal
     resistivity: 10
   params:

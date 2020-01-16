@@ -14,7 +14,7 @@ davis1980:
   linked: Ti_i_dd.srh
   sample:
     growth: CZ
-    dopant: B,P
+    dopant: boron, phosphorus
     incorporation: melt
   params:
     Ed_a: Ev+0.3
@@ -29,7 +29,7 @@ davis1980_1:
   measurement_technique: DLTS, SCP
   sample:
     growth: CZ
-    dopant: B,P
+    dopant: boron, phosphorus
     incorporation: melt
   params:
     Ed_a: Ec-0.26
@@ -42,7 +42,7 @@ graff1981a:
   linked: Ti_i_d.srh
   sample:
     growth: FZ, CZ
-    dopant: phorphous
+    dopant: phosphorus
     incorporation: thermal
     resistivity: 1-100
   params:
@@ -57,7 +57,7 @@ graff1981a_1:
   linked: Ti_i_a.srh
   sample:
     growth: FZ, CZ
-    dopant: phorphous
+    dopant: phosphorus
     incorporation: thermal
     resistivity: 1-100
   params:
@@ -71,7 +71,7 @@ roth2008:
   comments: Temperature dependance of some sigma is T^-1.22
   sample:
     growth: FZ
-    dopant: B
+    dopant: boron
     incorporation: melt
   params:
     Ed: Ec-0.47

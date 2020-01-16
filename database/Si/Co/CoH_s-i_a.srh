@@ -6,7 +6,7 @@ scheffler2013:
   comments: Activation energy level and apparent capture cross section
   sample:
     growth: FZ, CZ
-    dopant: n
+    dopant: phosphorus
     incorporation: melt
   params:
     Ed_a: Ec-0.35

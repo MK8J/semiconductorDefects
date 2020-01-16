@@ -6,7 +6,7 @@ davis1980:
   linked: Mo_i_d.srh
   sample:
     growth: CZ
-    dopant: boron, phosphorous
+    dopant: boron, phosphorus
     incorporation: melt
   params:
     Ed_a: Ev+0.3

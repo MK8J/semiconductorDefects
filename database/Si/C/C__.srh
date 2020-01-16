@@ -8,7 +8,7 @@ jellison1982:
   comments: Anneals out at 625 K.
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: irradiation
     resistivity: 10
   params:
@@ -25,7 +25,7 @@ jellison1982_1:
   comments: Anneals out at 625 K.
   sample:
     growth: FZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: irradiation
     resistivity: 10
   params:

@@ -6,7 +6,7 @@ graff1981a:
   linked: FeAl_i-s_d.srh
   sample:
     growth: FZ, CZ
-    dopant: phorphous
+    dopant: phosphorus
     incorporation: thermal
     resistivity: 1-100
   params:

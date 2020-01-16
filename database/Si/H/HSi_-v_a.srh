@@ -5,7 +5,7 @@ nielsen1999:
   measurement_technique: DLTS-L
   sample:
     growth: FZ,CZ
-    dopant: phorphours
+    dopant: phosphorus
     incorporation: ion implantation
     resistivity: 8,20
   params:

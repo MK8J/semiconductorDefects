@@ -5,7 +5,7 @@ grimmeiss1980a:
   measurement_technique: DLTS-Cr
   linked: Se_s_d.srh
   sample:
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: thermal
   params:
     Ed_a: Ec-0.286
@@ -18,7 +18,7 @@ grimmeiss1980a_1:
   measurement_technique: DLTS-Cr
   linked: Se_s_dd.srh
   sample:
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: thermal
   params:
     Ed_a: Ec-0.524
@@ -29,7 +29,7 @@ grimmeiss1980a_2:
   measurement_technique: DLTS-Cr
   linked: Se_s_dd.srh
   sample:
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: thermal
   params:
     Ed_a: Ev+0.619

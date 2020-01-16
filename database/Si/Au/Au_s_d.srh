@@ -106,7 +106,7 @@ wu1982:
     the same technique from the year before,
   sample:
     growth: CZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: diffusion
     resistivity: 3-50
   params:

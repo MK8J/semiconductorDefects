@@ -6,7 +6,7 @@ nielsen1999:
   comments: correlated with EPR
   sample:
     growth: FZ,CZ
-    dopant: phorphours
+    dopant: phosphorus
     incorporation: ion implantation
     resistivity: 8,20
   params:
