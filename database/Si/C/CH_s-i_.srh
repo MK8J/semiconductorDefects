@@ -5,7 +5,7 @@ scheffler2014:
   measurement_technique: DLTS-LCr
   sample:
     growth: FZ
-    dopant: phosphorus, boron
+    dopant: boron, phosphorus
     incorporation: melt, diffusion
     resistivity: '1000'
   measurement_details:

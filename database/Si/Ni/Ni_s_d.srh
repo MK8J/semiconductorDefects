@@ -59,7 +59,7 @@ scheffler2014:
   comments: Out at 500 K for 20 min
   sample:
     growth: FZ
-    dopant: phosphorus, boron
+    dopant: boron, phosphorus
     incorporation: melt, diffusion
     resistivity: '1000'
   measurement_details:

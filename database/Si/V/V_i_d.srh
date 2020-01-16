@@ -13,7 +13,7 @@ tilly1991_1:
   comments: Comments on both the previous defect asignment and charges assignment
     being vague. Capture cross section values manually extracted from graph
   sample:
-    dopant: phosphorus, boron
+    dopant: boron, phosphorus
     incorporation: ion implantation
   params:
     Ed_a: Ec-0.469

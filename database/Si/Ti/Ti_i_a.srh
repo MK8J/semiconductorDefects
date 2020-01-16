@@ -28,7 +28,7 @@ tilly1991:
   comments: Comments on both the previous defect asignment and charges assignment
     being vague
   sample:
-    dopant: phosphorus, boron
+    dopant: boron, phosphorus
     incorporation: ion implantation
   params:
     Ed_a: Ec-0.077

@@ -5,7 +5,7 @@ zhou1991:
   measurement_technique: DLTS
   sample:
     growth: FZ, CZ
-    dopant: boron, phosphorus, tin, aluminium, gallium,
+    dopant: aluminium, boron, gallium, phosphorus, tin
   params:
     Ed_a: Ev+0.34
 

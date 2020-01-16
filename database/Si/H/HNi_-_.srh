@@ -49,7 +49,7 @@ scheffler2014:
     hyrdrogen. '
   sample:
     growth: FZ
-    dopant: phosphorus, boron
+    dopant: boron, phosphorus
     incorporation: melt, diffusion
     resistivity: '1000'
   measurement_details:

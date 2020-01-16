@@ -8,7 +8,7 @@ chantre1985:
   comments: 90 K
   sample:
     growth: CZ, FZ
-    dopant: aluminum
+    dopant: aluminium
     incorporation: thermal
     resistivity: '1'
   params:

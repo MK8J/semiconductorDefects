@@ -21,7 +21,7 @@ chen1979_1:
     of the capture cross section noticed.
   sample:
     growth: CZ
-    dopant: phosphorus, boron
+    dopant: boron, phosphorus
     incorporation: ion implantation, melt
     resistivity: 300,
   params:
@@ -65,7 +65,7 @@ lemke1994:
   comments: Assumed thermal velocity of 1e7 measured at 160K
   sample:
     growth: FZ
-    dopant: boron,phosphorus
+    dopant: boron, phosphorus
     incorporation: diffusion
   measurement_details:
     T: 160.0

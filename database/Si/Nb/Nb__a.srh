@@ -8,7 +8,7 @@ lemke1994:
   comments: Assumed thermal velocity of 1e7 measured at 140K
   sample:
     growth: FZ
-    dopant: boron,phosphorus
+    dopant: boron, phosphorus
     incorporation: diffusion
   measurement_details:
     T: 140.0

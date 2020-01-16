@@ -13,7 +13,7 @@ czaputa1983:
   measurement_technique: Hall, EPR
   sample:
     growth: FZ
-    dopant: boron,phosphorus
+    dopant: boron, phosphorus
     incorporation: implantation
     resistivity: '100'
   params:

@@ -39,7 +39,7 @@ graff1981:
   comments: FTIR at 25 K, No Fe peak found. Rate measured at 260 K
   sample:
     growth: CZ, FZ
-    dopant: boron, phosphorus, aluminium
+    dopant: aluminium, boron, phosphorus
     incorporation: thermal
     resistivity: 1-100
   rates:
@@ -80,7 +80,7 @@ wunstel1982:
   measurement_technique: Hall
   sample:
     growth: FZ
-    dopant: boron, aluminium, gallium
+    dopant: aluminium, boron, gallium
     incorporation: thermal
     resistivity: 0.3-100
   params:
@@ -92,7 +92,7 @@ wunstel1982_1:
   measurement_technique: DLTS-Cr
   sample:
     growth: FZ
-    dopant: boron, aluminium, gallium
+    dopant: aluminium, boron, gallium
     incorporation: thermal
     resistivity: 0.3-100
   rates:

@@ -6,7 +6,7 @@ graff1981:
   comments: FTIR at 25 K, No FeB peak found
   sample:
     growth: CZ, FZ
-    dopant: boron, phosphorus, aluminium
+    dopant: aluminium, boron, phosphorus
     incorporation: thermal
     resistivity: 1-100
   measurement_details:

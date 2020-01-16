@@ -5,7 +5,7 @@ tokumaru1982:
   measurement_technique: DLTS
   sample:
     growth: FZ
-    dopant: phosphorus, boron
+    dopant: boron, phosphorus
     incorporation: melt
     resistivity: 30,100
   params:
@@ -18,7 +18,7 @@ tokumaru1982_1:
   measurement_technique: DLTS
   sample:
     growth: FZ
-    dopant: phosphorus, boron
+    dopant: boron, phosphorus
     incorporation: melt
     resistivity: 30,100
   params:
