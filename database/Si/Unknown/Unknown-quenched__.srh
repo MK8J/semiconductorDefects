@@ -5,7 +5,7 @@ yau1974:
   comments: Defects quenched after temp >1200 deg. The two levels appear to be due to the same center and are very stable at room temperature. Have a strong field dependence. Capture rate measured at one temperature. One year later sah1975 said that this was not actual a quenched in defect but caused by heavily diffused surfaces.
   sample:
     growth: CZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: thermal
     resistivity: 8
   params:
@@ -20,7 +20,7 @@ yau1974_1:
   comments: Defects quenched after temp >1200 deg. The two levels appear to be due to the same center and are very stable at room temperature. Have a strong field dependence. Capture rate measured at one temperature.  One year later sah1975 said that this was not actual a quenched in defect but caused by heavily diffused surfaces.
   sample:
     growth: CZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: thermal
     resistivity: 8
   params:
@@ -34,7 +34,7 @@ yau1974_2:
   comments: Defects quenched after temp >1200 deg. The two levels appear to be due to the same center and are very stable at room temperature. Have a strong field dependence. Capture rate measured at one temperature.  One year later sah1975 said that this was not actual a quenched in defect but caused by heavily diffused surfaces.
   sample:
     growth: CZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: thermal
     resistivity: 8
   params:
@@ -48,7 +48,7 @@ sah1975:
   comments: Defects quenched after temp >1200 deg. Occurs from strained or disordered surface laye!' and diffuse rapidly into silicon above 1100°C to give a nearly constant defect concentration. Doesn't happen for polished samples.
   sample:
     growth: CZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: thermal
     resistivity: 8
   params:
@@ -62,7 +62,7 @@ sah1975_1:
   comments: Defects quenched after temp >1200 deg. Occurs from strained or disordered surface laye!' and diffuse rapidly into silicon above 1100°C to give a nearly constant defect concentration. Doesn't happen for polished samples.
   sample:
     growth: CZ
-    dopant: phosphorous
+    dopant: phosphorus
     incorporation: thermal
     resistivity: 8
   params:
@@ -73,10 +73,10 @@ astrova1998:
   title: Process induced deep-level defects in high purity silicon
   DOI: 10.1088/0268-1242/13/5/008
   measurement_technique: DLTS
-  comments: Diffusions done with phosphorous, boron, aluminum, gallium. Only did slow cooling.
+  comments: Diffusions done with phosphorus, boron, aluminum, gallium. Only did slow cooling.
   sample:
     growth: FZ
-    dopant: phosphorous, boron
+    dopant: phosphorus, boron
     incorporation: thermal
     resistivity: 250-300
   params:
@@ -87,10 +87,10 @@ astrova1998_1:
   title: Process induced deep-level defects in high purity silicon
   DOI: 10.1088/0268-1242/13/5/008
   measurement_technique: DLTS
-  comments: Diffusions done with phosphorous, boron, aluminum, gallium. Only did slow cooling.
+  comments: Diffusions done with phosphorus, boron, aluminum, gallium. Only did slow cooling.
   sample:
     growth: FZ
-    dopant: phosphorous, boron
+    dopant: phosphorus, boron
     incorporation: thermal
     resistivity: 250-300
   params:
@@ -101,10 +101,10 @@ astrova1998_2:
   title: Process induced deep-level defects in high purity silicon
   DOI: 10.1088/0268-1242/13/5/008
   measurement_technique: DLTS
-  comments: Diffusions done with phosphorous, boron, aluminum, gallium. Only did slow cooling.
+  comments: Diffusions done with phosphorus, boron, aluminum, gallium. Only did slow cooling.
   sample:
     growth: FZ
-    dopant: phosphorous, boron
+    dopant: phosphorus, boron
     incorporation: thermal
     resistivity: 250-300
   params:
