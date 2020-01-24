@@ -42,7 +42,7 @@ mathiot1989:
     dopant: boron
     incorporation: thermal
   rates:
-    e_h: 1.65e5*exp(-0.287/kT)
+    e_h: 1.65e5*T^2*exp(-0.287/kT)
   params:
     Ed_h: Ev+0.26
     sigma_h: 2.6e-17*exp(-0.027/kT)
