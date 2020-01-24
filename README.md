@@ -27,6 +27,12 @@ M. Juhl et al., “AN OPEN SOURCE BASED REPOSITORY FOR DEFECTS IN
 SILICON,” presented at the 7th World Conference on Photovoltaic Energy
 Conversion, Hawaii, 2018.
 
+It can be found at the following websites: 1.
+[ieee](https://ieeexplore.ieee.org/document/8547621) 2.
+[researchgate](https://www.researchgate.net/publication/326478648_An_Open_Source_Based_Repository_For_Defects_in_Silicon)
+3.
+[semanticscholar](https://www.semanticscholar.org/author/Mattias-K.-Juhl/32390663)
+
 ## Contributing
 
 There are two ways to contribute.
@@ -273,6 +279,7 @@ using the following abbreviation:
       - Cr - the capture cross section was used to determine the capture
         cross-section. If this is not done, the capture cross sections
         are apparent capture cross sections.
+      - F - corrected for the impact of electric field
 
 We also include the ability to capture specific measurement details. for
 DLTS this include:
@@ -327,6 +334,7 @@ DLTS this include:
         techniques the number of defects affects the measured value.
       - T - temperature dependent
       - M - accounting for a single defect having multiple levels
+      - G - generation lifetime.
 
 #### measurement\_data
 
