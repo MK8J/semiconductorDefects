@@ -21,8 +21,29 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-      
+    
+    # - name: Setup Python
+    #   uses: actions/setup-python@v1
+    #   with:
+    #     python-version: '3.x'
+
+    # - name: Cache pip
+    #   uses: actions/cache@v1
+    #   with:
+    #     path: ~/.cache/pip # This path is specific to Ubuntu
+    #     # Look to see if there is a cache hit for the corresponding requirements file
+    #     key: ${{ runner.os }}-pip-${{ hashFiles('.github/workflows/requirements.txt') }}
+    #     restore-keys: |
+    #       ${{ runner.os }}-pip-
+    #       ${{ runner.os }}-
+
+    - name: Install dependencies
+      run: pip install -r .github/workflows/requirements.txt
+
     - name: run python
-      run: |
+      env: 
+        USERNAME: ${{ secrets.username }}
+        PASSWORD: ${{ secrets.password }}
+      run: |      
         CHANGES=$(git diff --name-status @{upstream} )
-        python .github/workflows/publishchanges.py --changes "$CHANGES"
+        python .github/workflows/publishchanges.py -c "$CHANGES" -u $USERNAME -p $PASSWORD

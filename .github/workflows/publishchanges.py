@@ -1,9 +1,11 @@
 #!/usr/bin/python
 
-import argparse
+import argparse, requests 
 
-parser = argparse.ArgumentParser(description='Process some integers.')
-parser.add_argument('--changes', help='a list of changes')
+parser = argparse.ArgumentParser(description='Process repository changes')
+parser.add_argument('-c', '--changes', required=True, help='a list of changes')
+parser.add_argument('-u', '--username', required=True, help='username for login')
+parser.add_argument('-p', '--password', required=True, help='password for login')
 
 
 args = parser.parse_args()
@@ -16,6 +18,16 @@ additions = list(map(lambda chg: chg.split()[-1], additions))
 
 modifications = list(filter(lambda chg: chg.startswith("M"), changeslist))
 modifications = list(map(lambda chg: chg.split()[-1], additions))
+
+#need to deal with deletions too
+
+# get the authentication token
+payload = {'grant_type':'password', 'username':args.username, 'password':args.password}
+r = requests.post("https://www.pvlighthouse.com.au/Token", data=payload)
+
+r.raise_for_status()
+
+print(r.json()['access_token'])
 
 for change in additions:
     print (change)
