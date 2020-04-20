@@ -30,3 +30,6 @@ jobs:
     - name: echo output
       run: |
         echo ${{ steps.getfile.outputs.files }}
+
+    - name: git diff remote
+      run: git diff-tree --no-commit-id --name-only -r @{upstream}
