@@ -22,6 +22,7 @@ changeslist = args.changes.splitlines()
 # M: modification of the contents or mode of a file
 
 # R: renaming of a file
+# R100  .github/workflows/testfile.txt  testfile.txt
 
 # T: change in the type of the file
 
