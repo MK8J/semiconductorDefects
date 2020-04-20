@@ -22,14 +22,7 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
       
-    - name: get changed files
-      id: getfile
-      run: |
-        echo "::set-output name=files::$(git diff --name-status @{upstream} )"
-
-    - name: echo output
-      run: |
-        echo ${{ steps.getfile.outputs.files }}
-
     - name: run python
-      run: python publishchanges.py
+      run: |
+        CHANGES=$(git diff --name-status @{upstream} )
+        python .github/workflows/publishchanges.py --changes "$CHANGES"
