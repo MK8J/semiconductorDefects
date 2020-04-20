@@ -13,6 +13,22 @@ args = parser.parse_args()
 
 changeslist = args.changes.splitlines()
 
+# A: addition of a file
+
+# C: copy of a file into a new one
+
+# D: deletion of a file
+
+# M: modification of the contents or mode of a file
+
+# R: renaming of a file
+
+# T: change in the type of the file
+
+# U: file is unmerged (you must complete the merge before it can be committed)
+
+# X: "unknown" change type (most probably a bug, please report it)
+
 additions = list(filter(lambda chg: chg.startswith("A"), changeslist))
 additions = list(map(lambda chg: chg.split()[-1], additions))
 
@@ -29,5 +45,5 @@ r.raise_for_status()
 
 print(r.json()['access_token'])
 
-for change in additions:
+for change in changeslist:
     print (change)
