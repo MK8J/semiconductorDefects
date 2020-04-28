@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-import argparse, requests 
+import argparse, requests, json
 
 parser = argparse.ArgumentParser(description='Process repository changes')
 parser.add_argument('-c', '--changes', required=True, help='a list of changes')
@@ -10,6 +10,15 @@ parser.add_argument('-p', '--password', required=True, help='password for login'
 
 args = parser.parse_args()
 
+class Tag:
+    Key = ''
+    Value = ''
+
+class Defect:
+    settingId = ''
+    settingPath = ''
+    Tags = [] # This is a list of tags
+    data = ''
 
 changeslist = args.changes.splitlines()
 
@@ -18,6 +27,7 @@ changeslist = args.changes.splitlines()
 # C: copy of a file into a new one
 
 # D: deletion of a file
+# D     .github/workflows/testfile.txt
 
 # M: modification of the contents or mode of a file
 
@@ -30,13 +40,16 @@ changeslist = args.changes.splitlines()
 
 # X: "unknown" change type (most probably a bug, please report it)
 
-additions = list(filter(lambda chg: chg.startswith("A"), changeslist))
-additions = list(map(lambda chg: chg.split()[-1], additions))
 
-modifications = list(filter(lambda chg: chg.startswith("M"), changeslist))
-modifications = list(map(lambda chg: chg.split()[-1], additions))
+additions = [change.split() for change in changeslist if change.startswith("A")]
 
-#need to deal with deletions too
+modifications = [change.split() for change in changeslist if change.startswith("M")]
+
+deletions = [change.split() for change in changeslist if change.startswith("D")]
+
+renames = [change.split() for change in changeslist if change.startswith("R")]
+
+
 
 # get the authentication token
 payload = {'grant_type':'password', 'username':args.username, 'password':args.password}
@@ -44,7 +57,57 @@ r = requests.post("https://www.pvlighthouse.com.au/Token", data=payload)
 
 r.raise_for_status()
 
-print(r.json()['access_token'])
+basePath = "https://k8s.pvlighthouse.com.au/svc/usersettings/defects"
 
-for change in changeslist:
-    print (change)
+accessToken = (r.json()['access_token'])
+
+headers = headers = {"Authorization": "Bearer " + accessToken, 'Content-Type': 'application/json'} 
+
+def handleHttpResponse(response, notFoundMessage):
+    print(response.status_code)
+    if response.status_code == 200:
+        return
+    elif response.status_code == 404:
+        print(notFoundMessage)
+        return
+    else:
+        deleteRequest.raise_for_status()
+
+for deletion in deletions:
+    print("deleting " + deletion[1])
+    deleteRequest = requests.delete(basePath + "/" + deletion[1], headers=headers)
+    handleHttpResponse(deleteRequest, "Could not delete " + deletion[1] + " setting not found")
+
+for rename in renames:
+    print("renaming " + rename[1] + " to " + rename[2])
+    # need to build the json here
+    setting = Defect()
+    setting.settingPath = rename[2]
+    setting.data = "{}"
+    renameRequest = requests.put(basePath + "/" + rename[1], data=json.dumps(setting.__dict__), headers=headers)
+    handleHttpResponse(renameRequest, "Could not rename " + rename[1] + " setting not found")
+
+# for modification in modifications:
+#     print("updating " + modification[1])
+#     # need to build the json here
+#     setting = Defect()
+#     setting.settingPath = modification[1]
+#     setting.data = "{}"
+#     print(json.dumps(setting.__dict__))
+#     updateRequest = requests.put(basePath + "/" + modification[1], data=json.dumps(setting.__dict__), headers=headers)
+#     handleHttpResponse(updateRequest, "Could not update " + modification[1] + " setting not found")
+
+for addition in additions:
+    print("adding " + addition[1])
+    # need to build the json here
+    setting = Defect()
+    setting.settingPath = addition[1]
+    setting.data = "{}"
+    updateRequest = requests.post(basePath, data=json.dumps(setting.__dict__), headers=headers)
+    updateRequest.raise_for_status()
+
+
+
+
+
+    
