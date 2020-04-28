@@ -9,5 +9,6 @@ conzelmann1983:
     incorporation: thermal
     resistivity: May-00
   params:
-    Ed_a: Ec-0.23
+    Ed_a: Ec-0.20
+    Ed_h: Ec-0.23
     sigma_ea: 2.0e-13
