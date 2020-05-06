@@ -119,13 +119,13 @@ lemke1987:
   title: Störstellenreaktionen in den Randschichtbereichen von Si-Kristallen mit Zn- und Pt-Dotierung
   DOI: 10.1002/pssa.2211010122
   measurement_technique: DLTS-Cr
-    comments: Saw two other levels which interact with the Zn levels, depending on annealing temeprature. The value published in his paper for the energy level 0.61 eV. This has not had the T^2 dependence accounted for. The values below are taken from a digitisation of Figure 1. It was confirmed that this aquired data provided a slope of -0.62 as stated in his paper. It was also confirmed that accounting for the T^2 dependenced provided a betting R^2 value.   
+  comments: Saw two other levels which interact with the Zn levels, depending on annealing temeprature. The value published in his paper for the energy level 0.61 eV. This has not had the T^2 dependence accounted for. The values below are taken from a digitisation of Figure 1. It was confirmed that this aquired data provided a slope of -0.62 as stated in his paper. It was also confirmed that accounting for the T^2 dependenced provided a betting R^2 value.   
   sample:
     dopant: boron, phosphorous
     incorporation: thermal
   rates:
     e_h: 1.47e6 * T^2* exp(-0.565/kT)
-    c_h: >3e-8 
+    c_h: '>3e-8'
   params:
     Ed_a: Ev+0.565
 
