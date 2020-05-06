@@ -11,6 +11,6 @@ images
 !*/
 !/database/*/*/*/*.srh
 !README.md
-!*/.github
+!/.github/workflows/*
 
 code
