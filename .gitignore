@@ -13,4 +13,4 @@ images
 !/.github/workflows/*
 
 code
-.env
+/.github/workflows/.env
