@@ -21,7 +21,6 @@ class Defect:
     data = ''
 
 changeslist = args.changes.splitlines()
-
 # A: addition of a file
 
 # C: copy of a file into a new one
@@ -109,6 +108,7 @@ for modification in modifications:
     handleHttpResponse(updateRequest, "Could not update " + modification[1])
 
 for addition in additions:
+    print(addition)
     print("adding " + addition[1])
     # need to build the json here
     setting = Defect()
