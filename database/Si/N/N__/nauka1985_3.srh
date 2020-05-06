@@ -1,0 +1,15 @@
+{
+    "title": "Nitrogen-related deep electron traps in float zone silicon",
+    "DOI": "10.1063/1.96274",
+    "measurement_technique": "DLTS",
+    "comments": "Forms in nitrogen doped FZ after  anneals >1273 K",
+    "sample": {
+        "growth": "FZ",
+        "dopant": "phosphorus",
+        "incorporation": "melt",
+        "resistivity": 220
+    },
+    "params": {
+        "Ed_a": "Ec-0.5"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Doping dependence of the carrier lifetime crossover point upon dissociation of iron-boron pairs in crystalline silicon",
+    "DOI": "10.1063/1.2358126",
+    "measurement_technique": "LS-ID",
+    "comments": "Lifetime analysis on FeB at a fixed temperature for many doing levels",
+    "params": {
+        "Ed": "Ec-0.26",
+        "sigma_e": "5e-15",
+        "dsigma_e": 1.5e-15,
+        "sigma_h": "3e-15",
+        "dsigma_h": "1e-15"
+    }
+}

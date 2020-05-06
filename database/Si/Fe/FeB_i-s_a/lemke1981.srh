@@ -1,0 +1,9 @@
+{
+    "title": "Dotierungseigenschaften von Eisen in Silizium",
+    "DOI": "10.1002/pssa.2210640123",
+    "measurement_technique": "DLTS-CrMe, TS-C",
+    "comments": "Capture cross sections manually extracted from figure",
+    "params": {
+        "Ed_h": "Ec-0.23"
+    }
+}

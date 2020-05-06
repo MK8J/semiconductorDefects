@@ -1,0 +1,10 @@
+{
+    "title": "Nonradiative recombination via deep impurity levels in silicon: Experiment",
+    "DOI": "10.1103/PhysRevB.35.9149",
+    "measurement_technique": "luminescence,",
+    "comments": "Assumed a thermal velocity of (2e7 *(T/300)^(0.5))",
+    "params": {
+        "sigma_e": "3e-7*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))",
+        "sigma_h": "3e-8*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Metal Impurities in Silicon-Device Fabrication",
+    "DOI": "10.1007/978-3-642-57121-3",
+    "measurement_technique": "review, DLTS",
+    "comments": "Taken from table 5.5. DLTS peak at 70K",
+    "params": {
+        "Ed_a": "Ec-0.12",
+        "sigma_ea": "3.1e-15"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Thermal emission rates of carriers at gold centers in silicon",
+    "DOI": "10.1063/1.1652943",
+    "measurement_technique": "DLTS",
+    "linked": "Au_s_d.srh",
+    "params": {
+        "Ed_a": "Ev+0.345",
+        "dEd_a": 0.0029
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Capacitance Transient Spectroscopy",
+    "DOI": "10.1146/annurev.ms.07.080177.002113",
+    "measurement_technique": "DLTS",
+    "comments": "Out at 150. E_0 = 1.25eV and E_0^0 = 0.95eV. Min value for sigma",
+    "params": {
+        "Ed_a": "Ec-0.44",
+        "sigma_ea": "1e-16"
+    }
+}

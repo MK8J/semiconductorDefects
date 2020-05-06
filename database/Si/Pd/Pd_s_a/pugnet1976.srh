@@ -1,0 +1,12 @@
+{
+    "title": "Energy levels for platinum and palladium in silicon measured by the dark transient capacitance technique",
+    "DOI": "10.1002/pssa.2210350215",
+    "sample": {
+        "dopant": "phosphorus"
+    },
+    "params": {
+        "Ed_a": "Ec-0.2",
+        "dEd_a": 0.01,
+        "sigma_ea": 2.7e-16
+    }
+}

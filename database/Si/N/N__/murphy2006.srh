@@ -1,0 +1,16 @@
+{
+    "title": "Nitrogen-Doped Silicon: Mechanical, Transport and Electrical Properties",
+    "DOI": "10.1149/1.2355760",
+    "measurement_technique": "DLTS",
+    "comments": "Did not see Ec-0.19 as earlier papers.",
+    "sample": {
+        "growth": "FZ",
+        "dopant": "phosphorus",
+        "incorporation": "melt",
+        "resistivity": 220
+    },
+    "params": {
+        "Ed_a": "Ec-0.5",
+        "sigma_ea": ">5e-14"
+    }
+}

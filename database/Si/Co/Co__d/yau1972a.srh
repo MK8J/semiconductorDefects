@@ -1,0 +1,14 @@
+{
+    "title": "Measurement of trapped-minority-carrier thermal emission rates from Au, Ag, and Co traps in silicon",
+    "DOI": "10.1063/1.1654324",
+    "measurement_technique": "DLTS-Mo",
+    "linked": "Co_s_d.srh",
+    "sample": {
+        "dopant": "boron, phosphorus",
+        "incorporation": "thermal"
+    },
+    "rates": {
+        "e_h": "4.43e13 * exp(-0.377/kT)"
+    },
+    "params": {}
+}

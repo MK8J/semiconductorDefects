@@ -1,0 +1,11 @@
+{
+    "title": "Characterisation of properties of nickel in silicon using thermally stimulated capacitance method",
+    "DOI": "10.1016/0038-1101(77)90012-0",
+    "sample": {
+        "dopant": "boron, phosphorus"
+    },
+    "params": {
+        "Ed_a": "Ev+0.21",
+        "dEd_a": 0.01
+    }
+}

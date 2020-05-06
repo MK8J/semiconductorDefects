@@ -1,0 +1,11 @@
+{
+    "title": "Metal Impurities in Silicon-Device Fabrication",
+    "DOI": "10.1007/978-3-642-57121-3",
+    "measurement_technique": "review, DLTS",
+    "comments": "Taken from table 4.6.",
+    "params": {
+        "Ed_a": "Ev+0.17",
+        "dEd_a": 0.02,
+        "sigma_ha": 1.1e-15
+    }
+}

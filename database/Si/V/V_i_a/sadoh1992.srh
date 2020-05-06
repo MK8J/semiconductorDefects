@@ -1,0 +1,16 @@
+{
+    "title": "Deep levels of vanadium and vanadium\u2010hydrogen complex in silicon",
+    "DOI": "10.1063/1.352353",
+    "measurement_technique": "DLTS-Cr",
+    "sample": {
+        "growth": "CZ, FZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "thermal",
+        "resistivity": "10-100"
+    },
+    "params": {
+        "Ed_a": "Ec-0.2",
+        "Ed": "Ec-0.2",
+        "sigma_e": 1.2e-16
+    }
+}

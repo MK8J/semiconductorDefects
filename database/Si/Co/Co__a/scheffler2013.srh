@@ -1,0 +1,14 @@
+{
+    "title": "Isolated substitutional cobalt and Co-related complexes in silicon",
+    "DOI": "10.1063/1.4804321",
+    "measurement_technique": "DLTS-L",
+    "comments": "Some defect observed only in p-type Co doped samples. Assumed to be hydrogen related.",
+    "sample": {
+        "dopant": "boron",
+        "incorporation": "melt"
+    },
+    "params": {
+        "Ed_a": "Ev+0.38",
+        "sigma_ha": 1.6e-14
+    }
+}

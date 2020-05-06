@@ -1,0 +1,14 @@
+{
+    "title": "Impurities in silicon solar cells",
+    "DOI": "10.1109/T-ED.1980.19922",
+    "measurement_technique": "DLTS, SCP",
+    "comments": "Tentative data",
+    "sample": {
+        "growth": "CZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "melt"
+    },
+    "params": {
+        "sigma_ea": 5.9e-14
+    }
+}

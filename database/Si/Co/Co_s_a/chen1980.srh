@@ -1,0 +1,9 @@
+{
+    "title": "Energy Levels in Silicon",
+    "DOI": "10.1146/annurev.ms.10.080180.001105",
+    "comments": "Electron capture cross section goes as T^[-0.1+-0.7)",
+    "params": {
+        "Ed": "Ec-0.535",
+        "dEd": 0.013000000000000001
+    }
+}

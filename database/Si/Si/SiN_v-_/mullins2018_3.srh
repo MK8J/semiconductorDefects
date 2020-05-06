@@ -1,0 +1,22 @@
+{
+    "title": "Thermally activated defects in float zone silicon: Effect of nitrogen on the introduction of deep level states",
+    "DOI": "10.1063/1.5036718",
+    "measurement_technique": "DLTS-MoLCr",
+    "comments": "This is in reference to a defect in FZ silicon for thermal treatments between 400-800 degrees. Comments on complex nature of defects and assignment to chemical nature. Indicates this is likley to be related to Nitrogen and Vacancies. This is as in Nitrogen lean samples the defect does not appear in DLTS, and when Nickle is introduced into the samples it takes a substitutionary  (destroying a vacancy) and leads to lower amount of defects detected by DLTS.",
+    "sample": {
+        "growth": "FZ",
+        "dopant": "phosphorus",
+        "resistivity": "1-5"
+    },
+    "measurement_details": {
+        "T": "200 K",
+        "Ur": "-5 V",
+        "tp": "1 ms",
+        "Rw": "0.05 s"
+    },
+    "params": {
+        "Ed": "Ev+0.48",
+        "sigma_e": 2.3e-18,
+        "sigma_h": 3.1e-14
+    }
+}

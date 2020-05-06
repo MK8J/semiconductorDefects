@@ -1,0 +1,10 @@
+{
+    "title": "Capacitance Transient Spectroscopy",
+    "DOI": "10.1146/annurev.ms.07.080177.002113",
+    "measurement_technique": "DLTS",
+    "comments": "Out at 300",
+    "params": {
+        "Ed_a": "Ev+0.21",
+        "sigma_ha": "2e-16"
+    }
+}

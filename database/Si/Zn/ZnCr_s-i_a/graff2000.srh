@@ -1,0 +1,10 @@
+{
+    "title": "Metal Impurities in Silicon-Device Fabrication",
+    "DOI": "10.1007/978-3-642-57121-3",
+    "measurement_technique": "review, DLTS",
+    "comments": "Taken from table 5.4. DLTS done at a temperature of 240K",
+    "params": {
+        "Ed_a": "Ec-0.1",
+        "sigma_ea": 2.8e-15
+    }
+}

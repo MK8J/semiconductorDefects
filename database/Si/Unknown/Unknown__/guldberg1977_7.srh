@@ -1,0 +1,16 @@
+{
+    "title": "Electron trap annealing in neutron transmutation doped silicon",
+    "DOI": "10.1063/1.89785",
+    "measurement_technique": "DLTS",
+    "comments": "Believed to be a surface effect, In at 450 out at 525 K",
+    "sample": {
+        "growth": "FZ",
+        "dopant": "phosphorus",
+        "incorporation": "irridation",
+        "resistivity": "40"
+    },
+    "params": {
+        "Ed_a": "Ec-0.50",
+        "sigma_ha": 1.9999999999999998e-15
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Lifetime Spectroscopy A Method of Defect Characterization in Silicon for Photovoltaic Applications",
+    "DOI": "10.1007/3-540-27922-9",
+    "measurement_technique": "LS-ITD",
+    "comments": "Temperature dependence of sigma T^-2.5. sigma_e taken from graff2000_1",
+    "params": {
+        "Ed": "Ev+0.189",
+        "dEd": 0.05,
+        "k": "3500.0",
+        "dk": "2610, 9400"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Capacitance Transient Spectroscopy",
+    "DOI": "10.1146/annurev.ms.07.080177.002113",
+    "measurement_technique": "DLTS",
+    "comments": "out at 350. Ea=1.3eV",
+    "params": {
+        "Ed_a": "Ec-0.08",
+        "sigma_ea": "1e-14"
+    }
+}

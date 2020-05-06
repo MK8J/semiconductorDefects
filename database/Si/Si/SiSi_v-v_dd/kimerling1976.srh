@@ -1,0 +1,10 @@
+{
+    "title": "New Developments in Defect Studies in Semiconductors",
+    "DOI": "10.1109/TNS.1976.4328529",
+    "measurement_technique": "DLTS, EPR",
+    "comments": "Out at 573K",
+    "params": {
+        "Ed_a": "Ec-0.23",
+        "sigma_ha": "2e-16"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "title": "Interstitial iron and iron-acceptor pairs in silicon",
+    "DOI": "10.1007/BF00619081",
+    "measurement_technique": "DLTS-Cr",
+    "sample": {
+        "growth": "FZ",
+        "dopant": "aluminium, boron, gallium",
+        "incorporation": "thermal",
+        "resistivity": "0.3-100"
+    },
+    "rates": {
+        "e_h": "1.603e6*T^2*exp(-0.43/kT)"
+    },
+    "params": {
+        "Ed_h": "Ev+0.39",
+        "dEd_h": 0.02,
+        "sigma_h": "1.6e-16*exp(-0.043/k/T)"
+    }
+}

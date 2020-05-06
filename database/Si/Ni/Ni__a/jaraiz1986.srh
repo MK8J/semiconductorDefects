@@ -1,0 +1,14 @@
+{
+    "title": "Electron thermal emission rates of nickel centers in silicon",
+    "DOI": "10.1016/0038-1101(86)90008-0",
+    "measurement_technique": "CV-TF",
+    "sample": {
+        "growth": "FZ",
+        "dopant": "phosphorus",
+        "resistivity": "50-60"
+    },
+    "params": {
+        "Ed_a": "Ec-0.360",
+        "dEd_a": 0.01
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "title": "Electrical and optical properties of molybdenum and tungsten related defects in silicon",
+    "DOI": "10.1088/0268-1242/6/4/002",
+    "measurement_technique": "DLTS, DC-S",
+    "comments": "DLTS peak at 180K. Capture cross section measured of 50 deg from 150 to 200 deg. Claims not a substitutional site. In a similar publication showing the same data a year later. DOI;10.1557/PROC-262-489. On Zhou's result of extra energy levels they say \"Although, in principle, this level could originate from three different defects we think there are good reasons to believe that the midgap level is a kind of process induced built-in defect which has to be studied further before a correct chemical identification can be performed.\"",
+    "sample": {
+        "growth": "FZ, CZ",
+        "dopant": "boron, phosphorus"
+    },
+    "params": {
+        "Ed_a": "Ev+0.292",
+        "Ed_h": "Ev+0.296",
+        "Ed": "Ev+0.296 + 2.7e-5*T",
+        "sigma_h": "8.38E-16 * exp(0.004/kT)"
+    }
+}

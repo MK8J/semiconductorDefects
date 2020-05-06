@@ -1,0 +1,11 @@
+{
+    "title": "Energy Levels in Silicon",
+    "DOI": "10.1146/annurev.ms.10.080180.001105",
+    "comments": "due to atoms present at the silicon lattice sites or forming a configuration with rigid bonds to the lattice atoms. Different values achieved from depletion layer thermionic messions",
+    "params": {
+        "Ed": "Ec-0.53",
+        "dEd": 0.03,
+        "sigma_e": "1.70E-16",
+        "dsigma_e": 1e-17
+    }
+}

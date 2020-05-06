@@ -1,0 +1,11 @@
+{
+    "title": "Recombination activity of interstitial chromium and chromium-boron pairs in silicon",
+    "DOI": "10.1063/1.2822452",
+    "measurement_technique": "DLTS, LS-TI",
+    "comments": "Capture cross sections were found to be independent of temperature",
+    "params": {
+        "Ed_a": "Ec-0.24",
+        "sigma_ea": "2E-14",
+        "sigma_ha": "4E-15"
+    }
+}

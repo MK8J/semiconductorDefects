@@ -1,0 +1,9 @@
+{
+    "title": "Lifetime and capture cross-section studies of deep impurities in silicon",
+    "DOI": "10.1016/0025-5416(68)90036-0",
+    "measurement_technique": "LS",
+    "comments": "77 K,the thermal velocity assumed here is incorrect",
+    "params": {
+        "sigma_h": "0.000001/1e7*exp(0.055/kT)/exp(0.055/k/77)"
+    }
+}

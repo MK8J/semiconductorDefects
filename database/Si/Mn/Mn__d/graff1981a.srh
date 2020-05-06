@@ -1,0 +1,16 @@
+{
+    "title": "The behavior of transition and noble metals in silicon crystals",
+    "ISSN": "0091-391X",
+    "measurement_technique": "DLTS-Cr",
+    "linked": "Mn_i_d.srh",
+    "sample": {
+        "growth": "FZ, CZ",
+        "dopant": "phosphorus",
+        "incorporation": "thermal",
+        "resistivity": "1-100"
+    },
+    "params": {
+        "Ed_a": "Ec-0.419",
+        "sigma_ea": 1.3e-13
+    }
+}

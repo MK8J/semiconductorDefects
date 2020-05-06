@@ -1,0 +1,22 @@
+{
+    "title": "DLTS analysis of nickel_hydrogen complex defects in silicon",
+    "DOI": "10.1016/S0921-5107(98)00280-3",
+    "measurement_technique": "DLTS-Cr",
+    "sample": {
+        "growth": "CZ, FZ",
+        "dopant": "boron",
+        "incorporation": "melt, diffusion",
+        "resistivity": "1-100"
+    },
+    "measurement_details": {
+        "T": 75.0,
+        "Rw": "0.024 s"
+    },
+    "params": {
+        "Ed_a": "Ev+0.15",
+        "Ed_h": "Ev+0.15",
+        "Ed": "Ev+0.145",
+        "sigma_ha": 4.3e-15,
+        "sigma_h": 2.2e-15
+    }
+}

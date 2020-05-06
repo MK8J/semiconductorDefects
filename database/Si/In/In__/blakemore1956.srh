@@ -1,0 +1,12 @@
+{
+    "title": "Photoconductivity in Indium-Doped Silicon",
+    "measurement_technique": "PC-S",
+    "linked": "In_s_a.srh",
+    "comments": "Points to the strange temperature coefficient. Maybe be due to a) iononisation of defects, b) recombination through higher excited Indium states and this would not be detected by PC.",
+    "measurement_details": {
+        "T": "77.5K, 90K, 90K"
+    },
+    "params": {
+        "sigma_h": "1e-13*exp(0.055/kT)"
+    }
+}

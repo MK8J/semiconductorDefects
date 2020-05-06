@@ -1,0 +1,12 @@
+{
+    "title": "Physical Behaviour of 4d Transition Metal Impurity in Silicon",
+    "DOI": "10.4028/www.scientific.net/MSF.38-41.457",
+    "measurement_technique": "DLTS",
+    "sample": {
+        "growth": "FZ, CZ",
+        "dopant": "aluminium, boron, gallium, phosphorus, tin"
+    },
+    "params": {
+        "Ed_a": "Ev+0.34"
+    }
+}

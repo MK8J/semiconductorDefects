@@ -1,0 +1,10 @@
+{
+    "title": "Lifetime and capture cross-section studies of deep impurities in silicon",
+    "DOI": "10.1016/0025-5416(68)90036-0",
+    "measurement_technique": "LS",
+    "comments": "77 K",
+    "params": {
+        "sigma_e": "9E-017*(T/77)^(-1.3)",
+        "sigma_h": "1.00E-13"
+    }
+}

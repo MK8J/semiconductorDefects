@@ -1,0 +1,10 @@
+{
+    "title": "Recombination activity of light-activated copper defects in p-type silicon studied by injection- and temperature-dependent lifetime spectroscopy",
+    "DOI": "10.1063/1.4963121",
+    "measurement_technique": "LS-TI",
+    "params": {
+        "Ed": "Ec-0.15",
+        "dEd": 0.05,
+        "k": 0.1
+    }
+}

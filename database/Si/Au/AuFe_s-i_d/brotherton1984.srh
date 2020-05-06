@@ -1,0 +1,13 @@
+{
+    "title": "Electrical observation of the Au-Fe complex in silicon",
+    "DOI": "10.1063/1.333149",
+    "measurement_technique": "review, DLTS",
+    "comments": "Rates are from fitting to a digitization of figure 3.",
+    "rates": {
+        "e_e": "4.72e7 * T^2 * exp(-0.435/kT)"
+    },
+    "params": {
+        "Ed_a": "Ev+0.42",
+        "sigma_ha": "2.6e-15"
+    }
+}

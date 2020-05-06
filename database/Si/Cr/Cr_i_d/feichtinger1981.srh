@@ -1,0 +1,14 @@
+{
+    "title": "Energy levels and solubility of interstitial chromium in silicon",
+    "DOI": "10.1063/1.92856",
+    "measurement_technique": "Hall, EPR",
+    "sample": {
+        "growth": "CZ",
+        "dopant": "boron",
+        "incorporation": "thermal"
+    },
+    "params": {
+        "Ed_a": "Ec-0.222",
+        "dEd_a": 0.05
+    }
+}

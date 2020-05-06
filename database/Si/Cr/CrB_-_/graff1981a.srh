@@ -1,0 +1,16 @@
+{
+    "title": "The behavior of transition and noble metals in silicon crystals",
+    "ISSN": "0091-391X",
+    "measurement_technique": "DLTS-Cr",
+    "linked": "BCr_s-i_d.srh",
+    "sample": {
+        "growth": "FZ, CZ",
+        "dopant": "boron",
+        "incorporation": "thermal",
+        "resistivity": "1-100"
+    },
+    "params": {
+        "Ed_h": "Ev+0.29",
+        "sigma_ha": 8e-19
+    }
+}

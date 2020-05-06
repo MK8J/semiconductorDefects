@@ -1,0 +1,23 @@
+{
+    "title": "DLTS analysis of nickel_hydrogen complex defects in silicon",
+    "DOI": "10.1016/S0921-5107(98)00280-3",
+    "measurement_technique": "DLTS-Cr",
+    "comments": "Out at 570 K for 2 hours",
+    "sample": {
+        "growth": "CZ, FZ",
+        "dopant": "phosphorus",
+        "incorporation": "melt, diffusion",
+        "resistivity": "1-100"
+    },
+    "measurement_details": {
+        "T": 95.0,
+        "Rw": "0.024 s"
+    },
+    "params": {
+        "Ed_a": "Ec-0.15",
+        "Ed_h": "Ec-0.13",
+        "Ed": "Ec-0.143",
+        "sigma_ea": 2.7999999999999996e-16,
+        "sigma_e": "0.0000000000000000048*exp(-0.02/kT)"
+    }
+}

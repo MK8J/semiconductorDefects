@@ -1,0 +1,17 @@
+{
+    "title": "Thermally stimulated current measurements on silicon junctions produced by implantation of low energy boron ions",
+    "DOI": "10.1016/0038-1101(74)90007-0",
+    "measurement_technique": "TS-I",
+    "comments": "Out at 533 K",
+    "sample": {
+        "growth": "FZ",
+        "dopant": "phosphorus",
+        "incorporation": "ion implantation",
+        "resistivity": "1000"
+    },
+    "params": {
+        "Ed_a": "Ev+0.255",
+        "dEd_a": 0.005,
+        "sigma_ha": 5e-17
+    }
+}

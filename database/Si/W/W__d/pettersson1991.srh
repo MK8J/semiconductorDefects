@@ -1,0 +1,16 @@
+{
+    "title": "Electrical and optical properties of molybdenum and tungsten related defects in silicon",
+    "DOI": "10.1088/0268-1242/6/4/002",
+    "measurement_technique": "DLTS, DC-S",
+    "comments": "DLTS peak at 180K.",
+    "sample": {
+        "growth": "FZ, CZ",
+        "dopant": "boron, phosphorus"
+    },
+    "params": {
+        "Ed_a": "Ev+0.4",
+        "Ed_h": "Ev+0.382",
+        "Ed": "Ev+0.383-5.2e-5*T",
+        "sigma_h": "1.15e-15 * exp(-0.018/kT)"
+    }
+}

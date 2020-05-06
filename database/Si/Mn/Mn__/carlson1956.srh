@@ -1,0 +1,16 @@
+{
+    "title": "Properties of Silicon Doped with Manganese",
+    "DOI": "10.1103/PhysRev.104.937",
+    "measurement_technique": "Hall, R-T, PC-S",
+    "comments": "Shows electron traps.",
+    "sample": {
+        "growth": "CZ",
+        "dopant": "boron",
+        "incorporation": "ion implantation",
+        "resistivity": "50-100"
+    },
+    "params": {
+        "Ed": "Ec-0.53",
+        "dEd": 0.03
+    }
+}

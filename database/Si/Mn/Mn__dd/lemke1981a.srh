@@ -1,0 +1,16 @@
+{
+    "title": "Eigensehaften der Dotierungsniveaus von Mangan und Vanadium in Silizium",
+    "DOI": "10.1002/pssa.2210640219",
+    "measurement_technique": "DLTS-Cr, TS-C",
+    "linked": "Mn_s_dd.srh",
+    "comments": "Fitted sigma_h from figure 5. Assumed thermal velocity of 1e7",
+    "sample": {
+        "dopant": "boron",
+        "incorporation": "diffusion"
+    },
+    "params": {
+        "Ed_a": "Ev+0.34",
+        "Ed_h": "Ev+0.27",
+        "sigma_h": "3.67e-27*T^(3.8)"
+    }
+}

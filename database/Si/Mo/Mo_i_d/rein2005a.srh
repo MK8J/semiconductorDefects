@@ -1,0 +1,14 @@
+{
+    "title": "Lifetime Spectroscopy A Method of Defect Characterization in Silicon for Photovoltaic Applications",
+    "DOI": "10.1007/3-540-27922-9",
+    "measurement_technique": "LS-ITD",
+    "comments": "Claims difference in DLTS measurement is as they did not account for the temperature dependence of the capture cross section. Sigma_e taken from literature",
+    "params": {
+        "Ed": "Ev+0.317",
+        "dEd": 0.005,
+        "sigma_e": "7.8e-15",
+        "sigma_h": "6e-16",
+        "k": "13.0",
+        "dk": 3
+    }
+}

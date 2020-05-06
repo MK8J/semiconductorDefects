@@ -1,0 +1,15 @@
+{
+    "title": "Deep Levels Associated with Nitrogen in Silicon",
+    "DOI": "10.1143/JJAP.21.L443",
+    "measurement_technique": "DLTS",
+    "sample": {
+        "growth": "FZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "melt",
+        "resistivity": "30,100"
+    },
+    "params": {
+        "Ed_a": "Ec-0.19",
+        "sigma_ea": "8e-17"
+    }
+}

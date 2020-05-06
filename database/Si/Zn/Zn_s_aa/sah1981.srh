@@ -1,0 +1,21 @@
+{
+    "title": "Effect of zinc impurity on silicon solar-cell efficiency",
+    "DOI": "10.1109/T-ED.1981.20333",
+    "measurement_technique": "TS-I, DLTS-Cr",
+    "comments": "Capture rate at 300 K, energy levels and capture cross sections not provided, these are calculated.",
+    "sample": {
+        "dopant": "boron",
+        "incorporation": "thermal"
+    },
+    "rates": {
+        "e_h": "5.36e12*(T/300)^(-2) * exp(-0.644/kT)",
+        "c_e": "3.7e-10 * exp(-0.136/kT)",
+        "c_h": "6e-8/1.688e7"
+    },
+    "params": {
+        "Ed_a": "Ev+0.664",
+        "dEd_a": 0.001,
+        "sigma_e": 2.44e-18,
+        "sigma_h": 3.55e-15
+    }
+}

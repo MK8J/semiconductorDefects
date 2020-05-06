@@ -1,0 +1,13 @@
+{
+    "title": "Rhodium and iridium as deep impurities in silicon",
+    "DOI": "10.1016/0038-1101(76)90087-3",
+    "measurement_technique": "DLTS, Hall",
+    "comments": "Value only from DLTS",
+    "sample": {
+        "incorporation": "thermal"
+    },
+    "params": {
+        "Ed_a": "Ec-0.353",
+        "sigma_ea": 8.600000000000001e-13
+    }
+}

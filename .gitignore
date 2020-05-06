@@ -1,4 +1,3 @@
-.env
 .vscode
 images
 *.sum
@@ -14,3 +13,4 @@ images
 !/.github/workflows/*
 
 code
+.env

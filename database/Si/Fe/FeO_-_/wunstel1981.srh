@@ -1,0 +1,14 @@
+{
+    "title": "Iron-related deep levels in silicon",
+    "DOI": "10.1016/0038-1098(81)90116-2",
+    "measurement_technique": "DLTS",
+    "sample": {
+        "growth": "FZ",
+        "dopant": "boron",
+        "incorporation": "thermal",
+        "resistivity": "0.3-100"
+    },
+    "params": {
+        "Ed_a": "Ev+0.33"
+    }
+}

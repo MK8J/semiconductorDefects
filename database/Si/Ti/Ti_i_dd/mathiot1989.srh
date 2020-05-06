@@ -1,0 +1,18 @@
+{
+    "title": "Titanium-related deep levels in silicon: A reexamination",
+    "DOI": "10.1063/1.343608",
+    "measurement_technique": "DLTS-Cr",
+    "comments": "varied the pulse height and the pulse width at the same time.",
+    "sample": {
+        "growth": "FZ,CZ",
+        "dopant": "boron",
+        "incorporation": "thermal"
+    },
+    "rates": {
+        "e_h": "1.65e5*T^2*exp(-0.287/kT)"
+    },
+    "params": {
+        "Ed_h": "Ev+0.26",
+        "sigma_h": "2.6e-17*exp(-0.027/kT)"
+    }
+}

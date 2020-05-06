@@ -1,0 +1,17 @@
+{
+    "title": "Nitrogen-related deep electron traps in float zone silicon",
+    "DOI": "10.1063/1.96274",
+    "measurement_technique": "DLTS",
+    "comments": "Found in as grown material, disappears with anneals >1173 K",
+    "sample": {
+        "growth": "FZ",
+        "dopant": "phosphorus",
+        "incorporation": "melt",
+        "resistivity": 220
+    },
+    "params": {
+        "Ed_a": "Ec-0.28",
+        "sigma_ea": "7e-14",
+        "dsigma_ea": "3e-14"
+    }
+}

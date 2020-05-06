@@ -1,0 +1,10 @@
+{
+    "title": "Identification of Cr in p-type silicon using the minority carrier lifetime measurement by the surface photovoltage method",
+    "DOI": "10.1063/1.116574",
+    "measurement_technique": "DLTS, LS-D",
+    "comments": "no thermal velocity was provided, it was assumed a thermal velocity of 2.046e7.",
+    "params": {
+        "Ed_a": "Ev+0.27",
+        "sigma_ea": "1.5e-6/2.046e7"
+    }
+}

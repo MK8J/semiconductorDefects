@@ -1,0 +1,15 @@
+{
+    "title": "The defect levels in p\u2010type silicon doped with manganese",
+    "DOI": "10.1063/1.324247",
+    "measurement_technique": "DLTS-Cr",
+    "sample": {
+        "growth": "FZ",
+        "dopant": "boron",
+        "incorporation": "thermal",
+        "resistivity": "40-60"
+    },
+    "params": {
+        "Ed_a": "Ev+0.22",
+        "sigma_ea": 3.88e-16
+    }
+}

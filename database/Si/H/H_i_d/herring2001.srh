@@ -1,0 +1,10 @@
+{
+    "title": "Energy levels of isolated interstitial hydrogen in silicon",
+    "DOI": "10.1103/PhysRevB.64.125209",
+    "measurement_technique": "DLTS",
+    "linked": "HO_i-i_d.srh",
+    "comments": "Used data from holm1991 and Johnson.",
+    "params": {
+        "Ed_a": "Ec-0.16"
+    }
+}

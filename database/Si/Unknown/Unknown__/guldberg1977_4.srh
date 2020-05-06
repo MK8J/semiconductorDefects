@@ -1,0 +1,16 @@
+{
+    "title": "Electron trap annealing in neutron transmutation doped silicon",
+    "DOI": "10.1063/1.89785",
+    "measurement_technique": "DLTS",
+    "comments": "Out at 550 K",
+    "sample": {
+        "growth": "FZ",
+        "dopant": "phosphorus",
+        "incorporation": "irridation",
+        "resistivity": "40"
+    },
+    "params": {
+        "Ed_a": "Ec-0.32",
+        "sigma_ha": 9.999999999999999e-16
+    }
+}
