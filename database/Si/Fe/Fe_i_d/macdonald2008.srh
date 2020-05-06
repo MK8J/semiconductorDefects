@@ -1,9 +1,0 @@
-{
-    "title": "Imaging interstitial iron concentrations in boron-doped crystalline silicon using photoluminescence",
-    "DOI": "10.1063/1.2903895",
-    "measurement_technique": "LS",
-    "comments": "Performed at room temperature",
-    "params": {
-        "sigma_e": 1.3e-14
-    }
-}

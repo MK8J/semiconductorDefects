@@ -1,9 +1,0 @@
-{
-    "title": "Electron irradiation damage in antimony doped silicon",
-    "DOI": "10.1063/1.323935",
-    "measurement_technique": "DLTS",
-    "comments": "Shows thermal emssion rate,",
-    "params": {
-        "Ed_a": "Ec-0.22"
-    }
-}

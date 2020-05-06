@@ -1,9 +1,0 @@
-{
-    "title": "Electron and Hole Capture at Au and Pt Centers in Silicon",
-    "DOI": "10.1103/PhysRevLett.44.606",
-    "measurement_technique": "DLTS",
-    "params": {
-        "Ed_a": "Ev+0.340",
-        "sigma_h": 1.1e-14
-    }
-}

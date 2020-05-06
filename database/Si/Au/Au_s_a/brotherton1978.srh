@@ -1,9 +1,0 @@
-{
-    "title": "The electron capture cross section and energy level of the gold acceptor center in silicon",
-    "DOI": "10.1063/1.324641",
-    "measurement_technique": "DLTS-Cr",
-    "params": {
-        "Ed_h": "Ec-0.555",
-        "sigma_e": "9e-17"
-    }
-}

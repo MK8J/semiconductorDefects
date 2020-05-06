@@ -1,9 +1,0 @@
-{
-    "title": "Metal impurities in silicon-device fabrication",
-    "DOI": "10.1007/978-3-642-97593-6",
-    "measurement_technique": "review",
-    "comments": "Taken from table 3.6",
-    "params": {
-        "Ed_a": "Ec-0.56"
-    }
-}
