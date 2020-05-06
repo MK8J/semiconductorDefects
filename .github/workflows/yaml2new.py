@@ -43,7 +43,6 @@ def createNewFiles(folder, fnames):
 def yaml2json():
     
     for fname in glob.glob('./database/*/*/*.srh'):
-        print(fname)
         folder = fname.replace('.srh', '') 
         fnames = yamlFile2Jsons(fname)
         createNewFiles(folder, fnames)

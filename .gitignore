@@ -2,7 +2,6 @@
 images
 *.sum
 *~
-*swp
 *ipynb
 *.png
 
@@ -14,3 +13,5 @@ images
 
 code
 /.github/workflows/.env
+
+*swp

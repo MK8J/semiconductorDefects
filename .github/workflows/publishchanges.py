@@ -114,6 +114,7 @@ for addition in additions:
     setting = Defect()
     setting.settingPath = addition[1]
 
+    print(addition[1])
     with open(addition[1], 'r') as f:
         data = f.read()
 
