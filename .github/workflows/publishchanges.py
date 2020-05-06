@@ -101,7 +101,7 @@ for modification in modifications:
     setting.settingPath = modification[1]
 
     with open(modification[1], 'r') as f:
-        data = f.read()i
+        data = f.read()
 
     setting.data = data
     print(json.dumps(setting.__dict__))
