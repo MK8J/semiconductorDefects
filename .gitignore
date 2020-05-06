@@ -1,2 +1,16 @@
 .env
 .vscode
+images
+*.sum
+*~
+*swp
+*ipynb
+*.png
+
+*
+!*/
+!/database/*/*/*/*.srh
+!README.md
+!*/.github
+
+code
