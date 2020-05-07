@@ -18,7 +18,7 @@ class Defect:
     settingId = ''
     settingPath = ''
     Tags = [] # This is a list of tags
-    data = ''
+    JSONData = ''
 
 changeslist = args.changes.splitlines()
 
