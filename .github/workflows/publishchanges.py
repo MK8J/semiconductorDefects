@@ -73,42 +73,47 @@ def handleHttpResponse(response, baseErrorMessage):
     elif response.status_code == 409:
         print(baseErrorMessage + " setting conflicts with existing setting")
         return
+    elif response.status_code == 400:
+        print(baseErrorMessage + " validation error")
+        print(response.text)
+        response.raise_for_status()
+        return
     else:
         response.raise_for_status()
 
 for deletion in deletions:
     print("deleting " + deletion[1])
     deleteRequest = requests.delete(basePath + "/" + deletion[1], headers=headers)
-    handleHttpResponse(deleteRequest, "Could not delete " + deletion[1] + " setting not found")
+    handleHttpResponse(deleteRequest, "Could not delete " + deletion[1] )
 
 for rename in renames:
     print("renaming " + rename[1] + " to " + rename[2])
     # need to build the json here
     setting = Defect()
     setting.settingPath = rename[2]
-    setting.data = "{}"
+    setting.JSONData = "{}"
     renameRequest = requests.put(basePath + "/" + rename[1], data=json.dumps(setting.__dict__), headers=headers)
-    handleHttpResponse(renameRequest, "Could not rename " + rename[1] + " setting not found")
+    handleHttpResponse(renameRequest, "Could not rename " + rename[1])
 
 for modification in modifications:
     print("updating " + modification[1])
     # need to build the json here
     setting = Defect()
     setting.settingPath = modification[1]
-    setting.data = "{}"
+    setting.JSONData = "{}"
     print(json.dumps(setting.__dict__))
     updateRequest = requests.put(basePath + "/" + modification[1], data=json.dumps(setting.__dict__), headers=headers)
-    handleHttpResponse(updateRequest, "Could not update " + modification[1] + " setting not found")
+    handleHttpResponse(updateRequest, "Could not update " + modification[1] )
 
 for addition in additions:
     print("adding " + addition[1])
     # need to build the json here
     setting = Defect()
     setting.settingPath = addition[1]
-    setting.data = "{}"
+    setting.JSONData = "{}"
     print(json.dumps(setting.__dict__))
-    updateRequest = requests.post(basePath, data=json.dumps(setting.__dict__), headers=headers)
-    updateRequest.raise_for_status()
+    additionRequest = requests.post(basePath, data=json.dumps(setting.__dict__), headers=headers)
+    handleHttpResponse(additionRequest, "Could not create " + addition[1] )
 
 
 
