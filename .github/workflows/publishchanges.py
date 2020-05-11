@@ -18,7 +18,7 @@ class Defect:
     settingId = ''
     settingPath = ''
     Tags = [] # This is a list of tags
-    data = ''
+    JSONData = ''
 
 changeslist = args.changes.splitlines()
 # A: addition of a file
@@ -72,6 +72,11 @@ def handleHttpResponse(response, baseErrorMessage):
     elif response.status_code == 409:
         print(baseErrorMessage + " setting conflicts with existing setting")
         return
+    elif response.status_code == 400:
+        print(baseErrorMessage + " validation error")
+        print(response.text)
+        response.raise_for_status()
+        return
     else:
         response.raise_for_status()
 
@@ -80,16 +85,18 @@ for deletion in deletions:
     deleteRequest = requests.delete(basePath + "/" + deletion[1], headers=headers)
     handleHttpResponse(deleteRequest, "Could not delete " + deletion[1])
 
+
 for rename in renames:
     print("renaming " + rename[1] + " to " + rename[2])
     # need to build the json here
     setting = Defect()
     setting.settingPath = rename[2]
-
+    
     with open(rename[2], 'r') as f:
-        data = f.read()
+        JSONData = f.read()
 
-    setting.data = data
+    setting.JSONData = JSONData
+
     renameRequest = requests.put(basePath + "/" + rename[1], data=json.dumps(setting.__dict__), headers=headers)
     handleHttpResponse(renameRequest, "Could not rename " + rename[1])
 
@@ -100,12 +107,13 @@ for modification in modifications:
     setting.settingPath = modification[1]
 
     with open(modification[1], 'r') as f:
-        data = f.read()
+        JSONData = f.read()
 
-    setting.data = data
-    print(json.dumps(setting.__dict__))
+    setting.JSONData = JSONData
+
     updateRequest = requests.put(basePath + "/" + modification[1], data=json.dumps(setting.__dict__), headers=headers)
     handleHttpResponse(updateRequest, "Could not update " + modification[1])
+
 
 for addition in additions:
     print(addition)
@@ -116,15 +124,11 @@ for addition in additions:
 
     print(addition[1])
     with open(addition[1], 'r') as f:
-        data = f.read()
+        JSONData = f.read()
 
-    setting.data = data
+    setting.JSONData = JSONData
+
     print(json.dumps(setting.__dict__))
-    updateRequest = requests.post(basePath, data=json.dumps(setting.__dict__), headers=headers)
-    updateRequest.raise_for_status()
+    additionRequest = requests.post(basePath, data=json.dumps(setting.__dict__), headers=headers)
+    handleHttpResponse(additionRequest, "Could not create " + addition[1] )
 
-
-
-
-
-    
