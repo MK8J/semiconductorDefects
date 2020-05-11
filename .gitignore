@@ -1,2 +1,16 @@
-.env
 .vscode
+images
+*.sum
+*~
+*ipynb
+*.png
+
+*
+!*/
+!/database/*/*/*/*.srh
+!README.md
+!/.github/workflows/*
+
+code
+/.github/workflows/.env
+**.swp

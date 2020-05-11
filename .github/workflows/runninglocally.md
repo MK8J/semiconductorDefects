@@ -6,4 +6,7 @@
 
 3. Run act in this repository referencing the image pulled in the previous step eg. `act -P ubuntu-latest=nektos/act-environments-ubuntu:18.04 --secret defects_username --secret defects_password`
 
+OR  `act -P ubuntu-latest=semi:latest --secret defects_username --secret defects_password`
+
+
 > (Optional - use a .env file in .github/workflows to define the environment variables and run `export $(xargs < .github/workflows/.env)` to load them   )
