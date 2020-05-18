@@ -43,6 +43,10 @@ jobs:
     - name: update github actions
       run: |
         git checkout master -- database
+        cd database/Si/ # to only to the Ti folder for now
+        rm -r !(Ti) # to only to the Ti folder for now
+        cd ..
+        cd ..
         python .github/workflows/yaml2new.py
         git add -A
 
@@ -53,3 +57,5 @@ jobs:
       run: |      
         CHANGES=$(git diff --name-status @{upstream} database )
         python .github/workflows/publishchanges.py -c "$CHANGES" -u $USERNAME -p $PASSWORD
+        
+

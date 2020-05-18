@@ -1,6 +1,9 @@
 #!/usr/bin/python
 
-import argparse, requests, json
+import argparse 
+import json
+import requests
+import yaml2new as y2n # tempory
 
 parser = argparse.ArgumentParser(description='Process repository changes')
 parser.add_argument('-c', '--changes', required=True, help='a list of changes')
@@ -97,6 +100,13 @@ for rename in renames:
 
     setting.JSONData = JSONData
 
+    temps = y2n.getTemps(JSONData)
+    if temps is not None:
+        emn_temps = Tag()
+        emn_temps.Key = "emn_temps"
+        emn_temps.Value = Temps
+
+    setting.Tags.append(emn_temps)
     renameRequest = requests.put(basePath + "/" + rename[1], data=json.dumps(setting.__dict__), headers=headers)
     handleHttpResponse(renameRequest, "Could not rename " + rename[1])
 
@@ -110,25 +120,45 @@ for modification in modifications:
         JSONData = f.read()
 
     setting.JSONData = JSONData
+    
+    temps = y2n.getTemps(json.loads(JSONData))
+    if temps is not None:
+        emn_temps = Tag()
+        emn_temps.Key = "emn_temps"
+        emn_temps.Value = Temps
 
+    setting.Tags.append(emn_temps)
     updateRequest = requests.put(basePath + "/" + modification[1], data=json.dumps(setting.__dict__), headers=headers)
     handleHttpResponse(updateRequest, "Could not update " + modification[1])
 
+_sp = None 
 
 for addition in additions:
-    print(addition)
-    print("adding " + addition[1])
+    #print(addition)
+    #print("adding " + addition[1])
     # need to build the json here
     setting = Defect()
     setting.settingPath = addition[1]
 
-    print(addition[1])
+    #print(addition[1])
     with open(addition[1], 'r') as f:
         JSONData = f.read()
 
     setting.JSONData = JSONData
 
+    sp = '/'.join(addition[1].split('/')[:-1])
+    if sp != _sp:
+        _sp = sp
+        print( sp)
+    
+    temps = y2n.getTemps(json.loads(JSONData))
+    if temps is not None:
+        emn_temps = Tag()
+        emn_temps.Key = "emn_temps"
+        emn_temps.Value = temps
+
     print(json.dumps(setting.__dict__))
+    #print('\t', addition[1].split('/')[-1],temps)
     additionRequest = requests.post(basePath, data=json.dumps(setting.__dict__), headers=headers)
     handleHttpResponse(additionRequest, "Could not create " + addition[1] )
 
