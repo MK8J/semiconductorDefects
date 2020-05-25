@@ -132,6 +132,7 @@ for modification in modifications:
     handleHttpResponse(updateRequest, "Could not update " + modification[1])
 
 _sp = None 
+e_r = np.array([1,10,100,1000])
 
 for addition in additions:
     #print(addition)
@@ -147,15 +148,31 @@ for addition in additions:
     setting.JSONData = JSONData
 
     sp = '/'.join(addition[1].split('/')[:-1])
+
+    # this prints out the folders I'm acessing
     if sp != _sp:
         _sp = sp
         print( sp)
     
     temps = y2n.getTemps(json.loads(JSONData))
+
+
     if temps is not None:
         emn_temps = Tag()
         emn_temps.Key = "emn_temps"
         emn_temps.Value = temps
+
+        # from this data, calculate the activation energy
+        # and the y intercept
+        inter, Ed = y2n.get_DLTS_params(temps, e_r)
+
+        DLTS_params = {}
+        DLTS_params['int'] = inter
+        DLTS_params['Ed_a'] = Ed
+
+        dlts_params = Tag()
+        dlts_params.key = "DLTS_params"
+        dlts_params.Value = json.dumps(DLTS_params)
 
     print(json.dumps(setting.__dict__))
     #print('\t', addition[1].split('/')[-1],temps)

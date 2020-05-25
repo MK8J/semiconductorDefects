@@ -152,6 +152,41 @@ def check_temps():
         addTemps(json.loads(cont))
         print('', end=('\r'))
 
+def get_DLTS_params(temp, e_r):
+   '''
+   Determines the energy level and arhenious y-int from
+   emission rate data by performing a linear fit to 
+   the log of the emission rate divided by the temperature squared 
+   versus inverse temprature:
+
+       $ ln(e/T^2) = ln(int) + q/kT -Ed $
+   Where int and Ed are found. 
+
+   inputs
+   -------
+   temp: (array like)
+        A list of temperatures in Kelvin
+   e_r: (array like)
+        A list of emission rates in 1/s
+
+   returns
+   -------
+   inter:
+        the y-intercept of the arhenious plot, with units /sK^2
+   Activation energy:
+        The activation energy of the defect
+   '''
+   A = C.e/C.k
+
+   Ed, inter  = np.polyfit(A/temp, np.log(e_r/temp**2), 1)
+
+   # limits the y-intercept to three sig fig
+   sigfig=3
+   inter = np.exp(inter)
+   inter = round(inter, -1*int(np.log10(inter)//1-sigfig+1)) 
+
+   return  inter, round(Ed,3)
+
 
 def getTemps(JSONdata):
     '''
