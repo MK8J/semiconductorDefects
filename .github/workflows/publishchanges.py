@@ -4,6 +4,7 @@ import argparse
 import json
 import requests
 import yaml2new as y2n # tempory
+import numpy as np
 
 parser = argparse.ArgumentParser(description='Process repository changes')
 parser.add_argument('-c', '--changes', required=True, help='a list of changes')
@@ -12,16 +13,18 @@ parser.add_argument('-p', '--password', required=True, help='password for login'
 
 
 args = parser.parse_args()
+print(args)
 
-class Tag:
-    Key = ''
-    Value = ''
+#class Tag:
+#    Key = ''
+#    Value = ''
 
 class Defect:
     settingId = ''
     settingPath = ''
-    Tags = [] # This is a list of tags
     JSONData = ''
+    def __init__(self):
+        self.Tags = {} # This is a dic of tags. Each key should only have one value
 
 changeslist = args.changes.splitlines()
 # A: addition of a file
@@ -150,6 +153,7 @@ for addition in additions:
     sp = '/'.join(addition[1].split('/')[:-1])
 
     # this prints out the folders I'm acessing
+    print('\n\n')
     if sp != _sp:
         _sp = sp
         print( sp)
@@ -158,24 +162,26 @@ for addition in additions:
 
 
     if temps is not None:
-        emn_temps = Tag()
-        emn_temps.Key = "emn_temps"
-        emn_temps.Value = temps
+        emn_temps = {'t{0}'.format(i+1):'{0:.1f}'.format(t) for i,t in enumerate(temps)}
 
         # from this data, calculate the activation energy
         # and the y intercept
-        inter, Ed = y2n.get_DLTS_params(temps, e_r)
+        if type(temps)==list:
+            #print(temps, e_r)
+            inter, Ed = y2n.get_DLTS_params(temps, e_r)
 
-        DLTS_params = {}
-        DLTS_params['int'] = inter
-        DLTS_params['Ed_a'] = Ed
+            DLTS_params = {}
+            DLTS_params['inter'] = str(inter)
+            DLTS_params['Ed_a'] = str(Ed)
 
-        dlts_params = Tag()
-        dlts_params.key = "DLTS_params"
-        dlts_params.Value = json.dumps(DLTS_params)
+            setting.Tags.update(emn_temps)
+            setting.Tags.update(DLTS_params)
+            #print(len(setting.Tags), 'HERE')
 
     print(json.dumps(setting.__dict__))
+    #print(setting.__dict__.keys())
     #print('\t', addition[1].split('/')[-1],temps)
-    additionRequest = requests.post(basePath, data=json.dumps(setting.__dict__), headers=headers)
-    handleHttpResponse(additionRequest, "Could not create " + addition[1] )
+    #commented out to stop sending data ATM
+    #additionRequest = requests.post(basePath, data=json.dumps(setting.__dict__), headers=headers)
+    #handleHttpResponse(additionRequest, "Could not create " + addition[1] )
 

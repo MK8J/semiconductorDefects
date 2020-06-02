@@ -176,6 +176,10 @@ def get_DLTS_params(temp, e_r):
    Activation energy:
         The activation energy of the defect
    '''
+   
+   temp = np.array(temp)
+   e_r = np.array(e_r)
+
    A = C.e/C.k
 
    Ed, inter  = np.polyfit(A/temp, np.log(e_r/temp**2), 1)
