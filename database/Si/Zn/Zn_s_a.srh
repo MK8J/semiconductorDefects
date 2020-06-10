@@ -70,20 +70,6 @@ milnes1973:
   params:
     Ed: Ev+0.31
 
-lemke1987:
-  title: Störstellenreaktionen in den Randschichtbereichen von Si-Kristallen mit Zn- und Pt-Dotierung
-  DOI: 10.1002/pssa.2211010122
-  measurement_technique: DLTS-Cr
-  comments: Saw two other levels which interact with the Zn levels, depending on annealing temeprature. The value published in his paper for the energy level 0.61 eV. This has not had the T^2 dependence accounted for. The values below are taken from a digitisation of Figure 1. The aquired data provided a slope of -0.318, close to the -0.31 value provided in his paper. It was also confirmed that accounting for the T^2 dependenced provided a betting R^2 value.  
-  sample:
-    dopant: boron, phosphorous
-    incorporation: thermal
-  rates:
-    e_h: 7.55e7 * T^2* exp(-0.293/kT)
-    c_h: '>3e-8'
-  params:
-    Ed_a: Ev+0.293
-
 chen1980:
   title: Energy Levels in Silicon
   DOI: 10.1146/annurev.ms.10.080180.001105
@@ -102,14 +88,14 @@ sah1981:
     incorporation: thermal
   rates:
     e_h: 7.4e12 * (T/300)^(-1)* exp(-0.326/kT)
-    c_e: 2.25e-8/2.046e7
-    c_h: 5e-8/1.688e7
+    c_e: 2.25e-8
+    c_h: 5e-8
   params:
     Ed_a: Ev+0.297
     dEd_a: 0.001
     Ed: Ei-0.271
-    sigma_e: 9.78e-16
-    sigma_h: 2.96e-15
+    sigma_e: 1.125e-15 
+    sigma_h: 2.97e-15
 
 wang1984a:
   title: Electron capture at the two acceptor levels of a zinc center in silicon
@@ -127,8 +113,28 @@ wang1984a:
   params:
     Ed_a: Ev+0.326
     Ed: Ei-0.274
-    sigma_e: 1.12e-15
-    sigma_h: 2.9e-15
+    sigma_e: 1.08e-15
+    sigma_h: 2.92e-15
+
+lemke1987:
+  title: "St\xF6rstellenreaktionen in den Randschichtbereichen von Si-Kristallen mit\
+    \ Zn- und Pt-Dotierung"
+  DOI: 10.1002/pssa.2211010122
+  measurement_technique: DLTS-Cr
+  comments: Saw two other levels which interact with the Zn levels, depending on annealing
+    temeprature. The value published in his paper for the energy level 0.61 eV. This
+    has not had the T^2 dependence accounted for. The values below are taken from
+    a digitisation of Figure 1. The aquired data provided a slope of -0.318, close
+    to the -0.31 value provided in his paper. It was also confirmed that accounting
+    for the T^2 dependenced provided a betting R^2 value.
+  sample:
+    dopant: boron, phosphorous
+    incorporation: thermal
+  rates:
+    e_h: 7.55e7 * T^2* exp(-0.293/kT)
+    c_h: '>3e-8'
+  params:
+    Ed_a: Ev+0.293
 
 graff1995:
   title: Metal impurities in silicon-device fabrication

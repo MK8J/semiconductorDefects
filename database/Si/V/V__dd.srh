@@ -18,11 +18,13 @@ lemke1981a:
   DOI: 10.1002/pssa.2210640219
   measurement_technique: DLTS-Cr, TS-C
   linked: V_i_dd.srh
-  comments: Provides the capture cross section for holes, assumed thermal velocity
+  comments: Provides the capture cross section for holes at 90 K, assumed thermal velocity
     of 1e7.
   sample:
     dopant: boron
     incorporation: diffusion
+  rates:
+    c_h: 1e-13
   params:
     Ed_a: Ev+0.47
     Ed_h: Ev+0.31
