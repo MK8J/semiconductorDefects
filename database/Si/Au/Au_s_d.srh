@@ -73,10 +73,10 @@ pals1974:
     dopant: boron
     incorporation: thermal
   rates:
-    e_e: 1/6.3e-9*exp(-0.346/kT)*T^2
+    e_e: 6.3e-9*exp(-0.346/kT)*T^2
   params:
     Ed_a: Ev+0.346
-    sigma_ha: 1.6e-13
+    sigma_h: 1.6e-15
 
 brotherton1980:
   title: Electron and Hole Capture at Au and Pt Centers in Silicon
