@@ -19,16 +19,16 @@ pals1974:
   title: Properties of Au, Pt, Pd and Rh levels in silicon measured with a constant
     capacitance technique
   DOI: 10.1016/0038-1101(74)90157-9
-  measurement_technique: DLTS-Cc
+  measurement_technique: DLTS-CcCr
   comments: 100 K
   sample:
     dopant: phosphorus
     incorporation: thermal
   rates:
-    e_e: 1/7.35e-8*exp(-0.23/kT)*T^2
+    e_e: 7.54e-8*exp(-0.23/kT)*T^2
   params:
     Ed_a: Ec-0.23
-    sigma_ea: 5e-13
+    sigma_e: 5e-15
 
 pugnet1976:
   title: Energy levels for platinum and palladium in silicon measured by the dark

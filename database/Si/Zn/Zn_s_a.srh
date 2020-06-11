@@ -88,13 +88,13 @@ sah1981:
     incorporation: thermal
   rates:
     e_h: 7.4e12 * (T/300)^(-1)* exp(-0.326/kT)
-    c_e: 2.25e-8
+    c_e: 2.25e-08
     c_h: 5e-8
   params:
     Ed_a: Ev+0.297
     dEd_a: 0.001
     Ed: Ei-0.271
-    sigma_e: 1.125e-15 
+    sigma_e: 1.125e-15
     sigma_h: 2.97e-15
 
 wang1984a:

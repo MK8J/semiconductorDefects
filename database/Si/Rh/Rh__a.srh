@@ -3,16 +3,16 @@ pals1974:
   title: Properties of Au, Pt, Pd and Rh levels in silicon measured with a constant
     capacitance technique
   DOI: 10.1016/0038-1101(74)90157-9
-  measurement_technique: DLTS-Cc
+  measurement_technique: DLTS-CcCr
   comments: 120 K
   sample:
     dopant: phosphorus
     incorporation: thermal
   rates:
-    e_e: 1/5.72e-9*exp(-0.315/kT)*T^2
+    e_e: 5.72e-9*exp(-0.315/kT)*T^2
   params:
     Ed_a: Ec-0.315
-    sigma_ea: 6.3e-13
+    sigma_e: 6.3e-15
 
 lisiak1976:
   title: Rhodium and iridium as deep impurities in silicon
@@ -43,7 +43,7 @@ lemke1994:
   title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
     Zone Technique
   ISBN: 978-1-56677-042-2
-  measurement_technique: DLTS-Me, TS-C
+  measurement_technique: DLTS-MeCr, TS-C
   linked: Rh_s_a.srh
   comments: Assumed thermal velocity of 1e7 measured at 150K
   sample:
@@ -52,6 +52,8 @@ lemke1994:
     incorporation: diffusion
   measurement_details:
     T: 150.0
+  rates:
+    c_e: '>3e-8'
   params:
     Ed_a: Ec-0.31
-    sigma_ea: '>3/1e7/1e8'
+    sigma_ea: '>3e-8/1e7'

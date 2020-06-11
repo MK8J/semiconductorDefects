@@ -16,7 +16,7 @@ tilly1991a:
     dopant: boron, phosphorus
     incorporation: ion implantation
   measurement_details:
-    single_shot: True
+    single_shot: true
   params:
     Ed_a: Ev+0.447
     Ed_h: Ev+0.359

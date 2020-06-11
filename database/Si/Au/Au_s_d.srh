@@ -67,7 +67,7 @@ pals1974:
   title: Properties of Au, Pt, Pd and Rh levels in silicon measured with a constant
     capacitance technique
   DOI: 10.1016/0038-1101(74)90157-9
-  measurement_technique: DLTS-Cc
+  measurement_technique: DLTS-CcCr
   comments: 135 K
   sample:
     dopant: boron
@@ -84,7 +84,7 @@ brotherton1980:
   measurement_technique: DLTS-Cr
   sample:
     dopant: boron
-    incorporation: thermal  
+    incorporation: thermal
     resistivity: 1000
   params:
     Ed_a: Ev+0.340

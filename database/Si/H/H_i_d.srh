@@ -8,6 +8,8 @@ irmscher1984:
     evaluated at 80 K.
   rates:
     e_e: 2.3e13 * exp(-0.18/kT)
+    c_e: 1e-8
+    c_h: 2e-7
   params:
     Ed_a: Ec-0.20
     sigma_ea: 2e-7/1.2e7
