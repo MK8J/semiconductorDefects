@@ -82,6 +82,8 @@ lemke1986:
     dopant: boron, phosphorus
     incorporation: thermal
     resistivity: 50,20
+  rates:
+    c_e: 1.3e-9
   params:
     Ed_a: Ec-0.57
 

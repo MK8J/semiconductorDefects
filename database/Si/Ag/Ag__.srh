@@ -26,6 +26,20 @@ graff1981a_1:
     Ed_h: Ev+0.36
     sigma_ha: 3.6e-16
 
+pearton1984:
+  title: Electrical properties of deep silver- and iron-related centres in silicon
+  DOI: 10.1088/0022-3719/17/36/023
+  measurement_technique: DLTS-Cr
+  comments: Says is silver, but unlikely
+  sample:
+    dopant: boron, phosphorus
+    incorporation: thermal
+    resistivity: 7
+  params:
+    Ed_a: Ev+0.29
+    sigma_e: 9e-18
+
+
 tavendale1983:
   title: Deep level, quenched-in defects in silicon doped with gold, silver, iron,
     copper or nickel

@@ -65,7 +65,6 @@ lemke1986:
   DOI: 10.1002/pssa.2210940171
   measurement_technique: DLTS
   linked: Ag_s_d.srh
-  comments: measurement data taken from laplace DLTS database
   sample:
     growth: FZ
     dopant: boron, phosphorus
@@ -74,6 +73,8 @@ lemke1986:
   measurement_data:
     T: 141.1,152.4,165.7,181.4
     e: 1,10,100,1000
+  rates:
+    c_h: 1e-8
   params:
     Ed_a: Ev+0.39
 
