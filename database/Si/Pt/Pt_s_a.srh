@@ -42,6 +42,17 @@ pugnet1976:
     dEd_a: 0.002
     sigma_ea: 3.9e-14
 
+pearton1983:
+  title: Palladium‐ and platinum‐related levels in silicon: Effect of a hydrogen plasma
+  DOI: 10.1063/1.119899
+  measurement_technique: DLTS
+  sample:
+    dopant: boron
+    incorporation: thermal
+  params:
+    Ed_a: Ec-0.28
+    sigma_ea: 3e-16
+
 graff1995:
   title: Metal impurities in silicon-device fabrication
   DOI: 10.1007/978-3-642-97593-6

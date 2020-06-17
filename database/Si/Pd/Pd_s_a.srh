@@ -40,3 +40,17 @@ chen1980:
   params:
     Ed: Ec-0.22
     sigma_e: 0.0000000027/2e7
+
+pearton1983:
+  title: Palladium‐ and platinum‐related levels in silicon: Effect of a hydrogen plasma
+  DOI: 10.1063/1.119899
+  measurement_technique: DLTS
+  sample:
+    dopant: boron
+    incorporation: thermal
+  comments: Assumed a typo in paper, for cross section. Paper lists 2e-4
+  measurement_details:
+    T: 80
+  params:
+    Ed_a: Ec-0.22
+    sigma_ea: 2e-14
