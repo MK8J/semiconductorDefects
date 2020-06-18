@@ -43,16 +43,12 @@ jobs:
     - name: update github actions
       run: |
         git checkout master -- database
-        echo "checked out"
         cd database/Si/ # to only to the Ti folder for now
-        echo "enterd directory"
+        shopt -s extglob 
         rm -r !(Ti) # to only to tre Ti folder for now
-        echo "removed all other folders"
         cd ..
         cd ..
-        echo "here"
         python .github/workflows/yaml2new.py
-        echo "here"
         git add -A
 
     - name: run python

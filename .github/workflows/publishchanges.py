@@ -178,10 +178,10 @@ for addition in additions:
             setting.Tags.update(DLTS_params)
             #print(len(setting.Tags), 'HERE')
 
-    print(json.dumps(setting.__dict__))
+    #print(json.dumps(setting.__dict__))
     #print(setting.__dict__.keys())
     #print('\t', addition[1].split('/')[-1],temps)
     #commented out to stop sending data ATM
-    #additionRequest = requests.post(basePath, data=json.dumps(setting.__dict__), headers=headers)
-    #handleHttpResponse(additionRequest, "Could not create " + addition[1] )
+    additionRequest = requests.post(basePath, data=json.dumps(setting.__dict__), headers=headers)
+    handleHttpResponse(additionRequest, "Could not create " + addition[1] )
 
