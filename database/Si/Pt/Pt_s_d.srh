@@ -35,8 +35,8 @@ pugnet1976:
     sigma_ea: 8.8e-15
 
 pearton1983:
-  title: Palladium‐ and platinum‐related levels in silicon: Effect of a hydrogen plasma
-  DOI: 10.1063/1.119899
+  title: "Palladium‐ and platinum‐related levels in silicon: Effect of a hydrogen plasma"
+  DOI: 10.1063/1.332398
   measurement_technique: DLTS
   sample:
     dopant: boron
