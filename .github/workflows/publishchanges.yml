@@ -39,7 +39,9 @@ jobs:
 
     - name: Install dependencies
       #run: python -m pip install PyYAML requests scipy
-      run: python -m pip install -r ./.github/workflowsrequirements.txt
+      run: |
+      ls
+      python -m pip install -r ./.github/workflowsrequirements.txt
           
     - name: update github actions
       run: |
