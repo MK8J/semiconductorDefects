@@ -4,10 +4,11 @@ images
 *~
 *ipynb
 *.png
+**.DS_store
 
 *
 !*/
-!/database/
+!/database/**
 !README.md
 !/.github/workflows/*
 

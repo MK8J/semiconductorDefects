@@ -112,9 +112,9 @@ is the same as used within the repository, e.g. plain text:
 
   - Ed: (E<sub>d</sub>) The energy level, or Gibb’s free energy of the
     defect. It accounts for the change in entropy of the defect:
-    
+
     *E<sub>d</sub> = E<sub>d,h</sub> - T×ΔS*
-    
+
     The energy level can be calculated directly from the emission and
     capture rates.
 
@@ -246,7 +246,7 @@ options:
 
 The choices for incorporation are:
 
-``` 
+```
  * ion implantation: as the name suggests
  * ingot: This means it is incorporated during ingot growth
  * thermal: This means it is incorporated into the wafter with a thermal step
