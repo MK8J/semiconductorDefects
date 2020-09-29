@@ -6,7 +6,7 @@ name: PublishChanges
 # events but only for the master branch
 on:
   push:
-    branches: [ github_actions ]
+    branches: [ master ]
   # pull_request:
   #   branches: [ github_actions ]
 
@@ -21,7 +21,7 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-    
+
     # - name: Setup Python
     #   uses: actions/setup-python@v1
     #   with:
@@ -44,7 +44,7 @@ jobs:
       run: |
         git checkout master -- database
         cd database/Si/ # to only to the Ti folder for now
-        shopt -s extglob 
+        shopt -s extglob
         rm -r !(Ti) # to only to tre Ti folder for now
         cd ..
         cd ..
@@ -52,11 +52,9 @@ jobs:
         git add -A
 
     - name: run python
-      env: 
+      env:
         USERNAME: ${{ secrets.defects_username }}
         PASSWORD: ${{ secrets.defects_password }}
-      run: |      
+      run: |
         CHANGES=$(git diff --name-status @{upstream} database )
         python .github/workflows/publishchanges.py -c "$CHANGES" -u $USERNAME -p $PASSWORD
-        
-
