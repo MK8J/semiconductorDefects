@@ -6,7 +6,7 @@ name: PublishChanges
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [ github_actions ]
   # pull_request:
   #   branches: [ github_actions ]
 
