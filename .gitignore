@@ -7,7 +7,7 @@ images
 
 *
 !*/
-!/database/*/*/*/*.srh
+!/database/
 !README.md
 !/.github/workflows/*
 
