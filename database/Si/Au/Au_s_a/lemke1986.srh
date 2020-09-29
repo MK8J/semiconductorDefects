@@ -1,0 +1,17 @@
+{
+    "title": "Dotierungseigenschaften von Silber in Silizium",
+    "DOI": "10.1002/pssa.2210940171",
+    "measurement_technique": "DLTS",
+    "linked": "Au_s_a.srh",
+    "comments": "assume value for thermal velocity of 2e7",
+    "sample": {
+        "growth": "FZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "thermal",
+        "resistivity": "50,20"
+    },
+    "params": {
+        "Ed_a": "Ec-0.57",
+        "sigma_ea": "1.6e-9/2e7"
+    }
+}
