@@ -111,11 +111,7 @@ def createNewFiles(folder, fnames):
 
         # makes the folder if
         if not os.path.exists(_folder):
-            dfr = ''
-            for f in folder.split(os.sep):
-                fdr += os.sep + f
-                if not os.path.exists(fdr)
-                os.mkdir(fdr)
+            os.mkdir(_folder)
 
         path = os.path.join(_folder, fname[0])
         with open(path, 'w+') as f:
