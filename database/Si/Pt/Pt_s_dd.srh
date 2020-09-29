@@ -1,0 +1,10 @@
+
+graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from table 4.10. DLTS done at a temperature of 50K
+  params:
+    Ed_h: Ev+0.08
+    dEd_h: 0.01
+    sigma_h: '3.5e-17'

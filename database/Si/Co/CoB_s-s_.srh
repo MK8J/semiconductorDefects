@@ -1,0 +1,10 @@
+
+scheffler2012:
+  title: A re-examination of cobalt-related defects in n- and p-type silicon
+  DOI: 10.1002/pssa.201200140
+  measurement_technique: DLTS
+  comments: This is an activation enthalpy and apparent capture cross section. Anneals
+    out at 395 K
+  params:
+    Ed_a: Ev+0.46
+    sigma_ha: 3.7e-15

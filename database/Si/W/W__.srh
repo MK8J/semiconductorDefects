@@ -1,0 +1,31 @@
+
+ando1991:
+  title: "Deep\u2010level transient spectroscopy on p\u2010type silicon crystals containing\
+    \ tungsten impurities"
+  DOI: 10.1063/1.350196
+  measurement_technique: DLTS
+  sample:
+    growth: CZ
+    dopant: boron
+    incorporation: melt, thermal
+    resistivity: 0.1
+  measurement_details:
+    T: 220
+  params:
+    Ed_a: Ev+0.4
+
+diez2005:
+  title: Analysing defects in silicon by temperature- and injection-dependent lifetime
+    spectroscopy (T-IDLS)
+  ISBN: 3-936338-20-5
+  measurement_technique: LS-IT
+  comments: Activation energy of the capture cross section of 17 meV, e.g. proportional
+    to exp(-0.017/kT)
+  sample:
+    growth: CZ
+    dopant: boron
+    incorporation: melt
+  params:
+    Ed: Ev+0.34
+    dEd: 0.02
+    k: 9.6

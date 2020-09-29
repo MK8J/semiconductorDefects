@@ -1,0 +1,270 @@
+
+collins1957a:
+  title: Properties of Silicon Doped with Iron or Copper
+  DOI: 10.1103/PhysRev.108.1409
+  measurement_technique: Hall, LS
+  comments: capture cross sections from lifetime data.
+  params:
+    Ed: Ev+0.4
+    sigma_h: 3e-16
+
+gerson1977:
+  title: A quenched-in defect in boron-doped silicon
+  DOI: 10.1063/1.323505
+  measurement_technique: DLTS
+  sample:
+    growth: FZ, CZ
+    dopant: boron
+    resistivity: 1-100
+  params:
+    Ed_a: Ev+0.45
+    sigma_ha: 4e-18
+
+davis1980:
+  title: Impurities in silicon solar cells
+  DOI: 10.1109/T-ED.1980.19922
+  measurement_technique: DLTS, SCP
+  sample:
+    growth: CZ
+    dopant: boron, phosphorus
+    incorporation: melt
+  params:
+    Ed_a: Ev+0.4
+    dEd_a: 0.04
+
+graff1981:
+  title: The Properties of Iron in Silicon
+  DOI: 10.1149/1.2127478
+  measurement_technique: DLTS, FTIR
+  comments: FTIR at 25 K, No Fe peak found. Rate measured at 260 K
+  sample:
+    growth: CZ, FZ
+    dopant: aluminium, boron, phosphorus
+    incorporation: thermal
+    resistivity: 1-100
+  rates:
+    e_h: 0.0014
+  params:
+    Ed_a: Ev+0.43
+
+lemke1981:
+  title: Dotierungseigenschaften von Eisen in Silizium
+  DOI: 10.1002/pssa.2210640123
+  measurement_technique: DLTS-CrMe, TS-C
+  comments: Capture cross sections manually extracted from figure, rates from digitisation
+    of figure 10.
+  rates:
+    e_h: 2121999 * T^2 * exp(-0.435/kT)
+  params:
+    Ed_a: Ev+0.43
+    Ed_h: Ev+0.39
+    sigma_e: 1.03e-10*T^(-1.506)
+    sigma_h: 7.86e-20*exp(0.0221*T)+1.78e-17
+
+wunstel1981:
+  title: Iron-related deep levels in silicon
+  DOI: 10.1016/0038-1098(81)90116-2
+  measurement_technique: DLTS-Cr
+  sample:
+    growth: FZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 0.3-100
+  params:
+    Ed_a: Ev+0.43
+    Ed_h: Ev+0.39
+
+wunstel1982:
+  title: Interstitial iron and iron-acceptor pairs in silicon
+  DOI: 10.1007/BF00619081
+  measurement_technique: Hall
+  sample:
+    growth: FZ
+    dopant: aluminium, boron, gallium
+    incorporation: thermal
+    resistivity: 0.3-100
+  params:
+    Ed_h: Ev+0.39
+
+wunstel1982_1:
+  title: Interstitial iron and iron-acceptor pairs in silicon
+  DOI: 10.1007/BF00619081
+  measurement_technique: DLTS-Cr
+  sample:
+    growth: FZ
+    dopant: aluminium, boron, gallium
+    incorporation: thermal
+    resistivity: 0.3-100
+  rates:
+    e_h: 1.603e6*T^2*exp(-0.43/kT)
+  params:
+    Ed_h: Ev+0.39
+    dEd_h: 0.02
+    sigma_h: 1.6e-16*exp(-0.043/k/T)
+
+tavendale1983:
+  title: Deep level, quenched-in defects in silicon doped with gold, silver, iron,
+    copper or nickel
+  DOI: 10.1088/0022-3719/16/9/011
+  measurement_technique: DLTS-Cr
+  linked: Fe_i_d.srh
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    resistivity: 20
+  params:
+    Ed_a: Ev+0.39
+    sigma_h: 3.0e-17
+
+weber1983:
+  title: Transition metals in silicon
+  DOI: 10.1007/BF00617708
+  measurement_technique: review
+  params:
+    Ed: Ev+0.385
+
+brotherton1985:
+  title: Iron and the iron-boron complex in silicon
+  DOI: 10.1063/1.335468
+  measurement_technique: DLTS-Cr
+  comments: emission rate taken from digitization of graph.
+  sample:
+    growth: CZ, FZ
+    dopant: boron, phosphorus
+    resistivity: 30,100
+  rates:
+    e_h: 766021*T^2*exp(-0.419/kT)
+  params:
+    Ed_a: Ev+0.419
+    Ed_h: Ev+0.37
+    sigma_h: 5.6e-16*exp(-0.048/kT)
+
+hangleiter1987:
+  title: 'Nonradiative recombination via deep impurity levels in silicon: Experiment'
+  DOI: 10.1103/PhysRevB.35.9149
+  measurement_technique: luminescence,
+  comments: To put data in the data a thermal velocity of (2e7 *(T/300)^(0.5)). "The
+    hole-capture coefficient of Fe determined from the carrier lifetime in n-type
+    Si at 300 K is more than 10 times larger than the value measured with DLTS. Puts
+    this down to different capture mechanisms in forward and reverse bias.
+  params:
+    sigma_h: 2e-8*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))
+
+zoth1990:
+  title: A fast, preparation-free method to detect iron in silicon
+  DOI: 10.1063/1.345063
+  measurement_technique: SPV
+  comments: Value at 300 K.
+  rates:
+    c_e: 5.5e-07
+  params:
+    sigma_e: 3.26e-14
+
+gao1991:
+  title: Annealing and profile of interstitial iron in boron-doped silicon
+  DOI: 10.1063/1.106103
+  measurement_technique: DLTS
+  comments: catpure cross section determined at 250 K
+  sample:
+    growth: FZ
+    dopant: boron
+  params:
+    Ed_a: Ev+0.43
+    sigma_ha: 2.7e-17
+
+nakashima1994:
+  title: Diffusion and electrical properties of 3d transition-metal impurity series
+    in silicon
+  DOI: 10.4028/www.scientific.net/MSF.143-147.761
+  measurement_technique: DLTS
+  sample:
+    growth: FZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 10
+  params:
+    Ed_a: Ev+0.438
+    Ed_h: Ev+0.40
+    sigma_h: 1.8e-16*exp(-0.038/k/T)
+
+graff1995:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix and equation 4.5.
+  params:
+    Ed_h: Ev+0.38
+    sigma_h: 3E-16 * exp(-0.05/kT)
+
+istratov1999:
+  title: Iron and its complexes in silicon
+  DOI: 10.1007/s003390050968
+  measurement_technique: DLTS-Cr, Hall, PhCap, EPR
+  comments: Data from a review paper, taking many measurements at a range of temperatures.
+    Points out DLTS is impact by capture cross section barrier heights, while EPR  and
+    hall affect measurements are not. The error in sigma_h was 0.5e16 and  0.005 for
+    the temperature dependent exponent.
+  params:
+    Ed_a: Ev+0.425
+    Ed_h: Ev+0.38
+    sigma_e: 4e-14
+    sigma_h: 3.9e-16 * exp(-0.045/kT)
+
+graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_h: Ev+0.39
+    dEd_h: 0.01
+    sigma_e: 1e-10 * T^(-1.5)
+    sigma_h: 2.80E-16 * exp(-0.043/kT)
+
+rein2005:
+  title: Electronic properties of interstitial iron and iron-boron pairs determined  by
+    means of advanced lifetime spectroscopy
+  DOI: 10.1063/1.2106017
+  measurement_technique: LS-TI
+  comments: k determined only at room temperature.
+  params:
+    Ed: Ev+0.394
+    dEd: 0.005
+    sigma_e: 9.1e-15 * exp(-0.024/kT)
+    k: '51.0'
+    dk: 5
+
+macdonald2008:
+  title: Imaging interstitial iron concentrations in boron-doped crystalline silicon
+    using photoluminescence
+  DOI: 10.1063/1.2903895
+  measurement_technique: LS
+  comments: Performed at room temperature
+  params:
+    sigma_e: 1.3e-14
+
+paudyal2009:
+  title: Temperature Dependent Electron and Hole Capture Cross Sections of Iron-Contaminated
+    Boron-Doped Silicon
+  DOI: 10.1109/PVSC.2009.5411380
+  measurement_technique: LS-IT
+  params:
+    sigma_e: 3.47e-11*T^(-1.48)
+    sigma_h: 4.54e-16*exp(-0.05/kT)
+
+naerland2017:
+  title: On the recombination centers of iron-gallium pairs in Ga-doped silicon
+  DOI: 10.1063/1.5000358
+  measurement_technique: LS-TI
+  sample:
+    dopant: gallium
+    incorporation: melt
+    resistivity: '1'
+  params:
+    Ed: Ev+0.43
+    dEd: '0.03'
+    k: '327'
+    dk: -93, 112

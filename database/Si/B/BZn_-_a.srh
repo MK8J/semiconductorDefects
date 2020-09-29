@@ -1,0 +1,11 @@
+
+herman1972:
+  title: Thermal Ionization Rates and Energies of Holes at the Double acceptor zinc
+    centers in silicon
+  DOI: 10.1002/pssa.2210140203
+  measurement_technique: DLTS, DC-T
+  sample:
+    dopant: boron, phosphorus
+    incorporation: thermal
+  params:
+    Ed_a: Ev+0.167

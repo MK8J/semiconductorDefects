@@ -1,0 +1,74 @@
+
+shiraishi1999:
+  title: DLTS analysis of nickel_hydrogen complex defects in silicon
+  DOI: 10.1016/S0921-5107(98)00280-3
+  measurement_technique: DLTS-Cr
+  sample:
+    growth: CZ, FZ
+    dopant: boron
+    incorporation: melt, diffusion
+    resistivity: 1-100
+  measurement_details:
+    T: 75.0
+    Rw: 0.024 s
+  params:
+    Ed_a: Ev+0.15
+    Ed_h: Ev+0.15
+    Ed: Ev+0.145
+    sigma_ha: 4.3e-15
+    sigma_h: 2.2e-15
+
+graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ev+0.17
+    sigma_ha: '5.4e-15'
+
+graff2000_1:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from table 4.6.
+  params:
+    Ed_a: Ev+0.17
+    dEd_a: 0.02
+    sigma_ha: 1.1e-15
+
+rein2005a:
+  title: Lifetime Spectroscopy A Method of Defect Characterization in Silicon for
+    Photovoltaic Applications
+  DOI: 10.1007/3-540-27922-9
+  measurement_technique: LS-ITD
+  comments: Temperature dependence of sigma T^-2.5. sigma_e taken from graff2000_1
+  params:
+    Ed: Ev+0.189
+    dEd: 0.05
+    k: '3500.0'
+    dk: 2610, 9400
+
+scheffler2014:
+  title: Electrical levels in nickel doped silicon
+  DOI: 10.1063/1.4901003
+  measurement_technique: DLTS-L
+  comments: Out at 500 K for 20 min
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: melt, diffusion
+    resistivity: '1000'
+  measurement_details:
+    T: 80.0
+    Ur: -2 V
+    Up: 0 V
+    tp: 1 ms
+    Rw: 0.021 s
+  params:
+    Ed_a: Ev+0.16
+    sigma_ha: 1.1e-14
+    dsigma_ha: 3.0e-15

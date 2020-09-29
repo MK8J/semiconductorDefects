@@ -1,0 +1,99 @@
+
+tokumaru1982:
+  title: Deep Levels Associated with Nitrogen in Silicon
+  DOI: 10.1143/JJAP.21.L443
+  measurement_technique: DLTS
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: melt
+    resistivity: 30,100
+  params:
+    Ed_a: Ec-0.19
+    sigma_ea: 8e-17
+
+tokumaru1982_1:
+  title: Deep Levels Associated with Nitrogen in Silicon
+  DOI: 10.1143/JJAP.21.L443
+  measurement_technique: DLTS
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: melt
+    resistivity: 30,100
+  params:
+    Ed_a: Ec-0.28
+    sigma_ea: 5e-16
+
+nauka1985:
+  title: Nitrogen-related deep electron traps in float zone silicon
+  DOI: 10.1063/1.96274
+  measurement_technique: DLTS
+  comments: Found in as grown material, disappears with anneals >1173 K
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: melt
+    resistivity: 220
+  params:
+    Ed_a: Ec-0.19
+    sigma_ea: 4e-15
+    dsigma_ea: 2e-15
+
+nauka1985_1:
+  title: Nitrogen-related deep electron traps in float zone silicon
+  DOI: 10.1063/1.96274
+  measurement_technique: DLTS
+  comments: Found in as grown material, disappears with anneals >1173 K
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: melt
+    resistivity: 220
+  params:
+    Ed_a: Ec-0.28
+    sigma_ea: 7e-14
+    dsigma_ea: 3e-14
+
+nauka1985_2:
+  title: Nitrogen-related deep electron traps in float zone silicon
+  DOI: 10.1063/1.96274
+  measurement_technique: DLTS
+  comments: Forms in nitrogen doped FZ after anneals >1173 K
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: melt
+    resistivity: 220
+  params:
+    Ed_a: Ec-0.58
+    dEd_a: 0.01
+    sigma_ea: 5e-14
+    dsigma_ea: 2e-14
+
+nauka1985_3:
+  title: Nitrogen-related deep electron traps in float zone silicon
+  DOI: 10.1063/1.96274
+  measurement_technique: DLTS
+  comments: Forms in nitrogen doped FZ after  anneals >1273 K
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: melt
+    resistivity: 220
+  params:
+    Ed_a: Ec-0.5
+
+murphy2006:
+  title: 'Nitrogen-Doped Silicon: Mechanical, Transport and Electrical Properties'
+  DOI: 10.1149/1.2355760
+  measurement_technique: DLTS
+  comments: Did not see Ec-0.19 as earlier papers.
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: melt
+    resistivity: 220
+  params:
+    Ed_a: Ec-0.5
+    sigma_ea: '>5e-14'

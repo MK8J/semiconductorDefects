@@ -1,0 +1,34 @@
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review
+  comments: Figure 2.1, questionable if is an acceptor and if the level exists
+  params: {}
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: 'review '
+  sample:
+    incorporation: ion implantation
+  params:
+    Ed: Ec-0.225
+
+chen1980_1:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: 'review '
+  sample:
+    incorporation: ion implantation
+  params:
+    Ed: Ec-0.485
+
+chen1980_2:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: 'review '
+  sample:
+    incorporation: thermal
+  params:
+    Ed: Ec-0.3

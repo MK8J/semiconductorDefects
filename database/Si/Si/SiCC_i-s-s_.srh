@@ -1,0 +1,11 @@
+
+asom1987:
+  title: Interstitial defect reactions in silicon
+  DOI: 10.1063/1.98465
+  measurement_technique: DLTS
+  comments: Metastable, stated that the existence is confirmed by optically detected
+    magneto resonance.
+  measurement_details:
+    T: 55 K
+  params:
+    Ed_a: Ec-0.1

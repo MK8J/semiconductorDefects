@@ -1,0 +1,11 @@
+
+fan1956:
+  title: Infra-red Absorption in Semiconductors
+  DOI: 10.1088/0034-4885/19/1/304
+  measurement_technique: review, infrared absorption
+  linked: B_s_a.srh
+  comments: Agrees well with thermal values of 0.045 eV. Data showed a broad peak,
+    so the hydrogenic model was used. The integrated absorption cross sections for
+    these excitation bands differ considerably from those for the hydrogenic model.
+  params:
+    Ed: Ev+0.046

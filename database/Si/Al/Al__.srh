@@ -1,0 +1,112 @@
+
+fan1956:
+  title: Infra-red Absorption in Semiconductors
+  DOI: 10.1088/0034-4885/19/1/304
+  measurement_technique: review, infrared absorption
+  linked: Al_s_a.srh
+  comments: The ionization energy was estimated using the observed excitation band
+    of highest energy. Higher than thermal value of Ev+0.057
+  params:
+    Ed: Ev+0.067
+
+marchand1977:
+  title: Study of thermally induced deep levels in Al doped Si
+  DOI: 10.1063/1.323383
+  measurement_technique: TS-I
+  comments: Maybe AlO, depends on electric field
+  sample:
+    growth: CZ
+    dopant: aluminium
+    resistivity: 1-100
+  rates:
+    e_h: 2.98e5*(T/300)^2*exp(-0.2166/kT)
+  params:
+    Ed_a: Ev+0.2166
+    sigma_ha: 3e-21
+
+marchand1977_1:
+  title: Study of thermally induced deep levels in Al doped Si
+  DOI: 10.1063/1.323383
+  measurement_technique: TS-I
+  comments: Maybe AlO, depends on electric field
+  sample:
+    growth: CZ
+    dopant: aluminium
+    resistivity: 1-100
+  rates:
+    e_h: 2.19e12*(T/300)^2*exp(-0.3166/kT)
+  params:
+    Ed_a: Ev+0.316
+
+marchand1977_2:
+  title: Study of thermally induced deep levels in Al doped Si
+  DOI: 10.1063/1.323383
+  measurement_technique: TS-I
+  comments: Maybe AlO, depends on electric field
+  sample:
+    growth: CZ
+    dopant: aluminium
+    resistivity: 1-100
+  rates:
+    e_h: 3.15e10*(T/300)^2*exp(-0.4022/kT)
+  params:
+    Ed_a: Ev+0.402
+
+marchand1977_3:
+  title: Study of thermally induced deep levels in Al doped Si
+  DOI: 10.1063/1.323383
+  measurement_technique: TS-I
+  comments: Maybe AlO
+  sample:
+    growth: CZ
+    dopant: aluminium
+    resistivity: 1-100
+  rates:
+    e_e: 1.62e9*(T/300)^2*exp(-0.3893/kT)
+  params:
+    Ed_a: Ec-0.389
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: review
+  sample:
+    incorporation: thermal
+  params:
+    Ed: Ev+0.47
+
+chen1980_1:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: review
+  sample:
+    incorporation: thermal
+  params:
+    Ed: Ev+0.43
+
+davis1980:
+  title: Impurities in silicon solar cells
+  DOI: 10.1109/T-ED.1980.19922
+  measurement_technique: DLTS, SCP
+  sample:
+    growth: CZ
+    dopant: boron, phosphorus
+    incorporation: melt
+  params:
+    Ed_a: Ev+0.43
+    dEd_a: 0.05
+    sigma_ea: 1.4e-14
+    sigma_ha: 5.7e-15
+    k: 2.5
+
+davis1980_1:
+  title: Impurities in silicon solar cells
+  DOI: 10.1109/T-ED.1980.19922
+  measurement_technique: DLTS, SCP
+  sample:
+    growth: CZ
+    dopant: boron, phosphorus
+    incorporation: melt
+  params:
+    Ed_a: Ev+0.47
+    dEd_a: 0.03

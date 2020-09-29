@@ -1,0 +1,72 @@
+
+yau1972a:
+  title: Measurement of trapped-minority-carrier thermal emission rates from Au, Ag,
+    and Co traps in silicon
+  DOI: 10.1063/1.1654324
+  measurement_technique: DLTS-Mo
+  linked: Co_s_d.srh
+  sample:
+    dopant: boron, phosphorus
+    incorporation: thermal
+  rates:
+    e_h: 4.43e13 * exp(-0.377/kT)
+  params: {}
+
+lemke1994:
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-MeCr, TS-C
+  linked: Co_s_d.srh
+  comments: Assumed thermal velocity of 1e7 measured at 200K
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: diffusion
+  measurement_details:
+    T: 200.0
+  rates:
+    c_h: 7e-11
+  params:
+    Ed_h: Ev+0.4
+    sigma_h: 7e-11/1e7
+
+graff1995:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ev+0.41
+    sigma_ha: 4e-18
+
+graff1995_1:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ev+0.23
+
+diez2007:
+  title: Cobalt related defect levels in silicon analyzed by temperature- and injection-dependent
+    lifetime spectroscopy
+  DOI: 10.1063/1.2433743
+  measurement_technique: LS-TI
+  comments: An investigation of the temperature dependence of the capture cross section
+    for electrons suggests that the underlying recombination process of the defect
+    in the lower band gap half is driven by a two stage cascade capture with an activation
+    energy of E = 52 +- 2 meV.
+  params:
+    Ed: Ev+0.41
+    dEd: 0.02
+    sigma_e: 8e-17
+    sigma_h: 5e-18
+    k: '16.0'
+    dk: 3

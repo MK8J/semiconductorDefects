@@ -1,0 +1,31 @@
+
+rein2005a:
+  title: Lifetime Spectroscopy A Method of Defect Characterization in Silicon for
+    Photovoltaic Applications
+  DOI: 10.1007/3-540-27922-9
+  measurement_technique: LS-ITD
+  comments: higher resistivity or n-type doping requires taking the multi-level defect
+    structure into account
+  sample:
+    growth: Cz
+    dopant: boron
+    incorporation: melt
+  params:
+    Ed: Ec-0.41
+    k: '9.5'
+
+mchedlidze2015:
+  title: Direct detection of carrier traps in Si solar cells after light-induced degradation
+  DOI: 10.1002/pssr.201409474
+  measurement_technique: DLTS
+  params:
+    Ed_a: Ec-0.41
+    sigma_ha: 1.0e-17
+
+mchedlidze2015_1:
+  title: Direct detection of carrier traps in Si solar cells after light-induced degradation
+  DOI: 10.1002/pssr.201409474
+  measurement_technique: DLTS
+  params:
+    Ed_a: Ev+0.37
+    sigma_ea: 1.0e-18
