@@ -21,8 +21,8 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-#       with:
-#         ref: master
+      with:
+         ref: master -- database
     # - name: Setup Python
     #   uses: actions/setup-python@v1
     #   with:
@@ -40,10 +40,16 @@ jobs:
 
     - name: Install dependencies
       #run: python -m pip install PyYAML requests scipy
+      run: python -m pip install -r ./.github/workflowsrequirements.txt
+          
+    - name: See whats there
+      #run: python -m pip install PyYAML requests scipy
       run: |
+          cd database/Si/ # to only to the Ti folder for now
           ls
-          cd .github/workflows
-          python -m pip install -r requirements.txt
+          cd .. 
+          cd ..
+
 
 
     - name: update github actions
