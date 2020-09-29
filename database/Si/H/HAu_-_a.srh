@@ -1,0 +1,20 @@
+
+deixler1998:
+  title: Laplace-transform deep-level transient spectroscopy studies of the G4 gold
+    hydrogen complex in silicon
+  DOI: 10.1063/1.122694
+  measurement_technique: DLTS-LCr
+  comments: 245-302 K,
+  sample:
+    growth: CZ
+    dopant: phosphorus
+  measurement_details:
+    Ur: -5 V
+    Up: 0 V
+    tp: 1 ms
+    Rw: 20 ms
+  params:
+    Ed: Ec-0.542
+    dEd: 0.008
+    sigma_e: 6e-17
+    sigma_h: 8e-15

@@ -1,0 +1,34 @@
+
+rosier1971:
+  title: Thermal emission and capture of electrons at sulfur centers in silicon
+  DOI: 10.1016/0038-1101(71)90047-5
+  measurement_technique: DLTS, DC-TI
+  comments: 'Thermal emission rate of: 1.63e10(T/300)^2. Capture rates are also provided'
+  sample:
+    growth: CZ
+    dopant: phosphorus
+    incorporation: thermal
+    resistivity: '5'
+  params:
+    Ed_a: Ec-0.275
+    dEd_a: 0.015
+
+pettersson1990:
+  title: Electric-field-enhanced electron emission from isolated sulfur and selenium
+    donors in silicon
+  DOI: 10.1103/PhysRevB.42.1381
+  measurement_technique: DLTS
+  comments: Depended on electric field
+  params:
+    Ed_a: Ec-0.29
+    Ed_h: Ec-0.31
+
+gwozdz2019:
+  title: Detection of Sulfur-Related Defects in Sulfur Diffused n- and p-Type Si by
+    DLTS
+  DOI: 10.1002/pssa.201900303
+  measurement_technique: DLTS-L
+  params:
+    Ed_a: Ec-0.257
+    dEd_a: 0.002
+    sigma_ea: 9e-18

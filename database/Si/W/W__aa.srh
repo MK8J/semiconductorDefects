@@ -1,0 +1,24 @@
+
+schibli1968:
+  title: Lifetime and capture cross-section studies of deep impurities in silicon
+  DOI: 10.1016/0025-5416(68)90036-0
+  measurement_technique: review
+  params:
+    Ed: Ec-0.3
+    sigma_e: '6.00E-17'
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review
+  comments: Figure 2.1
+  params:
+    Ed: Ec-0.30
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: review
+  comments: Figure 4
+  params:
+    Ed: Ec-0.30

@@ -1,0 +1,54 @@
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: DLTS, Hall
+  comments: Review paper.
+  params:
+    Ed_a: Ec-0.49
+
+graff1981a:
+  title: The behavior of transition and noble metals in silicon crystals
+  ISSN: 0091-391X
+  measurement_technique: DLTS-Cr
+  linked: V_i_a.srh
+  sample:
+    growth: FZ, CZ
+    dopant: phosphorus
+    incorporation: thermal
+    resistivity: 1-100
+  params:
+    Ed_h: Ec-0.154
+    sigma_ea: 2.6e-16
+
+lemke1981a:
+  title: Eigensehaften der Dotierungsniveaus von Mangan und Vanadium in Silizium
+  DOI: 10.1002/pssa.2210640219
+  measurement_technique: DLTS, TS-C
+  linked: V_i_a.srh
+  comments: Assumeed thermal velocity of 1e7
+  sample:
+    dopant: boron
+    incorporation: diffusion
+  params:
+    Ed_a: Ec-0.18
+    sigma_ea: 2E-16
+
+lemke1994:
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-MeCr, TS-C
+  linked: V_i_a.srh
+  comments: Assumed thermal velocity of 1e7 measured at 140K
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: diffusion
+  measurement_details:
+    T: 140.0
+  rates:
+    c_e: 1.2e-09
+  params:
+    Ed_h: Ec-0.16
+    sigma_e: 1.2e-9/1e7

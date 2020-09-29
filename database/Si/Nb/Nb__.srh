@@ -1,0 +1,13 @@
+
+davis1980:
+  title: Impurities in silicon solar cells
+  DOI: 10.1109/T-ED.1980.19922
+  measurement_technique: DLTS, SCP
+  sample:
+    growth: CZ
+    dopant: boron, phosphorus
+    incorporation: melt
+  params:
+    Ed_a: Ev+0.12
+    dEd_a: 0.02
+    sigma_ea: 3.6e-14

@@ -1,0 +1,12 @@
+
+nielsen1999:
+  title: Deep levels of vacancy-hydrogen centers in silicon studied by Laplace DLTS
+  DOI: 10.1016/S0921-4526(99)00437-8
+  measurement_technique: DLTS-L
+  sample:
+    growth: FZ,CZ
+    dopant: phosphorus
+    incorporation: ion implantation
+    resistivity: 8,20
+  params:
+    Ed_a: Ec-0.43

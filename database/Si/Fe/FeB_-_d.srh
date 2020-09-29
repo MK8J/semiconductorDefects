@@ -1,0 +1,14 @@
+
+graff1981a:
+  title: The behavior of transition and noble metals in silicon crystals
+  ISSN: 0091-391X
+  measurement_technique: DLTS-Cr
+  linked: FeB_i-s_d.srh
+  sample:
+    growth: FZ, CZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 1-100
+  params:
+    Ed_h: Ev+0.106
+    sigma_ha: 1.5e-13

@@ -1,0 +1,34 @@
+
+jellison1982:
+  title: Transient capacitance studies of an electron trap at Ec-ET = 0.105 eV in
+    phosphorus-doped silicon
+  DOI: 10.1063/1.331459
+  measurement_technique: DLTS, EPR
+  linked: C_i_a.srh
+  comments: Anneals out at 625 K.
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: irradiation
+    resistivity: 10
+  params:
+    Ed_a: Ec-0.105
+    dEd_a: 0.005
+    sigma_ea: '>1e-14'
+
+jellison1982_1:
+  title: Transient capacitance studies of an electron trap at Ec-ET = 0.105 eV in
+    phosphorus-doped silicon
+  DOI: 10.1063/1.331459
+  measurement_technique: DLTS, EPR
+  linked: CC_i-s_a.srh
+  comments: Anneals out at 625 K.
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: irradiation
+    resistivity: 10
+  params:
+    Ed_a: Ec-0.172
+    dEd_a: 0.002
+    sigma_ea: '>1e-14'

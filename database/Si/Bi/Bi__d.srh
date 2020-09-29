@@ -1,0 +1,20 @@
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: review, TS-C
+  comments: Agrees well with 4 K optical measurements of 0.0709 eV
+  sample:
+    incorporation: thermal
+  params:
+    Ed: Ec-0.0745
+
+chen1980_1:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: review
+  comments: Apparent donor
+  sample:
+    incorporation: ion implantation
+  params:
+    Ed: Ec-0.24
