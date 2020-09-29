@@ -79,7 +79,7 @@ def createNewFiles(folder, fnames):
         states = dft.split('_')[1].split('-')
 
         final = dft.split('_')[2]
-        print(elms, sindex, Metals, Nonmetals, len(states), states, dft)
+        # print(elms, sindex, Metals, Nonmetals, len(states), states, dft)
         # now build the last folder name
         _f = ''
         for j in sindex:
@@ -107,7 +107,7 @@ def createNewFiles(folder, fnames):
 
         # finially makes
         _folder = os.sep.join(_folder)
-        print(folder, _folder)
+        # print(folder, _folder)
 
         # makes the folder if
         if not os.path.exists(_folder):
@@ -137,6 +137,8 @@ def yaml2json():
         fnames = yamlFile2Jsons(fname)
         createNewFiles(folder, fnames)
         os.remove(fname)
+    print('files created')
+    print('trying to commit')
 
     os.system('git add -A')
     os.system('git commit -m "auto commit"')
