@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-import argparse 
+import argparse
 import json
 import requests
 import yaml2new as y2n # tempory
@@ -66,7 +66,7 @@ basePath = "https://k8s.pvlighthouse.com.au/svc/usersettings/defects"
 
 accessToken = (r.json()['access_token'])
 
-headers = headers = {"Authorization": "Bearer " + accessToken, 'Content-Type': 'application/json'} 
+headers = headers = {"Authorization": "Bearer " + accessToken, 'Content-Type': 'application/json'}
 
 def handleHttpResponse(response, baseErrorMessage):
     print(response.status_code)
@@ -86,81 +86,39 @@ def handleHttpResponse(response, baseErrorMessage):
     else:
         response.raise_for_status()
 
-for deletion in deletions:
-    print("deleting " + deletion[1])
-    deleteRequest = requests.delete(basePath + "/" + deletion[1], headers=headers)
-    handleHttpResponse(deleteRequest, "Could not delete " + deletion[1])
+def add_data(path):
+    '''
+    This is a generic function that adds the relevant data
+    from the JSON file into the defect class
+    '''
 
+    e_r = np.array([1,10,100,1000])
 
-for rename in renames:
-    print("renaming " + rename[1] + " to " + rename[2])
-    # need to build the json here
-    setting = Defect()
-    setting.settingPath = rename[2]
-    
-    with open(rename[2], 'r') as f:
+    # int the defect class
+    defect = Defect()
+    defect.settingPath = path
+
+    # grab the data
+    with open(path, 'r') as f:
         JSONData = f.read()
 
-    setting.JSONData = JSONData
-
-    temps = y2n.getTemps(JSONData)
-    if temps is not None:
-        emn_temps = Tag()
-        emn_temps.Key = "emn_temps"
-        emn_temps.Value = Temps
-
-    setting.Tags.append(emn_temps)
-    renameRequest = requests.put(basePath + "/" + rename[1], data=json.dumps(setting.__dict__), headers=headers)
-    handleHttpResponse(renameRequest, "Could not rename " + rename[1])
-
-for modification in modifications:
-    print("updating " + modification[1])
-    # need to build the json here
-    setting = Defect()
-    setting.settingPath = modification[1]
-
-    with open(modification[1], 'r') as f:
-        JSONData = f.read()
-
-    setting.JSONData = JSONData
-    
-    temps = y2n.getTemps(json.loads(JSONData))
-    if temps is not None:
-        emn_temps = Tag()
-        emn_temps.Key = "emn_temps"
-        emn_temps.Value = Temps
-
-    setting.Tags.append(emn_temps)
-    updateRequest = requests.put(basePath + "/" + modification[1], data=json.dumps(setting.__dict__), headers=headers)
-    handleHttpResponse(updateRequest, "Could not update " + modification[1])
-
-_sp = None 
-e_r = np.array([1,10,100,1000])
-
-for addition in additions:
-    #print(addition)
-    #print("adding " + addition[1])
-    # need to build the json here
-    setting = Defect()
-    setting.settingPath = addition[1]
-
-    #print(addition[1])
-    with open(addition[1], 'r') as f:
-        JSONData = f.read()
-
-    setting.JSONData = JSONData
-
-    sp = '/'.join(addition[1].split('/')[:-1])
+    # add it
+    defect.JSONData = JSONData
 
     # this prints out the folders I'm acessing
-    print('\n\n')
-    if sp != _sp:
-        _sp = sp
-        print( sp)
-    
+    #_sp = None
+    #sp = '/'.join(path.split('/')[:-1])
+
+    #print('\n\n')
+    #if sp != _sp:
+    #    _sp = sp
+    #  print( sp)
+
+    # gets the emission temps
     temps = y2n.getTemps(json.loads(JSONData))
 
 
+    # if we can cal temps
     if temps is not None:
         emn_temps = {'t{0}'.format(i+1):'{0:.1f}'.format(t) for i,t in enumerate(temps)}
 
@@ -174,14 +132,40 @@ for addition in additions:
             DLTS_params['inter'] = str(inter)
             DLTS_params['Ed_a'] = str(Ed)
 
-            setting.Tags.update(emn_temps)
-            setting.Tags.update(DLTS_params)
-            #print(len(setting.Tags), 'HERE')
+            # append them to the dictionary Tags
+            defect.Tags.update(emn_temps)
+            defect.Tags.update(DLTS_params)
 
-    #print(json.dumps(setting.__dict__))
-    #print(setting.__dict__.keys())
-    #print('\t', addition[1].split('/')[-1],temps)
+    return defect
+
+for deletion in deletions:
+    print("deleting " + deletion[1])
+    deleteRequest = requests.delete(basePath + "/" + deletion[1], headers=headers)
+    handleHttpResponse(deleteRequest, "Could not delete " + deletion[1])
+
+
+for rename in renames:
+    print("renaming " + rename[1] + " to " + rename[2])
+    defect = add_data(rename[2])
+    # need to build the json here
+    # renameRequest = requests.put(basePath + "/" + rename[1],
+    #                              data=json.dumps(defect.__dict__),
+    #                              headers=headers)
+    handleHttpResponse(renameRequest, "Could not rename " + rename[1])
+
+for modification in modifications:
+    print("updating " + modification[1])
+    defect = add_data(modification[1])
+
+    #updateRequest = requests.put(basePath + "/" + modification[1],
+    #                             data=json.dumps(defect.__dict__),
+    #                             headers=headers)
+    #handleHttpResponse(updateRequest, "Could not update " + modification[1])
+
+
+for addition in additions:
+    print("adding " + addition[1])
+    defect = add_data(addition[1])
     #commented out to stop sending data ATM
-    additionRequest = requests.post(basePath, data=json.dumps(setting.__dict__), headers=headers)
-    handleHttpResponse(additionRequest, "Could not create " + addition[1] )
-
+    #additionRequest = requests.post(basePath, data=json.dumps(defect.__dict__), headers=headers)
+    #handleHttpResponse(additionRequest, "Could not create " + addition[1] )

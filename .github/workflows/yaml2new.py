@@ -137,11 +137,12 @@ def yaml2json():
         fnames = yamlFile2Jsons(fname)
         createNewFiles(folder, fnames)
         os.remove(fname)
-    print('files created')
-    print('trying to commit')
+    #print('files created')
+    #print('trying to commit')
+
 
     os.system('git add -A')
-    os.system('git commit -m "auto commit"')
+    os.system('git commit -m "auto commit - added new files"')
     os.system('git push origin')
 
     # removes optical file contences, as this is not used
@@ -152,6 +153,9 @@ def yaml2json():
     for fname in glob.glob('./database/*/*/*.pl'):
         os.remove(fname)
 
+    os.system('git add -A')
+    os.system('git commit -m "auto commit - removed opt and pl files"')
+    os.system('git push origin')
 
 def check_temps():
 
@@ -311,56 +315,56 @@ if __name__ == '__main__':
     #    this is the one to uncomment
     yaml2json()
 
-    JSONdata1 = {
-        "title": "A quenched-in defect in boron-doped silicon",
-        "DOI": "10.1063/1.323505",
-        "measurement_technique": "DLTS",
-        "sample": {
-            "growth": "FZ, CZ",
-            "dopant": "boron",
-            "resistivity": "1-100"
-        },
-        "params": {
-            "Ed_a": "Ev+0.438",
-            "sigma_ha": "2.269e-16"
-        }
-    }
-
-    JSONdata2 = {
-        "title": "Dotierungseigenschaften von Eisen in Silizium",
-        "DOI": "10.1002/pssa.2210640123",
-        "measurement_technique": "DLTS-CrMe, TS-C",
-        "comments": "Capture cross sections manually extracted from figure, rates from digitisation of figure 10.",
-        "rates": {
-            "e_h": "2121999 * T^2 * exp(-0.435/kT)"
-        },
-        "params": {
-            "Ed_a": "Ev+0.43",
-            "Ed_h": "Ev+0.39",
-            "sigma_e": "1.03e-10*T^(-1.506)",
-            "sigma_h": "7.87e-20*exp(0.0221*T)+1.78e-17"
-        }
-    }
-
-    JSONdata3 = {
-        "title": "Interstitial iron and iron-acceptor pairs in silicon",
-        "DOI": "10.1007/BF00619081",
-        "measurement_technique": "DLTS-Cr",
-        "sample": {
-            "growth": "FZ",
-            "dopant": "aluminium, boron, gallium",
-            "incorporation": "thermal",
-            "resistivity": "0.3-100"
-        },
-        "rates": {
-            "e_h": "1.603e6*T^2*exp(-0.43/kT)"
-        },
-        "params": {
-            "Ed_h": "Ev+0.39",
-            "dEd_h": 0.02,
-            "sigma_h": "1.6e-16*exp(-0.043/k/T)"
-        }
-    }
+    # JSONdata1 = {
+    #     "title": "A quenched-in defect in boron-doped silicon",
+    #     "DOI": "10.1063/1.323505",
+    #     "measurement_technique": "DLTS",
+    #     "sample": {
+    #         "growth": "FZ, CZ",
+    #         "dopant": "boron",
+    #         "resistivity": "1-100"
+    #     },
+    #     "params": {
+    #         "Ed_a": "Ev+0.438",
+    #         "sigma_ha": "2.269e-16"
+    #     }
+    # }
+    #
+    # JSONdata2 = {
+    #     "title": "Dotierungseigenschaften von Eisen in Silizium",
+    #     "DOI": "10.1002/pssa.2210640123",
+    #     "measurement_technique": "DLTS-CrMe, TS-C",
+    #     "comments": "Capture cross sections manually extracted from figure, rates from digitisation of figure 10.",
+    #     "rates": {
+    #         "e_h": "2121999 * T^2 * exp(-0.435/kT)"
+    #     },
+    #     "params": {
+    #         "Ed_a": "Ev+0.43",
+    #         "Ed_h": "Ev+0.39",
+    #         "sigma_e": "1.03e-10*T^(-1.506)",
+    #         "sigma_h": "7.87e-20*exp(0.0221*T)+1.78e-17"
+    #     }
+    # }
+    #
+    # JSONdata3 = {
+    #     "title": "Interstitial iron and iron-acceptor pairs in silicon",
+    #     "DOI": "10.1007/BF00619081",
+    #     "measurement_technique": "DLTS-Cr",
+    #     "sample": {
+    #         "growth": "FZ",
+    #         "dopant": "aluminium, boron, gallium",
+    #         "incorporation": "thermal",
+    #         "resistivity": "0.3-100"
+    #     },
+    #     "rates": {
+    #         "e_h": "1.603e6*T^2*exp(-0.43/kT)"
+    #     },
+    #     "params": {
+    #         "Ed_h": "Ev+0.39",
+    #         "dEd_h": 0.02,
+    #         "sigma_h": "1.6e-16*exp(-0.043/k/T)"
+    #     }
+    # }
 #    print(addTemps(JSONdata1))
 
     # check_temps()
