@@ -44,7 +44,7 @@ changeslist = args.changes.splitlines()
 # U: file is unmerged (you must complete the merge before it can be committed)
 
 # X: "unknown" change type (most probably a bug, please report it)
-
+print(changeslist)
 
 additions = [change.split() for change in changeslist if change.startswith("A")]
 
