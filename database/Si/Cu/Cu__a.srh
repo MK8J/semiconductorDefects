@@ -1,0 +1,49 @@
+
+brotherton1987:
+  title: Deep levels of copper in silicon
+  DOI: 10.1063/1.339564
+  measurement_technique: DLTS, luminescence
+  comments: Cu_d, Cu_a, and Cu_aa  from the same paper are the same defect
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: thermal
+    resistivity: 66-125
+  params:
+    Ed_a: Ev+0.425
+    sigma_ea: 7.4e-15
+    sigma_ha: 3.0e-15
+
+brotherton1987_1:
+  title: Deep levels of copper in silicon
+  DOI: 10.1063/1.339564
+  measurement_technique: DLTS, luminescence
+  comments: Different defect from the others reported In the paper
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: thermal
+    resistivity: 66-125
+  params:
+    Ed_a: Ec-0.402
+    sigma_ea: 1.8e-17
+    sigma_ha: 1.8e-17
+
+lemke1994:
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-MeCr, TS-C
+  linked: Cu_s_a.srh
+  comments: Assumed thermal velocity of 1e7 measured at 230K
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: diffusion
+  measurement_details:
+    T: 230.0
+  rates:
+    c_h: '>2e-8'
+  params:
+    Ed_a: Ev+0.46
+    sigma_ha: '>2e-8/1e7'
