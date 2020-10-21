@@ -71,7 +71,7 @@ def createNewFiles(folder, fnames):
         if os.path.exists(folder):
             print('folder being removed {}'.format(os.path.join(folder, '*')))
  
-            os.system('rm {}'.format(os.path.join(folder, '*'))
+            os.system('rm {}'.format(os.path.join(folder, '*')))
 
 
         if "linked" in fname[1].keys():
