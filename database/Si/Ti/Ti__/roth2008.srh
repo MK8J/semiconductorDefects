@@ -1,0 +1,16 @@
+{
+    "title": "Analysis of electrically active defects in silicon for solar cells",
+    "ISBN": "3868530363, 9783868530360",
+    "measurement_technique": "LS-TI",
+    "comments": "Temperature dependance of some sigma is T^-1.22",
+    "sample": {
+        "growth": "FZ",
+        "dopant": "boron",
+        "incorporation": "melt"
+    },
+    "params": {
+        "Ed": "Ec-0.47",
+        "k": 13.0,
+        "dk": 6.0
+    }
+}

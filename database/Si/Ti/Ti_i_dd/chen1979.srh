@@ -1,0 +1,21 @@
+{
+    "title": "Titanium in silicon as a deep level impurity",
+    "DOI": "10.1016/0038-1101(79)90130-8",
+    "measurement_technique": "DLTS-Cr",
+    "linked": "Ti_i_dd.srh",
+    "comments": "Measured lifetime of 3.35e15 cm^-2 boron doped CZ samples with Titanium at 1.35e13 cm^-2 of 50 ns at 300 K. Control was 7 us.",
+    "sample": {
+        "growth": "CZ",
+        "dopant": "boron",
+        "incorporation": "melt",
+        "resistivity": 200.0
+    },
+    "measurement_details": {
+        "T": "200-250 K"
+    },
+    "params": {
+        "Ed_a": "Ev+0.29",
+        "Ed_h": "Ev+0.255",
+        "sigma_h": "1e-17 * exp(-0.035/kT) * exp(0.035/k/1000*4.5)"
+    }
+}
