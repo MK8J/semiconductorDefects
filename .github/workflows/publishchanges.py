@@ -114,6 +114,7 @@ def add_data(path):
     #    _sp = sp
     #  print( sp)
 
+    # comment
     if 'DLTS_params' in  defect.JSONdata.keys():
         defect.Tags.update(defect.JSONdata['DLTS_params'])
 
