@@ -176,5 +176,5 @@ for addition in additions:
     #defect = add_data(addition[1])
     defect = add_data(modification[1])
     #commented out to stop sending data ATM
-    additionRequest = requests.post(basePath, data=json.dumps(defect.__dict__), headers=headers)
-    handleHttpResponse(additionRequest, "Could not create " + addition[1] )
+    #additionRequest = requests.post(basePath, data=json.dumps(defect.__dict__), headers=headers)
+    #handleHttpResponse(additionRequest, "Could not create " + addition[1] )
