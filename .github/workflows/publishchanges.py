@@ -104,6 +104,7 @@ def add_data(path):
 
     # add it
     defect.JSONData = JSONData
+    dicData = json.loads(JSONData)
 
     # this prints out the folders I'm acessing
     #_sp = None
@@ -115,8 +116,9 @@ def add_data(path):
     #  print( sp)
 
     # need to add paramters to a tag, so that that are seen by PLV
-    if 'DLTS_params' in  defect.JSONData.keys():
-        defect.Tags.update(defect.JSONdata['DLTS_params'])
+    if 'DLTS_params' in  dicData.keys():
+        print(dicData)
+        defect.Tags.update(dicData['DLTS_params'])
 
     # gets the emission temps
     # temps = y2n.getTemps(json.loads(JSONData))
