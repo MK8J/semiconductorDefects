@@ -60,6 +60,6 @@ jobs:
         echo The changes are "$CHANGES"
         python ./.github/workflows/publishchanges.py -c "$CHANGES" -u $USERNAME -p $PASSWORD
 
-    - name: update rtepository
+    - name: update the repository 
       run:
         git push
