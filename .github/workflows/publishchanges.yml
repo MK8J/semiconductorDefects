@@ -49,6 +49,7 @@ jobs:
       run: |
         python ./.github/workflows/yaml2new.py
         git add -A
+        git commit -m "auto commit"
 
     - name: run python
       env:
@@ -58,3 +59,7 @@ jobs:
         CHANGES=$(git diff --name-status @{upstream} database )
         echo The changes are "$CHANGES"
         python ./.github/workflows/publishchanges.py -c "$CHANGES" -u $USERNAME -p $PASSWORD
+
+    - name: update rtepository
+      run:
+        git push
