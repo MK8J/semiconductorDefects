@@ -1,0 +1,10 @@
+
+baber1987:
+  title: Characterization of silver‐related deep levels in silicon
+  DOI: 10.1063/1.339425
+  comments:
+  measurement_technique: CV-O
+  temperature: 89.5
+  Fit:
+    A_h: Unknown
+    Ed: 0.34

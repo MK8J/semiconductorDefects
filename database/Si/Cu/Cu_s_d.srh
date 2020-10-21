@@ -1,0 +1,44 @@
+
+collins1957a:
+  title: Properties of Silicon Doped with Iron or Copper
+  DOI: 10.1103/PhysRev.108.1409
+  measurement_technique: Hall
+  comments: Copper was hard to manage as it precipiates. They saw two additional levels
+    Ec-0.23 and Ev+0.45, but believe it was due to contaminants in the copper.
+  params:
+    Ed: Ev+0.24
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: review, lifetime
+  sample:
+    incorporation: ion implantation
+  params:
+    Ed: Ev+0.22
+    sigma_e: 8.5e-14
+    sigma_h: 3e-14
+
+graff1995:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ev+0.23
+    sigma_ha: 1e-14
+
+graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ev+0.22
+    sigma_ha: 3e-14
