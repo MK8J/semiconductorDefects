@@ -158,8 +158,9 @@ def yaml2json(commit=True):
 
     # converts all the author data from bring in one file
     # to being in individual files
+    print('converting files')
     for fname in glob.glob('./database/*/*/*.srh'):
-        #print(fname, 'fname')
+        print(fname, 'fname')
         folder = fname.replace('.srh', '')
         fnames = add_DLTS_params(yamlFile2Jsons(fname))
         #print('returned folder ', '\n\n'.join([str(f) for f in fnames]))
@@ -174,6 +175,7 @@ def yaml2json(commit=True):
         os.system('git commit -m "auto commit - added new files"')
         os.system('git push origin')
 
+    print('pruning other files')
     # removes optical file contences, as this is not used
     for fname in glob.glob('./database/*/*/*.opt'):
         os.remove(fname)
