@@ -49,7 +49,7 @@ kunio1983:
   measurement_technique: DLTS-Cr
   comments: Two samples showed larger difference in measurements. Measured at 90 K.
   rates:
-    e_e: 1.92e7*T^2*exp(0.2/kT)
+    e_e: 1.92e7*T^2*exp(-0.2/kT)
   params:
     Ed_a: Ec-0.2
     Ed_h: Ec-0.2

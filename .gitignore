@@ -11,3 +11,4 @@ images/**
 *.sh
 *.py
 __pycashe__
+*.ipynb_checkpoints/**
