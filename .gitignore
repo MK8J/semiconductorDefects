@@ -1,0 +1,13 @@
+
+
+code/**
+data/**
+*.evn
+__README
+docs/**
+*.png
+simulations_notes/**
+images/**
+*.sh
+*.py
+__pycashe__
