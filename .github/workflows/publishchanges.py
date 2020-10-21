@@ -114,7 +114,7 @@ def add_data(path):
     #    _sp = sp
     #  print( sp)
 
-    # comment
+    # need to add paramters to a tag, so that that are seen by PLV
     if 'DLTS_params' in  defect.JSONdata.keys():
         defect.Tags.update(defect.JSONdata['DLTS_params'])
 

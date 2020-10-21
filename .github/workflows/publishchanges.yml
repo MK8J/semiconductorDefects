@@ -21,14 +21,14 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-    - run: |      
+    - run: |
         git config user.name github-actions
         git config user.email github-actions@github.com
-      
+
     - name: Setup Python
       uses: actions/setup-python@v1
       with:
-        python-version: '3.x'
+        python-version: '3.8'
 
     # - name: Cache pip
     #   uses: actions/cache@v1
@@ -44,7 +44,7 @@ jobs:
       #run: python -m pip install PyYAML requests scipy
       run: |
         python -m pip install -r ./.github/workflows/requirements.txt
-          
+
     - name: update github actions
       run: |
         python ./.github/workflows/yaml2new.py
