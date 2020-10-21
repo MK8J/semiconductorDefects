@@ -165,7 +165,6 @@ def yaml2json():
         print('returned folder ', '\n\n'.join([str(f) for f in fnames]))
         createNewFiles(folder, fnames)
         os.remove(fname)
-    1/0
     #print('files created')
     #print('trying to commit')
 

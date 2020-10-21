@@ -114,34 +114,37 @@ def add_data(path):
     #    _sp = sp
     #  print( sp)
 
+    if 'DLTS_params' in  defect.JSONdata.keys():
+        defect.Tags.update(defect.JSONdata['DLTS_params'])
+
     # gets the emission temps
-    temps = y2n.getTemps(json.loads(JSONData))
-
-
-    # if we can cal temps
-    if temps is not None:
-        emn_temps = {'t{0}'.format(i+1):'{0:.1f}'.format(t) for i,t in enumerate(temps)}
-
-        # from this data, calculate the activation energy
-        # and the y intercept
-        if type(temps)==list:
-            #print(temps, e_r)
-            inter, Ed = y2n.get_DLTS_params(temps, e_r)
-
-            DLTS_params = {}
-            DLTS_params['inter'] = str(inter)
-            DLTS_params['Ed_a'] = str(Ed)
-
-            # append them to the dictionary Tags
-            defect.Tags.update(emn_temps)
-            defect.Tags.update(DLTS_params)
+    # temps = y2n.getTemps(json.loads(JSONData))
+    #
+    #
+    # # if we can cal temps
+    # if temps is not None:
+    #     emn_temps = {'t{0}'.format(i+1):'{0:.1f}'.format(t) for i,t in enumerate(temps)}
+    #
+    #     # from this data, calculate the activation energy
+    #     # and the y intercept
+    #     if type(temps)==list:
+    #         #print(temps, e_r)
+    #         inter, Ed = y2n.get_DLTS_params(temps, e_r)
+    #
+    #         DLTS_params = {}
+    #         DLTS_params['inter'] = str(inter)
+    #         DLTS_params['Ed_a'] = str(Ed)
+    #
+    #         # append them to the dictionary Tags
+    #         defect.Tags.update(emn_temps)
+    #         defect.Tags.update(DLTS_params)
 
     return defect
 
 for deletion in deletions:
     print("deleting " + deletion[1])
-    deleteRequest = requests.delete(basePath + "/" + deletion[1], headers=headers)
-    handleHttpResponse(deleteRequest, "Could not delete " + deletion[1])
+    # deleteRequest = requests.delete(basePath + "/" + deletion[1], headers=headers)
+    # handleHttpResponse(deleteRequest, "Could not delete " + deletion[1])
 
 
 for rename in renames:
@@ -151,21 +154,21 @@ for rename in renames:
     # renameRequest = requests.put(basePath + "/" + rename[1],
     #                              data=json.dumps(defect.__dict__),
     #                              headers=headers)
-    handleHttpResponse(renameRequest, "Could not rename " + rename[1])
+    # handleHttpResponse(renameRequest, "Could not rename " + rename[1])
 
 for modification in modifications:
     print("updating " + modification[1])
     defect = add_data(modification[1])
 
-    updateRequest = requests.put(basePath + "/" + modification[1],
-                                 data=json.dumps(defect.__dict__),
-                                 headers=headers)
-    handleHttpResponse(updateRequest, "Could not update " + modification[1])
+    # updateRequest = requests.put(basePath + "/" + modification[1],
+    #                              data=json.dumps(defect.__dict__),
+    #                              headers=headers)
+    # handleHttpResponse(updateRequest, "Could not update " + modification[1])
 
 
 for addition in additions:
     print("adding " + addition[1])
     defect = add_data(addition[1])
     #commented out to stop sending data ATM
-    additionRequest = requests.post(basePath, data=json.dumps(defect.__dict__), headers=headers)
-    handleHttpResponse(additionRequest, "Could not create " + addition[1] )
+    #additionRequest = requests.post(basePath, data=json.dumps(defect.__dict__), headers=headers)
+    #handleHttpResponse(additionRequest, "Could not create " + addition[1] )
