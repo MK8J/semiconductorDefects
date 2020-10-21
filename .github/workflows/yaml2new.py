@@ -170,10 +170,10 @@ def yaml2json(commit=True):
     #print('trying to commit')
 
 
-    if commit:
-        os.system('git add -A')
-        os.system('git commit -m "auto commit - added new files"')
-        os.system('git push origin')
+    #if commit:
+    #    os.system('git add -A')
+    #    os.system('git commit -m "auto commit - added new files"')
+    #    os.system('git push origin')
 
     print('pruning other files')
     # removes optical file contences, as this is not used
