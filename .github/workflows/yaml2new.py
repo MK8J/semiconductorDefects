@@ -23,7 +23,16 @@ nonmetals = [
 def yamlFile2Jsons(fname):
     '''
     Given a file name returns a list of authors and JSON dics.
-    This only returns the file name of the new file, not the folder location
+    This returns the file name of the new file, not the folder location
+
+    Parameters
+    ----------
+        a file name of a srh file.
+
+
+    Returns
+    -------
+        A list of touples. The first item is the file name, the second is a dictionary containing the data.
     '''
     lst = []
     if '.srh' in fname:
@@ -110,7 +119,24 @@ def createNewFiles(folder, fnames):
         # print(folder, _folder)
 
         # makes the folder if
+        f = _folder
         if not os.path.exists(_folder):
+
+            names = _folder.split(os.sep)
+
+            for i in range(1, len(names)):
+                print(os.sep, names, names[:-i])
+                f = '{}'.format(os.sep).join(names[:-i])
+                print(f, type(f))
+                if os.path.exists(f):
+                    break
+
+            for j in range(1,i)[::-1]:
+                f = '{}'.format(os.sep).join(names[:-j])
+                print('creating', f)
+                if not os.path.exists(f):
+                        os.mkdir(f)
+
             os.mkdir(_folder)
 
         path = os.path.join(_folder, fname[0])
@@ -133,10 +159,13 @@ def yaml2json():
     # converts all the author data from bring in one file
     # to being in individual files
     for fname in glob.glob('./database/*/*/*.srh'):
+        print(fname, 'fname')
         folder = fname.replace('.srh', '')
-        fnames = yamlFile2Jsons(fname)
+        fnames = add_DLTS_params(yamlFile2Jsons(fname))
+        print('returned folder ', '\n\n'.join([str(f) for f in fnames]))
         createNewFiles(folder, fnames)
         os.remove(fname)
+    1/0
     #print('files created')
     #print('trying to commit')
 
@@ -177,14 +206,16 @@ def get_DLTS_params(temp, e_r):
         $ ln(e/T^2) = ln(int) + q/kT -Ed $
     Where int and Ed are found.
 
-    inputs
-    -------
+
+    Parameters
+    ----------
+
     temp: (array like)
          A list of temperatures in Kelvin
     e_r: (array like)
          A list of emission rates in 1/s
 
-    returns
+    Returns
     -------
     inter:
          the y-intercept of the arhenious plot, with units /sK^2
@@ -198,13 +229,71 @@ def get_DLTS_params(temp, e_r):
     A = C.e / C.k
 
     Ed, inter = np.polyfit(A / temp, np.log(e_r / temp**2), 1)
+    Ed *= -1
+
 
     # limits the y-intercept to three sig fig
     sigfig = 3
     inter = np.exp(inter)
     inter = round(inter, -1 * int(np.log10(inter) // 1 - sigfig + 1))
 
+    # these should be positive floats
+    assert inter>0, 'inter below 0'
+    assert Ed>0, 'Ed below 0'
+
     return inter, round(Ed, 3)
+
+def add_DLTS_params(data_touple):
+    '''
+    given something
+
+    adds:
+        * temperature for specified emission rates
+        * Acitivation energy and arhenious intercept calculated from the above
+
+
+    Parameters
+    ----------
+        the output from yamlFile2Jsons. A list of touples. The first item is the file name, the second is a dictionary containing the data.
+
+    Returns
+    -------
+        same as input, but the extra data
+    '''
+
+    e_r = np.array([1,10,100,1000])
+    new_list = []
+
+    for fname, data_dic in data_touple:
+        DLTS_params = {}
+        print('\t\t',fname, end=('\t'))
+        temps = getTemps(data_dic)
+
+        # if we can cal temps
+        if temps is not None:
+            emn_temps = {'t{0}'.format(i+1):'{0:.1f}'.format(t) for i,t in enumerate(temps)}
+
+            DLTS_params.update(emn_temps)
+
+            # from this data, calculate the activation energy
+            # and the y intercept
+            #print('checking DLTS_params', type(temps), temps)
+            #print(temps, e_r)
+            inter, Ed = get_DLTS_params(temps, e_r)
+
+            DLTS_params['inter'] = str(inter)
+            DLTS_params['Ed_a'] = str(Ed)
+
+
+                # append them to the dictionary Tags
+            data_dic['DLTS_params'] = DLTS_params
+
+
+        new_list.append((fname, data_dic))
+
+    return new_list
+
+
 
 
 def getTemps(JSONdata):
@@ -217,10 +306,13 @@ def getTemps(JSONdata):
     2. Calculate it from the acitvation energy and apparent capture cross section.
         For this calculation we assume a T^2 dependence for material constants
 
+    If the emission rate is above 500 K, the calculation may not find it.
+
     inputs
     -------
     JSONdata:
-        the JSON data that is send to PVL
+        the JSON data that is send to PVL. This is actually a dictionary.
+        Confusion name I should change this.
 
     returns
     -------
@@ -241,10 +333,15 @@ def getTemps(JSONdata):
     # these will have to be calculated
     if 'rates' in JSONdata.keys() and ('e_e' in JSONdata['rates'].keys() or
                                        'e_h' in JSONdata['rates'].keys()):
+        print('doing rates', end=('\t'))
         if 'e_e' in JSONdata['rates'].keys():
             e = JSONdata['rates']['e_e']
         elif 'e_h' in JSONdata['rates'].keys():
             e = JSONdata['rates']['e_h']
+
+        print(e, end=('\t'))
+        #print(e)
+
 
         if type(e) == str:
             e = e.replace('^', "**")
@@ -254,15 +351,19 @@ def getTemps(JSONdata):
                 k = C.k / C.e  # name important for eval function.
                 kT = C.k / C.e * T  # name important for eval function.
                 exp = np.exp
-                return abs(eval(e) - e_guess)
+                # print(T, abs(eval(e) - e_guess), end=(',  '))
+                return abs((eval(e) - e_guess)/e_guess)
 
             for _e in er:
-                temps.append(minimize(fun, 300, args=(_e))['x'][0])
+                temps.append(minimize(fun, 500, args=(_e))['x'][0])
 
+
+            assert all([temps[i]<temps[i+1] for i in range(len(temps)-1)]), 'error with temp cals :' + str(temps) +' ' + str(e)
     # if the activation energy level and capture cross sections are provided
     if 'params' in JSONdata.keys() and temps == []:
         eda = None
         sigma = None
+        print('doing params')
         if 'Ed_a' in JSONdata['params'].keys():
 
             if 'Ec' in JSONdata['params']['Ed_a'] and 'sigma_ea' in JSONdata['params'].keys():
@@ -303,9 +404,11 @@ def getTemps(JSONdata):
 
     if temps == []:
         temps = None
+    else:
+        temps = np.array(temps)
+
 
     return temps
-
 
 if __name__ == '__main__':
     #    fname = '/home/arch/Dropbox/CommonCode/semiconductorDefects/database/Si/Fe/Fe_i_d.srh'

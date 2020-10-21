@@ -1,0 +1,18 @@
+{
+    "title": "Capacitance Transient Spectroscopy",
+    "DOI": "10.1146/annurev.ms.07.080177.002113",
+    "measurement_technique": "DLTS",
+    "comments": "Out at 200. Min value for sigma",
+    "params": {
+        "Ed_a": "Ev+0.48",
+        "sigma_ha": "1e-16"
+    },
+    "DLTS_params": {
+        "t1": "231.0",
+        "t2": "253.3",
+        "t3": "280.3",
+        "t4": "313.4",
+        "inter": "478000.0",
+        "Ed_a": "0.477"
+    }
+}
