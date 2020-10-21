@@ -1,0 +1,64 @@
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: review, TS-C
+  params:
+    Ed: Ec-0.39
+
+chen1980_1:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: review, TS-C
+  params:
+    Ed: Ev+0.402
+
+chen1980_2:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: review, TS-C
+  params:
+    Ed: Ev+0.316
+
+chen1980_3:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: review, TS-C
+  params:
+    Ed: Ev+0.216
+
+rosenits2007:
+  title: Determining the defect parameters of the deep aluminum-related defect center
+    in silicon
+  DOI: 10.1063/1.2789378
+  measurement_technique: DLTS, LS-I
+  comments: Measured DLTS with two system, with each providing different values
+  sample:
+    growth: CZ
+    incorporation: melt
+  rates:
+    e_h: 1.3e9 * T^2 * exp(-0.472/kT)
+  params:
+    Ed_a: Ev+0.44
+    dEd_a: '0.02'
+    sigma_ea: '3.10E-10'
+    sigma_ha: 3.6e-13
+    k: 861.0
+
+rosenits2011:
+  title: "Erratum on \u201CDetermining the defect parameters of the deep aluminum-related\
+    \ defect center in silicon\u201D"
+  DOI: 10.1063/1.3652753
+  measurement_technique: DLTS, LS-I
+  comments: This is an erratum on rosenits2008, as the capture cross section and defect
+    concentration determined from LS-I were too small. A new fit was performed using
+    two defects, holding the energy level and concentration from DLTS constant. A
+    single defect fit was also attempted but was found not to be of low quality.
+  sample:
+    growth: CZ
+    incorporation: melt
+  params:
+    Ed_a: Ev+0.44
+    sigma_ea: '3.6E-15'
+    sigma_ha: 3.6e-17
+    k: 100.0

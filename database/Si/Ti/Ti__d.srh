@@ -1,0 +1,76 @@
+
+chen1979:
+  title: Titanium in silicon as a deep level impurity
+  DOI: 10.1016/0038-1101(79)90130-8
+  measurement_technique: Hall
+  linked: Ti_i_d.srh
+  sample:
+    growth: CZ
+    dopant: boron, phosphorus
+    incorporation: ion implantation
+    resistivity: 200,300
+  params:
+    Ed: Ec-0.22
+
+chen1979_1:
+  title: Titanium in silicon as a deep level impurity
+  DOI: 10.1016/0038-1101(79)90130-8
+  measurement_technique: DLTS-Cr
+  linked: Ti_i_d.srh
+  comments: thermal velocity of electrons 1.14e7 * (T/300)^(1/2). No temperature dependence
+    of the capture cross section noticed.
+  sample:
+    growth: CZ
+    dopant: boron, phosphorus
+    incorporation: ion implantation, melt
+    resistivity: 300,
+  params:
+    Ed_a: Ec-0.26
+    Ed_h: Ec-0.26
+    sigma_e: 3.5e-15 * exp(-0/kT)
+    dsigma_e: 5e-16
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: DLTS-Cr, Hall
+  linked: Ti_i_d.srh
+  comments: Review paper.
+  sample:
+    incorporation: ion implantation, thermal
+  params:
+    Ed_h: Ec-0.23
+    dEd_h: 0.02
+
+graff1981a:
+  title: The behavior of transition and noble metals in silicon crystals
+  ISSN: 0091-391X
+  measurement_technique: DLTS-Cr
+  linked: Ti_i_dd.srh
+  sample:
+    growth: FZ, CZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 1-100
+  params:
+    Ed_h: Ev+0.245
+    sigma_h: 4.4e-17*exp(-0.057/kT)/exp(-0.057/k/205)
+
+lemke1994:
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-MeCr, TS-C
+  linked: Ti_i_d.srh
+  comments: Assumed thermal velocity of 1e7 measured at 160K
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: diffusion
+  measurement_details:
+    T: 160.0
+  rates:
+    c_e: '>2e-7'
+  params:
+    Ed_a: Ec-0.27
+    sigma_ea: '>2e-7/1e7'

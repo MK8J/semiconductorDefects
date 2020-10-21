@@ -1,0 +1,42 @@
+
+collins1957a:
+  title: Properties of Silicon Doped with Iron or Copper
+  DOI: 10.1103/PhysRev.108.1409
+  measurement_technique: Hall
+  linked: FeB_i-s_a.srh
+  comments: Quenched n and p-type silicon. Did not see resistivity change in n-type.
+  sample:
+    growth: FZ
+    incorporation: melt
+  params:
+    Ed: Ec-0.55
+    sigma_ea: 15e-16
+
+benton1982:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  linked: FeB_i-s_d.srh
+  comments: Emission rate at 1.8 ms at 59 K, quenched
+  sample:
+    growth: FZ
+  params:
+    Ed_a: Ev+0.10
+    sigma_ha: 3.9999999999999995e-15
+
+chantre1985:
+  title: 'Metastable-defect behavior in silicon: Charge-state-controlled reorientation
+    of iron-aluminum pairs'
+  DOI: 10.1103/PhysRevB.31.7979
+  comments: Data published in inaccessible conference paper, and reprinted here. For
+    <111> configuration
+  params:
+    Ed: Ev+0.1
+
+chantre1985_1:
+  title: 'Metastable-defect behavior in silicon: Charge-state-controlled reorientation
+    of iron-aluminum pairs'
+  DOI: 10.1103/PhysRevB.31.7979
+  measurement_technique: theory
+  params:
+    Ed: Ev+0.03

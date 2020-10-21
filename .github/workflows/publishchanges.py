@@ -161,20 +161,20 @@ for rename in renames:
     #                              headers=headers)
     #handleHttpResponse(renameRequest, "Could not rename " + rename[1])
 
-for modification in modifications:
+#for modification in modifications:
+for modification in additions:
     print("updating " + modification[1])
     defect = add_data(modification[1])
 
-    #updateRequest = requests.put(basePath + "/" + modification[1],
-    #                              data=json.dumps(defect.__dict__),
-    #                              headers=headers)
-    #handleHttpResponse(updateRequest, "Could not update " + modification[1])
+    updateRequest = requests.put(basePath + "/" + modification[1],
+                                  data=json.dumps(defect.__dict__),
+                                  headers=headers)
+    handleHttpResponse(updateRequest, "Could not update " + modification[1])
 
 
-for addition in additions:
-    print("adding " + addition[1])
+#for addition in additions:
+    #print("adding " + addition[1])
     #defect = add_data(addition[1])
-    defect = add_data(modification[1])
     #commented out to stop sending data ATM
     #additionRequest = requests.post(basePath, data=json.dumps(defect.__dict__), headers=headers)
     #handleHttpResponse(additionRequest, "Could not create " + addition[1] )
