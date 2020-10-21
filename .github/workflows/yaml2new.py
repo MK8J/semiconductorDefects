@@ -55,7 +55,7 @@ def createNewFiles(folder, fnames):
     inputs:
     ------
     folder: (str)
-        The folder path to be saved at
+        The folder path for the new data to be saved
     fname: (list of touples)
         This is a list of touples. The first is the file name the second is the contence.
     '''
@@ -68,7 +68,7 @@ def createNewFiles(folder, fnames):
         # first thing to do is remove the folder if it exist
         # we are about to repopulate it with everything in the current file
         if os.path.exists(_folder):
-            os.system('rm {}'.format(_folder))
+            os.system('rm {}'.format(folder))
 
 
         if "linked" in fname[1].keys():
