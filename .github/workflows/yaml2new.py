@@ -69,8 +69,9 @@ def createNewFiles(folder, fnames):
         # we are about to repopulate it with everything in the current file
         print('folder', folder)
         if os.path.exists(folder):
-            print('folder being removed')
-            os.system('rm {}'.format(folder))
+            print('folder being removed {}'.format(os.path.join(folder, '*')))
+ 
+            os.system('rm {}'.format(os.path.join(folder, '*'))
 
 
         if "linked" in fname[1].keys():
