@@ -1,0 +1,13 @@
+{
+    "title": "Electronic properties of interstitial iron and iron-boron pairs determined  by means of advanced lifetime spectroscopy",
+    "DOI": "10.1063/1.2106017",
+    "measurement_technique": "LS-TID",
+    "params": {
+        "Ed": "Ec-0.26",
+        "dEd": 0.03,
+        "sigma_e": "2.5e-15",
+        "sigma_h": "5.5e-15",
+        "k": "0.45",
+        "dk": "0.44,0.55"
+    }
+}

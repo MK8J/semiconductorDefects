@@ -1,0 +1,12 @@
+{
+    "title": "Gold as a recombination centre in silicon",
+    "DOI": "10.1016/0038-1101(65)90036-5",
+    "measurement_technique": "LS-DN",
+    "comments": "300 K",
+    "params": {
+        "sigma_e": "0.000000063/2.046e7",
+        "dsigma_e": "0.000000063*.25/2.046e7",
+        "sigma_h": "0.000000024/1.688e7",
+        "dsigma_h": "0.000000024*.5/1.688e7"
+    }
+}

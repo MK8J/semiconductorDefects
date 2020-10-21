@@ -1,0 +1,9 @@
+{
+    "title": "Metal impurities in silicon-device fabrication",
+    "DOI": "10.1007/978-3-642-97593-6",
+    "measurement_technique": "review, DLTS",
+    "comments": "Taken from table 4.3 and table 1 in the appendix.",
+    "params": {
+        "Ed_a": "Ec-0.23"
+    }
+}

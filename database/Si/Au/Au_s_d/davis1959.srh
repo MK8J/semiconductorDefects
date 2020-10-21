@@ -1,0 +1,10 @@
+{
+    "title": "Lifetimes and Capture Cross Sections in Gold-Doped Silicon",
+    "DOI": "10.1103/PhysRev.114.1006",
+    "measurement_technique": "LS",
+    "comments": "77K. ",
+    "params": {
+        "sigma_e": "1.00E-13",
+        "sigma_h": "2.00E-15"
+    }
+}
