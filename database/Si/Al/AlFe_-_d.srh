@@ -1,0 +1,23 @@
+
+chantre1985:
+  title: 'Metastable-defect behavior in silicon: Charge-state-controlled reorientation
+    of iron-aluminum pairs'
+  DOI: 10.1103/PhysRevB.31.7979
+  measurement_technique: DLTS, TS-C
+  linked: FeAl_i-s_d.srh
+  comments: 90 K
+  sample:
+    growth: CZ, FZ
+    dopant: aluminium
+    incorporation: thermal
+    resistivity: '1'
+  params:
+    Ed_a: Ev+0.2
+
+chantre1985_1:
+  title: 'Metastable-defect behavior in silicon: Charge-state-controlled reorientation
+    of iron-aluminum pairs'
+  DOI: 10.1103/PhysRevB.31.7979
+  measurement_technique: theory
+  params:
+    Ed: Ev+0.2

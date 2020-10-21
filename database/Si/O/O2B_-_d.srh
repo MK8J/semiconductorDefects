@@ -1,0 +1,21 @@
+
+vaqueiro-contreras2019:
+  title: Identification of the mechanism responsible for the boron oxygen light induced
+    degradation in silicon photovoltaic cells
+  DOI: 10.1063/1.5091759
+  measurement_technique: DLTS-CrMoMeL
+  comments: This is the precursor one state of the the "BO" defect. The chemical assignment
+    was not measured but inferred. Negative U defect. Capture rates measured, but
+    parameterization not provided. Capture rates depended on Doping in an unusual
+    manner, i.e. was higher for light doping.
+  sample:
+    growth: Cz
+    dopant: boron
+    incorporation: melt
+    resistivity: 3.0
+  rates:
+    e_h: 1.99e8 * T^2 * exp(-0.97/kT)
+  params:
+    Ed_a: Ev+0.97
+    dEd_a: 0.005
+    sigma_ha: 3.9e-14

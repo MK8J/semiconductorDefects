@@ -1,0 +1,42 @@
+
+davis1980:
+  title: Impurities in silicon solar cells
+  DOI: 10.1109/T-ED.1980.19922
+  measurement_technique: DLTS, SCP
+  comments: This maybe Vanadium gold?
+  sample:
+    growth: CZ
+    dopant: boron, phosphorus
+    incorporation: melt
+  params:
+    Ed_a: Ev+0.42
+    dEd_a: 0.02
+    sigma_ea: 1.77e-14
+    sigma_ha: 1.1e-15
+    k: 16.1
+
+davis1980_1:
+  title: Impurities in silicon solar cells
+  DOI: 10.1109/T-ED.1980.19922
+  measurement_technique: DLTS, SCP
+  comments: This maybe Vanadium gold?
+  sample:
+    growth: CZ
+    dopant: boron, phosphorus
+    incorporation: melt
+  params:
+    Ed_a: Ec-0.22
+    dEd_a: 0.01
+
+davis1980_2:
+  title: Impurities in silicon solar cells
+  DOI: 10.1109/T-ED.1980.19922
+  measurement_technique: DLTS, SCP
+  comments: This maybe the Vanadium donor level?
+  sample:
+    growth: CZ
+    dopant: boron, phosphorus
+    incorporation: melt
+  params:
+    Ed_a: Ec-0.46
+    dEd_a: 0.02

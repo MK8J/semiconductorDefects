@@ -1,0 +1,26 @@
+
+evwaraye1977:
+  title: Electron irradiation damage in antimony doped silicon
+  DOI: 10.1063/1.323935
+  measurement_technique: DLTS
+  comments: Shows thermal emssion rate
+  params:
+    Ed_a: Ec-0.17
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  comments: Known as A centre
+  params:
+    Ed: Ec-0.174
+
+benton1982:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 139 K, Irradiated with 1 Mev
+  sample:
+    growth: CZ
+  params:
+    Ed_a: Ec-0.18
+    sigma_ea: 1.0e-14

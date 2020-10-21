@@ -1,0 +1,20 @@
+
+mukashev1982:
+  title: Studies of radiation defects in hydrogen implanted silicon by deep level
+    transient spectroscopy
+  DOI: 10.1080/00337578208229928
+  measurement_technique: DLTS
+  comments: measurement data taken from laplace DLTS database. Out at 673 for 10 min
+  sample:
+    growth: CZ
+    dopant: boron
+    incorporation: irridation
+    resistivity: '22'
+  measurement_details:
+    Ur: 5.0
+  measurement_data:
+    T: 122.1,132.8,145.5,160.7
+    e: 1,10,100,1000
+  params:
+    Ed_a: Ev+0.28
+    dEd_a: 0.015

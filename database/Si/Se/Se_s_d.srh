@@ -1,0 +1,10 @@
+
+pettersson1990:
+  title: Electric-field-enhanced electron emission from isolated sulfur and selenium
+    donors in silicon
+  DOI: 10.1103/PhysRevB.42.1381
+  measurement_technique: DLTS
+  comments: Depended on electric field
+  params:
+    Ed_a: Ec-0.29
+    Ed_h: Ec-0.31

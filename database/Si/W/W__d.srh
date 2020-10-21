@@ -1,0 +1,64 @@
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review
+  comments: Figure 2.1
+  params:
+    Ed: Ev+0.34
+
+milnes1973_1:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review
+  comments: Figure 2.1
+  params:
+    Ed: Ev+0.31
+
+lemke1983:
+  title: "\xDCber die chemische Natur von Rekombinationszentren in Si-Leistungsbauelementen"
+  DOI: 10.1002/pssa.2210760265
+  measurement_technique: DLTS
+  sample:
+    growth: FZ
+    dopant: boron
+  rates:
+    e_h: 1.05e6*T^2*exp(-0.376/kT)
+  params:
+    Ed_h: Ev+0.39
+    sigma_ha: 6.3e-1/1e7/1e8
+
+pettersson1991:
+  title: Electrical and optical properties of molybdenum and tungsten related defects
+    in silicon
+  DOI: 10.1088/0268-1242/6/4/002
+  measurement_technique: DLTS, DC-S
+  comments: DLTS peak at 180K. emission rate taken from digitisation.
+  sample:
+    growth: FZ, CZ
+    dopant: boron, phosphorus
+  rates:
+    e_h: 2.98e6*T^2*exp(-0.397/kT)
+  params:
+    Ed_a: Ev+0.4
+    Ed_h: Ev+0.382
+    Ed: Ev+0.383-5.2e-5*T
+    sigma_h: 1.15e-15 * exp(-0.018/kT)
+
+lemke1994:
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-MeCr, TS-C
+  comments: Assumed thermal velocity of 1e7 measured at 200K
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: diffusion
+  measurement_details:
+    T: 200.0
+  rates:
+    c_h: 6.3e-09
+  params:
+    Ed_h: Ev+0.39
+    sigma_h: 6.3e-9/1e7

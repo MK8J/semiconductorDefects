@@ -1,0 +1,124 @@
+
+sah1967:
+  title: Recombination Properties of the Gold Acceptor Level in Silicon using the
+    Impurity Photovoltaic Effect
+  DOI: 10.1103/PhysRevLett.19.71
+  measurement_technique: DLTS, DC-TI
+  comments: 'Thermal emission rate of electrons: 5.23e11(T/300)^2*exp(-0.58981/kT).
+    Capture rates are also provided'
+  params:
+    Ed_a: Ec-0.58981
+    dEd_a: 0.00215
+
+sah1967_1:
+  title: Recombination Properties of the Gold Acceptor Level in Silicon using the
+    Impurity Photovoltaic Effect
+  DOI: 10.1103/PhysRevLett.19.71
+  measurement_technique: DLTS, DC-TI
+  linked: Au_s_a.srh
+  comments: 'Thermal emission rate of holes: 1.17e12(T/300)^2*exp(-0.54723/kT). Capture
+    rates are also provided'
+  params:
+    Ed_a: Ev+0.54723
+    dEd_a: 0.00217
+
+sah1969:
+  title: Thermal emission rates of carriers at gold centers in silicon
+  DOI: 10.1063/1.1652943
+  measurement_technique: DLTS-Mo
+  linked: Au_s_a.srh
+  params:
+    Ed_a: Ev+0.58989
+    dEd_a: 0.00215
+
+sato1970:
+  title: Measurements of the Thermal-Emission Rates of Electrons and Holes at the
+    Gold Centers in Silicon Using the Small-Signal-Pulsed Field Effect
+  DOI: 10.1063/1.1658432
+  measurement_technique: DLTS
+  linked: Au_s_a.srh
+  measurement_details:
+    T: 250K
+  params:
+    Ed_a: Ec-0.54
+
+engstrom1975:
+  title: Thermal activation energy of the gold-acceptor level in silicon
+  DOI: 10.1063/1.321653
+  measurement_technique: DLTS, LS-T
+  linked: Au_s_a.srh
+  params:
+    Ed_a: Ec-0.553
+
+nagasawa1975:
+  title: Fast transient capacitance measurements for implanted deep levels in silicon
+  DOI: 10.1007/BF00883667
+  measurement_technique: DLTS-Cr
+  linked: Au_s_a.srh
+  comments: Evaluated at 295 K, had a gold level higher than the doping.
+  measurement_details:
+    T: 295 K
+  params:
+    Ed_a: Ec-0.54
+    Ed_h: Ec-0.54
+    sigma_e: 2.18e-15
+
+graff1981a:
+  title: The behavior of transition and noble metals in silicon crystals
+  ISSN: 0091-391X
+  measurement_technique: DLTS-Cr
+  linked: Au_s_a.srh
+  sample:
+    growth: FZ, CZ
+    dopant: phosphorus
+    incorporation: thermal
+    resistivity: 1-100
+  params:
+    Ed_h: Ec-0.54
+    sigma_ea: 4.0e-16
+
+tavendale1983:
+  title: Deep level, quenched-in defects in silicon doped with gold, silver, iron,
+    copper or nickel
+  DOI: 10.1088/0022-3719/16/9/011
+  measurement_technique: DLTS
+  linked: Au_s_a.srh
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    resistivity: 20
+  params:
+    Ed_a: Ec-0.55
+
+lemke1986:
+  title: Dotierungseigenschaften von Silber in Silizium
+  DOI: 10.1002/pssa.2210940171
+  measurement_technique: DLTS
+  linked: Au_s_a.srh
+  comments: assume value for thermal velocity of 2e7
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: thermal
+    resistivity: 50,20
+  params:
+    Ed_a: Ec-0.57
+    sigma_ea: 1.6e-9/2e7
+
+lemke1994:
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-MeCr, TS-C
+  comments: Assumed thermal velocity of 1e7 measured at 300K
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: diffusion
+  measurement_details:
+    T: 300.0
+  rates:
+    c_e: 1.6e-09
+  params:
+    Ed_h: Ec-0.55
+    sigma_e: 1.6e-9/1e7

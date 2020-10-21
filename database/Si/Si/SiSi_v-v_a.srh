@@ -1,0 +1,36 @@
+
+kimerling1976:
+  title: New Developments in Defect Studies in Semiconductors
+  DOI: 10.1109/TNS.1976.4328529
+  measurement_technique: DLTS, EPR
+  comments: Out at 573K
+  params:
+    Ed_a: Ev+0.21
+    sigma_ha: 2e-16
+
+glmiller1977:
+  title: Capacitance Transient Spectroscopy
+  DOI: 10.1146/annurev.ms.07.080177.002113
+  measurement_technique: DLTS
+  comments: Out at 300
+  params:
+    Ed_a: Ev+0.21
+    sigma_ha: 2e-16
+
+indusekhar1986:
+  title: Investigation of Deep Defects Due to _-Particle Irradiation in n-Silicon
+  DOI: 10.1002/pssa.2210930230
+  measurement_technique: DLTS-Cr
+  comments: sigma > 1e-15
+  sample:
+    growth: epi
+    dopant: phosphorus
+    incorporation: irridation
+    resistivity: '2'
+  measurement_details:
+    T: 196 K
+    Ur: -4.2
+    tp: 5 ms
+  params:
+    Ed_a: Ec-0.48
+    sigma_ha: 5.3e-13

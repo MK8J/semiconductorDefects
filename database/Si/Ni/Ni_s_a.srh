@@ -1,0 +1,82 @@
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review
+  comments: Figure 2.1
+  params:
+    Ed: Ev+0.23
+
+shiraishi1999:
+  title: DLTS analysis of nickel_hydrogen complex defects in silicon
+  DOI: 10.1016/S0921-5107(98)00280-3
+  measurement_technique: DLTS-Cr
+  sample:
+    growth: CZ, FZ
+    dopant: phosphorus
+    incorporation: melt, diffusion
+    resistivity: 1-100
+  measurement_details:
+    T: 237.0
+    Rw: 0.024 s
+  params:
+    Ed_a: Ec-0.39
+    Ed_h: Ec-0.31
+    Ed: Ec-0.216
+    sigma_ea: 2.2e-16
+    sigma_e: 4.4e-17 * exp(-0.08/kT) * exp(0.08/k/237)
+
+graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ec-0.41
+    sigma_ea: '1.2e-16'
+
+graff2000_1:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from table 4.6.
+  params:
+    Ed_a: Ec-0.39
+    dEd_a: 0.02
+    sigma_ea: 5.6e-17
+
+rein2005a:
+  title: Lifetime Spectroscopy A Method of Defect Characterization in Silicon for
+    Photovoltaic Applications
+  DOI: 10.1007/3-540-27922-9
+  measurement_technique: LS-ITD
+  comments: Temperature dependence of sigma T^-2.4.
+  params:
+    Ed: Ec-0.4
+    dEd: 0.03
+    k: '0.7'
+    dk: 0.4
+
+scheffler2014:
+  title: Electrical levels in nickel doped silicon
+  DOI: 10.1063/1.4901003
+  measurement_technique: DLTS-L
+  comments: Out at 550 K
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: melt, diffusion
+    resistivity: '1000'
+  measurement_details:
+    T: 230.0
+    Ur: -2 V
+    Up: 0 V
+    tp: 1 ms
+    Rw: 0.021 s
+  params:
+    Ed_a: Ec-0.45
+    sigma_ea: '1.4E-15'
+    dsigma_ea: 1.0e-16

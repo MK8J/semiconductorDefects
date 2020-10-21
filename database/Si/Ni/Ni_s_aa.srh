@@ -1,0 +1,58 @@
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review
+  comments: Figure 2.1
+  params:
+    Ed: Ec-0.35
+
+shiraishi1999:
+  title: DLTS analysis of nickel_hydrogen complex defects in silicon
+  DOI: 10.1016/S0921-5107(98)00280-3
+  measurement_technique: DLTS-Cr
+  sample:
+    growth: CZ, FZ
+    dopant: phosphorus
+    incorporation: melt, diffusion
+    resistivity: 1-100
+  measurement_details:
+    T: 45.0
+    Rw: 0.024 s
+  params:
+    Ed_a: Ec-0.08
+    Ed_h: Ec-0.03
+    Ed: Ec-0.024
+    sigma_ea: 4.2000000000000004e-14
+    sigma_e: 5.8E-19 * exp(-0.05/kT)*exp(0.05/k/45)
+
+graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from table 4.6. DLTS done at a temperature of 45K
+  params:
+    Ed_a: Ec-0.07
+    dEd_a: 0.01
+    sigma_ea: 5.4e-18
+
+scheffler2014:
+  title: Electrical levels in nickel doped silicon
+  DOI: 10.1063/1.4901003
+  measurement_technique: DLTS-L
+  comments: Out at 550 K
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: melt, diffusion
+    resistivity: '1000'
+  measurement_details:
+    T: 45.0
+    Ur: -2 V
+    Up: 0 V
+    tp: 1 ms
+    Rw: 0.021 s
+  params:
+    Ed_a: Ec-0.07
+    sigma_ea: '1.2E-15'
+    dsigma_ea: 7.0e-16
