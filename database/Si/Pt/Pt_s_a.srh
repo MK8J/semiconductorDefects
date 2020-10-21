@@ -25,7 +25,7 @@ pals1974:
     dopant: phosphorus
     incorporation: thermal
   rates:
-    e_e: 7.54e-8*exp(-0.23/kT)*T^2
+    e_e: 1/7.54e-8*exp(-0.23/kT)*T^2
   params:
     Ed_a: Ec-0.23
     sigma_e: 5e-15

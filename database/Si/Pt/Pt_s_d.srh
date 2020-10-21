@@ -17,7 +17,7 @@ pals1974:
     dopant: boron
     incorporation: thermal
   rates:
-    e_e: 1.17e-7*exp(-0.317/kT)*T^2
+    e_e: 1/1.17e-7*exp(-0.317/kT)*T^2
   params:
     Ed_a: Ev+0.317
     sigma_h: 9.7e-16
