@@ -1,0 +1,18 @@
+{
+    "title": "Dotierungseigenschaften von Silber in Silizium",
+    "DOI": "10.1002/pssa.2210940171",
+    "measurement_technique": "DLTS",
+    "linked": "Ag_s_a.srh",
+    "sample": {
+        "growth": "FZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "thermal",
+        "resistivity": "50,20"
+    },
+    "rates": {
+        "c_e": 1.3e-09
+    },
+    "params": {
+        "Ed_a": "Ec-0.57"
+    }
+}

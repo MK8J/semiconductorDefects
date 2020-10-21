@@ -1,0 +1,23 @@
+{
+    "title": "Characterization of silver-related deep levels in silicon",
+    "DOI": "10.1063/1.339425",
+    "measurement_technique": "DLTS-Cr, DLTS-S",
+    "linked": "Ag_s_d.srh",
+    "comments": "change in emission rate with bias. DLTS database.",
+    "sample": {
+        "dopant": "boron, phosphorus",
+        "incorporation": "thermal",
+        "resistivity": "13,5"
+    },
+    "measurement_details": {
+        "Ur": -3.0
+    },
+    "rates": {
+        "c_h": 1.7e-08
+    },
+    "params": {
+        "Ed_h": "Ev+0.35",
+        "Ed": "Ev+0.34",
+        "sigma_h": 1.7e-15
+    }
+}
