@@ -1,9 +1,0 @@
-{
-    "title": "Thermal activation energy of the gold-acceptor level in silicon",
-    "DOI": "10.1063/1.321653",
-    "measurement_technique": "DLTS, LS-T",
-    "linked": "Au_s_a.srh",
-    "params": {
-        "Ed_a": "Ec-0.553"
-    }
-}
