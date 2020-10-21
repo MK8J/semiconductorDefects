@@ -147,19 +147,19 @@ def add_data(path):
 
 for deletion in deletions:
     print("deleting " + deletion[1])
-    #deleteRequest = requests.delete(basePath + "/" + deletion[1],
+    deleteRequest = requests.delete(basePath + "/" + deletion[1],
     #                                headers=headers)
-    #handleHttpResponse(deleteRequest, "Could not delete " + deletion[1])
+    handleHttpResponse(deleteRequest, "Could not delete " + deletion[1])
 
 
 for rename in renames:
     print("renaming " + rename[1] + " to " + rename[2])
     defect = add_data(rename[2])
     # need to build the json here
-    #renameRequest = requests.put(basePath + "/" + rename[1],
-    #                              data=json.dumps(defect.__dict__),
-    #                              headers=headers)
-    #handleHttpResponse(renameRequest, "Could not rename " + rename[1])
+    renameRequest = requests.put(basePath + "/" + rename[1],
+                                  data=json.dumps(defect.__dict__),
+                                  headers=headers)
+    handleHttpResponse(renameRequest, "Could not rename " + rename[1])
 
 #for modification in modifications:
 for modification in additions:
@@ -172,9 +172,9 @@ for modification in additions:
     handleHttpResponse(updateRequest, "Could not update " + modification[1])
 
 
-#for addition in additions:
+for addition in additions:
     #print("adding " + addition[1])
-    #defect = add_data(addition[1])
+    defect = add_data(addition[1])
     #commented out to stop sending data ATM
-    #additionRequest = requests.post(basePath, data=json.dumps(defect.__dict__), headers=headers)
-    #handleHttpResponse(additionRequest, "Could not create " + addition[1] )
+    additionRequest = requests.post(basePath, data=json.dumps(defect.__dict__), headers=headers)
+    handleHttpResponse(additionRequest, "Could not create " + addition[1])
