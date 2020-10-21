@@ -63,6 +63,7 @@ def createNewFiles(folder, fnames):
     # we are about to repopulate it with everything in the current file
 
     print('folder', folder)
+
     if os.path.exists(folder):
         print('folder being removed {}'.format(os.path.join(folder, '*')))
 
