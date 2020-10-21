@@ -56,5 +56,5 @@ jobs:
         PASSWORD: ${{ secrets.defects_password }}
       run: |
         CHANGES=$(git diff --name-status @{upstream} database )
-        echo "$CHANGES"
+        echo The changes are "$CHANGES"
         python ./.github/workflows/publishchanges.py -c "$CHANGES" -u $USERNAME -p $PASSWORD
