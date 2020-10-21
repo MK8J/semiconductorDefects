@@ -67,7 +67,7 @@ def createNewFiles(folder, fnames):
         
         # first thing to do is remove the folder if it exist
         # we are about to repopulate it with everything in the current file
-        if os.path.exists(_folder):
+        if os.path.exists(folder):
             os.system('rm {}'.format(folder))
 
 
