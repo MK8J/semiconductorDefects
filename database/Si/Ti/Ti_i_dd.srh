@@ -1,0 +1,111 @@
+
+weber1983:
+  title: Transition metals in silicon
+  DOI: 10.1007/BF00617708
+  measurement_technique: review
+  params:
+    Ed: Ev+0.25
+
+wang1984:
+  title: Complete electrical characterization of recombination properties of titanium
+    in silicon
+  DOI: 10.1063/1.334095
+  measurement_technique: DLTS-CrMe
+  comments: Error in temperature coefficient of the values recorded here was not captured.
+    This is the first demonstration of all rates measured with an electrical bias.
+    They vaired the pulse height not the pulse width. They forward bias a diode rather
+    than  optical bias. While in the paper that titanium has been refereed to as being
+    substitutional atom, but the reference that follows only uses it as a suggestion
+    rather than an assignment.
+  sample:
+    growth: CZ
+    dopant: boron, phosphorus
+    incorporation: melt
+  rates:
+    e_h: 2.02e10*(T/300)^2*exp(-0.2819/kT)
+    c_e: 1.26e-7 * (300/T)^(0.61)
+    c_h: 1.24e-9 * exp(-0.0302/kT)
+  params:
+    Ed_h: Ev+0.255
+    sigma_e: 1.3e-14*(300/T)^1.02
+    dsigma_e: 5.0e-16
+    sigma_h: 1.09e-16*exp(-0.027/kT)
+    dsigma_h: 1.4e-17
+
+mathiot1989:
+  title: 'Titanium-related deep levels in silicon: A reexamination'
+  DOI: 10.1063/1.343608
+  measurement_technique: DLTS-Cr
+  comments: varied the pulse height and the pulse width at the same time.
+  sample:
+    growth: FZ,CZ
+    dopant: boron
+    incorporation: thermal
+  rates:
+    e_h: 1.65e5*T^2*exp(-0.287/kT)
+  params:
+    Ed_h: Ev+0.26
+    sigma_h: 2.6e-17*exp(-0.027/kT)
+
+tilly1991:
+  title: Electrical and optical properties of titanium-related centers in silicon
+  DOI: 10.1103/PhysRevB.43.9171
+  measurement_technique: DLTS-Cr
+  comments: Comments on both the previous defect asignment and charges assignment
+    being vague. Capture cross section values manually extracted from graph
+  sample:
+    dopant: boron, phosphorus
+    incorporation: ion implantation
+  params:
+    Ed_a: Ev+0.267
+    Ed_h: Ev+0.258
+    Ed: Ev+(0.258-3.86e-5*T)
+    sigma_h: 2.17e-17*exp(-0.01/k/T)
+
+graff1995:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons. This value is different from others as it
+    is an activation energy rather than the energy level.
+  params:
+    Ed_h: Ev+0.28
+    sigma_h: 4.00E-16 * exp(-0.04/kT)
+
+graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from table 5.2. DLTS done at a temperature of 200K. This value is
+    different from others as it is an activation energy rather than the energy level.
+  params:
+    Ed_h: Ev+0.28
+    dEd_h: 0.01
+    sigma_h: 1.5e-16*exp(-0.036/kT)
+
+rein2005a:
+  title: Lifetime Spectroscopy A Method of Defect Characterization in Silicon for
+    Photovoltaic Applications
+  DOI: 10.1007/3-540-27922-9
+  measurement_technique: LS-ITD
+  comments: Sigma_e taken from literature. A temperature dependence of sigma of T^-1.6.
+  params:
+    Ed: Ev+0.289
+    dEd: 0.005
+    sigma_h: '1.9e-16'
+    k: '12.0'
+    dk: 1
+
+paudyal2009a:
+  title: Temperature dependent carrier lifetime studies on Ti-doped multicrystalline
+    silicon
+  DOI: 10.1063/1.3139286
+  sample:
+    dopant: boron
+    incorporation: ion implantation
+    resistivity: 1
+  params:
+    sigma_e: 9.01e-14*exp(-0.107/kT)

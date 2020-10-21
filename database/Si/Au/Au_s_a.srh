@@ -1,0 +1,171 @@
+
+collins1957:
+  title: Properties of Gold-Doped Silicon
+  DOI: 10.1103/PhysRev.105.1168
+  measurement_technique: Hall
+  comments: Notes both level occur with approximately the same number of defects
+  params:
+    Ed: Ec-0.54
+    dEd: 0.02
+
+bemski1958:
+  title: Recombination Properties of Gold in Silicon
+  DOI: 10.1103/PhysRev.111.1515
+  measurement_technique: LS-DINT
+  comments: 200 - 500K
+  params:
+    sigma_e: 5E-16 * T^(0)
+    sigma_h: 1E-15*(T/300)^(-4)
+
+davis1959:
+  title: Lifetimes and Capture Cross Sections in Gold-Doped Silicon
+  DOI: 10.1103/PhysRev.114.1006
+  measurement_technique: LS
+  comments: '77K. '
+  params:
+    sigma_e: '2.00E-15'
+    sigma_h: '1.00E-13'
+
+fairfield1965:
+  title: Gold as a recombination centre in silicon
+  DOI: 10.1016/0038-1101(65)90036-5
+  measurement_technique: LS-DN
+  comments: Values at 300 K
+  params:
+    sigma_e: 1.65e-9/20460000
+    dsigma_e: 0.00000000165*0.15/20460000
+    sigma_h: 0.000000115/1.688e7
+    dsigma_h: 0.000000115*0.3/1.688e7
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review
+  comments: Figure 2.1
+  params:
+    Ed: Ev+0.54
+
+pals1974:
+  title: Properties of Au, Pt, Pd and Rh levels in silicon measured with a constant
+    capacitance technique
+  DOI: 10.1016/0038-1101(74)90157-9
+  measurement_technique: DLTS-Cc
+  comments: 77-220K
+  sample:
+    dopant: phosphorus
+    incorporation: thermal
+  rates:
+    e_e: 1/3.3e-8*exp(-0.56/kT)*T^2
+  params:
+    Ed_a: Ec-0.56
+    sigma_e: 1.3e-16
+
+brotherton1978:
+  title: The electron capture cross section and energy level of the gold acceptor
+    center in silicon
+  DOI: 10.1063/1.324641
+  measurement_technique: DLTS-Cr
+  params:
+    Ed_h: Ec-0.555
+    sigma_e: 9e-17
+
+lang1980:
+  title: Complex nature of gold-related deep levels in silicon
+  DOI: 10.1103/PhysRevB.22.3917
+  measurement_technique: DLTS-Cr
+  comments: Ed reported at 250 k
+  params:
+    Ed_a: Ec-0.553
+    Ed_h: Ec-0.553
+    Ed: Ec-0.553 + 3 *k *T
+    sigma_e: 1.7e-16*T^0
+
+lang1980_a:
+  title: Complex nature of gold-related deep levels in silicon
+  DOI: 10.1103/PhysRevB.22.3917
+  measurement_technique: DLTS-Cr
+  comments: Said that the difference defect between the two values maybe the results
+    (lang1980 and lang1980a) of a different defect.
+  params:
+    Ed_h: Ec-0.553
+    Ed: Ec-0.553 + 3.87 *k *T
+    sigma_e: 0.69e-16*T^0
+
+benton1982:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 288 K, quenched
+  sample:
+    growth: FZ
+  params:
+    Ed_a: Ec-0.53
+    sigma_ea: 2.0e-16
+
+wu1982:
+  title: Capture cross sections of the gold donor and acceptor states in n-type Czochralski
+    silicon
+  DOI: 10.1016/0038-1101(82)90066-1
+  measurement_technique: DLTS-CrMo
+  comments: 80-200 K, Lists issues when comparing older values. These include when
+    the trap concentration is too large, but also that there may have been different
+    defects.
+  sample:
+    growth: CZ
+    dopant: phosphorus
+    incorporation: diffusion
+    resistivity: 3-50
+  params:
+    Ed_a: Ec-0.550
+    Ed_h: Ec-0.550
+    sigma_e: 8.5e-17
+    dsigma_e: 2.0e-17
+    sigma_h: 0.9e-14 * (T/300)^(-1.3)
+    dsigma_h: 0.2e-14 * (T/300)^(-1.3)
+
+hangleiter1987:
+  title: 'Nonradiative recombination via deep impurity levels in silicon: Experiment'
+  DOI: 10.1103/PhysRevB.35.9149
+  measurement_technique: luminescence
+  comments: Assumed a thermal velocity of (2e7 *(T/300)^(0.5))
+  params:
+    sigma_h: 5e-8*exp(0.03/kT)*exp(-0.03/k/300)/(2e7 *(T/300)^(0.5))
+
+graff1995:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 4.11.
+  params:
+    Ed_h: Ec-0.554
+    sigma_e: '1.4e-16'
+    sigma_h: 6e-15/9*T^(-1.3/1.5)
+
+deixler1998:
+  title: Laplace-transform deep-level transient spectroscopy studies of the G4 gold
+    hydrogen complex in silicon
+  DOI: 10.1063/1.122694
+  measurement_technique: DLTS-Cr
+  comments: 245-302 K,
+  sample:
+    growth: CZ
+    dopant: phosphorus
+  measurement_details:
+    Ur: -5 V
+    Up: 0 V
+    tp: 1 ms
+    Rw: 20 ms
+  params:
+    Ed: Ec-0.558
+    sigma_e: 1e-16
+
+graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from table 4.12. DLTS done at a temperature of 300K
+  params:
+    Ed_h: Ec-0.55
+    dEd_h: 0.01
+    sigma_e: '1.4e-16'
+    sigma_h: '7.6e-15'

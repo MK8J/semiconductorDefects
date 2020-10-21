@@ -1,9 +1,0 @@
-{
-    "title": "Properties of Silicon Doped with Iron or Copper",
-    "DOI": "10.1103/PhysRev.108.1409",
-    "measurement_technique": "Hall",
-    "comments": "Copper was hard to manage as it precipiates. They saw two additional levels Ec-0.23 and Ev+0.45, but believe it was due to contaminants in the copper.",
-    "params": {
-        "Ed": "Ev+0.24"
-    }
-}

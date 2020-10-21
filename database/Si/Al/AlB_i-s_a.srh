@@ -1,0 +1,15 @@
+
+graff1981:
+  title: The Properties of Iron in Silicon
+  DOI: 10.1149/1.2127478
+  measurement_technique: DLTS-D, LS, FTIR
+  sample:
+    growth: CZ,FZ
+    dopant: aluminium
+    incorporation: thermal
+    resistivity: 1-100
+  measurement_details:
+    Ur: 5.0
+    tp: 70 ms
+  params:
+    Ed_a: Ev+0.21
