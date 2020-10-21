@@ -144,7 +144,7 @@ def createNewFiles(folder, fnames):
             f.write(json.dumps(fname[1], indent=4))
 
 
-def yaml2json():
+def yaml2json(commit=True):
     '''
     Changes the format of that database from YAML to JSON
     to aid in getting data on PV lighthouse.
@@ -169,9 +169,10 @@ def yaml2json():
     #print('trying to commit')
 
 
-    os.system('git add -A')
-    os.system('git commit -m "auto commit - added new files"')
-    os.system('git push origin')
+    if commit:
+        os.system('git add -A')
+        os.system('git commit -m "auto commit - added new files"')
+        os.system('git push origin')
 
     # removes optical file contences, as this is not used
     for fname in glob.glob('./database/*/*/*.opt'):
@@ -181,9 +182,10 @@ def yaml2json():
     for fname in glob.glob('./database/*/*/*.pl'):
         os.remove(fname)
 
-    os.system('git add -A')
-    os.system('git commit -m "auto commit - removed opt and pl files"')
-    os.system('git push origin')
+    if commit:
+        os.system('git add -A')
+        os.system('git commit -m "auto commit - removed opt and pl files"')
+        os.system('git push origin')
 
 def check_temps():
 
@@ -415,7 +417,7 @@ if __name__ == '__main__':
     #    fnames = yamlFile2Jsons(fname)
     #    createNewFiles(folder, fnames)
     #    this is the one to uncomment
-    yaml2json()
+    yaml2json(False)
 
     # JSONdata1 = {
     #     "title": "A quenched-in defect in boron-doped silicon",
