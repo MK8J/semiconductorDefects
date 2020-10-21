@@ -142,9 +142,11 @@ def add_data(path):
 
     return defect
 
+
 for deletion in deletions:
     print("deleting " + deletion[1])
-    deleteRequest = requests.delete(basePath + "/" + deletion[1], headers=headers)
+    deleteRequest = requests.delete(basePath + "/" + deletion[1],
+                                    headers=headers)
     handleHttpResponse(deleteRequest, "Could not delete " + deletion[1])
 
 
@@ -153,8 +155,8 @@ for rename in renames:
     defect = add_data(rename[2])
     # need to build the json here
     renameRequest = requests.put(basePath + "/" + rename[1],
-    #                              data=json.dumps(defect.__dict__),
-    #                              headers=headers)
+                                  data=json.dumps(defect.__dict__),
+                                  headers=headers)
     handleHttpResponse(renameRequest, "Could not rename " + rename[1])
 
 for modification in modifications:
@@ -162,8 +164,8 @@ for modification in modifications:
     defect = add_data(modification[1])
 
     updateRequest = requests.put(basePath + "/" + modification[1],
-    #                              data=json.dumps(defect.__dict__),
-    #                              headers=headers)
+                                  data=json.dumps(defect.__dict__),
+                                  headers=headers)
     handleHttpResponse(updateRequest, "Could not update " + modification[1])
 
 
