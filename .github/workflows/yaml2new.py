@@ -187,6 +187,9 @@ def yaml2json(commit=True):
         os.remove(fname)
         os.system('git rm {}'.format(fname))
 
+    # commits the remove items that should not be on this branch.
+    # that means, from here on a diff works to compare files that
+    # have changes on this branch 
     if commit:
         os.system('git commit -m "auto commit: removed master branch files"')
         os.system('git push origin')
