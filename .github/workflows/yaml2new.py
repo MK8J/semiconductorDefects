@@ -165,10 +165,11 @@ def yaml2json(commit=True):
         fnames = add_DLTS_params(yamlFile2Jsons(fname))
         #print('returned folder ', '\n\n'.join([str(f) for f in fnames]))
         createNewFiles(folder, fnames)
-        os.remove(fname)
-    #print('files created')
-    #print('trying to commit')
 
+        # remove the files from master
+        os.remove(fname)
+        # prune them from git tracking
+        os.system('git rm {}'.format(fname))
 
     #if commit:
     #    os.system('git add -A')
@@ -179,15 +180,17 @@ def yaml2json(commit=True):
     # removes optical file contences, as this is not used
     for fname in glob.glob('./database/*/*/*.opt'):
         os.remove(fname)
+        os.system('git rm {}'.format(fname))
 
     # removes pl data as this is not used
     for fname in glob.glob('./database/*/*/*.pl'):
         os.remove(fname)
+        os.system('git rm {}'.format(fname))
 
-    #if commit:
-    #    os.system('git add -A')
-    #    os.system('git commit -m "auto commit - removed opt and pl files"')
-        #os.system('git push origin')
+    if commit:
+        os.system('git commit -m "auto commit: removed master branch files"')
+        os.system('git push origin')
+    
 
 def check_temps():
 
