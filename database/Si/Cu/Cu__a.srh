@@ -10,7 +10,7 @@ brotherton1987:
     incorporation: thermal
     resistivity: 66-125
   params:
-    Ed_a: Ev+0.425
+    Ed_a: Ev+0.42
     sigma_ea: 7.4e-15
     sigma_ha: 3.0e-15
 
