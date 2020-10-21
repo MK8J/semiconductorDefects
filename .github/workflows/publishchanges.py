@@ -115,7 +115,7 @@ def add_data(path):
     #  print( sp)
 
     # need to add paramters to a tag, so that that are seen by PLV
-    if 'DLTS_params' in  defect.JSONdata.keys():
+    if 'DLTS_params' in  defect.JSONData.keys():
         defect.Tags.update(defect.JSONdata['DLTS_params'])
 
     # gets the emission temps
