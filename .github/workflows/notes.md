@@ -11,7 +11,7 @@ Limitation
 2. Can not commit files from master, as they 
 
 
-current process
+# Current process
 
 1. Merge master into github actions. All or Diff, doesn't matter. Current;y doing all. 
 2. commit and push to online. 
@@ -19,3 +19,7 @@ current process
 4. It then compares the diff to the upstream (the last commit). This will show any changes in the files are to be send to PVL. It then attempts to send them. 
 
 
+limitations:
+
+1. It can't monitor deletes this way. It can it I delete a folder! 
+ 

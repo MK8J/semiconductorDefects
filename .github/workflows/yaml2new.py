@@ -64,6 +64,12 @@ def createNewFiles(folder, fnames):
     for fname in fnames:
         # get right folder
         _folder = folder.split(os.sep)
+        
+        # first thing to do is remove the folder if it exist
+        # we are about to repopulate it with everything in the current file
+        if os.path.exists(_folder):
+            os.system('rm {}'.format(_folder))
+
 
         if "linked" in fname[1].keys():
             dft = fname[1]['linked'].replace('.srh', '')
@@ -170,7 +176,6 @@ def yaml2json(commit=True):
         os.remove(fname)
         # prune them from git tracking
         os.system('git rm {}'.format(fname))
-
     #if commit:
     #    os.system('git add -A')
     #    os.system('git commit -m "auto commit - added new files"')
