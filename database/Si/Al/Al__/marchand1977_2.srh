@@ -1,0 +1,25 @@
+{
+    "title": "Study of thermally induced deep levels in Al doped Si",
+    "DOI": "10.1063/1.323383",
+    "measurement_technique": "TS-I",
+    "comments": "Maybe AlO, depends on electric field",
+    "sample": {
+        "growth": "CZ",
+        "dopant": "aluminium",
+        "resistivity": "1-100"
+    },
+    "rates": {
+        "e_h": "3.15e10*(T/300)^2*exp(-0.4022/kT)"
+    },
+    "params": {
+        "Ed_a": "Ev+0.402"
+    },
+    "DLTS_params": {
+        "t1": "199.8",
+        "t2": "219.7",
+        "t3": "243.7",
+        "t4": "273.3",
+        "inter": "350000.0",
+        "Ed_a": "0.402"
+    }
+}

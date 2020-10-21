@@ -1,0 +1,11 @@
+{
+    "title": "Capture cross sections of the acceptor level of iron-boron pairs in p-type silicon by injection-level dependent lifetime measurements",
+    "DOI": "10.1063/1.1372156",
+    "measurement_technique": "LS-ID",
+    "comments": "Lifetime analysis on FeB at a fixed temperature",
+    "params": {
+        "Ed": "Ec-0.23",
+        "sigma_e": "3e-14",
+        "sigma_h": "2e-15"
+    }
+}

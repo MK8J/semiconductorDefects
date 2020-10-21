@@ -1,0 +1,9 @@
+{
+    "title": "Nonradiative recombination via deep impurity levels in silicon: Experiment",
+    "DOI": "10.1103/PhysRevB.35.9149",
+    "measurement_technique": "luminescence,",
+    "comments": "To put data in the data a thermal velocity of (2e7 *(T/300)^(0.5)). \"The hole-capture coefficient of Fe determined from the carrier lifetime in n-type Si at 300 K is more than 10 times larger than the value measured with DLTS. Puts this down to different capture mechanisms in forward and reverse bias.",
+    "params": {
+        "sigma_h": "2e-8*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))"
+    }
+}

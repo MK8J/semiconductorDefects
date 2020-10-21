@@ -1,0 +1,18 @@
+{
+    "title": "New Developments in Defect Studies in Semiconductors",
+    "DOI": "10.1109/TNS.1976.4328529",
+    "measurement_technique": "DLTS, EPR",
+    "comments": "Out at 473K. Min value for sigma",
+    "params": {
+        "Ed_a": "Ev+0.48",
+        "sigma_ha": "1e-16"
+    },
+    "DLTS_params": {
+        "t1": "231.0",
+        "t2": "253.3",
+        "t3": "280.3",
+        "t4": "313.4",
+        "inter": "478000.0",
+        "Ed_a": "0.477"
+    }
+}

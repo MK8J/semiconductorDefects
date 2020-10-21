@@ -1,0 +1,10 @@
+{
+    "title": "Infra-red Absorption in Semiconductors",
+    "DOI": "10.1088/0034-4885/19/1/304",
+    "measurement_technique": "review, infrared absorption",
+    "linked": "Al_s_a.srh",
+    "comments": "The ionization energy was estimated using the observed excitation band of highest energy. Higher than thermal value of Ev+0.057",
+    "params": {
+        "Ed": "Ev+0.067"
+    }
+}
