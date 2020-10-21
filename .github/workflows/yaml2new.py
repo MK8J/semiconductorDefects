@@ -125,15 +125,15 @@ def createNewFiles(folder, fnames):
             names = _folder.split(os.sep)
 
             for i in range(1, len(names)):
-                print(os.sep, names, names[:-i])
+                #print(os.sep, names, names[:-i])
                 f = '{}'.format(os.sep).join(names[:-i])
-                print(f, type(f))
+                #print(f, type(f))
                 if os.path.exists(f):
                     break
 
             for j in range(1,i)[::-1]:
                 f = '{}'.format(os.sep).join(names[:-j])
-                print('creating', f)
+                #print('creating', f)
                 if not os.path.exists(f):
                         os.mkdir(f)
 
@@ -159,10 +159,10 @@ def yaml2json(commit=True):
     # converts all the author data from bring in one file
     # to being in individual files
     for fname in glob.glob('./database/*/*/*.srh'):
-        print(fname, 'fname')
+        #print(fname, 'fname')
         folder = fname.replace('.srh', '')
         fnames = add_DLTS_params(yamlFile2Jsons(fname))
-        print('returned folder ', '\n\n'.join([str(f) for f in fnames]))
+        #print('returned folder ', '\n\n'.join([str(f) for f in fnames]))
         createNewFiles(folder, fnames)
         os.remove(fname)
     #print('files created')
@@ -190,11 +190,11 @@ def yaml2json(commit=True):
 def check_temps():
 
     for fname in glob.glob('./database/*/*/*/*.srh'):
-        print(fname, end=(','))
+        #print(fname, end=(','))
         with open(fname, 'r') as f:
             cont = f.read()
         addTemps(json.loads(cont))
-        print('', end=('\r'))
+        #print('', end=('\r'))
 
 
 def get_DLTS_params(temp, e_r):
@@ -267,7 +267,7 @@ def add_DLTS_params(data_touple):
 
     for fname, data_dic in data_touple:
         DLTS_params = {}
-        print('\t\t',fname, end=('\t'))
+        #print('\t\t',fname, end=('\t'))
         temps = getTemps(data_dic)
 
         # if we can cal temps
@@ -334,13 +334,13 @@ def getTemps(JSONdata):
     # these will have to be calculated
     if 'rates' in JSONdata.keys() and ('e_e' in JSONdata['rates'].keys() or
                                        'e_h' in JSONdata['rates'].keys()):
-        print('doing rates', end=('\t'))
+        #print('doing rates', end=('\t'))
         if 'e_e' in JSONdata['rates'].keys():
             e = JSONdata['rates']['e_e']
         elif 'e_h' in JSONdata['rates'].keys():
             e = JSONdata['rates']['e_h']
 
-        print(e, end=('\t'))
+        #print(e, end=('\t'))
         #print(e)
 
 
@@ -364,7 +364,7 @@ def getTemps(JSONdata):
     if 'params' in JSONdata.keys() and temps == []:
         eda = None
         sigma = None
-        print('doing params')
+        #print('doing params')
         if 'Ed_a' in JSONdata['params'].keys():
 
             if 'Ec' in JSONdata['params']['Ed_a'] and 'sigma_ea' in JSONdata['params'].keys():
@@ -417,7 +417,7 @@ if __name__ == '__main__':
     #    fnames = yamlFile2Jsons(fname)
     #    createNewFiles(folder, fnames)
     #    this is the one to uncomment
-    yaml2json(False)
+    yaml2json()
 
     # JSONdata1 = {
     #     "title": "A quenched-in defect in boron-doped silicon",
