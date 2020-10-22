@@ -176,6 +176,7 @@ def yaml2json(commit=True):
         folder = fname.replace('.srh', '')
         fnames = add_DLTS_params(yamlFile2Jsons(fname))
 
+        print('recied fnames', fnames)
         createNewFiles(folder, fnames)
 
         # remove the files from master
