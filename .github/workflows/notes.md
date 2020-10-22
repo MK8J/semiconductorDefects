@@ -31,5 +31,5 @@ Checked:
 3. Deletions
 
 limitations:
-	currently can not detele if an entire file has been deleted. 
+	currently can not detele if an entire file has been deleted. This can be added by adding an empty file with the folder name 
  

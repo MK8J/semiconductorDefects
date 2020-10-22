@@ -39,8 +39,10 @@ def yamlFile2Jsons(fname):
         with open(fname, 'r') as f:
             a = yaml.load(f, Loader=yaml.FullLoader)
 
-        for k, v in a.items():
-            lst.append((k + '.srh', v))
+       
+        if a is not None:
+            for k, v in a.items():
+                lst.append((k + '.srh', v))
 
     return lst
 
@@ -58,11 +60,11 @@ def createNewFiles(folder, fnames):
         The folder path for the new data to be saved
     fname: (list of touples)
         This is a list of touples. The first is the file name the second is the contence.
+        If an empty list is passed, the above folder is cleared
     '''
     # first thing to do is remove the folder if it exist
     # we are about to repopulate it with everything in the current file
 
-    print('folder', folder)
     if os.path.exists(folder):
         print('folder being removed {}'.format(os.path.join(folder, '*')))
 
@@ -173,7 +175,7 @@ def yaml2json(commit=True):
         print(fname, 'fname')
         folder = fname.replace('.srh', '')
         fnames = add_DLTS_params(yamlFile2Jsons(fname))
-        #print('returned folder ', '\n\n'.join([str(f) for f in fnames]))
+
         createNewFiles(folder, fnames)
 
         # remove the files from master
