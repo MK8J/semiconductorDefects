@@ -1,0 +1,84 @@
+
+weber1983:
+  title: Transition metals in silicon
+  DOI: 10.1007/BF00617708
+  measurement_technique: review
+  params:
+    Ed: Ec-0.28
+
+wang1984:
+  title: Complete electrical characterization of recombination properties of titanium
+    in silicon
+  DOI: 10.1063/1.334095
+  measurement_technique: DLTS-CrMe
+  comments: Error in temperature coefficient not captured, first demonstration of
+    all rates measured with an electrical bias. They forward bias a diode rather than
+    optical bias. They varied the pulse height not the pulse width. While in the paper
+    that titanium has been refereed to as being substitutional atom, but the reference
+    that follows only uses it as a suggestion rather than an assignment.
+  sample:
+    growth: CZ
+    dopant: boron, phosphorus
+    incorporation: melt
+  rates:
+    e_e: 2.65e11*(T/300)^2*exp(-0.2666/kT)
+    c_e: 2.61e-7 * (T/300)^(0.01)
+  params:
+    Ed_a: Ec-0.2666
+    dEd_a: 0.0017
+    Ed_h: Ec-0.2705
+    dEd_h: 0.0018
+    sigma_e: 2.57e-14*exp(0.0039/k/T)
+    dsigma_e: 1.7e-15
+    sigma_h: '1.35E-15'
+    dsigma_h: 4.0e-17
+
+mathiot1989:
+  title: 'Titanium-related deep levels in silicon: A reexamination'
+  DOI: 10.1063/1.343608
+  measurement_technique: DLTS-Cr, Hall
+  comments: Noted that could not vary the filling pulse, as it was too short and so
+    reanalyzed the data of wang1984.
+  sample:
+    growth: FZ,CZ
+    dopant: phosphorus
+    incorporation: thermal
+  rates:
+    e_e: 1.1e13 *T^(-0.5)*exp(-0.317/k/T)
+  params:
+    Ed_a: Ec-0.317
+    Ed_h: Ec-0.297
+    sigma_e: 4.6e-8*exp(-0.02/k/T)/T^(2.5)
+
+tilly1991:
+  title: Electrical and optical properties of titanium-related centers in silicon
+  DOI: 10.1103/PhysRevB.43.9171
+  measurement_technique: DLTS-Cr
+  comments: Comments on both the previous defect asignment and charges assignment
+    being vague. Capture cross section values manually extracted from graph
+  sample:
+    dopant: boron, phosphorus
+    incorporation: ion implantation
+  params:
+    Ed_a: Ec-0.255
+    Ed_h: Ec-0.266
+    Ed: Ec-(0.268+3.42e-4*T)
+    sigma_e: 1.57e-14*exp(0.011/k/T)
+
+graff1995:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  params:
+    Ed_h: Ec-0.27
+    sigma_e: 2e-14 * exp(-0.004/k/T)
+
+graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from table 5.2. DLTS done at a temperature of 160K.
+  params:
+    Ed_h: Ec-0.27
+    dEd_h: 0.01
+    sigma_e: 1.30E-14 * exp(-0.004/k/T)
