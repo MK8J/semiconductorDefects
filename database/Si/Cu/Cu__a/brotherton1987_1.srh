@@ -1,0 +1,25 @@
+{
+    "title": "Deep levels of copper in silicon",
+    "DOI": "10.1063/1.339564",
+    "measurement_technique": "DLTS, luminescence",
+    "comments": "Different defect from the others reported In the paper",
+    "sample": {
+        "growth": "FZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "thermal",
+        "resistivity": "66-125"
+    },
+    "params": {
+        "Ed_a": "Ec-0.402",
+        "sigma_ea": 1.8e-17,
+        "sigma_ha": 1.8e-17
+    },
+    "DLTS_params": {
+        "t1": "209.2",
+        "t2": "231.1",
+        "t3": "257.9",
+        "t4": "291.4",
+        "inter": "92800.0",
+        "Ed_a": "0.399"
+    }
+}
