@@ -1,0 +1,8 @@
+
+kimerling1976:
+  title: New Developments in Defect Studies in Semiconductors
+  DOI: 10.1109/TNS.1976.4328529
+  measurement_technique: DLTS, EPR
+  comments: In at 473 K out at 523 K.
+  params:
+    Ed_a: Ev+0.23

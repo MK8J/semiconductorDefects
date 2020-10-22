@@ -74,6 +74,7 @@ def createNewFiles(folder, fnames):
     for fname in fnames:
         # get right folder
         _folder = folder.split(os.sep)
+        #print(_folder)
         
 
 
@@ -86,12 +87,13 @@ def createNewFiles(folder, fnames):
         elms = re.findall('[A-Z][^A-Z_]*', dft)
         sindex = sorted(range(len(elms)), key=lambda k: elms[k])
 
+        #print(sindex, 'sindex', elms)
         # find elemnts that are non-metals
         # as these names go at the end
         Nonmetals = []
         Metals = []
-        for num, e in enumerate(elms):
-            if e.strip('x') in nonmetals:
+        for num in sindex:
+            if elms[num].strip('x') in nonmetals:
                 Nonmetals.append(num)
             else:
                 Metals.append(num)
@@ -103,30 +105,36 @@ def createNewFiles(folder, fnames):
         # print(elms, sindex, Metals, Nonmetals, len(states), states, dft)
         # now build the last folder name
         _f = ''
-        for j in sindex:
-            if j in Metals:
-                _f += elms[j]
-        for j in sindex:
-            if j in Nonmetals:
-                _f += elms[j]
+        first = None
+        for j in Metals:
+            _f += elms[j]
+            if first is None:
+                first = elms[j].strip('x')
+
+
+        for j in Nonmetals:
+            _f += elms[j]
+            if first is None:
+                first = elms[j].strip('x')
+
 
         _f += '_'
 
-        for j in sindex:
-            if j in Metals:
+        for j in Metals:
                 _f += states[j]
-        for j in sindex:
-            if j in Nonmetals:
+
+        for j in Nonmetals:
                 _f += states[j]
 
         _f = _f + '_' + final
         _folder[-1] = _f
 
-        # the defect goes under the first element
+        # the defect goes under first sorted alphbeticall metal then nonmetal
         elms = re.findall('[A-Z][^A-Z_]*', dft)
-        _folder[-2] = re.sub('[0-9]', '', elms[0].strip('x'))
+        _folder[-2] = re.sub('[0-9]', '', first)
 
         # finially makes
+        #print('folder recreated', _folder)
         _folder = os.sep.join(_folder)
         # print(folder, _folder)
 
@@ -145,7 +153,7 @@ def createNewFiles(folder, fnames):
 
             for j in range(1,i)[::-1]:
                 f = '{}'.format(os.sep).join(names[:-j])
-                #print('creating', f)
+                #print('\n\tcreating', f, _folder)
                 if not os.path.exists(f):
                         os.mkdir(f)
 
@@ -170,7 +178,7 @@ def yaml2json(commit=True):
 
     # converts all the author data from bring in one file
     # to being in individual files
-    print('converting files')
+    #print('converting files')
     for fname in glob.glob('./database/*/*/*.srh'):
         print(fname, 'fname')
         folder = fname.replace('.srh', '')
@@ -183,6 +191,7 @@ def yaml2json(commit=True):
         os.remove(fname)
         # prune them from git tracking
         os.system('git rm {}'.format(fname))
+
     #if commit:
     #    os.system('git add -A')
     #    os.system('git commit -m "auto commit - added new files"')
@@ -202,6 +211,7 @@ def yaml2json(commit=True):
     # commits the remove items that should not be on this branch.
     # that means, from here on a diff works to compare files that
     # have changes on this branch 
+    
     if commit:
         os.system('git commit -m "auto commit: removed master branch files"')
         os.system('git push origin')
