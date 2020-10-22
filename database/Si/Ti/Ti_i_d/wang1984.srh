@@ -1,0 +1,33 @@
+{
+    "title": "Complete electrical characterization of recombination properties of titanium in silicon",
+    "DOI": "10.1063/1.334095",
+    "measurement_technique": "DLTS-CrMe",
+    "comments": "Error in temperature coefficient not captured, first demonstration of all rates measured with an electrical bias. They forward bias a diode rather than optical bias. They varied the pulse height not the pulse width. While in the paper that titanium has been refereed to as being substitutional atom, but the reference that follows only uses it as a suggestion rather than an assignment.",
+    "sample": {
+        "growth": "CZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "melt"
+    },
+    "rates": {
+        "e_e": "2.65e11*(T/300)^2*exp(-0.2666/kT)",
+        "c_e": "2.61e-7 * (T/300)^(0.01)"
+    },
+    "params": {
+        "Ed_a": "Ec-0.2666",
+        "dEd_a": 0.0017,
+        "Ed_h": "Ec-0.2705",
+        "dEd_h": 0.0018,
+        "sigma_e": "2.57e-14*exp(0.0039/k/T)",
+        "dsigma_e": 1.7e-15,
+        "sigma_h": "1.35E-15",
+        "dsigma_h": 4e-17
+    },
+    "DLTS_params": {
+        "t1": "125.9",
+        "t2": "137.8",
+        "t3": "152.1",
+        "t4": "169.5",
+        "inter": "2940000.0",
+        "Ed_a": "0.267"
+    }
+}
