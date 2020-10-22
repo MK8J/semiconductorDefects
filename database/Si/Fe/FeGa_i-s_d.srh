@@ -1,0 +1,114 @@
+
+wunstel1982:
+  title: Interstitial iron and iron-acceptor pairs in silicon
+  DOI: 10.1007/BF00619081
+  measurement_technique: DLTS-Cr
+  comments: Capture cross section at 300 K
+  sample:
+    growth: FZ
+    dopant: gallium
+    incorporation: thermal
+    resistivity: 0.3-100
+  params:
+    Ed_a: Ev+0.24
+
+weber1983:
+  title: Transition metals in silicon
+  DOI: 10.1007/BF00617708
+  measurement_technique: review
+  params:
+    Ed_a: Ev+0.24
+
+graff1995:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ev+0.14
+
+graff1995_1:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ev+0.24
+
+graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ev+0.14
+
+graff2000_1:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ev+0.25
+    sigma_ha: 4e-15
+
+schmidt2005:
+  title: Recombination activity of iron-gallium and iron-indium pairs in silicon
+  DOI: 10.1063/1.1929096
+  measurement_technique: LS-DIN
+  comments: capture cross section from linear fit to 3 low injection lifetimes for
+    different sample doping
+  sample:
+    growth: Cz
+    dopant: gallium
+    incorporation: ion implantation
+    resistivity: 0.3, 3, 10
+  params:
+    Ed: Ev+0.2
+    dEd: '0.01'
+    sigma_e: 4.0e-14
+    sigma_h: 2.0e-14
+    k: '2'
+
+naerland2017:
+  title: On the recombination centers of iron-gallium pairs in Ga-doped silicon
+  DOI: 10.1063/1.5000358
+  measurement_technique: LS-TI
+  comments: trigonal, fit to narrow injection range. Capture cross sections obtained
+    assuming energy level is correct. Uses activation energies for interstital iron
+  sample:
+    dopant: gallium
+    incorporation: melt
+    resistivity: '1'
+  params:
+    Ed: Ev+0.09
+    dEd: -0.03, 0.01
+    sigma_e: 1.9e-14
+    sigma_h: 8.755760368663596e-17
+    k: '217'
+    dk: -96, 162
+
+post2019:
+  title: Imaging Interstitial Iron Concentrations in Gallium-Doped Silicon Wafers
+  DOI: 10.1002/pssa.201800655
+  measurement_technique: LS-I
+  comments: 'orthorhombic,  found goot fit using the values of  Ciszek2002  for GaFe
+    and Schmit2005 '
+  sample:
+    growth: MC
+    dopant: gallium
+    incorporation: melt
+    resistivity: '1'
+  params: {}

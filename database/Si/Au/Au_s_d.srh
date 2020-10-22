@@ -1,0 +1,151 @@
+
+newman1954:
+  title: Photoconductivity in Gold-Doped Silicon
+  DOI: 10.1103/PhysRev.94.1530
+  measurement_technique: PC-S
+  comments: Same samples as Taft1954. Potentiall saw a level at Ev+0.7.
+  params:
+    Ed: Ev+0.325
+    dEd: 0.005
+
+taft1954:
+  title: Gold as a Donor in Silicon
+  DOI: 10.1103/PhysRev.93.64
+  measurement_technique: Resistivity
+  comments: Doped different samples with different amounts of gold. This is a thermal
+    activation energy.
+  params:
+    Ed: Ev+0.33
+
+collins1957:
+  title: Properties of Gold-Doped Silicon
+  DOI: 10.1103/PhysRev.105.1168
+  measurement_technique: Hall
+  comments: Notes both level are in the same number
+  params:
+    Ed: Ev+0.35
+    dEd: 0.02
+
+bemski1958:
+  title: Recombination Properties of Gold in Silicon
+  DOI: 10.1103/PhysRev.111.1515
+  measurement_technique: LS-DINT
+  comments: 200 - 500K
+  params:
+    sigma_e: 3.5e-15*(T/300)^(-2.5)
+    sigma_h: '1.00E-13'
+
+davis1959:
+  title: Lifetimes and Capture Cross Sections in Gold-Doped Silicon
+  DOI: 10.1103/PhysRev.114.1006
+  measurement_technique: LS
+  comments: '77K. '
+  params:
+    sigma_e: '1.00E-13'
+    sigma_h: '2.00E-15'
+
+fairfield1965:
+  title: Gold as a recombination centre in silicon
+  DOI: 10.1016/0038-1101(65)90036-5
+  measurement_technique: LS-DN
+  comments: 300 K
+  params:
+    sigma_e: 0.000000063/2.046e7
+    dsigma_e: 0.000000063*.25/2.046e7
+    sigma_h: 0.000000024/1.688e7
+    dsigma_h: 0.000000024*.5/1.688e7
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review
+  comments: Figure 2.1
+  params:
+    Ed: Ev+0.35
+
+pals1974:
+  title: Properties of Au, Pt, Pd and Rh levels in silicon measured with a constant
+    capacitance technique
+  DOI: 10.1016/0038-1101(74)90157-9
+  measurement_technique: DLTS-CcCr
+  comments: 135 K
+  sample:
+    dopant: boron
+    incorporation: thermal
+  rates:
+    e_e: 1/6.3e-9*exp(-0.346/kT)*T^2
+  params:
+    Ed_a: Ev+0.346
+    sigma_h: 1.6e-15
+
+brotherton1980:
+  title: Electron and Hole Capture at Au and Pt Centers in Silicon
+  DOI: 10.1103/PhysRevLett.44.606
+  measurement_technique: DLTS-Cr
+  sample:
+    dopant: boron
+    incorporation: thermal
+    resistivity: 1000
+  params:
+    Ed_a: Ev+0.340
+    sigma_h: 1.1e-14
+
+benton1982_1:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 173 K, quenched
+  sample:
+    growth: FZ
+  params:
+    Ed_a: Ev+0.35
+    sigma_ha: 9.999999999999999e-16
+
+wu1982:
+  title: Capture cross sections of the gold donor and acceptor states in n-type Czochralski
+    silicon
+  DOI: 10.1016/0038-1101(82)90066-1
+  measurement_technique: DLTS-CrMo
+  comments: 100-200 K, Lists issues when comparing different publications, including
+    the same technique from the year before,
+  sample:
+    growth: CZ
+    dopant: phosphorus
+    incorporation: diffusion
+    resistivity: 3-50
+  params:
+    sigma_e: 1.1e-15*(T/158)^(-2)
+    dsigma_e: 2.0e-16
+    sigma_h: 3.5e-15
+    dsigma_h: 8.0e-16
+
+hangleiter1987:
+  title: 'Nonradiative recombination via deep impurity levels in silicon: Experiment'
+  DOI: 10.1103/PhysRevB.35.9149
+  measurement_technique: luminescence,
+  comments: Assumed a thermal velocity of (2e7 *(T/300)^(0.5)), normalised to give
+    the value from Wu and Peaker.
+  params:
+    sigma_e: 6e-9*exp(0.03/kT)*exp(-0.03/k/300)/(2e7 *(T/300)^(0.5))
+
+graff1995:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 4.11.
+  params:
+    Ed_h: Ev+0.347
+    sigma_e: 2e-15*(T)^(-2/2.5)
+    dsigma_e: 1e-15*(T)^(-2/2.5)
+    sigma_h: 2.7e-15
+
+graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from table 4.12. DLTS done at a temperature of 160K
+  params:
+    Ed_a: Ev+0.34
+    dEd_a: 0.02
+    sigma_ea: '2.7e-15'
+    sigma_ha: '2.5e-15'
