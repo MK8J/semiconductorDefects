@@ -161,8 +161,7 @@ for rename in renames:
                                   headers=headers)
     handleHttpResponse(renameRequest, "Could not rename " + rename[1])
 
-#for modification in modifications:
-for modification in additions:
+for modification in modifications:
     print("updating " + modification[1])
     defect = add_data(modification[1])
 
