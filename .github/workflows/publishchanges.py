@@ -148,7 +148,7 @@ def add_data(path):
 for deletion in deletions:
     print("deleting " + deletion[1])
     deleteRequest = requests.delete(basePath + "/" + deletion[1],
-    #                                headers=headers)
+                                    headers=headers)
     handleHttpResponse(deleteRequest, "Could not delete " + deletion[1])
 
 
