@@ -4,7 +4,16 @@
     "measurement_technique": "review, DLTS",
     "comments": "Taken from table 1 in the appendix. The table only provides the majority carrier capture cross section. The majority carrier has been estimated from the position of the defect level. e.g. if higher than the intrinsic level, it is assume the majority carrier was electrons.",
     "params": {
-        "Ed_a": "Ec-0.47"
+        "Ed_a": "Ev+0.6",
+        "sigma_ha": "2.5e-15"
     },
-    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Zn/ZnFe_s-i_a.srh"
+    "DLTS_params": {
+        "t1": "252.9",
+        "t2": "274.3",
+        "t3": "299.5",
+        "t4": "329.6",
+        "inter": "12500000.0",
+        "Ed_a": "0.597"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Zn/Zn_s_aa.srh"
 }

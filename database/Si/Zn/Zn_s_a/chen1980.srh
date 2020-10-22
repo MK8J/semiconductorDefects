@@ -1,0 +1,9 @@
+{
+    "title": "Energy Levels in Silicon",
+    "DOI": "10.1146/annurev.ms.10.080180.001105",
+    "measurement_technique": "review",
+    "params": {
+        "Ed": "Ev+0.31"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Zn/Zn_s_a.srh"
+}

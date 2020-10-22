@@ -1,0 +1,19 @@
+{
+    "title": "Metal Impurities in Silicon-Device Fabrication",
+    "DOI": "10.1007/978-3-642-57121-3",
+    "measurement_technique": "review, DLTS",
+    "comments": "Taken from table 5.4. DLTS done at a temperature of 240K",
+    "params": {
+        "Ed_a": "Ec-0.1",
+        "sigma_ea": 2.8e-15
+    },
+    "DLTS_params": {
+        "t1": "47.6",
+        "t2": "52.1",
+        "t3": "57.6",
+        "t4": "64.3",
+        "inter": "15000000.0",
+        "Ed_a": "0.099"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Zn/ZnCr_s-i_a.srh"
+}

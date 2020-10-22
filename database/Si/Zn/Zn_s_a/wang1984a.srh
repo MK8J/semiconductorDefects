@@ -1,0 +1,30 @@
+{
+    "title": "Electron capture at the two acceptor levels of a zinc center in silicon",
+    "DOI": "10.1103/PhysRevB.30.5896",
+    "measurement_technique": "TS-I, DLTS-Cr",
+    "comments": "Energy levels and capture cross sections not provided, these are calculated at 300 K.",
+    "sample": {
+        "dopant": "boron",
+        "incorporation": "thermal"
+    },
+    "rates": {
+        "e_h": "7.41e12*(T/300) * exp(-0.326/kT)",
+        "c_e": "4.16e-10 * (1-exp(-481/T))^(-20.1)*exp(-2.23/(exp(481/T)-1))",
+        "c_h": "4.9e-8*(300/T)^(2.15)"
+    },
+    "params": {
+        "Ed_a": "Ev+0.326",
+        "Ed": "Ei-0.274",
+        "sigma_e": 1.08e-15,
+        "sigma_h": 2.92e-15
+    },
+    "DLTS_params": {
+        "t1": "131.3",
+        "t2": "142.3",
+        "t3": "155.2",
+        "t4": "170.7",
+        "inter": "60600000.0",
+        "Ed_a": "0.313"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Zn/Zn_s_a.srh"
+}
