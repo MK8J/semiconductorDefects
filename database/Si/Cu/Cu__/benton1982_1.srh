@@ -1,0 +1,21 @@
+{
+    "title": "Capacitance Transient Spectroscopy of Trace Contamination in Silicon",
+    "DOI": "10.1149/1.2124387",
+    "measurement_technique": "DLTS",
+    "comments": "Emission rate at 1.8 ms at 242 K, quenched",
+    "sample": {
+        "growth": "FZ"
+    },
+    "params": {
+        "Ed_a": "Ev+0.41",
+        "sigma_ha": 8e-14
+    },
+    "DLTS_params": {
+        "t1": "158.3",
+        "t2": "170.5",
+        "t3": "184.7",
+        "t4": "201.5",
+        "inter": "412000000.0",
+        "Ed_a": "0.409"
+    }
+}

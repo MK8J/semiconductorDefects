@@ -1,0 +1,26 @@
+{
+    "title": "Titanium-related deep levels in silicon: A reexamination",
+    "DOI": "10.1063/1.343608",
+    "measurement_technique": "DLTS",
+    "comments": "Noted that could not vary the filling pulse, as it was too short.",
+    "sample": {
+        "growth": "FZ,CZ",
+        "dopant": "phosphorus",
+        "incorporation": "thermal"
+    },
+    "rates": {
+        "e_e": "1.85e8 *T^2*exp(-0.09/kT)"
+    },
+    "params": {
+        "Ed_a": "Ec-0.09",
+        "sigma_ea": 2.9e-14
+    },
+    "DLTS_params": {
+        "t1": "39.6",
+        "t2": "43.1",
+        "t3": "47.2",
+        "t4": "52.1",
+        "inter": "185000000.0",
+        "Ed_a": "0.09"
+    }
+}
