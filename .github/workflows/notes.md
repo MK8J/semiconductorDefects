@@ -30,4 +30,6 @@ Checked:
 2. Modification
 3. Deletions
 
+limitations:
+	currently can not detele if an entire file has been deleted. 
  
