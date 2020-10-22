@@ -14,5 +14,6 @@
         "t4": "211.9",
         "inter": "4260000.0",
         "Ed_a": "0.348"
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/AuCr_s-i_d.srh"
 }

@@ -18,5 +18,6 @@
         "dEd": 0.008,
         "sigma_e": "6e-17",
         "sigma_h": "8e-15"
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/AuH_-_a.srh"
 }

@@ -5,5 +5,6 @@
     "comments": "Figure 2.1",
     "params": {
         "Ed": "Ev+0.057"
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Al/Al_s_a.srh"
 }

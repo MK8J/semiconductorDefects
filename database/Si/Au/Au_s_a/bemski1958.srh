@@ -6,5 +6,6 @@
     "params": {
         "sigma_e": "5E-16 * T^(0)",
         "sigma_h": "1E-15*(T/300)^(-4)"
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au_s_a.srh"
 }

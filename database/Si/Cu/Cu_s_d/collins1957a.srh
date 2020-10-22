@@ -5,5 +5,6 @@
     "comments": "Copper was hard to manage as it precipiates. They saw two additional levels Ec-0.23 and Ev+0.45, but believe it was due to contaminants in the copper.",
     "params": {
         "Ed": "Ev+0.24"
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cu/Cu_s_d.srh"
 }

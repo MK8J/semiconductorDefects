@@ -14,5 +14,6 @@
         "t4": "204.1",
         "inter": "30900.0",
         "Ed_a": "0.247"
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Al/Al_i_dd.srh"
 }

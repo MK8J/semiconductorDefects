@@ -21,5 +21,6 @@
         "t4": "299.2",
         "inter": "30300000.0",
         "Ed_a": "0.56"
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au_s_a.srh"
 }

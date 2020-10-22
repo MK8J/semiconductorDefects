@@ -8,5 +8,6 @@
         "Ed_h": "Ec-0.553",
         "Ed": "Ec-0.553 + 3 *k *T",
         "sigma_e": "1.7e-16*T^0"
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au_s_a.srh"
 }

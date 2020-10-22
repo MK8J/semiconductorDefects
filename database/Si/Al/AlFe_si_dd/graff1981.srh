@@ -11,5 +11,6 @@
     },
     "params": {
         "Ed_a": "Ev+0.21"
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/FeAl_i-s_dd.srh"
 }

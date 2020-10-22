@@ -5,5 +5,6 @@
     "params": {
         "Ed": "Ev+0.24",
         "sigma_h": "3.50E-20"
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cu/Cu__d.srh"
 }

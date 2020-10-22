@@ -4,5 +4,6 @@
     "measurement_technique": "theory",
     "params": {
         "Ed": "Ev+0.38"
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Al/AlCr_-_.srh"
 }

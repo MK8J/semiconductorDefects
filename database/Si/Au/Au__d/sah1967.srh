@@ -6,5 +6,6 @@
     "params": {
         "Ed_a": "Ec-0.345",
         "dEd_a": 0.0029
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au__d.srh"
 }

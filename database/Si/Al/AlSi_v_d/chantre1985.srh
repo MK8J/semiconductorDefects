@@ -5,5 +5,6 @@
     "comments": "Only appears in ultra fast quenched material.",
     "params": {
         "Ed_a": "Ev+0.52"
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Al/AlSi_-v_d.srh"
 }

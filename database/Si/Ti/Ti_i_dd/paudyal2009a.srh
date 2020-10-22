@@ -8,5 +8,6 @@
     },
     "params": {
         "sigma_e": "9.01e-14*exp(-0.107/kT)"
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti_i_dd.srh"
 }

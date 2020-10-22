@@ -5,5 +5,6 @@
     "comments": "In at 200 out at 250.",
     "params": {
         "Ed_a": "Ev+0.23"
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Al/AlAl_-_.srh"
 }

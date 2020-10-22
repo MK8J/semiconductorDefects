@@ -29,5 +29,6 @@
         "t4": "169.5",
         "inter": "2940000.0",
         "Ed_a": "0.267"
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti_i_d.srh"
 }

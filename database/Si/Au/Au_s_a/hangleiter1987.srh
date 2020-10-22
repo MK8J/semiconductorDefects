@@ -5,5 +5,6 @@
     "comments": "Assumed a thermal velocity of (2e7 *(T/300)^(0.5))",
     "params": {
         "sigma_h": "5e-8*exp(0.03/kT)*exp(-0.03/k/300)/(2e7 *(T/300)^(0.5))"
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au_s_a.srh"
 }

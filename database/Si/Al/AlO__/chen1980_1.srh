@@ -4,5 +4,6 @@
     "measurement_technique": "review, TS-C",
     "params": {
         "Ed": "Ev+0.402"
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Al/AlO_-_.srh"
 }

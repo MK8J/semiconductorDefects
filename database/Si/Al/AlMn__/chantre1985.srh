@@ -4,5 +4,6 @@
     "comments": "Data published in inaccessible conference paper, and reprinted here. For <111> configuration",
     "params": {
         "Ed": "Ec-0.45"
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Al/AlMn_-_.srh"
 }

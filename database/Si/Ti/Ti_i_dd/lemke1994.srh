@@ -18,5 +18,6 @@
     "params": {
         "Ed_h": "Ev+0.28",
         "sigma_h": "1e-10/1e7"
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti__dd.srh"
 }

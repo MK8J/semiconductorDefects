@@ -14,5 +14,6 @@
         "t4": "238.8",
         "inter": "50600000.0",
         "Ed_a": "0.448"
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cu/Cu_s_a.srh"
 }

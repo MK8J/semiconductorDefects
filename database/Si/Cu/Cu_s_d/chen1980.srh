@@ -9,5 +9,6 @@
         "Ed": "Ev+0.22",
         "sigma_e": 8.5e-14,
         "sigma_h": "3e-14"
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cu/Cu_s_d.srh"
 }

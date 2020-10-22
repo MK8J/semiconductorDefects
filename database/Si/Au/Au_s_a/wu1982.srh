@@ -16,5 +16,6 @@
         "dsigma_e": 2e-17,
         "sigma_h": "0.9e-14 * (T/300)^(-1.3)",
         "dsigma_h": "0.2e-14 * (T/300)^(-1.3)"
-    }
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au_s_a.srh"
 }
