@@ -183,6 +183,7 @@ def yaml2json(commit=True):
         print(fname, 'fname')
         folder = fname.replace('.srh', '')
         fnames = add_DLTS_params(yamlFile2Jsons(fname))
+        fnames = add_github_link(fnames, fname)
 
         print('recied fnames', fnames)
         createNewFiles(folder, fnames)
@@ -226,6 +227,23 @@ def check_temps():
         addTemps(json.loads(cont))
         #print('', end=('\r'))
 
+
+def add_github_link(data_touple, url_ext):
+    new_list = []
+
+    url = 'https://github.com/MK8J/semiconductorDefects/blob/master'+\
+            url_ext[1:]
+
+    for fname, data_dic in data_touple:
+        github_link = {}
+        print(fname, data_dic)
+
+        print(fname, url)
+        data_dic['github_link'] = url 
+
+        new_list.append((fname, data_dic))
+
+    return new_list
 
 def get_DLTS_params(temp, e_r):
     '''

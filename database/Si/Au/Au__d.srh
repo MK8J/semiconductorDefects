@@ -1,0 +1,105 @@
+
+sah1967:
+  title: Recombination Properties of the Gold Acceptor Level in Silicon using the
+    Impurity Photovoltaic Effect
+  DOI: 10.1103/PhysRevLett.19.71
+  measurement_technique: DLTS, DC-TI
+  comments: 'Thermal emission rate of electrons: 2.43e13(T/300)^2*exp(-0.350/kT).
+    Capture rates are also provided'
+  params:
+    Ed_a: Ec-0.345
+    dEd_a: 0.0029
+
+sah1969:
+  title: Thermal emission rates of carriers at gold centers in silicon
+  DOI: 10.1063/1.1652943
+  measurement_technique: DLTS
+  linked: Au_s_d.srh
+  params:
+    Ed_a: Ev+0.345
+    dEd_a: 0.0029
+
+sato1970:
+  title: Measurements of the Thermal-Emission Rates of Electrons and Holes at the
+    Gold Centers in Silicon Using the Small-Signal-Pulsed Field Effect
+  DOI: 10.1063/1.1658432
+  measurement_technique: DLTS
+  linked: Au_s_d.srh
+  measurement_details:
+    T: 180 K
+  params:
+    Ed_a: Ev+0.34
+
+nagasawa1975:
+  title: Fast transient capacitance measurements for implanted deep levels in silicon
+  DOI: 10.1007/BF00883667
+  measurement_technique: DLTS-Cr
+  linked: Au_s_d.srh
+  measurement_details:
+    T: 298 K
+  params:
+    Ed_a: Ev+0.34
+    sigma_ha: 1.04e-18
+
+graff1981a:
+  title: The behavior of transition and noble metals in silicon crystals
+  ISSN: 0091-391X
+  measurement_technique: DLTS-Cr
+  linked: Au_s_d.srh
+  sample:
+    growth: FZ, CZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 1-100
+  params:
+    Ed_h: Ev+0.35
+    sigma_ha: 2.0e-14
+
+tavendale1983:
+  title: Deep level, quenched-in defects in silicon doped with gold, silver, iron,
+    copper or nickel
+  DOI: 10.1088/0022-3719/16/9/011
+  measurement_technique: DLTS
+  linked: Au_s_d.srh
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    resistivity: 20
+  params:
+    Ed_a: Ev+0.34
+
+lemke1986:
+  title: Dotierungseigenschaften von Silber in Silizium
+  DOI: 10.1002/pssa.2210940171
+  measurement_technique: DLTS
+  linked: Au_s_d.srh
+  comments: assumed thermal velocity of 1e7
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: thermal
+    resistivity: 50,20
+  rates:
+    c_h: 1.2e-08
+  params:
+    Ed_a: Ev+0.34
+    sigma_h: 1.2e-8/1e7
+
+lemke1994:
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-MeCr, TS-C
+  linked: Au_s_d.srh
+  comments: Assumed thermal velocity of 1e7 measured at 170K
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: diffusion
+  measurement_details:
+    T: 170.0
+  rates:
+    c_h: 1.2e-08
+  params:
+    Ed_h: Ev+0.32
+    sigma_h: 1.2e-8/1e7

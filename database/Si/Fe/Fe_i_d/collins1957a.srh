@@ -1,0 +1,11 @@
+{
+    "title": "Properties of Silicon Doped with Iron or Copper",
+    "DOI": "10.1103/PhysRev.108.1409",
+    "measurement_technique": "Hall, LS",
+    "comments": "capture cross sections from lifetime data.",
+    "params": {
+        "Ed": "Ev+0.4",
+        "sigma_h": "3e-16"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/Fe_i_d.srh"
+}

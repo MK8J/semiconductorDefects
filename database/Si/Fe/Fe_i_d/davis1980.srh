@@ -1,0 +1,15 @@
+{
+    "title": "Impurities in silicon solar cells",
+    "DOI": "10.1109/T-ED.1980.19922",
+    "measurement_technique": "DLTS, SCP",
+    "sample": {
+        "growth": "CZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "melt"
+    },
+    "params": {
+        "Ed_a": "Ev+0.4",
+        "dEd_a": 0.04
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/Fe_i_d.srh"
+}

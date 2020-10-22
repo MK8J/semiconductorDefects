@@ -1,0 +1,10 @@
+{
+    "title": "Lifetime and capture cross-section studies of deep impurities in silicon",
+    "DOI": "10.1016/0025-5416(68)90036-0",
+    "measurement_technique": "review",
+    "comments": "250-350 K",
+    "params": {
+        "sigma_h": "7.00E-16"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/Fe__d.srh"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Deep impurities in semiconductors",
+    "ISBN": "978-0-471-60670-3",
+    "measurement_technique": "review",
+    "linked": "Fe_i_d.srh",
+    "comments": "Figure 2.1, suggested is interstitial",
+    "params": {
+        "Ed": "Ev+0.4"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/Fe__d.srh"
+}

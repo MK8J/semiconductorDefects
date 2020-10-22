@@ -1,0 +1,9 @@
+{
+    "title": "Metastable-defect behavior in silicon: Charge-state-controlled reorientation of iron-aluminum pairs",
+    "DOI": "10.1103/PhysRevB.31.7979",
+    "comments": "Data published in inaccessible conference paper, and reprinted here. For <111> configuration",
+    "params": {
+        "Ed": "Ev+0.1"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/FeB_-_.srh"
+}

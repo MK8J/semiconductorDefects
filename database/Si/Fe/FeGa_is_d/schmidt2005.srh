@@ -1,0 +1,20 @@
+{
+    "title": "Recombination activity of iron-gallium and iron-indium pairs in silicon",
+    "DOI": "10.1063/1.1929096",
+    "measurement_technique": "LS-DIN",
+    "comments": "capture cross section from linear fit to 3 low injection lifetimes for different sample doping",
+    "sample": {
+        "growth": "Cz",
+        "dopant": "gallium",
+        "incorporation": "ion implantation",
+        "resistivity": "0.3, 3, 10"
+    },
+    "params": {
+        "Ed": "Ev+0.2",
+        "dEd": "0.01",
+        "sigma_e": 4e-14,
+        "sigma_h": 2e-14,
+        "k": "2"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/FeGa_i-s_d.srh"
+}
