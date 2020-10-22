@@ -1,0 +1,77 @@
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review
+  comments: Figure 2.1
+  params:
+    Ed: Ec-0.25
+
+milnes1973_1:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review
+  comments: Figure 2.1
+  params:
+    Ed: Ev+0.36
+
+pals1974:
+  title: Properties of Au, Pt, Pd and Rh levels in silicon measured with a constant
+    capacitance technique
+  DOI: 10.1016/0038-1101(74)90157-9
+  measurement_technique: DLTS-CcCr
+  comments: 100 K
+  sample:
+    dopant: phosphorus
+    incorporation: thermal
+  rates:
+    e_e: 1/7.54e-8*exp(-0.23/kT)*T^2
+  params:
+    Ed_a: Ec-0.23
+    sigma_e: 5e-15
+
+pugnet1976:
+  title: Energy levels for platinum and palladium in silicon measured by the dark
+    transient capacitance technique
+  DOI: 10.1002/pssa.2210350215
+  sample:
+    dopant: boron, phosphorus
+    incorporation: thermal
+  params:
+    Ed_a: Ec-0.242
+    dEd_a: 0.002
+    sigma_ea: 3.9e-14
+
+pearton1983:
+  title: "Palladium‐ and platinum‐related levels in silicon: Effect of a hydrogen plasma"
+  DOI: 10.1063/1.332398
+  measurement_technique: DLTS
+  sample:
+    dopant: boron
+    incorporation: thermal
+  params:
+    Ed_a: Ec-0.28
+    sigma_ea: 3e-16
+
+graff1995:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 4.10.
+  params:
+    Ed_a: Ec-0.24
+    sigma_ea: 267e-14
+    dsigma_ea: 263e-14
+    sigma_ha: 2.65e-14
+    dsigma_ha: 2.35e-14
+
+graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from table 4.10. DLTS done at a temperature of 110K
+  params:
+    Ed_a: Ec-0.23
+    dEd_a: 0.01
+    sigma_ea: 2.9e-14
+    sigma_ha: 2.6e-14

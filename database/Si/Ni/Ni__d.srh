@@ -1,0 +1,31 @@
+
+graff1981a:
+  title: The behavior of transition and noble metals in silicon crystals
+  ISSN: 0091-391X
+  measurement_technique: DLTS-Cr
+  linked: Ni_s_d.srh
+  sample:
+    growth: FZ, CZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 1-100
+  params:
+    Ed_h: Ev+0.152
+    sigma_h: 2.7e-17*exp(0)
+
+lemke1994:
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-MeCr, TS-C
+  linked: Ni_s_d.srh
+  comments: Assumed thermal velocity of 1e7 measured at 90K
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: diffusion
+  measurement_details:
+    T: 90.0
+  params:
+    Ed_a: Ev+0.17
+    sigma_ha: '>1e-8/1e7'

@@ -1,0 +1,45 @@
+
+irmscher1984:
+  title: Hydrogen-related deep levels in proton-bombarded silicon
+  DOI: 10.1088/0022-3719/17/35/007
+  measurement_technique: DLTS-M
+  comments: Corrected for field effects. Filling faster than 50 nm for 10 Ohm cm.
+    Assumed thermal velocity of 1.2e7 and 1e7 for electrons and holes retrospectively,
+    evaluated at 80 K.
+  rates:
+    e_e: 2.3e13 * exp(-0.18/kT)
+    c_e: 1e-8
+    c_h: 2e-7
+  params:
+    Ed_a: Ec-0.20
+    sigma_ea: 2e-7/1.2e7
+    sigma_ha: 1e-8/1e7
+
+holm1991:
+  title: 'Deep state of hydrogen in crystalline silicon: Evidence for metastability'
+  DOI: 10.1103/PhysRevLett.66.2360
+  measurement_technique: DLTS
+  comments: Corrected for field effects. Took the capture rate from DLTS measurements
+    from irmscher1984, while the above repored are capture rates from minority carrier.
+  params:
+    Ed_a: Ec-0.16
+    sigma_ea: '>4e-8/1.2e7'
+
+nielsen1999a:
+  title: Bond-centered hydrogen in silicon studied by in situ deep-level transient
+    spectroscopy
+  DOI: 10.1103/PhysRevB.60.1716
+  measurement_technique: DLTS
+  comments: Corrected for field effects.
+  params:
+    Ed_a: Ec-0.175
+    dEd_a: 0.005
+
+herring2001:
+  title: Energy levels of isolated interstitial hydrogen in silicon
+  DOI: 10.1103/PhysRevB.64.125209
+  measurement_technique: DLTS
+  linked: HO_i-i_d.srh
+  comments: Used data from holm1991 and Johnson.
+  params:
+    Ed_a: Ec-0.16

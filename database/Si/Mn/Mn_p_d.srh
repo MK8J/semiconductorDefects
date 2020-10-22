@@ -1,0 +1,12 @@
+
+czaputa1983:
+  title: Energy levels of interstitial manganese in silicon
+  DOI: 10.1016/0038-1098(83)90549-5
+  measurement_technique: Hall, EPR
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: implantation
+    resistivity: '100'
+  params:
+    Ed: Ec-0.27

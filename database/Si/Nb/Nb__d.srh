@@ -1,0 +1,33 @@
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  comments: Review paper. This maybe Ev+0.4, it is written in two different locations
+    differently.
+  params:
+    Ed: Ec-0.4
+
+chen1980_1:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  linked: Nb_i_d.srh
+  comments: Review paper.
+  params:
+    Ed: Ec-0.6
+
+lemke1994:
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-MeCr, TS-C
+  linked: Nb_i_d.srh
+  comments: Assumed thermal velocity of 1e7 measured at 250K
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: diffusion
+  measurement_details:
+    T: 250.0
+  params:
+    Ed_a: Ec-0.62
+    sigma_ea: '>1e-8/1e7'

@@ -1,0 +1,40 @@
+
+czaputa1983:
+  title: Energy levels of interstitial manganese in silicon
+  DOI: 10.1016/0038-1098(83)90549-5
+  measurement_technique: Hall, EPR
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: implantation
+    resistivity: '100'
+  params:
+    Ed: Ev+0.3
+
+weber1983:
+  title: Transition metals in silicon
+  DOI: 10.1007/BF00617708
+  measurement_technique: review
+  params:
+    Ed: Ev+0.25
+
+graff1995:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_h: Ev+0.27
+    sigma_h: 3.00E-18 * exp(-0.07/kT)
+
+graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from table 5.5, Peak in DLTS at 200K
+  params:
+    Ed_h: Ev+0.27
+    sigma_h: 7.9E-18 * exp(-0.064/kT)

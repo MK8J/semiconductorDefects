@@ -1,0 +1,31 @@
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: review
+  linked: Ru_i_a.srh
+  comments: At 77K, different crystal site from the other Ru defect by chen1980
+  params:
+    Ed: Ec-0.2
+    dEd: 0.02
+    sigma_e: '8.00E-16'
+    sigma_h: '4.45E-15'
+
+lemke1994:
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-MeCr, TS-C
+  linked: Ru_i_a.srh
+  comments: Assumed thermal velocity of 1e7 measured at 100K
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: diffusion
+  measurement_details:
+    T: 100.0
+  rates:
+    c_e: 1.3e-09
+  params:
+    Ed_h: Ec-0.14
+    sigma_e: 1.3e-9/1e7

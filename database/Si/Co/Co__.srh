@@ -1,0 +1,13 @@
+
+evwaraye1978:
+  title: Impurity states in cobalt-doped silicon
+  DOI: 10.1007/BF02655644
+  measurement_technique: DLTS
+  sample:
+    growth: FZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 20-60
+  params:
+    Ed_a: Ev+0.45
+    sigma_ha: 6.0e-17

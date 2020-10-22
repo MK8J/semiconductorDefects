@@ -1,0 +1,18 @@
+
+evwaraye1977:
+  title: Electron irradiation damage in antimony doped silicon
+  DOI: 10.1063/1.323935
+  measurement_technique: DLTS-Cr
+  comments: At 234 K, Shows thermal emssion rate,
+  params:
+    Ed_a: Ec-0.39
+    sigma_e: '4.5E-17'
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: review, DLTS
+  comments: Measured at 234 K
+  params:
+    Ed_a: Ec-0.39
+    sigma_ea: '4.50E-17'

@@ -1,0 +1,12 @@
+
+sadoh1991:
+  title: Diffusion of vanadium in silicon
+  DOI: 10.1063/1.105154
+  measurement_technique: DLTS
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: thermal
+    resistivity: 10-100
+  params:
+    Ed_a: Ev+0.49

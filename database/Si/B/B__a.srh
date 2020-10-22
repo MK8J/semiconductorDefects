@@ -1,0 +1,8 @@
+
+schibli1968:
+  title: Lifetime and capture cross-section studies of deep impurities in silicon
+  DOI: 10.1016/0025-5416(68)90036-0
+  measurement_technique: review
+  params:
+    sigma_e: '2.00E-14'
+    sigma_h: '8.00E-12'

@@ -1,0 +1,94 @@
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  params:
+    Ed: Ec-0.23
+    sigma_e: '6.00E-17'
+
+chen1980_1:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  params:
+    Ed: Ec-0.41
+    sigma_e: '1.62E-16'
+
+chen1980_2:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  params:
+    Ed: Ev+0.27
+    dEd: 0.01
+
+benton1982:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 245 K, Irradiated with 1 Mev
+  sample:
+    growth: FZ,CZ
+  params:
+    Ed_a: Ec-0.23
+    sigma_ea: 2.0e-16
+
+benton1982_1:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 123 K, Irradiated with 1 Mev
+  sample:
+    growth: FZ,CZ
+  params:
+    Ed_a: Ec-0.41
+    sigma_ea: 3.9999999999999995e-15
+
+benton1982_2:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 237 K, Irradiated with 1 Mev
+  sample:
+    growth: FZ,CZ
+  params:
+    Ed_a: Ev+0.21
+    sigma_ha: 2.0e-16
+
+brotherton1982:
+  title: "Defect production and lifetime control in electron and \u03B3-irradiated\
+    \ silicon"
+  DOI: 10.1063/1.331460
+  measurement_technique: DLTS
+  comments: In at 570 K, not sure what it is
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: irridation
+    resistivity: '60'
+  params:
+    Ed_a: Ec-0.346
+    sigma_ea: '4.60E-17'
+
+brotherton1983:
+  title: Photoionization cross section of electron irradiation induced levels in silicon
+  DOI: 10.1063/1.332732
+  measurement_technique: DLTS, CV-O
+  comments: Measured other levels but it is unknown what they are
+  sample:
+    growth: FZ, CZ
+    dopant: boron
+    incorporation: irradiation
+    resistivity: 66, 125, 7-10
+  params:
+    Ed_a: Ev+0.204
+    sigma_ha: 4E-16
+    dsigma_ha: 6.0e-17
+
+asom1987:
+  title: Interstitial defect reactions in silicon
+  DOI: 10.1063/1.98465
+  measurement_technique: DLTS
+  comments: Has three configurations. State 2
+  measurement_details:
+    T: 125 K
+  params:
+    Ed_a: Ec-0.23

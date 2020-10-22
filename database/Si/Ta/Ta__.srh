@@ -1,0 +1,26 @@
+
+miyata1976:
+  title: Thermal emission rates and activation energies of electrons at tantalum centers
+    in silicon
+  DOI: 10.1016/0038-1101(76)90059-9
+  measurement_technique: DLTS
+  sample:
+    dopant: phosphorus
+    incorporation: thermal
+    resistivity: '5'
+  rates:
+    e_e: 4.5e10 * exp(-0.503/kT)
+  params:
+    Ed_a: Ec-0.472
+
+davis1980:
+  title: Impurities in silicon solar cells
+  DOI: 10.1109/T-ED.1980.19922
+  measurement_technique: DLTS, SCP
+  comments: Tentative data
+  sample:
+    growth: CZ
+    dopant: boron, phosphorus
+    incorporation: melt
+  params:
+    sigma_ea: 5.9e-14
