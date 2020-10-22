@@ -1,0 +1,29 @@
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  sample:
+    incorporation: radiation
+  params:
+    Ed: Ev+0.35
+
+mukashev1982:
+  title: Studies of radiation defects in hydrogen implanted silicon by deep level
+    transient spectroscopy
+  DOI: 10.1080/00337578208229928
+  measurement_technique: DLTS
+  comments: measurement data taken from laplace DLTS database. Out at 673K for 10
+    min. A center
+  sample:
+    growth: CZ
+    dopant: boron
+    incorporation: irridation
+    resistivity: '22'
+  measurement_details:
+    Ur: 5.0
+  measurement_data:
+    T: 159.9,176,195.5,219.5
+    e: 1,10,100,1000
+  params:
+    Ed_a: Ev+0.33
+    dEd_a: 0.015

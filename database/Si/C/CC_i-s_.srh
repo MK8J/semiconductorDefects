@@ -1,0 +1,21 @@
+
+benton1982:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: 'Emission rate at 1.8 ms at 225 K, '
+  sample:
+    growth: FZ,CZ
+  params:
+    Ed_a: Ev+0.36
+    sigma_ha: 8.0e-17
+
+asom1987:
+  title: Interstitial defect reactions in silicon
+  DOI: 10.1063/1.98465
+  measurement_technique: DLTS
+  comments: Metastable, tentative assignment. Similar behavior observed in EPR.
+  measurement_details:
+    T: 75 K
+  params:
+    Ed_a: Ec-0.17

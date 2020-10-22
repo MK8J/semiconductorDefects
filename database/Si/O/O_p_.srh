@@ -1,0 +1,39 @@
+
+kimerling1981:
+  title: Oxygen_related donor states in silicon
+  DOI: 10.1063/1.92755
+  measurement_technique: DLTS
+  comments: '80K Thermal donor state 2.Heat treatments were performed at 450 C in
+    flowing N2 for various durations: 30 min, 1 h, 2 h, 5 h.'
+  sample:
+    growth: CZ
+    dopant: boron, phosphorus
+    resistivity: 1-10
+  params:
+    Ed_a: Ec-0.15
+
+kimerling1981_1:
+  title: Oxygen_related donor states in silicon
+  DOI: 10.1063/1.92755
+  measurement_technique: DLTS
+  comments: '30K Thermal donor state 2.Heat treatments were performed at 450 C in
+    flowing N2 for various durations: 30 min, 1 h, 2 h, 5 h.'
+  sample:
+    growth: CZ
+    dopant: boron, phosphorus
+    resistivity: 1-10
+  params:
+    Ed_a: Ec-0.07
+
+chantre1987:
+  title: Metastable thermal donor states in silicon
+  DOI: 10.1063/1.97812
+  measurement_technique: DLTS
+  comments: '75K Thermal donor state 2.Heat treatments were performed at 450 C in
+    flowing N2 for various durations: 30 min, 1 h, 2 h, 5 h.'
+  sample:
+    growth: CZ
+    dopant: boron
+    resistivity: '2'
+  params:
+    Ed_a: Ec-0.15

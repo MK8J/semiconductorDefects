@@ -1,0 +1,42 @@
+
+shiraishi1999:
+  title: DLTS analysis of nickel_hydrogen complex defects in silicon
+  DOI: 10.1016/S0921-5107(98)00280-3
+  measurement_technique: DLTS-Cr
+  linked: NiH3_-_a by scheffler2014
+  comments: x is 3 or 4. Out at 500 K for 1 hours
+  sample:
+    growth: CZ, FZ
+    dopant: boron
+    incorporation: melt, diffusion
+    resistivity: 1-100
+  measurement_details:
+    T: 190.0
+    Rw: 0.024 s
+  params:
+    Ed_a: Ev+0.37
+    Ed_h: Ev+0.37
+    Ed: Ev+0.315
+    sigma_ha: 6.5e-15
+    sigma_h: 2.3e-16
+
+shiraishi1999_1:
+  title: DLTS analysis of nickel_hydrogen complex defects in silicon
+  DOI: 10.1016/S0921-5107(98)00280-3
+  measurement_technique: DLTS-Cr
+  linked: NiH2_-_a by scheffler2014
+  comments: x is 2 or 3. Out at 500 K for 1 hours
+  sample:
+    growth: CZ, FZ
+    dopant: boron
+    incorporation: melt, diffusion
+    resistivity: 1-100
+  measurement_details:
+    T: 275.0
+    Rw: 0.024 s
+  params:
+    Ed_a: Ev+0.56
+    Ed_h: Ev+0.56
+    Ed: Ev+0.485
+    sigma_ha: 5.3e-15
+    sigma_h: 2.2000000000000002e-16

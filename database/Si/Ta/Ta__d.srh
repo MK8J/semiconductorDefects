@@ -1,0 +1,69 @@
+
+miyata1976:
+  title: Thermal emission rates and activation energies of electrons at tantalum centers
+    in silicon
+  DOI: 10.1016/0038-1101(76)90059-9
+  measurement_technique: DLTS
+  sample:
+    dopant: phosphorus
+    incorporation: thermal
+    resistivity: '5'
+  rates:
+    e_e: 1.59e10 * exp(-0.252/kT)
+  params:
+    Ed_a: Ec-0.232
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  comments: Review paper. different techniques providing different things
+  params:
+    Ed: Ec-0.14
+
+chen1980_1:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  comments: Review paper. different techniques providing different things
+  params:
+    Ed: Ev+0.4
+
+lemke1994:
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-MeCr, TS-C
+  linked: Ta_i_d.srh
+  comments: Assumed thermal velocity of 1e7 measured at 250K
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: diffusion
+  measurement_details:
+    T: 250.0
+  rates:
+    c_e: '>7e-8'
+  params:
+    Ed_a: Ec-0.58
+    sigma_ea: '>7e-8/1e7'
+
+graff1995:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ec-0.23
+
+graff1995_1:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ec-0.47

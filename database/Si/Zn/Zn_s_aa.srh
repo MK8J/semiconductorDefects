@@ -1,0 +1,160 @@
+
+carlson1957:
+  title: Double-Acceptor Behavior of Zinc in Silicon
+  DOI: 10.1103/PhysRev.108.1390
+  measurement_technique: Hall
+  params:
+    Ed: Ec-0.55
+
+schibli1968:
+  title: Lifetime and capture cross-section studies of deep impurities in silicon
+  DOI: 10.1016/0025-5416(68)90036-0
+  measurement_technique: review
+  comments: 90-200 K, could not find original paper
+  params:
+    Ed: Ec-0.55
+    sigma_e: '1.00E-16'
+
+schibli1968_1:
+  title: Lifetime and capture cross-section studies of deep impurities in silicon
+  DOI: 10.1016/0025-5416(68)90036-0
+  measurement_technique: review
+  comments: 80 K, could not find original paper
+  params:
+    Ed: Ec-0.55
+    sigma_e: '1.00E-18'
+
+schibli1968_2:
+  title: Lifetime and capture cross-section studies of deep impurities in silicon
+  DOI: 10.1016/0025-5416(68)90036-0
+  measurement_technique: review
+  comments: 100-300 K, could not find original paper
+  params:
+    Ed: Ec-0.55
+    sigma_e: '5.05E-19'
+    dsigma_e: 4.950000000000001e-19
+
+herman1972:
+  title: Thermal Ionization Rates and Energies of Holes at the Double acceptor zinc
+    centers in silicon
+  DOI: 10.1002/pssa.2210140203
+  measurement_technique: TS-I, DLTS
+  comments: providing the e/T^2 energy level. Done at high electric fields.
+  sample:
+    dopant: boron
+    incorporation: thermal
+  rates:
+    e_h: 1.41e11 * (T/300)^(-2)* exp(-0.574/kT)
+  params:
+    Ed_a: Ev+0.574
+    dEd_a: 0.001
+
+sklensky1972:
+  title: Photoelectronic Properties of Zinc Impurity in Silicon centers in silicon
+  DOI: 10.1103/PhysRevB.6.1328
+  measurement_technique: PC-S,TS-I, LS-TM, Hall
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: thermal
+  params:
+    Ed: Ec-0.51-3.5e-4*T
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review. Mainly Hall effect measurements
+  comments: Figure 2.1
+  params:
+    Ed: Ec-0.55
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: review
+  comments: Reported thermal capture rates from which capture cross sections can be
+    determined.
+  params:
+    Ed: Ec-0.55
+
+sah1981:
+  title: Effect of zinc impurity on silicon solar-cell efficiency
+  DOI: 10.1109/T-ED.1981.20333
+  measurement_technique: TS-I, DLTS-Cr
+  comments: Capture rate at 300 K, energy levels and capture cross sections not provided,
+    these are calculated.
+  sample:
+    dopant: boron
+    incorporation: thermal
+  measurement_details:
+    low_field: true
+  rates:
+    e_h: 5.36e12*(T/300)^(-2) * exp(-0.644/kT)
+    c_e: 3.7e-10 * exp(-0.136/kT)
+    c_h: 6e-8
+  params:
+    Ed_a: Ev+0.664
+    dEd_a: 0.001
+    sigma_e: 9.6e-20
+    sigma_h: 3.55e-15
+
+wang1984a:
+  title: Electron capture at the two acceptor levels of a zinc center in silicon
+  DOI: 10.1103/PhysRevB.30.5896
+  measurement_technique: TS-I, DLTS-Cr
+  comments: Energy levels and capture cross sections not provided, these are calculated
+    at 300 K.
+  sample:
+    dopant: boron
+    incorporation: thermal
+  rates:
+    e_h: 5.36e12*(T/300)^(-2) * exp(-0.644/kT)
+    c_e: 3.03e-6 * T ^ (-2/3) * exp(-(4.10e5/T)^(1/3)) * (1- exp(-584/T))^(-9.86)
+      * exp(-2.8/(exp(585/T)-1))
+    c_h: 5.72e-8 * (300/T)^(3.93)
+  params:
+    Ed_a: Ev+0.664
+    sigma_e: 1.5e-19
+    sigma_h: 3.5e-15
+
+lemke1987:
+  title: "St\xF6rstellenreaktionen in den Randschichtbereichen von Si-Kristallen mit\
+    \ Zn- und Pt-Dotierung"
+  DOI: 10.1002/pssa.2211010122
+  measurement_technique: DLTS-Cr
+  comments: Saw two other levels which interact with the Zn levels, depending on annealing
+    temeprature. The value published in his paper for the energy level 0.61 eV. This
+    has not had the T^2 dependence accounted for. The values below are taken from
+    a digitisation of Figure 1. It was confirmed that this aquired data provided a
+    slope of -0.62 as stated in his paper. It was also confirmed that accounting for
+    the T^2 dependenced provided a betting R^2 value.
+  sample:
+    dopant: boron, phosphorous
+    incorporation: thermal
+  rates:
+    e_h: 1.47e6 * T^2* exp(-0.565/kT)
+    c_h: '>3e-8'
+  params:
+    Ed_a: Ev+0.565
+
+graff1995:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ev+0.6
+    sigma_ha: '2.5e-15'
+
+graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from Table 5.7. Measured at a temperature of 300 K.
+  params:
+    Ed_a: Ec-0.53
+    dEd_a: 0.02
+    sigma_ha: '2.5e-15'

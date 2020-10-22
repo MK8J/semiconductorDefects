@@ -1,0 +1,28 @@
+
+chan1971:
+  title: "Defect Centers in Boron\x95\xC0_\xF3\x90Implanted Silicon"
+  DOI: 10.1063/1.1659853
+  measurement_technique: DLTS
+  comments: Out at 873 K. Believe defects are crystal defects rather than boron related.
+  sample:
+    growth: CZ
+    dopant: phosphorus
+    incorporation: Boron ion implantation
+    resistivity: '4'
+  params:
+    Ed_a: Ec-0.241
+    dEd_a: 0.008
+
+chan1971_1:
+  title: "Defect Centers in Boron\x95\xC0_\xF3\x90Implanted Silicon"
+  DOI: 10.1063/1.1659853
+  measurement_technique: DLTS
+  comments: Out at 873 K. Believe defects are crystal defects rather than boron related.
+  sample:
+    growth: CZ
+    dopant: phosphorus
+    incorporation: Boron ion implantation
+    resistivity: '4'
+  params:
+    Ed_a: Ec-0.558
+    dEd_a: 0.006

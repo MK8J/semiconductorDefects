@@ -1,0 +1,28 @@
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review. Mainly Hall effect measurements
+  comments: Figure 2.1
+  params:
+    Ed: Ev+0.17
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: review, lifetime
+  sample:
+    incorporation: ion implantation
+  params:
+    Ed: Ev+0.43
+    sigma_e: 4e-15
+
+chen1980_1:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: review, lifetime
+  comments: From Figure 1
+  sample:
+    incorporation: ion implantation
+  params:
+    Ed: Ev+0.17

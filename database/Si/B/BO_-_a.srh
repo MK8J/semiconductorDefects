@@ -1,0 +1,32 @@
+
+niewelt2016:
+  title: Fast in-situ photoluminescence analysis for a recombination parameterization
+    of the fast BO defect component in silicon
+  DOI: 10.1063/1.4961423
+  measurement_technique: LS-MID
+  comments: paper reports capture coefficients alpha=vth*sigma @300K, (vth_e=1.2*vth_h
+    -> factor 1.2 in reported k-value). Multi level defect with Q0=alpha_e_d/alpha_h_a=1.2
+  sample:
+    growth: CZ
+    dopant: boron, phosphorus
+    incorporation: melt
+    resistivity: 12 - 0.4
+  params:
+    Ed: Ev+0.31
+    dEd: 0.02
+    k: 1.2/85.7
+    dk: 0.0002
+
+niewelt2016_1:
+  title: Fast in-situ photoluminescence analysis for a recombination parameterization
+    of the fast BO defect component in silicon
+  DOI: 10.1063/1.4961423
+  measurement_technique: Review (3 Voronkov-Papers),  LS-MID
+  sample:
+    growth: CZ
+    dopant: boron, phosphorus
+    incorporation: melt
+  params:
+    Ed: Ev+0.28
+    dEd: 0.03
+    k: 1986/02/01

@@ -1,0 +1,113 @@
+
+chiavarotti1977:
+  title: Characterisation of properties of nickel in silicon using thermally stimulated
+    capacitance method
+  DOI: 10.1016/0038-1101(77)90012-0
+  sample:
+    dopant: boron, phosphorus
+  params:
+    Ed_a: Ev+0.21
+    dEd_a: 0.01
+
+chiavarotti1977_1:
+  title: Characterisation of properties of nickel in silicon using thermally stimulated
+    capacitance method
+  DOI: 10.1016/0038-1101(77)90012-0
+  sample:
+    dopant: boron, phosphorus
+  params:
+    Ed_a: Ev+0.41
+    dEd_a: 0.01
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  params:
+    Ed: Ec-0.375
+    dEd: 0.035
+
+jaraiz1986:
+  title: Electron thermal emission rates of nickel centers in silicon
+  DOI: 10.1016/0038-1101(86)90008-0
+  measurement_technique: CV-TF
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    resistivity: 50-60
+  params:
+    Ed_a: Ec-0.360
+    dEd_a: 0.01
+
+lemke1994:
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-MeCr, TS-C
+  linked: Ni_s_a.srh
+  comments: Assumed thermal velocity of 1e7 measured at 200K
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: diffusion
+  measurement_details:
+    T: 200.0
+  rates:
+    c_e: 9e-10
+  params:
+    Ed_h: Ec-0.38
+    sigma_e: 9e-10/1e7
+
+graff1995:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ec-0.41
+
+graff1995_1:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ec-0.35
+
+graff1995_2:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ev+0.33
+
+graff1995_3:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ev+0.22
+
+graff1995_4:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ev+0.16

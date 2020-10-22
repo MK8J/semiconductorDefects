@@ -1,0 +1,24 @@
+
+andersen2002:
+  title: Electrical activity of carbon-hydrogen centers in Si
+  DOI: 10.1103/PhysRevB.66.235205
+  measurement_technique: DLTS-L
+  comments: 88-103 K, values taken from DLTS database http://www.laplacedlts.eu/defect/,
+    if sample goes above 200 K converted into a Ec-0.154 level
+  sample:
+    dopant: phosphorus
+  params:
+    Ed_a: Ec-0.22
+    sigma_ea: 2.0e-14
+
+scheffler2013:
+  title: Isolated substitutional cobalt and Co-related complexes in silicon
+  DOI: 10.1063/1.4804321
+  measurement_technique: DLTS-L
+  comments: Activation energy level and apparent capture cross section
+  sample:
+    dopant: phosphorus
+    incorporation: melt
+  params:
+    Ed_a: Ec-0.16
+    sigma_ea: 5.599999999999999e-16

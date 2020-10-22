@@ -1,0 +1,29 @@
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review
+  comments: Figure 2.1
+  params:
+    Ed: Ec-0.16
+
+benton1982:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: 'Emission rate at 1.8 ms at 58 K, '
+  sample:
+    growth: CZ
+  params:
+    Ed_a: Ec-0.07
+
+benton1982_1:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: 'Emission rate at 1.8 ms at 59,60 K, '
+  sample:
+    growth: CZ
+  params:
+    Ed_a: Ec-0.15
+    sigma_ea: 3.0e-15

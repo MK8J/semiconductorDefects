@@ -1,0 +1,19 @@
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review
+  comments: Figure 2.1
+  params:
+    Ed: Ev+0.16
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: review
+  comments: Review paper. Wide range of electron capture cross sections were provided.
+    It is unknown why, the value reported here is believed to be the correct value.
+  params:
+    Ed: Ev+0.16
+    sigma_e: 2e-15
+    sigma_h: 4e-7*(T/77)^-4/1e7

@@ -1,0 +1,44 @@
+
+boughaba1991:
+  title: "Deep level transient spectroscopy characterization of tungsten\u2010related\
+    \ deep levels in silicon"
+  DOI: 10.1063/1.347708
+  measurement_technique: DLTS-F
+  sample:
+    growth: CZ, FZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 100
+  measurement_details:
+    T: 170
+    Ur: 3
+    Up: 0
+    Rw: 5 ms
+  rates:
+    e_h: 5e7*T^2*exp(-0.33/kT)
+  params:
+    Ed_a: Ev+0.33
+    sigma_ha: 1.2e-14
+
+boughaba1991_1:
+  title: "Deep level transient spectroscopy characterization of tungsten\u2010related\
+    \ deep levels in silicon"
+  DOI: 10.1063/1.347708
+  measurement_technique: DLTS-F
+  comments: Linked to the boughaba1991 in W_i_.srh, but not the same defect. The concentrations
+    of both were seen to scale with each other.
+  sample:
+    growth: CZ, FZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 100
+  measurement_details:
+    T: 125
+    Ur: 3
+    Up: 0
+    Rw: 5 ms
+  rates:
+    e_h: 4.4e7*T^2*exp(-0.22/kT)
+  params:
+    Ed_a: Ev+0.22
+    sigma_ha: 9.4e-15

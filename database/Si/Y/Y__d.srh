@@ -1,0 +1,9 @@
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  comments: Review paper. assumed to be disordered states
+  sample:
+    incorporation: ion implantation
+  params:
+    Ed: Ec-0.5

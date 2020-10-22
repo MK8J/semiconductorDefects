@@ -1,0 +1,64 @@
+
+shiraishi1999:
+  title: DLTS analysis of nickel_hydrogen complex defects in silicon
+  DOI: 10.1016/S0921-5107(98)00280-3
+  measurement_technique: DLTS-Cr
+  linked: HNi_-_a.srh
+  comments: Out at 570 K for 2 hours
+  sample:
+    growth: CZ, FZ
+    dopant: phosphorus
+    incorporation: melt, diffusion
+    resistivity: 1-100
+  measurement_details:
+    T: 110.0
+    Rw: 0.024 s
+  params:
+    Ed_a: Ec-0.16
+    Ed_h: Ec-0.16
+    Ed: Ec-0.184
+    sigma_ea: 1.8000000000000002e-16
+    sigma_e: '1.4E-17'
+
+shiraishi1999_1:
+  title: DLTS analysis of nickel_hydrogen complex defects in silicon
+  DOI: 10.1016/S0921-5107(98)00280-3
+  measurement_technique: DLTS-Cr
+  linked: NiH2_-_a by scheffler2014
+  comments: Out at 570 K for 2 hours
+  sample:
+    growth: CZ, FZ
+    dopant: phosphorus
+    incorporation: melt, diffusion
+    resistivity: 1-100
+  measurement_details:
+    T: 270.0
+    Rw: 0.024 s
+  params:
+    Ed_a: Ec-0.52
+    Ed_h: Ec-0.52
+    Ed: Ec-0.543
+    sigma_ea: 1.9e-15
+    sigma_e: 7E-16
+
+scheffler2014:
+  title: Electrical levels in nickel doped silicon
+  DOI: 10.1063/1.4901003
+  measurement_technique: DLTS-L
+  comments: 'Hydrogen related, as only appeared after a "clean" that is known to introduce
+    hyrdrogen. '
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: melt, diffusion
+    resistivity: '1000'
+  measurement_details:
+    T: 150.0
+    Ur: -2 V
+    Up: 0 V
+    tp: 1 ms
+    Rw: 0.021 s
+  params:
+    Ed_a: Ev+0.29
+    sigma_ha: 3.9999999999999995e-15
+    dsigma_ha: 9.999999999999999e-16
