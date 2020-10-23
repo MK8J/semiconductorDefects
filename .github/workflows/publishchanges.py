@@ -135,6 +135,7 @@ def add_data(path):
    
     # add the data to the class
     defect.JSONData = json.dumps(dicData)
+    print('datasent', dicData)
     return defect
 
 
