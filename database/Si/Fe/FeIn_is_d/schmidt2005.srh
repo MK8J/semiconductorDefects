@@ -1,0 +1,18 @@
+{
+    "Title": "Recombination activity of iron-gallium and iron-indium pairs in silicon",
+    "Measurement technique": "LS-I",
+    "Comments": "Energy level of Ev+0.15 taken from Kimerling1989",
+    "DOI": "10.1063/1.1929096",
+    "Sample": {
+        "growth": "Cz",
+        "dopant": "indium",
+        "incorporation": "ion implantation",
+        "resistivity": "14.5"
+    },
+    "Measured parameters": {
+        "&sigma;<sub>e</sub>": 3.4999999999999997e-13,
+        "&sigma;<sub>h</sub>": 1.5e-14,
+        "k": "70/3"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/In/InFe_s-i_d.srh"
+}

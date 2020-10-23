@@ -1,0 +1,11 @@
+{
+    "Title": "Lifetime and capture cross-section studies of deep impurities in silicon",
+    "Measurement technique": "LS",
+    "Comments": "77 K",
+    "DOI": "10.1016/0025-5416(68)90036-0",
+    "Measured parameters": {
+        "&sigma;<sub>h</sub>": "3.00E-06",
+        "&delta;&sigma;<sub>h</sub>": 1e-06
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/In/In__a.srh"
+}

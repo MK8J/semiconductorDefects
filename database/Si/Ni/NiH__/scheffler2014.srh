@@ -1,0 +1,33 @@
+{
+    "measurement_details": {
+        "T": 150.0,
+        "Ur": "-2 V",
+        "Up": "0 V",
+        "tp": "1 ms",
+        "Rw": "0.021 s"
+    },
+    "DLTS_params": {
+        "t1": "126.5",
+        "t2": "137.6",
+        "t3": "150.7",
+        "t4": "166.4",
+        "inter": "19900000.0",
+        "Ed_a": "0.289"
+    },
+    "Title": "Electrical levels in nickel doped silicon",
+    "Measurement technique": "DLTS-L",
+    "Comments": "Hydrogen related, as only appeared after a \"clean\" that is known to introduce hyrdrogen. ",
+    "DOI": "10.1063/1.4901003",
+    "Sample": {
+        "growth": "FZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "melt, diffusion",
+        "resistivity": "1000"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.29",
+        "&sigma;<sub>h,a</sub>": 3.9999999999999995e-15,
+        "&delta;&sigma;<sub>ha</sub>": 9.999999999999999e-16
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/H/HNi_-_.srh"
+}

@@ -1,0 +1,14 @@
+{
+    "Title": "Imaging Interstitial Iron Concentrations in Gallium-Doped Silicon Wafers",
+    "Measurement technique": "LS-I",
+    "Comments": "orthorhombic,  found goot fit using the values of  Ciszek2002  for GaFe and Schmit2005 ",
+    "DOI": "10.1002/pssa.201800655",
+    "Sample": {
+        "growth": "MC",
+        "dopant": "gallium",
+        "incorporation": "melt",
+        "resistivity": "1"
+    },
+    "Measured parameters": {},
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ga/GaFe_s-i_d.srh"
+}
