@@ -44,17 +44,14 @@ changeslist = args.changes.splitlines()
 # U: file is unmerged (you must complete the merge before it can be committed)
 
 # X: "unknown" change type (most probably a bug, please report it)
-print(changeslist)
 
-additions = [change.split() for change in changeslist if change.startswith("A")]
+additions = [change.split() for change in changeslist if change.startswith("A\t")]
 
 modifications = [change.split() for change in changeslist if change.startswith("M")]
 
 deletions = [change.split() for change in changeslist if change.startswith("D")]
 
 renames = [change.split() for change in changeslist if change.startswith("R")]
-
-
 
 # get the authentication token
 payload = {'grant_type':'password', 'username':args.username, 'password':args.password}

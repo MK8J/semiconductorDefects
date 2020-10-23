@@ -45,18 +45,20 @@ jobs:
       run: |
         python -m pip install -r ./.github/workflows/requirements.txt
 
-    - name: update github actions
-      run: |
-        python ./.github/workflows/yaml2new.py
-        git add -A # commit the changes, so we get the diff
-        git commit -m "auto commit"
+#    - name: update github actions
+#      run: |
+#        python ./.github/workflows/yaml2new.py
+#        git add -A # commit the changes, so we get the diff
+#        git commit -m "auto commit"
 
     - name: run python
       env:
         USERNAME: ${{ secrets.defects_username }}
         PASSWORD: ${{ secrets.defects_password }}
       run: |
-        CHANGES=$(git diff --name-status @{upstream} database )
+        CHANGES=$(git log --name-status HEAD^..HEAD) #checks between changes between the last two commits
+
+        #CHANGES=$(git diff --name-status @{upstream} database )
         echo The changes are "$CHANGES"
         python ./.github/workflows/publishchanges.py -c "$CHANGES" -u $USERNAME -p $PASSWORD
 
