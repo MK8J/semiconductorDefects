@@ -1,0 +1,26 @@
+{
+    "title": "Properties of Au, Pt, Pd and Rh levels in silicon measured with a constant capacitance technique",
+    "DOI": "10.1016/0038-1101(74)90157-9",
+    "comments": "135 K",
+    "sample": {
+        "dopant": "boron",
+        "incorporation": "thermal"
+    },
+    "DLTS_params": {
+        "t1": "139.6",
+        "t2": "150.9",
+        "t3": "164.0",
+        "t4": "179.6",
+        "inter": "159000000.0",
+        "Ed_a": "0.346"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.346",
+        "&sigma;<sub>h</sub>": 1.6e-15
+    },
+    "Rates": {
+        "e<sub>e</sub>": "1/6.3e-9*exp(-0.346/kT)*T^2"
+    },
+    "Measurement technique": "DLTS-CcCr",
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au_s_d.srh"
+}

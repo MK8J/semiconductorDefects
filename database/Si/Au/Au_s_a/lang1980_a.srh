@@ -1,0 +1,12 @@
+{
+    "title": "Complex nature of gold-related deep levels in silicon",
+    "DOI": "10.1103/PhysRevB.22.3917",
+    "comments": "Said that the difference defect between the two values maybe the results (lang1980 and lang1980a) of a different defect.",
+    "Measured parameters": {
+        "Ed_h": "Ec-0.553",
+        "E<sub>d</sub>": "Ec-0.553 + 3.87 *k *T",
+        "&sigma;<sub>e</sub>": "0.69e-16*T^0"
+    },
+    "Measurement technique": "DLTS-Cr",
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au_s_a.srh"
+}

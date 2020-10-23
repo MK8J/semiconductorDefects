@@ -1,0 +1,11 @@
+{
+    "title": "Photoconductivity in Gold-Doped Silicon",
+    "DOI": "10.1103/PhysRev.94.1530",
+    "comments": "Same samples as Taft1954. Potentiall saw a level at Ev+0.7.",
+    "Measured parameters": {
+        "dEd": 0.005,
+        "E<sub>d</sub>": "Ev+0.325"
+    },
+    "Measurement technique": "PC-S",
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au_s_d.srh"
+}

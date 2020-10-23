@@ -1,0 +1,17 @@
+{
+    "title": "Electrical and optical properties of titanium-related centers in silicon",
+    "DOI": "10.1103/PhysRevB.43.9171",
+    "comments": "Comments on both the previous defect asignment and charges assignment being vague. Capture cross section values manually extracted from graph",
+    "sample": {
+        "dopant": "boron, phosphorus",
+        "incorporation": "ion implantation"
+    },
+    "Measured parameters": {
+        "Ed_h": "Ec-0.266",
+        "E<sub>d,a</sub>": "Ec-0.255",
+        "E<sub>d</sub>": "Ec-(0.268+3.42e-4*T)",
+        "&sigma;<sub>e</sub>": "1.57e-14*exp(0.011/k/T)"
+    },
+    "Measurement technique": "DLTS-Cr",
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti_i_d.srh"
+}

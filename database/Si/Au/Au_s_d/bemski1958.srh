@@ -1,0 +1,11 @@
+{
+    "title": "Recombination Properties of Gold in Silicon",
+    "DOI": "10.1103/PhysRev.111.1515",
+    "comments": "200 - 500K",
+    "Measured parameters": {
+        "&sigma;<sub>e</sub>": "3.5e-15*(T/300)^(-2.5)",
+        "&sigma;<sub>h</sub>": "1.00E-13"
+    },
+    "Measurement technique": "LS-DINT",
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au_s_d.srh"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Electrical observation of the Au-Fe complex in silicon",
+    "DOI": "10.1063/1.333149",
+    "comments": "Rates are from fitting to a digitization of figure 3.",
+    "DLTS_params": {
+        "t1": "179.9",
+        "t2": "194.8",
+        "t3": "212.3",
+        "t4": "233.0",
+        "inter": "47200000.0",
+        "Ed_a": "0.435"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.42",
+        "&sigma;<sub>h,a</sub>": "2.6e-15"
+    },
+    "Rates": {
+        "e<sub>e</sub>": "4.72e7 * T^2 * exp(-0.435/kT)"
+    },
+    "Measurement technique": "review, DLTS",
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/AuFe_s-i_d.srh"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Recombination Properties of the Gold Acceptor Level in Silicon using the Impurity Photovoltaic Effect",
+    "DOI": "10.1103/PhysRevLett.19.71",
+    "linked": "Au_s_a.srh",
+    "comments": "Thermal emission rate of holes: 1.17e12(T/300)^2*exp(-0.54723/kT). Capture rates are also provided",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.54723",
+        "&delta;E<sub>d,a</sub>": 0.00217
+    },
+    "Measurement technique": "DLTS, DC-TI",
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au__a.srh"
+}

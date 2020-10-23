@@ -1,0 +1,23 @@
+{
+    "title": "Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float Zone Technique",
+    "ISBN": "978-1-56677-042-2",
+    "linked": "Ti_i_dd.srh",
+    "comments": "Assumed thermal velocity of 1e7 measured at 200K",
+    "sample": {
+        "growth": "FZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "diffusion"
+    },
+    "measurement_details": {
+        "T": 200.0
+    },
+    "Measured parameters": {
+        "Ed_h": "Ev+0.28",
+        "&sigma;<sub>h</sub>": "1e-10/1e7"
+    },
+    "Rates": {
+        "c<sub>h</sub>": "1e-10"
+    },
+    "Measurement technique": "DLTS-MeCr, TS-C",
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti__dd.srh"
+}

@@ -320,13 +320,14 @@ def rename_params(data_touple):
     # as these are the values are shown on the website.
     renamedic_params = {
         'sigma_e':'&sigma;<sub>e</sub>',
-        'sigma_e':'&sigma;<sub>e</sub>',
-        'dsigma_e':'d&sigma;<sub>e</sub>',
-        'dsigma_h':'d&sigma;<sub>h</sub>',
+        'sigma_h':'&sigma;<sub>h</sub>',
+        'dsigma_e':'&delta;&sigma;<sub>e</sub>',
+        'dsigma_h':'&delta;&sigma;<sub>h</sub>',
         'sigma_ha':'&sigma;<sub>h,a</sub>',
         'sigma_ea':'&sigma;<sub>e,a</sub>',
         'Ed':'E<sub>d</sub>',
         'Ed_a':'E<sub>d,a</sub>',
+        'dEd_a':'&delta;E<sub>d,a</sub>',
         }
     renamedic_rates = {
         'e_e':'e<sub>e</sub>',

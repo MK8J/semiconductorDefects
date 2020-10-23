@@ -1,0 +1,16 @@
+{
+    "title": "Electrical properties of deep silver- and iron-related centres in silicon",
+    "DOI": "10.1088/0022-3719/17/36/023",
+    "comments": "Says is silver, but unlikely",
+    "sample": {
+        "dopant": "boron, phosphorus",
+        "incorporation": "thermal",
+        "resistivity": 7
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.29",
+        "&sigma;<sub>e</sub>": "9e-18"
+    },
+    "Measurement technique": "DLTS-Cr",
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ag/Ag__.srh"
+}
