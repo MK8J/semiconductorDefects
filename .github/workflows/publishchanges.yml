@@ -56,7 +56,7 @@ jobs:
         USERNAME: ${{ secrets.defects_username }}
         PASSWORD: ${{ secrets.defects_password }}
       run: |
-        CHANGES=$(git log --name-status HEAD^..HEAD) #checks between changes between the last two commits
+        CHANGES=$(git log --name-status -1) #checks between changes between the last two commits
 
         #CHANGES=$(git diff --name-status @{upstream} database )
         echo The changes are "$CHANGES"
