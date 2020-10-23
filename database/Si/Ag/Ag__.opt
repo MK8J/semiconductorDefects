@@ -1,0 +1,27 @@
+
+okuyama1979:
+  title: Photoionization cross-sections and energy levels of gold, iron, platinum, silver, and titanium in silicon
+  DOI: 10.1007/BF02652402
+  comments: data extracted from figure 7 and manually fit. The change in refractive index was not determined. Defect concentration determined with CV(T).
+  measurement_technique: EQE-Bo
+  temperature: 77.15
+  Fit:
+    form: Lucovsky
+    A: 3.10e-14
+    power1: 3/2
+    Ed: 0.85
+    power2: 2
+
+
+okuyama1979_1:
+  title: Photoionization cross-sections and energy levels of gold, iron, platinum, silver, and titanium in silicon
+  DOI: 10.1007/BF02652402
+  comments: data extracted from figure  and manually fit. The change in refractive index was not determined. Defect concentration determined with CV(T).
+  measurement_technique: EQE-Bo
+  temperature: 77.15
+  Fit:
+    form: Lucovsky
+    A: 8.06e-14
+    power1: 3/2
+    Ed: 0.9
+    power2: 2

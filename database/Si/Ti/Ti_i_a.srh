@@ -1,0 +1,72 @@
+
+weber1983:
+  title: Transition metals in silicon
+  DOI: 10.1007/BF00617708
+  measurement_technique: review
+  params:
+    Ed: Ec-0.08
+
+mathiot1989:
+  title: 'Titanium-related deep levels in silicon: A reexamination'
+  DOI: 10.1063/1.343608
+  measurement_technique: DLTS
+  comments: Noted that could not vary the filling pulse, as it was too short.
+  sample:
+    growth: FZ,CZ
+    dopant: phosphorus
+    incorporation: thermal
+  rates:
+    e_e: 1.85e8 *T^2*exp(-0.09/kT)
+  params:
+    Ed_a: Ec-0.09
+    sigma_ea: 2.9e-14
+
+tilly1991:
+  title: Electrical and optical properties of titanium-related centers in silicon
+  DOI: 10.1103/PhysRevB.43.9171
+  measurement_technique: DLTS-Cr
+  comments: Comments on both the previous defect asignment and charges assignment
+    being vague
+  sample:
+    dopant: boron, phosphorus
+    incorporation: ion implantation
+  params:
+    Ed_a: Ec-0.077
+    Ed_h: Ec-0.08
+    Ed: Ec-(0.077-1.47e-4*T)
+    sigma_e: '1.60E-15'
+
+graff1995:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ec-0.08
+    sigma_ea: 5e-14
+
+graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from table 5.2. DLTS done at a temperature of 50K.
+  params:
+    Ed_a: Ec-0.08
+    dEd_a: 0.01
+    sigma_ea: 3.5e-14
+
+roth2008:
+  title: Analysis of electrically active defects in silicon for solar cells
+  ISBN: 3868530363, 9783868530360
+  measurement_technique: LS-T
+  comments: Temperature dependance of some sigma is T^-1.7
+  sample:
+    growth: FZ
+    dopant: boron
+    incorporation: melt
+  params:
+    Ed: Ec-0.08
+    dEd: 0.02,0.05
