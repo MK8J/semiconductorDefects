@@ -1,0 +1,14 @@
+
+conzelmann1983:
+  title: Chromium and chromium-boron pairs in silicon
+  DOI: 10.1007/BF00620536
+  measurement_technique: DLTS, EPR, luminescence
+  sample:
+    growth: CZ,FZ
+    dopant: boron, phosphorus
+    incorporation: thermal
+    resistivity: May-00
+  params:
+    Ed_a: Ec-0.20
+    Ed_h: Ec-0.23
+    sigma_ea: 2.0e-13

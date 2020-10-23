@@ -1,0 +1,12 @@
+
+nagasawa1975:
+  title: Fast transient capacitance measurements for implanted deep levels in silicon
+  DOI: 10.1007/BF00883667
+  measurement_technique: DLTS
+  linked: Be_s_a.srh
+  sample:
+    dopant: boron
+    incorporation: ion implantation
+  params:
+    Ed_a: Ev+0.43
+    sigma_ha: 4.2e-15

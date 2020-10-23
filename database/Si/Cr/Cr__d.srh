@@ -1,0 +1,42 @@
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review
+  comments: Figure 2.1
+  params:
+    Ed: Ec-0.4
+
+graff1981a:
+  title: The behavior of transition and noble metals in silicon crystals
+  ISSN: 0091-391X
+  measurement_technique: DLTS-Cr
+  linked: Cr_i_d.srh
+  sample:
+    growth: FZ, CZ
+    dopant: phosphorus
+    incorporation: thermal
+    resistivity: 1-100
+  params:
+    Ed_h: Ec-0.2
+    sigma_ea: 1.1e-12
+    dsigma_ea: 9e-13
+
+lemke1994:
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-MeCr, TS-C
+  linked: Cr_i_d.srh
+  comments: Assumed thermal velocity of 1e7 measured at 110K
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: diffusion
+  measurement_details:
+    T: 110.0
+  rates:
+    c_e: '>10e-8'
+  params:
+    Ed_a: Ec-0.23
+    sigma_ea: '>10e-8/1e7'

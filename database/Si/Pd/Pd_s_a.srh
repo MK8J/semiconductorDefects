@@ -1,0 +1,56 @@
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review
+  comments: Figure 2.1
+  params:
+    Ed: Ev+0.34
+
+pals1974:
+  title: Properties of Au, Pt, Pd and Rh levels in silicon measured with a constant
+    capacitance technique
+  DOI: 10.1016/0038-1101(74)90157-9
+  measurement_technique: DLTS-CcCr
+  comments: 95 K
+  sample:
+    dopant: phosphorus
+    incorporation: thermal
+  rates:
+    e_e: 1/1.05e-7*exp(-0.22/kT)*T^2
+  params:
+    Ed_a: Ec-0.22
+    sigma_e: 3.2e-15
+
+pugnet1976:
+  title: Energy levels for platinum and palladium in silicon measured by the dark
+    transient capacitance technique
+  DOI: 10.1002/pssa.2210350215
+  sample:
+    dopant: phosphorus
+  params:
+    Ed_a: Ec-0.2
+    dEd_a: 0.01
+    sigma_ea: 2.7e-16
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  comments: Assumed thermal velocity of 2e7
+  params:
+    Ed: Ec-0.22
+    sigma_e: 0.0000000027/2e7
+
+pearton1983:
+  title: "Palladium‐ and platinum‐related levels in silicon: Effect of a hydrogen plasma"
+  DOI: 10.1063/1.332398
+  measurement_technique: DLTS
+  sample:
+    dopant: boron
+    incorporation: thermal
+  comments: Assumed a typo in paper, for cross section. Paper lists 2e-4
+  measurement_details:
+    T: 80
+  params:
+    Ed_a: Ec-0.22
+    sigma_ea: 2e-14

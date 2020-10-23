@@ -1,0 +1,29 @@
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: review
+  linked: Pt_s_a.srh
+  params:
+    Ed: Ec-0.23
+    sigma_e: '6.30E-15'
+    sigma_h: '5.15E-15'
+
+lemke1994:
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-MeCr, TS-C
+  linked: Pt_s_a.srh
+  comments: Assumed thermal velocity of 1e7 measured at 110K
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: diffusion
+  measurement_details:
+    T: 110.0
+  rates:
+    c_e: '>1e-8'
+  params:
+    Ed_a: Ec-0.23
+    sigma_ea: '>1e-8/1e7'

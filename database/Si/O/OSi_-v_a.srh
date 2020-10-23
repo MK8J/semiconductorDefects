@@ -1,0 +1,18 @@
+
+indusekhar1986:
+  title: Investigation of Deep Defects Due to _-Particle Irradiation in n-Silicon
+  DOI: 10.1002/pssa.2210930230
+  measurement_technique: DLTS-Cr
+  sample:
+    growth: epi
+    dopant: phosphorus
+    incorporation: irridation
+    resistivity: '2'
+  measurement_details:
+    T: 107 K
+    Ur: -4.2
+    tp: 5 ms
+  params:
+    Ed_a: Ec-0.18
+    sigma_ha: 1.2e-15
+    sigma_h: 5.0e-19

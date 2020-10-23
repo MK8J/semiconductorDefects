@@ -1,0 +1,18 @@
+
+cox2014:
+  title: Detection of a Molybdenum Acceptor Level in N-Type Silicon
+  DOI: 10.1149/2.0081412jss
+  measurement_technique: DLTS-Cr
+  comments: Claims that is a substitutionary site. This work explains some values
+    from Hamaguchi1991 and some unpublished work from K. Mishra at SunEdison Semiconductor
+    Ltd. This might also also explain the values of Paudyal2010. The emission rate
+    is field dependent.
+  sample:
+    growth: epi
+  params:
+    Ed_a: Ec-0.255
+    dEd_a: 0.004
+    Ed_h: Ec-0.269
+    Ed: 0.269-9.62e-5*T
+    sigma_ea: 2.9e-16
+    sigma_e: 1.15e-16*exp(-0.014/kT)

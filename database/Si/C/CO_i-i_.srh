@@ -1,0 +1,19 @@
+
+asom1987:
+  title: Interstitial defect reactions in silicon
+  DOI: 10.1063/1.98465
+  measurement_technique: DLTS-Me, EPR
+  comments: States is ending conjecture over energy levels.
+  params:
+    Ed_a: Ev+0.36
+
+makarenko2007:
+  title: Reactions of interstitial carbon with impurities in silicon particle detectors
+  DOI: 10.1063/1.2745328
+  measurement_technique: DLTS
+  comments: A un-stable state of CO_i-i. This decomposes into the Ev+0.36 level as
+    reported by Asom1987
+  sample:
+    dopant: boron
+  params:
+    Ed_a: Ev+0.34

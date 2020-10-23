@@ -1,0 +1,73 @@
+
+sah1969:
+  title: Thermal emission rates of carriers at gold centers in silicon
+  DOI: 10.1063/1.1652943
+  measurement_technique: DLTS
+  params:
+    Ed_a: Ec-0.54723
+    dEd_a: 0.00217
+
+wang1976:
+  title: "Determination of interface and bulk\x95\xC0_\xF3\x90trap states of IGFET\x95\
+    \xC0_\xF3\xBBs using deep\x95\xC0_\xF3\x90level transient spectroscopy"
+  DOI: 10.1063/1.322381
+  measurement_technique: DLTS
+  sample:
+    dopant: phosphorus
+  params:
+    Ed_a: Ec-0.31
+
+wang1976_1:
+  title: "Determination of interface and bulk\x95\xC0_\xF3\x90trap states of IGFET\x95\
+    \xC0_\xF3\xBBs using deep\x95\xC0_\xF3\x90level transient spectroscopy"
+  DOI: 10.1063/1.322381
+  measurement_technique: DLTS
+  sample:
+    dopant: phosphorus
+  params:
+    Ed_a: Ec-0.44
+
+wang1976_2:
+  title: "Determination of interface and bulk\x95\xC0_\xF3\x90trap states of IGFET\x95\
+    \xC0_\xF3\xBBs using deep\x95\xC0_\xF3\x90level transient spectroscopy"
+  DOI: 10.1063/1.322381
+  measurement_technique: DLTS
+  sample:
+    dopant: phosphorus
+  params:
+    Ed_a: Ec-0.54
+    sigma_ea: 6.0e-15
+
+wang1976_3:
+  title: "Determination of interface and bulk\x95\xC0_\xF3\x90trap states of IGFET\x95\
+    \xC0_\xF3\xBBs using deep\x95\xC0_\xF3\x90level transient spectroscopy"
+  DOI: 10.1063/1.322381
+  measurement_technique: DLTS
+  sample:
+    dopant: phosphorus
+  params:
+    Ed_a: Ec-0.2
+
+wang1976_4:
+  title: "Determination of interface and bulk\x95\xC0_\xF3\x90trap states of IGFET\x95\
+    \xC0_\xF3\xBBs using deep\x95\xC0_\xF3\x90level transient spectroscopy"
+  DOI: 10.1063/1.322381
+  measurement_technique: DLTS
+  sample:
+    dopant: phosphorus
+  params:
+    Ed_a: Ec-0.13
+
+tavendale1983:
+  title: Deep level, quenched-in defects in silicon doped with gold, silver, iron,
+    copper or nickel
+  DOI: 10.1088/0022-3719/16/9/011
+  measurement_technique: DLTS-Cr
+  comments: Ev+0.53 also seen in this sample
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    resistivity: 20
+  params:
+    Ed_a: Ev+0.48
+    sigma_h: 4.0e-17

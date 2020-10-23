@@ -1,0 +1,28 @@
+
+chantre1985:
+  title: 'Metastable-defect behavior in silicon: Charge-state-controlled reorientation
+    of iron-aluminum pairs'
+  DOI: 10.1103/PhysRevB.31.7979
+  comments: Data published in inaccessible conference paper, and reprinted here. For
+    <111> configuration
+  params:
+    Ed: Ec-0.42
+    dEd: 0.01
+
+chantre1985_1:
+  title: 'Metastable-defect behavior in silicon: Charge-state-controlled reorientation
+    of iron-aluminum pairs'
+  DOI: 10.1103/PhysRevB.31.7979
+  measurement_technique: theory
+  params:
+    Ed: Ec-0.49
+    dEd: 0.01
+
+chantre1985_2:
+  title: 'Metastable-defect behavior in silicon: Charge-state-controlled reorientation
+    of iron-aluminum pairs'
+  DOI: 10.1103/PhysRevB.31.7979
+  comments: Data published in inaccessible conference paper, and reprinted here. For
+    <111> configuration
+  params:
+    Ed: Ec-0.43

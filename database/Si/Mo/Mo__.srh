@@ -1,0 +1,31 @@
+
+davis1980:
+  title: Impurities in silicon solar cells
+  DOI: 10.1109/T-ED.1980.19922
+  measurement_technique: DLTS, SCP
+  linked: Mo_i_d.srh
+  sample:
+    growth: CZ
+    dopant: boron, phosphorus
+    incorporation: melt
+  params:
+    Ed_a: Ev+0.3
+    dEd_a: 0.1
+    sigma_ea: 1.85e-14
+    sigma_ha: 7.8e-15
+    k: 2.4
+
+benton1999:
+  title: Behavior of Molybdenum in Silicon Evaluated for Integrated Circuit Processing
+  DOI: 10.1149/1.1391868
+  measurement_technique: DLTS
+  linked: Mo_i_d.srh
+  comments: Measured lifetime, but did not extract minority capture cross sections.
+  sample:
+    growth: FZ
+    dopant: boron
+    incorporation: ion implantation
+    resistivity: 10
+  params:
+    Ed_a: Ev+0.30
+    sigma_ha: 5.5e-16
