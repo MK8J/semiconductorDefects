@@ -1,0 +1,13 @@
+
+graff1981:
+  title: The Properties of Iron in Silicon
+  DOI: 10.1149/1.2127478
+  measurement_technique: DLTS, FTIR
+  comments: FTIR at 25 K, No AlFe peak found
+  sample:
+    growth: CZ, FZ
+    dopant: aluminium, boron, phosphorus
+    incorporation: thermal
+    resistivity: 1-100
+  params:
+    Ed_a: Ev+0.21
