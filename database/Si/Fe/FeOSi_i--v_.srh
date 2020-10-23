@@ -1,0 +1,13 @@
+
+you1988:
+  title: Iron-vacancy-oxygen complex in silicon
+  DOI: 10.1063/1.340297
+  measurement_technique: DLTS
+  sample:
+    growth: CZ
+    dopant: phosphorus
+    incorporation: thermal
+    resistivity: 1-3
+  params:
+    Ed_a: Ec-0.36
+    sigma_ea: 4e-15
