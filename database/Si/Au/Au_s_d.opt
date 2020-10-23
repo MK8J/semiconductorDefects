@@ -1,0 +1,13 @@
+
+okuyama1979:
+  title: Photoionization cross-sections and energy levels of gold, iron, platinum, silver, and titanium in silicon
+  DOI: 10.1007/BF02652402
+  comments: data extracted from figure 2 and manually fit. The change in refractive index was not determined. Between 0.77 and 0.8eV in Fig. 2 there is scatter from the Lucovsky line but this may be caused by a change from a germanium to a silicon filter in this range. Defect concentration determined with CV(T).
+  measurement_technique: EQE-Bo
+  temperature: 77.15
+  Fit:
+    form: Lucovsky
+    A_e: 7.27e-16
+    power1: 3/2
+    Ed: 0.77
+    power2: 3

@@ -1,0 +1,79 @@
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review. Mainly Hall effect measurements
+  comments: Figure 2.1
+  params:
+    Ed: Ec-0.21
+
+davis1980:
+  title: Impurities in silicon solar cells
+  DOI: 10.1109/T-ED.1980.19922
+  measurement_technique: DLTS, SCP
+  linked: Ti_i_dd.srh
+  sample:
+    growth: CZ
+    dopant: boron, phosphorus
+    incorporation: melt
+  params:
+    Ed_a: Ev+0.3
+    dEd_a: 0.02
+    sigma_ea: 1.04e-14
+    sigma_ha: 8.300000000000001e-16
+    k: 12.5
+
+davis1980_1:
+  title: Impurities in silicon solar cells
+  DOI: 10.1109/T-ED.1980.19922
+  measurement_technique: DLTS, SCP
+  sample:
+    growth: CZ
+    dopant: boron, phosphorus
+    incorporation: melt
+  params:
+    Ed_a: Ec-0.26
+    dEd_a: 0.02
+
+graff1981a:
+  title: The behavior of transition and noble metals in silicon crystals
+  ISSN: 0091-391X
+  measurement_technique: DLTS-Cr
+  linked: Ti_i_d.srh
+  sample:
+    growth: FZ, CZ
+    dopant: phosphorus
+    incorporation: thermal
+    resistivity: 1-100
+  params:
+    Ed_h: Ec-0.32
+    sigma_ea: 4.5e-13
+    dsigma_ea: 2.5e-13
+
+graff1981a_1:
+  title: The behavior of transition and noble metals in silicon crystals
+  ISSN: 0091-391X
+  measurement_technique: DLTS-Cr
+  linked: Ti_i_a.srh
+  sample:
+    growth: FZ, CZ
+    dopant: phosphorus
+    incorporation: thermal
+    resistivity: 1-100
+  params:
+    Ed_h: Ec-0.079
+    sigma_ea: 5.1e-14
+
+roth2008:
+  title: Analysis of electrically active defects in silicon for solar cells
+  ISBN: 3868530363, 9783868530360
+  measurement_technique: LS-TI
+  comments: Temperature dependance of some sigma is T^-1.22
+  sample:
+    growth: FZ
+    dopant: boron
+    incorporation: melt
+  params:
+    Ed: Ec-0.47
+    k: 13.0
+    dk: 6.0
