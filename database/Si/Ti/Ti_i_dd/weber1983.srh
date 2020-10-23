@@ -1,9 +1,0 @@
-{
-    "title": "Transition metals in silicon",
-    "DOI": "10.1007/BF00617708",
-    "measurement_technique": "review",
-    "params": {
-        "Ed": "Ev+0.25"
-    },
-    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti_i_dd.srh"
-}
