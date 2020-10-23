@@ -1,0 +1,12 @@
+{
+    "Title": "Defect Structure and Properties by Junction Spectroscopy",
+    "Measurement technique": "review",
+    "DOI": "10.1557/PROC-46-1",
+    "Sample": {
+        "dopant": "boron"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.2"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Si/SiSi_v-v_d.srh"
+}

@@ -1,0 +1,15 @@
+{
+    "Title": "Energy levels of interstitial manganese in silicon",
+    "Measurement technique": "Hall, EPR",
+    "DOI": "10.1016/0038-1098(83)90549-5",
+    "Sample": {
+        "growth": "FZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "implantation",
+        "resistivity": "100"
+    },
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ec-0.27"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Mn/Mn_p_d.srh"
+}

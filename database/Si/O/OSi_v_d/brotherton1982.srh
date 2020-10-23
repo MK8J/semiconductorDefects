@@ -1,0 +1,25 @@
+{
+    "measurement_data": {
+        "T": "77,84.2,92.8,103.3",
+        "e": "1,10,100,1000"
+    },
+    "Title": "Defect production and lifetime control in electron and \u03b3-irradiated silicon",
+    "Measurement technique": "DLTS-Cr",
+    "Comments": "A center, Out at 570 for 30 min. measurement data taken from laplace DLTS database.",
+    "DOI": "10.1063/1.331460",
+    "Sample": {
+        "growth": "FZ",
+        "dopant": "phosphorus",
+        "incorporation": "irridation",
+        "resistivity": "60"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.169",
+        "&delta;E<sub>d,a</sub>": 0.015,
+        "E<sub>d,h</sub>": "Ec-0.169",
+        "&delta;E<sub>d,h</sub>": 0.015,
+        "&sigma;<sub>e</sub>": "1.00E-14",
+        "&delta;&sigma;<sub>e</sub>": "2.00E-15"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Si/SiO_v-_d.srh"
+}

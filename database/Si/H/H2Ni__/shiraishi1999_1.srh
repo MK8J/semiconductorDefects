@@ -1,8 +1,4 @@
 {
-    "measurement_details": {
-        "T": 95.0,
-        "Rw": "0.024 s"
-    },
     "DLTS_params": {
         "t1": "75.6",
         "t2": "83.3",
@@ -21,6 +17,10 @@
         "incorporation": "melt, diffusion",
         "resistivity": "1-100"
     },
+    "Measurement details": {
+        "T": 95.0,
+        "Rw": "0.024 s"
+    },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.15",
         "E<sub>d,h</sub>": "Ec-0.13",
@@ -28,5 +28,5 @@
         "&sigma;<sub>e,a</sub>": 2.7999999999999996e-16,
         "&sigma;<sub>e</sub>": "0.0000000000000000048*exp(-0.02/kT)"
     },
-    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/H/H2Ni_-_.srh"
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ni/NiH2_-_.srh"
 }

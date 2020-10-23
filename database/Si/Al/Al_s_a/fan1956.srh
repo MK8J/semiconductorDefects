@@ -1,0 +1,11 @@
+{
+    "linked": "Al_s_a.srh",
+    "Title": "Infra-red Absorption in Semiconductors",
+    "Measurement technique": "review, infrared absorption",
+    "Comments": "The ionization energy was estimated using the observed excitation band of highest energy. Higher than thermal value of Ev+0.057",
+    "DOI": "10.1088/0034-4885/19/1/304",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ev+0.067"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Al/Al__.srh"
+}

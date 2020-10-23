@@ -1,0 +1,20 @@
+{
+    "DLTS_params": {
+        "t1": "194.3",
+        "t2": "213.8",
+        "t3": "237.4",
+        "t4": "266.6",
+        "inter": "295000.0",
+        "Ed_a": "0.387"
+    },
+    "Title": "Metal Impurities in Silicon-Device Fabrication",
+    "Measurement technique": "review, DLTS",
+    "Comments": "Taken from table 4.6.",
+    "DOI": "10.1007/978-3-642-57121-3",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.39",
+        "&delta;E<sub>d,a</sub>": 0.02,
+        "&sigma;<sub>e,a</sub>": 5.6e-17
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ni/Ni_s_a.srh"
+}

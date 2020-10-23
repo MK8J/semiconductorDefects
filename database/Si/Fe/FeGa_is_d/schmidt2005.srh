@@ -16,5 +16,5 @@
         "&sigma;<sub>h</sub>": 2e-14,
         "k": "2"
     },
-    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ga/GaFe_s-i_d.srh"
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/FeGa_i-s_d.srh"
 }

@@ -14,5 +14,5 @@
         "&sigma;<sub>h</sub>": 1.5e-14,
         "k": "70/3"
     },
-    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/In/InFe_s-i_d.srh"
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/FeIn_i-s_d.srh"
 }

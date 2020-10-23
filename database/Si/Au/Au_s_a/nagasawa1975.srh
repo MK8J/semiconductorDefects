@@ -1,12 +1,12 @@
 {
     "linked": "Au_s_a.srh",
-    "measurement_details": {
-        "T": "295 K"
-    },
     "Title": "Fast transient capacitance measurements for implanted deep levels in silicon",
     "Measurement technique": "DLTS-Cr",
     "Comments": "Evaluated at 295 K, had a gold level higher than the doping.",
     "DOI": "10.1007/BF00883667",
+    "Measurement details": {
+        "T": "295 K"
+    },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.54",
         "E<sub>d,h</sub>": "Ec-0.54",

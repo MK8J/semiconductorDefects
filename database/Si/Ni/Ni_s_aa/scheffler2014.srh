@@ -1,0 +1,33 @@
+{
+    "DLTS_params": {
+        "t1": "35.4",
+        "t2": "39.0",
+        "t3": "43.4",
+        "t4": "48.8",
+        "inter": "6270000.0",
+        "Ed_a": "0.069"
+    },
+    "Title": "Electrical levels in nickel doped silicon",
+    "Measurement technique": "DLTS-L",
+    "Comments": "Out at 550 K",
+    "DOI": "10.1063/1.4901003",
+    "Sample": {
+        "growth": "FZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "melt, diffusion",
+        "resistivity": "1000"
+    },
+    "Measurement details": {
+        "T": 45.0,
+        "Ur": "-2 V",
+        "Up": "0 V",
+        "tp": "1 ms",
+        "Rw": "0.021 s"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.07",
+        "&sigma;<sub>e,a</sub>": "1.2E-15",
+        "&delta;&sigma;<sub>ea</sub>": 7e-16
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ni/Ni_s_aa.srh"
+}

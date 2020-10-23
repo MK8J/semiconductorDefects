@@ -91,7 +91,8 @@ def createNewFiles(folder, fnames):
 
 
         if "linked" in fname[1].keys():
-            dft = fname[1]['linked'].replace('.srh', '')
+            dft = fname[1]['linked'].replace('.srh', '').split(' ')[0]
+            print('\t\t ' + dft+' ' + _folder[-1]) 
         else:
             dft = _folder[-1]
 
@@ -172,6 +173,7 @@ def createNewFiles(folder, fnames):
             os.mkdir(_folder)
 
         path = os.path.join(_folder, fname[0])
+        #print(path)
         with open(path, 'w+') as f:
             f.write(json.dumps(fname[1], indent=4))
 
@@ -348,7 +350,8 @@ def rename_params(data_touple):
         "comments": "Comments",
         "DOI":"DOI", 
         "ISBN":"ISBN",
-        "sample":"Sample"
+        "sample":"Sample",
+        "measurement_details":"Measurement details",
         }
 
     new_list = []

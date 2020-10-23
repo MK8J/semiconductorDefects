@@ -1,0 +1,28 @@
+{
+    "DLTS_params": {
+        "t1": "182.0",
+        "t2": "198.7",
+        "t3": "218.6",
+        "t4": "242.7",
+        "inter": "2980000.0",
+        "Ed_a": "0.397"
+    },
+    "Title": "Electrical and optical properties of molybdenum and tungsten related defects in silicon",
+    "Measurement technique": "DLTS, DC-S",
+    "Comments": "DLTS peak at 180K. emission rate taken from digitisation.",
+    "DOI": "10.1088/0268-1242/6/4/002",
+    "Sample": {
+        "growth": "FZ, CZ",
+        "dopant": "boron, phosphorus"
+    },
+    "Rates": {
+        "e<sub>h</sub>": "2.98e6*T^2*exp(-0.397/kT)"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.4",
+        "E<sub>d,h</sub>": "Ev+0.382",
+        "E<sub>d</sub>": "Ev+0.383-5.2e-5*T",
+        "&sigma;<sub>h</sub>": "1.15e-15 * exp(-0.018/kT)"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/W/W__d.srh"
+}

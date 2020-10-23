@@ -1,11 +1,4 @@
 {
-    "measurement_details": {
-        "T": 90,
-        "Ur": "-2 V",
-        "Up": "0 V",
-        "tp": "1 ms",
-        "Rw": "0.021 s"
-    },
     "Title": "Electrical levels in nickel doped silicon",
     "Measurement technique": "DLTS-LCr",
     "DOI": "10.1063/1.4901003",
@@ -14,6 +7,13 @@
         "dopant": "boron, phosphorus",
         "incorporation": "melt, diffusion",
         "resistivity": "1000"
+    },
+    "Measurement details": {
+        "T": 90,
+        "Ur": "-2 V",
+        "Up": "0 V",
+        "tp": "1 ms",
+        "Rw": "0.021 s"
     },
     "Measured parameters": {
         "E<sub>d</sub>": "Ec-0.16",

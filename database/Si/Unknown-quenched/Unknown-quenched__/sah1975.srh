@@ -1,0 +1,17 @@
+{
+    "Title": "Experiments on the origin of process\u2212induced recombination centers in silicon",
+    "Measurement technique": "DLTS",
+    "Comments": "Defects quenched after temp >1200 deg. Occurs from strained or disordered surface laye!' and diffuse rapidly into silicon above 1100\u00b0C to give a nearly constant defect concentration. Doesn't happen for polished samples.",
+    "DOI": "10.1063/1.321758",
+    "Sample": {
+        "growth": "CZ",
+        "dopant": "phosphorus",
+        "incorporation": "thermal",
+        "resistivity": 8
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.276",
+        "&delta;E<sub>d,a</sub>": 0.006
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Unknown/Unknown-quenched__.srh"
+}

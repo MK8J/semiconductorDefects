@@ -1,0 +1,34 @@
+{
+    "DLTS_params": {
+        "t1": "95.5",
+        "t2": "103.9",
+        "t3": "113.7",
+        "t4": "125.4",
+        "inter": "44000000.0",
+        "Ed_a": "0.22"
+    },
+    "Title": "Deep level transient spectroscopy characterization of tungsten\u2010related deep levels in silicon",
+    "Measurement technique": "DLTS-F",
+    "Comments": "Linked to the boughaba1991 in W_i_.srh, but not the same defect. The concentrations of both were seen to scale with each other.",
+    "DOI": "10.1063/1.347708",
+    "Sample": {
+        "growth": "CZ, FZ",
+        "dopant": "boron",
+        "incorporation": "thermal",
+        "resistivity": 100
+    },
+    "Measurement details": {
+        "T": 125,
+        "Ur": 3,
+        "Up": 0,
+        "Rw": "5 ms"
+    },
+    "Rates": {
+        "e<sub>h</sub>": "4.4e7*T^2*exp(-0.22/kT)"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.22",
+        "&sigma;<sub>h,a</sub>": 9.4e-15
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/W/W_i_.srh"
+}

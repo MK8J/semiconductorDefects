@@ -1,0 +1,16 @@
+{
+    "Title": "Electron thermal emission rates of nickel centers in silicon",
+    "Measurement technique": "CV-TF",
+    "Comments": "Unknown but believe what Lebedev saw. Assumes is related to Nickel",
+    "DOI": "10.1016/0038-1101(86)90008-0",
+    "Sample": {
+        "growth": "FZ",
+        "dopant": "phosphorus",
+        "resistivity": "50-60"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.570",
+        "&delta;E<sub>d,a</sub>": 0.01
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ni/Ni__.srh"
+}

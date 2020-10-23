@@ -1,8 +1,5 @@
 {
     "linked": "Au_s_d.srh",
-    "measurement_details": {
-        "T": 170.0
-    },
     "Title": "Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float Zone Technique",
     "Measurement technique": "DLTS-MeCr, TS-C",
     "Comments": "Assumed thermal velocity of 1e7 measured at 170K",
@@ -11,6 +8,9 @@
         "growth": "FZ",
         "dopant": "boron, phosphorus",
         "incorporation": "diffusion"
+    },
+    "Measurement details": {
+        "T": 170.0
     },
     "Rates": {
         "c<sub>h</sub>": 1.2e-08

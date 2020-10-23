@@ -1,7 +1,4 @@
 {
-    "measurement_details": {
-        "low_field": true
-    },
     "DLTS_params": {
         "t1": "252.0",
         "t2": "274.9",
@@ -17,6 +14,9 @@
     "Sample": {
         "dopant": "boron",
         "incorporation": "thermal"
+    },
+    "Measurement details": {
+        "low_field": true
     },
     "Rates": {
         "e<sub>h</sub>": "5.36e12*(T/300)^(-2) * exp(-0.644/kT)",

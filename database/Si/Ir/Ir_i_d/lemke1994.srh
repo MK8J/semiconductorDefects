@@ -1,8 +1,5 @@
 {
     "linked": "Ir_i_d.srh",
-    "measurement_details": {
-        "T": 290.0
-    },
     "DLTS_params": {
         "t1": "252.4",
         "t2": "273.0",
@@ -19,6 +16,9 @@
         "growth": "FZ",
         "dopant": "boron, phosphorus",
         "incorporation": "diffusion"
+    },
+    "Measurement details": {
+        "T": 290.0
     },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.62",

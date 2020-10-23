@@ -1,0 +1,9 @@
+{
+    "Title": "Energy Levels in Silicon",
+    "Measurement technique": "review, TS-C",
+    "DOI": "10.1146/annurev.ms.10.080180.001105",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ev+0.402"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Al/AlO_-_.srh"
+}

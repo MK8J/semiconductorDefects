@@ -1,0 +1,17 @@
+{
+    "Title": "Analysing defects in silicon by temperature- and injection-dependent lifetime spectroscopy (T-IDLS)",
+    "Measurement technique": "LS-IT",
+    "Comments": "Activation energy of the capture cross section of 17 meV, e.g. proportional to exp(-0.017/kT)",
+    "ISBN": "3-936338-20-5",
+    "Sample": {
+        "growth": "CZ",
+        "dopant": "boron",
+        "incorporation": "melt"
+    },
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ev+0.34",
+        "&delta;E<sub>d</sub>": 0.02,
+        "k": 9.6
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/W/W__.srh"
+}

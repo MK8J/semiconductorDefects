@@ -1,0 +1,31 @@
+{
+    "DLTS_params": {
+        "t1": "35.0",
+        "t2": "38.1",
+        "t3": "41.8",
+        "t4": "46.2",
+        "inter": "232000000.0",
+        "Ed_a": "0.08"
+    },
+    "Title": "DLTS analysis of nickel_hydrogen complex defects in silicon",
+    "Measurement technique": "DLTS-Cr",
+    "DOI": "10.1016/S0921-5107(98)00280-3",
+    "Sample": {
+        "growth": "CZ, FZ",
+        "dopant": "phosphorus",
+        "incorporation": "melt, diffusion",
+        "resistivity": "1-100"
+    },
+    "Measurement details": {
+        "T": 45.0,
+        "Rw": "0.024 s"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.08",
+        "E<sub>d,h</sub>": "Ec-0.03",
+        "E<sub>d</sub>": "Ec-0.024",
+        "&sigma;<sub>e,a</sub>": 4.2000000000000004e-14,
+        "&sigma;<sub>e</sub>": "5.8E-19 * exp(-0.05/kT)*exp(0.05/k/45)"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ni/Ni_s_aa.srh"
+}

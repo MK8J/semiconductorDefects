@@ -1,0 +1,23 @@
+{
+    "linked": "Ni_s_a.srh",
+    "Title": "Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float Zone Technique",
+    "Measurement technique": "DLTS-MeCr, TS-C",
+    "Comments": "Assumed thermal velocity of 1e7 measured at 200K",
+    "ISBN": "978-1-56677-042-2",
+    "Sample": {
+        "growth": "FZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "diffusion"
+    },
+    "Measurement details": {
+        "T": 200.0
+    },
+    "Rates": {
+        "c<sub>e</sub>": "9e-10"
+    },
+    "Measured parameters": {
+        "E<sub>d,h</sub>": "Ec-0.38",
+        "&sigma;<sub>e</sub>": "9e-10/1e7"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ni/Ni__a.srh"
+}

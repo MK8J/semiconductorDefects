@@ -1,0 +1,14 @@
+{
+    "Title": "Energy levels for platinum and palladium in silicon measured by the dark transient capacitance technique",
+    "DOI": "10.1002/pssa.2210350215",
+    "Sample": {
+        "dopant": "boron, phosphorus",
+        "incorporation": "thermal"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.32",
+        "&delta;E<sub>d,a</sub>": 0.005,
+        "&sigma;<sub>e,a</sub>": 8.8e-15
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Pt/Pt_s_d.srh"
+}

@@ -1,0 +1,14 @@
+{
+    "Title": "Palladium\u2010 and platinum\u2010related levels in silicon: Effect of a hydrogen plasma",
+    "Measurement technique": "DLTS",
+    "DOI": "10.1063/1.332398",
+    "Sample": {
+        "dopant": "boron",
+        "incorporation": "thermal"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.33",
+        "&sigma;<sub>e,a</sub>": "6e-16"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Pt/Pt_s_d.srh"
+}

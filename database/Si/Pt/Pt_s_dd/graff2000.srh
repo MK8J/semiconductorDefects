@@ -1,0 +1,12 @@
+{
+    "Title": "Metal Impurities in Silicon-Device Fabrication",
+    "Measurement technique": "review, DLTS",
+    "Comments": "Taken from table 4.10. DLTS done at a temperature of 50K",
+    "DOI": "10.1007/978-3-642-57121-3",
+    "Measured parameters": {
+        "E<sub>d,h</sub>": "Ev+0.08",
+        "&delta;E<sub>d,h</sub>": 0.01,
+        "&sigma;<sub>h</sub>": "3.5e-17"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Pt/Pt_s_dd.srh"
+}

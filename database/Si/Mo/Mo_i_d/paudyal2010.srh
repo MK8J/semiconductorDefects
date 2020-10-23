@@ -1,0 +1,13 @@
+{
+    "Title": "Temperature dependent carrier lifetime studies of Mo in crystalline silicon",
+    "Measurement technique": "LS-ITD",
+    "Comments": "Claims difference in DLTS measurement is as they did not account for the temperature dependence of the capture cross section. Sigma_e taken from literature",
+    "DOI": "10.1063/1.3309833",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ev+0.375",
+        "&delta;E<sub>d</sub>": 0.03,
+        "&sigma;<sub>e</sub>": "4.21e-8*T^(-2.95)",
+        "&sigma;<sub>h</sub>": "6.05e-14*T^(-1.07)"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Mo/Mo_i_d.srh"
+}

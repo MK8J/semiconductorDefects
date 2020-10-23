@@ -1,0 +1,15 @@
+{
+    "Title": "Deep sulfur-related centers in silicon",
+    "Measurement technique": "DLTS",
+    "Comments": "Appeared in different concentration to the above levels in this paper.",
+    "DOI": "10.1063/1.328279",
+    "Sample": {
+        "dopant": "phosphorus",
+        "incorporation": "thermal",
+        "resistivity": 10
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.2"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/S/S__.srh"
+}

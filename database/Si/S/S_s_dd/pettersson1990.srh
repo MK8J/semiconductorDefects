@@ -1,0 +1,10 @@
+{
+    "Title": "Electric-field-enhanced electron emission from isolated sulfur and selenium donors in silicon",
+    "Measurement technique": "DLTS",
+    "Comments": "Depended on electric field",
+    "DOI": "10.1103/PhysRevB.42.1381",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.59"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/S/S_s_dd.srh"
+}

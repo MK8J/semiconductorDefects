@@ -1,7 +1,4 @@
 {
-    "measurement_details": {
-        "single_shot": true
-    },
     "Title": "Electrical and optical properties of vanadium-related centers in silicon",
     "Measurement technique": "DLTS-Cr",
     "Comments": "Comments on both the previous defect asignment and charges assignment being vague. Capture cross section values manually extracted from graph",
@@ -9,6 +6,9 @@
     "Sample": {
         "dopant": "boron, phosphorus",
         "incorporation": "ion implantation"
+    },
+    "Measurement details": {
+        "single_shot": true
     },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ev+0.447",

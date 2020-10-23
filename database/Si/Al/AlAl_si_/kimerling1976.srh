@@ -1,0 +1,10 @@
+{
+    "Title": "New Developments in Defect Studies in Semiconductors",
+    "Measurement technique": "DLTS, EPR",
+    "Comments": "In at 473 K out at 523 K.",
+    "DOI": "10.1109/TNS.1976.4328529",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.23"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Al/AlAl_s-i_.srh"
+}

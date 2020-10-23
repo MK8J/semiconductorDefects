@@ -1,0 +1,23 @@
+{
+    "DLTS_params": {
+        "t1": "248.4",
+        "t2": "276.0",
+        "t3": "310.3",
+        "t4": "353.7",
+        "inter": "17900.0",
+        "Ed_a": "0.446"
+    },
+    "Title": "A quenched-in defect in boron-doped silicon",
+    "Measurement technique": "DLTS",
+    "DOI": "10.1063/1.323505",
+    "Sample": {
+        "growth": "FZ, CZ",
+        "dopant": "boron",
+        "resistivity": "1-100"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.45",
+        "&sigma;<sub>h,a</sub>": "4e-18"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/Fe_i_d.srh"
+}

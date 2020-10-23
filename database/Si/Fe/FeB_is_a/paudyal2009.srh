@@ -6,5 +6,5 @@
         "&sigma;<sub>e</sub>": "5.1e-9 * T^(-2.5)",
         "&sigma;<sub>h</sub>": "3.32e-11 * exp(-0.262/kT)"
     },
-    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/B/BFe_s-i_a.srh"
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/FeB_i-s_a.srh"
 }

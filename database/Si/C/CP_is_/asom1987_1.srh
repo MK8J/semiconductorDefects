@@ -1,11 +1,11 @@
 {
-    "measurement_details": {
-        "T": "125 K"
-    },
     "Title": "Interstitial defect reactions in silicon",
     "Measurement technique": "DLTS",
     "Comments": "Has three configurations. State 1",
     "DOI": "10.1063/1.98465",
+    "Measurement details": {
+        "T": "125 K"
+    },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.23"
     },

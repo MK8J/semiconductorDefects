@@ -1,0 +1,18 @@
+{
+    "Title": "Deep\u2010level transient spectroscopy on p\u2010type silicon crystals containing tungsten impurities",
+    "Measurement technique": "DLTS",
+    "DOI": "10.1063/1.350196",
+    "Sample": {
+        "growth": "CZ",
+        "dopant": "boron",
+        "incorporation": "melt, thermal",
+        "resistivity": 0.1
+    },
+    "Measurement details": {
+        "T": 220
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.4"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/W/W__.srh"
+}

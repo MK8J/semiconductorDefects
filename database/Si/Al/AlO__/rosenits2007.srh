@@ -1,0 +1,29 @@
+{
+    "DLTS_params": {
+        "t1": "174.9",
+        "t2": "187.9",
+        "t3": "202.8",
+        "t4": "220.3",
+        "inter": "1300000000.0",
+        "Ed_a": "0.472"
+    },
+    "Title": "Determining the defect parameters of the deep aluminum-related defect center in silicon",
+    "Measurement technique": "DLTS, LS-I",
+    "Comments": "Measured DLTS with two system, with each providing different values",
+    "DOI": "10.1063/1.2789378",
+    "Sample": {
+        "growth": "CZ",
+        "incorporation": "melt"
+    },
+    "Rates": {
+        "e<sub>h</sub>": "1.3e9 * T^2 * exp(-0.472/kT)"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.44",
+        "&delta;E<sub>d,a</sub>": "0.02",
+        "&sigma;<sub>e,a</sub>": "3.10E-10",
+        "&sigma;<sub>h,a</sub>": 3.6e-13,
+        "k": 861.0
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Al/AlO_-_.srh"
+}

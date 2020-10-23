@@ -1,8 +1,5 @@
 {
     "linked": "Ti_i_d.srh",
-    "measurement_details": {
-        "T": 160.0
-    },
     "DLTS_params": {
         "t1": "111.6",
         "t2": "120.8",
@@ -19,6 +16,9 @@
         "growth": "FZ",
         "dopant": "boron, phosphorus",
         "incorporation": "diffusion"
+    },
+    "Measurement details": {
+        "T": 160.0
     },
     "Rates": {
         "c<sub>e</sub>": ">2e-7"

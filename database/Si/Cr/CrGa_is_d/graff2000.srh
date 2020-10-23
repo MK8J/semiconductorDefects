@@ -16,5 +16,5 @@
         "&delta;E<sub>d,a</sub>": 0.01,
         "&sigma;<sub>h,a</sub>": 1.5e-15
     },
-    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ga/GaCr_s-i_d.srh"
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cr/CrGa_i-s_d.srh"
 }

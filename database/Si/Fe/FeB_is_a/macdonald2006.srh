@@ -10,5 +10,5 @@
         "&sigma;<sub>h</sub>": "3e-15",
         "&delta;&sigma;<sub>h</sub>": "1e-15"
     },
-    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/B/BFe_s-i_a.srh"
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/FeB_i-s_a.srh"
 }
