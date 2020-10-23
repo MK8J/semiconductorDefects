@@ -1,0 +1,19 @@
+{
+    "title": "Thermal ionization rates and energies of electrons and holes at silver centers in silicon",
+    "DOI": "10.1002/pssa.2210060225",
+    "measurement_technique": "DLTS",
+    "comments": "measurement data taken from laplace DLTS database",
+    "sample": {
+        "dopant": "boron, phosphorus",
+        "incorporation": "thermal"
+    },
+    "measurement_data": {
+        "T": "222,239,258.7,281.8",
+        "e": "1,10,100,1000"
+    },
+    "params": {
+        "Ed_a": "Ec-0.538",
+        "dEd_a": 0.006
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ag/Ag__a.srh"
+}

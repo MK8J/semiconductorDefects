@@ -1,0 +1,10 @@
+{
+    "title": "Metal impurities in silicon-device fabrication",
+    "DOI": "10.1007/978-3-642-97593-6",
+    "measurement_technique": "review, DLTS",
+    "params": {
+        "Ed_h": "Ec-0.27",
+        "sigma_e": "2e-14 * exp(-0.004/k/T)"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti_i_d.srh"
+}

@@ -1,0 +1,26 @@
+{
+    "title": "Thermal emission rates and activation energies of electrons and holes at silver centers in silicon",
+    "DOI": "10.1002/pssa.2210130214",
+    "measurement_technique": "DLTS, TS-C",
+    "linked": "Ag_s_a.srh",
+    "sample": {
+        "dopant": "boron, phosphorus",
+        "incorporation": "thermal"
+    },
+    "rates": {
+        "e_e": "0.301e13 * (T/300)^2 * exp(-0.544/kT)"
+    },
+    "params": {
+        "Ed_a": "Ec-0.544",
+        "dEd_a": 0.002
+    },
+    "DLTS_params": {
+        "t1": "224.3",
+        "t2": "242.7",
+        "t3": "264.4",
+        "t4": "290.1",
+        "inter": "33400000.0",
+        "Ed_a": "0.544"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ag/Ag__a.srh"
+}

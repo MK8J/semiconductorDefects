@@ -1,0 +1,13 @@
+{
+    "title": "Gold as a recombination centre in silicon",
+    "DOI": "10.1016/0038-1101(65)90036-5",
+    "measurement_technique": "LS-DN",
+    "comments": "Values at 300 K",
+    "params": {
+        "sigma_e": "1.65e-9/20460000",
+        "dsigma_e": "0.00000000165*0.15/20460000",
+        "sigma_h": "0.000000115/1.688e7",
+        "dsigma_h": "0.000000115*0.3/1.688e7"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au_s_a.srh"
+}
