@@ -1,0 +1,18 @@
+{
+    "Title": "Deep levels of vanadium and vanadium\u2010hydrogen complex in silicon",
+    "Measurement technique": "DLTS-Cr",
+    "Comments": "Measured capture cross section over a very narrow range from 210-260K.",
+    "DOI": "10.1063/1.352353",
+    "Sample": {
+        "growth": "CZ, FZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "thermal",
+        "resistivity": "10-100"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.45",
+        "E<sub>d</sub>": "Ec-0.45",
+        "&sigma;<sub>e</sub>": 5.3e-15
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/V/V_i_d.srh"
+}

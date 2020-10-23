@@ -1,0 +1,27 @@
+{
+    "DLTS_params": {
+        "t1": "186.8",
+        "t2": "203.5",
+        "t3": "223.3",
+        "t4": "247.2",
+        "inter": "5420000.0",
+        "Ed_a": "0.418"
+    },
+    "Title": "Impurities in silicon solar cells",
+    "Measurement technique": "DLTS, SCP",
+    "Comments": "This maybe Vanadium gold?",
+    "DOI": "10.1109/T-ED.1980.19922",
+    "Sample": {
+        "growth": "CZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "melt"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.42",
+        "&delta;E<sub>d,a</sub>": 0.02,
+        "&sigma;<sub>e,a</sub>": 1.77e-14,
+        "&sigma;<sub>h,a</sub>": 1.1e-15,
+        "k": 16.1
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/V/V__.srh"
+}
