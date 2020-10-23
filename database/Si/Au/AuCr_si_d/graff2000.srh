@@ -1,12 +1,7 @@
 {
     "title": "Metal Impurities in Silicon-Device Fabrication",
     "DOI": "10.1007/978-3-642-57121-3",
-    "measurement_technique": "review, DLTS",
     "comments": "Taken from table 5.4. DLTS done at a temperature of 170K",
-    "params": {
-        "Ed_a": "Ev+0.35",
-        "sigma_ha": 8.7e-16
-    },
     "DLTS_params": {
         "t1": "159.0",
         "t2": "173.6",
@@ -15,5 +10,10 @@
         "inter": "4260000.0",
         "Ed_a": "0.348"
     },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.35",
+        "&sigma;<sub>h,a</sub>": 8.7e-16
+    },
+    "Measurement technique": "review, DLTS",
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/AuCr_s-i_d.srh"
 }

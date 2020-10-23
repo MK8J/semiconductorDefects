@@ -1,10 +1,10 @@
 {
     "title": "Deep impurities in semiconductors",
     "ISBN": "978-0-471-60670-3",
-    "measurement_technique": "review",
     "comments": "Figure 2.1, questionable level",
-    "params": {
-        "Ed": "Ev+0.32"
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ev+0.32"
     },
+    "Measurement technique": "review",
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ag/Ag__d.srh"
 }

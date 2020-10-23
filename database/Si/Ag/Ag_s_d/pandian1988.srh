@@ -1,0 +1,16 @@
+{
+    "title": "Silver related deep levels in silicon",
+    "DOI": "10.1002/pssa.2211090129",
+    "linked": "Ag_s_d.srh",
+    "sample": {
+        "dopant": "boron, phosphorus",
+        "incorporation": "thermal",
+        "resistivity": 10
+    },
+    "Measured parameters": {
+        "sigma_h": 3.1e-16,
+        "E<sub>d,a</sub>": "Ev+0.33"
+    },
+    "Measurement technique": "DLTS-Cr",
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ag/Ag__d.srh"
+}

@@ -1,10 +1,10 @@
 {
     "title": "Metal Impurities in Silicon-Device Fabrication",
     "DOI": "10.1007/978-3-642-57121-3",
-    "measurement_technique": "review, DLTS",
     "comments": "Taken from table 1 in the appendix. The table only provides the majority carrier capture cross section. The majority carrier has been estimated from the position of the defect level. e.g. if higher than the intrinsic level, it is assume the majority carrier was electrons.",
-    "params": {
-        "Ed_a": "Ev+0.43/32"
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.43/32"
     },
+    "Measurement technique": "review, DLTS",
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/AuCu_s-i_.srh"
 }

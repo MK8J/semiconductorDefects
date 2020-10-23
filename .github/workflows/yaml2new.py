@@ -47,21 +47,16 @@ def yamlFile2Jsons(fname):
     return lst
 
 
-def createNewFiles(folder, fnames):
+def removeEditedFiles(folder):
     '''
-    takes a list of touples.
-    file names and creates them
-    It makes sure every file is only in one location. Unlike in the repository where
-    they are in every location.
+    removes the folders passed
 
-    inputs:
-    ------
+    Parameters
+    ----------
     folder: (str)
-        The folder path for the new data to be saved
-    fname: (list of touples)
-        This is a list of touples. The first is the file name the second is the contence.
-        If an empty list is passed, the above folder is cleared
+        The folder path for the new data to be saved:
     '''
+
     # first thing to do is remove the folder if it exist
     # we are about to repopulate it with everything in the current file
 
@@ -69,6 +64,23 @@ def createNewFiles(folder, fnames):
         print('folder being removed {}'.format(os.path.join(folder, '*')))
 
         os.system('rm {}'.format(os.path.join(folder, '*')))
+
+def createNewFiles(folder, fnames):
+    '''
+    takes a list of touples.
+    file names and creates them
+    It makes sure every file is only in one location. Unlike in the repository where
+    they are in every location.
+
+    Parameters
+    ----------
+    folder: (str)
+        The folder path for the new data to be saved
+    fname: (list of touples)
+        This is a list of touples. The first is the file name the second is the contence.
+        If an empty list is passed, the above folder is cleared
+    '''
+
 
     # makes the files
     for fname in fnames:
@@ -178,25 +190,31 @@ def yaml2json(commit=True):
 
     # converts all the author data from bring in one file
     # to being in individual files
-    #print('converting files')
+
+
+    # first remove all folder from files added
+    # this can cause some issues, as files kinda move around.
+    # in this branch they are index by what we know they are
+    # while in the other it is by what they were published as
+    for fname in glob.glob('./database/*/*/*.srh'):
+
+        folder = fname.replace('.srh', '')
+        removeEditedFiles(folder)
+
     for fname in glob.glob('./database/*/*/*.srh'):
         print(fname, 'fname')
         folder = fname.replace('.srh', '')
         fnames = add_DLTS_params(yamlFile2Jsons(fname))
+        fnames = rename_params(fnames)
         fnames = add_github_link(fnames, fname)
 
-        print('recied fnames', fnames)
+        #print('recied fnames', fnames[0])
         createNewFiles(folder, fnames)
 
         # remove the files from master
         os.remove(fname)
         # prune them from git tracking
         os.system('git rm {}'.format(fname))
-
-    #if commit:
-    #    os.system('git add -A')
-    #    os.system('git commit -m "auto commit - added new files"')
-    #    os.system('git push origin')
 
     print('pruning other files')
     # removes optical file contences, as this is not used
@@ -236,9 +254,9 @@ def add_github_link(data_touple, url_ext):
 
     for fname, data_dic in data_touple:
         github_link = {}
-        print(fname, data_dic)
+        #print(fname, data_dic)
 
-        print(fname, url)
+        #print(fname, url)
         data_dic['github_link'] = url 
 
         new_list.append((fname, data_dic))
@@ -292,6 +310,74 @@ def get_DLTS_params(temp, e_r):
 
     return inter, round(Ed, 3)
 
+
+def rename_params(data_touple):
+    '''
+    Renames the guys
+    '''
+
+    # update the names that are to be sent to PVL
+    # as these are the values are shown on the website.
+    renamedic_params = {
+        'sigma_e':'&sigma;<sub>e</sub>',
+        'sigma_e':'&sigma;<sub>e</sub>',
+        'dsigma_e':'d&sigma;<sub>e</sub>',
+        'dsigma_h':'d&sigma;<sub>h</sub>',
+        'sigma_ha':'&sigma;<sub>h,a</sub>',
+        'sigma_ea':'&sigma;<sub>e,a</sub>',
+        'Ed':'E<sub>d</sub>',
+        'Ed_a':'E<sub>d,a</sub>',
+        }
+    renamedic_rates = {
+        'e_e':'e<sub>e</sub>',
+        'e_h':'e<sub>h</sub>',
+        'c_e':'c<sub>e</sub>',
+        'c_h':'c<sub>h</sub>',
+        }
+    renamedic_other = {
+        "measurement_technique": "Measurement technique",
+
+        }
+
+    new_list = []
+
+    for fname, data_dic in data_touple:
+
+        if 'params' in data_dic:
+            params = data_dic.pop('params')
+            
+            keys = list(params.keys())
+            for k in keys: 
+                if k in renamedic_params.keys():
+                    params[renamedic_params[k]] = params.pop(k)
+                else:
+                    print('missing key', k)
+
+            data_dic['Measured parameters'] = params
+
+        if 'rates' in data_dic:
+            rates = data_dic.pop('rates')
+            
+            keys = list(rates.keys())
+
+            for k in keys: 
+                if k in renamedic_rates.keys():
+                    rates[renamedic_rates[k]] = rates.pop(k)
+                else:
+                    print('missing key', k)
+
+            data_dic['Rates'] = rates
+
+        keys = list(data_dic.keys())
+        for k, v in renamedic_other.items():
+            if k in keys:
+                data_dic[v] = data_dic.pop(k)
+
+
+
+        new_list.append((fname, data_dic))
+    return new_list
+
 def add_DLTS_params(data_touple):
     '''
     given something
@@ -337,6 +423,7 @@ def add_DLTS_params(data_touple):
                 # append them to the dictionary Tags
             data_dic['DLTS_params'] = DLTS_params
 
+    
 
         new_list.append((fname, data_dic))
 
@@ -465,4 +552,4 @@ if __name__ == '__main__':
     #    fnames = yamlFile2Jsons(fname)
     #    createNewFiles(folder, fnames)
     #    this is the one to uncomment
-    yaml2json()
+    yaml2json(False)

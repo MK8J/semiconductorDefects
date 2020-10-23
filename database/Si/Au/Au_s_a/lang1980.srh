@@ -1,13 +1,13 @@
 {
     "title": "Complex nature of gold-related deep levels in silicon",
     "DOI": "10.1103/PhysRevB.22.3917",
-    "measurement_technique": "DLTS-Cr",
     "comments": "Ed reported at 250 k",
-    "params": {
-        "Ed_a": "Ec-0.553",
+    "Measured parameters": {
         "Ed_h": "Ec-0.553",
-        "Ed": "Ec-0.553 + 3 *k *T",
-        "sigma_e": "1.7e-16*T^0"
+        "E<sub>d,a</sub>": "Ec-0.553",
+        "E<sub>d</sub>": "Ec-0.553 + 3 *k *T",
+        "&sigma;<sub>e</sub>": "1.7e-16*T^0"
     },
+    "Measurement technique": "DLTS-Cr",
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au_s_a.srh"
 }

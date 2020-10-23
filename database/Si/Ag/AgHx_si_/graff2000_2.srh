@@ -1,10 +1,10 @@
 {
     "title": "Metal Impurities in Silicon-Device Fabrication",
     "DOI": "10.1007/978-3-642-57121-3",
-    "measurement_technique": "review, DLTS",
     "comments": "Taken from table 1 in the appendix.",
-    "params": {
-        "Ed_a": "Ev+0.28"
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.28"
     },
+    "Measurement technique": "review, DLTS",
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ag/AgHx_s-i_.srh"
 }

@@ -1,19 +1,11 @@
 {
     "title": "Titanium-related deep levels in silicon: A reexamination",
     "DOI": "10.1063/1.343608",
-    "measurement_technique": "DLTS-Cr",
     "comments": "varied the pulse height and the pulse width at the same time.",
     "sample": {
         "growth": "FZ,CZ",
         "dopant": "boron",
         "incorporation": "thermal"
-    },
-    "rates": {
-        "e_h": "1.65e5*T^2*exp(-0.287/kT)"
-    },
-    "params": {
-        "Ed_h": "Ev+0.26",
-        "sigma_h": "2.6e-17*exp(-0.027/kT)"
     },
     "DLTS_params": {
         "t1": "151.1",
@@ -23,5 +15,13 @@
         "inter": "165000.0",
         "Ed_a": "0.287"
     },
+    "Measured parameters": {
+        "Ed_h": "Ev+0.26",
+        "sigma_h": "2.6e-17*exp(-0.027/kT)"
+    },
+    "Rates": {
+        "e<sub>h</sub>": "1.65e5*T^2*exp(-0.287/kT)"
+    },
+    "Measurement technique": "DLTS-Cr",
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti_i_dd.srh"
 }

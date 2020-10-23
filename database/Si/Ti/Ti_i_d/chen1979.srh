@@ -1,0 +1,16 @@
+{
+    "title": "Titanium in silicon as a deep level impurity",
+    "DOI": "10.1016/0038-1101(79)90130-8",
+    "linked": "Ti_i_d.srh",
+    "sample": {
+        "growth": "CZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "ion implantation",
+        "resistivity": "200,300"
+    },
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ec-0.22"
+    },
+    "Measurement technique": "Hall",
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti__d.srh"
+}

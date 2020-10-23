@@ -1,0 +1,20 @@
+{
+    "title": "Titanium in silicon as a deep level impurity",
+    "DOI": "10.1016/0038-1101(79)90130-8",
+    "linked": "Ti_i_d.srh",
+    "comments": "thermal velocity of electrons 1.14e7 * (T/300)^(1/2). No temperature dependence of the capture cross section noticed.",
+    "sample": {
+        "growth": "CZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "ion implantation, melt",
+        "resistivity": "300,"
+    },
+    "Measured parameters": {
+        "Ed_h": "Ec-0.26",
+        "E<sub>d,a</sub>": "Ec-0.26",
+        "&sigma;<sub>e</sub>": "3.5e-15 * exp(-0/kT)",
+        "d&sigma;<sub>e</sub>": "5e-16"
+    },
+    "Measurement technique": "DLTS-Cr",
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti__d.srh"
+}

@@ -1,7 +1,6 @@
 {
     "title": "Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float Zone Technique",
     "ISBN": "978-1-56677-042-2",
-    "measurement_technique": "DLTS-MeCr, TS-C",
     "linked": "Ag_s_a.srh",
     "comments": "Assumed thermal velocity of 1e7 measured at 300K",
     "sample": {
@@ -12,12 +11,13 @@
     "measurement_details": {
         "T": 300.0
     },
-    "rates": {
-        "c_e": 1.3e-09
-    },
-    "params": {
+    "Measured parameters": {
         "Ed_h": "Ec-0.55",
-        "sigma_e": "1.3e-9/1e7"
+        "&sigma;<sub>e</sub>": "1.3e-9/1e7"
     },
+    "Rates": {
+        "c<sub>e</sub>": 1.3e-09
+    },
+    "Measurement technique": "DLTS-MeCr, TS-C",
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ag/Ag__a.srh"
 }
