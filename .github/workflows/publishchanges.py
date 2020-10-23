@@ -102,46 +102,37 @@ def add_data(path):
     with open(path, 'r') as f:
         JSONData = f.read()
 
-    # add it
-    defect.JSONData = JSONData
+    # grab it
     dicData = json.loads(JSONData)
-
-    # this prints out the folders I'm acessing
-    #_sp = None
-    #sp = '/'.join(path.split('/')[:-1])
-
-    #print('\n\n')
-    #if sp != _sp:
-    #    _sp = sp
-    #  print( sp)
 
     # need to add paramters to a tag, so that that are seen by PLV
     if 'DLTS_params' in  dicData.keys():
         print(dicData)
         defect.Tags.update(dicData['DLTS_params'])
 
-    # gets the emission temps
-    # temps = y2n.getTemps(json.loads(JSONData))
-    #
-    #
-    # # if we can cal temps
-    # if temps is not None:
-    #     emn_temps = {'t{0}'.format(i+1):'{0:.1f}'.format(t) for i,t in enumerate(temps)}
-    #
-    #     # from this data, calculate the activation energy
-    #     # and the y intercept
-    #     if type(temps)==list:
-    #         #print(temps, e_r)
-    #         inter, Ed = y2n.get_DLTS_params(temps, e_r)
-    #
-    #         DLTS_params = {}
-    #         DLTS_params['inter'] = str(inter)
-    #         DLTS_params['Ed_a'] = str(Ed)
-    #
-    #         # append them to the dictionary Tags
-    #         defect.Tags.update(emn_temps)
-    #         defect.Tags.update(DLTS_params)
+    # update the names that are to be sent to PVL
+    # as these are the values are shown on the website.
+    params = dicData.pop('params')
 
+    renamedic = {
+    'sigma_e':'&sigma;<sub>e</sub>',
+    'sigma_h':'&sigma;<sub>h</sub>',
+    'sigma_ha':'&sigma;<sub>h,a</sub>',
+    'sigma_ea':'&sigma;<sub>e,a</sub>',
+    'Ed':'E<sub>d</sub>',
+    'Ed_a':'E<sub>d,a</sub>',
+    }
+
+    keys = params.keys():
+    for k in keys: 
+        if k in renamedic.keys():
+            params[renamedic[v]] = params.pop(k)
+
+    dicData['Measured parameters'] = params
+
+   
+    # add the data to the class
+    defect.JSONData = JSONData.dumps(dicData)
     return defect
 
 
