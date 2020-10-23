@@ -7,5 +7,5 @@
         "&sigma;<sub>e</sub>": "6e-7*(300/T)^(-1.2)/(2e7 *(T/300)^(0.5))",
         "&sigma;<sub>h</sub>": "2e-7*(300/T)^(-1.2)/(2e7 *(T/300)^(0.5))"
     },
-    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cr/CrB_i-s_d.srh"
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/B/BCr_s-i_d.srh"
 }

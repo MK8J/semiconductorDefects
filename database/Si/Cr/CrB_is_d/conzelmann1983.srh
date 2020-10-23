@@ -1,5 +1,4 @@
 {
-    "linked": "BCr_s-i_d.srh",
     "DLTS_params": {
         "t1": "118.6",
         "t2": "128.7",
@@ -9,17 +8,13 @@
         "Ed_a": "0.279"
     },
     "Title": "Chromium and chromium-boron pairs in silicon",
-    "Measurement technique": "DLTS, EPR, luminescence",
+    "Measurement technique": "DLTS, NA, sPL, EPR",
+    "Comments": "no thermal velocity was provided, it was assumed a thermal velocity of 2.046e7.",
     "DOI": "10.1007/BF00620536",
-    "Sample": {
-        "growth": "CZ,FZ",
-        "dopant": "boron",
-        "incorporation": "thermal",
-        "resistivity": "May-00"
-    },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ev+0.28",
-        "&sigma;<sub>h,a</sub>": 1e-14
+        "&sigma;<sub>h,a</sub>": "1e-14",
+        "&delta;&sigma;<sub>ha</sub>": "2e-15"
     },
-    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cr/CrB_-_.srh"
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/B/BCr_s-i_d.srh"
 }

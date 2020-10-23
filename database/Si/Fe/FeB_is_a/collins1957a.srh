@@ -1,0 +1,16 @@
+{
+    "linked": "FeB_i-s_a.srh",
+    "Title": "Properties of Silicon Doped with Iron or Copper",
+    "Measurement technique": "Hall",
+    "Comments": "Quenched n and p-type silicon. Did not see resistivity change in n-type.",
+    "DOI": "10.1103/PhysRev.108.1409",
+    "Sample": {
+        "growth": "FZ",
+        "incorporation": "melt"
+    },
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ec-0.55",
+        "&sigma;<sub>e,a</sub>": "15e-16"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/B/BFe_-_.srh"
+}

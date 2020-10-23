@@ -1,0 +1,20 @@
+{
+    "measurement_details": {
+        "Ur": 5.0,
+        "tp": "70 ms"
+    },
+    "Title": "The Properties of Iron in Silicon",
+    "Measurement technique": "DLTS, FTIR",
+    "Comments": "FTIR at 25 K, No FeB peak found",
+    "DOI": "10.1149/1.2127478",
+    "Sample": {
+        "growth": "CZ, FZ",
+        "dopant": "aluminium, boron, phosphorus",
+        "incorporation": "thermal",
+        "resistivity": "1-100"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.6"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/B/BFe_s-i_a.srh"
+}

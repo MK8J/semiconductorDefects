@@ -1,0 +1,10 @@
+{
+    "Title": "Direct detection of carrier traps in Si solar cells after light-induced degradation",
+    "Measurement technique": "DLTS",
+    "DOI": "10.1002/pssr.201409474",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.41",
+        "&sigma;<sub>h,a</sub>": 1e-17
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/B/BO_-_.srh"
+}

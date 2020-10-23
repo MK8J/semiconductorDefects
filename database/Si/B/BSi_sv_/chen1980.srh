@@ -1,0 +1,12 @@
+{
+    "Title": "Energy Levels in Silicon",
+    "Measurement technique": "review",
+    "DOI": "10.1146/annurev.ms.10.080180.001105",
+    "Sample": {
+        "incorporation": "radiation"
+    },
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ev+0.45"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/B/BSi_s-v_.srh"
+}

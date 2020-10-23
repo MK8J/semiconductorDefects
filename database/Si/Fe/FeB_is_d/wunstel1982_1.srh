@@ -1,0 +1,15 @@
+{
+    "Title": "Interstitial iron and iron-acceptor pairs in silicon",
+    "Measurement technique": "DLTS-Cr",
+    "DOI": "10.1007/BF00619081",
+    "Sample": {
+        "growth": "FZ",
+        "dopant": "boron",
+        "incorporation": "thermal",
+        "resistivity": "0.3-100"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.1"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/B/BFe_s-i_d.srh"
+}

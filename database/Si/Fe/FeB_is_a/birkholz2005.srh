@@ -1,0 +1,12 @@
+{
+    "Title": "Electronic properties of iron-boron pairs in crystalline silicon by temperature- and injection-level-dependent lifetime measurements",
+    "Measurement technique": "LS-TID",
+    "Comments": "Used Fei_a of Istratov",
+    "DOI": "10.1063/1.1897489",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ec-0.26",
+        "&sigma;<sub>e</sub>": "1.4e-14",
+        "&sigma;<sub>h</sub>": "1.1e-15"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/B/BFe_s-i_a.srh"
+}
