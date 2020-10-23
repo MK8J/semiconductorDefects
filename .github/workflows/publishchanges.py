@@ -53,9 +53,6 @@ deletions = [change.split() for change in changeslist if change.startswith("D") 
 
 renames = [change.split() for change in changeslist if change.startswith("R") and 'database' in change]
 
-print(additions, modifications, deletions, renames)
-print('done')
-1/0
 
 # get the authentication token
 payload = {'grant_type':'password', 'username':args.username, 'password':args.password}
