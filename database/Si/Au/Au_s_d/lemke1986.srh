@@ -1,21 +1,21 @@
 {
-    "title": "Dotierungseigenschaften von Silber in Silizium",
-    "DOI": "10.1002/pssa.2210940171",
     "linked": "Au_s_d.srh",
-    "comments": "assumed thermal velocity of 1e7",
-    "sample": {
+    "Title": "Dotierungseigenschaften von Silber in Silizium",
+    "Measurement technique": "DLTS",
+    "Comments": "assumed thermal velocity of 1e7",
+    "DOI": "10.1002/pssa.2210940171",
+    "Sample": {
         "growth": "FZ",
         "dopant": "boron, phosphorus",
         "incorporation": "thermal",
         "resistivity": "50,20"
     },
+    "Rates": {
+        "c<sub>h</sub>": 1.2e-08
+    },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ev+0.34",
         "&sigma;<sub>h</sub>": "1.2e-8/1e7"
     },
-    "Rates": {
-        "c<sub>h</sub>": 1.2e-08
-    },
-    "Measurement technique": "DLTS",
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au__d.srh"
 }

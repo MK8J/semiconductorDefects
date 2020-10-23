@@ -202,7 +202,7 @@ def yaml2json(commit=True):
         removeEditedFiles(folder)
 
     for fname in glob.glob('./database/*/*/*.srh'):
-        print(fname, 'fname')
+        #print(fname, 'fname')
         folder = fname.replace('.srh', '')
         fnames = add_DLTS_params(yamlFile2Jsons(fname))
         fnames = rename_params(fnames)
@@ -214,18 +214,18 @@ def yaml2json(commit=True):
         # remove the files from master
         os.remove(fname)
         # prune them from git tracking
-        os.system('git rm {}'.format(fname))
+        #os.system('git rm {}'.format(fname))
 
     print('pruning other files')
     # removes optical file contences, as this is not used
     for fname in glob.glob('./database/*/*/*.opt'):
         os.remove(fname)
-        os.system('git rm {}'.format(fname))
+        #os.system('git rm {}'.format(fname))
 
     # removes pl data as this is not used
     for fname in glob.glob('./database/*/*/*.pl'):
         os.remove(fname)
-        os.system('git rm {}'.format(fname))
+        #os.system('git rm {}'.format(fname))
 
     # commits the remove items that should not be on this branch.
     # that means, from here on a diff works to compare files that
@@ -322,12 +322,19 @@ def rename_params(data_touple):
         'sigma_e':'&sigma;<sub>e</sub>',
         'sigma_h':'&sigma;<sub>h</sub>',
         'dsigma_e':'&delta;&sigma;<sub>e</sub>',
+        'dsigma_ea':'&delta;&sigma;<sub>ea</sub>',
+        'dsigma_ha':'&delta;&sigma;<sub>ha</sub>',
         'dsigma_h':'&delta;&sigma;<sub>h</sub>',
         'sigma_ha':'&sigma;<sub>h,a</sub>',
         'sigma_ea':'&sigma;<sub>e,a</sub>',
         'Ed':'E<sub>d</sub>',
+        'Ed_h':'E<sub>d,h</sub>',
         'Ed_a':'E<sub>d,a</sub>',
         'dEd_a':'&delta;E<sub>d,a</sub>',
+        'dEd_h':'&delta;E<sub>d,h</sub>',
+        'dEd':'&delta;E<sub>d</sub>',
+        'k':'k',
+        'dk':'&delta;k',
         }
     renamedic_rates = {
         'e_e':'e<sub>e</sub>',
@@ -336,25 +343,22 @@ def rename_params(data_touple):
         'c_h':'c<sub>h</sub>',
         }
     renamedic_other = {
+        "title": "Title",
         "measurement_technique": "Measurement technique",
-
+        "comments": "Comments",
+        "DOI":"DOI", 
+        "ISBN":"ISBN",
+        "sample":"Sample"
         }
 
     new_list = []
 
     for fname, data_dic in data_touple:
+        keys = list(data_dic.keys())
+        for k, v in renamedic_other.items():
+            if k in keys:
+                data_dic[v] = data_dic.pop(k)
 
-        if 'params' in data_dic:
-            params = data_dic.pop('params')
-            
-            keys = list(params.keys())
-            for k in keys: 
-                if k in renamedic_params.keys():
-                    params[renamedic_params[k]] = params.pop(k)
-                else:
-                    print('missing key', k)
-
-            data_dic['Measured parameters'] = params
 
         if 'rates' in data_dic:
             rates = data_dic.pop('rates')
@@ -369,11 +373,18 @@ def rename_params(data_touple):
 
             data_dic['Rates'] = rates
 
-        keys = list(data_dic.keys())
-        for k, v in renamedic_other.items():
-            if k in keys:
-                data_dic[v] = data_dic.pop(k)
+        if 'params' in data_dic:
+            params = data_dic.pop('params')
+            
+            keys = list(params.keys())
+            for k in keys: 
+                if k in renamedic_params.keys():
+                    params[renamedic_params[k]] = params.pop(k)
+                else:
+                    print('missing key', k)
 
+            data_dic['Measured parameters'] = params
+    
 
 
         new_list.append((fname, data_dic))
@@ -497,7 +508,7 @@ def getTemps(JSONdata):
 
             assert all([temps[i]<temps[i+1] for i in range(len(temps)-1)]), 'error with temp cals :' + str(temps) +' ' + str(e)
     # if the activation energy level and capture cross sections are provided
-    if 'params' in JSONdata.keys() and temps == []:
+    if 'params' in JSONdata.keys() and len(temps) == 0:
         eda = None
         sigma = None
         #print('doing params')
@@ -539,7 +550,7 @@ def getTemps(JSONdata):
             #T = b/2/lambertw(b/2/np.sqrt(a))
             temps = b / 2 / lambertw(-np.sqrt(a) * b / 2).real
 
-    if temps == []:
+    if len(temps) == 0 :
         temps = None
     else:
         temps = np.array(temps)

@@ -1,7 +1,8 @@
 {
-    "title": "Deep level, quenched-in defects in silicon doped with gold, silver, iron, copper or nickel",
+    "Title": "Deep level, quenched-in defects in silicon doped with gold, silver, iron, copper or nickel",
+    "Measurement technique": "DLTS-Cr",
     "DOI": "10.1088/0022-3719/16/9/011",
-    "sample": {
+    "Sample": {
         "growth": "FZ",
         "dopant": "boron, phosphorus",
         "resistivity": 20
@@ -10,6 +11,5 @@
         "E<sub>d,a</sub>": "Ev+0.48",
         "&sigma;<sub>h</sub>": 4e-17
     },
-    "Measurement technique": "DLTS-Cr",
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ag/Ag__.srh"
 }

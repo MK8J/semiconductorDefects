@@ -1,10 +1,10 @@
 {
-    "title": "Deep impurities in semiconductors",
+    "Title": "Deep impurities in semiconductors",
+    "Measurement technique": "review",
+    "Comments": "Figure 2.1",
     "ISBN": "978-0-471-60670-3",
-    "comments": "Figure 2.1",
     "Measured parameters": {
         "E<sub>d</sub>": "Ev+0.35"
     },
-    "Measurement technique": "review",
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au_s_d.srh"
 }

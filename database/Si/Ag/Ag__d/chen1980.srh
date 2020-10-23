@@ -1,13 +1,13 @@
 {
-    "title": "Energy Levels in Silicon",
+    "Title": "Energy Levels in Silicon",
+    "Measurement technique": "DLTS, Hall",
+    "Comments": "This was noted to be a distribution of energies from 0.26-0.45 eV",
     "DOI": "10.1146/annurev.ms.10.080180.001105",
-    "comments": "This was noted to be a distribution of energies from 0.26-0.45 eV",
-    "sample": {
+    "Sample": {
         "incorporation": "ion implantation"
     },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ev+0.32"
     },
-    "Measurement technique": "DLTS, Hall",
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ag/Ag__d.srh"
 }

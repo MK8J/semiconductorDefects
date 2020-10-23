@@ -1,0 +1,26 @@
+{
+    "DLTS_params": {
+        "t1": "109.2",
+        "t2": "118.4",
+        "t3": "129.5",
+        "t4": "142.9",
+        "inter": "45600000.0",
+        "Ed_a": "0.254"
+    },
+    "Title": "Thermal Ionization Rates and Energies of Holes at the Double acceptor zinc centers in silicon",
+    "Measurement technique": "TS-I, DLTS",
+    "Comments": "Provided the e/T^2 energy level.",
+    "DOI": "10.1002/pssa.2210140203",
+    "Sample": {
+        "dopant": "boron",
+        "incorporation": "thermal"
+    },
+    "Rates": {
+        "e<sub>h</sub>": "6.78e12 * (T/300)^(-2)* exp(-0.297/kT)"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.297",
+        "&delta;E<sub>d,a</sub>": 0.001
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Zn/Zn_s_a.srh"
+}

@@ -1,7 +1,8 @@
 {
-    "title": "Electron and Hole Capture at Au and Pt Centers in Silicon",
+    "Title": "Electron and Hole Capture at Au and Pt Centers in Silicon",
+    "Measurement technique": "DLTS-Cr",
     "DOI": "10.1103/PhysRevLett.44.606",
-    "sample": {
+    "Sample": {
         "dopant": "boron",
         "incorporation": "thermal",
         "resistivity": 1000
@@ -10,6 +11,5 @@
         "E<sub>d,a</sub>": "Ev+0.340",
         "&sigma;<sub>h</sub>": 1.1e-14
     },
-    "Measurement technique": "DLTS-Cr",
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au_s_d.srh"
 }

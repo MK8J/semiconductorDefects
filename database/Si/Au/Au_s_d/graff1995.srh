@@ -1,13 +1,13 @@
 {
-    "title": "Metal impurities in silicon-device fabrication",
+    "Title": "Metal impurities in silicon-device fabrication",
+    "Measurement technique": "review, DLTS",
+    "Comments": "Taken from table 4.11.",
     "DOI": "10.1007/978-3-642-97593-6",
-    "comments": "Taken from table 4.11.",
     "Measured parameters": {
-        "Ed_h": "Ev+0.347",
+        "E<sub>d,h</sub>": "Ev+0.347",
         "&sigma;<sub>e</sub>": "2e-15*(T)^(-2/2.5)",
         "&delta;&sigma;<sub>e</sub>": "1e-15*(T)^(-2/2.5)",
         "&sigma;<sub>h</sub>": 2.7e-15
     },
-    "Measurement technique": "review, DLTS",
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au_s_d.srh"
 }

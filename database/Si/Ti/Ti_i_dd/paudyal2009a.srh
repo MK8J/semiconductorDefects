@@ -1,7 +1,7 @@
 {
-    "title": "Temperature dependent carrier lifetime studies on Ti-doped multicrystalline silicon",
+    "Title": "Temperature dependent carrier lifetime studies on Ti-doped multicrystalline silicon",
     "DOI": "10.1063/1.3139286",
-    "sample": {
+    "Sample": {
         "dopant": "boron",
         "incorporation": "ion implantation",
         "resistivity": 1

@@ -1,11 +1,11 @@
 {
-    "title": "Recombination Properties of Gold in Silicon",
+    "Title": "Recombination Properties of Gold in Silicon",
+    "Measurement technique": "LS-DINT",
+    "Comments": "200 - 500K",
     "DOI": "10.1103/PhysRev.111.1515",
-    "comments": "200 - 500K",
     "Measured parameters": {
         "&sigma;<sub>e</sub>": "5E-16 * T^(0)",
         "&sigma;<sub>h</sub>": "1E-15*(T/300)^(-4)"
     },
-    "Measurement technique": "LS-DINT",
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au_s_a.srh"
 }

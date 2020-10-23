@@ -1,6 +1,4 @@
 {
-    "title": "Fast transient capacitance measurements for implanted deep levels in silicon",
-    "DOI": "10.1007/BF00883667",
     "linked": "Au_s_d.srh",
     "measurement_details": {
         "T": "298 K"
@@ -13,10 +11,12 @@
         "inter": "4440.0",
         "Ed_a": "0.336"
     },
+    "Title": "Fast transient capacitance measurements for implanted deep levels in silicon",
+    "Measurement technique": "DLTS-Cr",
+    "DOI": "10.1007/BF00883667",
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ev+0.34",
         "&sigma;<sub>h,a</sub>": 1.04e-18
     },
-    "Measurement technique": "DLTS-Cr",
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au__d.srh"
 }

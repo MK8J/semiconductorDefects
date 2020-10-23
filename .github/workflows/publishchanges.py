@@ -3,8 +3,6 @@
 import argparse
 import json
 import requests
-import yaml2new as y2n # tempory
-import numpy as np
 
 parser = argparse.ArgumentParser(description='Process repository changes')
 parser.add_argument('-c', '--changes', required=True, help='a list of changes')
@@ -89,8 +87,6 @@ def add_data(path):
     This is a generic function that adds the relevant data
     from the JSON file into the defect class
     '''
-
-    e_r = np.array([1,10,100,1000])
 
     # int the defect class
     defect = Defect()
