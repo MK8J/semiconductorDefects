@@ -49,7 +49,7 @@ jobs:
       run: |
         python ./.github/workflows/yaml2new.py
         git add -A # commit the changes, so we get the diff
-        git commit -m "auto commit"
+        CHECK=(git commit -m "auto commit")
 
     - name: run python
       env:
