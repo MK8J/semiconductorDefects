@@ -1,9 +1,0 @@
-{
-    "Title": "Energy Levels in Silicon",
-    "Comments": "Contention if is an acceptor level",
-    "DOI": "10.1146/annurev.ms.10.080180.001105",
-    "Measured parameters": {
-        "E<sub>d</sub>": "Ec-0.3"
-    },
-    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Rh/Rh__a.srh"
-}

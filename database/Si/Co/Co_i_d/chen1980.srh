@@ -1,9 +1,0 @@
-{
-    "Title": "Energy Levels in Silicon",
-    "DOI": "10.1146/annurev.ms.10.080180.001105",
-    "Measured parameters": {
-        "E<sub>d</sub>": "Ec-0.37",
-        "&sigma;<sub>e</sub>": "1.00E-14"
-    },
-    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Co/Co_i_d.srh"
-}
