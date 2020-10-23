@@ -126,7 +126,9 @@ def add_data(path):
     keys = params.keys()
     for k in keys: 
         if k in renamedic.keys():
-            params[renamedic[v]] = params.pop(k)
+            params[renamedic[k]] = params.pop(k)
+        else:
+            print('missing key', k)
 
     dicData['Measured parameters'] = params
 
