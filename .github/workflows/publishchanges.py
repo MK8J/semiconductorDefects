@@ -45,13 +45,17 @@ changeslist = args.changes.splitlines()
 
 # X: "unknown" change type (most probably a bug, please report it)
 
-additions = [change.split() for change in changeslist if change.startswith("A\t")]
+additions = [change.split() for change in changeslist if change.startswith("A\t") and 'database' in change]
 
-modifications = [change.split() for change in changeslist if change.startswith("M")]
+modifications = [change.split() for change in changeslist if change.startswith("M") and 'database' in change]
 
-deletions = [change.split() for change in changeslist if change.startswith("D")]
+deletions = [change.split() for change in changeslist if change.startswith("D") and 'database' in change]
 
-renames = [change.split() for change in changeslist if change.startswith("R")]
+renames = [change.split() for change in changeslist if change.startswith("R") and 'database' in change]
+
+print(additions, modifications, deletions, renames)
+print('done')
+1/0
 
 # get the authentication token
 payload = {'grant_type':'password', 'username':args.username, 'password':args.password}
