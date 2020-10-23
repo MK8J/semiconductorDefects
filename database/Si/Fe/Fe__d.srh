@@ -1,0 +1,59 @@
+
+schibli1968:
+  title: Lifetime and capture cross-section studies of deep impurities in silicon
+  DOI: 10.1016/0025-5416(68)90036-0
+  measurement_technique: review
+  comments: 250-350 K
+  params:
+    sigma_e: '1.50E-15'
+    sigma_h: '3.00E-16'
+
+schibli1968_1:
+  title: Lifetime and capture cross-section studies of deep impurities in silicon
+  DOI: 10.1016/0025-5416(68)90036-0
+  measurement_technique: review
+  comments: 250-350 K
+  params:
+    sigma_h: '7.00E-16'
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review
+  linked: Fe_i_d.srh
+  comments: Figure 2.1, suggested is interstitial
+  params:
+    Ed: Ev+0.4
+
+graff1981a:
+  title: The behavior of transition and noble metals in silicon crystals
+  ISSN: 0091-391X
+  measurement_technique: DLTS-Cr
+  linked: Fe_i_d.srh
+  sample:
+    growth: FZ, CZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 1-100
+  params:
+    Ed_h: Ev+0.383
+    sigma_h: 2.0e-16*exp(-0.086/kT) / exp(-0.086/k/265)
+
+lemke1994:
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-MeCr, TS-C
+  linked: Fe_i_d.srh
+  comments: Assumed thermal velocity of 1e7 measured at 200K
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: diffusion
+  measurement_details:
+    T: 200.0
+  rates:
+    c_h: 3e-10
+  params:
+    Ed_h: Ev+0.39
+    sigma_h: 3e-10/1e7
