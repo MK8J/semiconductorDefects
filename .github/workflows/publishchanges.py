@@ -102,38 +102,14 @@ def add_data(path):
 
     # grab it
     dicData = json.loads(JSONData)
+    defect.JSONData = json.dumps(dicData)
 
     # need to add paramters to a tag, so that that are seen by PLV
     if 'DLTS_params' in  dicData.keys():
         print(dicData)
         defect.Tags.update(dicData['DLTS_params'])
 
-    # update the names that are to be sent to PVL
-    # as these are the values are shown on the website.
-    params = dicData.pop('params')
 
-    renamedic = {
-    'sigma_e':'&sigma;<sub>e</sub>',
-    'sigma_h':'&sigma;<sub>h</sub>',
-    'sigma_ha':'&sigma;<sub>h,a</sub>',
-    'sigma_ea':'&sigma;<sub>e,a</sub>',
-    'Ed':'E<sub>d</sub>',
-    'Ed_a':'E<sub>d,a</sub>',
-    }
-
-    keys = list(params.keys())
-    for k in keys: 
-        if k in renamedic.keys():
-            params[renamedic[k]] = params.pop(k)
-        else:
-            print('missing key', k)
-
-    dicData['Measured parameters'] = params
-
-   
-    # add the data to the class
-    defect.JSONData = json.dumps(dicData)
-    print('datasent', dicData)
     return defect
 
 
