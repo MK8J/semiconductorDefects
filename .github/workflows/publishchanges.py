@@ -123,7 +123,7 @@ def add_data(path):
     'Ed_a':'E<sub>d,a</sub>',
     }
 
-    keys = params.keys().copy()
+    keys = list(params.keys())
     for k in keys: 
         if k in renamedic.keys():
             params[renamedic[k]] = params.pop(k)
