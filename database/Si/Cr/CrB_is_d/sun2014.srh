@@ -1,0 +1,16 @@
+{
+    "Title": "Reassessment of the recombination parameters of chromium in n- and p-type crystalline silicon and chromium-boron pairs in p-type crystalline silicon",
+    "Measurement technique": "LS-IDN",
+    "DOI": "10.1063/1.4881497",
+    "Sample": {
+        "growth": "Cz",
+        "dopant": "boron, phosphorus",
+        "incorporation": "melt"
+    },
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ev+0.27",
+        "k": "5.8",
+        "&delta;k": "-3.4, 0.6"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cr/CrB_i-s_d.srh"
+}

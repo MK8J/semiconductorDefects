@@ -1,0 +1,31 @@
+{
+    "linked": "Cu_s_a.srh",
+    "measurement_details": {
+        "T": 230.0
+    },
+    "DLTS_params": {
+        "t1": "199.0",
+        "t2": "216.3",
+        "t3": "236.8",
+        "t4": "261.3",
+        "inter": "9960000.0",
+        "Ed_a": "0.458"
+    },
+    "Title": "Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float Zone Technique",
+    "Measurement technique": "DLTS-MeCr, TS-C",
+    "Comments": "Assumed thermal velocity of 1e7 measured at 230K",
+    "ISBN": "978-1-56677-042-2",
+    "Sample": {
+        "growth": "FZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "diffusion"
+    },
+    "Rates": {
+        "c<sub>h</sub>": ">2e-8"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.46",
+        "&sigma;<sub>h,a</sub>": ">2e-8/1e7"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cu/Cu__a.srh"
+}

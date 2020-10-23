@@ -1,0 +1,23 @@
+{
+    "linked": "Co_s_d.srh",
+    "DLTS_params": {
+        "t1": "139.2",
+        "t2": "150.2",
+        "t3": "163.1",
+        "t4": "178.5",
+        "inter": "241000000.0",
+        "Ed_a": "0.35"
+    },
+    "Title": "Measurement of trapped-minority-carrier thermal emission rates from Au, Ag, and Co traps in silicon",
+    "Measurement technique": "DLTS-Mo",
+    "DOI": "10.1063/1.1654324",
+    "Sample": {
+        "dopant": "boron, phosphorus",
+        "incorporation": "thermal"
+    },
+    "Rates": {
+        "e<sub>h</sub>": "4.43e13 * exp(-0.377/kT)"
+    },
+    "Measured parameters": {},
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Co/Co__d.srh"
+}

@@ -1,0 +1,21 @@
+{
+    "DLTS_params": {
+        "t1": "78.2",
+        "t2": "84.3",
+        "t3": "91.5",
+        "t4": "99.9",
+        "inter": "1150000000.0",
+        "Ed_a": "0.199"
+    },
+    "Title": "Chromium and chromium-boron pairs in silicon",
+    "Measurement technique": "DLTS-Cr, NA, sPL, EPR",
+    "Comments": "no thermal velocity was provided, it was assumed a thermal velocity of 2.046e7.",
+    "DOI": "10.1007/BF00620536",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.2",
+        "E<sub>d,h</sub>": "Ec-0.2",
+        "&sigma;<sub>e,a</sub>": "2e-13",
+        "&delta;&sigma;<sub>ea</sub>": "2e-15"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cr/Cr_i_d.srh"
+}

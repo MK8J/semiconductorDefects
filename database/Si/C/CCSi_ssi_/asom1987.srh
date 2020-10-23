@@ -1,0 +1,13 @@
+{
+    "measurement_details": {
+        "T": "55 K"
+    },
+    "Title": "Interstitial defect reactions in silicon",
+    "Measurement technique": "DLTS",
+    "Comments": "Metastable, stated that the existence is confirmed by optically detected magneto resonance.",
+    "DOI": "10.1063/1.98465",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.1"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/C/CCSi_s-s-i_.srh"
+}

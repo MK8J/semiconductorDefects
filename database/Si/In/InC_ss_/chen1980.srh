@@ -1,0 +1,10 @@
+{
+    "Title": "Energy Levels in Silicon",
+    "Measurement technique": "review",
+    "Comments": "This could also be indium vacancy, indium interstitials in the split configuration or indium interstitials in the bond-centered configuration.",
+    "DOI": "10.1146/annurev.ms.10.080180.001105",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ev+0.111"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/C/CIn_s-s_.srh"
+}

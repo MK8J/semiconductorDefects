@@ -1,0 +1,23 @@
+{
+    "DLTS_params": {
+        "t1": "204.2",
+        "t2": "222.4",
+        "t3": "244.1",
+        "t4": "270.2",
+        "inter": "4740000.0",
+        "Ed_a": "0.458"
+    },
+    "Title": "Isolated substitutional cobalt and Co-related complexes in silicon",
+    "Measurement technique": "DLTS-L",
+    "Comments": "Out at 425, Activation energy level and apparent capture cross section",
+    "DOI": "10.1063/1.4804321",
+    "Sample": {
+        "dopant": "boron",
+        "incorporation": "melt"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.46",
+        "&sigma;<sub>h,a</sub>": 9.6e-16
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Co/CoB_-_a.srh"
+}

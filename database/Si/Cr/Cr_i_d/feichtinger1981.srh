@@ -1,0 +1,15 @@
+{
+    "Title": "Energy levels and solubility of interstitial chromium in silicon",
+    "Measurement technique": "Hall, EPR",
+    "DOI": "10.1063/1.92856",
+    "Sample": {
+        "growth": "CZ",
+        "dopant": "boron",
+        "incorporation": "thermal"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.222",
+        "&delta;E<sub>d,a</sub>": 0.05
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cr/Cr_i_d.srh"
+}

@@ -1,0 +1,9 @@
+{
+    "Title": "Deep impurities in semiconductors",
+    "Measurement technique": "review",
+    "ISBN": "978-0-471-60670-3",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ev+0.49"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cu/Cu_s_a.srh"
+}

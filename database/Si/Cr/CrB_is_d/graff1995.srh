@@ -1,0 +1,20 @@
+{
+    "DLTS_params": {
+        "t1": "124.7",
+        "t2": "136.2",
+        "t3": "150.1",
+        "t4": "166.9",
+        "inter": "4620000.0",
+        "Ed_a": "0.268"
+    },
+    "Title": "Metal impurities in silicon-device fabrication",
+    "Measurement technique": "review, DLTS",
+    "Comments": "Taken from table 4.6.",
+    "DOI": "10.1007/978-3-642-97593-6",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.27",
+        "&sigma;<sub>h,a</sub>": 9.5e-16,
+        "&delta;&sigma;<sub>ha</sub>": 5e-17
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cr/CrB_i-s_d.srh"
+}

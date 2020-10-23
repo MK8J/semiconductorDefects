@@ -1,0 +1,13 @@
+{
+    "measurement_details": {
+        "T": "75 K"
+    },
+    "Title": "Interstitial defect reactions in silicon",
+    "Measurement technique": "DLTS",
+    "Comments": "Metastable, tentative assignment. Similar behavior observed in EPR.",
+    "DOI": "10.1063/1.98465",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.17"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/C/CC_s-i_.srh"
+}
