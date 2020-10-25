@@ -1,0 +1,14 @@
+{
+    "Title": "Electronic properties of interstitial iron and iron-boron pairs determined  by means of advanced lifetime spectroscopy",
+    "Measurement technique": "LS-TID",
+    "DOI": "10.1063/1.2106017",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ec-0.26",
+        "&delta;E<sub>d</sub>": 0.03,
+        "&sigma;<sub>e</sub>": "2.5e-15",
+        "&sigma;<sub>h</sub>": "5.5e-15",
+        "k": "0.45",
+        "&delta;k": "0.44,0.55"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/FeB_i-s_a.srh"
+}

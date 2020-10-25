@@ -1,0 +1,15 @@
+{
+    "Title": "Cobalt related defect levels in silicon analyzed by temperature- and injection-dependent lifetime spectroscopy",
+    "Measurement technique": "LS-TI",
+    "Comments": "sigma_e taken not presented in the paper, but here taken from graff2000",
+    "DOI": "10.1063/1.2433743",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ec-0.38",
+        "&delta;E<sub>d</sub>": 0.015,
+        "&sigma;<sub>e</sub>": "2.2e-15",
+        "&sigma;<sub>h</sub>": "1.3749999999999998e-14",
+        "k": "0.16",
+        "&delta;k": "0.1,0.53"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Co/Co_s_a.srh"
+}

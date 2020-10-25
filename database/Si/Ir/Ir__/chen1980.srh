@@ -1,0 +1,11 @@
+{
+    "Title": "Energy Levels in Silicon",
+    "Comments": "due to donor impurities present originally in the samples",
+    "DOI": "10.1146/annurev.ms.10.080180.001105",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ec-0.185",
+        "&delta;E<sub>d</sub>": 0.015,
+        "&sigma;<sub>h</sub>": "1.60E-16"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ir/Ir__.srh"
+}

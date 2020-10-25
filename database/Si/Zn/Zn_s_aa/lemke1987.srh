@@ -1,0 +1,26 @@
+{
+    "DLTS_params": {
+        "t1": "259.0",
+        "t2": "282.8",
+        "t3": "311.1",
+        "t4": "345.4",
+        "inter": "1470000.0",
+        "Ed_a": "0.565"
+    },
+    "Title": "St\u00f6rstellenreaktionen in den Randschichtbereichen von Si-Kristallen mit Zn- und Pt-Dotierung",
+    "Measurement technique": "DLTS-Cr",
+    "Comments": "Saw two other levels which interact with the Zn levels, depending on annealing temeprature. The value published in his paper for the energy level 0.61 eV. This has not had the T^2 dependence accounted for. The values below are taken from a digitisation of Figure 1. It was confirmed that this aquired data provided a slope of -0.62 as stated in his paper. It was also confirmed that accounting for the T^2 dependenced provided a betting R^2 value.",
+    "DOI": "10.1002/pssa.2211010122",
+    "Sample": {
+        "dopant": "boron, phosphorous",
+        "incorporation": "thermal"
+    },
+    "Rates": {
+        "e<sub>h</sub>": "1.47e6 * T^2* exp(-0.565/kT)",
+        "c<sub>h</sub>": ">3e-8"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.565"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Zn/Zn_s_aa.srh"
+}

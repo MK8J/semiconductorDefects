@@ -1,0 +1,19 @@
+{
+    "Title": "Defect production and lifetime control in electron and \u03b3-irradiated silicon",
+    "Measurement technique": "DLTS",
+    "Comments": "Out at 550 K for 4.5 hours.",
+    "DOI": "10.1063/1.331460",
+    "Sample": {
+        "growth": "FZ",
+        "dopant": "phosphorus",
+        "incorporation": "irridation",
+        "resistivity": "60"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.09",
+        "&delta;E<sub>d,a</sub>": 0.015,
+        "&sigma;<sub>e</sub>": "5e-13 * exp(-0.08/kT)",
+        "&delta;&sigma;<sub>e</sub>": "1e-13 * exp(-0.08/kT)"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Unknown/Unknown__.srh"
+}

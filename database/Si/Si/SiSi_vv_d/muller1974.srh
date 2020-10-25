@@ -1,0 +1,26 @@
+{
+    "DLTS_params": {
+        "t1": "132.7",
+        "t2": "146.6",
+        "t3": "163.6",
+        "t4": "184.8",
+        "inter": "231000.0",
+        "Ed_a": "0.253"
+    },
+    "Title": "Thermally stimulated current measurements on silicon junctions produced by implantation of low energy boron ions",
+    "Measurement technique": "TS-I",
+    "Comments": "Out at 533 K",
+    "DOI": "10.1016/0038-1101(74)90007-0",
+    "Sample": {
+        "growth": "FZ",
+        "dopant": "phosphorus",
+        "incorporation": "ion implantation",
+        "resistivity": "1000"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.255",
+        "&delta;E<sub>d,a</sub>": 0.005,
+        "&sigma;<sub>h,a</sub>": 5e-17
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Si/SiSi_v-v_d.srh"
+}

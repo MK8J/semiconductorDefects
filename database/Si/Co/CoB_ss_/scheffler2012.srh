@@ -1,0 +1,19 @@
+{
+    "DLTS_params": {
+        "t1": "194.8",
+        "t2": "211.4",
+        "t3": "230.9",
+        "t4": "254.3",
+        "inter": "18500000.0",
+        "Ed_a": "0.458"
+    },
+    "Title": "A re-examination of cobalt-related defects in n- and p-type silicon",
+    "Measurement technique": "DLTS",
+    "Comments": "This is an activation enthalpy and apparent capture cross section. Anneals out at 395 K",
+    "DOI": "10.1002/pssa.201200140",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.46",
+        "&sigma;<sub>h,a</sub>": 3.7e-15
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Co/CoB_s-s_.srh"
+}

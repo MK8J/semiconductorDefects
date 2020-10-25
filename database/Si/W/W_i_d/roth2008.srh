@@ -1,0 +1,24 @@
+{
+    "DLTS_params": {
+        "t1": "175.4",
+        "t2": "191.7",
+        "t3": "211.2",
+        "t4": "234.8",
+        "inter": "2330000.0",
+        "Ed_a": "0.378"
+    },
+    "Title": "Analysis of electrically active defects in silicon for solar cells",
+    "Measurement technique": "DLTS",
+    "ISBN": "3868530363, 9783868530360",
+    "Sample": {
+        "growth": "CZ",
+        "dopant": "boron",
+        "incorporation": "melt"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.38",
+        "&delta;E<sub>d,a</sub>": "0.02",
+        "&sigma;<sub>h,a</sub>": 4.8e-16
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/W/W_i_d.srh"
+}

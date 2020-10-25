@@ -1,0 +1,16 @@
+{
+    "Title": "Fast in-situ photoluminescence analysis for a recombination parameterization of the fast BO defect component in silicon",
+    "Measurement technique": "Review (3 Voronkov-Papers),  LS-MID",
+    "DOI": "10.1063/1.4961423",
+    "Sample": {
+        "growth": "CZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "melt"
+    },
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ev+0.28",
+        "&delta;E<sub>d</sub>": 0.03,
+        "k": "1986/02/01"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/B/BO_-_a.srh"
+}

@@ -1,0 +1,21 @@
+{
+    "Title": "Laplace-transform deep-level transient spectroscopy studies of the G4 gold hydrogen complex in silicon",
+    "Measurement technique": "DLTS-Cr",
+    "Comments": "245-302 K,",
+    "DOI": "10.1063/1.122694",
+    "Sample": {
+        "growth": "CZ",
+        "dopant": "phosphorus"
+    },
+    "Measurement details": {
+        "Ur": "-5 V",
+        "Up": "0 V",
+        "tp": "1 ms",
+        "Rw": "20 ms"
+    },
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ec-0.558",
+        "&sigma;<sub>e</sub>": "1e-16"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au_s_a.srh"
+}

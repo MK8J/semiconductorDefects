@@ -1,0 +1,28 @@
+{
+    "DLTS_params": {
+        "t1": "201.3",
+        "t2": "220.6",
+        "t3": "243.9",
+        "t4": "272.3",
+        "inter": "766000.0",
+        "Ed_a": "0.419"
+    },
+    "Title": "Iron and the iron-boron complex in silicon",
+    "Measurement technique": "DLTS-Cr",
+    "Comments": "emission rate taken from digitization of graph.",
+    "DOI": "10.1063/1.335468",
+    "Sample": {
+        "growth": "CZ, FZ",
+        "dopant": "boron, phosphorus",
+        "resistivity": "30,100"
+    },
+    "Rates": {
+        "e<sub>h</sub>": "766021*T^2*exp(-0.419/kT)"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.419",
+        "E<sub>d,h</sub>": "Ev+0.37",
+        "&sigma;<sub>h</sub>": "5.6e-16*exp(-0.048/kT)"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/Fe_i_d.srh"
+}

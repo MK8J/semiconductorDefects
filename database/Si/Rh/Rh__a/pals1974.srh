@@ -1,0 +1,26 @@
+{
+    "DLTS_params": {
+        "t1": "127.5",
+        "t2": "137.8",
+        "t3": "149.9",
+        "t4": "164.1",
+        "inter": "175000000.0",
+        "Ed_a": "0.315"
+    },
+    "Title": "Properties of Au, Pt, Pd and Rh levels in silicon measured with a constant capacitance technique",
+    "Measurement technique": "DLTS-CcCr",
+    "Comments": "120 K",
+    "DOI": "10.1016/0038-1101(74)90157-9",
+    "Sample": {
+        "dopant": "phosphorus",
+        "incorporation": "thermal"
+    },
+    "Rates": {
+        "e<sub>e</sub>": "1/5.72e-9*exp(-0.315/kT)*T^2"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.315",
+        "&sigma;<sub>e</sub>": 6.3e-15
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Rh/Rh__a.srh"
+}

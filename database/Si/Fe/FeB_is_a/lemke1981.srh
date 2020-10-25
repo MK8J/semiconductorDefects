@@ -1,0 +1,10 @@
+{
+    "Title": "Dotierungseigenschaften von Eisen in Silizium",
+    "Measurement technique": "DLTS-CrMe, TS-C",
+    "Comments": "Capture cross sections manually extracted from figure",
+    "DOI": "10.1002/pssa.2210640123",
+    "Measured parameters": {
+        "E<sub>d,h</sub>": "Ec-0.23"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/FeB_i-s_a.srh"
+}

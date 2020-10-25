@@ -1,0 +1,11 @@
+{
+    "Title": "Properties of Gold-Doped Silicon",
+    "Measurement technique": "Hall",
+    "Comments": "Notes both level are in the same number",
+    "DOI": "10.1103/PhysRev.105.1168",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ev+0.35",
+        "&delta;E<sub>d</sub>": 0.02
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au_s_d.srh"
+}

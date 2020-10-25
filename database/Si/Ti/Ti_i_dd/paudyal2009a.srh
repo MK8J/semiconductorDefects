@@ -1,0 +1,13 @@
+{
+    "Title": "Temperature dependent carrier lifetime studies on Ti-doped multicrystalline silicon",
+    "DOI": "10.1063/1.3139286",
+    "Sample": {
+        "dopant": "boron",
+        "incorporation": "ion implantation",
+        "resistivity": 1
+    },
+    "Measured parameters": {
+        "&sigma;<sub>e</sub>": "9.01e-14*exp(-0.107/kT)"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti_i_dd.srh"
+}

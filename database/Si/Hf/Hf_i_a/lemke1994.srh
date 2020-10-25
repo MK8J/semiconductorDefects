@@ -1,0 +1,31 @@
+{
+    "linked": "Hf_i_a.srh",
+    "DLTS_params": {
+        "t1": "44.2",
+        "t2": "48.2",
+        "t3": "52.9",
+        "t4": "58.5",
+        "inter": "110000000.0",
+        "Ed_a": "0.1"
+    },
+    "Title": "Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float Zone Technique",
+    "Measurement technique": "DLTS-MeCr, TS-C",
+    "Comments": "Assumed thermal velocity of 1e7 measured at 65K",
+    "ISBN": "978-1-56677-042-2",
+    "Sample": {
+        "growth": "FZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "diffusion"
+    },
+    "Measurement details": {
+        "T": 65.0
+    },
+    "Rates": {
+        "c<sub>e</sub>": ">2e-7"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.1",
+        "&sigma;<sub>e,a</sub>": ">2e-7/1e7"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Hf/Hf__a.srh"
+}

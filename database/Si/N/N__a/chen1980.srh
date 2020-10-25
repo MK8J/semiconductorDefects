@@ -1,0 +1,13 @@
+{
+    "Title": "Energy Levels in Silicon",
+    "Measurement technique": "review",
+    "DOI": "10.1146/annurev.ms.10.080180.001105",
+    "Sample": {
+        "incorporation": "ion implantation"
+    },
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ec-0.039",
+        "&delta;E<sub>d</sub>": 0.006
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/N/N__a.srh"
+}

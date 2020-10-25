@@ -1,0 +1,9 @@
+{
+    "Title": "Energy Levels in Silicon",
+    "Comments": "Review paper. different techniques providing different things",
+    "DOI": "10.1146/annurev.ms.10.080180.001105",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ec-0.472"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ta/Ta__a.srh"
+}

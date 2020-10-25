@@ -1,0 +1,13 @@
+{
+    "Title": "Energy Levels in Silicon",
+    "Measurement technique": "EPR, Hall",
+    "Comments": "Review paper. This precipitate is neutral",
+    "DOI": "10.1146/annurev.ms.10.080180.001105",
+    "Sample": {
+        "incorporation": "thermal, quenched"
+    },
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ec-0.4"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cr/Cr_p_.srh"
+}

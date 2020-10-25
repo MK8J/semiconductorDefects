@@ -1,0 +1,9 @@
+{
+    "Title": "Acceptor state of monoatomic hydrogen in silicon and the role of oxygen",
+    "Measurement technique": "DLTS-L",
+    "DOI": "10.1103/PhysRevB.65.075205",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.65"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/H/H_i_a.srh"
+}

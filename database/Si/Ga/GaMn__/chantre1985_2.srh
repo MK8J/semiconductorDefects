@@ -1,0 +1,9 @@
+{
+    "Title": "Metastable-defect behavior in silicon: Charge-state-controlled reorientation of iron-aluminum pairs",
+    "Comments": "Data published in inaccessible conference paper, and reprinted here. For <111> configuration",
+    "DOI": "10.1103/PhysRevB.31.7979",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ec-0.43"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Mn/MnGa_-_.srh"
+}

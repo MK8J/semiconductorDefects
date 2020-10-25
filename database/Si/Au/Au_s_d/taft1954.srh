@@ -1,0 +1,10 @@
+{
+    "Title": "Gold as a Donor in Silicon",
+    "Measurement technique": "Resistivity",
+    "Comments": "Doped different samples with different amounts of gold. This is a thermal activation energy.",
+    "DOI": "10.1103/PhysRev.93.64",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ev+0.33"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au_s_d.srh"
+}

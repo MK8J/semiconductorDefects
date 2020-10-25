@@ -1,0 +1,25 @@
+{
+    "DLTS_params": {
+        "t1": "145.2",
+        "t2": "160.4",
+        "t3": "179.0",
+        "t4": "202.1",
+        "inter": "207000.0",
+        "Ed_a": "0.278"
+    },
+    "Title": "Process induced deep-level defects in high purity silicon",
+    "Measurement technique": "DLTS",
+    "Comments": "Diffusions done with phosphorus, boron, aluminum, gallium. Only did slow cooling.",
+    "DOI": "10.1088/0268-1242/13/5/008",
+    "Sample": {
+        "growth": "FZ",
+        "dopant": "phosphorus, boron",
+        "incorporation": "thermal",
+        "resistivity": "250-300"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.28",
+        "&sigma;<sub>e,a</sub>": "4e-17"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Unknown/Unknown-quenched__.srh"
+}

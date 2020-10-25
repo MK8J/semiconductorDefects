@@ -1,0 +1,25 @@
+{
+    "DLTS_params": {
+        "t1": "78.2",
+        "t2": "84.3",
+        "t3": "91.5",
+        "t4": "99.9",
+        "inter": "1150000000.0",
+        "Ed_a": "0.199"
+    },
+    "Title": "Chromium and chromium-boron pairs in silicon",
+    "Measurement technique": "DLTS, EPR, luminescence",
+    "DOI": "10.1007/BF00620536",
+    "Sample": {
+        "growth": "CZ,FZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "thermal",
+        "resistivity": "May-00"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.20",
+        "E<sub>d,h</sub>": "Ec-0.23",
+        "&sigma;<sub>e,a</sub>": 2e-13
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cr/Cr_i_.srh"
+}

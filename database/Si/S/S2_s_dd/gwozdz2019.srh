@@ -1,0 +1,19 @@
+{
+    "DLTS_params": {
+        "t1": "124.8",
+        "t2": "136.3",
+        "t3": "150.0",
+        "t4": "166.7",
+        "inter": "5440000.0",
+        "Ed_a": "0.271"
+    },
+    "Title": "Detection of Sulfur-Related Defects in Sulfur Diffused n- and p-Type Si by DLTS",
+    "Measurement technique": "DLTS-L",
+    "DOI": "10.1002/pssa.201900303",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.272",
+        "&delta;E<sub>d,a</sub>": 0.029,
+        "&sigma;<sub>e,a</sub>": "1e-15"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/S/S2_s_dd.srh"
+}

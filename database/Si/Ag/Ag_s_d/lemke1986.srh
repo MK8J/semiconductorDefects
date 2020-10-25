@@ -1,0 +1,23 @@
+{
+    "linked": "Ag_s_d.srh",
+    "measurement_data": {
+        "T": "141.1,152.4,165.7,181.4",
+        "e": "1,10,100,1000"
+    },
+    "Title": "Dotierungseigenschaften von Silber in Silizium",
+    "Measurement technique": "DLTS",
+    "DOI": "10.1002/pssa.2210940171",
+    "Sample": {
+        "growth": "FZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "thermal",
+        "resistivity": "50,20"
+    },
+    "Rates": {
+        "c<sub>h</sub>": "1e-8"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.39"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ag/Ag__d.srh"
+}

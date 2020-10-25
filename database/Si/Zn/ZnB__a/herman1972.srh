@@ -1,0 +1,13 @@
+{
+    "Title": "Thermal Ionization Rates and Energies of Holes at the Double acceptor zinc centers in silicon",
+    "Measurement technique": "DLTS, DC-T",
+    "DOI": "10.1002/pssa.2210140203",
+    "Sample": {
+        "dopant": "boron, phosphorus",
+        "incorporation": "thermal"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.167"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Zn/ZnB_-_a.srh"
+}

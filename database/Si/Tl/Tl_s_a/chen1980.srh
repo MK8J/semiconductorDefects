@@ -1,0 +1,11 @@
+{
+    "Title": "Energy Levels in Silicon",
+    "Comments": "Review paper. Optical capture cross section of 2.6e-19",
+    "DOI": "10.1146/annurev.ms.10.080180.001105",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ev+0.24",
+        "&delta;E<sub>d</sub>": "0,0.15",
+        "&sigma;<sub>e</sub>": 2.4e-14
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Tl/Tl_s_a.srh"
+}

@@ -1,0 +1,22 @@
+{
+    "DLTS_params": {
+        "t1": "177.5",
+        "t2": "195.6",
+        "t3": "217.6",
+        "t4": "245.0",
+        "inter": "234000.0",
+        "Ed_a": "0.347"
+    },
+    "Title": "Capacitance Transient Spectroscopy of Trace Contamination in Silicon",
+    "Measurement technique": "DLTS",
+    "Comments": "Emission rate at 1.8 ms at 288 K, ",
+    "DOI": "10.1149/1.2124387",
+    "Sample": {
+        "growth": "FZ"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.35",
+        "&sigma;<sub>h,a</sub>": 5e-17
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Si/Si_d_.srh"
+}

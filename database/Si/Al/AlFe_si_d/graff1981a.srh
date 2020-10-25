@@ -1,0 +1,16 @@
+{
+    "ISSN": "0091-391X",
+    "linked": "FeAl_i-s_d.srh",
+    "Title": "The behavior of transition and noble metals in silicon crystals",
+    "Measurement technique": "DLTS-Cr",
+    "Sample": {
+        "growth": "FZ, CZ",
+        "dopant": "phosphorus",
+        "incorporation": "thermal",
+        "resistivity": "1-100"
+    },
+    "Measured parameters": {
+        "E<sub>d,h</sub>": "Ev+0.21"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/FeAl_-_.srh"
+}

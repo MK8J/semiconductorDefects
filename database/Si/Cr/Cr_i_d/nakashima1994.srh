@@ -1,0 +1,11 @@
+{
+    "Title": "Diffusion and electrical properties of 3d transition-metal impurity series in silicon",
+    "Measurement technique": "DLTS-Cr",
+    "Comments": "Measured at 120 K.",
+    "DOI": "10.4028/www.scientific.net/MSF.143-147.761",
+    "Measured parameters": {
+        "E<sub>d,h</sub>": "Ec-0.22",
+        "&sigma;<sub>e</sub>": 1.4e-14
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cr/Cr_i_d.srh"
+}

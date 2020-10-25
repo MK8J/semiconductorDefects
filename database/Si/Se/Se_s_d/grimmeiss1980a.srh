@@ -1,0 +1,16 @@
+{
+    "linked": "Se_s_d.srh",
+    "Title": "Electronic properties of selenium\u2010doped silicon",
+    "Measurement technique": "DLTS-Cr",
+    "DOI": "10.1063/1.328161",
+    "Sample": {
+        "dopant": "phosphorus",
+        "incorporation": "thermal"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.286",
+        "E<sub>d,h</sub>": "Ev+0.301",
+        "&sigma;<sub>e</sub>": "6.24e-9*T^(-3.16)"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Se/Se__.srh"
+}

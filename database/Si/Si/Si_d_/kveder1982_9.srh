@@ -1,0 +1,16 @@
+{
+    "Title": "On the Energy Spectrum of Dislocations in Silicon",
+    "Measurement technique": "DLTS-Cr",
+    "Comments": "Instead of transient a log behaviour is observed with time. This is expected to arrise from the charge on a disslocation.",
+    "DOI": "10.1002/pssa.2210720233",
+    "Sample": {
+        "growth": "FZ",
+        "dopant": "boron",
+        "incorporation": "deformation",
+        "resistivity": "1"
+    },
+    "Measured parameters": {
+        "E<sub>d,h</sub>": "Ev+0.35"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Si/Si_d_.srh"
+}

@@ -1,0 +1,24 @@
+{
+    "DLTS_params": {
+        "t1": "131.5",
+        "t2": "143.9",
+        "t3": "158.8",
+        "t4": "177.0",
+        "inter": "2700000.0",
+        "Ed_a": "0.278"
+    },
+    "Title": "Deep Levels Associated with Nitrogen in Silicon",
+    "Measurement technique": "DLTS",
+    "DOI": "10.1143/JJAP.21.L443",
+    "Sample": {
+        "growth": "FZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "melt",
+        "resistivity": "30,100"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.28",
+        "&sigma;<sub>e,a</sub>": "5e-16"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/N/N__.srh"
+}

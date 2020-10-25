@@ -1,0 +1,11 @@
+{
+    "Title": "Lifetime and capture cross-section studies of deep impurities in silicon",
+    "Measurement technique": "review",
+    "Comments": "90-200 K, could not find original paper",
+    "DOI": "10.1016/0025-5416(68)90036-0",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ec-0.55",
+        "&sigma;<sub>e</sub>": "1.00E-16"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Zn/Zn_s_aa.srh"
+}

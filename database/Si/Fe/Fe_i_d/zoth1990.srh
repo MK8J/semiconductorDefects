@@ -1,0 +1,13 @@
+{
+    "Title": "A fast, preparation-free method to detect iron in silicon",
+    "Measurement technique": "SPV",
+    "Comments": "Value at 300 K.",
+    "DOI": "10.1063/1.345063",
+    "Rates": {
+        "c<sub>e</sub>": 5.5e-07
+    },
+    "Measured parameters": {
+        "&sigma;<sub>e</sub>": 3.26e-14
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/Fe_i_d.srh"
+}

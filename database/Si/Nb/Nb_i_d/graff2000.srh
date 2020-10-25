@@ -1,0 +1,19 @@
+{
+    "DLTS_params": {
+        "t1": "274.7",
+        "t2": "299.2",
+        "t3": "328.2",
+        "t4": "363.2",
+        "inter": "2750000.0",
+        "Ed_a": "0.617"
+    },
+    "Title": "Metal Impurities in Silicon-Device Fabrication",
+    "Measurement technique": "review, DLTS",
+    "Comments": "Taken from table 1 in the appendix. The table only provides the majority carrier capture cross section. The majority carrier has been estimated from the position of the defect level. e.g. if higher than the intrinsic level, it is assume the majority carrier was electrons.",
+    "DOI": "10.1007/978-3-642-57121-3",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.62",
+        "&sigma;<sub>e,a</sub>": "5e-16"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Nb/Nb_i_d.srh"
+}

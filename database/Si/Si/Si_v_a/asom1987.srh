@@ -1,0 +1,9 @@
+{
+    "Title": "Interstitial defect reactions in silicon",
+    "Measurement technique": "DLTS",
+    "DOI": "10.1063/1.98465",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.1"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Si/Si_v_a.srh"
+}

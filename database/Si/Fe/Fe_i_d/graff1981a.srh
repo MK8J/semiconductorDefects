@@ -1,0 +1,17 @@
+{
+    "ISSN": "0091-391X",
+    "linked": "Fe_i_d.srh",
+    "Title": "The behavior of transition and noble metals in silicon crystals",
+    "Measurement technique": "DLTS-Cr",
+    "Sample": {
+        "growth": "FZ, CZ",
+        "dopant": "boron",
+        "incorporation": "thermal",
+        "resistivity": "1-100"
+    },
+    "Measured parameters": {
+        "E<sub>d,h</sub>": "Ev+0.383",
+        "&sigma;<sub>h</sub>": "2.0e-16*exp(-0.086/kT) / exp(-0.086/k/265)"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/Fe__d.srh"
+}

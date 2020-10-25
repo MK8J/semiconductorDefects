@@ -1,0 +1,15 @@
+{
+    "Title": "Deep levels of vacancy-hydrogen centers in silicon studied by Laplace DLTS",
+    "Measurement technique": "DLTS-L",
+    "DOI": "10.1016/S0921-4526(99)00437-8",
+    "Sample": {
+        "growth": "FZ,CZ",
+        "dopant": "phosphorus",
+        "incorporation": "ion implantation",
+        "resistivity": "8,20"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.43"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/H/HSiSi_-v-v_a.srh"
+}

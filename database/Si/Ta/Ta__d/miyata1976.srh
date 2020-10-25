@@ -1,0 +1,25 @@
+{
+    "DLTS_params": {
+        "t1": "124.5",
+        "t2": "138.0",
+        "t3": "151.8",
+        "t4": "176.4",
+        "inter": "138000.0",
+        "Ed_a": "0.23"
+    },
+    "Title": "Thermal emission rates and activation energies of electrons at tantalum centers in silicon",
+    "Measurement technique": "DLTS",
+    "DOI": "10.1016/0038-1101(76)90059-9",
+    "Sample": {
+        "dopant": "phosphorus",
+        "incorporation": "thermal",
+        "resistivity": "5"
+    },
+    "Rates": {
+        "e<sub>e</sub>": "1.59e10 * exp(-0.252/kT)"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.232"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ta/Ta__d.srh"
+}

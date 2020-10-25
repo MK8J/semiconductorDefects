@@ -1,0 +1,11 @@
+{
+    "linked": "Au_s_d.srh",
+    "Title": "Thermal emission rates of carriers at gold centers in silicon",
+    "Measurement technique": "DLTS",
+    "DOI": "10.1063/1.1652943",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.345",
+        "&delta;E<sub>d,a</sub>": 0.0029
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au__d.srh"
+}

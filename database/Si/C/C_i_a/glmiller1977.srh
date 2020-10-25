@@ -1,0 +1,19 @@
+{
+    "DLTS_params": {
+        "t1": "141.8",
+        "t2": "158.0",
+        "t3": "178.3",
+        "t4": "204.1",
+        "inter": "30900.0",
+        "Ed_a": "0.247"
+    },
+    "Title": "Capacitance Transient Spectroscopy",
+    "Measurement technique": "DLTS",
+    "Comments": "out at 300",
+    "DOI": "10.1146/annurev.ms.07.080177.002113",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.25",
+        "&sigma;<sub>h,a</sub>": "7e-18"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/C/C_i_a.srh"
+}

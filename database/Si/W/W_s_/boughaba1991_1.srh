@@ -1,0 +1,35 @@
+{
+    "DLTS_params": {
+        "t1": "232.1",
+        "t2": "252.4",
+        "t3": "276.5",
+        "t4": "305.3",
+        "inter": "6000000.0",
+        "Ed_a": "0.53"
+    },
+    "Title": "Deep level transient spectroscopy characterization of tungsten\u2010related deep levels in silicon",
+    "Measurement technique": "DLTS",
+    "Comments": "Level near midgap, so did different analysis which relocated level from Ec-0.53 to Ec-0.59. Same defect as boughaba1991 in W_s_.srh.",
+    "DOI": "10.1063/1.347708",
+    "Sample": {
+        "growth": "CZ, FZ",
+        "dopant": "phosphorus",
+        "incorporation": "thermal",
+        "resistivity": 100
+    },
+    "Measurement details": {
+        "T": 275,
+        "Ur": 3,
+        "Up": 0,
+        "Rw": "5 ms"
+    },
+    "Rates": {
+        "e<sub>h</sub>": "6e6*T^2*exp(-0.53/kT)"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.59",
+        "&sigma;<sub>e,a</sub>": 6.6e-16,
+        "&sigma;<sub>h,a</sub>": 1.7e-14
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/W/W_s_.srh"
+}

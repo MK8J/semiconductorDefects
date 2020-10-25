@@ -1,0 +1,19 @@
+{
+    "DLTS_params": {
+        "t1": "73.0",
+        "t2": "79.7",
+        "t3": "87.7",
+        "t4": "97.4",
+        "inter": "18200000.0",
+        "Ed_a": "0.159"
+    },
+    "Title": "Deep state of hydrogen in crystalline silicon: Evidence for metastability",
+    "Measurement technique": "DLTS",
+    "Comments": "Corrected for field effects. Took the capture rate from DLTS measurements from irmscher1984, while the above repored are capture rates from minority carrier.",
+    "DOI": "10.1103/PhysRevLett.66.2360",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.16",
+        "&sigma;<sub>e,a</sub>": ">4e-8/1.2e7"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/H/H_i_d.srh"
+}

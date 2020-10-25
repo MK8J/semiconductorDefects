@@ -1,0 +1,32 @@
+{
+    "DLTS_params": {
+        "t1": "152.0",
+        "t2": "165.2",
+        "t3": "180.9",
+        "t4": "199.7",
+        "inter": "15500000.0",
+        "Ed_a": "0.348"
+    },
+    "Title": "DLTS analysis of nickel_hydrogen complex defects in silicon",
+    "Measurement technique": "DLTS-Cr",
+    "Comments": "Hydrogen related, as only appeared after a \"clean\" that is known to introduce hyrdrogen. Out at 570 K for 2 hours",
+    "DOI": "10.1016/S0921-5107(98)00280-3",
+    "Sample": {
+        "growth": "CZ, FZ",
+        "dopant": "phosphorus",
+        "incorporation": "melt, diffusion",
+        "resistivity": "1-100"
+    },
+    "Measurement details": {
+        "T": 185.0,
+        "Rw": "0.024 s"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.35",
+        "E<sub>d,h</sub>": "Ec-0.35",
+        "E<sub>d</sub>": "Ec-0.468",
+        "&sigma;<sub>e,a</sub>": 2.8e-15,
+        "&sigma;<sub>e</sub>": "1.8E-18"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ni/Ni__.srh"
+}
