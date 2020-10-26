@@ -130,6 +130,7 @@ for modification in modifications:
     defect = add_data(modification[1])
 
 
+    print(type(defect.JSONData))
     print(defect.JSONData)
 #    updateRequest = requests.put(basePath + "/" + modification[1],
 #                                  data=defect.JSONData,
