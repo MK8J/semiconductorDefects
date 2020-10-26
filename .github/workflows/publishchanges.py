@@ -139,5 +139,5 @@ for addition in additions:
     print("adding " + addition[1])
     defect = add_data(addition[1])
     #commented out to stop sending data ATM
-    additionRequest = requests.post(basePath, data=json.dumps(defect.__dict__), headers=headers)
+    additionRequest = requests.post(basePath, data=defect.JSONData, headers=headers)
     handleHttpResponse(additionRequest, "Could not create " + addition[1])
