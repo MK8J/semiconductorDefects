@@ -130,10 +130,10 @@ for modification in modifications:
     defect = add_data(modification[1])
 
 
-    #print(type(defect.JSONData))
-    #print(defect.JSONData)
+    print('\t',type(defect.JSONData))
+    print('\t', defect.JSONData)
     updateRequest = requests.put(basePath + "/" + modification[1],
-                                  data=defect.JSONData,
+                                  data=json.dumps(defect.__dict__),
                                   headers=headers)
     handleHttpResponse(updateRequest, "Could not update " + modification[1])
 
@@ -142,5 +142,5 @@ for addition in additions:
     print("adding " + addition[1])
     defect = add_data(addition[1])
     #commented out to stop sending data ATM
-    additionRequest = requests.post(basePath, data=defect.JSONData, headers=headers)
+    additionRequest = requests.post(basePath, json.dumps(defect.__dict__), headers=headers)
     handleHttpResponse(additionRequest, "Could not create " + addition[1])

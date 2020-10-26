@@ -15,7 +15,7 @@
         "growth": "FZ"
     },
     "Measured parameters": {
-        "E<sub>d,a</sub>": "Ec-0.510",
+        "E<sub>d,a</sub>": "Ec-0.51",
         "&sigma;<sub>e,a</sub>": 1e-16
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ag/Ag__a.srh"
