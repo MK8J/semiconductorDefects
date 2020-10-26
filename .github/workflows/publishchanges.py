@@ -98,7 +98,7 @@ def add_data(path):
 
     # grab it
     dicData = json.loads(JSONData)
-    defect.JSONData = dicData
+    defect.JSONData = JSONData
 
     # need to add paramters to a tag, so that that are seen by PLV
     if 'DLTS_params' in  dicData.keys():
@@ -132,6 +132,7 @@ for modification in modifications:
 
     print('\t',type(defect.JSONData))
     print('\t', defect.JSONData)
+    print(json.dumps(defect.__dict__))
     updateRequest = requests.put(basePath + "/" + modification[1],
                                   data=json.dumps(defect.__dict__),
                                   headers=headers)
