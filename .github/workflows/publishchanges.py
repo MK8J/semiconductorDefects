@@ -98,7 +98,7 @@ def add_data(path):
 
     # grab it
     dicData = json.loads(JSONData)
-    defect.jsonData = json.dumps(dicData)
+    defect.jsonData = dicData
     # need to add paramters to a tag, so that that are seen by PLV
     if 'DLTS_params' in  dicData.keys():
         print(dicData)
