@@ -20,7 +20,7 @@ print(args)
 class Defect:
     settingId = ''
     settingPath = ''
-    jsonData = ''
+    JSONData = ''
     def __init__(self):
         self.Tags = {} # This is a dic of tags. Each key should only have one value
 
@@ -98,7 +98,7 @@ def add_data(path):
 
     # grab it
     dicData = json.loads(JSONData)
-    defect.jsonData = dicData
+    defect.JSONData = dicData
     # need to add paramters to a tag, so that that are seen by PLV
     if 'DLTS_params' in  dicData.keys():
         print(dicData)
@@ -129,8 +129,8 @@ for modification in modifications:
     defect = add_data(modification[1])
 
 
-    print('\t',type(defect.jsonData))
-    print('\t', defect.jsonData)
+    print('\t',type(defect.JSONData))
+    print('\t', defect.JSONData)
     print(json.dumps(defect.__dict__))
     updateRequest = requests.put(basePath + "/" + modification[1],
                                   data=json.dumps(defect.__dict__),
