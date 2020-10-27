@@ -1,0 +1,18 @@
+
+herring2001:
+  title: Energy levels of isolated interstitial hydrogen in silicon
+  DOI: 10.1103/PhysRevB.64.125209
+  measurement_technique: DLTS
+  linked: HO_i-i_a.srh
+  comments: Believed to be HO, rather than just H, see nielsen2002. This value is
+    determined to be 0.45 eV from the donor level.
+  params:
+    Ed_a: Ec-0.84
+    Ed_h: Ec-0.064
+
+nielsen2002:
+  title: Acceptor state of monoatomic hydrogen in silicon and the role of oxygen
+  DOI: 10.1103/PhysRevB.65.075205
+  measurement_technique: DLTS-L
+  params:
+    Ed_a: Ec-0.65

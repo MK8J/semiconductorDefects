@@ -1,0 +1,83 @@
+
+muller1974:
+  title: Thermally stimulated current measurements on silicon junctions produced by
+    implantation of low energy boron ions
+  DOI: 10.1016/0038-1101(74)90007-0
+  measurement_technique: TS-I
+  comments: Out at 533 K
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: ion implantation
+    resistivity: '1000'
+  params:
+    Ed_a: Ev+0.255
+    dEd_a: 0.005
+    sigma_ha: 5.0e-17
+
+kimerling1976:
+  title: New Developments in Defect Studies in Semiconductors
+  DOI: 10.1109/TNS.1976.4328529
+  measurement_technique: DLTS, EPR
+  comments: Out at 573K
+  params:
+    Ed_a: Ec-0.39
+    sigma_ha: 4e-15
+
+glmiller1977:
+  title: Capacitance Transient Spectroscopy
+  DOI: 10.1146/annurev.ms.07.080177.002113
+  measurement_technique: DLTS
+  comments: Out at 300
+  params:
+    Ed_a: Ec-0.39
+    sigma_ea: 4e-15
+
+brotherton1982:
+  title: "Defect production and lifetime control in electron and \u03B3-irradiated\
+    \ silicon"
+  DOI: 10.1063/1.331460
+  measurement_technique: DLTS-Cr
+  comments: Out at 625 K for 30 min. measurement data taken from laplace DLTS database.
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: irridation
+    resistivity: '60'
+  measurement_data:
+    T: 188,205.8,227.2,253.3
+    e: 1,10,100,1000
+  params:
+    Ed_a: Ec-0.413
+    Ed_h: Ec-0.413
+    sigma_e: '2.00E-15'
+    dsigma_e: '2.00E-16'
+
+mukashev1982:
+  title: Studies of radiation defects in hydrogen implanted silicon by deep level
+    transient spectroscopy
+  DOI: 10.1080/00337578208229928
+  measurement_technique: DLTS
+  comments: measurement data taken from laplace DLTS database. Out at 623 for 10 min
+  sample:
+    growth: CZ
+    dopant: boron
+    incorporation: irridation
+    resistivity: '22'
+  measurement_details:
+    Ur: 5.0
+  measurement_data:
+    T: 87.8,96.7,107.6,121.1
+    e: 1,10,100,1000
+  params:
+    Ed_a: Ec-0.18
+    dEd_a: 0.015
+
+kimerling1985:
+  title: Defect Structure and Properties by Junction Spectroscopy
+  DOI: 10.1557/PROC-46-1
+  measurement_technique: review
+  sample:
+    dopant: boron
+  params:
+    Ed_a: Ev+0.2

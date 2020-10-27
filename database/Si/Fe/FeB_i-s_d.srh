@@ -1,0 +1,101 @@
+
+graff1981:
+  title: The Properties of Iron in Silicon
+  DOI: 10.1149/1.2127478
+  measurement_technique: DLTS, FTIR
+  comments: FTIR at 25 K, No AlFe peak found
+  sample:
+    growth: CZ, FZ
+    dopant: aluminium, boron, phosphorus
+    incorporation: thermal
+    resistivity: 1-100
+  params:
+    Ed_a: Ev+0.1
+
+wunstel1982:
+  title: Interstitial iron and iron-acceptor pairs in silicon
+  DOI: 10.1007/BF00619081
+  measurement_technique: Hall
+  sample:
+    growth: FZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 0.3-100
+  params:
+    Ed_a: Ev+0.09
+
+wunstel1982_1:
+  title: Interstitial iron and iron-acceptor pairs in silicon
+  DOI: 10.1007/BF00619081
+  measurement_technique: DLTS-Cr
+  sample:
+    growth: FZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 0.3-100
+  params:
+    Ed_a: Ev+0.1
+
+weber1983:
+  title: Transition metals in silicon
+  DOI: 10.1007/BF00617708
+  measurement_technique: review
+  params:
+    Ed: Ev+0.1
+
+brotherton1985:
+  title: Iron and the iron-boron complex in silicon
+  DOI: 10.1063/1.335468
+  measurement_technique: DLTS
+  sample:
+    growth: CZ, FZ
+    dopant: boron, phosphorus
+  params:
+    Ed_a: Ev+0.095
+
+gao1991:
+  title: Annealing and profile of interstitial iron in boron-doped silicon
+  DOI: 10.1063/1.106103
+  measurement_technique: DLTS
+  comments: catpure cross section determined at 55 K
+  sample:
+    growth: FZ
+    dopant: boron
+  params:
+    Ed_a: Ev+0.095
+    sigma_ha: 1.5e-13
+
+graff1995:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ev+0.1
+
+istratov1999:
+  title: Iron and its complexes in silicon
+  DOI: 10.1007/s003390050968
+  measurement_technique: DLTS
+  comments: Data from a review paper, taking many measurements at a range of temperatures
+    Points out DLTS is impact by capture cross section barrier heights, while EPR
+    and hall affect measurements are not. sigma_h was measured at T = 300 K.
+  params:
+    Ed_a: Ev+0.1
+    sigma_ea: 4e-13
+    sigma_ha: 3e-14
+
+graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ev+0.1
+    sigma_ha: '6.4e-14'

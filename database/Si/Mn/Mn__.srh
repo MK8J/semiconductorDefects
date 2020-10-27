@@ -1,0 +1,123 @@
+
+carlson1956:
+  title: Properties of Silicon Doped with Manganese
+  DOI: 10.1103/PhysRev.104.937
+  measurement_technique: Hall, R-T, PC-S
+  comments: Shows electron traps.
+  sample:
+    growth: CZ
+    dopant: boron
+    incorporation: ion implantation
+    resistivity: 50-100
+  params:
+    Ed: Ec-0.53
+    dEd: 0.03
+
+evwaraye1977a:
+  title: "The defect levels in p\u2010type silicon doped with manganese"
+  DOI: 10.1063/1.324247
+  measurement_technique: DLTS-Cr
+  sample:
+    growth: FZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 40-60
+  params:
+    Ed_a: Ev+0.22
+    sigma_ea: 3.88e-16
+
+evwaraye1977a_1:
+  title: "The defect levels in p\u2010type silicon doped with manganese"
+  DOI: 10.1063/1.324247
+  measurement_technique: DLTS-Cr
+  sample:
+    growth: FZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 40-60
+  params:
+    Ed_a: Ev+0.33
+    sigma_ea: 1.74e-16
+
+evwaraye1977a_2:
+  title: "The defect levels in p\u2010type silicon doped with manganese"
+  DOI: 10.1063/1.324247
+  measurement_technique: DLTS-Cr
+  comments: changes with 100 degrees
+  sample:
+    growth: FZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 40-60
+  params:
+    Ed_a: Ev+0.44
+    sigma_ea: 3.4500000000000003e-16
+
+evwaraye1977a_3:
+  title: "The defect levels in p\u2010type silicon doped with manganese"
+  DOI: 10.1063/1.324247
+  measurement_technique: DLTS-Cr
+  sample:
+    growth: FZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 40-60
+  params:
+    Ed_a: Ev+0.51
+    sigma_ea: 3.69e-16
+
+davis1980:
+  title: Impurities in silicon solar cells
+  DOI: 10.1109/T-ED.1980.19922
+  measurement_technique: DLTS, SCP
+  params:
+    Ed_a: Ev+0.4
+    dEd_a: 0.02
+
+benton1982:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 81 K, quenched
+  params:
+    Ed_a: Ev+0.13
+    sigma_ha: 5.0e-16
+
+benton1982_1:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 68 K, quenched
+  params:
+    Ed_a: Ec-0.11
+    sigma_ea: 1e-15
+
+benton1982_2:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 218 K, quenched
+  params:
+    Ed_a: Ec-0.41
+    sigma_ha: 2e-15
+
+czaputa1983:
+  title: Energy levels of interstitial manganese in silicon
+  DOI: 10.1016/0038-1098(83)90549-5
+  measurement_technique: Hall, EPR
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: implantation
+    resistivity: '100'
+  params:
+    Ed_a: Ev+0.17
+
+roth2008:
+  title: Analysis of electrically active defects in silicon for solar cells
+  ISBN: 3868530363, 9783868530360
+  measurement_technique: LS-T
+  params:
+    Ed: Ec-0.45
+    k: 9.4
+    dk: 5.8

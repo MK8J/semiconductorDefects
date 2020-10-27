@@ -1,0 +1,44 @@
+
+graff1981a:
+  title: The behavior of transition and noble metals in silicon crystals
+  ISSN: 0091-391X
+  measurement_technique: DLTS-Cr
+  linked: Mn_i_d.srh
+  sample:
+    growth: FZ, CZ
+    dopant: phosphorus
+    incorporation: thermal
+    resistivity: 1-100
+  params:
+    Ed_a: Ec-0.419
+    sigma_ea: 1.3e-13
+
+lemke1981a:
+  title: Eigensehaften der Dotierungsniveaus von Mangan und Vanadium in Silizium
+  DOI: 10.1002/pssa.2210640219
+  measurement_technique: DLTS, TS-C
+  linked: Mn_i_d.srh
+  comments: Assumed thermal velocity of 1e7
+  sample:
+    dopant: boron
+    incorporation: diffusion
+  params:
+    Ed_a: Ec-0.42
+    sigma_ea: 1E-16
+
+lemke1994:
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-MeCr, TS-C
+  linked: Mn_i_d.srh
+  comments: Assumed thermal velocity of 1e7 measured at 200K
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: diffusion
+  measurement_details:
+    T: 200.0
+  params:
+    Ed_a: Ec-0.43
+    sigma_ea: '>5e-8/1e7'

@@ -1,0 +1,141 @@
+
+collins1957a:
+  title: Properties of Silicon Doped with Iron or Copper
+  DOI: 10.1103/PhysRev.108.1409
+  measurement_technique: Hall
+  linked: FeB_i-s_d.srh
+  comments: Quenched n and p-type silicon. Did not see resistivity change in n-type.
+    The defect was observed to switch between two levels. This was confirmed with
+    photoconductance data from Dash. The other level was Ec-0.55
+  sample:
+    growth: FZ
+    incorporation: melt
+  params:
+    Ed: Ec-0.55
+
+benton1982:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 181 K, quenched
+  sample:
+    growth: FZ
+  params:
+    Ed_a: Ec-0.35
+    sigma_ea: 6.0e-15
+
+benton1982_1:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 208 K, slowly cooled
+  sample:
+    growth: FZ
+  params:
+    Ed_a: Ec-0.21
+
+benton1982_2:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 299 K, slowly cooled
+  sample:
+    growth: FZ
+  params:
+    Ed_a: Ec-0.46
+
+benton1982_3:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 184 K, slowly cooled
+  sample:
+    growth: FZ
+  params:
+    Ed_a: Ev+0.23
+
+benton1982_4:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 170 K, quenched
+  sample:
+    growth: CZ
+  params:
+    Ed_a: Ec-0.35
+    sigma_ea: 5.0e-15
+
+benton1982_5:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 168 K, quenched
+  sample:
+    growth: CZ
+  params:
+    Ed_a: Ev+0.30
+
+benton1982_6:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 237 K, quenched
+  sample:
+    growth: CZ
+  params:
+    Ed_a: Ev+0.43
+
+benton1982_7:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 220 K, quenched
+  sample:
+    growth: CZ
+  params:
+    Ed_a: Ev+0.47
+
+tavendale1983:
+  title: Deep level, quenched-in defects in silicon doped with gold, silver, iron,
+    copper or nickel
+  DOI: 10.1088/0022-3719/16/9/011
+  measurement_technique: DLTS-Cr
+  linked: Fe_i_d.srh
+  sample:
+    growth: FZ
+    dopant: boron
+    resistivity: 20
+  params:
+    Ed_a: Ev+0.39
+    sigma_h: 3.0e-17
+
+tavendale1983_1:
+  title: Deep level, quenched-in defects in silicon doped with gold, silver, iron,
+    copper or nickel
+  DOI: 10.1088/0022-3719/16/9/011
+  measurement_technique: DLTS-Cr
+  sample:
+    growth: FZ
+    dopant: boron
+    resistivity: 20
+  params:
+    Ed_a: Ev+0.40
+    sigma_h: 1.0e-18
+
+indusekhar1986a:
+  title: Properties of iron related quenched-in levels in p-silicon
+  DOI: 10.1002/pssa.2210950134
+  measurement_technique: DLTS-Cr
+  linked: FeO_-_.srh
+  comments: the emission rate of holes was digitized from a graph. It differs from
+    the quoted activation energy in the paper. This emission rate is very different
+    from that of interstitial iron, also the instabilities were note seen.
+  sample:
+    growth: CZ
+    dopant: boron
+  rates:
+    e_h: 2e8*T^2 * exp(-0.483/kT)
+  params:
+    Ed_a: Ev+0.46
+    Ed_h: Ev+0.42
+    sigma_h: 6.8e-16*exp(-0.04/kT)

@@ -1,0 +1,61 @@
+
+yau1972a:
+  title: Measurement of trapped-minority-carrier thermal emission rates from Au, Ag,
+    and Co traps in silicon
+  DOI: 10.1063/1.1654324
+  measurement_technique: DLTS-Mo
+  linked: Co_s_a.srh
+  sample:
+    dopant: boron, phosphorus
+    incorporation: thermal
+  rates:
+    e_e: 2.59e12 * exp(-0.569/kT)
+  params: {}
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review, Hall, resistivity, and photo-conductivity.
+  comments: Figure 2.1,
+  params:
+    Ed: Ec-0.53
+
+milnes1973_1:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review, Hall, resistivity, and photo-conductivity.
+  comments: Figure 2.1,
+  params:
+    Ed: Ev+0.35
+
+lemke1994:
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-MeCr, TS-C
+  linked: Co_s_a.srh
+  comments: Assumed thermal velocity of 1e7 measured at 200K
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: diffusion
+  measurement_details:
+    T: 200.0
+  rates:
+    c_e: '>2e-8'
+  params:
+    Ed_a: Ec-0.41
+    sigma_ea: '>2e-8/1e7'
+
+scheffler2013:
+  title: Isolated substitutional cobalt and Co-related complexes in silicon
+  DOI: 10.1063/1.4804321
+  measurement_technique: DLTS-L
+  comments: Some defect observed only in p-type Co doped samples. Assumed to be hydrogen
+    related.
+  sample:
+    dopant: boron
+    incorporation: melt
+  params:
+    Ed_a: Ev+0.38
+    sigma_ha: 1.6e-14

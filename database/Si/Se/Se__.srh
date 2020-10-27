@@ -1,0 +1,35 @@
+
+grimmeiss1980a:
+  title: "Electronic properties of selenium\u2010doped silicon"
+  DOI: 10.1063/1.328161
+  measurement_technique: DLTS-Cr
+  linked: Se_s_d.srh
+  sample:
+    dopant: phosphorus
+    incorporation: thermal
+  params:
+    Ed_a: Ec-0.286
+    Ed_h: Ev+0.301
+    sigma_e: 6.24e-9*T^(-3.16)
+
+grimmeiss1980a_1:
+  title: "Electronic properties of selenium\u2010doped silicon"
+  DOI: 10.1063/1.328161
+  measurement_technique: DLTS-Cr
+  linked: Se_s_dd.srh
+  sample:
+    dopant: phosphorus
+    incorporation: thermal
+  params:
+    Ed_a: Ec-0.524
+
+grimmeiss1980a_2:
+  title: "Electronic properties of selenium\u2010doped silicon"
+  DOI: 10.1063/1.328161
+  measurement_technique: DLTS-Cr
+  linked: Se_s_dd.srh
+  sample:
+    dopant: phosphorus
+    incorporation: thermal
+  params:
+    Ed_a: Ev+0.619

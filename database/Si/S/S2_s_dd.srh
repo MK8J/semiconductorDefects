@@ -1,0 +1,10 @@
+
+gwozdz2019:
+  title: Detection of Sulfur-Related Defects in Sulfur Diffused n- and p-Type Si by
+    DLTS
+  DOI: 10.1002/pssa.201900303
+  measurement_technique: DLTS-L
+  params:
+    Ed_a: Ec-0.272
+    dEd_a: 0.029
+    sigma_ea: 1e-15

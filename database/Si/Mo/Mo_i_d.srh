@@ -1,0 +1,131 @@
+
+rohatgi1980:
+  title: The impact of molybdenum on silicon and silicon solar cell performance
+  DOI: 10.1016/0038-1101(80)90032-5
+  measurement_technique: DLTS-Cr, LS-N
+  comments: DLTS peak at 177.5K, at which the capture rate was measured.
+  sample:
+    growth: CZ
+    dopant: boron
+    incorporation: melt
+    resistivity: 4-6
+  params:
+    Ed_a: Ev+0.30
+    sigma_ea: 1.6e-14
+    sigma_h: 4.31e-16
+
+hamaguchi1991:
+  title: Deep Levels Associated with Molybdenum in Silicon
+  DOI: 10.1143/JJAP.30.L1837
+  measurement_technique: DLTS, DLTS-Mo, LS-N
+  comments: DLTS peak at 170K. Resistivity 10 Ohm.cm. For FZ Mo was spun on, and thermally
+    diffused. For CZ it was introduced into the melt. Both dopants were used for CZ
+    and FZ. Found 3 other levels related to Mo; Ev+0.27, Ec-0.34, Ec-0.58 and not
+    Mo and dopant pairing.
+  sample:
+    growth: FZ, CZ
+    dopant: boron, phosphorus
+    incorporation: diffused, melt
+    resistivity: 10
+  params:
+    Ed_a: Ev+0.31
+
+pettersson1991:
+  title: Electrical and optical properties of molybdenum and tungsten related defects
+    in silicon
+  DOI: 10.1088/0268-1242/6/4/002
+  measurement_technique: DLTS, DC-S
+  comments: DLTS peak at 180K. Capture cross section measured of 50 deg from 150 to
+    200 deg. Claims not a substitutional site. In a similar publication showing the
+    same data a year later. DOI;10.1557/PROC-262-489. On Zhou's result of extra energy
+    levels they say "Although, in principle, this level could originate from three
+    different defects we think there are good reasons to believe that the midgap level
+    is a kind of process induced built-in defect which has to be studied further before
+    a correct chemical identification can be performed."
+  sample:
+    growth: FZ, CZ
+    dopant: boron, phosphorus
+  params:
+    Ed_a: Ev+0.292
+    Ed_h: Ev+0.296
+    Ed: Ev+0.296 + 2.7e-5*T
+    sigma_h: 8.38E-16 * exp(0.004/kT)
+
+zhou1991:
+  title: Physical Behaviour of 4d Transition Metal Impurity in Silicon
+  DOI: 10.4028/www.scientific.net/MSF.38-41.457
+  measurement_technique: DLTS
+  comments: DLTS peak at 180K. Resistivity 1-300 Ohm.cm. DLTS. Irradiated some samples
+    with electrons of energy 5MeV. Also saw an acceptor level at Ec-0.53. Claims this
+    is a substitutionary site, other authors disagree.
+  sample:
+    growth: FZ, CZ
+    dopant: aluminium, boron, gallium, phosphorus, tin
+  params:
+    Ed_a: Ev+0.36
+
+graff1995:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ev+0.29
+    sigma_ea: 1.6e-14
+    sigma_ha: '5.5e-16'
+
+graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_h: Ev+0.28
+    sigma_ha: 6e-16
+
+rein2005a:
+  title: Lifetime Spectroscopy A Method of Defect Characterization in Silicon for
+    Photovoltaic Applications
+  DOI: 10.1007/3-540-27922-9
+  measurement_technique: LS-ITD
+  comments: Claims difference in DLTS measurement is as they did not account for the
+    temperature dependence of the capture cross section. Sigma_e taken from literature
+  params:
+    Ed: Ev+0.317
+    dEd: 0.005
+    sigma_e: '7.8e-15'
+    sigma_h: 6e-16
+    k: '13.0'
+    dk: 3
+
+paudyal2010:
+  title: Temperature dependent carrier lifetime studies of Mo in crystalline silicon
+  DOI: 10.1063/1.3309833
+  measurement_technique: LS-ITD
+  comments: Claims difference in DLTS measurement is as they did not account for the
+    temperature dependence of the capture cross section. Sigma_e taken from literature
+  params:
+    Ed: Ev+0.375
+    dEd: 0.03
+    sigma_e: 4.21e-8*T^(-2.95)
+    sigma_h: 6.05e-14*T^(-1.07)
+
+cox2014:
+  title: Detection of a Molybdenum Acceptor Level in N-Type Silicon
+  DOI: 10.1149/2.0081412jss
+  measurement_technique: DLTS-Cr
+  comments: Claims that is a substitutionary site. This work explain some values from
+    Hamaguchi1991 and some unpublished work from K. Mishra at SunEdison Semiconductor
+    Ltd. This might also also explain the values of Paudyal2010.
+  sample:
+    growth: epi
+  params:
+    Ed_a: Ev+0.3
+    dEd_a: 0.01
+    sigma_ha: 9.3e-16

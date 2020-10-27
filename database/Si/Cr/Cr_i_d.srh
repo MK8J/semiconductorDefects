@@ -1,0 +1,136 @@
+
+chen1980:
+  title: Energy Levels in Silicon
+  DOI: 10.1146/annurev.ms.10.080180.001105
+  measurement_technique: EPR, Hall, review
+  comments: Assuming ESR is the same as EPR.
+  params:
+    Ed: Ec-0.23
+
+davis1980:
+  title: Impurities in silicon solar cells
+  DOI: 10.1109/T-ED.1980.19922
+  measurement_technique: DLTS, SCP
+  sample:
+    growth: CZ
+    dopant: boron, phosphorus
+    incorporation: melt
+  params:
+    Ed_a: Ec-0.25
+    dEd_a: 0.1
+
+feichtinger1981:
+  title: Energy levels and solubility of interstitial chromium in silicon
+  DOI: 10.1063/1.92856
+  measurement_technique: Hall, EPR
+  sample:
+    growth: CZ
+    dopant: boron
+    incorporation: thermal
+  params:
+    Ed_a: Ec-0.222
+    dEd_a: 0.05
+
+conzelmann1983:
+  title: Chromium and chromium-boron pairs in silicon
+  DOI: 10.1007/BF00620536
+  measurement_technique: DLTS-Cr, NA, sPL, EPR
+  comments: no thermal velocity was provided, it was assumed a thermal velocity of
+    2.046e7.
+  params:
+    Ed_a: Ec-0.2
+    Ed_h: Ec-0.2
+    sigma_ea: 2e-13
+    dsigma_ea: 2e-15
+
+kunio1983:
+  title: Defect levels in chromium-doped silicon
+  DOI: 10.1016/0038-1101(83)90117-X
+  measurement_technique: DLTS-Cr
+  comments: Two samples showed larger difference in measurements. Measured at 90 K.
+  rates:
+    e_e: 1.92e7*T^2*exp(-0.2/kT)
+  params:
+    Ed_a: Ec-0.2
+    Ed_h: Ec-0.2
+    sigma_e: 1e-14
+
+weber1983:
+  title: Transition metals in silicon
+  DOI: 10.1007/BF00617708
+  measurement_technique: review
+  params:
+    Ed: Ec-0.22
+
+hangleiter1987:
+  title: 'Nonradiative recombination via deep impurity levels in silicon: Experiment'
+  DOI: 10.1103/PhysRevB.35.9149
+  measurement_technique: luminescence,
+  comments: Assumed a thermal velocity of (2e7 *(T/300)^(0.5))
+  params:
+    sigma_h: 1e-7*(300/T)^(-1.1)/(2e7 *(T/300)^(0.5))
+
+nakashima1994:
+  title: Diffusion and electrical properties of 3d transition-metal impurity series
+    in silicon
+  DOI: 10.4028/www.scientific.net/MSF.143-147.761
+  measurement_technique: DLTS-Cr
+  comments: Measured at 120 K.
+  params:
+    Ed_h: Ec-0.22
+    sigma_e: 1.4e-14
+
+graff1995:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 5.4. Note sigma_e is temperature independent.
+  params:
+    Ed_h: Ec-0.22
+    sigma_e: 6e-14 * exp(0)
+
+mishra1996:
+  title: Identification of Cr in p-type silicon using the minority carrier lifetime
+    measurement by the surface photovoltage method
+  DOI: 10.1063/1.116574
+  measurement_technique: DLTS, LS-D
+  comments: no thermal velocity was provided, it was assumed a thermal velocity of
+    electrons and holes was 2.046e7 and 1.688e7.
+  params:
+    Ed_a: Ec-0.22
+    sigma_e: 2.5e-6/2.046e7
+    sigma_h: 1.25e-6/1.688e7
+
+graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from table 5.4. DLTS done at a temperature of 110K
+  params:
+    Ed_a: Ec-0.22
+    dEd_a: 0.01
+    sigma_ea: '7.3e-15'
+
+schmidt2007:
+  title: Recombination activity of interstitial chromium and chromium-boron pairs
+    in silicon
+  DOI: 10.1063/1.2822452
+  measurement_technique: DLTS, LS-TI
+  comments: Capture cross sections were found to be independent of temperature
+  params:
+    Ed_a: Ec-0.24
+    sigma_ea: 2E-14
+    sigma_ha: 4E-15
+
+sun2014:
+  title: Reassessment of the recombination parameters of chromium in n- and p-type
+    crystalline silicon and chromium-boron pairs in p-type crystalline silicon
+  DOI: 10.1063/1.4881497
+  measurement_technique: LS-IDN
+  comments: Only determined K, but estimated capture cross section from comparison
+    of other papers.
+  params:
+    Ed: Ec-0.24
+    sigma_e: '2.4e-14'
+    k: 3.2
+    dk: -0.6, 0

@@ -1,0 +1,12 @@
+
+scheffler2013:
+  title: Isolated substitutional cobalt and Co-related complexes in silicon
+  DOI: 10.1063/1.4804321
+  measurement_technique: DLTS-L
+  comments: Out at 425, Activation energy level and apparent capture cross section
+  sample:
+    dopant: boron
+    incorporation: melt
+  params:
+    Ed_a: Ev+0.46
+    sigma_ha: 9.6e-16
