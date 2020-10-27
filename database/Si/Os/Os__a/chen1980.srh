@@ -1,9 +1,0 @@
-{
-    "Title": "Energy Levels in Silicon",
-    "Comments": "Determined to be eleementary osmium by the diffusion coefficient",
-    "DOI": "10.1146/annurev.ms.10.080180.001105",
-    "Measured parameters": {
-        "E<sub>d</sub>": "Ec-0.53"
-    },
-    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Os/Os__a.srh"
-}
