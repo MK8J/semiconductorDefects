@@ -143,7 +143,7 @@ for addition in additions:
     defect = add_data(addition[1]
 
     print('\t',type(defect.JSONData))
-    print('\t', defect.__dict__))
+    print('\t', defect.__dict__)
 
     #commented out to stop sending data ATM
     additionRequest = requests.post(basePath, json.dumps(defect.__dict__), headers=headers)
