@@ -1,0 +1,18 @@
+{
+    "ISSN": "0091-391X",
+    "linked": "Ti_i_d.srh",
+    "Title": "The behavior of transition and noble metals in silicon crystals",
+    "Measurement technique": "DLTS-Cr",
+    "Sample": {
+        "growth": "FZ, CZ",
+        "dopant": "phosphorus",
+        "incorporation": "thermal",
+        "resistivity": "1-100"
+    },
+    "Measured parameters": {
+        "E<sub>d,h</sub>": "Ec-0.32",
+        "&sigma;<sub>e,a</sub>": 4.5e-13,
+        "&delta;&sigma;<sub>ea</sub>": 2.5e-13
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti__.srh"
+}
