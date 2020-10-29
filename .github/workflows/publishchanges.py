@@ -62,7 +62,7 @@ basePath = "https://k8s.pvlighthouse.com.au/svc/usersettings/defects"
 
 accessToken = (r.json()['access_token'])
 
-headers = {"Authorization": "Bearer " + accessToken, 'Content-Type': 'application/json'}
+headers = headers = {"Authorization": "Bearer " + accessToken, 'Content-Type': 'application/json'}
 
 def handleHttpResponse(response, baseErrorMessage):
     print(response.status_code)
@@ -140,7 +140,11 @@ for modification in modifications:
 
 for addition in additions:
     print("adding " + addition[1])
-    defect = add_data(addition[1])
+    defect = add_data(addition[1]
+
+    print('\t',type(defect.JSONData))
+    print('\t', defect.__dict__))
+
     #commented out to stop sending data ATM
     additionRequest = requests.post(basePath, json.dumps(defect.__dict__), headers=headers)
     handleHttpResponse(additionRequest, "Could not create " + addition[1])
