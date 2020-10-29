@@ -62,7 +62,7 @@ basePath = "https://k8s.pvlighthouse.com.au/svc/usersettings/defects"
 
 accessToken = (r.json()['access_token'])
 
-headers = headers = {"Authorization": "Bearer " + accessToken, 'Content-Type': 'application/json'}
+headers = {"Authorization": "Bearer " + accessToken, 'Content-Type': 'application/json'}
 
 def handleHttpResponse(response, baseErrorMessage):
     print(response.status_code)
