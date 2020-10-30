@@ -14,5 +14,5 @@
         "&sigma;<sub>e,a</sub>": 4.5e-13,
         "&delta;&sigma;<sub>ea</sub>": 2.5e-13
     },
-    "github_link": "<a href=\"https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti__.srh\">https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti__.srh</a>"
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti__.srh"
 }
