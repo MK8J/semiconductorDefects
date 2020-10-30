@@ -1,6 +1,6 @@
 {
     "DLTS_params": {
-        "t1": "142.7",
+        "t1": "142.77",
         "t2": "155.9",
         "t3": "171.7",
         "t4": "190.9",
@@ -12,7 +12,7 @@
     "Comments": "Taken from table 1 in the appendix. The table only provides the majority carrier capture cross section. The majority carrier has been estimated from the position of the defect level. e.g. if higher than the intrinsic level, it is assume the majority carrier was electrons.",
     "DOI": "10.1007/978-3-642-57121-3",
     "Measured parameters": {
-        "E<sub>d,a</sub>": "Ec-0.31",
+        "E<sub>d,a</sub>": "Ec-0.310",
         "&sigma;<sub>e,a</sub>": "7e-16"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/TiH_-_.srh"
