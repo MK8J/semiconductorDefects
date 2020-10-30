@@ -251,7 +251,7 @@ def check_temps():
 def add_github_link(data_touple, url_ext):
     new_list = []
 
-    url = ' https://github.com/MK8J/semiconductorDefects/blob/master'+\
+    url = 'https://github.com/MK8J/semiconductorDefects/blob/master'+\
             url_ext[1:]
 
     for fname, data_dic in data_touple:
