@@ -259,6 +259,7 @@ def add_github_link(data_touple, url_ext):
         #print(fname, data_dic)
 
         #print(fname, url)
+        data_dic['github_link'] = '<a href="{}">'.format(url)+url +'</a>' # not sure if its an isssue, but " is how the json string is save, so the " are escaped. Might come out in the wash
         data_dic['github_link'] = url 
 
         new_list.append((fname, data_dic))

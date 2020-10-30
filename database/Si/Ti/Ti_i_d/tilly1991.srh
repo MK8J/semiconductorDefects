@@ -13,5 +13,5 @@
         "E<sub>d</sub>": "Ec-(0.268+3.42e-4*T)",
         "&sigma;<sub>e</sub>": "1.57e-14*exp(0.011/k/T)"
     },
-    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti_i_d.srh"
+    "github_link": "<a href=\"https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti_i_d.srh\">https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti_i_d.srh</a>"
 }
