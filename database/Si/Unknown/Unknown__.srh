@@ -1,0 +1,283 @@
+
+guldberg1977:
+  title: Electron trap annealing in neutron transmutation doped silicon
+  DOI: 10.1063/1.89785
+  measurement_technique: DLTS
+  comments: Out at 450 K
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: irridation
+    resistivity: '40'
+  params:
+    Ed_a: Ec-0.15
+    sigma_ha: 2.0e-16
+
+guldberg1977_1:
+  title: Electron trap annealing in neutron transmutation doped silicon
+  DOI: 10.1063/1.89785
+  measurement_technique: DLTS
+  comments: in at 475 and out at 550 K
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: irridation
+    resistivity: '40'
+  params:
+    Ed_a: Ec-0.17
+    sigma_ha: 4.0e-16
+
+guldberg1977_2:
+  title: Electron trap annealing in neutron transmutation doped silicon
+  DOI: 10.1063/1.89785
+  measurement_technique: DLTS
+  comments: In at 450 out at 625 K
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: irridation
+    resistivity: '40'
+  params:
+    Ed_a: Ec-0.19
+    sigma_ha: 2.0e-16
+
+guldberg1977_3:
+  title: Electron trap annealing in neutron transmutation doped silicon
+  DOI: 10.1063/1.89785
+  measurement_technique: DLTS
+  comments: In at 450 out at 725 K
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: irridation
+    resistivity: '40'
+  params:
+    Ed_a: Ec-0.20
+    sigma_ha: 4.0e-17
+
+guldberg1977_4:
+  title: Electron trap annealing in neutron transmutation doped silicon
+  DOI: 10.1063/1.89785
+  measurement_technique: DLTS
+  comments: Out at 550 K
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: irridation
+    resistivity: '40'
+  params:
+    Ed_a: Ec-0.32
+    sigma_ha: 9.999999999999999e-16
+
+guldberg1977_5:
+  title: Electron trap annealing in neutron transmutation doped silicon
+  DOI: 10.1063/1.89785
+  measurement_technique: DLTS
+  comments: In at 450 out at 525 K
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: irridation
+    resistivity: '40'
+  params:
+    Ed_a: Ec-0.40
+    sigma_ha: 3.0e-16
+
+guldberg1977_6:
+  title: Electron trap annealing in neutron transmutation doped silicon
+  DOI: 10.1063/1.89785
+  measurement_technique: DLTS
+  comments: out at 425 K
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: irridation
+    resistivity: '40'
+  params:
+    Ed_a: Ec-0.46
+    sigma_ha: 3.0e-15
+
+guldberg1977_7:
+  title: Electron trap annealing in neutron transmutation doped silicon
+  DOI: 10.1063/1.89785
+  measurement_technique: DLTS
+  comments: Believed to be a surface effect, In at 450 out at 525 K
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: irridation
+    resistivity: '40'
+  params:
+    Ed_a: Ec-0.50
+    sigma_ha: 1.9999999999999998e-15
+
+benton1982:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 112 K, From heat treatments
+  sample:
+    growth: CZ
+  params:
+    Ed_a: Ec-0.15
+    sigma_ea: 2.0e-16
+
+benton1982_1:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 228 K, From heat treatments
+  sample:
+    growth: Cz
+  params:
+    Ed_a: Ec-0.22
+    sigma_ea: 7.0e-16
+
+benton1982_2:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 115 K,  From laser doping
+  sample:
+    growth: CZ
+  params:
+    Ed_a: Ec-0.47
+    sigma_ea: 5.0e-16
+
+benton1982_3:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 200 K, quenched, ,  From laser doping
+  sample:
+    growth: FZ,CZ
+  params:
+    Ed_a: Ec-0.19
+    sigma_ea: 5.0e-19
+
+benton1982_4:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 211 K, quenched,  From laser doping
+  sample:
+    growth: FZ,CZ
+  params:
+    Ed_a: Ec-0.345
+    dEd_a: 0.015
+    sigma_ea: 5.0e-16
+
+benton1982_5:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 98 K, quenched,  From laser doping
+  sample:
+    growth: FZ,CZ
+  params:
+    Ed_a: Ev+0.36
+
+brotherton1982:
+  title: "Defect production and lifetime control in electron and \u03B3-irradiated\
+    \ silicon"
+  DOI: 10.1063/1.331460
+  measurement_technique: DLTS
+  comments: Out at 550 K for 4.5 hours.
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: irridation
+    resistivity: '60'
+  params:
+    Ed_a: Ec-0.09
+    dEd_a: 0.015
+    sigma_e: 5e-13 * exp(-0.08/kT)
+    dsigma_e: 1e-13 * exp(-0.08/kT)
+
+brotherton1982_1:
+  title: "Defect production and lifetime control in electron and \u03B3-irradiated\
+    \ silicon"
+  DOI: 10.1063/1.331460
+  measurement_technique: DLTS
+  comments: In at 520 K
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: irridation
+    resistivity: '60'
+  params:
+    Ed_a: Ec-0.363
+    sigma_ea: '1.40E-15'
+
+indusekhar1986:
+  title: Investigation of Deep Defects Due to _-Particle Irradiation in n-Silicon
+  DOI: 10.1002/pssa.2210930230
+  measurement_technique: DLTS-Cr
+  comments: Defect in unirradiated sample
+  sample:
+    growth: epi
+    dopant: phosphorus
+    incorporation: irridation
+    resistivity: '2'
+  measurement_details:
+    T: 183 K
+    Ur: -4.2
+    tp: 5 ms
+  params:
+    Ed_a: Ec-0.28
+    sigma_ha: 2.1e-17
+    sigma_h: 1.2e-16
+
+indusekhar1986_1:
+  title: Investigation of Deep Defects Due to _-Particle Irradiation in n-Silicon
+  DOI: 10.1002/pssa.2210930230
+  measurement_technique: DLTS-Cr
+  comments: sigma > 1e-15
+  sample:
+    growth: epi
+    dopant: phosphorus
+    incorporation: irridation
+    resistivity: '2'
+  measurement_details:
+    T: 225K
+    Ur: -4.2
+    tp: 5 ms
+  params:
+    Ed_a: Ec-0.51
+    sigma_ha: 5.799999999999999e-14
+
+indusekhar1986_2:
+  title: Investigation of Deep Defects Due to _-Particle Irradiation in n-Silicon
+  DOI: 10.1002/pssa.2210930230
+  measurement_technique: DLTS-Cr
+  comments: sigma > 1e-15, defect in unirradiated sample
+  sample:
+    growth: epi
+    dopant: phosphorus
+    incorporation: irridation
+    resistivity: '2'
+  measurement_details:
+    T: 267 K
+    Ur: -4.2
+    tp: 5 ms
+  params:
+    Ed_a: Ec-0.54
+    sigma_ha: 2.6e-15
+
+indusekhar1986_3:
+  title: Investigation of Deep Defects Due to _-Particle Irradiation in n-Silicon
+  DOI: 10.1002/pssa.2210930230
+  measurement_technique: DLTS-Cr
+  comments: sigma > 1e-15, Lists several papers that report the same defect
+  sample:
+    growth: epi
+    dopant: phosphorus
+    incorporation: irridation
+    resistivity: '2'
+  measurement_details:
+    T: 115 K
+    Ur: -4.2
+    tp: 5 ms
+  params:
+    Ed_a: Ec-0.28
+    sigma_ha: 9.2e-13

@@ -1,0 +1,143 @@
+
+graff1981:
+  title: The Properties of Iron in Silicon
+  DOI: 10.1149/1.2127478
+  measurement_technique: DLTS, FTIR
+  comments: FTIR at 25 K, No FeB peak found
+  sample:
+    growth: CZ, FZ
+    dopant: aluminium, boron, phosphorus
+    incorporation: thermal
+    resistivity: 1-100
+  measurement_details:
+    Ur: 5.0
+    tp: 70 ms
+  params:
+    Ed_a: Ev+0.6
+
+lemke1981:
+  title: Dotierungseigenschaften von Eisen in Silizium
+  DOI: 10.1002/pssa.2210640123
+  measurement_technique: DLTS-CrMe, TS-C
+  comments: Capture cross sections manually extracted from figure
+  params:
+    Ed_h: Ec-0.23
+
+brotherton1985:
+  title: Iron and the iron-boron complex in silicon
+  DOI: 10.1063/1.335468
+  measurement_technique: DLTS
+  sample:
+    growth: CZ, FZ
+    dopant: boron, phosphorus
+  params:
+    Ed_a: Ec-0.29
+
+hangleiter1987:
+  title: 'Nonradiative recombination via deep impurity levels in silicon: Experiment'
+  DOI: 10.1103/PhysRevB.35.9149
+  measurement_technique: luminescence,
+  comments: Assumed a thermal velocity of (2e7 *(T/300)^(0.5))
+  params:
+    sigma_e: 3e-7*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))
+    sigma_h: 3e-8*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))
+
+graff1995:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 4.3 and table 1 in the appendix.
+  params:
+    Ed_a: Ec-0.23
+
+walz1996:
+  title: On the recombination behaviour of iron in moderately boron-doped p-type silicon
+  DOI: 10.1007/BF01594232
+  measurement_technique: LS-DNM
+  comments: Lifetime analysis on FeB at a room temperature
+  params:
+    Ed: Ec-0.29
+    sigma_e: '2.5e-15'
+    sigma_h: 3e-14
+
+istratov1999:
+  title: Iron and its complexes in silicon
+  DOI: 10.1007/s003390050968
+  measurement_technique: DLTS, Hall, photoEPR, FTIR
+  comments: Data from a review paper, taking many measurements at a range of temperatures.
+    Points out DLTS is impact by capture cross section barrier heights, while EPR
+    and hall affect measurements are not. At 55 K simga_e was 1.5e-13, sigma_p was
+    2e-14 were reported.
+  params:
+    Ed_a: Ec-0.26
+    sigma_ea: 4e-13
+    sigma_ha: 2e-14
+
+graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_a: Ec-0.27
+    sigma_ea: '1.6e-15'
+
+macdonald2001:
+  title: Capture cross sections of the acceptor level of iron-boron pairs in p-type
+    silicon by injection-level dependent lifetime measurements
+  DOI: 10.1063/1.1372156
+  measurement_technique: LS-ID
+  comments: Lifetime analysis on FeB at a fixed temperature
+  params:
+    Ed: Ec-0.23
+    sigma_e: 3e-14
+    sigma_h: 2e-15
+
+birkholz2005:
+  title: Electronic properties of iron-boron pairs in crystalline silicon by temperature-
+    and injection-level-dependent lifetime measurements
+  DOI: 10.1063/1.1897489
+  measurement_technique: LS-TID
+  comments: Used Fei_a of Istratov
+  params:
+    Ed: Ec-0.26
+    sigma_e: '1.4e-14'
+    sigma_h: '1.1e-15'
+
+rein2005:
+  title: Electronic properties of interstitial iron and iron-boron pairs determined  by
+    means of advanced lifetime spectroscopy
+  DOI: 10.1063/1.2106017
+  measurement_technique: LS-TID
+  params:
+    Ed: Ec-0.26
+    dEd: 0.03
+    sigma_e: '2.5e-15'
+    sigma_h: '5.5e-15'
+    k: '0.45'
+    dk: 0.44,0.55
+
+macdonald2006:
+  title: Doping dependence of the carrier lifetime crossover point upon dissociation
+    of iron-boron pairs in crystalline silicon
+  DOI: 10.1063/1.2358126
+  measurement_technique: LS-ID
+  comments: Lifetime analysis on FeB at a fixed temperature for many doing levels
+  params:
+    Ed: Ec-0.26
+    sigma_e: 5e-15
+    dsigma_e: 1.5e-15
+    sigma_h: 3e-15
+    dsigma_h: 1e-15
+
+paudyal2009:
+  title: Temperature Dependent Electron and Hole Capture Cross Sections of Iron-Contaminated
+    Boron-Doped Silicon
+  DOI: 10.1109/PVSC.2009.5411380
+  measurement_technique: LS-IT
+  params:
+    sigma_e: 5.1e-9 * T^(-2.5)
+    sigma_h: 3.32e-11 * exp(-0.262/kT)

@@ -1,0 +1,16 @@
+
+milnes1973:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review. Mainly Hall effect measurements
+  comments: Figure 2.1
+  params:
+    Ed: Ec-0.11
+
+milnes1973_1:
+  title: Deep impurities in semiconductors
+  ISBN: 978-0-471-60670-3
+  measurement_technique: review. Mainly Hall effect measurements
+  comments: Figure 2.1
+  params:
+    Ed: Ec-0.25

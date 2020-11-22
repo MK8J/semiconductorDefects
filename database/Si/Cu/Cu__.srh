@@ -1,0 +1,36 @@
+
+benton1982:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 122 K, quenched
+  sample:
+    growth: FZ
+  params:
+    Ed_a: Ev+0.22
+    sigma_ha: 6.0e-14
+
+benton1982_1:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 242 K, quenched
+  sample:
+    growth: FZ
+  params:
+    Ed_a: Ev+0.41
+    sigma_ha: 8.0e-14
+
+tavendale1983:
+  title: Deep level, quenched-in defects in silicon doped with gold, silver, iron,
+    copper or nickel
+  DOI: 10.1088/0022-3719/16/9/011
+  measurement_technique: DLTS-Cr
+  comments: Maybe lattice effects
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    resistivity: 20
+  params:
+    Ed_a: Ev+0.53
+    sigma_h: 2.0e-16

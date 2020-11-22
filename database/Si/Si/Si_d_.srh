@@ -1,0 +1,162 @@
+
+benton1982:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: 'Emission rate at 1.8 ms at 206 K, '
+  sample:
+    growth: FZ
+  params:
+    Ed_a: Ec-0.38
+    sigma_ea: 1.4e-15
+
+benton1982_1:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: 'Emission rate at 1.8 ms at 288 K, '
+  sample:
+    growth: FZ
+  params:
+    Ed_a: Ev+0.35
+    sigma_ha: 5.0e-17
+
+kveder1982:
+  title: On the Energy Spectrum of Dislocations in Silicon
+  DOI: 10.1002/pssa.2210720233
+  measurement_technique: DLTS-Cr
+  comments: Instead of transient a log behaviour is observed with time. This is expected
+    to arrise from the charge on a disslocation.
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: deformation
+    resistivity: '0.1'
+  params:
+    Ed_h: Ec-0.27
+
+kveder1982_1:
+  title: On the Energy Spectrum of Dislocations in Silicon
+  DOI: 10.1002/pssa.2210720233
+  measurement_technique: DLTS-Cr
+  comments: Instead of transient a log behaviour is observed with time. This is expected
+    to arrise from the charge on a disslocation.
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: deformation
+    resistivity: '0.1'
+  params:
+    Ed_h: Ec-0.37
+
+kveder1982_2:
+  title: On the Energy Spectrum of Dislocations in Silicon
+  DOI: 10.1002/pssa.2210720233
+  measurement_technique: DLTS-Cr
+  comments: Instead of transient a log behaviour is observed with time. This is expected
+    to arrise from the charge on a disslocation.
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: deformation
+    resistivity: '0.1'
+  params:
+    Ed_h: Ec-0.51
+
+kveder1982_3:
+  title: On the Energy Spectrum of Dislocations in Silicon
+  DOI: 10.1002/pssa.2210720233
+  measurement_technique: DLTS-Cr
+  comments: Instead of transient a log behaviour is observed with time. This is expected
+    to arrise from the charge on a disslocation.
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: deformation
+    resistivity: '0.1'
+  params:
+    Ed_h: Ec-0.6
+
+kveder1982_4:
+  title: On the Energy Spectrum of Dislocations in Silicon
+  DOI: 10.1002/pssa.2210720233
+  measurement_technique: DLTS-Cr
+  comments: Instead of transient a log behaviour is observed with time. This is expected
+    to arrise from the charge on a disslocation.
+  sample:
+    growth: FZ
+    dopant: boron
+    incorporation: deformation
+    resistivity: '1'
+  params:
+    Ed_h: Ev+0.25
+
+kveder1982_5:
+  title: On the Energy Spectrum of Dislocations in Silicon
+  DOI: 10.1002/pssa.2210720233
+  measurement_technique: DLTS-Cr
+  comments: Instead of transient a log behaviour is observed with time. This is expected
+    to arrise from the charge on a disslocation.
+  sample:
+    growth: FZ
+    dopant: boron
+    incorporation: deformation
+    resistivity: '1'
+  params:
+    Ed_h: Ev+0.39
+
+kveder1982_6:
+  title: On the Energy Spectrum of Dislocations in Silicon
+  DOI: 10.1002/pssa.2210720233
+  measurement_technique: DLTS-Cr
+  comments: Instead of transient a log behaviour is observed with time. This is expected
+    to arrise from the charge on a disslocation.
+  sample:
+    growth: FZ
+    dopant: boron
+    incorporation: deformation
+    resistivity: '1'
+  params:
+    Ed_h: Ev+0.4
+
+kveder1982_7:
+  title: On the Energy Spectrum of Dislocations in Silicon
+  DOI: 10.1002/pssa.2210720233
+  measurement_technique: DLTS-Cr
+  comments: Instead of transient a log behaviour is observed with time. This is expected
+    to arrise from the charge on a disslocation.
+  sample:
+    growth: FZ
+    dopant: boron
+    incorporation: deformation
+    resistivity: '1'
+  params:
+    Ed_h: Ev+0.47
+
+kveder1982_8:
+  title: On the Energy Spectrum of Dislocations in Silicon
+  DOI: 10.1002/pssa.2210720233
+  measurement_technique: DLTS-Cr
+  comments: Instead of transient a log behaviour is observed with time. This is expected
+    to arrise from the charge on a disslocation.
+  sample:
+    growth: FZ
+    dopant: boron
+    incorporation: deformation
+    resistivity: '1'
+  params:
+    Ed_h: Ev+0.67
+
+kveder1982_9:
+  title: On the Energy Spectrum of Dislocations in Silicon
+  DOI: 10.1002/pssa.2210720233
+  measurement_technique: DLTS-Cr
+  comments: Instead of transient a log behaviour is observed with time. This is expected
+    to arrise from the charge on a disslocation.
+  sample:
+    growth: FZ
+    dopant: boron
+    incorporation: deformation
+    resistivity: '1'
+  params:
+    Ed_h: Ev+0.35

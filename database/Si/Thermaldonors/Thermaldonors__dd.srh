@@ -1,0 +1,15 @@
+
+markevich2018:
+  title: Electron emission and capture by oxygen-related bistable thermal double donors
+    in silicon studied with junction capacitance techniques
+  DOI: 10.1063/1.5053805
+  measurement_technique: DLTS-CrL
+  comments: Bistable thermal donor 0. Not from this paper
+  sample:
+    growth: CZ
+    dopant: phosphorus
+    incorporation: thermal
+    resistivity: 5
+  params:
+    Ed_a: Ec-0.164
+    Ed_h: Ec-0.164

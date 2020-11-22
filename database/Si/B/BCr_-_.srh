@@ -1,0 +1,46 @@
+
+graff1981a:
+  title: The behavior of transition and noble metals in silicon crystals
+  ISSN: 0091-391X
+  measurement_technique: DLTS-Cr
+  linked: BCr_s-i_d.srh
+  sample:
+    growth: FZ, CZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: 1-100
+  params:
+    Ed_h: Ev+0.29
+    sigma_ha: 8.0e-19
+
+conzelmann1983:
+  title: Chromium and chromium-boron pairs in silicon
+  DOI: 10.1007/BF00620536
+  measurement_technique: DLTS, EPR, luminescence
+  linked: BCr_s-i_d.srh
+  sample:
+    growth: CZ,FZ
+    dopant: boron
+    incorporation: thermal
+    resistivity: May-00
+  params:
+    Ed_a: Ev+0.28
+    sigma_ha: 1.0e-14
+
+chantre1985:
+  title: 'Metastable-defect behavior in silicon: Charge-state-controlled reorientation
+    of iron-aluminum pairs'
+  DOI: 10.1103/PhysRevB.31.7979
+  linked: BCr_s-i_d.srh
+  comments: Data published in inaccessible conference paper, and reprinted here. For
+    <111> configuration
+  params:
+    Ed: Ev+0.29
+
+chantre1985_1:
+  title: 'Metastable-defect behavior in silicon: Charge-state-controlled reorientation
+    of iron-aluminum pairs'
+  DOI: 10.1103/PhysRevB.31.7979
+  measurement_technique: theory
+  params:
+    Ed: Ev+0.22

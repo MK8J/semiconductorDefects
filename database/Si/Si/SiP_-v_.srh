@@ -1,0 +1,11 @@
+
+benton1982:
+  title: Capacitance Transient Spectroscopy of Trace Contamination in Silicon
+  DOI: 10.1149/1.2124387
+  measurement_technique: DLTS
+  comments: Emission rate at 1.8 ms at 204 K, Irradiated with 1 Mev
+  sample:
+    growth: FZ,CZ
+  params:
+    Ed_a: Ec-0.44
+    sigma_ea: 1.0e-16

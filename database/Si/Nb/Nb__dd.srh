@@ -1,0 +1,17 @@
+
+lemke1994:
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-MeCr, TS-C
+  linked: Nb_i_dd.srh
+  comments: Assumed thermal velocity of 1e7 measured at 100K
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: diffusion
+  measurement_details:
+    T: 100.0
+  params:
+    Ed_h: Ev+0.18
+    sigma_h: '3.4999999999999997E-16'

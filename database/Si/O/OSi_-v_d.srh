@@ -1,0 +1,41 @@
+
+kimerling1976:
+  title: New Developments in Defect Studies in Semiconductors
+  DOI: 10.1109/TNS.1976.4328529
+  measurement_technique: DLTS, EPR
+  comments: Out at 623K
+  params:
+    Ed_a: Ec-0.08
+    sigma_ea: 1e-14
+
+glmiller1977:
+  title: Capacitance Transient Spectroscopy
+  DOI: 10.1146/annurev.ms.07.080177.002113
+  measurement_technique: DLTS
+  comments: out at 350. Ea=1.3eV
+  params:
+    Ed_a: Ec-0.08
+    sigma_ea: 1e-14
+
+brotherton1982:
+  title: "Defect production and lifetime control in electron and \u03B3-irradiated\
+    \ silicon"
+  DOI: 10.1063/1.331460
+  measurement_technique: DLTS-Cr
+  comments: A center, Out at 570 for 30 min. measurement data taken from laplace DLTS
+    database.
+  sample:
+    growth: FZ
+    dopant: phosphorus
+    incorporation: irridation
+    resistivity: '60'
+  measurement_data:
+    T: 77,84.2,92.8,103.3
+    e: 1,10,100,1000
+  params:
+    Ed_a: Ec-0.169
+    dEd_a: 0.015
+    Ed_h: Ec-0.169
+    dEd_h: 0.015
+    sigma_e: '1.00E-14'
+    dsigma_e: '2.00E-15'

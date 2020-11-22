@@ -1,0 +1,34 @@
+
+blakemore1956:
+  title: Photoconductivity in Indium-Doped Silicon
+  measurement_technique: PC-S
+  linked: In_s_a.srh
+  comments: Points to the strange temperature coefficient. Maybe be due to a) iononisation
+    of defects, b) recombination through higher excited Indium states and this would
+    not be detected by PC.
+  measurement_details:
+    T: 77.5K, 90K, 90K
+  params:
+    sigma_h: 1e-13*exp(0.055/kT)
+
+fan1956:
+  title: Infra-red Absorption in Semiconductors
+  DOI: 10.1088/0034-4885/19/1/304
+  measurement_technique: review, infrared absorption
+  linked: In_s_a.srh
+  comments: The ionization energy was estimated using the observed excitation band
+    of highest energy. Good agreement with the thermal value of Ev+0.16. This turned
+    out to be an acceptor level
+  params:
+    Ed: Ev+0.16
+
+wertheim1958:
+  title: Transient Recombination of Excess Carriers in Semiconductors
+  DOI: 10.1103/PhysRev.109.1086
+  measurement_technique: LS-T
+  linked: In_s_a.srh
+  comments: Was not sure what the defect is, but it is in indium doped Silicon. This
+    turned out to be an acceptor level
+  params:
+    sigma_e: 1.1e-14*T^(-1)
+    sigma_h: 1.5e-9*T^(-2)

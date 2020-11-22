@@ -1,0 +1,29 @@
+
+nagasawa1975:
+  title: Fast transient capacitance measurements for implanted deep levels in silicon
+  DOI: 10.1007/BF00883667
+  measurement_technique: DLTS-Cr
+  comments: Evaluated at 293 K
+  sample:
+    incorporation: ion implantation
+  params:
+    Ed_a: Ec-0.48
+    Ed_h: Ec-0.47
+    sigma_e: 7.28e-16
+
+lemke1994:
+  title: Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float
+    Zone Technique
+  ISBN: 978-1-56677-042-2
+  measurement_technique: DLTS-MeCr, TS-C
+  linked: Ir_i_d.srh
+  comments: Assumed thermal velocity of 1e7 measured at 290K
+  sample:
+    growth: FZ
+    dopant: boron, phosphorus
+    incorporation: diffusion
+  measurement_details:
+    T: 290.0
+  params:
+    Ed_a: Ec-0.62
+    sigma_ea: '>6e-8/1e7'

@@ -1,0 +1,59 @@
+
+weber1983:
+  title: Transition metals in silicon
+  DOI: 10.1007/BF00617708
+  measurement_technique: review
+  params:
+    Ed: Ev+0.3
+
+tilly1991a:
+  title: Electrical and optical properties of vanadium-related centers in silicon
+  DOI: 10.1103/PhysRevB.44.12809
+  measurement_technique: DLTS-Cr
+  comments: Comments on both the previous defect asignment and charges assignment
+    being vague. Capture cross section values manually extracted from graph
+  sample:
+    dopant: boron, phosphorus
+    incorporation: ion implantation
+  measurement_details:
+    single_shot: true
+  params:
+    Ed_a: Ev+0.447
+    Ed_h: Ev+0.359
+    Ed: Ev+(0.356-1.43e-7*T)
+    sigma_h: 6.47e-17*exp(-0.088/kT)
+
+sadoh1992:
+  title: "Deep levels of vanadium and vanadium\u2010hydrogen complex in silicon"
+  DOI: 10.1063/1.352353
+  measurement_technique: DLTS-Cr
+  sample:
+    growth: CZ, FZ
+    dopant: boron, phosphorus
+    incorporation: thermal
+    resistivity: 10-100
+  params:
+    Ed_a: Ev+0.46
+    Ed: Ev+0.34
+    sigma_h: 1.16e-16*exp(-0.12/kT)
+
+graff1995:
+  title: Metal impurities in silicon-device fabrication
+  DOI: 10.1007/978-3-642-97593-6
+  measurement_technique: review, DLTS
+  comments: Taken from table 5.3
+  params:
+    Ed_h: Ev+0.32
+    sigma_h: 4.00E-18 * exp(-0.15/kT)
+
+graff2000:
+  title: Metal Impurities in Silicon-Device Fabrication
+  DOI: 10.1007/978-3-642-57121-3
+  measurement_technique: review, DLTS
+  comments: Taken from table 1 in the appendix. The table only provides the majority
+    carrier capture cross section. The majority carrier has been estimated from the
+    position of the defect level. e.g. if higher than the intrinsic level, it is assume
+    the majority carrier was electrons.
+  params:
+    Ed_h: Ev+0.32
+    sigma_h: 3.8E-15 * exp(-0.13/kT)

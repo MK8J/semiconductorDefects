@@ -1,0 +1,26 @@
+
+evwaraye1977:
+  title: Electron irradiation damage in antimony doped silicon
+  DOI: 10.1063/1.323935
+  measurement_technique: DLTS
+  comments: Shows thermal emssion rate,
+  params:
+    Ed_a: Ec-0.22
+
+indusekhar1986:
+  title: Investigation of Deep Defects Due to _-Particle Irradiation in n-Silicon
+  DOI: 10.1002/pssa.2210930230
+  measurement_technique: DLTS-Cr
+  sample:
+    growth: epi
+    dopant: phosphorus
+    incorporation: irridation
+    resistivity: '2'
+  measurement_details:
+    T: 145 K
+    Ur: -4.2
+    tp: 5 ms
+  params:
+    Ed_a: Ec-0.26
+    sigma_ha: 4.2e-15
+    sigma_h: 2.8000000000000005e-17
