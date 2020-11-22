@@ -1,0 +1,22 @@
+{
+    "Title": "Investigation of Deep Defects Due to _-Particle Irradiation in n-Silicon",
+    "Measurement technique": "DLTS-Cr",
+    "Comments": "sigma > 1e-15, Lists several papers that report the same defect",
+    "DOI": "10.1002/pssa.2210930230",
+    "Sample": {
+        "growth": "epi",
+        "dopant": "phosphorus",
+        "incorporation": "irridation",
+        "resistivity": "2"
+    },
+    "Measurement details": {
+        "T": "115 K",
+        "Ur": -4.2,
+        "tp": "5 ms"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.28",
+        "&sigma;<sub>h,a</sub>": 9.2e-13
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Unknown/Unknown__.srh"
+}

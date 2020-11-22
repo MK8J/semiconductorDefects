@@ -1,0 +1,11 @@
+{
+    "linked": "HO_i-i_d.srh",
+    "Title": "Energy levels of isolated interstitial hydrogen in silicon",
+    "Measurement technique": "DLTS",
+    "Comments": "Used data from holm1991 and Johnson.",
+    "DOI": "10.1103/PhysRevB.64.125209",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.16"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/H/H_i_d.srh"
+}

@@ -1,0 +1,27 @@
+{
+    "linked": "CuCu_i-s_d.srh",
+    "DLTS_params": {
+        "t1": "48.8",
+        "t2": "54.0",
+        "t3": "60.3",
+        "t4": "68.3",
+        "inter": "1380000.0",
+        "Ed_a": "0.092"
+    },
+    "Title": "Deep levels of copper in silicon",
+    "Measurement technique": "DLTS, luminescence",
+    "Comments": "Different defect from the others reported In the paper. Believed to be related to the luminescence centre",
+    "DOI": "10.1063/1.339564",
+    "Sample": {
+        "growth": "FZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "thermal",
+        "resistivity": "66-125"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.093",
+        "&sigma;<sub>e,a</sub>": 1e-14,
+        "&sigma;<sub>h,a</sub>": 3e-16
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cu/Cu__d.srh"
+}

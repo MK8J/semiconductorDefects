@@ -1,0 +1,15 @@
+{
+    "Title": "Cobalt related defect levels in silicon analyzed by temperature- and injection-dependent lifetime spectroscopy",
+    "Measurement technique": "LS-TI",
+    "Comments": "An investigation of the temperature dependence of the capture cross section for electrons suggests that the underlying recombination process of the defect in the lower band gap half is driven by a two stage cascade capture with an activation energy of E = 52 +- 2 meV.",
+    "DOI": "10.1063/1.2433743",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ev+0.41",
+        "&delta;E<sub>d</sub>": 0.02,
+        "&sigma;<sub>e</sub>": "8e-17",
+        "&sigma;<sub>h</sub>": "5e-18",
+        "k": "16.0",
+        "&delta;k": 3
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Co/Co__d.srh"
+}

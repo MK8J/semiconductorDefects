@@ -1,0 +1,12 @@
+{
+    "Title": "Energy Levels in Silicon",
+    "Comments": "this is the E center, but can also be other Group VA atoms.",
+    "DOI": "10.1146/annurev.ms.10.080180.001105",
+    "Sample": {
+        "incorporation": "ion implantation"
+    },
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ec-0.44"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Si/SiP_v-_a.srh"
+}

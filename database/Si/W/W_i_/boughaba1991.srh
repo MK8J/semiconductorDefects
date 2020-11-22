@@ -1,0 +1,33 @@
+{
+    "DLTS_params": {
+        "t1": "138.8",
+        "t2": "150.5",
+        "t3": "164.2",
+        "t4": "180.5",
+        "inter": "50000000.0",
+        "Ed_a": "0.33"
+    },
+    "Title": "Deep level transient spectroscopy characterization of tungsten\u2010related deep levels in silicon",
+    "Measurement technique": "DLTS-F",
+    "DOI": "10.1063/1.347708",
+    "Sample": {
+        "growth": "CZ, FZ",
+        "dopant": "boron",
+        "incorporation": "thermal",
+        "resistivity": 100
+    },
+    "Measurement details": {
+        "T": 170,
+        "Ur": 3,
+        "Up": 0,
+        "Rw": "5 ms"
+    },
+    "Rates": {
+        "e<sub>h</sub>": "5e7*T^2*exp(-0.33/kT)"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.33",
+        "&sigma;<sub>h,a</sub>": 1.2e-14
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/W/W_i_.srh"
+}

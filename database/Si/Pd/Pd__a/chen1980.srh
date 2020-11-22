@@ -1,0 +1,11 @@
+{
+    "Title": "Energy Levels in Silicon",
+    "Comments": "Assumed thermal velocity of 1.7e7",
+    "DOI": "10.1146/annurev.ms.10.080180.001105",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ev+0.325",
+        "&delta;E<sub>d</sub>": 0.005,
+        "&sigma;<sub>h</sub>": "0.000000075/1.7e7"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Pd/Pd__a.srh"
+}

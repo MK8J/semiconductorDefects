@@ -1,0 +1,12 @@
+{
+    "linked": "Pt_s_a.srh",
+    "Title": "Energy Levels in Silicon",
+    "Measurement technique": "review",
+    "DOI": "10.1146/annurev.ms.10.080180.001105",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ec-0.23",
+        "&sigma;<sub>e</sub>": "6.30E-15",
+        "&sigma;<sub>h</sub>": "5.15E-15"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Pt/Pt__a.srh"
+}

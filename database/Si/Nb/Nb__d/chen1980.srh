@@ -1,0 +1,9 @@
+{
+    "Title": "Energy Levels in Silicon",
+    "Comments": "Review paper. This maybe Ev+0.4, it is written in two different locations differently.",
+    "DOI": "10.1146/annurev.ms.10.080180.001105",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ec-0.4"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Nb/Nb__d.srh"
+}

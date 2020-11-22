@@ -1,0 +1,17 @@
+{
+    "ISSN": "0091-391X",
+    "linked": "BCr_s-i_d.srh",
+    "Title": "The behavior of transition and noble metals in silicon crystals",
+    "Measurement technique": "DLTS-Cr",
+    "Sample": {
+        "growth": "FZ, CZ",
+        "dopant": "boron",
+        "incorporation": "thermal",
+        "resistivity": "1-100"
+    },
+    "Measured parameters": {
+        "E<sub>d,h</sub>": "Ev+0.29",
+        "&sigma;<sub>h,a</sub>": 8e-19
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/B/BCr_-_.srh"
+}

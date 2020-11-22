@@ -1,0 +1,26 @@
+{
+    "ISSN": "0091-391X",
+    "linked": "V_i_d.srh",
+    "DLTS_params": {
+        "t1": "166.3",
+        "t2": "178.3",
+        "t3": "192.2",
+        "t4": "208.3",
+        "inter": "2920000000.0",
+        "Ed_a": "0.459"
+    },
+    "Title": "The behavior of transition and noble metals in silicon crystals",
+    "Measurement technique": "DLTS-Cr",
+    "Sample": {
+        "growth": "FZ, CZ",
+        "dopant": "phosphorus",
+        "incorporation": "thermal",
+        "resistivity": "1-100"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.46",
+        "&sigma;<sub>e,a</sub>": 5e-13,
+        "&delta;&sigma;<sub>ea</sub>": 5e-13
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/V/V__d.srh"
+}

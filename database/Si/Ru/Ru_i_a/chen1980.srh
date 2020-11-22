@@ -1,0 +1,14 @@
+{
+    "linked": "Ru_i_a.srh",
+    "Title": "Energy Levels in Silicon",
+    "Measurement technique": "review",
+    "Comments": "At 77K, different crystal site from the other Ru defect by chen1980",
+    "DOI": "10.1146/annurev.ms.10.080180.001105",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ec-0.2",
+        "&delta;E<sub>d</sub>": 0.02,
+        "&sigma;<sub>e</sub>": "8.00E-16",
+        "&sigma;<sub>h</sub>": "4.45E-15"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ru/Ru__a.srh"
+}

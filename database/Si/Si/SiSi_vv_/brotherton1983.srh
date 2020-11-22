@@ -1,0 +1,26 @@
+{
+    "DLTS_params": {
+        "t1": "99.4",
+        "t2": "109.2",
+        "t3": "120.9",
+        "t4": "135.4",
+        "inter": "1900000.0",
+        "Ed_a": "0.203"
+    },
+    "Title": "Photoionization cross section of electron irradiation induced levels in silicon",
+    "Measurement technique": "DLTS, CV-O",
+    "Comments": "Measured other levels but it is unknown what they are",
+    "DOI": "10.1063/1.332732",
+    "Sample": {
+        "growth": "FZ, CZ",
+        "dopant": "boron",
+        "incorporation": "irradiation",
+        "resistivity": "66, 125, 7-10"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.204",
+        "&sigma;<sub>h,a</sub>": "4E-16",
+        "&delta;&sigma;<sub>ha</sub>": 6e-17
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Si/SiSi_v-v_.srh"
+}

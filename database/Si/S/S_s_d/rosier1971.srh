@@ -1,0 +1,17 @@
+{
+    "Title": "Thermal emission and capture of electrons at sulfur centers in silicon",
+    "Measurement technique": "DLTS, DC-TI",
+    "Comments": "Thermal emission rate of: 1.63e10(T/300)^2. Capture rates are also provided",
+    "DOI": "10.1016/0038-1101(71)90047-5",
+    "Sample": {
+        "growth": "CZ",
+        "dopant": "phosphorus",
+        "incorporation": "thermal",
+        "resistivity": "5"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.275",
+        "&delta;E<sub>d,a</sub>": 0.015
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/S/S_s_d.srh"
+}

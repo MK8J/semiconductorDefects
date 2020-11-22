@@ -1,0 +1,10 @@
+{
+    "Title": "Impurities in silicon solar cells",
+    "Measurement technique": "DLTS, SCP",
+    "DOI": "10.1109/T-ED.1980.19922",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.4",
+        "&delta;E<sub>d,a</sub>": 0.02
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Mn/Mn__.srh"
+}

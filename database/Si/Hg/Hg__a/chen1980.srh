@@ -1,0 +1,9 @@
+{
+    "Title": "Energy Levels in Silicon",
+    "Measurement technique": "review",
+    "DOI": "10.1146/annurev.ms.10.080180.001105",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ec-0.31"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Hg/Hg__a.srh"
+}

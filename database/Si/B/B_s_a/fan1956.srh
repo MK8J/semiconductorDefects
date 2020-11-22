@@ -1,0 +1,11 @@
+{
+    "linked": "B_s_a.srh",
+    "Title": "Infra-red Absorption in Semiconductors",
+    "Measurement technique": "review, infrared absorption",
+    "Comments": "Agrees well with thermal values of 0.045 eV. Data showed a broad peak, so the hydrogenic model was used. The integrated absorption cross sections for these excitation bands differ considerably from those for the hydrogenic model.",
+    "DOI": "10.1088/0034-4885/19/1/304",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ev+0.046"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/B/B__.srh"
+}

@@ -1,0 +1,26 @@
+{
+    "DLTS_params": {
+        "t1": "180.3",
+        "t2": "195.5",
+        "t3": "213.3",
+        "t4": "234.6",
+        "inter": "28700000.0",
+        "Ed_a": "0.428"
+    },
+    "Title": "Impurities in silicon solar cells",
+    "Measurement technique": "DLTS, SCP",
+    "DOI": "10.1109/T-ED.1980.19922",
+    "Sample": {
+        "growth": "CZ",
+        "dopant": "boron, phosphorus",
+        "incorporation": "melt"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.43",
+        "&delta;E<sub>d,a</sub>": 0.05,
+        "&sigma;<sub>e,a</sub>": 1.4e-14,
+        "&sigma;<sub>h,a</sub>": 5.7e-15,
+        "k": 2.5
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Al/Al__.srh"
+}

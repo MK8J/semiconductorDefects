@@ -1,0 +1,13 @@
+{
+    "Title": "Energy Levels in Silicon",
+    "Measurement technique": "review",
+    "Comments": "Apparent donor",
+    "DOI": "10.1146/annurev.ms.10.080180.001105",
+    "Sample": {
+        "incorporation": "ion implantation"
+    },
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ec-0.24"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Bi/Bi__d.srh"
+}

@@ -1,0 +1,10 @@
+{
+    "Title": "Energy Levels in Silicon",
+    "Measurement technique": "DLTS, Hall",
+    "Comments": "Review paper.",
+    "DOI": "10.1146/annurev.ms.10.080180.001105",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.49"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/V/V__a.srh"
+}

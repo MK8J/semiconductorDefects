@@ -1,0 +1,23 @@
+{
+    "linked": "Rh_s_d.srh",
+    "DLTS_params": {
+        "t1": "227.5",
+        "t2": "245.1",
+        "t3": "265.5",
+        "t4": "289.5",
+        "inter": "207000000.0",
+        "Ed_a": "0.588"
+    },
+    "Title": "Rhodium and iridium as deep impurities in silicon",
+    "Measurement technique": "DLTS, Hall",
+    "Comments": "Value only from DLTS",
+    "DOI": "10.1016/0038-1101(76)90087-3",
+    "Sample": {
+        "incorporation": "thermal"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.59",
+        "&sigma;<sub>e,a</sub>": 3.6000000000000004e-14
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Rh/Rh__d.srh"
+}

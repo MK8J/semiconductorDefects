@@ -1,0 +1,15 @@
+{
+    "Title": "Photoelectronic Properties of Zinc Impurity in Silicon centers in silicon",
+    "Measurement technique": "PC-S,TS-I, LS-TM, Hall",
+    "DOI": "10.1103/PhysRevB.6.1328",
+    "Sample": {
+        "growth": "FZ",
+        "dopant": "phosphorus",
+        "incorporation": "thermal"
+    },
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ev+0.31",
+        "&sigma;<sub>e</sub>": "1e-20*(1+ 90*exp(-0.040/kT))"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Zn/Zn_s_a.srh"
+}

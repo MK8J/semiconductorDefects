@@ -1,0 +1,17 @@
+{
+    "Title": "Diffusion and electrical properties of 3d transition-metal impurity series in silicon",
+    "Measurement technique": "DLTS",
+    "DOI": "10.4028/www.scientific.net/MSF.143-147.761",
+    "Sample": {
+        "growth": "FZ",
+        "dopant": "boron",
+        "incorporation": "thermal",
+        "resistivity": 10
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.438",
+        "E<sub>d,h</sub>": "Ev+0.40",
+        "&sigma;<sub>h</sub>": "1.8e-16*exp(-0.038/k/T)"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/Fe_i_d.srh"
+}

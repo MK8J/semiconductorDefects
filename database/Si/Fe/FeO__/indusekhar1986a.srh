@@ -1,0 +1,28 @@
+{
+    "linked": "FeO_-_.srh",
+    "DLTS_params": {
+        "t1": "189.4",
+        "t2": "204.2",
+        "t3": "221.5",
+        "t4": "241.8",
+        "inter": "200000000.0",
+        "Ed_a": "0.483"
+    },
+    "Title": "Properties of iron related quenched-in levels in p-silicon",
+    "Measurement technique": "DLTS-Cr",
+    "Comments": "the emission rate of holes was digitized from a graph. It differs from the quoted activation energy in the paper. This emission rate is very different from that of interstitial iron, also the instabilities were note seen.",
+    "DOI": "10.1002/pssa.2210950134",
+    "Sample": {
+        "growth": "CZ",
+        "dopant": "boron"
+    },
+    "Rates": {
+        "e<sub>h</sub>": "2e8*T^2 * exp(-0.483/kT)"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.46",
+        "E<sub>d,h</sub>": "Ev+0.42",
+        "&sigma;<sub>h</sub>": "6.8e-16*exp(-0.04/kT)"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/Fe__.srh"
+}

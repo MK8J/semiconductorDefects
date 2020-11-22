@@ -1,0 +1,19 @@
+{
+    "DLTS_params": {
+        "t1": "231.0",
+        "t2": "253.3",
+        "t3": "280.3",
+        "t4": "313.4",
+        "inter": "478000.0",
+        "Ed_a": "0.477"
+    },
+    "Title": "New Developments in Defect Studies in Semiconductors",
+    "Measurement technique": "DLTS, EPR",
+    "Comments": "Out at 473K. Min value for sigma",
+    "DOI": "10.1109/TNS.1976.4328529",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.48",
+        "&sigma;<sub>h,a</sub>": "1e-16"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Si/SiAl_v-_d.srh"
+}

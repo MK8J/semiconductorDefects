@@ -1,0 +1,11 @@
+{
+    "Title": "Metal impurities in silicon-device fabrication",
+    "Measurement technique": "review, DLTS",
+    "Comments": "Taken from table 1 in the appendix and equation 4.5.",
+    "DOI": "10.1007/978-3-642-97593-6",
+    "Measured parameters": {
+        "E<sub>d,h</sub>": "Ev+0.38",
+        "&sigma;<sub>h</sub>": "3E-16 * exp(-0.05/kT)"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/Fe_i_d.srh"
+}

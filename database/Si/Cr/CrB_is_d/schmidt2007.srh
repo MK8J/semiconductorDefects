@@ -1,0 +1,20 @@
+{
+    "DLTS_params": {
+        "t1": "118.6",
+        "t2": "128.7",
+        "t3": "140.6",
+        "t4": "154.8",
+        "inter": "50100000.0",
+        "Ed_a": "0.279"
+    },
+    "Title": "Recombination activity of interstitial chromium and chromium-boron pairs in silicon",
+    "Measurement technique": "DLTS, LS-TI",
+    "Comments": "Capture cross sections were found to be independent of temperature",
+    "DOI": "10.1063/1.2822452",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.28",
+        "&sigma;<sub>e,a</sub>": "5e-15",
+        "&sigma;<sub>h,a</sub>": "1e-14"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/B/BCr_s-i_d.srh"
+}

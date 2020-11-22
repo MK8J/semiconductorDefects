@@ -1,0 +1,10 @@
+{
+    "Title": "Temperature- and injection-dependent lifetime spectroscopy of copper-related defects in silicon",
+    "Measurement technique": "LS-TI",
+    "ISBN": "4-9901816-0-3",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ec-0.2",
+        "k": 0.015
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cu/Cu_p_.srh"
+}

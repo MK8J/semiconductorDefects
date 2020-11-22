@@ -1,0 +1,16 @@
+{
+    "linked": "Au_s_a.srh",
+    "Title": "Fast transient capacitance measurements for implanted deep levels in silicon",
+    "Measurement technique": "DLTS-Cr",
+    "Comments": "Evaluated at 295 K, had a gold level higher than the doping.",
+    "DOI": "10.1007/BF00883667",
+    "Measurement details": {
+        "T": "295 K"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.54",
+        "E<sub>d,h</sub>": "Ec-0.54",
+        "&sigma;<sub>e</sub>": 2.18e-15
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au__a.srh"
+}

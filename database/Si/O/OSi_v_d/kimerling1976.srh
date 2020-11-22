@@ -1,0 +1,19 @@
+{
+    "DLTS_params": {
+        "t1": "36.9",
+        "t2": "40.3",
+        "t3": "44.4",
+        "t4": "49.4",
+        "inter": "54300000.0",
+        "Ed_a": "0.08"
+    },
+    "Title": "New Developments in Defect Studies in Semiconductors",
+    "Measurement technique": "DLTS, EPR",
+    "Comments": "Out at 623K",
+    "DOI": "10.1109/TNS.1976.4328529",
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.08",
+        "&sigma;<sub>e,a</sub>": "1e-14"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Si/SiO_v-_d.srh"
+}

@@ -1,0 +1,9 @@
+{
+    "Title": "Transition metals in silicon",
+    "Measurement technique": "review",
+    "DOI": "10.1007/BF00617708",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ev+0.3"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/V/V_i_dd.srh"
+}

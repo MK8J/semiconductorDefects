@@ -1,0 +1,11 @@
+{
+    "Title": "Energy Levels in Silicon",
+    "Comments": "Different values achieved from depletion layer thermionic messions",
+    "DOI": "10.1146/annurev.ms.10.080180.001105",
+    "Measured parameters": {
+        "E<sub>d</sub>": "Ec-0.35",
+        "&delta;E<sub>d</sub>": 0.05,
+        "&sigma;<sub>h</sub>": "1.00E-17"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ir/Ir_i_.srh"
+}

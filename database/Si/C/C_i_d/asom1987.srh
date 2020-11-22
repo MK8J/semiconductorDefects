@@ -1,0 +1,13 @@
+{
+    "Title": "Interstitial defect reactions in silicon",
+    "Measurement technique": "DLTS-Me, EPR",
+    "Comments": "States is ending conjecture over energy levels.",
+    "DOI": "10.1063/1.98465",
+    "Measurement details": {
+        "T": "150 K"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ev+0.27"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/C/C_i_d.srh"
+}

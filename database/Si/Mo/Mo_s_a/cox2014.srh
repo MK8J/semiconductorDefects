@@ -1,0 +1,26 @@
+{
+    "DLTS_params": {
+        "t1": "123.1",
+        "t2": "135.1",
+        "t3": "149.5",
+        "t4": "167.2",
+        "inter": "1550000.0",
+        "Ed_a": "0.253"
+    },
+    "Title": "Detection of a Molybdenum Acceptor Level in N-Type Silicon",
+    "Measurement technique": "DLTS-Cr",
+    "Comments": "Claims that is a substitutionary site. This work explains some values from Hamaguchi1991 and some unpublished work from K. Mishra at SunEdison Semiconductor Ltd. This might also also explain the values of Paudyal2010. The emission rate is field dependent.",
+    "DOI": "10.1149/2.0081412jss",
+    "Sample": {
+        "growth": "epi"
+    },
+    "Measured parameters": {
+        "E<sub>d,a</sub>": "Ec-0.255",
+        "&delta;E<sub>d,a</sub>": 0.004,
+        "E<sub>d,h</sub>": "Ec-0.269",
+        "E<sub>d</sub>": "0.269-9.62e-5*T",
+        "&sigma;<sub>e,a</sub>": 2.9e-16,
+        "&sigma;<sub>e</sub>": "1.15e-16*exp(-0.014/kT)"
+    },
+    "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Mo/Mo_s_a.srh"
+}
