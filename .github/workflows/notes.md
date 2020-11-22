@@ -14,6 +14,7 @@ Limitation
 # Current process
 
 Occurs locally:
+0. Removes everything in Database/Si. 
 1. Merge master into github actions. All or Diff, doesn't matter. Currently doing all. 
 2. Run script yaml2json.py:
 	* it recognises the master files (from file path), and gets their info

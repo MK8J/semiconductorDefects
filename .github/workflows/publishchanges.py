@@ -109,14 +109,14 @@ def add_data(path):
 
 
 for deletion in deletions:
-    print("deleting " + deletion[1])
+    print("deleting " + deletion[1], end=(', '))
     deleteRequest = requests.delete(basePath + "/" + deletion[1],
                                     headers=headers)
     handleHttpResponse(deleteRequest, "Could not delete " + deletion[1])
 
 
 for rename in renames:
-    print("renaming " + rename[1] + " to " + rename[2])
+    print("renaming " + rename[1] + " to " + rename[2], end=(', '))
     defect = add_data(rename[2])
     # need to build the json here
     renameRequest = requests.put(basePath + "/" + rename[1],
@@ -125,13 +125,10 @@ for rename in renames:
     handleHttpResponse(renameRequest, "Could not rename " + rename[1])
 
 for modification in modifications:
-    print("updating " + modification[1])
+    print("updating " + modification[1], end=(', '))
     defect = add_data(modification[1])
 
 
-    print('\t',type(defect.JSONData))
-    print('\t', defect.JSONData)
-    print(json.dumps(defect.__dict__))
     updateRequest = requests.put(basePath + "/" + modification[1],
                                   data=json.dumps(defect.__dict__),
                                   headers=headers)
@@ -139,11 +136,9 @@ for modification in modifications:
 
 
 for addition in additions:
-    print("adding " + addition[1])
+    print("adding " + addition[1], end=(', '))
     defect = add_data(addition[1])
 
-    print('\t',type(defect.JSONData))
-    print('\t', defect.__dict__)
 
     #commented out to stop sending data ATM
     additionRequest = requests.post(basePath, json.dumps(defect.__dict__), headers=headers)
