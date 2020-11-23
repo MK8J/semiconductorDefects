@@ -30,8 +30,6 @@ yarykin2019:
     dopant: phosphorus
     incorporation: thermal
     resistivity: 0.5
-  rates:
-    e_h: 1.99e8 * T^2 * exp(-0.97/kT)
   params:
     Ed_a: Ec-0.226
     Ed_h: Ec-0.252
