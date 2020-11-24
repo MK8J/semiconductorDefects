@@ -12,3 +12,9 @@ images/**
 *.py
 __pycashe__
 *.ipynb_checkpoints/**
+__*
+*.bat
+*missing*
+*xlsx
+*.github
+private*
