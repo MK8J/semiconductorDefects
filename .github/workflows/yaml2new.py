@@ -199,7 +199,6 @@ def yaml2json(commit=True):
     # in this branch they are index by what we know they are
     # while in the other it is by what they were published as
     for fname in glob.glob('./database/*/*/*.srh'):
-
         folder = fname.replace('.srh', '')
         removeEditedFiles(folder)
 
