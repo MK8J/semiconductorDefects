@@ -70,11 +70,11 @@ lemke1986:
     dopant: boron, phosphorus
     incorporation: thermal
     resistivity: 50,20
+  rates:
+    c_h: 1e-8
   measurement_data:
     T: 141.1,152.4,165.7,181.4
     e: 1,10,100,1000
-  rates:
-    c_h: 1e-8
   params:
     Ed_a: Ev+0.39
 

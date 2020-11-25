@@ -1,0 +1,132 @@
+
+yau1974:
+  title: Quenched-in centers in silicon p+n junctions
+  DOI: 10.1016/0038-1101(74)90067-7
+  measurement_technique: DLTS-Cr, TS-C
+  comments: Defects quenched after temp >1200 deg. The two levels appear to be due
+    to the same center and are very stable at room temperature. Have a strong field
+    dependence. Capture rate measured at one temperature. One year later sah1975 said
+    that this was not actual a quenched in defect but caused by heavily diffused surfaces.
+  sample:
+    growth: CZ
+    dopant: phosphorus
+    incorporation: thermal
+    resistivity: 8
+  params:
+    Ed_a: Ec-0.264
+    dEd_a: 0.003
+
+yau1974_1:
+  title: Quenched-in centers in silicon p+n junctions
+  DOI: 10.1016/0038-1101(74)90067-7
+  measurement_technique: DLTS-Cr, TS-C
+  comments: Defects quenched after temp >1200 deg. The two levels appear to be due
+    to the same center and are very stable at room temperature. Have a strong field
+    dependence. Capture rate measured at one temperature.  One year later sah1975
+    said that this was not actual a quenched in defect but caused by heavily diffused
+    surfaces.
+  sample:
+    growth: CZ
+    dopant: phosphorus
+    incorporation: thermal
+    resistivity: 8
+  params:
+    Ed_a: Ec-0.542
+    dEd_a: 0.004
+
+yau1974_2:
+  title: Quenched-in centers in silicon p+n junctions
+  DOI: 10.1016/0038-1101(74)90067-7
+  measurement_technique: DLTS-MeCr, TS-C
+  comments: Defects quenched after temp >1200 deg. The two levels appear to be due
+    to the same center and are very stable at room temperature. Have a strong field
+    dependence. Capture rate measured at one temperature.  One year later sah1975
+    said that this was not actual a quenched in defect but caused by heavily diffused
+    surfaces.
+  sample:
+    growth: CZ
+    dopant: phosphorus
+    incorporation: thermal
+    resistivity: 8
+  params:
+    Ed_a: Ev+0.585
+    dEd_a: 0.005
+
+sah1975:
+  title: "Experiments on the origin of process\u2212induced recombination centers\
+    \ in silicon"
+  DOI: 10.1063/1.321758
+  measurement_technique: DLTS
+  comments: "Defects quenched after temp >1200 deg. Occurs from strained or disordered\
+    \ surface laye!' and diffuse rapidly into silicon above 1100\xB0C to give a nearly\
+    \ constant defect concentration. Doesn't happen for polished samples."
+  sample:
+    growth: CZ
+    dopant: phosphorus
+    incorporation: thermal
+    resistivity: 8
+  params:
+    Ed_a: Ec-0.276
+    dEd_a: 0.006
+
+sah1975_1:
+  title: "Experiments on the origin of process\u2212induced recombination centers\
+    \ in silicon"
+  DOI: 10.1063/1.321758
+  measurement_technique: DLTS
+  comments: "Defects quenched after temp >1200 deg. Occurs from strained or disordered\
+    \ surface laye!' and diffuse rapidly into silicon above 1100\xB0C to give a nearly\
+    \ constant defect concentration. Doesn't happen for polished samples."
+  sample:
+    growth: CZ
+    dopant: phosphorus
+    incorporation: thermal
+    resistivity: 8
+  params:
+    Ed_a: Ec-0.5382
+    dEd_a: 0.0105
+
+astrova1998:
+  title: Process induced deep-level defects in high purity silicon
+  DOI: 10.1088/0268-1242/13/5/008
+  measurement_technique: DLTS
+  comments: Diffusions done with phosphorus, boron, aluminum, gallium. Only did slow
+    cooling.
+  sample:
+    growth: FZ
+    dopant: phosphorus, boron
+    incorporation: thermal
+    resistivity: 250-300
+  params:
+    Ed_a: Ec-0.28
+    sigma_ea: 4e-17
+
+astrova1998_1:
+  title: Process induced deep-level defects in high purity silicon
+  DOI: 10.1088/0268-1242/13/5/008
+  measurement_technique: DLTS
+  comments: Diffusions done with phosphorus, boron, aluminum, gallium. Only did slow
+    cooling.
+  sample:
+    growth: FZ
+    dopant: phosphorus, boron
+    incorporation: thermal
+    resistivity: 250-300
+  params:
+    Ed_a: Ec-0.54
+    sigma_ea: 1e-15
+
+astrova1998_2:
+  title: Process induced deep-level defects in high purity silicon
+  DOI: 10.1088/0268-1242/13/5/008
+  measurement_technique: DLTS
+  comments: Diffusions done with phosphorus, boron, aluminum, gallium. Only did slow
+    cooling.
+  sample:
+    growth: FZ
+    dopant: phosphorus, boron
+    incorporation: thermal
+    resistivity: 250-300
+  params:
+    Ed_a: Ec-0.34
+    sigma_ea: 6e-14

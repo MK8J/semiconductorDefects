@@ -25,7 +25,7 @@ yau1972:
     dopant: boron, phosphorus
     incorporation: thermal
   rates:
-    e_e: 0.301e13 * (T/300)^2 * exp(-0.544/kT) 
+    e_e: 0.301e13 * (T/300)^2 * exp(-0.544/kT)
   params:
     Ed_a: Ec-0.544
     dEd_a: 0.002
@@ -83,7 +83,7 @@ lemke1986:
     incorporation: thermal
     resistivity: 50,20
   rates:
-    c_e: 1.3e-9
+    c_e: 1.3e-09
   params:
     Ed_a: Ec-0.57
 

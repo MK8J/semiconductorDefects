@@ -43,7 +43,8 @@ pugnet1976:
     sigma_ea: 3.9e-14
 
 pearton1983:
-  title: "Palladium‐ and platinum‐related levels in silicon: Effect of a hydrogen plasma"
+  title: "Palladium\u2010 and platinum\u2010related levels in silicon: Effect of a\
+    \ hydrogen plasma"
   DOI: 10.1063/1.332398
   measurement_technique: DLTS
   sample:
