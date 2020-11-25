@@ -13,10 +13,10 @@
     "DOI": "10.1007/978-3-642-97593-6",
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.24",
-        "&sigma;<sub>e,a</sub>": "267e-14",
-        "&delta;&sigma;<sub>ea</sub>": "263e-14",
-        "&sigma;<sub>h,a</sub>": 2.65e-14,
-        "&delta;&sigma;<sub>ha</sub>": 2.35e-14
+        "&#963;<sub>e,a</sub>": "267e-14",
+        "&#948;&sigma;<sub>ea</sub>": "263e-14",
+        "&#963;<sub>h,a</sub>": 2.65e-14,
+        "&#948;&sigma;<sub>ha</sub>": 2.35e-14
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Pt/Pt_s_a.srh"
 }

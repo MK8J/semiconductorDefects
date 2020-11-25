@@ -17,8 +17,8 @@
     },
     "Measured parameters": {
         "E<sub>d</sub>": "Ec-0.16",
-        "&sigma;<sub>e</sub>": "3E-15",
-        "&delta;&sigma;<sub>e</sub>": 1.9999999999999998e-15
+        "&#963;<sub>e</sub>": "3E-15",
+        "&#948;&sigma;<sub>e</sub>": 1.9999999999999998e-15
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/H/HC_i-s_.srh"
 }

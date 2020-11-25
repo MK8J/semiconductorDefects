@@ -25,9 +25,9 @@
     },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ev+0.664",
-        "&delta;E<sub>d,a</sub>": 0.001,
-        "&sigma;<sub>e</sub>": 9.6e-20,
-        "&sigma;<sub>h</sub>": 3.55e-15
+        "&#948;E<sub>d,a</sub>": 0.001,
+        "&#963;<sub>e</sub>": 9.6e-20,
+        "&#963;<sub>h</sub>": 3.55e-15
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Zn/Zn_s_aa.srh"
 }

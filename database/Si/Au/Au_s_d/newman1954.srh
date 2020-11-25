@@ -5,7 +5,7 @@
     "DOI": "10.1103/PhysRev.94.1530",
     "Measured parameters": {
         "E<sub>d</sub>": "Ev+0.325",
-        "&delta;E<sub>d</sub>": 0.005
+        "&#948;E<sub>d</sub>": 0.005
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au_s_d.srh"
 }

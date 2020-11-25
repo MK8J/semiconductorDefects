@@ -4,7 +4,7 @@
     "Comments": "1.1-4.2K,the thermal velocity assumed here is incorrect",
     "DOI": "10.1016/0025-5416(68)90036-0",
     "Measured parameters": {
-        "&sigma;<sub>e</sub>": "0.00000008/1e7"
+        "&#963;<sub>e</sub>": "0.00000008/1e7"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/In/In__a.srh"
 }

@@ -5,7 +5,7 @@
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.79",
         "E<sub>d,h</sub>": "Ec-0.68",
-        "&delta;E<sub>d,h</sub>": 0.08
+        "&#948;E<sub>d,h</sub>": 0.08
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/H/HO_i-i_a.srh"
 }

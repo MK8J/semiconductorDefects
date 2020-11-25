@@ -9,7 +9,7 @@
     },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ev+0.33",
-        "&sigma;<sub>h</sub>": 1.0000000000000001e-20
+        "&#963;<sub>h</sub>": 1.0000000000000001e-20
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ni/Ni__.srh"
 }

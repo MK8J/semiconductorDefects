@@ -5,7 +5,7 @@
     "DOI": "10.1007/978-3-642-57121-3",
     "Measured parameters": {
         "E<sub>d,h</sub>": "Ec-0.22",
-        "&sigma;<sub>e</sub>": 2.2e-17
+        "&#963;<sub>e</sub>": 2.2e-17
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ta/Ta_i_a.srh"
 }

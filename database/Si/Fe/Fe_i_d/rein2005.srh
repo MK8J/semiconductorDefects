@@ -5,10 +5,10 @@
     "DOI": "10.1063/1.2106017",
     "Measured parameters": {
         "E<sub>d</sub>": "Ev+0.394",
-        "&delta;E<sub>d</sub>": 0.005,
-        "&sigma;<sub>e</sub>": "9.1e-15 * exp(-0.024/kT)",
+        "&#948;E<sub>d</sub>": 0.005,
+        "&#963;<sub>e</sub>": "9.1e-15 * exp(-0.024/kT)",
         "k": "51.0",
-        "&delta;k": 5
+        "&#948;k": 5
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/Fe_i_d.srh"
 }

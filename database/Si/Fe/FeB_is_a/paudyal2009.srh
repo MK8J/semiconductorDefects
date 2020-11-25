@@ -3,8 +3,8 @@
     "Measurement technique": "LS-IT",
     "DOI": "10.1109/PVSC.2009.5411380",
     "Measured parameters": {
-        "&sigma;<sub>e</sub>": "5.1e-9 * T^(-2.5)",
-        "&sigma;<sub>h</sub>": "3.32e-11 * exp(-0.262/kT)"
+        "&#963;<sub>e</sub>": "5.1e-9 * T^(-2.5)",
+        "&#963;<sub>h</sub>": "3.32e-11 * exp(-0.262/kT)"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/FeB_i-s_a.srh"
 }

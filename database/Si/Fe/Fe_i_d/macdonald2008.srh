@@ -4,7 +4,7 @@
     "Comments": "Performed at room temperature",
     "DOI": "10.1063/1.2903895",
     "Measured parameters": {
-        "&sigma;<sub>e</sub>": 1.3e-14
+        "&#963;<sub>e</sub>": 1.3e-14
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/Fe_i_d.srh"
 }

@@ -11,7 +11,7 @@
         "E<sub>d,a</sub>": "Ev+0.292",
         "E<sub>d,h</sub>": "Ev+0.296",
         "E<sub>d</sub>": "Ev+0.296 + 2.7e-5*T",
-        "&sigma;<sub>h</sub>": "8.38E-16 * exp(0.004/kT)"
+        "&#963;<sub>h</sub>": "8.38E-16 * exp(0.004/kT)"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Mo/Mo_i_d.srh"
 }

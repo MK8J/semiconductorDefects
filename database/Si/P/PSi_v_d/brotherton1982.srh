@@ -16,8 +16,8 @@
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.456",
         "E<sub>d,h</sub>": "Ec-0.456",
-        "&sigma;<sub>e</sub>": "3.70E-15",
-        "&delta;&sigma;<sub>e</sub>": "2.00E-16"
+        "&#963;<sub>e</sub>": "3.70E-15",
+        "&#948;&sigma;<sub>e</sub>": "2.00E-16"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Si/SiP_v-_d.srh"
 }

@@ -15,7 +15,7 @@
     },
     "Measured parameters": {
         "E<sub>d</sub>": "Ec-0.558",
-        "&sigma;<sub>e</sub>": "1e-16"
+        "&#963;<sub>e</sub>": "1e-16"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au_s_a.srh"
 }

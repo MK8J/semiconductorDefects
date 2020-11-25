@@ -14,7 +14,7 @@
     },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ev+0.370",
-        "&delta;E<sub>d,a</sub>": 0.004
+        "&#948;E<sub>d,a</sub>": 0.004
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ag/Ag__d.srh"
 }

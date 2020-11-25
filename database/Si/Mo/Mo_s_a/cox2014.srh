@@ -16,11 +16,11 @@
     },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.255",
-        "&delta;E<sub>d,a</sub>": 0.004,
+        "&#948;E<sub>d,a</sub>": 0.004,
         "E<sub>d,h</sub>": "Ec-0.269",
         "E<sub>d</sub>": "0.269-9.62e-5*T",
-        "&sigma;<sub>e,a</sub>": 2.9e-16,
-        "&sigma;<sub>e</sub>": "1.15e-16*exp(-0.014/kT)"
+        "&#963;<sub>e,a</sub>": 2.9e-16,
+        "&#963;<sub>e</sub>": "1.15e-16*exp(-0.014/kT)"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Mo/Mo_s_a.srh"
 }

@@ -5,8 +5,8 @@
     "DOI": "10.1007/978-3-642-57121-3",
     "Measured parameters": {
         "E<sub>d,h</sub>": "Ec-0.27",
-        "&delta;E<sub>d,h</sub>": 0.01,
-        "&sigma;<sub>e</sub>": "1.30E-14 * exp(-0.004/k/T)"
+        "&#948;E<sub>d,h</sub>": 0.01,
+        "&#963;<sub>e</sub>": "1.30E-14 * exp(-0.004/k/T)"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti_i_d.srh"
 }

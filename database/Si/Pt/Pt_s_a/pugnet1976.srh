@@ -15,8 +15,8 @@
     },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.242",
-        "&delta;E<sub>d,a</sub>": 0.002,
-        "&sigma;<sub>e,a</sub>": 3.9e-14
+        "&#948;E<sub>d,a</sub>": 0.002,
+        "&#963;<sub>e,a</sub>": 3.9e-14
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Pt/Pt_s_a.srh"
 }

@@ -14,7 +14,7 @@
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ev+0.47",
         "E<sub>d,h</sub>": "Ev+0.31",
-        "&sigma;<sub>h</sub>": "9.93e-22 * exp(0.0287 * T)"
+        "&#963;<sub>h</sub>": "9.93e-22 * exp(0.0287 * T)"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/V/V__dd.srh"
 }

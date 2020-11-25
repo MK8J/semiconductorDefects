@@ -13,7 +13,7 @@
     "DOI": "10.1007/978-3-642-57121-3",
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.43",
-        "&sigma;<sub>e,a</sub>": "9e-17"
+        "&#963;<sub>e,a</sub>": "9e-17"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Mn/Mn_s_a.srh"
 }

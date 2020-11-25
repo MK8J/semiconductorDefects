@@ -5,8 +5,8 @@
     "DOI": "10.1146/annurev.ms.10.080180.001105",
     "Measured parameters": {
         "E<sub>d</sub>": "Ev+0.32",
-        "&sigma;<sub>e</sub>": "1.56E-15",
-        "&sigma;<sub>h</sub>": "1.62E-15"
+        "&#963;<sub>e</sub>": "1.56E-15",
+        "&#963;<sub>h</sub>": "1.62E-15"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Pt/Pt__d.srh"
 }

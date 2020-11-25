@@ -11,7 +11,7 @@
     "Measured parameters": {
         "E<sub>d</sub>": "Ec-0.47",
         "k": 13.0,
-        "&delta;k": 6.0
+        "&#948;k": 6.0
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti__.srh"
 }

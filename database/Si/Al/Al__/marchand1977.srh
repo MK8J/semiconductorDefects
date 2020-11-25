@@ -21,7 +21,7 @@
     },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ev+0.2166",
-        "&sigma;<sub>h,a</sub>": "3e-21"
+        "&#963;<sub>h,a</sub>": "3e-21"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Al/Al__.srh"
 }

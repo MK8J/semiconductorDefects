@@ -11,7 +11,7 @@
         "E<sub>d,a</sub>": "Ec-0.077",
         "E<sub>d,h</sub>": "Ec-0.08",
         "E<sub>d</sub>": "Ec-(0.077-1.47e-4*T)",
-        "&sigma;<sub>e</sub>": "1.60E-15"
+        "&#963;<sub>e</sub>": "1.60E-15"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti_i_a.srh"
 }

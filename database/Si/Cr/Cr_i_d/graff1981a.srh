@@ -11,8 +11,8 @@
     },
     "Measured parameters": {
         "E<sub>d,h</sub>": "Ec-0.2",
-        "&sigma;<sub>e,a</sub>": 1.1e-12,
-        "&delta;&sigma;<sub>ea</sub>": "9e-13"
+        "&#963;<sub>e,a</sub>": 1.1e-12,
+        "&#948;&sigma;<sub>ea</sub>": "9e-13"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cr/Cr__d.srh"
 }

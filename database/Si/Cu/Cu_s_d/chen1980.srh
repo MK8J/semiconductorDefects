@@ -7,8 +7,8 @@
     },
     "Measured parameters": {
         "E<sub>d</sub>": "Ev+0.22",
-        "&sigma;<sub>e</sub>": 8.5e-14,
-        "&sigma;<sub>h</sub>": "3e-14"
+        "&#963;<sub>e</sub>": 8.5e-14,
+        "&#963;<sub>h</sub>": "3e-14"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cu/Cu_s_d.srh"
 }

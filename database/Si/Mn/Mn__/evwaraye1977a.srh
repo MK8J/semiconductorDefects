@@ -10,7 +10,7 @@
     },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ev+0.22",
-        "&sigma;<sub>e,a</sub>": 3.88e-16
+        "&#963;<sub>e,a</sub>": 3.88e-16
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Mn/Mn__.srh"
 }

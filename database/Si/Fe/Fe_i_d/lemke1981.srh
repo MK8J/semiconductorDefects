@@ -17,8 +17,8 @@
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ev+0.43",
         "E<sub>d,h</sub>": "Ev+0.39",
-        "&sigma;<sub>e</sub>": "1.03e-10*T^(-1.506)",
-        "&sigma;<sub>h</sub>": "7.86e-20*exp(0.0221*T)+1.78e-17"
+        "&#963;<sub>e</sub>": "1.03e-10*T^(-1.506)",
+        "&#963;<sub>h</sub>": "7.86e-20*exp(0.0221*T)+1.78e-17"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/Fe_i_d.srh"
 }

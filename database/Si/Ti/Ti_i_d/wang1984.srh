@@ -22,13 +22,13 @@
     },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.2666",
-        "&delta;E<sub>d,a</sub>": 0.0017,
+        "&#948;E<sub>d,a</sub>": 0.0017,
         "E<sub>d,h</sub>": "Ec-0.2705",
-        "&delta;E<sub>d,h</sub>": 0.0018,
-        "&sigma;<sub>e</sub>": "2.57e-14*exp(0.0039/k/T)",
-        "&delta;&sigma;<sub>e</sub>": 1.7e-15,
-        "&sigma;<sub>h</sub>": "1.35E-15",
-        "&delta;&sigma;<sub>h</sub>": 4e-17
+        "&#948;E<sub>d,h</sub>": 0.0018,
+        "&#963;<sub>e</sub>": "2.57e-14*exp(0.0039/k/T)",
+        "&#948;&sigma;<sub>e</sub>": 1.7e-15,
+        "&#963;<sub>h</sub>": "1.35E-15",
+        "&#948;&sigma;<sub>h</sub>": 4e-17
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti_i_d.srh"
 }

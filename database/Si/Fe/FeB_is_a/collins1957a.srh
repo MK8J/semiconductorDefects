@@ -10,7 +10,7 @@
     },
     "Measured parameters": {
         "E<sub>d</sub>": "Ec-0.55",
-        "&sigma;<sub>e,a</sub>": "15e-16"
+        "&#963;<sub>e,a</sub>": "15e-16"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/FeB_-_.srh"
 }

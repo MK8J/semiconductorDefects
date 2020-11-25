@@ -5,7 +5,7 @@
     "DOI": "10.1007/978-3-642-97593-6",
     "Measured parameters": {
         "E<sub>d,h</sub>": "Ec-0.22",
-        "&sigma;<sub>e</sub>": "6e-14 * exp(0)"
+        "&#963;<sub>e</sub>": "6e-14 * exp(0)"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cr/Cr_i_d.srh"
 }

@@ -5,9 +5,9 @@
     "DOI": "10.1063/1.3309833",
     "Measured parameters": {
         "E<sub>d</sub>": "Ev+0.375",
-        "&delta;E<sub>d</sub>": 0.03,
-        "&sigma;<sub>e</sub>": "4.21e-8*T^(-2.95)",
-        "&sigma;<sub>h</sub>": "6.05e-14*T^(-1.07)"
+        "&#948;E<sub>d</sub>": 0.03,
+        "&#963;<sub>e</sub>": "4.21e-8*T^(-2.95)",
+        "&#963;<sub>h</sub>": "6.05e-14*T^(-1.07)"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Mo/Mo_i_d.srh"
 }

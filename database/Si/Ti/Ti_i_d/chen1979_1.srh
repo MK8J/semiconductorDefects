@@ -13,8 +13,8 @@
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.26",
         "E<sub>d,h</sub>": "Ec-0.26",
-        "&sigma;<sub>e</sub>": "3.5e-15 * exp(-0/kT)",
-        "&delta;&sigma;<sub>e</sub>": "5e-16"
+        "&#963;<sub>e</sub>": "3.5e-15 * exp(-0/kT)",
+        "&#948;&sigma;<sub>e</sub>": "5e-16"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ti/Ti__d.srh"
 }

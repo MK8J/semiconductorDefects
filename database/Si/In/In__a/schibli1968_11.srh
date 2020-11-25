@@ -4,7 +4,7 @@
     "Comments": "78 K",
     "DOI": "10.1016/0025-5416(68)90036-0",
     "Measured parameters": {
-        "&sigma;<sub>h</sub>": "1.50E-06"
+        "&#963;<sub>h</sub>": "1.50E-06"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/In/In__a.srh"
 }

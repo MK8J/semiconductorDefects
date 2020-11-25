@@ -9,7 +9,7 @@
     },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ev+0.4",
-        "&delta;E<sub>d,a</sub>": 0.04
+        "&#948;E<sub>d,a</sub>": 0.04
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/Fe_i_d.srh"
 }

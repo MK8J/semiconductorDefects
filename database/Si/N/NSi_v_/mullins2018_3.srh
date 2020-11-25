@@ -16,8 +16,8 @@
     },
     "Measured parameters": {
         "E<sub>d</sub>": "Ev+0.48",
-        "&sigma;<sub>e</sub>": 2.3e-18,
-        "&sigma;<sub>h</sub>": 3.1e-14
+        "&#963;<sub>e</sub>": 2.3e-18,
+        "&#963;<sub>h</sub>": 3.1e-14
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/N/NSi_-v_.srh"
 }

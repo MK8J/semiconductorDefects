@@ -13,8 +13,8 @@
     "DOI": "10.1007/s003390050968",
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.26",
-        "&sigma;<sub>e,a</sub>": "4e-13",
-        "&sigma;<sub>h,a</sub>": "2e-14"
+        "&#963;<sub>e,a</sub>": "4e-13",
+        "&#963;<sub>h,a</sub>": "2e-14"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/FeB_i-s_a.srh"
 }

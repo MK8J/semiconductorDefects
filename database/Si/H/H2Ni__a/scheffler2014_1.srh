@@ -25,8 +25,8 @@
     },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ev+0.6",
-        "&sigma;<sub>h,a</sub>": 2.7e-14,
-        "&delta;&sigma;<sub>ha</sub>": 3e-15
+        "&#963;<sub>h,a</sub>": 2.7e-14,
+        "&#948;&sigma;<sub>ha</sub>": 3e-15
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ni/NiH2_-_a.srh"
 }

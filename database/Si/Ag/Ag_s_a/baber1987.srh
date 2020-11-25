@@ -22,7 +22,7 @@
     "Measured parameters": {
         "E<sub>d,h</sub>": "Ec-0.548",
         "E<sub>d</sub>": "Ec-0.54",
-        "&sigma;<sub>e</sub>": "2.20E-16"
+        "&#963;<sub>e</sub>": "2.20E-16"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ag/Ag__a.srh"
 }

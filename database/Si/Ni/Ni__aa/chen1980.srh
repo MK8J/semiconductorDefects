@@ -3,7 +3,7 @@
     "DOI": "10.1146/annurev.ms.10.080180.001105",
     "Measured parameters": {
         "E<sub>d</sub>": "Ev+0.22",
-        "&delta;E<sub>d</sub>": 0.01
+        "&#948;E<sub>d</sub>": 0.01
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ni/Ni__aa.srh"
 }

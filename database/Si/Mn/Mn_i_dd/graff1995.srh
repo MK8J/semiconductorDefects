@@ -5,7 +5,7 @@
     "DOI": "10.1007/978-3-642-97593-6",
     "Measured parameters": {
         "E<sub>d,h</sub>": "Ev+0.27",
-        "&sigma;<sub>h</sub>": "3.00E-18 * exp(-0.07/kT)"
+        "&#963;<sub>h</sub>": "3.00E-18 * exp(-0.07/kT)"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Mn/Mn_i_dd.srh"
 }

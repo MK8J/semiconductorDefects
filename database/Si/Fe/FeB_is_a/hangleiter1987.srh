@@ -4,8 +4,8 @@
     "Comments": "Assumed a thermal velocity of (2e7 *(T/300)^(0.5))",
     "DOI": "10.1103/PhysRevB.35.9149",
     "Measured parameters": {
-        "&sigma;<sub>e</sub>": "3e-7*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))",
-        "&sigma;<sub>h</sub>": "3e-8*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))"
+        "&#963;<sub>e</sub>": "3e-7*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))",
+        "&#963;<sub>h</sub>": "3e-8*(300/T)^(-0.6)/(2e7 *(T/300)^(0.5))"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/FeB_i-s_a.srh"
 }

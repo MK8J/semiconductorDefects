@@ -5,7 +5,7 @@
     "DOI": "10.1007/978-3-642-57121-3",
     "Measured parameters": {
         "E<sub>d,h</sub>": "Ev+0.32",
-        "&sigma;<sub>h</sub>": "5e-18"
+        "&#963;<sub>h</sub>": "5e-18"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Hf/Hf_i_dd.srh"
 }

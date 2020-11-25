@@ -4,9 +4,9 @@
     "DOI": "10.1146/annurev.ms.10.080180.001105",
     "Measured parameters": {
         "E<sub>d</sub>": "Ec-0.53",
-        "&delta;E<sub>d</sub>": 0.03,
-        "&sigma;<sub>e</sub>": "1.70E-16",
-        "&delta;&sigma;<sub>e</sub>": 1e-17
+        "&#948;E<sub>d</sub>": 0.03,
+        "&#963;<sub>e</sub>": "1.70E-16",
+        "&#948;&sigma;<sub>e</sub>": 1e-17
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ir/Ir__.srh"
 }

@@ -5,8 +5,8 @@
     "DOI": "10.1007/BF01594232",
     "Measured parameters": {
         "E<sub>d</sub>": "Ec-0.29",
-        "&sigma;<sub>e</sub>": "2.5e-15",
-        "&sigma;<sub>h</sub>": "3e-14"
+        "&#963;<sub>e</sub>": "2.5e-15",
+        "&#963;<sub>h</sub>": "3e-14"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/FeB_i-s_a.srh"
 }

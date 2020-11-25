@@ -10,8 +10,8 @@
         "resistivity": "14.5"
     },
     "Measured parameters": {
-        "&sigma;<sub>e</sub>": 3.4999999999999997e-13,
-        "&sigma;<sub>h</sub>": 1.5e-14,
+        "&#963;<sub>e</sub>": 3.4999999999999997e-13,
+        "&#963;<sub>h</sub>": 1.5e-14,
         "k": "70/3"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/FeIn_i-s_d.srh"

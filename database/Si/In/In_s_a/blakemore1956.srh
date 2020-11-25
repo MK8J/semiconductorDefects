@@ -7,7 +7,7 @@
         "T": "77.5K, 90K, 90K"
     },
     "Measured parameters": {
-        "&sigma;<sub>h</sub>": "1e-13*exp(0.055/kT)"
+        "&#963;<sub>h</sub>": "1e-13*exp(0.055/kT)"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/In/In__.srh"
 }

@@ -4,7 +4,7 @@
     "DOI": "10.1103/PhysRevB.31.7979",
     "Measured parameters": {
         "E<sub>d</sub>": "Ec-0.42",
-        "&delta;E<sub>d</sub>": 0.01
+        "&#948;E<sub>d</sub>": 0.01
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Mn/MnGa_-_.srh"
 }

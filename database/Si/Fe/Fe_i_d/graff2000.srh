@@ -5,9 +5,9 @@
     "DOI": "10.1007/978-3-642-57121-3",
     "Measured parameters": {
         "E<sub>d,h</sub>": "Ev+0.39",
-        "&delta;E<sub>d,h</sub>": 0.01,
-        "&sigma;<sub>e</sub>": "1e-10 * T^(-1.5)",
-        "&sigma;<sub>h</sub>": "2.80E-16 * exp(-0.043/kT)"
+        "&#948;E<sub>d,h</sub>": 0.01,
+        "&#963;<sub>e</sub>": "1e-10 * T^(-1.5)",
+        "&#963;<sub>h</sub>": "2.80E-16 * exp(-0.043/kT)"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/Fe_i_d.srh"
 }

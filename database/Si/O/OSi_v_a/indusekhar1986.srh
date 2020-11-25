@@ -15,8 +15,8 @@
     },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.18",
-        "&sigma;<sub>h,a</sub>": 1.2e-15,
-        "&sigma;<sub>h</sub>": 5e-19
+        "&#963;<sub>h,a</sub>": 1.2e-15,
+        "&#963;<sub>h</sub>": 5e-19
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Si/SiO_v-_a.srh"
 }

@@ -13,7 +13,7 @@
     "DOI": "10.1146/annurev.ms.10.080180.001105",
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.39",
-        "&sigma;<sub>e,a</sub>": "4.50E-17"
+        "&#963;<sub>e,a</sub>": "4.50E-17"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Sb/SbSi_-v_.srh"
 }

@@ -4,8 +4,8 @@
     "Comments": "250-350 K",
     "DOI": "10.1016/0025-5416(68)90036-0",
     "Measured parameters": {
-        "&sigma;<sub>e</sub>": "1.50E-15",
-        "&sigma;<sub>h</sub>": "3.00E-16"
+        "&#963;<sub>e</sub>": "1.50E-15",
+        "&#963;<sub>h</sub>": "3.00E-16"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/Fe__d.srh"
 }

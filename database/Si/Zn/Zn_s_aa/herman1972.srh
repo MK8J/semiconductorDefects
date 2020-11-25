@@ -20,7 +20,7 @@
     },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ev+0.574",
-        "&delta;E<sub>d,a</sub>": 0.001
+        "&#948;E<sub>d,a</sub>": 0.001
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Zn/Zn_s_aa.srh"
 }

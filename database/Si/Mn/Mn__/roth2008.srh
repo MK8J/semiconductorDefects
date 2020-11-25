@@ -5,7 +5,7 @@
     "Measured parameters": {
         "E<sub>d</sub>": "Ec-0.45",
         "k": 9.4,
-        "&delta;k": 5.8
+        "&#948;k": 5.8
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Mn/Mn__.srh"
 }

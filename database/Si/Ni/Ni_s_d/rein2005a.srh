@@ -5,9 +5,9 @@
     "DOI": "10.1007/3-540-27922-9",
     "Measured parameters": {
         "E<sub>d</sub>": "Ev+0.189",
-        "&delta;E<sub>d</sub>": 0.05,
+        "&#948;E<sub>d</sub>": 0.05,
         "k": "3500.0",
-        "&delta;k": "2610, 9400"
+        "&#948;k": "2610, 9400"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ni/Ni_s_d.srh"
 }

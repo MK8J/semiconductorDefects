@@ -22,7 +22,7 @@
         "E<sub>d,a</sub>": "Ev+0.4",
         "E<sub>d,h</sub>": "Ev+0.382",
         "E<sub>d</sub>": "Ev+0.383-5.2e-5*T",
-        "&sigma;<sub>h</sub>": "1.15e-15 * exp(-0.018/kT)"
+        "&#963;<sub>h</sub>": "1.15e-15 * exp(-0.018/kT)"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/W/W__d.srh"
 }

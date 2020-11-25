@@ -11,7 +11,7 @@
     },
     "Measured parameters": {
         "E<sub>d,h</sub>": "Ev+0.29",
-        "&sigma;<sub>h,a</sub>": 8e-19
+        "&#963;<sub>h,a</sub>": 8e-19
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/B/BCr_-_.srh"
 }

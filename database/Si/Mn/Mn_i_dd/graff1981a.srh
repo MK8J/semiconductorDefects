@@ -11,7 +11,7 @@
     },
     "Measured parameters": {
         "E<sub>d,h</sub>": "Ev+0.234",
-        "&sigma;<sub>h</sub>": "5.4e-18*exp(-0.069/kT)/exp(-0.069/k/225)"
+        "&#963;<sub>h</sub>": "5.4e-18*exp(-0.069/kT)/exp(-0.069/k/225)"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Mn/Mn__dd.srh"
 }

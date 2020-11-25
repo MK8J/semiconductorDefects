@@ -11,7 +11,7 @@
     },
     "Measured parameters": {
         "E<sub>d,h</sub>": "Ev+0.102",
-        "&sigma;<sub>h</sub>": "2.1e-13*exp(0)"
+        "&#963;<sub>h</sub>": "2.1e-13*exp(0)"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cu/Cu__d.srh"
 }

@@ -5,9 +5,9 @@
     "DOI": "10.1146/annurev.ms.10.080180.001105",
     "Measured parameters": {
         "E<sub>d</sub>": "Ec-0.44",
-        "&delta;E<sub>d</sub>": 0.01,
-        "&sigma;<sub>e</sub>": "1.20E-15",
-        "&sigma;<sub>h</sub>": "1.05E-14"
+        "&#948;E<sub>d</sub>": 0.01,
+        "&#963;<sub>e</sub>": "1.20E-15",
+        "&#963;<sub>h</sub>": "1.05E-14"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ru/Ru__d.srh"
 }

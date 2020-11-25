@@ -17,7 +17,7 @@
     },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.55",
-        "&sigma;<sub>e,a</sub>": "1E-21"
+        "&#963;<sub>e,a</sub>": "1E-21"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/B/BMn_s-i_d.srh"
 }

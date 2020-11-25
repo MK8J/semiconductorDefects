@@ -4,7 +4,7 @@
     "DOI": "10.1063/1.4963121",
     "Measured parameters": {
         "E<sub>d</sub>": "Ec-0.15",
-        "&delta;E<sub>d</sub>": 0.05,
+        "&#948;E<sub>d</sub>": 0.05,
         "k": 0.1
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cu/Cu_p_.srh"

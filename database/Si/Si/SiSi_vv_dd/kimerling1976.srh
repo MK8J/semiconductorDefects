@@ -5,7 +5,7 @@
     "DOI": "10.1109/TNS.1976.4328529",
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.23",
-        "&sigma;<sub>h,a</sub>": "2e-16"
+        "&#963;<sub>h,a</sub>": "2e-16"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Si/SiSi_v-v_dd.srh"
 }

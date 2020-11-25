@@ -5,7 +5,7 @@
     "DOI": "10.1103/PhysRevB.60.1716",
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.175",
-        "&delta;E<sub>d,a</sub>": 0.005
+        "&#948;E<sub>d,a</sub>": 0.005
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/H/H_i_d.srh"
 }

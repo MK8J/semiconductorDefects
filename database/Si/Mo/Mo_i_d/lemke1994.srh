@@ -17,7 +17,7 @@
     },
     "Measured parameters": {
         "E<sub>d,h</sub>": "Ev+0.28",
-        "&sigma;<sub>h</sub>": "1.1e-8/1e7"
+        "&#963;<sub>h</sub>": "1.1e-8/1e7"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Mo/Mo__d.srh"
 }

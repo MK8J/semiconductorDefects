@@ -10,11 +10,11 @@
     },
     "Measured parameters": {
         "E<sub>d</sub>": "Ev+0.09",
-        "&delta;E<sub>d</sub>": "-0.03, 0.01",
-        "&sigma;<sub>e</sub>": 1.9e-14,
-        "&sigma;<sub>h</sub>": 8.755760368663596e-17,
+        "&#948;E<sub>d</sub>": "-0.03, 0.01",
+        "&#963;<sub>e</sub>": 1.9e-14,
+        "&#963;<sub>h</sub>": 8.755760368663596e-17,
         "k": "217",
-        "&delta;k": "-96, 162"
+        "&#948;k": "-96, 162"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Fe/FeGa_i-s_d.srh"
 }

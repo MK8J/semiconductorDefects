@@ -4,8 +4,8 @@
     "Comments": "77K. ",
     "DOI": "10.1103/PhysRev.114.1006",
     "Measured parameters": {
-        "&sigma;<sub>e</sub>": "1.00E-13",
-        "&sigma;<sub>h</sub>": "2.00E-15"
+        "&#963;<sub>e</sub>": "1.00E-13",
+        "&#963;<sub>h</sub>": "2.00E-15"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au_s_d.srh"
 }

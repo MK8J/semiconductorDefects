@@ -14,7 +14,7 @@
     "DOI": "10.1007/978-3-642-97593-6",
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.34",
-        "&sigma;<sub>e,a</sub>": 2.2e-15
+        "&#963;<sub>e,a</sub>": 2.2e-15
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Rh/Rh_i_a.srh"
 }

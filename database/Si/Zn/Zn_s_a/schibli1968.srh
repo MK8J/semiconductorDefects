@@ -5,8 +5,8 @@
     "DOI": "10.1016/0025-5416(68)90036-0",
     "Measured parameters": {
         "E<sub>d</sub>": "Ev+0.31",
-        "&sigma;<sub>e</sub>": "1.00E-15",
-        "&sigma;<sub>h</sub>": "1.00E-13"
+        "&#963;<sub>e</sub>": "1.00E-15",
+        "&#963;<sub>h</sub>": "1.00E-13"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Zn/Zn_s_a.srh"
 }

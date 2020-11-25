@@ -4,7 +4,7 @@
     "DOI": "10.1146/annurev.ms.10.080180.001105",
     "Measured parameters": {
         "E<sub>d</sub>": "Ec-0.39",
-        "&sigma;<sub>e</sub>": "1e-15"
+        "&#963;<sub>e</sub>": "1e-15"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Mn/Mn_i_a.srh"
 }

@@ -22,8 +22,8 @@
     },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ev+0.97",
-        "&delta;E<sub>d,a</sub>": 0.005,
-        "&sigma;<sub>h,a</sub>": 3.9e-14
+        "&#948;E<sub>d,a</sub>": 0.005,
+        "&#963;<sub>h,a</sub>": 3.9e-14
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/B/BO2_-_d.srh"
 }

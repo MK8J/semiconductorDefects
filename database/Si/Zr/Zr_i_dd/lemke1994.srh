@@ -17,7 +17,7 @@
     },
     "Measured parameters": {
         "E<sub>d,h</sub>": "Ev+0.32",
-        "&sigma;<sub>h</sub>": "1.8e-10/1e7"
+        "&#963;<sub>h</sub>": "1.8e-10/1e7"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Zr/Zr__dd.srh"
 }

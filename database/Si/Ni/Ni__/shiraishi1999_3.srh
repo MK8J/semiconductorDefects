@@ -25,8 +25,8 @@
         "E<sub>d,a</sub>": "Ec-0.25",
         "E<sub>d,h</sub>": "Ec-0.25",
         "E<sub>d</sub>": "Ec-0.329",
-        "&sigma;<sub>e,a</sub>": 6.6e-16,
-        "&sigma;<sub>e</sub>": "1.2E-18"
+        "&#963;<sub>e,a</sub>": 6.6e-16,
+        "&#963;<sub>e</sub>": "1.2E-18"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ni/Ni__.srh"
 }

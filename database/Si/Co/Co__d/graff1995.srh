@@ -13,7 +13,7 @@
     "DOI": "10.1007/978-3-642-97593-6",
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ev+0.41",
-        "&sigma;<sub>h,a</sub>": "4e-18"
+        "&#963;<sub>h,a</sub>": "4e-18"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Co/Co__d.srh"
 }

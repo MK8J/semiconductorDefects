@@ -9,7 +9,7 @@
         "incorporation": "melt"
     },
     "Measured parameters": {
-        "&sigma;<sub>e,a</sub>": 5.9e-14
+        "&#963;<sub>e,a</sub>": 5.9e-14
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Ta/Ta__.srh"
 }

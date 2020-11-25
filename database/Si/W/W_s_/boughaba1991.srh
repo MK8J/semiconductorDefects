@@ -27,7 +27,7 @@
     },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ev+0.55",
-        "&sigma;<sub>h,a</sub>": 3.4e-15
+        "&#963;<sub>h,a</sub>": 3.4e-15
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/W/W_s_.srh"
 }

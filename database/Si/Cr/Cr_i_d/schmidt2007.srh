@@ -13,8 +13,8 @@
     "DOI": "10.1063/1.2822452",
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.24",
-        "&sigma;<sub>e,a</sub>": "2E-14",
-        "&sigma;<sub>h,a</sub>": "4E-15"
+        "&#963;<sub>e,a</sub>": "2E-14",
+        "&#963;<sub>h,a</sub>": "4E-15"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Cr/Cr_i_d.srh"
 }

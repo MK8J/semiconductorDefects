@@ -19,8 +19,8 @@
     },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.28",
-        "&sigma;<sub>e,a</sub>": "7e-14",
-        "&delta;&sigma;<sub>ea</sub>": "3e-14"
+        "&#963;<sub>e,a</sub>": "7e-14",
+        "&#948;&sigma;<sub>ea</sub>": "3e-14"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/N/N__.srh"
 }

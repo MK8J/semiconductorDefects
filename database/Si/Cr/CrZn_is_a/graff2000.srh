@@ -13,7 +13,7 @@
     "DOI": "10.1007/978-3-642-57121-3",
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.1",
-        "&sigma;<sub>e,a</sub>": 2.8e-15
+        "&#963;<sub>e,a</sub>": 2.8e-15
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Zn/ZnCr_s-i_a.srh"
 }

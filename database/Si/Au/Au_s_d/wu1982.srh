@@ -10,10 +10,10 @@
         "resistivity": "3-50"
     },
     "Measured parameters": {
-        "&sigma;<sub>e</sub>": "1.1e-15*(T/158)^(-2)",
-        "&delta;&sigma;<sub>e</sub>": 2e-16,
-        "&sigma;<sub>h</sub>": 3.5e-15,
-        "&delta;&sigma;<sub>h</sub>": 8e-16
+        "&#963;<sub>e</sub>": "1.1e-15*(T/158)^(-2)",
+        "&#948;&sigma;<sub>e</sub>": 2e-16,
+        "&#963;<sub>h</sub>": 3.5e-15,
+        "&#948;&sigma;<sub>h</sub>": 8e-16
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Au/Au_s_d.srh"
 }

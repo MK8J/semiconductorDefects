@@ -10,7 +10,7 @@
     "Measured parameters": {
         "E<sub>d</sub>": "Ev+0.27",
         "k": "5.8",
-        "&delta;k": "-3.4, 0.6"
+        "&#948;k": "-3.4, 0.6"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/B/BCr_s-i_d.srh"
 }

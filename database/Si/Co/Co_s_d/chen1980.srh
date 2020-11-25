@@ -4,7 +4,7 @@
     "DOI": "10.1146/annurev.ms.10.080180.001105",
     "Measured parameters": {
         "E<sub>d</sub>": "Ev+0.384",
-        "&delta;E<sub>d</sub>": 0.005
+        "&#948;E<sub>d</sub>": 0.005
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/Co/Co_s_d.srh"
 }

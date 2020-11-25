@@ -5,8 +5,8 @@
     "Comments": "Was not sure what the defect is, but it is in indium doped Silicon. This turned out to be an acceptor level",
     "DOI": "10.1103/PhysRev.109.1086",
     "Measured parameters": {
-        "&sigma;<sub>e</sub>": "1.1e-14*T^(-1)",
-        "&sigma;<sub>h</sub>": "1.5e-9*T^(-2)"
+        "&#963;<sub>e</sub>": "1.1e-14*T^(-1)",
+        "&#963;<sub>h</sub>": "1.5e-9*T^(-2)"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/In/In__.srh"
 }

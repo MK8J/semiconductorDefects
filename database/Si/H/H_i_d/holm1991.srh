@@ -13,7 +13,7 @@
     "DOI": "10.1103/PhysRevLett.66.2360",
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.16",
-        "&sigma;<sub>e,a</sub>": ">4e-8/1.2e7"
+        "&#963;<sub>e,a</sub>": ">4e-8/1.2e7"
     },
     "github_link": "https://github.com/MK8J/semiconductorDefects/blob/master/database/Si/H/H_i_d.srh"
 }
