@@ -1,13 +1,14 @@
-  - [Semiconductor Defects](#semiconductor-defects)
-      - [Referencing](#referencing)
-      - [Contributing](#contributing)
-      - [Shockley Read Hall
+-   [Semiconductor Defects](#semiconductor-defects)
+    -   [Referencing](#referencing)
+    -   [Linked sites](#linked-sites)
+    -   [Contributing](#contributing)
+    -   [Shockley Read Hall
         parameterization](#shockley-read-hall-parameterization)
-      - [How information is stored](#how-information-is-stored)
-          - [“.srh” file continence](#srh-file-continence)
-      - [Optical absorption and
+    -   [How information is stored](#how-information-is-stored)
+        -   [“.srh” file continence](#srh-file-continence)
+    -   [Optical absorption and
         emission](#optical-absorption-and-emission)
-          - [“.opt” file continence](#opt-file-continence)
+        -   [“.opt” file continence](#opt-file-continence)
 
 # Semiconductor Defects
 
@@ -33,6 +34,45 @@ It can be found at the following websites: 1.
 3.
 [semanticscholar](https://www.semanticscholar.org/author/Mattias-K.-Juhl/32390663)
 
+## Linked sites
+
+This repository is searchable on
+[PVlighthouse](https://www.pvlighthouse.com.au/semiconductor-defects-library).
+Inputs for seaching are common parameters determined to parameterise the
+emission rate of a specific carrier, being electron or holes, determined
+by DLTS. The parameters, *B* and *E*<sub>*d**a*</sub>, are determined
+from the follow a linear fit to
+
+*l**n*(*e*/*T*<sup>2</sup>) = *l**n*(*B*) − *f**r**a**c**E*<sub>*d**a*</sub>*k**T*
+
+The fit is performed for emission rates of 1,10,1000,1000 1/s. The
+temperature corresponding to these emission rates is caculated from
+relationship provided in publications or calcualted from defect
+parameters from the same publication. The relationship between published
+defect paramters, the emission rate and temeperature is
+
+$e = \\frac{N v\_{th}}{300^2} \* T^2 \\sigma\_{a} e^{\\frac{E\_{da}}{kT}}$
+
+$e = N v\_{th} \\sigma\_{a} e^{\\frac{E\_{da}}{kT}}$
+
+where: *e* is the emission rate of a carrier from a defect in units of
+seconds; *N* is the effective density of states of the appropriate band
+at room temperatureof the appropriate, taking values of 2.89e19
+cm<sup>-3</sup> or 3.14e19 cm<sup>-3</sup> for the conduction band and
+valance band respectivly; *v*<sub>*t**h*</sub> is the thermal velocity
+of the appropiate carrier, taking values 2.046e7 cm/s or 1.688e7 cm/s
+for electrons and holes respectivly; *s**i**g**m**e*<sub>*a*</sub> is
+the apparent capture cross section of the defect for the appropriate
+carrier; *E*<sub>*d**a*</sub> is the apparent energy level for the
+defect, with units of electron voltage; *B* represents the emission rate
+at inifited temperature divided by temperature squared, with units
+seconds per Kelvin squared; *k* is boltzman constant, with units
+electron volts per Kelvin; and *T* is temperature, with units of Kelvin.
+
+The calculation of the temperature from emission rates and provided
+defect paramters, is made without itteration through the use of the
+pretty cool lambert W function.
+
 ## Contributing
 
 There are two ways to contribute.
@@ -52,18 +92,9 @@ is an level within the forbidden region in a semiconductor’s through
 which electrons and holes can pass. A schematic of such a defect is
 shown in Figure [1](#fig:SRH).
 
-![Figure 1: Shockley Read Hall description of a single defect level.
-Here E<sub>c</sub> is the condition band edge, E<sub>v</sub> is the
-valance bade edge, E<sub>i</sub> is the intrinsic level of the
-semiconductor, E<sub>d</sub> is the energy level of the defect, G is the
-generation of free carriers, k is Boltzmann constant, and T is the
-temperature. The remaining terms are specific for electrons and holes as
-depicted by their subscripts being e and h, respectively. These
-remaining terms are: c is a capture rate of particles, e is an emission
-rate of particles, σ is the capture cross section, n is the number of
-free particles (electrons in the conduction band or holes in the valance
-band), N<sub>d</sub> is the number of defects filled with a spectific
-particle](./images/Defect.png)
+<figure>
+<img src="./images/Defect.png" id="fig:SRH" alt="Figure 1: Shockley Read Hall description of a single defect level. Here Ec is the condition band edge, Ev is the valance bade edge, Ei is the intrinsic level of the semiconductor, Ed is the energy level of the defect, G is the generation of free carriers, k is Boltzmann constant, and T is the temperature. The remaining terms are specific for electrons and holes as depicted by their subscripts being e and h, respectively. These remaining terms are: c is a capture rate of particles, e is an emission rate of particles, σ is the capture cross section, n is the number of free particles (electrons in the conduction band or holes in the valance band), Nd is the number of defects filled with a spectific particle" /><figcaption aria-hidden="true">Figure 1: Shockley Read Hall description of a single defect level. Here E<sub>c</sub> is the condition band edge, E<sub>v</sub> is the valance bade edge, E<sub>i</sub> is the intrinsic level of the semiconductor, E<sub>d</sub> is the energy level of the defect, G is the generation of free carriers, k is Boltzmann constant, and T is the temperature. The remaining terms are specific for electrons and holes as depicted by their subscripts being e and h, respectively. These remaining terms are: c is a capture rate of particles, e is an emission rate of particles, σ is the capture cross section, n is the number of free particles (electrons in the conduction band or holes in the valance band), N<sub>d</sub> is the number of defects filled with a spectific particle</figcaption>
+</figure>
 
 *Shockley Read Hall description of a single defect level. Here
 E<sub>c</sub> is the condition band edge, E<sub>v</sub> is the valance
@@ -80,41 +111,41 @@ N<sub>d</sub> is the number of defects filled with a specific particle*
 The Shockley Read Hall parameterization of a defect has three values,
 all of which should be assumed to be temperature dependent:
 
-  - E<sub>d</sub>: The energy level of the defect. We capture this value
+-   E<sub>d</sub>: The energy level of the defect. We capture this value
     as reported in literature. This is usually reported as a distance to
     another energy level, i.e. The conduction band edge (E<sub>c</sub>),
     the valance band edge (E<sub>v</sub>), or the intrinsic energy level
     (E<sub>i</sub>). Unfortunately, not all techniques measure this
     value the same way, and it is not always clear exactly what is meant
     by this value.
-  - σ<sub>e</sub>: The capture cross section for electrons.
-  - σ<sub>h</sub>: The capture cross section for holes
+-   σ<sub>e</sub>: The capture cross section for electrons.
+-   σ<sub>h</sub>: The capture cross section for holes
 
 A 4th value that is recorded as a SRH parameter is the ratio of the
 electon to hole capture cross section, i.e
-k=σ<sub>e</sub>/σ<sub>h</sub>. This is recorded as lifetime
-spectroscopy usually provides a measure of k rather than absolute
-capture cross sections.
+k=σ<sub>e</sub>/σ<sub>h</sub>. This is recorded as lifetime spectroscopy
+usually provides a measure of k rather than absolute capture cross
+sections.
 
 Unfortunatley these values are not often reported. To allow the capture
 of partial data from DLTS, as its the largest contributor to data, there
 are several other definitions of energy levels. The notiation used here
 is the same as used within the repository, e.g. plain text:
 
-  - Ed\_a: (E<sub>d,a</sub>) The apparent or thermal activation energy.
+-   Ed\_a: (E<sub>d,a</sub>) The apparent or thermal activation energy.
     This is an energy extracted from the arhenious plot of DLTS data.
 
-  - Ed\_h: (E<sub>d,h</sub>) The enthalpy of the defect. This is the
+-   Ed\_h: (E<sub>d,h</sub>) The enthalpy of the defect. This is the
     E<sub>d,a</sub> that has had the impact of a temperature dependent
     capture cross section removed. For this to occur it is required that
     a direct measurement of the capture rate is performed at several
     temperatures.
 
-  - Ed: (E<sub>d</sub>) The energy level, or Gibb’s free energy of the
+-   Ed: (E<sub>d</sub>) The energy level, or Gibb’s free energy of the
     defect. It accounts for the change in entropy of the defect:
-    
+
     *E<sub>d</sub> = E<sub>d,h</sub> - T×ΔS*
-    
+
     The energy level can be calculated directly from the emission and
     capture rates.
 
@@ -128,9 +159,9 @@ files within the repository. The file structure of the repository is
 illustrated in Figure [2](#fig:structure). The repository has two nested
 folders, with the text file in the finial folder.
 
-![Figure 2: Folder and file structure of the repository. Square boxes
-represent a folder, while hexagonal boxes represent text
-files.](./images/FolderStructure.png)
+<figure>
+<img src="./images/FolderStructure.png" id="fig:structure" alt="Figure 2: Folder and file structure of the repository. Square boxes represent a folder, while hexagonal boxes represent text files." /><figcaption aria-hidden="true">Figure 2: Folder and file structure of the repository. Square boxes represent a folder, while hexagonal boxes represent text files.</figcaption>
+</figure>
 
 *Folder and file structure of the repository. Square boxes represent a
 folder, while hexagonal boxes represent text files.*
@@ -141,21 +172,21 @@ all the elements are written in alphabetical order.
 
 The crystal site abbreviation currently used are:
 
-  - s: substitutional
-  - i: interstitial
-  - v: vacancy
-  - p: precipitate
+-   s: substitutional
+-   i: interstitial
+-   v: vacancy
+-   p: precipitate
 
 The abbreviations for the defect charge state are:
 
-  - aa: double acceptor. The defect can change been a net change of -2
+-   aa: double acceptor. The defect can change been a net change of -2
     and -1.
-  - a: acceptor. The defect can change been a net charge of -1 and 0.
-  - d: donor. The defect can change been a net charge of 0 and 1.
-  - dd: double donor. The defect can change been a net charge of 1 and
-    2.
-  - ddd: triple donor. The defect can change been a net charge of 2 and
-    3.
+-   a: acceptor. The defect can change been a net charge of -1 and 0.
+-   d: donor. The defect can change been a net charge of 0 and 1.
+-   dd: double donor. The defect can change been a net charge of 1
+    and 2.
+-   ddd: triple donor. The defect can change been a net charge of 2
+    and 3.
 
 The “.srh” and “.opt” files is an ASCII file written in plain text. The
 structure of its contents is described in the following subsection.
@@ -168,7 +199,7 @@ params section.
 
 The text file is written with a
 [yaml](https://en.wikipedia.org/wiki/YAML) syntax. This makes it both
-easy for a human and computer to read\! An example is found in
+easy for a human and computer to read! An example is found in
 W\_s\_s.srh:
 
     graff1995_1:
@@ -235,23 +266,21 @@ better way is to recorded this information.
 
 options:
 
-  - growth: CZ, FZ, cast
-  - dopant: elemental names all lower case and comma separated,
+-   growth: CZ, FZ, cast
+-   dopant: elemental names all lower case and comma separated,
     e.g. boron, phorphous, or aluminum
-  - resistivity: resistivity in Ω.cm. If several samples are used comma
+-   resistivity: resistivity in Ω.cm. If several samples are used comma
     separate them. If a range of resistivities are provided simply write
     that range, e.g. 3, 50, 1-10
-  - incorporation: how the defect was placed into the sample for study.
+-   incorporation: how the defect was placed into the sample for study.
     Options include: melt, thermal, ion implantation and radiation
 
 The choices for incorporation are:
 
-``` 
- * ion implantation: as the name suggests
- * ingot: This means it is incorporated during ingot growth
- * thermal: This means it is incorporated into the wafter with a thermal step
- * quenched: Refers to a fast cooling after thermal incorporation.
-```
+     * ion implantation: as the name suggests
+     * ingot: This means it is incorporated during ingot growth
+     * thermal: This means it is incorporated into the wafter with a thermal step
+     * quenched: Refers to a fast cooling after thermal incorporation.
 
 #### measurement\_technique
 
@@ -264,82 +293,80 @@ using the following abbreviation:
 1.  [DLTS](https://en.wikipedia.org/wiki/Deep-level_transient_spectroscopy):
     Deep level transient spectroscopy. There are many variants on DLTS,
     again these are separated by providing different suffixes, being:
-      - Mo - minority carrier based DLTS where the excess minority
+    -   Mo - minority carrier based DLTS where the excess minority
         carriers are excited with photons of energy larger than the
         bandgap of the semiconductor.
-      - Me - minority carrier based DLTS where the excess minority
+    -   Me - minority carrier based DLTS where the excess minority
         carriers are excited by an electrical bias.
-      - L - Laplace DLTS
-      - D - Double correlations DLTS
-      - Dp - Double pulse DLTS. This allows values to be extracted that
+    -   L - Laplace DLTS
+    -   D - Double correlations DLTS
+    -   Dp - Double pulse DLTS. This allows values to be extracted that
         are close to zero field values.
-      - Cc - constant capacitance DLTS. This is performed when the
+    -   Cc - constant capacitance DLTS. This is performed when the
         defect density is of a similar order of magnitude to the doping
         density.
-      - Cr - the capture cross section was used to determine the capture
+    -   Cr - the capture cross section was used to determine the capture
         cross-section. If this is not done, the capture cross sections
         are apparent capture cross sections.
-      - F - corrected for the impact of electric field
+    -   F - corrected for the impact of electric field
 
 We also include the ability to capture specific measurement details. for
 DLTS this include:
 
-  - Ur - Reverse bias voltage
-  - Up - Reverse bias pulse
-  - tp - Reverse bias pulse length
-  - Rw - rate window.
-  - T - approximate temperature of the peak
+-   Ur - Reverse bias voltage
+-   Up - Reverse bias pulse
+-   tp - Reverse bias pulse length
+-   Rw - rate window.
+-   T - approximate temperature of the peak
 
-<!-- end list -->
-
-2.  CV: Capacitance voltage. The major difference with DLTS is that this
+1.  CV: Capacitance voltage. The major difference with DLTS is that this
     is not a transient measurement.
-      - O - An optical biased technique where sub band-gap light was
+    -   O - An optical biased technique where sub band-gap light was
         used to investigate a defect. This is also known as
         photo-capacitance
-      - T - The temperature was varied
-      - F - vary frequency
-3.  TS: Thermal stimulated spectroscopy. This is when the sample
+    -   T - The temperature was varied
+    -   F - vary frequency
+2.  TS: Thermal stimulated spectroscopy. This is when the sample
     temperature is increased and a value is monitored. The sample is not
     subjected to a varied biased.
-      - I - current
-      - C - capacitance
-4.  [Hall](https://www.nist.gov/pml/engineering-physics-division/popular-links/hall-effect/hall-effect):
+    -   I - current
+    -   C - capacitance
+3.  [Hall](https://www.nist.gov/pml/engineering-physics-division/popular-links/hall-effect/hall-effect):
     Temperature dependent ionized dopant concentration via the hall
     effect.
-5.  DC: diode current: Measurement of the current from a device.
+4.  DC: diode current: Measurement of the current from a device.
     Suffixes include:
-      - S - spectral
-      - I - impurity effect. The defect level occupation is changed
+    -   S - spectral
+    -   I - impurity effect. The defect level occupation is changed
         through sub band-gap illumination. It can not separate between
         electron and hole emission.
-      - T - transient dark current measurement. This includes
+    -   T - transient dark current measurement. This includes
         measurement of the reversed biased and the time constant and
         magnitude of the change in dark current is determined.
-6.  PC: Measurement of the photoconductivity from a device. Suffixes
+5.  PC: Measurement of the photoconductivity from a device. Suffixes
     include:
-      - S - spectral
-      - Tr - measurement of trapping time constants
-      - N - samples with varying number of defects
-7.  SCP: Solar cell performance. This involves making solar cells from
+    -   S - spectral
+    -   Tr - measurement of trapping time constants
+    -   N - samples with varying number of defects
+6.  SCP: Solar cell performance. This involves making solar cells from
     contaminated material and evaluating the impact of the impurity on
     the finial device performance.
-8.  Res: Resistivity measurements: Suffixes
-      - T - temperature
-9.  LS: Lifetime spectroscopy. This can be performed in different ways.
+7.  Res: Resistivity measurements: Suffixes
+    -   T - temperature
+8.  LS: Lifetime spectroscopy. This can be performed in different ways.
     These ways are depicted as suffixes, being:
-      - D - doping dependent,
-      - I - represents Injection dependent,
-      - N - samplings with varying number of defects. Unlike other
+    -   D - doping dependent,
+    -   I - represents Injection dependent,
+    -   N - samplings with varying number of defects. Unlike other
         techniques the number of defects affects the measured value.
-      - T - temperature dependent
-      - M - accounting for a single defect having multiple levels
-      - G - generation lifetime.
+    -   T - temperature dependent
+    -   M - accounting for a single defect having multiple levels
+    -   G - generation lifetime.
 
 #### measurement\_data
 
 If the raw measurement data can be decomposed into a small data set,
-this is the section for it\!. This is often done for
+this is the section for it!. This is often done for
 [DLTS](http://www.laplacedlts.eu/defect/) with temperature and emission
 rate. An example is talken from the [DLTS
 database](http://www.laplacedlts.eu/defect/) for the gold acceptor and
@@ -412,7 +439,7 @@ params section.
 
 The text file is written with a
 [yaml](https://en.wikipedia.org/wiki/YAML) syntax. This makes it both
-easy for a human and computer to read\! An example is found in
+easy for a human and computer to read! An example is found in
 W\_s\_s.srh:
 
     okuyama1979:
