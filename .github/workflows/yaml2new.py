@@ -550,9 +550,13 @@ def getTemps(JSONdata):
             b = eda / C.k * C.e
             a *= sigma / er
 
-            #T = b/2/lambertw(b/2/np.sqrt(a))
-            temps = b / 2 / lambertw(-np.sqrt(a) * b / 2).real
+            # get w from the inverse function
+            w = lambertw(np.sqrt(a) * b / 2).real
 
+            # change w to temperature
+            temps = b / 2 / w
+
+    # if it could do it
     if len(temps) == 0 :
         temps = None
     else:
