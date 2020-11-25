@@ -1,12 +1,4 @@
 {
-    "DLTS_params": {
-        "t1": "364.2",
-        "t2": "391.6",
-        "t3": "423.2",
-        "t4": "460.1",
-        "inter": "199000000.0",
-        "Ed_a": "0.97"
-    },
     "Title": "DLTS Investigation of the Energy Spectrum of Si:Mg Crystals",
     "Measurement technique": "DLTS-L",
     "Comments": "Assume T^-3 correction for the capture cross section. LArge field dependence",
@@ -16,9 +8,6 @@
         "dopant": "phosphorus",
         "incorporation": "thermal",
         "resistivity": 0.5
-    },
-    "Rates": {
-        "e<sub>h</sub>": "1.99e8 * T^2 * exp(-0.97/kT)"
     },
     "Measured parameters": {
         "E<sub>d,a</sub>": "Ec-0.226",
