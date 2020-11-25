@@ -1,12 +1,12 @@
 {
     "linked": "NiH_-_d by scheffler2014",
     "DLTS_params": {
-        "t1": "196.1",
-        "t2": "212.6",
-        "t3": "231.9",
-        "t4": "254.9",
-        "inter": "27700000.0",
-        "Ed_a": "0.468"
+        "t1": "195.9",
+        "t2": "212.2",
+        "t3": "231.3",
+        "t4": "254.1",
+        "inter": "32400000.0",
+        "Ed_a": "0.47"
     },
     "Title": "DLTS analysis of nickel_hydrogen complex defects in silicon",
     "Measurement technique": "DLTS-Cr",

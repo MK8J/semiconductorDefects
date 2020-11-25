@@ -1,12 +1,12 @@
 {
     "linked": "Mo_i_d.srh",
     "DLTS_params": {
-        "t1": "125.5",
-        "t2": "136.8",
-        "t3": "150.2",
-        "t4": "166.4",
-        "inter": "9840000.0",
-        "Ed_a": "0.279"
+        "t1": "125.2",
+        "t2": "136.5",
+        "t3": "149.8",
+        "t4": "165.8",
+        "inter": "11800000.0",
+        "Ed_a": "0.28"
     },
     "Title": "\u00dcber die chemische Natur von Rekombinationszentren in Si-Leistungsbauelementen",
     "Measurement technique": "DLTS",

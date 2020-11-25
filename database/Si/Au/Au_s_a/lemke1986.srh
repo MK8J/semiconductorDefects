@@ -1,12 +1,12 @@
 {
     "linked": "Au_s_a.srh",
     "DLTS_params": {
-        "t1": "271.9",
-        "t2": "298.0",
-        "t3": "329.4",
-        "t4": "367.8",
-        "inter": "429000.0",
-        "Ed_a": "0.566"
+        "t1": "271.3",
+        "t2": "297.2",
+        "t3": "328.2",
+        "t4": "366.1",
+        "inter": "526000.0",
+        "Ed_a": "0.57"
     },
     "Title": "Dotierungseigenschaften von Silber in Silizium",
     "Measurement technique": "DLTS",

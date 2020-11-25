@@ -1,12 +1,12 @@
 {
     "linked": "Ni_s_aa.srh",
     "DLTS_params": {
-        "t1": "39.4",
-        "t2": "44.7",
-        "t3": "51.5",
-        "t4": "60.5",
-        "inter": "22400.0",
-        "Ed_a": "0.059"
+        "t1": "39.2",
+        "t2": "44.4",
+        "t3": "51.0",
+        "t4": "59.7",
+        "inter": "32800.0",
+        "Ed_a": "0.06"
     },
     "Title": "Characterization of Transition Metal-Doped Silicon Crystals Prepared by Float Zone Technique",
     "Measurement technique": "DLTS-MeCr, TS-C",

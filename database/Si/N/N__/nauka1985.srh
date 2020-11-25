@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "85.1",
-        "t2": "92.7",
-        "t3": "101.8",
-        "t4": "112.8",
-        "inter": "22000000.0",
-        "Ed_a": "0.189"
+        "t1": "84.9",
+        "t2": "92.5",
+        "t3": "101.5",
+        "t4": "112.4",
+        "inter": "26300000.0",
+        "Ed_a": "0.19"
     },
     "Title": "Nitrogen-related deep electron traps in float zone silicon",
     "Measurement technique": "DLTS",

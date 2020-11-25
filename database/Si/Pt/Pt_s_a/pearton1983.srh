@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "134.1",
-        "t2": "147.0",
-        "t3": "162.5",
-        "t4": "181.6",
-        "inter": "1600000.0",
-        "Ed_a": "0.278"
+        "t1": "133.8",
+        "t2": "146.6",
+        "t3": "161.9",
+        "t4": "180.7",
+        "inter": "1970000.0",
+        "Ed_a": "0.28"
     },
     "Title": "Palladium\u2010 and platinum\u2010related levels in silicon: Effect of a hydrogen plasma",
     "Measurement technique": "DLTS",

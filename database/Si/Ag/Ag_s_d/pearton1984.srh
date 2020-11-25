@@ -1,12 +1,12 @@
 {
     "linked": "Ag_s_d.srh",
     "DLTS_params": {
-        "t1": "218.1",
-        "t2": "235.8",
-        "t3": "256.5",
-        "t4": "281.0",
-        "inter": "56700000.0",
-        "Ed_a": "0.538"
+        "t1": "217.8",
+        "t2": "235.4",
+        "t3": "255.9",
+        "t4": "280.2",
+        "inter": "65700000.0",
+        "Ed_a": "0.54"
     },
     "Title": "Electrical properties of deep silver- and iron-related centres in silicon",
     "Measurement technique": "DLTS",

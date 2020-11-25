@@ -1,12 +1,12 @@
 {
     "linked": "Be_s_a.srh",
     "DLTS_params": {
-        "t1": "182.2",
-        "t2": "197.7",
-        "t3": "215.9",
-        "t4": "237.8",
-        "inter": "21000000.0",
-        "Ed_a": "0.428"
+        "t1": "181.9",
+        "t2": "197.3",
+        "t3": "215.4",
+        "t4": "237.0",
+        "inter": "24700000.0",
+        "Ed_a": "0.43"
     },
     "Title": "Fast transient capacitance measurements for implanted deep levels in silicon",
     "Measurement technique": "DLTS",

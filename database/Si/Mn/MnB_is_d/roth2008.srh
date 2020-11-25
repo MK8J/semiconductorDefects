@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "199.4",
-        "t2": "213.9",
-        "t3": "230.6",
-        "t4": "250.0",
-        "inter": "1830000000.0",
-        "Ed_a": "0.549"
+        "t1": "199.2",
+        "t2": "213.7",
+        "t3": "230.3",
+        "t4": "249.5",
+        "inter": "2060000000.0",
+        "Ed_a": "0.55"
     },
     "Title": "Analysis of electrically active defects in silicon for solar cells",
     "Measurement technique": "DLTS, LS-IT",

@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "161.1",
-        "t2": "175.4",
-        "t3": "192.5",
-        "t4": "213.1",
-        "inter": "7710000.0",
-        "Ed_a": "0.361"
+        "t1": "160.8",
+        "t2": "175.1",
+        "t3": "192.0",
+        "t4": "212.3",
+        "inter": "9200000.0",
+        "Ed_a": "0.363"
     },
     "Title": "Defect production and lifetime control in electron and \u03b3-irradiated silicon",
     "Measurement technique": "DLTS",

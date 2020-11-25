@@ -1,12 +1,12 @@
 {
     "linked": "CC_i-s_a.srh",
     "DLTS_params": {
-        "t1": "75.1",
-        "t2": "81.6",
-        "t3": "89.4",
-        "t4": "98.8",
-        "inter": "55400000.0",
-        "Ed_a": "0.171"
+        "t1": "74.9",
+        "t2": "81.5",
+        "t3": "89.2",
+        "t4": "98.5",
+        "inter": "65700000.0",
+        "Ed_a": "0.172"
     },
     "Title": "Transient capacitance studies of an electron trap at Ec-ET = 0.105 eV in phosphorus-doped silicon",
     "Measurement technique": "DLTS, EPR",

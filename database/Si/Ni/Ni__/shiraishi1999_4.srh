@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "152.0",
-        "t2": "165.2",
-        "t3": "180.9",
-        "t4": "199.7",
-        "inter": "15500000.0",
-        "Ed_a": "0.348"
+        "t1": "151.7",
+        "t2": "164.9",
+        "t3": "180.4",
+        "t4": "199.0",
+        "inter": "18400000.0",
+        "Ed_a": "0.35"
     },
     "Title": "DLTS analysis of nickel_hydrogen complex defects in silicon",
     "Measurement technique": "DLTS-Cr",

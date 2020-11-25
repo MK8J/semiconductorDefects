@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "196.0",
-        "t2": "215.8",
-        "t3": "239.9",
-        "t4": "269.8",
-        "inter": "236000.0",
-        "Ed_a": "0.387"
+        "t1": "195.5",
+        "t2": "215.1",
+        "t3": "238.9",
+        "t4": "268.2",
+        "inter": "296000.0",
+        "Ed_a": "0.39"
     },
     "Title": "Energy Levels in Silicon",
     "Measurement technique": "review, DLTS",

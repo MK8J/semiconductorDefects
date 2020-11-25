@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "248.4",
-        "t2": "276.0",
-        "t3": "310.3",
-        "t4": "353.7",
-        "inter": "17900.0",
-        "Ed_a": "0.446"
+        "t1": "247.6",
+        "t2": "274.9",
+        "t3": "308.5",
+        "t4": "350.9",
+        "inter": "23600.0",
+        "Ed_a": "0.45"
     },
     "Title": "A quenched-in defect in boron-doped silicon",
     "Measurement technique": "DLTS",

@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "194.8",
-        "t2": "211.4",
-        "t3": "230.9",
-        "t4": "254.3",
-        "inter": "18500000.0",
-        "Ed_a": "0.458"
+        "t1": "194.5",
+        "t2": "211.0",
+        "t3": "230.4",
+        "t4": "253.5",
+        "inter": "21800000.0",
+        "Ed_a": "0.46"
     },
     "Title": "A re-examination of cobalt-related defects in n- and p-type silicon",
     "Measurement technique": "DLTS",

@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "143.1",
-        "t2": "159.2",
-        "t3": "179.1",
-        "t4": "204.5",
-        "inter": "44800.0",
-        "Ed_a": "0.254"
+        "t1": "142.6",
+        "t2": "158.5",
+        "t3": "178.1",
+        "t4": "202.8",
+        "inter": "59100.0",
+        "Ed_a": "0.257"
     },
     "Title": "Detection of Sulfur-Related Defects in Sulfur Diffused n- and p-Type Si by DLTS",
     "Measurement technique": "DLTS-L",

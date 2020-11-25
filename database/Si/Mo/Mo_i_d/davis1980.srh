@@ -1,12 +1,12 @@
 {
     "linked": "Mo_i_d.srh",
     "DLTS_params": {
-        "t1": "127.5",
-        "t2": "138.4",
-        "t3": "151.3",
-        "t4": "166.6",
-        "inter": "39000000.0",
-        "Ed_a": "0.299"
+        "t1": "127.4",
+        "t2": "138.2",
+        "t3": "150.9",
+        "t4": "166.1",
+        "inter": "45900000.0",
+        "Ed_a": "0.3"
     },
     "Title": "Impurities in silicon solar cells",
     "Measurement technique": "DLTS, SCP",

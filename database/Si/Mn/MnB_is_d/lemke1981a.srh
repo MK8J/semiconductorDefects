@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "456.4",
-        "t2": "534.0",
-        "t3": "641.2",
-        "t4": "798.4",
-        "inter": "3.62",
-        "Ed_a": "0.532"
+        "t1": "452.3",
+        "t2": "526.9",
+        "t3": "628.0",
+        "t4": "771.6",
+        "inter": "6.57",
+        "Ed_a": "0.55"
     },
     "Title": "Eigensehaften der Dotierungsniveaus von Mangan und Vanadium in Silizium",
     "Measurement technique": "DLTS, TS-C",

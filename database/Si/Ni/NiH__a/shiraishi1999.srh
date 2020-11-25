@@ -1,12 +1,12 @@
 {
     "linked": "HNi_-_a.srh",
     "DLTS_params": {
-        "t1": "81.7",
-        "t2": "90.1",
-        "t3": "100.3",
-        "t4": "113.1",
-        "inter": "936000.0",
-        "Ed_a": "0.159"
+        "t1": "81.5",
+        "t2": "89.8",
+        "t3": "99.9",
+        "t4": "112.4",
+        "inter": "1180000.0",
+        "Ed_a": "0.16"
     },
     "Title": "DLTS analysis of nickel_hydrogen complex defects in silicon",
     "Measurement technique": "DLTS-Cr",

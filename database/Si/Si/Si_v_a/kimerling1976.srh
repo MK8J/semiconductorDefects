@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "61.5",
-        "t2": "68.4",
-        "t3": "77.0",
-        "t4": "88.0",
-        "inter": "223000.0",
-        "Ed_a": "0.109"
+        "t1": "61.3",
+        "t2": "68.1",
+        "t3": "76.6",
+        "t4": "87.3",
+        "inter": "294000.0",
+        "Ed_a": "0.11"
     },
     "Title": "New Developments in Defect Studies in Semiconductors",
     "Measurement technique": "DLTS, EPR",

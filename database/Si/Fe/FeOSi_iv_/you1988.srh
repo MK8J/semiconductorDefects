@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "154.1",
-        "t2": "167.3",
-        "t3": "182.9",
-        "t4": "201.7",
-        "inter": "22300000.0",
-        "Ed_a": "0.358"
+        "t1": "153.8",
+        "t2": "167.0",
+        "t3": "182.5",
+        "t4": "201.0",
+        "inter": "26300000.0",
+        "Ed_a": "0.36"
     },
     "Title": "Iron-vacancy-oxygen complex in silicon",
     "Measurement technique": "DLTS",

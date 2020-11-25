@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "118.6",
-        "t2": "128.7",
-        "t3": "140.6",
-        "t4": "154.8",
-        "inter": "50100000.0",
-        "Ed_a": "0.279"
+        "t1": "118.4",
+        "t2": "128.4",
+        "t3": "140.2",
+        "t4": "154.3",
+        "inter": "58900000.0",
+        "Ed_a": "0.28"
     },
     "Title": "Chromium and chromium-boron pairs in silicon",
     "Measurement technique": "DLTS, NA, sPL, EPR",

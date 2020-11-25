@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "98.9",
-        "t2": "109.3",
-        "t3": "121.9",
-        "t4": "137.8",
-        "inter": "412000.0",
-        "Ed_a": "0.188"
+        "t1": "98.6",
+        "t2": "108.9",
+        "t3": "121.4",
+        "t4": "136.9",
+        "inter": "526000.0",
+        "Ed_a": "0.19"
     },
     "Title": "Deep Levels Associated with Nitrogen in Silicon",
     "Measurement technique": "DLTS",

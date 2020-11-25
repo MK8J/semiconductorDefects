@@ -2,12 +2,12 @@
     "ISSN": "0091-391X",
     "linked": "Mn_i_d.srh",
     "DLTS_params": {
-        "t1": "158.6",
-        "t2": "170.6",
-        "t3": "184.5",
-        "t4": "200.9",
-        "inter": "751000000.0",
-        "Ed_a": "0.418"
+        "t1": "158.4",
+        "t2": "170.4",
+        "t3": "184.2",
+        "t4": "200.4",
+        "inter": "854000000.0",
+        "Ed_a": "0.419"
     },
     "Title": "The behavior of transition and noble metals in silicon crystals",
     "Measurement technique": "DLTS-Cr",

@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "133.6",
-        "t2": "144.1",
-        "t3": "156.3",
-        "t4": "170.8",
-        "inter": "343000000.0",
-        "Ed_a": "0.339"
+        "t1": "133.4",
+        "t2": "143.9",
+        "t3": "156.0",
+        "t4": "170.4",
+        "inter": "394000000.0",
+        "Ed_a": "0.34"
     },
     "Title": "Process induced deep-level defects in high purity silicon",
     "Measurement technique": "DLTS",

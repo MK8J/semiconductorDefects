@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "209.2",
-        "t2": "231.1",
-        "t3": "257.9",
-        "t4": "291.4",
-        "inter": "92800.0",
-        "Ed_a": "0.399"
+        "t1": "208.6",
+        "t2": "230.3",
+        "t3": "256.7",
+        "t4": "289.6",
+        "inter": "118000.0",
+        "Ed_a": "0.402"
     },
     "Title": "Deep levels of copper in silicon",
     "Measurement technique": "DLTS, luminescence",

@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "212.3",
-        "t2": "232.9",
-        "t3": "257.7",
-        "t4": "288.2",
-        "inter": "533000.0",
-        "Ed_a": "0.437"
+        "t1": "211.8",
+        "t2": "232.2",
+        "t3": "256.8",
+        "t4": "286.8",
+        "inter": "657000.0",
+        "Ed_a": "0.44"
     },
     "Title": "Capacitance Transient Spectroscopy",
     "Measurement technique": "DLTS",

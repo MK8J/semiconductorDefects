@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "186.8",
-        "t2": "203.5",
-        "t3": "223.3",
-        "t4": "247.2",
-        "inter": "5420000.0",
-        "Ed_a": "0.418"
+        "t1": "186.5",
+        "t2": "203.0",
+        "t3": "222.7",
+        "t4": "246.3",
+        "inter": "6480000.0",
+        "Ed_a": "0.42"
     },
     "Title": "Impurities in silicon solar cells",
     "Measurement technique": "DLTS, SCP",

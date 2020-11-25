@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "219.8",
-        "t2": "242.5",
-        "t3": "270.0",
-        "t4": "304.4",
-        "inter": "126000.0",
-        "Ed_a": "0.427"
+        "t1": "219.3",
+        "t2": "241.7",
+        "t3": "268.9",
+        "t4": "302.5",
+        "inter": "159000.0",
+        "Ed_a": "0.43"
     },
     "Title": "Annealing and profile of interstitial iron in boron-doped silicon",
     "Measurement technique": "DLTS",

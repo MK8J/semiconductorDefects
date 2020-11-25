@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "102.7",
-        "t2": "111.5",
-        "t3": "121.9",
-        "t4": "134.4",
-        "inter": "50700000.0",
-        "Ed_a": "0.239"
+        "t1": "102.5",
+        "t2": "111.3",
+        "t3": "121.6",
+        "t4": "133.9",
+        "inter": "59800000.0",
+        "Ed_a": "0.24"
     },
     "Title": "Metal Impurities in Silicon-Device Fabrication",
     "Measurement technique": "review, DLTS",

@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "78.4",
-        "t2": "85.7",
-        "t3": "94.4",
-        "t4": "104.9",
-        "inter": "11900000.0",
-        "Ed_a": "0.169"
+        "t1": "78.3",
+        "t2": "85.5",
+        "t3": "94.1",
+        "t4": "104.5",
+        "inter": "14500000.0",
+        "Ed_a": "0.17"
     },
     "Title": "Electrical levels in nickel doped silicon",
     "Measurement technique": "DLTS-L",

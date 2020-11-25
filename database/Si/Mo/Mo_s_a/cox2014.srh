@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "123.1",
-        "t2": "135.1",
-        "t3": "149.5",
-        "t4": "167.2",
-        "inter": "1550000.0",
-        "Ed_a": "0.253"
+        "t1": "122.9",
+        "t2": "134.7",
+        "t3": "149.0",
+        "t4": "166.4",
+        "inter": "1910000.0",
+        "Ed_a": "0.255"
     },
     "Title": "Detection of a Molybdenum Acceptor Level in N-Type Silicon",
     "Measurement technique": "DLTS-Cr",

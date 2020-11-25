@@ -1,12 +1,12 @@
 {
     "linked": "Mo_i_d.srh",
     "DLTS_params": {
-        "t1": "140.2",
-        "t2": "153.4",
-        "t3": "169.2",
-        "t4": "188.5",
-        "inter": "2660000.0",
-        "Ed_a": "0.298"
+        "t1": "140.0",
+        "t2": "153.0",
+        "t3": "168.7",
+        "t4": "187.7",
+        "inter": "3240000.0",
+        "Ed_a": "0.3"
     },
     "Title": "Behavior of Molybdenum in Silicon Evaluated for Integrated Circuit Processing",
     "Measurement technique": "DLTS",

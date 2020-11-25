@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "248.9",
-        "t2": "268.6",
-        "t3": "291.6",
-        "t4": "318.8",
-        "inter": "79900000.0",
-        "Ed_a": "0.627"
+        "t1": "248.5",
+        "t2": "268.2",
+        "t3": "291.1",
+        "t4": "318.0",
+        "inter": "92000000.0",
+        "Ed_a": "0.629"
     },
     "Title": "Rhodium and iridium as deep impurities in silicon",
     "Measurement technique": "DLTS",

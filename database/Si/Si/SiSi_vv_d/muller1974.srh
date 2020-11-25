@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "132.7",
-        "t2": "146.6",
-        "t3": "163.6",
-        "t4": "184.8",
-        "inter": "231000.0",
-        "Ed_a": "0.253"
+        "t1": "132.3",
+        "t2": "146.1",
+        "t3": "162.8",
+        "t4": "183.7",
+        "inter": "294000.0",
+        "Ed_a": "0.255"
     },
     "Title": "Thermally stimulated current measurements on silicon junctions produced by implantation of low energy boron ions",
     "Measurement technique": "TS-I",

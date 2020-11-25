@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "69.0",
-        "t2": "75.4",
-        "t3": "83.1",
-        "t4": "92.3",
-        "inter": "16300000.0",
-        "Ed_a": "0.149"
+        "t1": "68.9",
+        "t2": "75.2",
+        "t3": "82.8",
+        "t4": "91.9",
+        "inter": "19700000.0",
+        "Ed_a": "0.15"
     },
     "Title": "Capacitance Transient Spectroscopy of Trace Contamination in Silicon",
     "Measurement technique": "DLTS",

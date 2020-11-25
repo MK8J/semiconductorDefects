@@ -1,12 +1,12 @@
 {
     "linked": "Mn_i_d.srh",
     "DLTS_params": {
-        "t1": "203.3",
-        "t2": "223.2",
-        "t3": "247.0",
-        "t4": "276.4",
-        "inter": "532000.0",
-        "Ed_a": "0.417"
+        "t1": "202.9",
+        "t2": "222.5",
+        "t3": "246.1",
+        "t4": "275.0",
+        "inter": "657000.0",
+        "Ed_a": "0.42"
     },
     "Title": "Eigensehaften der Dotierungsniveaus von Mangan und Vanadium in Silizium",
     "Measurement technique": "DLTS, TS-C",

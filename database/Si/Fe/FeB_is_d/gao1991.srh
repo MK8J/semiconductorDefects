@@ -1,10 +1,10 @@
 {
     "DLTS_params": {
-        "t1": "39.5",
-        "t2": "42.8",
-        "t3": "46.7",
-        "t4": "51.3",
-        "inter": "756000000.0",
+        "t1": "39.4",
+        "t2": "42.7",
+        "t3": "46.6",
+        "t4": "51.1",
+        "inter": "883000000.0",
         "Ed_a": "0.095"
     },
     "Title": "Annealing and profile of interstitial iron in boron-doped silicon",

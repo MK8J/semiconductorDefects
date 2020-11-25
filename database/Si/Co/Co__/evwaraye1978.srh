@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "222.0",
-        "t2": "244.0",
-        "t3": "270.7",
-        "t4": "303.7",
-        "inter": "284000.0",
-        "Ed_a": "0.447"
+        "t1": "221.5",
+        "t2": "243.3",
+        "t3": "269.7",
+        "t4": "302.0",
+        "inter": "353000.0",
+        "Ed_a": "0.45"
     },
     "Title": "Impurity states in cobalt-doped silicon",
     "Measurement technique": "DLTS",

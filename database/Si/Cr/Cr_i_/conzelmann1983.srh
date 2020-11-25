@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "78.2",
-        "t2": "84.3",
-        "t3": "91.5",
-        "t4": "99.9",
-        "inter": "1150000000.0",
-        "Ed_a": "0.199"
+        "t1": "78.1",
+        "t2": "84.2",
+        "t3": "91.3",
+        "t4": "99.6",
+        "inter": "1310000000.0",
+        "Ed_a": "0.2"
     },
     "Title": "Chromium and chromium-boron pairs in silicon",
     "Measurement technique": "DLTS, EPR, luminescence",

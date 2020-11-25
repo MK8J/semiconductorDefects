@@ -1,12 +1,12 @@
 {
     "linked": "CoH_-_.srh",
     "DLTS_params": {
-        "t1": "170.7",
-        "t2": "187.4",
-        "t3": "207.6",
-        "t4": "232.5",
-        "inter": "637000.0",
-        "Ed_a": "0.348"
+        "t1": "170.3",
+        "t2": "186.9",
+        "t3": "206.8",
+        "t4": "231.3",
+        "inter": "788000.0",
+        "Ed_a": "0.35"
     },
     "Title": "A re-examination of cobalt-related defects in n- and p-type silicon",
     "Measurement technique": "DLTS",

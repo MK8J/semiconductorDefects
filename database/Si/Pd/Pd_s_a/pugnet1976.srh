@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "98.7",
-        "t2": "108.5",
-        "t3": "120.4",
-        "t4": "135.0",
-        "inter": "1430000.0",
-        "Ed_a": "0.199"
+        "t1": "98.5",
+        "t2": "108.2",
+        "t3": "119.9",
+        "t4": "134.3",
+        "inter": "1770000.0",
+        "Ed_a": "0.2"
     },
     "Title": "Energy levels for platinum and palladium in silicon measured by the dark transient capacitance technique",
     "DOI": "10.1002/pssa.2210350215",

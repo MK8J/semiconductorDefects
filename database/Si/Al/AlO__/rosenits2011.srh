@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "221.9",
-        "t2": "244.5",
-        "t3": "271.9",
-        "t4": "305.8",
-        "inter": "169000.0",
-        "Ed_a": "0.437"
+        "t1": "221.4",
+        "t2": "243.7",
+        "t3": "270.7",
+        "t4": "304.1",
+        "inter": "212000.0",
+        "Ed_a": "0.44"
     },
     "Title": "Erratum on \u201cDetermining the defect parameters of the deep aluminum-related defect center in silicon\u201d",
     "Measurement technique": "DLTS, LS-I",

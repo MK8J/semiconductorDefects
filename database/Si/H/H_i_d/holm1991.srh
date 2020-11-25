@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "73.0",
-        "t2": "79.7",
-        "t3": "87.7",
-        "t4": "97.4",
-        "inter": "18200000.0",
-        "Ed_a": "0.159"
+        "t1": "72.9",
+        "t2": "79.5",
+        "t3": "87.4",
+        "t4": "97.0",
+        "inter": "21900000.0",
+        "Ed_a": "0.16"
     },
     "Title": "Deep state of hydrogen in crystalline silicon: Evidence for metastability",
     "Measurement technique": "DLTS",

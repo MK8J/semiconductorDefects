@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "81.4",
-        "t2": "89.7",
-        "t3": "99.8",
-        "t4": "112.4",
-        "inter": "1040000.0",
-        "Ed_a": "0.159"
+        "t1": "81.1",
+        "t2": "89.4",
+        "t3": "99.4",
+        "t4": "111.8",
+        "inter": "1310000.0",
+        "Ed_a": "0.16"
     },
     "Title": "Electrical activity of carbon-hydrogen centers in Si",
     "Measurement technique": "DLTS-L",

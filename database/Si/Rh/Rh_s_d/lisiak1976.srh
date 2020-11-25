@@ -1,12 +1,12 @@
 {
     "linked": "Rh_s_d.srh",
     "DLTS_params": {
-        "t1": "227.5",
-        "t2": "245.1",
-        "t3": "265.5",
-        "t4": "289.5",
-        "inter": "207000000.0",
-        "Ed_a": "0.588"
+        "t1": "227.2",
+        "t2": "244.7",
+        "t3": "265.0",
+        "t4": "288.8",
+        "inter": "237000000.0",
+        "Ed_a": "0.59"
     },
     "Title": "Rhodium and iridium as deep impurities in silicon",
     "Measurement technique": "DLTS, Hall",

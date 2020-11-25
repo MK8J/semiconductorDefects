@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "163.5",
-        "t2": "178.8",
-        "t3": "197.2",
-        "t4": "219.7",
-        "inter": "2000000.0",
-        "Ed_a": "0.348"
+        "t1": "163.2",
+        "t2": "178.4",
+        "t3": "196.6",
+        "t4": "218.7",
+        "inter": "2430000.0",
+        "Ed_a": "0.35"
     },
     "Title": "Isolated substitutional cobalt and Co-related complexes in silicon",
     "Measurement technique": "DLTS-L",

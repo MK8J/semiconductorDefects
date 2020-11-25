@@ -1,12 +1,12 @@
 {
     "linked": "Ag_s_a.srh",
     "DLTS_params": {
-        "t1": "339.1",
-        "t2": "378.4",
-        "t3": "427.6",
-        "t4": "490.7",
-        "inter": "4110.0",
-        "Ed_a": "0.584"
+        "t1": "337.9",
+        "t2": "376.7",
+        "t3": "424.9",
+        "t4": "486.2",
+        "inter": "5520.0",
+        "Ed_a": "0.59"
     },
     "Title": "Metal impurities in silicon-device fabrication",
     "Measurement technique": "review, DLTS",

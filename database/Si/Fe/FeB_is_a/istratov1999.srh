@@ -1,11 +1,11 @@
 {
     "DLTS_params": {
-        "t1": "97.9",
-        "t2": "105.3",
-        "t3": "113.8",
-        "t4": "123.8",
-        "inter": "2310000000.0",
-        "Ed_a": "0.259"
+        "t1": "97.8",
+        "t2": "105.1",
+        "t3": "113.6",
+        "t4": "123.6",
+        "inter": "2630000000.0",
+        "Ed_a": "0.26"
     },
     "Title": "Iron and its complexes in silicon",
     "Measurement technique": "DLTS, Hall, photoEPR, FTIR",
