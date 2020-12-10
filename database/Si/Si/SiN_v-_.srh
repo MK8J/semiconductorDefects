@@ -21,7 +21,7 @@ mullins2018:
     tp: 1 ms
     Rw: 0.02 s
   params:
-    Ed: Ec-0.18
+    Ed_h: Ec-0.18
     sigma_ea: 6e-17
     sigma_e: 1.2e-17
 
@@ -47,7 +47,7 @@ mullins2018_1:
     tp: 1 ms
     Rw: 0.02 s
   params:
-    Ed: Ec-0.34
+    Ed_h: Ec-0.34
     sigma_ea: 7e-17
     sigma_e: 1.7e-17
 
@@ -72,7 +72,7 @@ mullins2018_2:
     tp: 1 ms
     Rw: 0.05 s
   params:
-    Ed: Ev+0.22
+    Ed_h: Ev+0.22
     sigma_h: 1.2e-14
 
 mullins2018_3:
@@ -96,7 +96,7 @@ mullins2018_3:
     tp: 1 ms
     Rw: 0.05 s
   params:
-    Ed: Ev+0.48
+    Ed_h: Ev+0.48
     sigma_e: 2.3e-18
     sigma_h: 3.1e-14
 
@@ -146,5 +146,5 @@ mullins2018_5:
     tp: 1 ms
     Rw: 0.05 s
   params:
-    Ed: Ev+0.71
+    Ed_h: Ev+0.71
     sigma_h: 1e-15

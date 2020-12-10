@@ -121,7 +121,7 @@ mullins2018_4:
     tp: 1 ms
     Rw: 0.05 s
   params:
-    Ed_h: Ev+0.41
+    Ed: Ev+0.41
     sigma_e: 8.5e-19
     sigma_h: 7e-13
 
